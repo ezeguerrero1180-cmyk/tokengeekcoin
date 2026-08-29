@@ -1,0 +1,3 @@
+import type {Metadata} from "next";import {articles} from "../site-data";import {AdSlot,Footer,Header,StoryCard} from "../ui";
+export const metadata:Metadata={title:"Noticias",description:"Noticias y análisis de gaming, finanzas, tecnología, cómics y series.",alternates:{canonical:"/noticias"}};
+export default function Noticias(){return <><Header/><main className="page"><header className="page-intro"><p className="eyebrow">EDITORIAL</p><h1>Noticias del <em>multiverso digital.</em></h1><p>Análisis propios, fuentes identificadas y lenguaje claro.</p></header><div className="story-grid">{articles.map(a=><StoryCard key={a.slug} article={a}/>)}</div><AdSlot format="leaderboard"/></main><Footer/></>}

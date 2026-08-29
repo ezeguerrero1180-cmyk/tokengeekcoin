@@ -1,0 +1,3 @@
+"use client";import {useEffect} from "react";
+const PUBLISHER="ca-pub-2403075217116144";
+export default function AdsenseLoader(){useEffect(()=>{const load=()=>{if(localStorage.getItem("tgc-consent")!=="accepted"||document.querySelector("script[data-tgc-adsense]"))return;const script=document.createElement("script");script.async=true;script.crossOrigin="anonymous";script.dataset.tgcAdsense="active";script.src=`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${PUBLISHER}`;document.head.appendChild(script)};load();window.addEventListener("tgc-consent",load);return()=>window.removeEventListener("tgc-consent",load)},[]);return null}

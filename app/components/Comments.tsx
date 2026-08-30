@@ -47,7 +47,8 @@ function formatDate(value: string) {
 export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te pareció la nota?" }: CommentsProps) {
   const [comments, setComments] = useState<Comment[]>([]);
   const [loading, setLoading] = useState(true);
-  const [submitting, setSubmitting] = useState(false);
+  const [formState, setFormState] = useState<"editing" | "submitting" | "success">("editing");
+  const [formKey, setFormKey] = useState(0);
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
@@ -70,7 +71,7 @@ export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te
 
   async function submitComment(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    setSubmitting(true);
+    setFormState("submitting");
     setError("");
     setSuccess("");
 
@@ -94,13 +95,20 @@ export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te
       }
 
       setComments((current) => [result.comment as Comment, ...current]);
-      setSuccess("¡Gracias! Tu comentario ya está publicado.");
       form.reset();
+      setSuccess("¡Gracias! Tu comentario ya está publicado.");
+      setFormState("success");
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "No pudimos publicar el comentario.");
-    } finally {
-      setSubmitting(false);
+      setFormState("editing");
     }
+  }
+
+  function writeAnotherComment() {
+    setSuccess("");
+    setError("");
+    setFormKey((current) => current + 1);
+    setFormState("editing");
   }
 
   return (
@@ -114,7 +122,14 @@ export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te
       </div>
 
       <div className="comments-layout">
-        <form className="comment-form" onSubmit={submitComment}>
+        {formState === "success" ? (
+          <div className="comment-thanks" role="status" aria-live="polite">
+            <strong>¡Gracias por tu comentario!</strong>
+            <p>Ya quedó publicado. Cuando quieras, podés dejar otro.</p>
+            <button type="button" onClick={writeAnotherComment}>DEJAR OTRO COMENTARIO ↗</button>
+          </div>
+        ) : (
+        <form key={formKey} className="comment-form" onSubmit={submitComment}>
           <label htmlFor={`comment-name-${articleSlug}`}>TU NOMBRE</label>
           <input id={`comment-name-${articleSlug}`} name="authorName" type="text" minLength={2} maxLength={50} autoComplete="name" placeholder="Ej.: Eze Guerrero" required />
 
@@ -128,11 +143,12 @@ export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te
 
           <div className="comment-form-footer">
             <small>Máximo 750 caracteres. Publicá con respeto.</small>
-            <button type="submit" disabled={submitting}>{submitting ? "PUBLICANDO…" : "PUBLICAR COMENTARIO ↗"}</button>
+            <button type="submit" disabled={formState === "submitting"}>{formState === "submitting" ? "PUBLICANDO…" : "PUBLICAR COMENTARIO ↗"}</button>
           </div>
           {error && <p className="comment-message error" role="alert">{error}</p>}
           {success && <p className="comment-message success" role="status">{success}</p>}
         </form>
+        )}
 
         <div className="comments-feed" aria-live="polite">
           <div className="comments-count"><span>{String(comments.length).padStart(2, "0")}</span><p>{comments.length === 1 ? "COMENTARIO" : "COMENTARIOS"}</p></div>

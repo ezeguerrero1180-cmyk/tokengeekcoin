@@ -3,8 +3,8 @@ import vinext from "vinext";
 import { defineConfig } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 
-const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
-  "00000000-0000-4000-8000-000000000000";
+const TOKEN_GEEK_COMMENTS_DATABASE_ID =
+  "00a5941c-be35-4870-ade3-32522d38e211";
 
 const { d1, r2 } = hostingConfig;
 
@@ -18,8 +18,8 @@ const localBindingConfig = {
     ? [
         {
           binding: d1,
-          database_name: "site-creator-d1",
-          database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
+          database_name: "tokengeekcoin-comments",
+          database_id: TOKEN_GEEK_COMMENTS_DATABASE_ID,
         },
       ]
     : [],

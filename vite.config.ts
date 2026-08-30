@@ -14,6 +14,10 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
+  routes: [
+    { pattern: "www.tokengeekcoin.com", custom_domain: true },
+    { pattern: "tokengeekcoin.com/*", zone_name: "tokengeekcoin.com" },
+  ],
   d1_databases: d1
     ? [
         {

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleSeo from "../../components/ArticleSeo";
 import Comments from "../../components/Comments";
+import NexoPromo from "../../components/NexoPromo";
 import { articleByPath } from "../../seo";
 
 const articleUrl = "/gaming/bombazos-gamescom-2026";
@@ -166,7 +167,7 @@ export default function GamescomPage() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/noticias#gaming">Gaming</a><a href="/noticias">Noticias</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/noticias#gaming">Gaming</a><a href="/noticias">Noticias</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/noticias#gaming">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -210,6 +211,7 @@ export default function GamescomPage() {
           </ol>
         </section>
 
+        <NexoPromo placement="article" />
         <Comments articleSlug="bombazos-gamescom-2026" prompt="¿Cuál fue el anuncio que más te sorprendió?" placeholder="¿Geralt, Cloud, Marcus, Metro o una de las sorpresas?" />
 
         <footer className="article-sources">
@@ -220,4 +222,3 @@ export default function GamescomPage() {
     </main>
   );
 }
-

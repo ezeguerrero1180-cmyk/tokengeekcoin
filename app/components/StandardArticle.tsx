@@ -1,6 +1,7 @@
 import type { Article } from "../site-data";
 import { AdSlot, MobileMenu } from "../ui";
 import Comments from "../comments";
+import NexoPromo from "./NexoPromo";
 import SiteImage from "./SiteImage";
 
 type StandardArticleProps = {
@@ -42,6 +43,7 @@ export default function StandardArticle({ article, schema, published }: Standard
   const articleTheme = theme(article.category);
   const body = article.body.slice(1);
   const isToday = article.dateIso ? article.dateIso >= "2026-08-28" : false;
+  const showEditorialSourceBlock = !article.dateIso || article.dateIso < "2026-08-30";
   const imageSource = (index: number) => article.sources?.[index] ?? article.sources?.at(-1);
 
   return <main className={`article-page standard-article standard-${articleTheme}${isToday ? " standard-today" : ""}`}>
@@ -66,7 +68,6 @@ export default function StandardArticle({ article, schema, published }: Standard
 
       <div className="article-intro standard-article-intro">
         <p className="dropcap">{article.body[0]}</p>
-        <aside><span>EN ESTA NOTA</span><strong>{article.minutes} MIN · {shortCategory(article.category)}</strong><p>{article.dek}</p></aside>
       </div>
 
       {article.personalAngle && <blockquote className="standard-personal-angle"><span>// MI LECTURA PERSONAL</span><p>{article.personalAngle}</p></blockquote>}
@@ -74,7 +75,7 @@ export default function StandardArticle({ article, schema, published }: Standard
       <section className="games-list standard-story-list" aria-label="Desarrollo de la noticia">
         <article className="game-feature standard-lead-feature">
           <figure className="game-media"><SiteImage src={article.image} alt={article.imageAlt ?? article.title} width={1600} height={900} sizes="(max-width: 900px) 100vw, 50vw"/><span>01</span>{imageSource(0) && <figcaption className="image-credit"><a href={imageSource(0)!.url} target="_blank" rel="noopener noreferrer">Imagen: {imageSource(0)!.name} ↗</a></figcaption>}</figure>
-          <div className="game-content standard-surface-dark">
+          <div className="game-content standard-surface-dark standard-dark-panel">
             <p className="kicker">// {article.leadEyebrow ?? "EL ANÁLISIS"}</p>
             <h2>{article.leadTitle ?? "Lo que tenés que saber"}</h2>
             <div className="game-facts"><span><small>CATEGORÍA</small>{shortCategory(article.category)}</span><span><small>LECTURA</small>{article.minutes} MIN</span><span><small>PUBLICADO</small>{article.date}</span></div>
@@ -85,19 +86,16 @@ export default function StandardArticle({ article, schema, published }: Standard
 
         {article.features?.map((feature, index) => <article className="game-feature standard-feature" key={feature.title}>
           <figure className="game-media"><SiteImage src={feature.image} alt={feature.alt} width={1600} height={900} sizes="(max-width: 900px) 100vw, 50vw"/><span>{String(index + 2).padStart(2, "0")}</span>{imageSource(index + 1) && <figcaption className="image-credit"><a href={imageSource(index + 1)!.url} target="_blank" rel="noopener noreferrer">Imagen: {imageSource(index + 1)!.name} ↗</a></figcaption>}</figure>
-          <div className={`game-content ${index % 2 === 0 ? "standard-surface-light" : "standard-surface-dark"}`}><p className="kicker">// {feature.eyebrow}</p><h2>{feature.title}</h2><div className="standard-feature-facts">{feature.facts}</div>{feature.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
+          <div className={`game-content ${index % 2 === 0 ? "standard-surface-light" : "standard-surface-dark standard-dark-panel"}`}><p className="kicker">// {feature.eyebrow}</p><h2>{feature.title}</h2><div className="standard-feature-facts">{feature.facts}</div>{feature.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
         </article>)}
       </section>
 
-      {article.affiliate && <aside className="standard-referral" aria-label="Enlace de referido">
-        <div><p className="kicker">// ENLACE DE REFERIDO · TRANSPARENCIA</p><h2>{article.affiliate.title}</h2><p>{article.affiliate.copy}</p><a href={article.affiliate.url} target="_blank" rel="sponsored noopener noreferrer">Abrir Nexo ↗</a><small>TokenGeekCoin puede recibir un beneficio si te registrás mediante este enlace, sin costo adicional para vos. No constituye recomendación financiera.</small></div>
-        <a href={article.affiliate.url} target="_blank" rel="sponsored noopener noreferrer"><img src={article.affiliate.image} alt="Código QR del enlace de referido" loading="lazy"/></a>
-      </aside>}
+      <NexoPromo placement="article" />
 
       <Comments slug={article.slug} />
 
       <footer className="article-sources standard-article-footer">
-        <div><p>Contenido editorial de TokenGeekCoin. Verificá precios, disponibilidad y condiciones antes de tomar decisiones financieras o de compra.</p>{article.sources && !article.hideSources && <p>{article.sources.map((source, index) => <span key={source.url}>{index > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>)}</p>}</div>
+        <div><p>Contenido editorial de TokenGeekCoin. Verificá precios, disponibilidad y condiciones antes de tomar decisiones financieras o de compra.</p>{showEditorialSourceBlock && article.sources && !article.hideSources && <p>{article.sources.map((source, index) => <span key={`${source.url}-${index}`}>{index > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>)}</p>}</div>
         <a href={backPath}>VOLVER A {shortCategory(article.category)} ↗</a>
       </footer>
     </article>

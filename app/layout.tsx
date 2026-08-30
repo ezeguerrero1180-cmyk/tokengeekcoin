@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   alternates:{canonical:"/",types:{"application/rss+xml":"/feed.xml"}},
   openGraph:{title:"TokenGeekCoin — Gaming, finanzas y cultura geek",description:"Noticias, ofertas y comparadores para vivir el multiverso digital con criterio.",url:"/",siteName:"TokenGeekCoin",locale:"es_AR",type:"website",images:[{url:"/og.jpg",width:1200,height:630,alt:"TokenGeekCoin — Gaming, finanzas, tecnología y cultura geek"}]},
   twitter:{card:"summary_large_image",title:"TokenGeekCoin",description:"Gaming, inversiones, tecnología y cultura geek desde Jujuy.",images:["/og.jpg"]},
-  icons:{icon:"/favicon.svg",shortcut:"/favicon.svg"},
+  icons:{icon:[{url:"/tab-icon.png",type:"image/png"}],shortcut:"/tab-icon.png",apple:"/tab-icon.png"},
   other:{"google-adsense-account":"ca-pub-2403075217116144"}
 };
 

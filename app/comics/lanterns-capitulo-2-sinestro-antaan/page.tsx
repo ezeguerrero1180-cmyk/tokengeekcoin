@@ -35,7 +35,7 @@ export default function LanternsEpisodeTwoReview() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -129,8 +129,6 @@ export default function LanternsEpisodeTwoReview() {
           </div>
         </section>
 
-        <NexoPromo placement="article" />
-
         <section className="lanterns-related" aria-label="Artículo relacionado">
           <a href="/comics/lanterns-primer-episodio-ritmo-lento">
             <span>ANTES DE ESTE CAPÍTULO</span>
@@ -139,6 +137,7 @@ export default function LanternsEpisodeTwoReview() {
           </a>
         </section>
 
+        <NexoPromo placement="article" />
         <Comments
           articleSlug="lanterns-capitulo-2-sinestro-antaan"
           prompt="¿Qué sentiste cuando apareció Sinestro? ¿Antaan terminará convirtiéndose en Atrocitus o será solo un paralelismo?"
@@ -153,4 +152,3 @@ export default function LanternsEpisodeTwoReview() {
     </main>
   );
 }
-

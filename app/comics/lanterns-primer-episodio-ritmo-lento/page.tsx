@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Comments from "../../components/Comments";
+import NexoPromo from "../../components/NexoPromo";
 import ArticleSeo from "../../components/ArticleSeo";
 import { articleByPath } from "../../seo";
 
@@ -34,7 +35,7 @@ export default function LanternsReview() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -128,6 +129,7 @@ export default function LanternsReview() {
           </div>
         </section>
 
+        <NexoPromo placement="article" />
         <Comments
           articleSlug="lanterns-primer-episodio-ritmo-lento"
           prompt="¿Qué te pareció el primer episodio? ¿La dupla tiene futuro o el anillo comenzó con poca batería?"
@@ -142,4 +144,3 @@ export default function LanternsReview() {
     </main>
   );
 }
-

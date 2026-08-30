@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Comments from "../../components/Comments";
+import NexoPromo from "../../components/NexoPromo";
 import ArticleSeo from "../../components/ArticleSeo";
 import { articleByPath } from "../../seo";
 
@@ -151,7 +152,7 @@ export default function SeptemberGamesPage() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/noticias#gaming">Gaming</a><a href="/#bitacora">Bitácora</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/noticias#gaming">Gaming</a><a href="/#bitacora">Bitácora</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/noticias#gaming">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -217,6 +218,7 @@ export default function SeptemberGamesPage() {
         </ol>
       </section>
 
+      <NexoPromo placement="article" />
       <Comments
         articleSlug="mejores-juegos-septiembre-2026"
         prompt="¿Cuál de estos cuatro juegos vas a jugar primero?"
@@ -253,4 +255,3 @@ export default function SeptemberGamesPage() {
     </main>
   );
 }
-

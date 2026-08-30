@@ -30,7 +30,7 @@ export default function GeekInvestorGuide() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -74,10 +74,9 @@ export default function GeekInvestorGuide() {
 
         <section className="guide-safety"><div><p className="kicker">// MODO SEGURO · ARGENTINA</p><h2>Antes de tocar <i>Start.</i></h2></div><ul><li>Mantené la reserva de emergencia separada, segura y disponible.</li><li>Verificá que el proveedor de servicios de activos virtuales figure en los registros de la CNV.</li><li>Entendé comisiones, custodia y recuperación de cuenta antes de transferir fondos.</li><li>No inviertas dinero destinado a gastos básicos ni asumas que cripto tiene garantía de depósitos.</li></ul><small>Contenido educativo. No constituye asesoramiento financiero, legal ni una recomendación de compra.</small></section>
 
-        <NexoPromo placement="article" />
-
         <section className="guide-related"><p className="kicker">// SEGUÍ LEYENDO</p><a href="/finanzas/bitcoin-bessent-reserva-federal"><span>FINANZAS + CRIPTO</span><strong>Bitcoin, Scott Bessent y la Reserva Federal</strong><Arrow /></a></section>
 
+        <NexoPromo placement="article" />
         <Comments articleSlug="guia-geek-inversionista-portafolio-crypto" prompt="¿Qué porcentaje de tu presupuesto geek destinarías a invertir?" placeholder="Contanos cómo organizarías tus cuatro cofres…" />
 
         <footer className="article-sources guide-sources"><p>Artículo adaptado del texto de Ezequiel Guerrero. Las proporciones son una plantilla orientativa y deben ajustarse a cada situación. Imágenes originales creadas para TokenGeekCoin.</p><div><a href="https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/" target="_blank" rel="noreferrer">CFPB <Arrow /></a><a href="https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging" target="_blank" rel="noreferrer">INVESTOR.GOV <Arrow /></a><a href="https://www.argentina.gob.ar/noticias/alerta-del-bcra-y-la-cnv-sobre-los-riesgos-e-implicancias-de-los-criptoactivos" target="_blank" rel="noreferrer">BCRA + CNV <Arrow /></a><a href="https://www.argentina.gob.ar/cnv/alertas-al-inversor" target="_blank" rel="noreferrer">CNV <Arrow /></a><a href="/">← INICIO</a></div></footer>
@@ -85,4 +84,3 @@ export default function GeekInvestorGuide() {
     </main>
   );
 }
-

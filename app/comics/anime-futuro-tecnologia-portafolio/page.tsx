@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Comments from "../../components/Comments";
+import NexoPromo from "../../components/NexoPromo";
 import ArticleSeo from "../../components/ArticleSeo";
 import { articleByPath } from "../../seo";
 
@@ -34,7 +35,7 @@ export default function AnimeTechnologyArticle() {
       <ArticleSeo article={seoArticle} />
       <header className="site-header article-header">
         <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
-        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/#sobre-mi">Sobre mí</a></nav>
+        <nav aria-label="Navegación principal"><a href="/#explorar">Explorar</a><a href="/#bitacora">Bitácora</a><a href="/autor/ezequiel-guerrero">Sobre mí</a></nav>
         <a className="header-cta" href="/">Volver <span aria-hidden="true">←</span></a>
       </header>
 
@@ -110,6 +111,7 @@ export default function AnimeTechnologyArticle() {
           <a href="/comics/lanterns-primer-episodio-ritmo-lento"><span>CÓMICS + SERIES</span><strong>Por qué Lanterns se siente tan lenta</strong><Arrow /></a>
         </section>
 
+        <NexoPromo placement="article" />
         <Comments articleSlug="anime-futuro-tecnologia-portafolio" prompt="¿Qué futuro creés que llegará primero: una IA con personalidad o los ciborgs?" placeholder="Contanos qué mundo anime ves más cerca…" />
 
         <footer className="article-sources anime-sources">
@@ -120,4 +122,3 @@ export default function AnimeTechnologyArticle() {
     </main>
   );
 }
-

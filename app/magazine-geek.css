@@ -223,6 +223,8 @@ footer:not(.article-sources) a:hover{color:var(--mg-acid)}
 .comments form,.comment-form{background:var(--mg-paper)!important;color:var(--mg-ink)!important;border:4px solid var(--mg-white)!important;box-shadow:10px 10px 0 var(--mg-orange)!important;padding:30px}
 .comments input,.comments textarea,.comment-form input,.comment-form textarea{border:3px solid var(--mg-ink)!important;border-radius:0!important;background:var(--mg-white)!important}
 .comments button,.comment-form button{background:var(--mg-orange)!important;color:var(--mg-ink)!important;border:3px solid var(--mg-ink)!important;box-shadow:5px 5px 0 var(--mg-acid)!important;font-family:var(--mg-mono)}
+.comment-feedback{display:none}.comment-feedback.success,.comment-feedback.sending,.comment-feedback.error{display:block}.comment-feedback.success{padding:18px 20px;border:3px solid var(--mg-ink);background:var(--mg-acid);box-shadow:6px 6px 0 var(--mg-purple);animation:commentThanks .48s cubic-bezier(.2,.9,.2,1) both}.comment-feedback.success strong{display:block;font-family:var(--mg-display);font-size:1.45rem;line-height:1;text-transform:uppercase}.comment-feedback.success p,.comment-feedback.sending p,.comment-feedback.error p{margin:7px 0 0!important}.comment-feedback.sending{padding:12px 0;font-family:var(--mg-mono);font-weight:800}.comment-feedback.error{padding:15px 18px;border-left:7px solid var(--mg-orange);background:#fff0ed}.comments form.comment-submitted{animation:commentFormReset .42s ease-out both}.comments button:disabled{cursor:wait;opacity:.72}@keyframes commentThanks{from{opacity:0;transform:translateY(-12px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}@keyframes commentFormReset{0%{box-shadow:10px 10px 0 var(--mg-orange)}50%{box-shadow:14px 14px 0 var(--mg-acid)}100%{box-shadow:10px 10px 0 var(--mg-orange)}}
+.comment-thanks{padding:30px;background:var(--mg-acid)!important;color:var(--mg-ink)!important;border:4px solid var(--mg-ink);box-shadow:10px 10px 0 var(--mg-purple);animation:commentThanks .48s cubic-bezier(.2,.9,.2,1) both}.comment-thanks :is(strong,p){color:var(--mg-ink)!important}.comment-thanks strong{display:block;font-family:var(--mg-display);font-size:clamp(1.7rem,3vw,2.7rem);line-height:1;text-transform:uppercase}.comment-thanks p{margin:12px 0 24px!important}.comment-thanks button{background:var(--mg-orange)!important;color:var(--mg-ink)!important;border:3px solid var(--mg-ink)!important;box-shadow:5px 5px 0 var(--mg-white)!important}
 .comment-list>article,.comments-feed li{border-color:#ffffff30;color:var(--mg-white)}
 .comments-feed li p{color:var(--mg-white)}
 .comment-avatar{background:var(--mg-purple)!important;color:var(--mg-white)}
@@ -330,6 +332,49 @@ footer:not(.article-sources) a:hover{color:var(--mg-acid)}
   .comments h2,.comments-heading h2{font-size:4rem!important}
   .comments-heading,.comments-layout{grid-template-columns:1fr}
   .legal{padding:65px 20px}
+}
+
+/* Superficie oscura editorial: contrato único para las publicaciones actuales
+   y futuras. Evita que reglas heredadas creen texto oscuro o placas claras. */
+.standard-article .standard-dark-panel{
+  background:var(--mg-ink)!important;
+  color:var(--mg-white)!important;
+}
+
+.standard-article .standard-dark-panel :is(h1,h2,h3,h4,p,li,a,small,time,strong,b,blockquote,label,em){
+  background:transparent!important;
+  color:var(--mg-white)!important;
+}
+
+.standard-article .standard-dark-panel>span,
+.standard-article .standard-dark-panel .kicker{
+  background:transparent!important;
+  color:var(--standard-accent,var(--mg-acid))!important;
+}
+
+.standard-article .standard-dark-panel .standard-feature-facts,
+.standard-article .standard-dark-panel .standard-feature-facts :is(span,strong,p,a){
+  background:var(--mg-acid)!important;
+  color:var(--mg-ink)!important;
+}
+
+/* La introducción también es una superficie clara: esta variante gana a su
+   regla general y mantiene el recuadro interior oscuro con texto legible. */
+.standard-article .standard-article-intro .standard-dark-panel :is(h1,h2,h3,h4,p,li,a,small,time,strong,b,blockquote,label,em){
+  background:transparent!important;
+  color:var(--mg-white)!important;
+}
+
+.standard-article .standard-article-intro .standard-dark-panel>span{
+  background:transparent!important;
+  color:var(--standard-accent,var(--mg-acid))!important;
+}
+
+/* El recuadro editorial oscuro se retira de todas las notas existentes y de
+   las futuras. Así no queda ninguna superficie negra de resumen que pueda
+   heredar un contraste equivocado. */
+.article-page .article-intro aside{
+  display:none!important;
 }
 
 /* Standard editorial: disposición base de "Mejores juegos de septiembre" */
@@ -636,4 +681,28 @@ footer:not(.article-sources) a:hover{color:var(--mg-acid)}
   .standard-article .standard-surface-light .standard-feature-facts :is(span,strong,p,a){
     color:var(--mg-white)!important;
   }
+}
+
+/* Autoridad final de contraste. Debe quedar al final para prevalecer sobre
+   las reglas históricas, incluso cuando se publique una nota nueva. */
+.standard-article .standard-dark-panel{
+  background:var(--mg-ink)!important;
+  color:var(--mg-white)!important;
+}
+
+.standard-article .standard-dark-panel :is(h1,h2,h3,h4,p,li,a,small,time,strong,b,blockquote,label,em){
+  background:transparent!important;
+  color:var(--mg-white)!important;
+}
+
+.standard-article .standard-dark-panel>span,
+.standard-article .standard-dark-panel .kicker{
+  background:transparent!important;
+  color:var(--standard-accent,var(--mg-acid))!important;
+}
+
+.standard-article .standard-dark-panel .standard-feature-facts,
+.standard-article .standard-dark-panel .standard-feature-facts :is(span,strong,p,a){
+  background:var(--mg-acid)!important;
+  color:var(--mg-ink)!important;
 }

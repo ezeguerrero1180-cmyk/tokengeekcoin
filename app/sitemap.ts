@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { articles } from "./site-data";
 
+// La fecha de portada acompaña cada tanda editorial publicada desde GitHub.
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.tokengeekcoin.com";
   return [

@@ -1,5 +1,262 @@
 export const dailyArticles = [
   {
+    slug: "gaming/pokemon-champions-actualizacion-megas-septiembre",
+    category: "GAMING",
+    date: "31 AGO 2026",
+    dateIso: "2026-08-31T08:30:00-03:00",
+    minutes: 8,
+    title: "Pokémon Champions rompe su propio meta el 9 de septiembre: tres Megas Z entran a la arena",
+    dek: "Mega Absol Z, Mega Lucario Z y Mega Garchomp Z llegan junto con Baxcalibur y Rillaboom. El plantel gana opciones; ahora falta comprobar si la variedad dura más que una semana de laboratorio competitivo.",
+    personalAngle: "Un juego competitivo se vuelve aburrido mucho antes de quedarse sin jugadores: alcanza con que cada combate empiece a parecer una repetición del anterior. Por eso esta actualización me interesa más por las combinaciones que puede abrir que por el brillo de tres transformaciones nuevas.",
+    leadEyebrow: "EL META RECIBE UN PARCHE DE EXPANSIÓN",
+    leadTitle: "Tres habilidades nuevas pueden obligar a reaprender emparejamientos",
+    image: "https://i.blogs.es/c11226/pokemon-champions-2/650_1200.jpeg",
+    imageAlt: "Combate de Pokémon Champions utilizado por 3DJuegos para presentar la actualización del 9 de septiembre",
+    body: [
+      "El Campeonato Mundial de Pokémon dejó una fecha concreta para quienes juegan Champions: el 9 de septiembre llegará una actualización con Mega Absol Z, Mega Lucario Z, Mega Garchomp Z, Baxcalibur y Rillaboom. No es una promesa lejana ni una filtración; es el siguiente cambio confirmado para el plantel competitivo.",
+      "Las habilidades anunciadas explican por qué la actualización puede mover el tablero. Mega Garchomp Z tendrá Levitación y será inmune a ataques de tipo Tierra. Mega Absol Z usará Cortante, que potencia los movimientos de corte. Mega Lucario Z recibirá Guardia Aural, nombre traducido del japonés, para reducir el daño de movimientos de contacto.",
+      "Mi primera reacción no es elegir al más vistoso, sino pensar en qué respuestas obliga a llevar. Una inmunidad nueva cambia turnos seguros; una reducción de daño físico puede arruinar cálculos aprendidos de memoria. Ahí aparece la parte linda del competitivo: el parche no entrega una solución, entrega preguntas.",
+      "También se confirmó que los Pokémon legendarios llegarán en otra actualización después del Campeonato Internacional de Latinoamérica de noviembre, con Mega Heatran entre las incorporaciones previstas. Ese anuncio merece una carpeta separada: todavía no tiene día concreto y no conviene mezclarlo con lo que sí llega en septiembre.",
+      "No voy a fingir una prueba que todavía no existe. Sobre el papel, esto es ESPERAR CON INTERÉS: gratis para quienes ya juegan, con potencial real para renovar equipos, pero sin garantía de equilibrio. El 9 de septiembre veremos si el meta se abre o simplemente cambia de dueño."
+    ],
+    features: [
+      {
+        title: "La variedad no se mide contando criaturas",
+        eyebrow: "MÁS OPCIONES, NO SOLO MÁS ICONOS",
+        facts: "3 MEGAS Z · BAXCALIBUR · RILLABOOM",
+        image: "https://d1lss44hh2trtw.cloudfront.net/assets/article/2026/04/09/pokmon-champions-overview-trailer-nintendo-switch-2-25-screenshot_feature.jpg",
+        alt: "Meganium dentro de la arena competitiva de Pokémon Champions en una captura publicada por Shacknews",
+        body: [
+          "Agregar cinco nombres sirve únicamente si varios equipos pueden responderles de maneras distintas. Si una Mega se vuelve obligatoria y todo gira alrededor suyo, el menú habrá crecido mientras la estrategia se achica. Yo miraría diversidad de equipos, frecuencia de uso y cantidad de partidas decididas desde la selección.",
+          "Baxcalibur y Rillaboom pueden ser tan importantes como las transformaciones que se llevan el póster. Los formatos competitivos suelen cambiar por sinergias discretas, no solamente por el personaje que ocupa la portada."
+        ]
+      },
+      {
+        title: "El verdadero parche empieza cuando juegan miles",
+        eyebrow: "DEL ESCENARIO AL SERVIDOR",
+        facts: "9 SEP · VGC · AJUSTES POR MEDIR",
+        image: "https://img.gamewith.jp/img/original_c7cec6993c90453655845569a1a627d3.jpg",
+        alt: "Gardevoir y Hydreigon enfrentándose en una partida de Pokémon Champions mostrada por GameWith",
+        body: [
+          "Una presentación puede explicar habilidades; solo la comunidad descubre todas las combinaciones incómodas. Durante los primeros días habrá equipos copiados, experimentos brillantes y bastante caos. Ese período vale más como laboratorio que como sentencia definitiva sobre el equilibrio.",
+          "Yo guardaría recursos hasta entender qué se mantiene después del entusiasmo inicial. ¿Qué incorporación te obliga a reconstruir primero tu equipo: Garchomp con Levitación, Lucario más resistente o Absol golpeando como una guillotina?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "3DJuegos — actualización de Pokémon Champions", url: "https://www.3djuegos.com/juegos/pokemon-champions/noticias/se-confirma-oficialmente-actualizacion-importante-historia-pokemon-champions-meses-quejas-hay-revolucion-a-vuelta-esquina/amp" },
+      { name: "Shacknews — captura de Pokémon Champions", url: "https://www.shacknews.com/article/148624/can-you-get-shiny-pokemon-in-pokemon-champions" },
+      { name: "GameWith — gameplay de Pokémon Champions", url: "https://gamewith.jp/gamedb/12973/articles/45868" },
+      { name: "Pokémon — sitio oficial de Champions", url: "https://champions.pokemon.com/" }
+    ]
+  },
+  {
+    slug: "finanzas/bitcoin-petroleo-iran-tasas-31-agosto",
+    category: "FINANZAS + CRIPTO",
+    date: "31 AGO 2026",
+    dateIso: "2026-08-31T08:20:00-03:00",
+    minutes: 9,
+    title: "Bitcoin termina agosto mirando al petróleo: USD 77.000 fue el susto, no toda la película",
+    dek: "BTC recuperó la zona de USD 78.700 después de un mínimo intradiario de USD 77.000. El crudo, Irán y las apuestas por otra suba de tasas explican el clima, pero no convierten una sesión en una tesis eterna.",
+    personalAngle: "Bitcoin quiere vestirse de refugio cuando el dinero tradicional se desordena, pero en días de petróleo caro suele recordar que también juega en el equipo de los activos de riesgo. Esa contradicción no me molesta: me parece una vacuna útil contra los relatos demasiado perfectos.",
+    leadEyebrow: "UNA VELA ROJA CON OLOR A CRUDO",
+    leadTitle: "El mercado mezcló guerra, inflación y tasas en la misma pantalla",
+    image: "https://content-media.investing.com/news/moved_LYNXMPEM7D101_L.jpg",
+    imageAlt: "Representación de Bitcoin utilizada por Investing.com en su cobertura del mercado del 31 de agosto",
+    body: [
+      "Bitcoin cayó hasta USD 77.000 durante la rueda del lunes y después se estabilizó cerca de USD 78.763, según la medición de Investing.com. El retroceso ocurrió mientras el Brent rondaba USD 91 y subía casi 6%, después de una nueva escalada militar entre Estados Unidos e Irán.",
+      "El vínculo no es un botón automático. Petróleo más caro alimenta expectativas de inflación; una inflación persistente reduce el margen para bajar tasas e incluso puede empujar nuevas subas. Con rendimientos elevados, el efectivo y los bonos compiten mejor contra los activos volátiles. Bitcoin recibe esa cadena de efectos, junto con flujos propios de cripto.",
+      "Kevin Warsh no prometió una suba en septiembre, pero su discurso fue leído como restrictivo. La probabilidad implícita de un aumento de 25 puntos básicos llegó a 60,4% en CME FedWatch. Es una expectativa de mercado, no una decisión tomada. La próxima ronda de empleo e inflación puede volver a cambiarla.",
+      "El dato que evita el dramatismo es mensual: aun con el tropiezo, BTC se encaminaba a cerrar agosto con una ganancia cercana al 24%. Ether rondaba una suba mensual del 30%, Solana del 40% y Cardano del 15%. Un día difícil puede convivir con un mes fuerte; elegir solo el recorte conveniente es una forma elegante de fabricar FOMO o pánico.",
+      "Mi regla hoy sería no perseguir ninguna de las dos emociones. Sin apalancamiento, con tamaño de posición tolerable y entendiendo que el riesgo geopolítico no respeta soportes dibujados. Esto es información general, no una recomendación personalizada."
+    ],
+    features: [
+      {
+        title: "El petróleo no maneja Bitcoin, pero puede cambiarle el clima",
+        eyebrow: "CORRELACIÓN CON CONTEXTO",
+        facts: "BRENT +5,8% · BTC 24/7 · INFLACIÓN",
+        image: "https://img.cryptoquant.com/563193/quicktake/mb6bw2R_c3063f57fad7f28e4da86a0b486db6c391e6013b8586aa073b36f922086d3e95.png",
+        alt: "Gráfico de CryptoQuant que compara Bitcoin con el petróleo Brent entre 2013 y 2026",
+        body: [
+          "El gráfico histórico ayuda a poner límites a una explicación rápida. Hubo momentos en que el petróleo y Bitcoin viajaron en direcciones opuestas y otros en que ambos respondieron al mismo shock global. No existe una relación fija capaz de predecir la próxima vela.",
+          "Lo útil es seguir el mecanismo: energía, inflación esperada, tasas reales, dólar y apetito por riesgo. Si esos eslabones no acompañan, culpar al crudo de cada movimiento es convertir una variable en villano de temporada."
+        ]
+      },
+      {
+        title: "El trimestre anterior ya había mostrado la divergencia",
+        eyebrow: "MATERIAL DE CONTEXTO, NO GRÁFICO DE HOY",
+        facts: "Q1 2026 · CRUDO ARRIBA · BTC ABAJO",
+        image: "https://assets.coingecko.com/coingecko/public/ckeditor_assets/pictures/102135070/content_2026-q1-btc-major-assets.webp",
+        alt: "Gráfico de CoinGecko sobre el rendimiento de Bitcoin, petróleo y otros activos durante el primer trimestre de 2026",
+        body: [
+          "CoinGecko registró en el primer trimestre una fuerte subida del crudo mientras Bitcoin quedaba rezagado. No prueba que esa relación deba repetirse; sirve para recordar que un shock energético puede repartir ganadores y perdedores de manera muy distinta.",
+          "La pregunta que dejo abierta no es dónde estará BTC mañana, sino qué factor estás usando para decidir: precio, liquidez, horizonte o un titular geopolítico. Si la respuesta cambia cada hora, quizá todavía no hay un plan."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Investing.com — mercado cripto del 31 de agosto", url: "https://es.investing.com/news/cryptocurrency-news/bitcoin-cae-por-debajo-de-los-78000-dolares-por-temores-a-tipos-de-interes-y-tension-con-iran-3815962" },
+      { name: "CryptoQuant — Bitcoin y petróleo", url: "https://cryptoquant.com/insights/quicktake/69adf047fb87d339fc902436" },
+      { name: "CoinGecko — informe cripto Q1 2026", url: "https://www.coingecko.com/research/publications/2026-q1-crypto-industry-report" },
+      { name: "CME FedWatch", url: "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" }
+    ]
+  },
+  {
+    slug: "finanzas/cronos-pausa-red-exploit-tectonic-75-millones",
+    category: "FINANZAS + CRIPTO",
+    date: "31 AGO 2026",
+    dateIso: "2026-08-31T08:10:00-03:00",
+    minutes: 9,
+    title: "Cronos frenó la cadena por Tectonic: USD 75 millones convierten la descentralización en una pregunta incómoda",
+    dek: "La red se detuvo después de un ataque de manipulación y préstamos sobre TONIC. La pausa limita el movimiento del atacante, pero abre otra discusión: quién puede apretar el botón y qué ocurre después.",
+    personalAngle: "Cuando una blockchain se detiene para contener un ataque, dos impulsos chocan de frente: agradecer que el daño no siga viajando y preguntar por qué una red supuestamente abierta tiene un freno de emergencia. Yo no descartaría ninguno; la respuesta seria necesita mirar seguridad y gobierno al mismo tiempo.",
+    leadEyebrow: "EL BOTÓN DE EMERGENCIA EXISTÍA",
+    leadTitle: "La pausa contuvo activos, pero no resolvió pérdidas ni responsabilidades",
+    image: "https://substackcdn.com/image/fetch/f_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff33e5d27-af2d-4a44-9dfb-2efff17e7116_1000x1000.png",
+    imageAlt: "Imagen oficial del lanzamiento de Cronos Mainnet publicada por Cronos Labs",
+    body: [
+      "Cronos detuvo su red después de detectar un exploit contra Tectonic, protocolo de préstamos del ecosistema. Al momento del informe no había causa ni pérdida confirmadas por los proyectos, pero el investigador Weilin Li estimó unos USD 75 millones bajo control del atacante.",
+      "La hipótesis pública describe una maniobra de bombeo y préstamo: el atacante habría aprovechado el factor de garantía del 20% de TONIC y su baja liquidez, multiplicando el precio del token antes de pedir prestados otros activos. Aproximadamente USD 6 millones habrían cruzado hacia Ethereum; la mayor parte quedó dentro de Cronos tras la pausa.",
+      "Conviene separar productos. Kris Marszalek, CEO de Crypto.com, dijo que la aplicación y el exchange no fueron afectados y que los fondos allí seguían seguros. Eso no equivale a decir que todos los usuarios de Tectonic están cubiertos. Protocolo, cadena y plataforma centralizada comparten marca y conexiones, pero no la misma superficie de riesgo.",
+      "La pausa puede impedir que el atacante mueva fondos mientras se investiga. También demuestra una capacidad de coordinación que exige transparencia: quién decidió, bajo qué reglas, cuántos validadores participaron y qué condiciones habilitan el reinicio. Si esa información queda en segundo plano, la palabra emergencia se vuelve demasiado cómoda.",
+      "No compraría ni vendería CRO por un titular aislado. Esperaría un informe técnico, el estado de los activos y un plan de compensación si corresponde. Información general: en DeFi, rendimiento y riesgo de contrato llegan en el mismo paquete aunque la interfaz muestre solo el porcentaje atractivo."
+    ],
+    features: [
+      {
+        title: "La arquitectura explica por qué un validador no está solo",
+        eyebrow: "CÓMO SE PROTEGE LA RED",
+        facts: "VALIDADORES · NODOS CENTINELA · COORDINACIÓN",
+        image: "https://whitepaper.cronos.org/~gitbook/image?dpr=4&quality=100&sign=30e099b1&sv=2&url=https%3A%2F%2Flh7-rt.googleusercontent.com%2Fdocsz%2FAD_4nXdtQyTWILpJid9W_-l67KAc0ytYz0-eWt3OTXZHAeoO2yDYrXz7_deK-sdU0yXVtx8YxR795MZ-bHliABrJA22M3rkuyeetqi2WmiN0DEuSmtgtU9mNm-v_SMisVP1fR4RTWYghog%3Fkey%3DchuMnfz0d-j75MQFUmNtCg&width=768",
+        alt: "Diagrama oficial del whitepaper de Cronos sobre validadores, nodos centinela y regiones de red",
+        body: [
+          "El whitepaper muestra validadores protegidos detrás de nodos centinela y conexiones regionales. Esa arquitectura busca disponibilidad y resistencia operativa. Una detención coordinada, sin embargo, pertenece a la capa de gobierno: no basta con que la red pueda frenar, hay que saber cómo se legitima la decisión.",
+          "La prueba importante llegará con la cronología completa. Cuánto tardaron en detectar, quién firmó la pausa, qué transacciones quedaron pendientes y qué controles cambiarán para evitar que el próximo atacante copie el manual."
+        ]
+      },
+      {
+        title: "Puentes y capas multiplican utilidad… y lugares para vigilar",
+        eyebrow: "EL MAPA COMPLETO DEL RIESGO",
+        facts: "EVM · zkEVM · IBC · PUENTES",
+        image: "https://docs-zkevm.cronos.org/~gitbook/image?dpr=4&quality=100&sign=689f8513&sv=2&url=https%3A%2F%2F3199918912-files.gitbook.io%2F~%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FuSKiKu5wNi55i329LvV2%252Fuploads%252FVrazXRaf2eivTCugjVA3%252F19706-1.jpg%3Falt%3Dmedia%26token%3D601eba61-2247-42cd-9003-1d392eab7386&width=768",
+        alt: "Diagrama oficial de Cronos zkEVM con Ethereum, Cronos EVM, POS Chain y conexiones IBC",
+        body: [
+          "Cronos conecta entornos EVM, zkEVM, Ethereum y Cosmos. Cada puente amplía posibilidades, pero también agrega contratos, operadores y supuestos. Que solo una parte haya sido atacada no vuelve irrelevante al resto; obliga a rastrear por dónde pueden moverse los activos.",
+          "Antes de volver a usar Tectonic, yo pediría una autopsia pública y verificable. ¿Te tranquiliza que una cadena pueda detenerse ante un exploit o te preocupa más la concentración que revela ese freno?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Cronos Labs — lanzamiento de Mainnet", url: "https://blog.cronos.org/p/cronos-mainnet-beta-is-now-live-def60afb5148" },
+      { name: "Cronos — whitepaper de arquitectura", url: "https://whitepaper.cronos.org/" },
+      { name: "Cronos zkEVM — documentación oficial", url: "https://docs-zkevm.cronos.org/getting-started/litepaper" },
+      { name: "Cointelegraph — exploit de Tectonic", url: "https://cointelegraph.com/news/what-happened-in-crypto-today" }
+    ]
+  },
+  {
+    slug: "tecnologia/google-play-android-16-api-36-plazo",
+    category: "TECNOLOGÍA + IA",
+    date: "31 AGO 2026",
+    dateIso: "2026-08-31T08:00:00-03:00",
+    minutes: 8,
+    title: "Google Play sube hoy la puerta a Android 16: API 36 ya no es una tarea para después",
+    dek: "Desde el 31 de agosto, las nuevas apps y actualizaciones deben apuntar a Android 16, con excepciones para Wear OS, Automotive, TV y XR. Para el usuario parece invisible; para un equipo atrasado puede ser una pared.",
+    personalAngle: "Las fechas de compatibilidad tienen el carisma de una pantalla de términos y condiciones, hasta que una actualización queda fuera de la tienda. Me gustan porque obligan a pagar deuda técnica; me preocupan porque los equipos chicos suelen pagarla con noches, no con presupuestos grandes.",
+    leadEyebrow: "EL CALENDARIO TAMBIÉN COMPILA",
+    leadTitle: "API 36 pasa de recomendación a requisito de publicación",
+    image: "https://developer.android.com/static/studio/preview/features/images/android-sdk-upgrade-assistant.png",
+    imageAlt: "Asistente oficial de Android Studio para actualizar el nivel de API objetivo de una aplicación",
+    body: [
+      "Google Play aplica desde hoy su requisito anual de nivel de API. Las apps nuevas y las actualizaciones para teléfonos y tablets deben apuntar a Android 16, API 36, o superior. Wear OS y Android Automotive quedan en API 35; Android TV y Android XR, en API 34.",
+      "Las aplicaciones existentes tienen otro umbral: deben apuntar al menos a Android 15, API 35, para seguir disponibles a nuevos usuarios con versiones de Android más recientes. Google permite solicitar una extensión hasta el 1 de noviembre de 2026 desde Play Console, pero no la concede por telepatía: el desarrollador tiene que pedirla.",
+      "Apuntar a una API nueva no significa abandonar automáticamente teléfonos antiguos. targetSdkVersion define el conjunto de comportamientos modernos que la app acepta; minSdkVersion sigue indicando la versión mínima en la que puede instalarse. Confundir ambas cosas genera pánico innecesario y migraciones peor planificadas.",
+      "El trabajo real está en los cambios de comportamiento. Android 16 puede modificar ventanas, permisos, seguridad, tareas en segundo plano y componentes visuales. Subir un número hasta que desaparezca la advertencia no es migrar: hay que compilar, probar flujos críticos y revisar bibliotecas que todavía esperan reglas antiguas.",
+      "Para una app comercial, esto es ALTA PRIORIDAD operativa, no una novedad para presumir. Primero actualizaría dependencias y entorno, después ejecutaría pruebas en API 36 y recién al final tocaría producción. El orden aburrido suele evitar el bug emocionante."
+    ],
+    features: [
+      {
+        title: "Android 16 cambia detalles que una captura no revela",
+        eyebrow: "PROBAR ANTES DE PUBLICAR",
+        facts: "PERMISOS · VENTANAS · SEGUNDO PLANO",
+        image: "https://ux-news.com/content/images/2025/03/Android_16_current_Settings_design_in_dark_2-1536w-830h.jpg.webp",
+        alt: "Pantallas de ajustes y opciones de desarrollador de Android 16 publicadas por UX News",
+        body: [
+          "Una interfaz puede verse igual y fallar en notificaciones, selección de fotos, Bluetooth o tareas programadas. Yo armaría una lista de recorridos reales: registro, compra, cámara, archivos, notificaciones, segundo plano y recuperación después de cerrar la app.",
+          "Los frameworks multiplataforma no eliminan la obligación. React Native, Flutter y otros agregan una capa que también debe ser compatible. Si el plugin clave no acompaña API 36, el problema aparece aunque el código de negocio no haya cambiado."
+        ]
+      },
+      {
+        title: "El asistente ayuda, pero no conoce a tus usuarios",
+        eyebrow: "HERRAMIENTA, NO PILOTO AUTOMÁTICO",
+        facts: "ANDROID STUDIO · SDK · PRUEBAS REALES",
+        image: "https://i.blogs.es/cd3055/updatesdk/650_1200.jpeg",
+        alt: "Vista del SDK Upgrade Assistant de Android Studio publicada por Xataka Android",
+        body: [
+          "SDK Upgrade Assistant ordena cambios por versión y reduce la búsqueda manual. No sabe qué permiso sostiene una función crítica, qué fabricante modifica el sistema ni qué parte de la app nunca recibió una prueba automática.",
+          "Mi cierre para equipos pequeños es simple: pedir la extensión si hace falta, pero usarla como red de seguridad y no como nueva fecha para procrastinar. ¿Tu app ya apunta a API 36 o hoy apareció el jefe final en Play Console?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Android Developers — SDK Upgrade Assistant", url: "https://developer.android.com/build/sdk-upgrade-assistant" },
+      { name: "UX News — cambios visuales de Android 16", url: "https://ux-news.com/google-is-testing-a-new-design-for-the-android-settings-app-2/" },
+      { name: "Xataka Android — asistente de actualización", url: "https://www.xatakandroid.com/programacion-android/android-studio-giraffe-2022-3-1-disponible-nuevo-diseno-live-edit-explorador-dispositivos" },
+      { name: "Google Play — requisitos de API objetivo", url: "https://support.google.com/googleplay/android-developer/answer/11926878" },
+      { name: "Android Developers — cambios de Android 16", url: "https://developer.android.com/about/versions/16/behavior-changes-16" }
+    ]
+  },
+  {
+    slug: "tecnologia/john-ternus-ceo-apple-tim-cook-transicion",
+    category: "TECNOLOGÍA + IA",
+    date: "31 AGO 2026",
+    dateIso: "2026-08-31T07:50:00-03:00",
+    minutes: 10,
+    title: "Apple cambia de capitán mañana: John Ternus recibe el iPhone, la IA atrasada y un imperio de USD 4 billones",
+    dek: "Tim Cook deja el cargo de CEO después de quince años y pasa a presidir el directorio. Ternus llega desde hardware; su desafío será demostrar que Apple puede integrar inteligencia artificial sin perder su obsesión por producto y privacidad.",
+    personalAngle: "Cambiar al CEO de Apple no se parece a reemplazar una pieza del iPhone: los productos que veremos durante años ya están en marcha. Por eso no espero un giro de guion el martes. Sí espero señales sobre qué problema considera urgente el nuevo capitán, y la IA ocupa el centro del tablero.",
+    leadEyebrow: "QUINCE AÑOS DESPUÉS",
+    leadTitle: "Cook se mueve al directorio; Ternus toma el control operativo",
+    image: "https://www.apple.com/newsroom/images/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/article/Apple-John-Ternus-Tim-Cook_Full-Bleed-Image.jpg.large.jpg",
+    imageAlt: "Tim Cook y John Ternus caminando juntos en Apple Park en una fotografía oficial de Apple",
+    body: [
+      "El 1 de septiembre, John Ternus asumirá como CEO de Apple y se incorporará al directorio. Tim Cook dejará la conducción diaria para convertirse en presidente ejecutivo del consejo, con participación en asuntos seleccionados y vínculos con responsables políticos. La sucesión fue aprobada por unanimidad y anunciada en abril.",
+      "Ternus lleva veinticinco años en Apple. Entró al equipo de diseño de producto en 2001, fue nombrado vicepresidente de Ingeniería de Hardware en 2013 y se incorporó al equipo ejecutivo en 2021. Supervisó generaciones de iPhone, iPad, Mac, Apple Watch y AirPods, además de fiabilidad, reparabilidad y materiales.",
+      "Ese currículum manda una señal: Apple eligió continuidad interna y pensamiento de producto, no una figura externa para declarar una revolución. Me parece coherente con una compañía cuya ventaja histórica aparece cuando hardware, software, chips y servicios terminan funcionando como una sola cosa.",
+      "El desafío incómodo es la inteligencia artificial. Apple se apoya en socios como Google y otros proveedores mientras intenta que Siri y Apple Intelligence alcancen una experiencia consistente en diferentes regiones e idiomas. Integrar tecnología externa sin diluir privacidad ni control será una prueba más grande que lanzar otra carcasa fina.",
+      "Cook deja números gigantes: la valoración de Apple creció más de 2.000% durante su gestión y superó los USD 4 billones; la empresa devolvió más de USD 1 billón a accionistas y amplió servicios, Watch, AirPods y silicio propio. Ese inventario también incluye presión regulatoria, dependencia industrial de China y expectativas de IA que no admiten otra temporada de avances incompletos."
+    ],
+    features: [
+      {
+        title: "Un ingeniero de hardware hereda una empresa que necesita cerebro",
+        eyebrow: "EL PERFIL DE TERNUS",
+        facts: "APPLE DESDE 2001 · HARDWARE · PRODUCTO",
+        image: "https://www.apple.com/newsroom/images/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/article/Apple-John-Ternus_inline.jpg.large.jpg",
+        alt: "Retrato oficial de John Ternus publicado por Apple al anunciar su nombramiento como próximo CEO",
+        body: [
+          "Ternus no necesita aprender cómo se fabrica un iPhone ni cómo se decide una transición de procesadores. Su aprendizaje será otro: equilibrar productos maduros, servicios, regulación y una carrera de IA donde los competidores iteran más rápido y explican menos.",
+          "Yo miraría sus primeras decisiones de organización antes que las frases de escenario. A quién pone al frente de Siri, cuánto poder entrega a socios y qué métricas usa para declarar que una función está lista dirán más que cualquier adjetivo sobre innovación."
+        ]
+      },
+      {
+        title: "La promesa de privacidad tendrá que sobrevivir a los socios",
+        eyebrow: "IA CON VARIOS MOTORES",
+        facts: "SIRI · APPLE INTELLIGENCE · PRIVACIDAD",
+        image: "https://www.apple.com/v/apple-intelligence/h/images/overview/visual-intelligence/visual_intelligence__b8tsp4ozhfbm_large.jpg",
+        alt: "Demostración oficial de Apple Visual Intelligence identificando información desde la cámara de un iPhone",
+        body: [
+          "Apple puede comprar capacidad y modelos; no puede tercerizar la confianza que construyó alrededor de sus dispositivos. Cada integración externa necesita límites claros de datos, procesamiento y disponibilidad. Si una función cambia según país, idioma o proveedor, la experiencia deja de sentirse como un único producto.",
+          "No espero que Ternus transforme Apple en una keynote. Espero prioridades verificables. ¿Preferís que acelere Siri aunque dependa más de Google, o que avance más lento para conservar mayor control propio?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Apple Newsroom — transición de liderazgo", url: "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/" },
+      { name: "Apple Newsroom — perfil y fotografía de John Ternus", url: "https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/" },
+      { name: "Apple — Apple Intelligence", url: "https://www.apple.com/apple-intelligence/" },
+      { name: "Reuters — Ternus sucede a Cook", url: "https://www.reuters.com/technology/john-ternus-become-apple-ceo-tim-cook-become-executive-chairman-2026-04-20/" },
+      { name: "Financial Times — legado de Tim Cook", url: "https://www.ft.com/content/886acdbf-7a9d-4af3-a2e7-3c4a2e446370" }
+    ]
+  },
+  {
     slug: "gaming/gamescom-2026-ganadores-cd-projekt-sega",
     category: "GAMING",
     date: "30 AGO 2026",

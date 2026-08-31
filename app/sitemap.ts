@@ -4,11 +4,11 @@ import { articles } from "./site-data";
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://www.tokengeekcoin.com";
   return [
-    { url: `${base}/`, lastModified: new Date("2026-08-30"), changeFrequency: "weekly", priority: 1 },
-    { url: `${base}/noticias`, lastModified: new Date("2026-08-30"), changeFrequency: "daily", priority: .9 },
-    { url: `${base}/tecnologia`, lastModified: new Date("2026-08-30"), changeFrequency: "daily", priority: .85 },
-    { url: `${base}/gaming`, lastModified: new Date("2026-08-30"), changeFrequency: "daily", priority: .85 },
-    { url: `${base}/finanzas`, lastModified: new Date("2026-08-30"), changeFrequency: "daily", priority: .85 },
+    { url: `${base}/`, lastModified: new Date("2026-08-31"), changeFrequency: "weekly", priority: 1 },
+    { url: `${base}/noticias`, lastModified: new Date("2026-08-31"), changeFrequency: "daily", priority: .9 },
+    { url: `${base}/tecnologia`, lastModified: new Date("2026-08-31"), changeFrequency: "daily", priority: .85 },
+    { url: `${base}/gaming`, lastModified: new Date("2026-08-31"), changeFrequency: "daily", priority: .85 },
+    { url: `${base}/finanzas`, lastModified: new Date("2026-08-31"), changeFrequency: "daily", priority: .85 },
     { url: `${base}/comics`, lastModified: new Date("2026-08-27"), changeFrequency: "daily", priority: .85 },
     { url: `${base}/ofertas`, lastModified: new Date("2026-08-25"), changeFrequency: "daily", priority: .8 },
     { url: `${base}/comparadores`, lastModified: new Date("2026-08-25"), changeFrequency: "weekly", priority: .8 },

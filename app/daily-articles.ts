@@ -250,7 +250,6 @@ export const dailyArticles = [
     ]
   },
   {
-  {
     slug: "gaming/pokemon-champions-actualizacion-megas-septiembre",
     category: "GAMING",
     date: "31 AGO 2026",

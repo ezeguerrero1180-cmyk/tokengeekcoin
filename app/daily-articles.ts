@@ -1,5 +1,256 @@
 export const dailyArticles = [
   {
+    slug: "gaming/playstation-doble-state-of-play-3-septiembre-2026",
+    category: "GAMING",
+    date: "1 SEP 2026",
+    dateIso: "2026-09-01T08:40:00-03:00",
+    minutes: 8,
+    title: "PlayStation prepara una doble función el 3 de septiembre: State of Play y Japón sin pausa",
+    dek: "Sony encadena dos transmisiones con anuncios de PlayStation Studios, socios externos y desarrolladores asiáticos. Final Fantasy VII Revelation cerrará el primer evento; el resto todavía merece más curiosidad que apuestas.",
+    personalAngle: "Los eventos de videojuegos me gustan más cuando llego con una lista corta de datos y ninguna quiniela de veinte casilleros. Sony confirmó dos emisiones consecutivas y un cierre concreto; con eso alcanza para entusiasmarse sin transformar cada silencio en la resurrección de nuestra saga favorita.",
+    leadEyebrow: "DOS EVENTOS, UNA SOLA MAÑANA",
+    leadTitle: "Sony vuelve con anuncios propios y después entrega el escenario a Asia",
+    image: "https://www.levelup.com/resizer/v2/state-of-play-WG6TDBGJTVAFHN5C2VECONHPEI.jpg?auth=ef946c2717824f61f08d0c758729ff5f1055a8ab01b1d4568cfa3ee1c1fa0253&focal=545%2C298&height=675&quality=70&width=1200",
+    imageAlt: "Gráfica azul del State of Play anunciado por PlayStation para el 3 de septiembre de 2026",
+    body: [
+      "PlayStation confirmó que el jueves 3 de septiembre emitirá un State of Play y, apenas termine, comenzará una edición especial dedicada a Japón y otros estudios de Asia. La primera transmisión arrancará a las 7:00 de Ciudad de México, las 10:00 de Argentina y las 15:00 de España peninsular, en los canales oficiales de YouTube y Twitch.",
+      "El programa principal incluirá anuncios de PlayStation Studios y novedades de compañías asociadas. Sony no entregó una lista completa ni prometió cada juego que circula por redes. Sí confirmó que Final Fantasy VII Revelation tendrá un nuevo tráiler y será la última presentación antes del cambio de evento.",
+      "Me parece una organización más honesta de lo habitual: una vidriera general y otra con identidad regional. También ayuda a ajustar expectativas. Que GTA VI sea el elefante de cada conversación no significa que vaya a aparecer; completar los huecos con deseos es el speedrun más rápido hacia la decepción.",
+      "Mi veredicto es ALTA PRIORIDAD para mirar el resumen o la transmisión si te interesan los lanzamientos de finales de 2026 y comienzos de 2027. El costo es cero y la diversión potencial es alta, aunque dos eventos seguidos siempre traen algún minuto de relleno con perfume corporativo."
+    ],
+    features: [
+      {
+        title: "Revelation es la única carta que ya está boca arriba",
+        eyebrow: "CONFIRMADO, NO DESEADO EN VOZ ALTA",
+        facts: "3 SEP · NUEVO TRÁILER · LANZAMIENTO EN 2027",
+        image: "https://www.levelup.com/resizer/v2/final-fantasy-vii-revelation-ELZGSCHHDZDN3LJVIWXGWZASEM.jpg?auth=56b59bb94962c9b5c5cb3ca6063f23fab9642fc718bad583d7522f5115bf2cb5&focal=652%2C440&height=900&quality=70&width=1200",
+        alt: "Escena promocional de Final Fantasy VII Revelation incluida en el anuncio del State of Play",
+        body: [
+          "Square Enix mostrará otro avance de Final Fantasy VII Revelation, previsto para 2027 en PS5 y otras plataformas. Que ocupe el cierre indica peso editorial, pero no confirma fecha exacta, demo ni precio. Esas tres casillas siguen vacías hasta que el tráiler diga lo contrario.",
+          "Yo espero algo más útil que una cinemática bonita: combate real, exploración y una pista sobre la escala del capítulo. Si solamente recibimos nostalgia en 4K, se verá precioso, pero el backlog no va a sentir ninguna amenaza inmediata."
+        ]
+      },
+      {
+        title: "State of Play Japan puede ser la parte menos predecible",
+        eyebrow: "OTRO TONO PARA EL SEGUNDO ACTO",
+        facts: "YUKI KAJI · JAPÓN Y ASIA · SIN LISTA CERRADA",
+        image: "https://www.levelup.com/resizer/v2/state-of-play-japan-5MA6APT4TRBGHMJC3DIUSPQT7U.jpg?auth=4c4bffd5ee88b97993b4725ebda750cc6ba0910f9c7c3d5bd56a6b4b64374cd9&focal=491%2C188&height=610&quality=70&width=1200",
+        alt: "Identidad visual roja del State of Play Japan que seguirá al programa principal",
+        body: [
+          "Yuki Kaji presentará el bloque asiático, todavía sin anuncios individuales publicados. Esa falta de nombres no es una licencia para inventar exclusivas: simplemente deja espacio para estudios que muchas veces quedan comprimidos en las galas globales.",
+          "Yo voy a mirar con el anotador abierto y el detector de humo apagado. ¿Qué preferís encontrar en esta doble función: una fecha que ordene el calendario o un juego nuevo capaz de desordenarlo por completo?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "LEVEL UP — doble State of Play del 3 de septiembre", url: "https://www.levelup.com/noticias/playstation-iniciara-septiembre-con-muchos-anuncios-pues-prepara-2-state-of-play-para-esta-semana-cuando-seran-y-que-ofreceran-los-eventos/" },
+      { name: "LEVEL UP — imagen de Final Fantasy VII Revelation", url: "https://www.levelup.com/noticias/playstation-iniciara-septiembre-con-muchos-anuncios-pues-prepara-2-state-of-play-para-esta-semana-cuando-seran-y-que-ofreceran-los-eventos/" },
+      { name: "LEVEL UP — imagen de State of Play Japan", url: "https://www.levelup.com/noticias/playstation-iniciara-septiembre-con-muchos-anuncios-pues-prepara-2-state-of-play-para-esta-semana-cuando-seran-y-que-ofreceran-los-eventos/" },
+      { name: "PlayStation Blog — anuncio oficial", url: "https://blog.playstation.com/" }
+    ]
+  },
+  {
+    slug: "finanzas/londres-kraken-acciones-tokenizadas-lse24-2027",
+    category: "FINANZAS + CRIPTO",
+    date: "1 SEP 2026",
+    dateIso: "2026-09-01T08:30:00-03:00",
+    minutes: 9,
+    title: "La Bolsa de Londres se asocia con Kraken para llevar acciones británicas tokenizadas a LSE 24",
+    dek: "LSEG y Payward preparan xStocks respaldadas por acciones reales para 2027, sujetas a aprobación regulatoria. Operar más horas suena moderno; entender qué derecho compra cada token sigue siendo lo verdaderamente importante.",
+    personalAngle: "La tokenización suele llegar disfrazada de teletransportador financiero: promete cruzar fronteras, horarios y mínimos de inversión de un salto. Me interesa cuando una bolsa regulada entra al laboratorio, pero no pienso confundir una interfaz abierta toda la noche con la desaparición del riesgo legal.",
+    leadEyebrow: "LA CITY QUIERE TURNO NOCTURNO",
+    leadTitle: "LSE 24 alojaría representaciones digitales de empresas británicas desde 2027",
+    image: "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1E661NCT1TRWRA3HD65CEX3/blockchainweek2020uk1-1.jpg",
+    imageAlt: "Edificio de la Bolsa de Londres usado para ilustrar su acuerdo de acciones tokenizadas con Payward",
+    body: [
+      "London Stock Exchange Group anunció una colaboración con Payward, la matriz de Kraken, para representar acciones británicas mediante tokens y ofrecerlas en LSE 24. El plan apunta a 2027 y depende de autorización regulatoria; todavía no es un producto disponible para comprar.",
+      "La propuesta contempla xStocks respaldadas uno a uno por acciones reales. Según LSEG, deberán conservar derechos, protecciones y normas de gobernanza propias de los mercados públicos. Eso separa el proyecto de muchos tokens sintéticos que imitan un precio sin convertir al usuario en accionista equivalente.",
+      "La narrativa favorable habla de acceso global, fracciones pequeñas, negociación extendida y liquidación más rápida. Los hechos de hoy son más modestos: existe el acuerdo, existe la infraestructura LSE 24 en desarrollo y existe una fecha objetivo. Faltan aprobación, catálogo definitivo, costos, jurisdicciones admitidas y reglas operativas completas.",
+      "Mi veredicto es ESPERAR CON INTERÉS. Puede ser una mejora de acceso, no una recomendación para comprar acciones tokenizadas. Antes de usar cualquier producto miraría custodio, derechos de voto y dividendos, posibilidad de canjear el token, protección ante insolvencia y quién resuelve una operación disputada."
+    ],
+    features: [
+      {
+        title: "Veinticuatro horas de acceso no crean veinticuatro horas de liquidez",
+        eyebrow: "EL HORARIO NO LLENA EL LIBRO",
+        facts: "24/5 · FRACCIONES · SUJETO A APROBACIÓN",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1E60QZ49FF0A6D7Q4HGC820/pasted-image-2496.png",
+        alt: "Gráfico de RWA.xyz sobre el valor total de acciones tokenizadas en cadena",
+        body: [
+          "LSE 24 funcionará entre lunes y viernes fuera del horario tradicional. Eso amplía la ventana, pero de madrugada puede haber menos compradores, diferencias mayores entre oferta y demanda y precios que reaccionen con brusquedad. El cartel de abierto no garantiza una salida cómoda.",
+          "La fracción barata también puede esconder costos pequeños repetidos: comisión, spread, conversión de moneda, blockchain y custodia. La tecnología reduce algunas fricciones; no firma un contrato para eliminar todas."
+        ]
+      },
+      {
+        title: "La regulación es parte del producto, no decoración del folleto",
+        eyebrow: "DERECHOS ANTES QUE PIXELES",
+        facts: "ACCIONES 1:1 · GOBERNANZA · RIESGO DE CONTRAPARTE",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/London%20Stock%20Exchange%20%2813056133013%29.jpg",
+        alt: "Edificio de la London Stock Exchange en Paternoster Square, Londres",
+        body: [
+          "La Federación Mundial de Bolsas ya advirtió que ciertos formatos tokenizados pueden confundir propiedad, mercado de referencia y protección del inversor. La promesa de LSEG es mantener la confianza del mercado regulado; habrá que comprobarla en los términos finales, no solamente en el comunicado.",
+          "No usaría esta noticia para perseguir un token relacionado con Kraken ni para anticipar ganadores. ¿Te atrae más poder comprar una fracción fuera de horario o te preocupa sumar otra capa entre vos y la acción real?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Cointelegraph — alianza LSE y Payward", url: "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks" },
+      { name: "RWA.xyz vía Cointelegraph — mercado tokenizado", url: "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks" },
+      { name: "Wikimedia Commons — London Stock Exchange", url: "https://commons.wikimedia.org/wiki/Category:London_Stock_Exchange" },
+      { name: "LSEG — anuncio oficial de LSE 24", url: "https://www.lseg.com/en/media-centre/press-releases/2026/london-stock-exchange-to-launch-lse-24" }
+    ]
+  },
+  {
+    slug: "finanzas/blackrock-flujos-etf-bitcoin-216-millones",
+    category: "FINANZAS + CRIPTO",
+    date: "1 SEP 2026",
+    dateIso: "2026-09-01T08:20:00-03:00",
+    minutes: 9,
+    title: "Los ETF de Bitcoin vuelven a recibir USD 216,7 millones, pero BlackRock explica casi todo el rebote",
+    dek: "IBIT aportó USD 205,9 millones del ingreso neto del lunes. Ether encadenó once sesiones positivas; XRP y Solana sumaron diez. La cifra luce fuerte hasta que uno mira cuán concentrada está.",
+    personalAngle: "Los flujos diarios de ETF son el equivalente financiero de mirar el contador de jugadores concurrentes: ayudan a medir actividad, pero no cuentan toda la historia del juego. Hoy el número verde importa; la letra pequeña importa más porque casi todo vino de una sola puerta.",
+    leadEyebrow: "VERDE, AUNQUE POCO REPARTIDO",
+    leadTitle: "IBIT convirtió una jornada de recuperación en una muestra de concentración",
+    image: "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DMR8D8Q7DJ0ETNYGBE2SEM/bitco-etf.png",
+    imageAlt: "Representación de Bitcoin frente a edificios financieros para ilustrar los flujos de ETF",
+    body: [
+      "Los ETF spot de Bitcoin cotizados en Estados Unidos registraron USD 216,7 millones de entradas netas el lunes, según SoSoValue. El dato revirtió los USD 201,8 millones de salidas del viernes, sesión que había cortado una racha de nueve ruedas positivas y más de USD 3.000 millones acumulados.",
+      "BlackRock hizo el trabajo pesado: IBIT recibió USD 205,9 millones, alrededor del 95% del total diario. Fidelity aportó USD 6,9 millones, Bitwise USD 4,3 millones y Morgan Stanley USD 3,6 millones. VanEck fue el único con salida neta, de USD 13,4 millones.",
+      "El hecho es una recuperación de flujos. La narrativa fácil sería declarar que las instituciones volvieron para quedarse. Una jornada no prueba eso, especialmente cuando un producto concentra casi todo el movimiento. Mañana el mismo canal puede quedarse quieto o girar de dirección.",
+      "Mi lectura es prudente: dato útil, señal incompleta. Los ETF simplifican el acceso a Bitcoin, pero conservan volatilidad, comisión de gestión, horario bursátil y dependencia del custodio. Esto es información general; no define una compra adecuada para una persona concreta."
+    ],
+    features: [
+      {
+        title: "Ether, XRP y Solana muestran una constancia diferente",
+        eyebrow: "RACHAS, NO GARANTÍAS",
+        facts: "ETH 11 RUEDAS · XRP 10 · SOL 10",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1DMF11DF7DGBA996YDVAVM6/pasted-image-673.jpeg",
+        alt: "Tabla de SoSoValue con flujos diarios de los ETF spot de Bitcoin en Estados Unidos",
+        body: [
+          "Los fondos de Ether sumaron USD 87,7 millones y alcanzaron once sesiones seguidas con entradas. Los de XRP y Solana completaron diez, aunque Solana bajó a apenas USD 925.010 desde USD 18,1 millones el viernes. Una racha puede continuar mientras pierde velocidad.",
+          "Por eso separo persistencia de magnitud. Diez números positivos hablan de demanda sostenida; no dicen que cada día sea más fuerte que el anterior ni que el precio deba responder de forma lineal."
+        ]
+      },
+      {
+        title: "El gráfico sirve mejor como termómetro que como volante",
+        eyebrow: "NO CONDUZCAS MIRANDO UNA SOLA AGUJA",
+        facts: "BTC CERCA DE USD 78.700 · FLUJOS DIARIOS · VOLATILIDAD",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1DMF6DHHH50E3M1SQGZ9HYZ/pasted-image-674.jpeg",
+        alt: "Desglose de Farside Investors con entradas y salidas por cada ETF spot de Bitcoin",
+        body: [
+          "Bitcoin cotizaba cerca de USD 78.700 durante la cobertura. Vincular automáticamente esa cotización con el flujo del día omite tasas, dólar, petróleo, derivados y operaciones fuera de los ETF estadounidenses. El mercado no tiene un único joystick.",
+          "Yo usaría la serie completa, no el titular aislado, y evitaría apalancamiento basado en una rueda. ¿Te parece más valiosa la entrada total o te preocupa que BlackRock explique casi todo el resultado?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Cointelegraph — recuperación de flujos ETF", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "SoSoValue vía Cointelegraph — flujo agregado", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "Farside Investors vía Cointelegraph — desglose por fondo", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "CoinGecko — precio de Bitcoin", url: "https://www.coingecko.com/en/coins/bitcoin" }
+    ]
+  },
+  {
+    slug: "tecnologia/galaxy-s26-ultra-privacy-display-prueba-limites",
+    category: "TECNOLOGÍA + IA",
+    date: "1 SEP 2026",
+    dateIso: "2026-09-01T08:10:00-03:00",
+    minutes: 10,
+    title: "Privacy Display del Galaxy S26 Ultra: la privacidad integrada cobra peaje en brillo y nitidez",
+    dek: "Tecnonauta probó la función estrella de Samsung y encontró una experiencia menos limpia que la promesa. La tecnología existe y se configura por app; sus límites visuales también existen.",
+    personalAngle: "Me encanta la idea de que el vecino del colectivo deje de leer mis mensajes como si hubiera pagado la suscripción familiar. Lo que no me entusiasma es proteger una conversación sacrificando la pantalla carísima que estoy mirando yo. La privacidad útil debería incomodar al curioso, no al dueño.",
+    leadEyebrow: "EL FILTRO YA VIVE DENTRO DEL PANEL",
+    leadTitle: "Samsung controla el ángulo de cada píxel, pero la física manda factura",
+    image: "https://image-stgus.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s26/MOB_PH_GS_S26_Use-Privacy-Display-on-Galaxy-S26-Ultra-for-enhanced-security.jpg",
+    imageAlt: "Dos Galaxy S26 Ultra mostrando la diferencia entre una conversación visible y Privacy Display activo",
+    body: [
+      "El Galaxy S26 Ultra incorpora Privacy Display mediante Flex Magic Pixel, una tecnología integrada en el panel que limita la luz hacia los costados. Puede activarse por completo, al ingresar credenciales, al abrir aplicaciones elegidas o cuando aparece una notificación.",
+      "Eso es realidad verificable y está documentado por Samsung. La experiencia observada por Tecnonauta agrega el matiz: al activar el modo baja el brillo, la imagen pierde definición y los colores pueden verse más lavados. Desde ciertos ángulos diagonales todavía puede quedar información visible.",
+      "Samsung también advierte que el modo de máxima protección puede desenfocar ligeramente o alterar colores, y recomienda apagarlo en exteriores si perjudica la visibilidad. No es un fallo secreto descubierto en una cueva: es el compromiso técnico de estrechar el ángulo de visión.",
+      "Mi veredicto es COMPRA INTELIGENTE únicamente si la función se usa por contexto, no encendida por religión. Ocultar el banco, el PIN o una notificación sensible tiene sentido. Castigar cada video y cada página durante todo el día convierte una herramienta precisa en una persiana permanente."
+    ],
+    features: [
+      {
+        title: "La automatización por aplicación es la mejor parte",
+        eyebrow: "PRIVACIDAD CUANDO HACE FALTA",
+        facts: "APPS · PIN · NOTIFICACIONES · MODO MÁXIMO",
+        image: "https://image-us.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s26/MOB_PH_GS_S26_Turn-on-or-off.jpg",
+        alt: "Menú de ajustes del Galaxy S26 Ultra con los interruptores de Privacy Display activados",
+        body: [
+          "El sistema permite elegir aplicaciones y condiciones, así que no obliga a aceptar el mismo compromiso todo el tiempo. Esa granularidad diferencia la propuesta de un film físico pegado al vidrio, que reduce el ángulo incluso cuando estás solo en casa.",
+          "Yo configuraría finanzas, gestores de contraseñas y notificaciones privadas. Para cámara, mapas o streaming lo dejaría apagado. La inteligencia no está en que el teléfono decida todo, sino en darle al usuario un interruptor que recuerde su contexto."
+        ]
+      },
+      {
+        title: "Privado no significa invisible desde cualquier planeta",
+        eyebrow: "LA PROMESA TIENE ÁNGULOS",
+        facts: "BRILLO · COLOR · VISIÓN DIAGONAL",
+        image: "https://image-us.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s26/MOB_PH_GS_S26_Customize-settings.jpg",
+        alt: "Dos Galaxy S26 Ultra mostrando opciones de personalización y ocultamiento de notificaciones",
+        body: [
+          "Samsung aclara que cierta información puede seguir viéndose según el ángulo y el brillo ambiental. Eso importa porque ninguna función debería reemplazar el hábito básico de no abrir datos críticos frente a una cámara o una persona ubicada justo detrás.",
+          "Realidad: la protección está integrada y funciona lateralmente. Expectativa: que sustituya toda precaución. Riesgo: creer la segunda frase y no la primera. ¿Preferís esta solución selectiva o un protector físico más simple aunque empeore siempre la pantalla?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Samsung Support — Privacy Display", url: "https://www.samsung.com/us/support/answer/ANS10010349/" },
+      { name: "Samsung Newsroom — explicación técnica", url: "https://news.samsung.com/us/share-your-terms-galaxy-s26-ultra" },
+      { name: "Samsung Support — personalización y límites", url: "https://www.samsung.com/levant/support/mobile-devices/how-to-use-privacy-display-on-the-samsung-galaxy-s26-ultra/" },
+      { name: "Tecnonauta — prueba y problemas del Galaxy S26 Ultra", url: "https://tecnonauta.com/articulos/samsung-galaxy-s26-ultra-privacy-display-problemas-fatiga-visual" }
+    ]
+  },
+  {
+    slug: "tecnologia/iphone-pixel-galaxy-camaras-viaje-2026",
+    category: "TECNOLOGÍA + IA",
+    date: "1 SEP 2026",
+    dateIso: "2026-09-01T08:00:00-03:00",
+    minutes: 10,
+    title: "iPhone, Pixel o Galaxy para viajar: la prueba de Tecnonauta no encontró una cámara invencible",
+    dek: "Fotos, video, zoom, noche y estabilización repartieron las victorias durante un viaje por Río e Iguazú. La IA ayuda a rescatar tomas, pero también puede convertir recuerdos en una pintura demasiado creativa.",
+    personalAngle: "Las comparativas de cámara suelen terminar como una pelea de barras de gimnasio: más megapíxeles, más zoom, más inteligencia artificial. Esta me interesa porque sacó los teléfonos de la mesa y los llevó de viaje, donde una lente sucia y una transición torpe arruinan más recuerdos que una tabla de especificaciones.",
+    leadEyebrow: "LA MEJOR CÁMARA CAMBIA DE DUEÑO",
+    leadTitle: "Apple gana equilibrio, Pixel defiende el color y Galaxy necesita domar su procesado",
+    image: "https://www.apple.com/v/iphone-17-pro/h/images/overview/cameras/intro/hero_camera__f42igewygpqy_xlarge.jpg",
+    imageAlt: "Módulo triple de cámaras del iPhone 17 Pro mostrado por Apple",
+    body: [
+      "Tecnonauta llevó iPhone 17 Pro Max, Google Pixel y dos generaciones de Galaxy S Ultra por Río de Janeiro y las Cataratas del Iguazú. No fue una medición de laboratorio ni una verdad universal; fue una prueba práctica con contraluz, selfies, caminatas, zoom y cambios rápidos entre lentes.",
+      "Su conclusión favorece al iPhone como conjunto equilibrado y especialmente en video. Pixel conservó una interpretación de color más natural en varias escenas y buenas selfies nocturnas, aunque sus archivos estándar y los saltos entre cámaras mostraron límites. Galaxy ofreció versatilidad, pero el procesado tendió a aplanar o reconstruir demasiado algunas tomas.",
+      "La realidad es que cada fabricante prioriza algo distinto. La expectativa peligrosa es creer que una etiqueta de IA corrige cualquier captura. El riesgo aparece cuando el software inventa detalle, borra una persona con artefactos o disimula un zoom que ya no contiene información óptica suficiente.",
+      "Mi veredicto es VALOR EXCEPCIONAL para conservar el teléfono que ya dominás antes que cambiar por una victoria mínima. Costo/Diversión: gastar más de mil dólares para mejorar una sola situación fotográfica tiene una relación floja; aprender estabilización, limpiar la lente y encuadrar mejor cuesta casi cero y mejora todas."
+    ],
+    features: [
+      {
+        title: "Pixel recuerda que una foto no termina en la pantalla del móvil",
+        eyebrow: "COLOR REAL, ARCHIVO LIMITADO",
+        facts: "NIGHT SIGHT · PRO ZOOM · PROCESADO",
+        image: "https://lh3.googleusercontent.com/4eCdYBynV4I1194pyzRKRJWOQkuqoyKufvl8m7sB4YqUZbSZeFyQPKVUE0PdekkAST92eDaGwJFt0yDbn2-KGY5zu608OeDQJERN%3Dw2880-h1652-rw-nu",
+        alt: "Ejemplo oficial de fotografía nocturna capturada con las funciones de cámara de Google Pixel",
+        body: [
+          "Una imagen puede verse fantástica en seis pulgadas y perder magia al ampliarla en un monitor. Tecnonauta observó ese contraste en archivos del Pixel: color convincente, pero menos margen de detalle en ciertas capturas estándar. Google, por su parte, promete sensores y software nuevos en Pixel 11; esa promesa debe evaluarse modelo por modelo.",
+          "No trasladaría automáticamente la experiencia de un teléfono a toda la marca. Compararía el archivo final que realmente voy a usar: una historia de Instagram, una foto familiar impresa o un video largo. Cada destino premia una fortaleza distinta."
+        ]
+      },
+      {
+        title: "La estabilización vale más que un zoom con tres dígitos",
+        eyebrow: "MENOS MARKETING, MÁS TOMA ÚTIL",
+        facts: "VIDEO · CAMBIO DE LENTE · CONTRALUZ",
+        image: "https://image-us.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s26/MOB_PH_GS_S26_Privacy-display-re-enables-automatically-4.jpg",
+        alt: "Galaxy S26 Ultra sostenido al aire libre, escenario donde brillo y cámara compiten con luz intensa",
+        body: [
+          "Caminar, girar y saltar entre cámaras expone costuras que una foto quieta no muestra. En esa prueba el iPhone mantuvo ventaja de video, mientras Pixel mostró transiciones menos fluidas. Galaxy puede acercar muchísimo, pero cuando la IA reinterpreta carteles deja de registrar y empieza a ilustrar.",
+          "Yo elegiría consistencia antes que el número más grande de la caja. ¿Qué te importa de verdad cuando viajás: que el video salga estable, que la noche conserve color o tener el zoom suficiente para descubrir qué está haciendo alguien en otra provincia?"
+        ]
+      }
+    ],
+    sources: [
+      { name: "Apple — sistema de cámaras del iPhone 17 Pro", url: "https://www.apple.com/iphone-17-pro/" },
+      { name: "Google — funciones oficiales de Pixel Camera", url: "https://store.google.com/us/magazine/pixel-camera-features" },
+      { name: "Samsung — Galaxy S26 Ultra en exteriores", url: "https://www.samsung.com/us/support/answer/ANS10010349/" },
+      { name: "Tecnonauta — comparativa de cámaras en viaje", url: "https://tecnonauta.com/articulos/galaxy-s-ultra-vs-iphone-17-pro-max-comparativa-camaras" }
+    ]
+  },
+  {
+  {
     slug: "gaming/pokemon-champions-actualizacion-megas-septiembre",
     category: "GAMING",
     date: "31 AGO 2026",

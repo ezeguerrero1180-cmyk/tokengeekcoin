@@ -1,22 +1,11 @@
 import vinext from "vinext";
 import { defineConfig } from "vite";
 
-const TOKEN_GEEK_COMMENTS_DATABASE_ID =
-  "00a5941c-be35-4870-ade3-32522d38e211";
-
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 
 const localBindingConfig = {
   main: "./worker/index.ts",
-  compatibility_flags: ["nodejs_compat"],
-  d1_databases: [
-    {
-      binding: "DB",
-      database_name: "tokengeekcoin-comments",
-      database_id: TOKEN_GEEK_COMMENTS_DATABASE_ID,
-    },
-  ],
 };
 
 export default defineConfig(async () => {

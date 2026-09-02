@@ -1,5 +1,58 @@
 export const dailyArticles = [
   {
+    slug: "comics/lanterns-capitulo-3-origen-john-stewart",
+    category: "CÓMICS + SERIES",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T10:30:00-03:00",
+    minutes: 9,
+    title: "Raíces esmeralda: el origen de John Stewart cambia Lanterns en su capítulo 3",
+    dek: "“OutKast” baja la velocidad para mirar la infancia, la familia y la disciplina de John. Los Guardianes ya lo observaban mucho antes del anillo, y esa revelación cambia su lugar en la serie.",
+    personalAngle: "Después del impacto de Sinestro y los Manhunters, esperaba que Lanterns siguiera acelerando. En cambio, el capítulo 3 frena, se sienta junto a John Stewart y pregunta qué tuvo que soportar para convertirse en el hombre que vemos. Perdemos algo de vértigo, pero ganamos un protagonista mucho más humano.",
+    leadEyebrow: "EL HÉROE ANTES DEL ANILLO",
+    leadTitle: "John Stewart no fue elegido por casualidad",
+    image: "/articles/lanterns-episode-3/john-guardian.webp",
+    imageAlt: "Aaron Pierre como John Stewart con uniforme militar en el capítulo 3 de Lanterns",
+    body: [
+      "Pasó otro domingo a la noche y, después de encender HBO a las 22:00, me quedé procesando un episodio que juega con expectativas bastante distintas. “OutKast” no intenta superar el golpe final del capítulo anterior con una amenaza más grande. Su apuesta es mirar hacia atrás: entender al chico que fue John Stewart antes de verlo como el Linterna Verde capaz de plantarse frente a cualquier oscuridad.",
+      "El episodio desarma la idea del militar con anillo y muestra de dónde vienen su rigidez, su capacidad analítica y ese sentido del deber que a veces parece una armadura. John creció aprendiendo que el talento no bastaba, que la fuerza necesitaba disciplina y que cada error podía tener un costo mucho mayor para él que para los demás. Aaron Pierre convierte ese peso en silencios, miradas y una incomodidad que se siente incluso cuando el personaje no explica lo que lleva encima.",
+      "La gran revelación es que su llegada al Green Lantern Corps no fue un accidente cósmico. La Guardiana interpretada por Laura Linney deja claro que John había sido observado y preparado desde mucho antes de recibir el anillo. La pieza decisiva dentro de la familia fue Bernadette, su madre: ella entiende que su hijo está siendo evaluado y convierte esa posibilidad en una formación exigente, casi implacable.",
+      "Eso cambia la lectura del héroe. La voluntad de John sigue siendo propia, pero ahora sabemos que alguien detectó ese potencial cuando todavía era un chico y que su familia vivió bajo la presión de un destino que no podía contar. No es una profecía que le regala grandeza; es una elección externa que atraviesa una casa, modifica una crianza y deja cicatrices.",
+      "Mi veredicto es 9/10. El ritmo vuelve a ser pausado y la investigación principal avanza menos de lo que me habría gustado, pero la construcción del personaje compensa esa quietud. Lanterns demuestra que su universo no necesita lanzar rayos verdes cada cinco minutos para sentirse enorme: a veces alcanza con descubrir que el Corps estuvo presente en la vida de John mucho antes de que él supiera mirar al cielo."
+    ],
+    features: [
+      {
+        title: "Una Guardiana convierte la elección en una deuda",
+        eyebrow: "LA VOLUNTAD TAMBIÉN SE ENTRENA",
+        facts: "LAURA LINNEY · GUARDIANES · DESTINO BAJO SOSPECHA",
+        image: "/articles/lanterns-episode-3/guardian.webp",
+        alt: "Laura Linney como una Guardiana del Universo en el episodio OutKast de Lanterns",
+        body: [
+          "La aparición de Laura Linney funciona porque no llega como una enciclopedia de Oa. Su presencia es serena, pero también inquietante: observa a John como si fuera el resultado de un experimento muy largo y obliga a preguntarse cuánto derecho tenían los Guardianes a intervenir en una vida humana sin explicar las reglas.",
+          "Ahí aparece uno de los temas que más me interesan de Green Lantern. El anillo puede ser un símbolo de esperanza, pero detrás existe una institución antigua que selecciona, vigila y decide quién merece cargarlo. John no recibe solamente poder; hereda una relación con autoridades que sabían más sobre él que él mismo."
+        ]
+      },
+      {
+        title: "La familia explica al soldado sin reducirlo al uniforme",
+        eyebrow: "BERNADETTE VIO PRIMERO EL POTENCIAL",
+        facts: "INFANCIA · FAMILIA · DISCIPLINA",
+        image: "/articles/lanterns-episode-3/john-family.webp",
+        alt: "Los padres de John Stewart durante un recuerdo familiar del capítulo 3 de Lanterns",
+        body: [
+          "Los recuerdos familiares son la mejor parte del episodio porque no buscan fabricar una infancia perfecta. La disciplina que ayuda a John a sobrevivir también lo endurece. Bernadette empuja su entrenamiento porque conoce el interés de la Guardiana, mientras su padre procesa ese mundo desde otro lugar. En esa diferencia nace buena parte de la tensión de la casa.",
+          "La serie hace bien en no presentar la voluntad como ausencia de miedo. John aprende a avanzar con presión, dolor y dudas encima. Para mí, esa es una definición mucho más poderosa del personaje que cualquier discurso sobre alguien que no teme a nada.",
+          "Los nuevos episodios se emiten los domingos a las 22:00, hora de Argentina, por HBO y HBO Max. Después de este viaje al pasado quiero volver a Rushville, pero ya no voy a mirar igual cada decisión de John: ahora sabemos que detrás del anillo hay una historia que comenzó sin pedirle permiso."
+        ]
+      }
+    ],
+    sources: [
+      { name: "HBO / John Johnson — John Stewart", url: "https://press.wbd.com/us/image/lan103051325jj0069r" },
+      { name: "HBO / John Johnson — la Guardiana", url: "https://press.wbd.com/us/image/lan103051425jj0021r?language_content_entity=en" },
+      { name: "HBO — galería oficial del episodio 3", url: "https://press.wbd.com/us/property/lanterns/images" },
+      { name: "HBO Max — Lanterns, episodio 3: OutKast", url: "https://www.hbomax.com/sr/en/show/8c11d041-6b71-4e54-8369-fdb310e063b8/s1/e3-outkast/17f1723c-4ac5-4b24-885a-7526b1db0bd9" },
+      { name: "Variety — Aaron Pierre explica el pasado de John", url: "https://variety.com/2026/tv/features/lanterns-aaron-pierre-john-backstory-episode-green-lantern-1236838632/" }
+    ]
+  },
+  {
     slug: "gaming/moonlighter-2-version-1-llega-hoy",
     category: "GAMING",
     date: "2 SEP 2026",

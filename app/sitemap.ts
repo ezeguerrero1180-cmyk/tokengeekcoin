@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/tecnologia`, lastModified: new Date("2026-09-02"), changeFrequency: "daily", priority: .85 },
     { url: `${base}/gaming`, lastModified: new Date("2026-09-02"), changeFrequency: "daily", priority: .85 },
     { url: `${base}/finanzas`, lastModified: new Date("2026-09-02"), changeFrequency: "daily", priority: .85 },
-    { url: `${base}/comics`, lastModified: new Date("2026-08-27"), changeFrequency: "daily", priority: .85 },
+    { url: `${base}/comics`, lastModified: new Date("2026-09-02"), changeFrequency: "daily", priority: .85 },
     { url: `${base}/ofertas`, lastModified: new Date("2026-08-25"), changeFrequency: "daily", priority: .8 },
     { url: `${base}/comparadores`, lastModified: new Date("2026-08-25"), changeFrequency: "weekly", priority: .8 },
     { url: `${base}/autor/ezequiel-guerrero`, lastModified: new Date("2026-08-25"), changeFrequency: "monthly", priority: .6 },

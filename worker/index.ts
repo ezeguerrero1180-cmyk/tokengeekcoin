@@ -34,6 +34,13 @@ const worker = {
       return Response.redirect(url.toString(), 301);
     }
 
+    // Vinext emits its browser bundle under this directory. Serve those
+    // immutable files directly from the Workers static-assets binding so a
+    // page navigation can never turn a CSS or JavaScript request into a 404.
+    if (url.pathname.startsWith("/_next/static/")) {
+      return env.ASSETS.fetch(request);
+    }
+
     if (url.pathname === "/_vinext/image") {
       const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
       return handleImageOptimization(request, {

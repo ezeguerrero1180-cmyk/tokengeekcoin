@@ -1,5 +1,250 @@
 export const dailyArticles = [
   {
+    slug: "gaming/moonlighter-2-version-1-llega-hoy",
+    category: "GAMING",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T09:00:00-03:00",
+    minutes: 9,
+    title: "Moonlighter 2 sale del acceso anticipado: hoy la tienda vuelve a abrir de verdad",
+    dek: "The Endless Vault llega a su versión 1.0 este 2 de septiembre. Digital Sun conserva el ciclo de explorar, ordenar el botín y venderlo, pero ahora el negocio viene con más mundos, jefes y decisiones.",
+    personalAngle: "Moonlighter siempre me pareció uno de esos juegos que explican una obsesión bastante geek: no alcanza con encontrar una espada brillante, también queremos saber cuánto vale, dónde entra en la mochila y si conviene venderla hoy o guardarla para mañana. La versión 1.0 de la secuela llega con esa fantasía de comerciante-aventurero más grande y, por fin, con la tranquilidad de no estar comprando una promesa a medio terminar.",
+    leadEyebrow: "LA PERSIANA SUBE PARA TODOS",
+    leadTitle: "Digital Sun termina el acceso anticipado y convierte la bóveda en un juego completo",
+    image: "https://newcdn.igromania.ru/articles/pics/tmp/images/2025/11/17/bdd00663-8adf-49da-9922-16929c966ce1.jpg",
+    imageAlt: "Will y otros aventureros frente a una bóveda luminosa en Moonlighter 2 The Endless Vault",
+    body: [
+      "Moonlighter 2: The Endless Vault abandona hoy, 2 de septiembre, el acceso anticipado en PC y también figura entre los lanzamientos del día para consolas. La página oficial de Steam confirma la fecha de salida de la versión completa y mantiene disponible una demo para quien prefiera tocar el género antes de abrir la billetera.",
+      "La estructura sigue siendo deliciosamente circular: entrar a dimensiones peligrosas, pelear, acomodar reliquias en una mochila con espacio limitado, volver al pueblo y poner precio a lo recuperado. Lo atractivo nunca fue sólo el combate; era esa transición entre héroe y comerciante, como si Zelda y una planilla de inventario hubieran decidido compartir departamento.",
+      "La versión completa amplía ambientes, enemigos, jefes, objetos, sistemas de tienda y la historia alrededor de Tresna y la Endless Vault. Eso no convierte automáticamente cada repetición en oro. Un roguelite vive o muere por el ritmo de sus recompensas, y ahí prefiero esperar la experiencia de la comunidad durante varios días antes de declarar que el balance quedó perfecto.",
+      "Si ya lo compraste en acceso anticipado, hoy es un buen momento para volver y revisar cuánto cambió. Si llegás por primera vez, la demo es la decisión más sensata: diez minutos de vender basura a precio de reliquia dicen más sobre tu compatibilidad con Moonlighter que cincuenta trailers." 
+    ],
+    features: [
+      {
+        title: "El inventario sigue siendo un rompecabezas antes que un depósito",
+        eyebrow: "BOTÍN CON TETRIS INCORPORADO",
+        facts: "VERSIÓN 1.0 · DEMO DISPONIBLE · PC Y CONSOLAS",
+        image: "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A240%2Ccw%3A1440%2Cch%3A1080%2Cq%3A80%2Cw%3A1440/aJ2qYbzrc3auRgUseFvLkR.jpg",
+        alt: "Will explorando una plataforma suspendida y un portal verde en Moonlighter 2",
+        body: [
+          "Cada objeto compite por un casillero y algunas reliquias modifican a las que tienen alrededor. Esa pequeña capa táctica obliga a pensar antes de levantar todo lo que brilla. Me gusta porque convierte el regreso al pueblo en una decisión y no en un simple viaje rápido con música de ascensor.",
+          "El riesgo es conocido: cuando la economía se desbalancea, la tienda deja de sentirse como un negocio y pasa a ser una pantalla obligatoria. La versión 1.0 tendrá que demostrar que vender y mejorar Tresna sigue siendo tan entretenido como golpear monstruos."
+        ]
+      },
+      {
+        title: "Comprar completo no significa comprar a ciegas",
+        eyebrow: "PRIMERO LA DEMO, DESPUÉS LA CAJA",
+        facts: "USD 29,99 · ACTION RPG · ROGUELITE",
+        image: "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2350790/header.jpg",
+        alt: "Arte oficial de Moonlighter 2 The Endless Vault en Steam",
+        body: [
+          "Steam muestra un precio base de 29,99 dólares, sujeto a impuestos y precios regionales. No es un monto menor para un indie, aunque la cantidad de sistemas y la rejugabilidad pueden justificarlo si el ciclo de saqueo y venta te atrapa.",
+          "Yo no lo mediría por horas prometidas sino por ganas de hacer una expedición más. Si la demo te deja mirando el reloj, esperá una oferta. Si te sorprende calculando márgenes como un mercader interdimensional, ya tenés la respuesta."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Steam — ficha y fecha de versión 1.0", url: "https://store.steampowered.com/app/2350790/Moonlighter_2_The_Endless_Vault/" },
+      { name: "Nintendo — lanzamientos de septiembre de 2026", url: "https://www.nintendo.com/en-gb/News/2026/September/Upcoming-games-September-2026-3181644.html" },
+      { name: "GamesRadar — imagen contextual de Moonlighter 2", url: "https://www.gamesradar.com/games/roguelike/moonlighter-2-the-endless-vault-review/" }
+    ]
+  },
+  {
+    slug: "finanzas/bitcoin-77000-bonos-etf-sin-palanca",
+    category: "FINANZAS + CRIPTO",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T08:50:00-03:00",
+    minutes: 10,
+    title: "Bitcoin aguanta cerca de USD 77.000 mientras los bonos y el petróleo le cambian el clima",
+    dek: "El mercado cripto retrocede frente a rendimientos soberanos más altos y nuevas tensiones energéticas. La palanca está contenida, pero los ETF de Bitcoin registraron una salida de USD 236 millones.",
+    personalAngle: "Hay mañanas en las que Bitcoin parece vivir en su propio planeta y otras en las que recuerda que comparte edificio con los bonos, el dólar y el petróleo. Hoy está en el segundo grupo: el precio resiste cerca de USD 77.000, pero el ascensor macroeconómico viene bajando con todas las luces rojas encendidas.",
+    leadEyebrow: "RESISTIR NO ES SUBIR",
+    leadTitle: "El precio contiene el golpe, aunque BlackRock concentró la salida de los ETF",
+    image: "https://www.tbstat.com/wp/uploads/2026/04/20260410_Bitcoin_News_2-1200x675.jpg",
+    imageAlt: "Representación de Bitcoin utilizada por The Block para ilustrar el mercado cripto",
+    body: [
+      "Bitcoin cotizó alrededor de USD 77.000 este miércoles mientras subían los rendimientos de bonos en Japón, Estados Unidos y Europa. Al mismo tiempo, el Brent superó los USD 95 por barril en medio de renovadas tensiones entre Estados Unidos e Irán. Para un activo sin rendimiento propio, tasas más altas suelen ser un viento de frente bastante poco poético.",
+      "El retroceso desde el máximo local se mantuvo dentro de un rango de aproximadamente USD 76.800 a USD 81.600 después de un salto de 23% en poco más de una semana. Eso explica por qué algunos analistas hablan de consolidación. Yo prefiero una traducción más sencilla: el mercado está respirando y todavía no decidió si lo hace antes de otro sprint o antes de sentarse.",
+      "Los futuros y perpetuos sumaban unos USD 38.600 millones de interés abierto, 1,8% menos en la semana, con tasas de financiación neutrales. Menos apalancamiento reduce el combustible de una liquidación en cadena, pero no elimina el riesgo de precio. Un mercado puede caer perfectamente sin pedir permiso a los traders apalancados.",
+      "Esta nota no es una señal de compra ni de venta. Si una cartera personal depende de acertar el próximo movimiento de 5%, la posición probablemente ya es demasiado grande. Bitcoin sigue siendo volátil incluso cuando el gráfico parece dormido." 
+    ],
+    features: [
+      {
+        title: "Los ETF devolvieron dinero después de una sola rueda verde",
+        eyebrow: "IBIT CARGÓ CON CASI TODO",
+        facts: "USD 236 M DE SALIDAS · IBIT USD 201 M · BITB +USD 8 M",
+        image: "https://cdn.sanity.io/images/s3y3vcno/production/2e7f7708703aa832a09975915095e15a92b84cc6-1394x852.png?auto=format",
+        alt: "Gráfico de CoinDesk sobre las salidas de los ETF spot de Bitcoin",
+        body: [
+          "Los ETF spot estadounidenses perdieron cerca de USD 236 millones netos. BlackRock IBIT explicó unos USD 201 millones y Fidelity FBTC otros USD 44 millones; Bitwise BITB fue la excepción con alrededor de USD 8 millones de entrada.",
+          "La concentración importa. No estamos viendo a todo el mercado institucional correr hacia la salida con la misma intensidad, sino un movimiento dominado por un fondo. Un día sirve como dato; una secuencia sirve como tendencia."
+        ]
+      },
+      {
+        title: "Menos palanca es una buena base, no un escudo mágico",
+        eyebrow: "EL MERCADO BAJÓ EL VOLUMEN",
+        facts: "OI USD 38.600 M · FUNDING NEUTRAL · RANGO ESTRECHO",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.svg",
+        alt: "Símbolo naranja de Bitcoin",
+        body: [
+          "El interés abierto más bajo y la financiación neutral describen un mercado menos recalentado que durante el salto anterior. Es saludable, pero no predictivo: tampoco obliga a que aparezcan compradores si empeora el contexto global.",
+          "Yo miraría tres pantallas y no una: precio, flujos de ETF y rendimientos de bonos. Cuando todas cuentan la misma historia, la señal gana fuerza. Hoy todavía están discutiendo entre ellas."
+        ]
+      }
+    ],
+    sources: [
+      { name: "The Block — Bitcoin, bonos y mercado de derivados", url: "https://www.theblock.co/news/markets/2026-09-02-bitcoin-hovers-near-77000-as-global-bond-selloff-tests-post-rally-resilience-413320" },
+      { name: "CoinDesk — flujos diarios de ETF de Bitcoin", url: "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow" },
+      { name: "CoinGecko — mercado de Bitcoin", url: "https://www.coingecko.com/en/coins/bitcoin" }
+    ]
+  },
+  {
+    slug: "finanzas/g20-reglas-claras-activos-digitales",
+    category: "FINANZAS + CRIPTO",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T08:40:00-03:00",
+    minutes: 9,
+    title: "El G20 promete caminos más claros para los activos digitales: ahora falta construirlos",
+    dek: "Ministros de Finanzas y bancos centrales reconocieron que los activos digitales pueden apoyar el crecimiento y pidieron marcos responsables. Las stablecoins y los pagos transfronterizos quedan en el centro del trabajo pendiente.",
+    personalAngle: "En cripto, la palabra claridad aparece tanto que ya debería cotizar como token. Esta vez viene del G20, y eso le da peso político; aun así, una declaración conjunta no es una ley ni una licencia para relajarse. Es el mapa de una obra que todavía tiene conos naranjas por todos lados.",
+    leadEyebrow: "DEL COMUNICADO A LA REGLA",
+    leadTitle: "Los reguladores aceptan la innovación, pero quieren estabilidad y coordinación fronteriza",
+    image: "https://www.tbstat.com/wp/uploads/2025/01/20250115_Tokens_News-1200x675.jpg",
+    imageAlt: "Tokens digitales ilustrando la discusión regulatoria del G20",
+    body: [
+      "Los ministros de Finanzas y gobernadores de bancos centrales del G20 acordaron avanzar con marcos regulatorios y de supervisión que preserven la estabilidad financiera, acompañen el crecimiento y establezcan caminos claros para una innovación responsable en activos digitales.",
+      "El texto de la presidencia, publicado después de una reunión de dos días en Asheville, Carolina del Norte, reconoce que la innovación financiera digital puede impulsar al sector privado. También pide considerar los desafíos transfronterizos. Ahí está la parte difícil: una stablecoin no se detiene en migraciones para preguntar qué norma nacional le toca.",
+      "El grupo espera nuevos trabajos del Financial Stability Board sobre stablecoins globales, fuentes de datos y riesgos de su circulación entre jurisdicciones. Además reafirmó la hoja de ruta para mejorar pagos internacionales y solicitó ampliar los horarios de los sistemas de grandes pagos.",
+      "Me interesa el cambio de tono: los activos digitales ya no aparecen únicamente como una anomalía que hay que encerrar, sino como infraestructura que puede ser útil si sus reglas son comprensibles. Pero no compraría ningún token por un párrafo diplomático. La distancia entre una intención y una regulación aplicable se mide en años, formularios y abogados." 
+    ],
+    features: [
+      {
+        title: "Las stablecoins son el examen más urgente",
+        eyebrow: "DINERO QUE CRUZA FRONTERAS EN SEGUNDOS",
+        facts: "FSB · DATOS · PAGOS INTERNACIONALES",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/G20.svg",
+        alt: "Logotipo institucional del Grupo de los Veinte",
+        body: [
+          "Una stablecoin global puede abaratar transferencias y liquidaciones, pero también concentra riesgos de reservas, rescate y supervisión. Si dos países interpretan de manera distinta el mismo token, el usuario descubre la frontera justo cuando algo sale mal.",
+          "La coordinación del G20 vale precisamente por eso. No garantiza una norma idéntica, pero puede acercar definiciones mínimas para emisores, custodios y plataformas."
+        ]
+      },
+      {
+        title: "Más horas de pago no solucionan una mala carretera",
+        eyebrow: "INFRAESTRUCTURA ANTES QUE ESLOGAN",
+        facts: "LIQUIDACIÓN · 24 HORAS · SUPERVISIÓN",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/United_States_Department_of_the_Treasury_building.jpg",
+        alt: "Edificio del Departamento del Tesoro de Estados Unidos",
+        body: [
+          "Extender los horarios de sistemas mayoristas puede reducir esperas entre zonas horarias, una mejora menos espectacular que lanzar una moneda pero probablemente más útil para empresas reales. La modernización financiera también ocurre en tuberías que nadie fotografía.",
+          "La prueba será concreta: licencias entendibles, reservas auditables, reclamos posibles y costos visibles. Cuando esas cuatro piezas existan, la palabra claridad dejará de ser decoración."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Tesoro de Estados Unidos — declaración de la presidencia del G20", url: "https://home.treasury.gov/news/press-releases" },
+      { name: "The Block — acuerdo del G20 sobre activos digitales", url: "https://www.theblock.co/news/regulation/2026-09-02-g20-finance-leaders-digital-assets-413310" },
+      { name: "Financial Stability Board — activos cripto y stablecoins", url: "https://www.fsb.org/work-of-the-fsb/financial-innovation-and-structural-change/crypto-assets-and-global-stablecoins/" }
+    ]
+  },
+  {
+    slug: "tecnologia/openai-astra-ciberseguridad-critica",
+    category: "TECNOLOGÍA + IA",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T08:30:00-03:00",
+    minutes: 11,
+    title: "Astra cruza el umbral crítico: la IA que encuentra fallas también obliga a cerrar puertas",
+    dek: "OpenAI clasificó por primera vez un modelo en el nivel crítico de capacidad cibernética. Astra logró crear cadenas de explotación y exige acceso limitado, monitoreo y barreras más fuertes antes de su lanzamiento.",
+    personalAngle: "Cada generación de IA trae una demo que parece magia. Astra trae algo menos cómodo: puede mirar software endurecido, encontrar una grieta desconocida y convertirla en una cadena de ataque. Es fascinante para defender sistemas y aterrador si uno olvida que la misma llave abre desde los dos lados.",
+    leadEyebrow: "LA CAPACIDAD CAMBIÓ DE CATEGORÍA",
+    leadTitle: "OpenAI activa salvaguardas que hasta ahora existían sólo en el protocolo",
+    image: "https://www.reuters.com/resizer/v2/7S6FP3TGIRJFHNQ72YC45F7NSQ.jpg?auth=aff23f81fa8a98c29eb958cfb2063c79e910a3343dbb43ef4f778dea379eeb03&quality=80&width=1920",
+    imageAlt: "Logotipo de OpenAI en una ilustración de Reuters",
+    body: [
+      "OpenAI informó que Astra es su primer modelo en alcanzar el umbral Critical para ciberseguridad dentro del Preparedness Framework. Con las herramientas y el acceso adecuados, puede descubrir vulnerabilidades previamente desconocidas y desarrollar maneras de explotarlas en sistemas protegidos sin que una persona dirija cada paso.",
+      "En ExploitBench obtuvo 100% y, en una evaluación interna con veinte vulnerabilidades recientes de alta severidad en V8, encontró dos fallas de día cero y las combinó dentro de una cadena de explotación. En pruebas guiadas por especialistas también construyó una cadena capaz de escapar del sandbox de un navegador y ejecutar comandos en el sistema anfitrión.",
+      "La compañía demoró partes del desarrollo mientras reforzaba rechazos, controles contra abuso y monitoreo para detener actividad no autorizada. Las capacidades más avanzadas no tendrán una puerta abierta: llegarán primero a un grupo limitado y luego a profesionales defensivos mediante Daybreak Blue.",
+      "Mi entusiasmo acá viene con cinturón, airbag y freno de mano. Para equipos que auditan infraestructura, encontrar una vulnerabilidad antes que un atacante puede ahorrar una catástrofe. Pero no alcanza con decir que el modelo es para defensa; hay que controlar identidad, alcance, herramientas y registro de cada acción." 
+    ],
+    features: [
+      {
+        title: "Un 100% en el benchmark no significa seguridad perfecta",
+        eyebrow: "CAPACIDAD MEDIDA, RIESGO REAL",
+        facts: "EXPLOITBENCH 100% · 2 ZERO-DAYS · ACCESO LIMITADO",
+        image: "https://deploymentsafety.openai.com/data/eval-sets/gpt-5-6-preview/assets/images/image6.png",
+        alt: "Gráfico oficial de OpenAI comparando desempeño en ExploitBench",
+        body: [
+          "Los benchmarks permiten comparar modelos bajo condiciones definidas; no predicen cada red, cada error humano ni cada protección de producción. El dato relevante es el salto de capacidad y la eficiencia, no una fantasía de omnipotencia.",
+          "También conviene separar a Astra del incidente anterior de Hugging Face: OpenAI afirma que este modelo no participó, aunque incorporó lo aprendido para endurecer las salvaguardas."
+        ]
+      },
+      {
+        title: "El verdadero producto incluye sus límites",
+        eyebrow: "AUTO-REVIEW, MONITOREO Y ALCANCE",
+        facts: "DAYBREAK BLUE · IDENTIDAD · CONTROL HUMANO",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_Logo.svg",
+        alt: "Logotipo oficial de OpenAI",
+        body: [
+          "Una herramienta de este nivel no puede evaluarse solamente por cuántas fallas encuentra. Importa si respeta un rechazo, si entiende el objetivo autorizado y si deja evidencia suficiente para auditar lo que hizo.",
+          "La promesa defensiva es enorme. La obligación también: cuanto menos supervisión necesita el modelo para avanzar, más precisa debe ser la frontera que le marque quién lo opera."
+        ]
+      }
+    ],
+    sources: [
+      { name: "OpenAI — Path to Astra", url: "https://openai.com/index/path-to-astra/" },
+      { name: "OpenAI — Preparedness Framework", url: "https://openai.com/index/updating-our-preparedness-framework/" },
+      { name: "Reuters — Astra y sus salvaguardas", url: "https://www.reuters.com/business/openai-says-upcoming-model-is-so-capable-it-requires-stronger-guardrails-2026-09-01/" }
+    ]
+  },
+  {
+    slug: "tecnologia/sonos-27-ace-ultra-beam-ultra",
+    category: "TECNOLOGÍA + IA",
+    date: "2 SEP 2026",
+    dateIso: "2026-09-02T08:20:00-03:00",
+    minutes: 10,
+    title: "Sonos 27 quiere recuperar la casa: nueva app, agentes de IA y dos equipos Ultra",
+    dek: "Sonos presentó Ace Ultra y Beam Ultra junto con una actualización profunda de su plataforma. La empresa promete mejor integración y despliegues graduales después del tropiezo que dañó la confianza de sus usuarios.",
+    personalAngle: "Un sistema de audio conectado debería desaparecer cuando empieza la música. Sonos aprendió de la peor manera que una app también puede meterse en el medio y apagar la fiesta. Por eso esta renovación me interesa menos por la cantidad de veces que dice IA y más por una pregunta sencilla: ¿la casa vuelve a obedecer sin pelearse con el teléfono?",
+    leadEyebrow: "HARDWARE NUEVO, DEUDA VIEJA",
+    leadTitle: "Sonos suma Atmos real y auriculares conectados mientras intenta reparar la confianza",
+    image: "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/sonos-ace-ultra-lifestyle.jpg?crop=0%2C0.041631973355535%2C100%2C99.916736053289&quality=90&strip=all&w=2400",
+    imageAlt: "Persona utilizando los nuevos auriculares Sonos Ace Ultra",
+    body: [
+      "Sonos presentó Beam Ultra, Ace Ultra y la plataforma Sonos 27. Ambos equipos se pueden reservar desde el 1 de septiembre y llegarán al mercado el 29: la barra cuesta USD 699 y los auriculares USD 449 en Estados Unidos, antes de impuestos y conversiones regionales.",
+      "Beam Ultra pasa a una configuración 7.1.2 con nueve drivers, dos orientados hacia arriba para Dolby Atmos, un canal central rediseñado y cuatro niveles de mejora de diálogo mediante IA. Sigue siendo una barra compacta, pero ya no intenta simular todo el techo sólo con procesamiento.",
+      "Ace Ultra usa drivers de 40 mm, diez micrófonos, cancelación adaptativa y hasta 35 horas de batería con ANC. La función más interesante es Headphone Linking: un botón mueve el audio entre el sistema Sonos y los auriculares sin depender de tener el teléfono cerca.",
+      "El precio exige prudencia. Ninguna ficha técnica compensa una aplicación inestable, y Sonos todavía carga con el recuerdo de su conflictiva actualización de 2024. La buena noticia es que varias funciones llegan como acceso anticipado opcional y en etapas. Después de romper una cocina, entrar despacio es una virtud, no timidez." 
+    ],
+    features: [
+      {
+        title: "Sonos 27 pone nombre al cerebro de la casa",
+        eyebrow: "LA IA ENTRA POR EL PARLANTE",
+        facts: "27MCP 8 SEP · 27VOICE EN OTOÑO · OPT-IN",
+        image: "https://media.sonos.com/images/znqtjj88/production/99b15a1d973d42d6fb42c06de3119e85c9d03f34-2087x1392.png?auto=format&fit=clip&q=100&w=3840",
+        alt: "Vista técnica explotada de la barra de sonido Sonos Beam Ultra",
+        body: [
+          "Sonos 27mcp permitirá conectar modelos compatibles con MCP para controlar el sistema desde un chatbot autorizado. Sonos 27voice, en cambio, será un asistente propio centrado en música y control doméstico, inicialmente en inglés y Estados Unidos.",
+          "La parte simpática son los agentes con voces y roles personalizados previstos para 2027. La parte importante es el permiso: un modelo externo sólo debería manejar el sistema después de una autorización clara y revocable."
+        ]
+      },
+      {
+        title: "Los Ace Ultra por fin conversan con toda la casa",
+        eyebrow: "UN BOTÓN, DOS DIRECCIONES",
+        facts: "35 H CON ANC · 10 MICRÓFONOS · USD 449",
+        image: "https://media.sonos.com/images/znqtjj88/production/9b437ac1b24bdddc64be4434ef09f296bb60b4cf-2000x2000.png?auto=format&fit=clip&q=100&w=3840",
+        alt: "Auriculares negros Sonos Ace Ultra vistos en tres cuartos",
+        body: [
+          "La primera generación podía intercambiar audio con barras compatibles, pero la nueva arquitectura acerca los auriculares al sistema completo. Ese vínculo es más diferencial que sumar otro porcentaje de cancelación que pocos podrán medir fuera de un laboratorio.",
+          "Yo esperaría las reseñas finales de autonomía, comodidad y estabilidad de Wi-Fi antes de pagar. A este precio no comprás sólo buenos auriculares: comprás la promesa de que todos tus parlantes se entiendan."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Sonos Newsroom — Beam Ultra y Ace Ultra", url: "https://newsroom.sonos.com/269788-sonos-welcomes-beam-ultra-and-sonos-ace-ultra-to-its-system/" },
+      { name: "Sonos — presentación de Sonos 27", url: "https://www.sonos.com/en-us/blog/meet-sonos-27" },
+      { name: "The Verge — anuncio y contexto de la nueva plataforma", url: "https://www.theverge.com/tech/987129/sonos-27-ace-ultra-beam-ultra-announcement" }
+    ]
+  },
+  {
     slug: "gaming/playstation-doble-state-of-play-3-septiembre-2026",
     category: "GAMING",
     date: "1 SEP 2026",

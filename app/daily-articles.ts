@@ -1,5 +1,266 @@
 export const dailyArticles = [
   {
+    slug: "gaming/the-blood-of-dawnwalker-lanzamiento",
+    category: "GAMING",
+    date: "3 SEP 2026",
+    dateIso: "2026-09-03T08:30:00-03:00",
+    minutes: 11,
+    title: "The Blood of Dawnwalker ya está entre nosotros: un vampiro, treinta días y demasiadas decisiones",
+    dek: "El primer juego de Rebel Wolves llega hoy a PC, PlayStation 5 y Xbox Series. Coen es humano de día, vampiro de noche y cada misión consume un tiempo que no se puede recuperar.",
+    personalAngle: "Hay juegos que prometen un mapa enorme y otros que prometen que nuestras decisiones importan. The Blood of Dawnwalker se anima a juntar ambas cosas y agrega el ingrediente que más nervioso me pone: un reloj que avanza cuando aceptamos una misión. No lo jugué lo suficiente como para dictar sentencia, pero su idea central ya consiguió que quiera pensar cada paso antes de desenvainar la espada.",
+    leadEyebrow: "EL TIEMPO TAMBIÉN ES UN ENEMIGO",
+    leadTitle: "Rebel Wolves abre Vale Sangora y no nos deja salvar a todo el mundo",
+    image: "/articles/2026-09-03/dawnwalker/hero.webp",
+    imageAlt: "Coen frente al paisaje oscuro de Vale Sangora en el arte oficial de The Blood of Dawnwalker",
+    body: [
+      "The Blood of Dawnwalker se lanza este 3 de septiembre en PC, PlayStation 5 y Xbox Series X|S. Es el debut de Rebel Wolves, un estudio fundado por veteranos de CD Projekt Red, y se nota que quiere entrar a la conversación de los RPG grandes sin esconderse detrás de una escala pequeña. La historia nos lleva a una Europa ficticia del siglo XIV, devastada por conflictos y peste, donde un grupo de vampiros decide ocupar el vacío de poder.",
+      "Nosotros controlamos a Coen, un joven convertido en Dawnwalker: humano mientras hay sol y vampiro cuando cae la noche. No es solamente un cambio cosmético. Cada forma abre habilidades, rutas y maneras distintas de resolver una situación. Durante el día pesan la espada, la conversación y las limitaciones humanas; por la noche aparecen poderes sobrenaturales, movilidad y una relación mucho más peligrosa con el hambre.",
+      "La idea que realmente diferencia al juego es su calendario. Coen dispone de treinta días para intentar salvar a su familia, pero el reloj no corre segundo a segundo mientras uno mira el inventario. Avanza cuando completamos determinadas misiones y tomamos decisiones importantes. Me gusta esa solución porque mantiene la presión narrativa sin obligarnos a jugar con un cronómetro pegado a la frente.",
+      "También significa que no habrá tiempo para completar cada encargo en una sola partida. Ayudar a una aldea puede cerrar otra oportunidad; perseguir una venganza puede dejarnos peor preparados para rescatar a alguien. El estudio insiste en que incluso no actuar modifica el mundo. Esa promesa es enorme y sólo las partidas completas dirán cuántas consecuencias son realmente profundas y cuántas terminan siendo variaciones de diálogo.",
+      "La edición estándar cuesta USD 69,99 en Steam y el precio local cambia según plataforma y región. Hay versiones con libro digital, banda sonora, cómic, steelbook, mapa y figura, pero mi consejo sigue siendo el mismo: el objeto de colección puede esperar hasta saber si nos enamora el juego. Primero hay que comprobar rendimiento, estabilidad y cuánto de esa libertad sobrevive fuera del tráiler.",
+      "Por ahora mi sensación es de entusiasmo prudente. El mundo tiene personalidad, el cambio entre día y noche parece algo más que una barra de poderes y el límite de tiempo puede producir historias que valga la pena comparar con otros jugadores. Pero hoy es un lanzamiento, no una coronación. La mejor noticia es que ya podemos dejar de imaginar el RPG y empezar a medir lo que realmente construyó Rebel Wolves."
+    ],
+    features: [
+      {
+        title: "Ser humano o vampiro cambia la ruta, no solamente el combate",
+        eyebrow: "DOS VERSIONES DEL MISMO PROTAGONISTA",
+        facts: "DÍA Y NOCHE · HABILIDADES DISTINTAS · MUNDO REACTIVO",
+        image: "/articles/2026-09-03/dawnwalker/day.webp",
+        alt: "Coen en una escena oficial de The Blood of Dawnwalker durante el día",
+        body: [
+          "Lo que más quiero poner a prueba es si las dos naturalezas de Coen generan decisiones interesantes fuera de la pelea. Una puerta cerrada debería poder abrirse con persuasión, investigación o poder vampírico, y cada solución tendría que dejar alguna marca. Cuando un RPG ofrece opciones pero todas conducen al mismo pasillo, la libertad se convierte en decoración.",
+          "Rebel Wolves plantea dos bucles jugables y un mundo que reacciona a las acciones. Es una base excelente para repetir la aventura, siempre que la segunda partida revele escenas y alianzas que no vimos en la primera. Si el calendario obliga a renunciar, esas renuncias necesitan sentirse personales."
+        ]
+      },
+      {
+        title: "Treinta días pueden darle valor a cada misión secundaria",
+        eyebrow: "NO EXISTE EL GUARDADO PERFECTO",
+        facts: "30 DÍAS · 60 GB SSD · UNREAL ENGINE 5",
+        image: "/articles/2026-09-03/dawnwalker/night.webp",
+        alt: "Escena nocturna oficial de The Blood of Dawnwalker con Coen en su forma vampírica",
+        body: [
+          "El límite de treinta días no debería castigarnos por explorar un camino o mirar el paisaje: el tiempo avanza con acciones narrativas. Esa diferencia es clave. Nos deja investigar sin ansiedad mecánica y reserva la tensión para el momento en que aceptamos que una elección desplaza a otra.",
+          "En PC, la ficha oficial pide 16 GB de RAM y 60 GB en SSD; la recomendación sube a una RTX 4060, Radeon RX 7600 XT o Intel Arc B580. Son números razonables para un mundo de Unreal Engine 5, pero esperaría mediciones independientes antes de elegir ajustes o asumir que la experiencia será idéntica en todas las consolas."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Bandai Namco — sitio y galería oficial", url: "https://en.bandainamcoent.eu/dawnwalker/the-blood-of-dawnwalker" },
+      { name: "Rebel Wolves — anuncio de lanzamiento", url: "https://rebel-wolves.com/en" },
+      { name: "Steam — ficha, precio y requisitos", url: "https://store.steampowered.com/app/3751260/The_Blood_of_Dawnwalker/" }
+    ]
+  },
+  {
+    slug: "finanzas/standard-chartered-cripto-spot-emiratos",
+    category: "FINANZAS + CRIPTO",
+    date: "3 SEP 2026",
+    dateIso: "2026-09-03T08:20:00-03:00",
+    minutes: 10,
+    title: "Standard Chartered lleva Bitcoin y Ether spot a Emiratos: la banca ya no mira desde la tribuna",
+    dek: "El banco habilitó compraventa con entrega para clientes institucionales en Emiratos Árabes Unidos. La operación usa interfaces de divisas conocidas y puede liquidarse con el custodio que elija cada cliente.",
+    personalAngle: "Durante años los grandes bancos hablaban de cripto como quien observa una tormenta desde una ventana cerrada. Standard Chartered acaba de abrir la puerta en Emiratos y no lo hace con un experimento para curiosos: integra Bitcoin y Ether en las pantallas que sus clientes institucionales ya usan para operar monedas. Para mí, ésa es la parte verdaderamente importante; la adopción se vuelve cotidiana cuando deja de necesitar un manual nuevo.",
+    leadEyebrow: "CRIPTO EN LA MESA DE DIVISAS",
+    leadTitle: "Comprar BTC y ETH sin abandonar la infraestructura del banco",
+    image: "/articles/2026-09-03/standard-chartered/hero.webp",
+    imageAlt: "Diseño oficial de Standard Chartered para su oferta institucional de activos digitales",
+    body: [
+      "Standard Chartered lanzó compraventa spot de Bitcoin y Ether para clientes institucionales elegibles en Emiratos Árabes Unidos. Según el banco, es la primera entidad de importancia sistémica global que ofrece este servicio con entrega en el país. No son futuros ni una exposición contable: la operación permite comprar o vender el activo y liquidarlo con custodia.",
+      "El acceso aparece dentro de los canales electrónicos que las empresas, fondos y gestores ya utilizan para el mercado de divisas. Esa integración parece un detalle técnico, pero reduce una de las barreras más persistentes de la adopción institucional. No hace falta enviar dinero a una interfaz desconocida ni reconstruir todos los procesos de autorización desde cero.",
+      "Los clientes pueden elegir dónde liquidar y custodiar los activos, incluida la propia solución de Standard Chartered. El banco ya había estrenado custodia digital en Emiratos en septiembre de 2024 y lanzó trading institucional de Bitcoin y Ether mediante su sucursal británica en julio de 2025. La nueva etapa une ejecución y resguardo dentro de una plaza que quiere consolidarse como centro financiero digital.",
+      "Esto no significa que cualquier persona en Emiratos pueda abrir una app del banco y comprar una fracción de Bitcoin. El servicio está dirigido a instituciones elegibles y llega con controles, procesos de conocimiento del cliente y gestión de riesgo propios de esa relación. Confundir adopción institucional con acceso minorista sería inflar la noticia.",
+      "Tampoco convierte a BTC o ETH en activos sin volatilidad. Un banco sistémico puede mejorar la calidad operativa, reducir fricción y ofrecer una contraparte conocida; no controla el precio ni elimina los riesgos de mercado, custodia o regulación. La infraestructura madura más rápido que la garantía de rendimiento, porque esa garantía sencillamente no existe.",
+      "Mi lectura es que el puente entre finanzas tradicionales y cripto dejó de ser un render de conferencia. Ya tiene mostradores, horarios, custodios y procesos de liquidación. Es menos espectacular que una subida del precio, pero probablemente más duradero. La pregunta interesante ahora es cuántas instituciones usarán el servicio y para qué: inversión, tesorería, cobertura o simple exploración."
+    ],
+    features: [
+      {
+        title: "La entrega spot importa más que el logo sobre un gráfico",
+        eyebrow: "ACTIVO, LIQUIDACIÓN Y CUSTODIO",
+        facts: "BITCOIN · ETHER · CLIENTES INSTITUCIONALES",
+        image: "/articles/2026-09-03/standard-chartered/cryptoassets.webp",
+        alt: "Imagen oficial de Standard Chartered dedicada a criptoactivos",
+        body: [
+          "En una operación con entrega, el cliente adquiere el activo subyacente en lugar de apostar únicamente por su cotización mediante un derivado. Después aparece una decisión nada glamorosa y completamente esencial: quién conserva las claves y bajo qué reglas se mueve el activo.",
+          "Poder escoger un custodio evita que la ejecución quede atada obligatoriamente a una sola bóveda. Aun así, cada institución tendrá que revisar segregación de activos, seguros, recuperación, jurisdicción y responsabilidad frente a un incidente. El botón de compra es la parte fácil; la arquitectura posterior es donde vive el riesgo."
+        ]
+      },
+      {
+        title: "Emiratos suma otra pieza a su estrategia de activos digitales",
+        eyebrow: "UNA PLAZA QUE QUIERE ESCALA",
+        facts: "UAE · CUSTODIA DESDE 2024 · INTERFAZ FX",
+        image: "/articles/2026-09-03/standard-chartered/digital-finance.webp",
+        alt: "Arte oficial de Standard Chartered sobre infraestructura financiera digital",
+        body: [
+          "Emiratos combina centros financieros, regulación especializada y una competencia abierta por atraer servicios de activos digitales. La presencia de una entidad sistémica refuerza esa ambición, pero también eleva la vara: la supervisión deberá seguir el ritmo de productos que se conectan con mercados que nunca cierran.",
+          "Esto es información general y no una señal para comprar Bitcoin, Ether ni acciones del banco. Yo seguiría mirando volúmenes reales, número de clientes, activos bajo custodia y expansión a otros tokens antes de llamar masivo a un servicio que hoy nace para un grupo profesional."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — lanzamiento en Emiratos", url: "https://www.reuters.com/legal/transactional/standard-chartered-launches-institutional-spot-crypto-trading-uae-2026-09-03/" },
+      { name: "Standard Chartered — oferta de activos digitales", url: "https://www.sc.com/en/corporate-investment-banking/digital-assets/" },
+      { name: "Standard Chartered — trading institucional", url: "https://www.sc.com/en/corporate-investment-banking/digital-assets/digital-assets-trading/" },
+      { name: "VARA — marco de activos virtuales de Dubai", url: "https://www.vara.ae/en/" }
+    ]
+  },
+  {
+    slug: "finanzas/hargreaves-lansdown-etn-bitcoin-ether",
+    category: "FINANZAS + CRIPTO",
+    date: "3 SEP 2026",
+    dateIso: "2026-09-03T08:10:00-03:00",
+    minutes: 10,
+    title: "Hargreaves Lansdown abre la puerta a nueve ETN cripto, pero deja el freno de mano puesto",
+    dek: "La mayor plataforma de inversión minorista británica ofrece desde hoy productos ligados a Bitcoin y Ether. Exige evaluación de idoneidad, espera de 24 horas y limita el acceso a su servicio avanzado.",
+    personalAngle: "Me resulta difícil encontrar una imagen mejor de la normalización cripto que una plataforma que hace menos de un año decía que Bitcoin no era una clase de activo y hoy lo coloca en su catálogo. No cambió la volatilidad; cambió el marco regulatorio y la presión de sus dos millones de clientes. El giro importa, aunque Hargreaves Lansdown haya rodeado el botón con todas las señales de peligro posibles.",
+    leadEyebrow: "ACCESO CON PUERTA GIRATORIA",
+    leadTitle: "Nueve productos, una prueba de idoneidad y veinticuatro horas para pensarlo",
+    image: "/articles/2026-09-03/hargreaves/hero.webp",
+    imageAlt: "Identidad visual oficial de Hargreaves Lansdown, plataforma británica de inversión",
+    body: [
+      "Hargreaves Lansdown comenzó a ofrecer nueve notas cotizadas vinculadas a Bitcoin y Ether. Los emisores incluyen iShares de BlackRock, WisdomTree, 21Shares, Invesco, CoinShares y Bitwise, con comisiones anuales que van desde cero hasta 0,35%, según Financial Times. La llegada ocurre once meses después de que la FCA reabriera el acceso minorista británico a esta clase de producto.",
+      "Un ETN cripto sigue el precio de un activo sin entregar al inversor monedas ni claves privadas. Se compra y vende como un valor listado durante el horario de la Bolsa de Londres, mientras un emisor y un custodio sostienen la estructura por detrás. Eso elimina la preocupación de guardar una frase semilla, pero introduce riesgos de emisor, custodia, mercado y seguimiento.",
+      "La plataforma no abrió la puerta a todo el mundo de la misma manera. El acceso queda dentro de Advanced Investing, exige superar una prueba de idoneidad y aplica un período de reflexión de 24 horas. La FCA clasifica estos productos como inversiones de mercado masivo restringidas y mantiene vigente la prohibición minorista sobre derivados cripto.",
+      "Hargreaves había sido el gran ausente entre las plataformas británicas después del cambio regulatorio. Su demora no fue accidental: la empresa decía que necesitaba terminar controles y educación para clientes. También conserva una postura bastante fría sobre Bitcoin como herramienta para objetivos financieros de largo plazo. Vender acceso no equivale a recomendarlo.",
+      "Hay otra limitación que enfría la fiesta: estos ETN no encajan cómodamente en las cuentas ISA más populares con ventajas fiscales. El mercado británico ganó volumen desde la reapertura, pero todavía se encuentra por detrás de plazas como Xetra en Alemania. El catálogo existe; ahora falta ver si la demanda cotidiana acompaña el ruido.",
+      "A mí me parece una noticia sobre distribución antes que sobre precio. Dos millones de inversores potenciales pueden ver productos cripto dentro de una plataforma familiar, con costos visibles y barreras de entrada. Eso puede mejorar la comparación y reducir aventuras con operadores dudosos. También puede hacer que un activo muy volátil parezca tan rutinario como un fondo indexado. La interfaz ordenada no cambia la naturaleza del riesgo."
+    ],
+    features: [
+      {
+        title: "Comprar un ETN no es tener Bitcoin en una billetera",
+        eyebrow: "EXPOSICIÓN SIN CLAVES",
+        facts: "9 ETN · BTC Y ETH · COMISIÓN 0% A 0,35%",
+        image: "/articles/2026-09-03/hargreaves/platform.webp",
+        alt: "Pantalla de inversión y negociación de acciones de Hargreaves Lansdown",
+        body: [
+          "El inversor posee una nota que replica el comportamiento del criptoactivo, no el activo que puede retirar a una dirección propia. A cambio recibe una experiencia conocida: cuenta de inversión, precio de mercado, custodia delegada y negociación en un mercado regulado durante horas definidas.",
+          "Ese intercambio puede ser razonable para quien sólo busca exposición, pero no satisface a quien valora la autocustodia o el uso directo de la red. También obliga a entender la liquidez del ETN, la diferencia entre precio y valor subyacente y qué ocurre si falla alguna contraparte."
+        ]
+      },
+      {
+        title: "La regulación permitió el producto y conservó las advertencias",
+        eyebrow: "LA FCA NO DIJO TODO VALE",
+        facts: "PROHIBICIÓN LEVANTADA EN 2025 · DERIVADOS AÚN RESTRINGIDOS",
+        image: "/articles/2026-09-03/hargreaves/lse.webp",
+        alt: "Edificio de la Bolsa de Londres, donde cotizan los ETN cripto disponibles en Reino Unido",
+        body: [
+          "La FCA permitió el acceso minorista a ETN cripto desde el 8 de octubre de 2025, siempre que coticen en bolsas reconocidas y cumplan las reglas de promoción financiera. No levantó la prohibición sobre derivados vinculados a criptoactivos para clientes minoristas.",
+          "No es asesoramiento financiero. Antes de usar uno de estos instrumentos compararía comisión, diferencial, respaldo, custodio, moneda de negociación y tratamiento fiscal. La espera de 24 horas parece incómoda cuando uno tiene FOMO; precisamente por eso puede ser una buena función."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Financial Times — lanzamiento de nueve ETN", url: "https://www.ft.com/content/a0d34842-a49c-47ae-b1cc-3fadd8af9d43" },
+      { name: "Hargreaves Lansdown — explicación y advertencias", url: "https://www.hl.co.uk/investment-services/crypto-statement/register-for-crypto-etns-updates" },
+      { name: "FCA — apertura del acceso minorista a ETN cripto", url: "https://www.fca.org.uk/news/press-releases/fca-opens-retail-access-crypto-etns" }
+    ]
+  },
+  {
+    slug: "tecnologia/francia-prueba-tesla-fsd-europa",
+    category: "TECNOLOGÍA + IA",
+    date: "3 SEP 2026",
+    dateIso: "2026-09-03T08:00:00-03:00",
+    minutes: 10,
+    title: "Francia pone a prueba el FSD de Tesla: dos autos antes de una decisión para toda Europa",
+    dek: "El gobierno francés comenzó ensayos en carretera para verificar seguridad, límites de velocidad y atención del conductor. Los resultados deberían llegar durante septiembre, antes de un posible voto europeo.",
+    personalAngle: "El nombre Full Self-Driving siempre corre más rápido que la tecnología. La prueba francesa empieza por acomodar esa distancia: son dos autos, un sistema supervisado y un conductor que debe intervenir. Me entusiasma que la automatización avance, pero prefiero mil veces una evaluación aburrida en calles reales que otra promesa brillante filmada en una ruta perfecta.",
+    leadEyebrow: "MANOS LISTAS, OJOS ABIERTOS",
+    leadTitle: "El examen francés quiere separar la asistencia útil de la autonomía imaginada",
+    image: "/articles/2026-09-03/tesla-fsd/hero.webp",
+    imageAlt: "Vehículo Tesla circulando con Full Self-Driving Supervisado en una imagen oficial",
+    body: [
+      "Francia comenzó a probar en carretera dos vehículos equipados con Full Self-Driving de Tesla. El ministro de Transporte, Philippe Tabarot, explicó que el país quiere evaluar el sistema de manera independiente y contrastar los datos aportados por la empresa y por Países Bajos. La etapa puede influir en una futura autorización para todo el bloque europeo.",
+      "Países Bajos otorgó una aprobación provisional en abril y luego avanzaron Bélgica, Dinamarca, Estonia y Lituania. Francia se había mostrado más cauta en julio, especialmente por el respeto de los límites de velocidad y la eficacia de las alertas que vigilan la atención del conductor. Después de meses de ajustes técnicos y conversaciones con Tesla, ahora pasa de la objeción al ensayo.",
+      "FSD puede acelerar, frenar, girar, cambiar de carril y seguir una ruta. Aun así, el conductor debe permanecer atento y preparado para intervenir. No convierte al auto en un vehículo plenamente autónomo. Parece una aclaración repetitiva, pero es esencial: el marketing puede instalar una expectativa que la responsabilidad legal y técnica todavía no sostiene.",
+      "Las autoridades francesas esperan resultados entre mediados y fines de septiembre. Un voto europeo podría ocurrir el mes próximo o a comienzos de diciembre. Para aprobar una tecnología de este alcance no basta con que funcione la mayor parte del tiempo; hay que entender cómo falla, si avisa con anticipación y qué hace frente a calles, señales y comportamientos que no se parecen al conjunto de entrenamiento.",
+      "Tesla publicó datos que presentan menos colisiones durante el uso supervisado en cinco países europeos, basados en más de cien millones de kilómetros. Son datos relevantes y también son datos de la propia empresa. Francia quiere reproducir parte de esa evaluación en sus carreteras, un paso razonable cuando la decisión terminará afectando a millones de conductores y peatones.",
+      "Yo no veo esta prueba como una guerra entre innovación y burocracia. Si el sistema es bueno, una evaluación independiente le da credibilidad. Si tiene puntos débiles, encontrarlos antes de una aprobación amplia evita que usuarios comunes se conviertan en beta testers involuntarios. La meta no debería ser aprobar rápido ni bloquear por reflejo; debería ser saber exactamente qué estamos autorizando."
+    ],
+    features: [
+      {
+        title: "La atención del conductor es parte del sistema",
+        eyebrow: "SUPERVISADO SIGNIFICA SUPERVISADO",
+        facts: "ACELERA · FRENA · GIRA · REQUIERE INTERVENCIÓN",
+        image: "/articles/2026-09-03/tesla-fsd/attention.webp",
+        alt: "Conductor atento durante el uso de FSD Supervisado en una imagen oficial de Tesla",
+        body: [
+          "Una buena maniobra automática puede reducir carga mental, pero también puede invitar a confiar demasiado. Cuanto mejor parece funcionar un asistente, más difícil es conservar la atención durante el minuto tranquilo que precede al caso extraño. Por eso la vigilancia del conductor no es un accesorio: forma parte de la seguridad completa.",
+          "Francia había señalado problemas en las advertencias de atención y en el control de velocidad. La prueba debería medir no sólo cuántas veces interviene un conductor, sino cuánto tiempo tiene para comprender la situación y tomar el control sin sobresaltos."
+        ]
+      },
+      {
+        title: "Aprobar en Europa exige funcionar en muchas Europas",
+        eyebrow: "UNA REGLA, VEINTISIETE PAÍSES",
+        facts: "PRUEBAS EN SEPTIEMBRE · VOTO POSIBLE EN OCTUBRE O DICIEMBRE",
+        image: "/articles/2026-09-03/tesla-fsd/autopark.webp",
+        alt: "Tesla realizando una maniobra de estacionamiento asistido con FSD Supervisado",
+        body: [
+          "Rotondas francesas, autopistas neerlandesas, pueblos estrechos y señalización temporal producen una variedad que ninguna demostración aislada puede resumir. Una autorización común necesita criterios comparables, datos auditables y un mecanismo claro para corregir el software cuando aparezcan fallas.",
+          "También necesita un lenguaje honesto para el comprador. Mientras el ser humano conserve la responsabilidad inmediata, yo hablaría de asistencia avanzada y reservaría autonomía para el día en que el vehículo pueda hacerse cargo del viaje y de sus errores sin pedir un rescate humano."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — comienzo de las pruebas francesas", url: "https://www.reuters.com/technology/france-starts-tests-teslas-self-driving-tech-2026-09-03/" },
+      { name: "Tesla — Full Self-Driving Supervisado", url: "https://www.tesla.com/fsd" },
+      { name: "Tesla — seguridad y atención del conductor", url: "https://www.tesla.com/support/fsd/trial-for-new-owners" },
+      { name: "Reuters — datos europeos publicados por Tesla", url: "https://www.reuters.com/business/autos-transportation/tesla-touts-european-supervised-self-driving-safety-data-ahead-eu-vote-2026-09-01/" }
+    ]
+  },
+  {
+    slug: "tecnologia/snowflake-ia-resultados-cortex-cowork",
+    category: "TECNOLOGÍA + IA",
+    date: "3 SEP 2026",
+    dateIso: "2026-09-03T07:50:00-03:00",
+    minutes: 11,
+    title: "Snowflake sube más de 24% y la IA deja de ser una diapositiva para convertirse en consumo",
+    dek: "La empresa elevó su previsión anual después de crecer 37% en ingresos de producto. Cortex Code superó las 9.100 cuentas y CoWork llegó a 5.800, aunque la valoración sigue siendo exigente.",
+    personalAngle: "Llevamos años viendo empresas pegar la palabra IA en cada presentación como si fuera una calcomanía que aumenta el precio. Los resultados de Snowflake son interesantes porque muestran algo más concreto: clientes que usan herramientas, consultas que consumen plataforma y una previsión que sube. Eso no vuelve barata a la acción ni infalible al negocio, pero por fin permite discutir números en lugar de humo.",
+    leadEyebrow: "LA IA ENTRA EN LA FACTURA",
+    leadTitle: "El mercado premia una aceleración que ya aparece en los ingresos",
+    image: "/articles/2026-09-03/snowflake/hero.webp",
+    imageAlt: "Interfaz oficial de Snowflake Intelligence, el agente empresarial de la compañía",
+    body: [
+      "Las acciones de Snowflake subieron más de 24% antes de la apertura de Wall Street después de que la compañía presentara resultados mejores de lo esperado y elevara su proyección anual. La previsión de ingresos de producto para el ejercicio fiscal 2027 pasó de USD 5.840 millones a USD 6.070 millones.",
+      "En el segundo trimestre fiscal, los ingresos de producto crecieron 37% interanual hasta aproximadamente USD 1.490 millones, mientras los ingresos totales alcanzaron USD 1.550 millones. El beneficio ajustado por acción fue de USD 0,62 frente a una expectativa de mercado cercana a USD 0,45. Son cifras que explican el entusiasmo mucho mejor que cualquier demo con un chatbot escribiendo SQL.",
+      "El CEO Sridhar Ramaswamy dijo que las ofertas de IA explicaron aproximadamente la mitad de la aceleración del crecimiento. Cortex Code, el asistente para desarrolladores que ahora evoluciona hacia Snowflake CoCo, superó las 9.100 cuentas después de sumar más de dos mil durante el trimestre. CoWork, pensado como agente para tareas empresariales, llegó a unas 5.800 cuentas.",
+      "La tesis es sencilla: las empresas ya guardan datos en Snowflake y pueden ejecutar modelos, agentes y análisis cerca de esa información sin moverla a otra plataforma. Si esas tareas consumen más capacidad, la IA no crea solamente una línea de producto; empuja el negocio central. Ésa es la rueda que los inversores creen estar viendo girar.",
+      "El lado menos cómodo es el precio de esa expectativa. Antes del salto, Snowflake ya cotizaba cerca de quince veces sus ingresos futuros, bastante por encima de un índice amplio de software. Al menos veintidós firmas elevaron sus precios objetivo después del informe. Eso puede reflejar confianza, pero también deja menos espacio para un trimestre simplemente normal.",
+      "Mi lectura separa dos preguntas. Como empresa tecnológica, Snowflake acaba de mostrar una adopción de IA que parece operativa y no decorativa. Como inversión, una gran compañía puede seguir siendo una compra cara si el mercado ya descuenta años de crecimiento perfecto. Esta nota informa resultados; no es una recomendación para perseguir una subida de dos dígitos después de la apertura."
+    ],
+    features: [
+      {
+        title: "Cortex Code y CoWork convierten datos gobernados en una ventaja",
+        eyebrow: "AGENTES DENTRO DEL PERÍMETRO",
+        facts: "9.100 CUENTAS EN CORTEX CODE · 5.800 EN COWORK",
+        image: "/articles/2026-09-03/snowflake/cortex-code.webp",
+        alt: "Gráfico oficial de Cortex Code, el agente de programación de Snowflake",
+        body: [
+          "Para una empresa, conectar un agente a datos internos no consiste sólo en elegir el modelo más inteligente. También hay que respetar permisos, trazabilidad, calidad, catálogo y reglas de privacidad. Snowflake intenta convertir su gobierno de datos existente en la capa de confianza de esos agentes.",
+          "Cortex Code ayuda a construir y consultar dentro del ecosistema de datos; CoWork apunta a usuarios de negocio que quieren investigar y ejecutar tareas con lenguaje natural. El desafío será demostrar que las cuentas anunciadas se transforman en uso recurrente y no en pilotos que quedan abandonados después de la foto."
+        ]
+      },
+      {
+        title: "El crecimiento mejora, pero la valoración exige casi todo",
+        eyebrow: "UNA BUENA NOTICIA YA MUY PREMIADA",
+        facts: "PRODUCTO +37% · PREVISIÓN USD 6.070 M · ACCIÓN +24%",
+        image: "/articles/2026-09-03/snowflake/data-ai.webp",
+        alt: "Profesionales utilizando herramientas de datos e inteligencia artificial en una imagen oficial de Snowflake",
+        body: [
+          "El mercado no sólo celebró el trimestre: volvió a valorar el futuro completo de la empresa. Cuando una acción sube más de 20% en una rueda, el inversor que llega tarde está pagando por resultados que ya fueron reconocidos por millones de participantes.",
+          "Yo seguiría tres indicadores en los próximos informes: crecimiento del consumo, margen de producto bajo cargas de IA y retención de clientes grandes. Si los agentes multiplican consultas pero cada consulta reduce demasiado el margen, el éxito técnico puede tardar más en convertirse en éxito financiero."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Snowflake — resultados trimestrales", url: "https://investors.snowflake.com/financials/quarterly-results/default.aspx" },
+      { name: "Reuters — reacción del mercado y valoración", url: "https://www.reuters.com/business/snowflake-shares-surge-ai-demand-powers-growth-lifts-outlook-2026-09-03/" },
+      { name: "Snowflake — Intelligence y Cortex Code", url: "https://www.snowflake.com/en/news/press-releases/snowflake-expands-snowflake-intelligence-and-cortex-code-to-power-the-control-plane-for-the-agentic-enterprise/" },
+      { name: "Snowflake — Cortex AI", url: "https://www.snowflake.com/en/product/features/cortex/" },
+      { name: "ITdaily — imagen de Snowflake Intelligence", url: "https://itdaily.be/nieuws/cloud/snowflake-intelligence/" },
+      { name: "LinkedIn — imagen de Cortex Code", url: "https://www.linkedin.com/pulse/snowflake-just-changed-game-data-engineers-meet-cortex-swaroop-dmlre/" },
+      { name: "NTT DATA — imagen de Snowflake Intelligence", url: "https://uk.nttdata.com/insights/blog/ai-that-lets-you-chat-with-your-data" }
+    ]
+  },
+  {
     slug: "comics/lanterns-capitulo-3-origen-john-stewart",
     category: "CÓMICS + SERIES",
     date: "2 SEP 2026",
@@ -69,7 +330,7 @@ export const dailyArticles = [
       "Moonlighter 2: The Endless Vault abandona hoy, 2 de septiembre, el acceso anticipado en PC y también figura entre los lanzamientos del día para consolas. La página oficial de Steam confirma la fecha de salida de la versión completa y mantiene disponible una demo para quien prefiera tocar el género antes de abrir la billetera.",
       "La estructura sigue siendo deliciosamente circular: entrar a dimensiones peligrosas, pelear, acomodar reliquias en una mochila con espacio limitado, volver al pueblo y poner precio a lo recuperado. Lo atractivo nunca fue sólo el combate; era esa transición entre héroe y comerciante, como si Zelda y una planilla de inventario hubieran decidido compartir departamento.",
       "La versión completa amplía ambientes, enemigos, jefes, objetos, sistemas de tienda y la historia alrededor de Tresna y la Endless Vault. Eso no convierte automáticamente cada repetición en oro. Un roguelite vive o muere por el ritmo de sus recompensas, y ahí prefiero esperar la experiencia de la comunidad durante varios días antes de declarar que el balance quedó perfecto.",
-      "Si ya lo compraste en acceso anticipado, hoy es un buen momento para volver y revisar cuánto cambió. Si llegás por primera vez, la demo es la decisión más sensata: diez minutos de vender basura a precio de reliquia dicen más sobre tu compatibilidad con Moonlighter que cincuenta trailers." 
+      "Si ya lo compraste en acceso anticipado, hoy es un buen momento para volver y revisar cuánto cambió. Si llegás por primera vez, la demo es la decisión más sensata: diez minutos de vender basura a precio de reliquia dicen más sobre tu compatibilidad con Moonlighter que cincuenta trailers."
     ],
     features: [
       {
@@ -118,7 +379,7 @@ export const dailyArticles = [
       "Bitcoin cotizó alrededor de USD 77.000 este miércoles mientras subían los rendimientos de bonos en Japón, Estados Unidos y Europa. Al mismo tiempo, el Brent superó los USD 95 por barril en medio de renovadas tensiones entre Estados Unidos e Irán. Para un activo sin rendimiento propio, tasas más altas suelen ser un viento de frente bastante poco poético.",
       "El retroceso desde el máximo local se mantuvo dentro de un rango de aproximadamente USD 76.800 a USD 81.600 después de un salto de 23% en poco más de una semana. Eso explica por qué algunos analistas hablan de consolidación. Yo prefiero una traducción más sencilla: el mercado está respirando y todavía no decidió si lo hace antes de otro sprint o antes de sentarse.",
       "Los futuros y perpetuos sumaban unos USD 38.600 millones de interés abierto, 1,8% menos en la semana, con tasas de financiación neutrales. Menos apalancamiento reduce el combustible de una liquidación en cadena, pero no elimina el riesgo de precio. Un mercado puede caer perfectamente sin pedir permiso a los traders apalancados.",
-      "Esta nota no es una señal de compra ni de venta. Si una cartera personal depende de acertar el próximo movimiento de 5%, la posición probablemente ya es demasiado grande. Bitcoin sigue siendo volátil incluso cuando el gráfico parece dormido." 
+      "Esta nota no es una señal de compra ni de venta. Si una cartera personal depende de acertar el próximo movimiento de 5%, la posición probablemente ya es demasiado grande. Bitcoin sigue siendo volátil incluso cuando el gráfico parece dormido."
     ],
     features: [
       {
@@ -167,7 +428,7 @@ export const dailyArticles = [
       "Los ministros de Finanzas y gobernadores de bancos centrales del G20 acordaron avanzar con marcos regulatorios y de supervisión que preserven la estabilidad financiera, acompañen el crecimiento y establezcan caminos claros para una innovación responsable en activos digitales.",
       "El texto de la presidencia, publicado después de una reunión de dos días en Asheville, Carolina del Norte, reconoce que la innovación financiera digital puede impulsar al sector privado. También pide considerar los desafíos transfronterizos. Ahí está la parte difícil: una stablecoin no se detiene en migraciones para preguntar qué norma nacional le toca.",
       "El grupo espera nuevos trabajos del Financial Stability Board sobre stablecoins globales, fuentes de datos y riesgos de su circulación entre jurisdicciones. Además reafirmó la hoja de ruta para mejorar pagos internacionales y solicitó ampliar los horarios de los sistemas de grandes pagos.",
-      "Me interesa el cambio de tono: los activos digitales ya no aparecen únicamente como una anomalía que hay que encerrar, sino como infraestructura que puede ser útil si sus reglas son comprensibles. Pero no compraría ningún token por un párrafo diplomático. La distancia entre una intención y una regulación aplicable se mide en años, formularios y abogados." 
+      "Me interesa el cambio de tono: los activos digitales ya no aparecen únicamente como una anomalía que hay que encerrar, sino como infraestructura que puede ser útil si sus reglas son comprensibles. Pero no compraría ningún token por un párrafo diplomático. La distancia entre una intención y una regulación aplicable se mide en años, formularios y abogados."
     ],
     features: [
       {
@@ -216,7 +477,7 @@ export const dailyArticles = [
       "OpenAI informó que Astra es su primer modelo en alcanzar el umbral Critical para ciberseguridad dentro del Preparedness Framework. Con las herramientas y el acceso adecuados, puede descubrir vulnerabilidades previamente desconocidas y desarrollar maneras de explotarlas en sistemas protegidos sin que una persona dirija cada paso.",
       "En ExploitBench obtuvo 100% y, en una evaluación interna con veinte vulnerabilidades recientes de alta severidad en V8, encontró dos fallas de día cero y las combinó dentro de una cadena de explotación. En pruebas guiadas por especialistas también construyó una cadena capaz de escapar del sandbox de un navegador y ejecutar comandos en el sistema anfitrión.",
       "La compañía demoró partes del desarrollo mientras reforzaba rechazos, controles contra abuso y monitoreo para detener actividad no autorizada. Las capacidades más avanzadas no tendrán una puerta abierta: llegarán primero a un grupo limitado y luego a profesionales defensivos mediante Daybreak Blue.",
-      "Mi entusiasmo acá viene con cinturón, airbag y freno de mano. Para equipos que auditan infraestructura, encontrar una vulnerabilidad antes que un atacante puede ahorrar una catástrofe. Pero no alcanza con decir que el modelo es para defensa; hay que controlar identidad, alcance, herramientas y registro de cada acción." 
+      "Mi entusiasmo acá viene con cinturón, airbag y freno de mano. Para equipos que auditan infraestructura, encontrar una vulnerabilidad antes que un atacante puede ahorrar una catástrofe. Pero no alcanza con decir que el modelo es para defensa; hay que controlar identidad, alcance, herramientas y registro de cada acción."
     ],
     features: [
       {
@@ -265,7 +526,7 @@ export const dailyArticles = [
       "Sonos presentó Beam Ultra, Ace Ultra y la plataforma Sonos 27. Ambos equipos se pueden reservar desde el 1 de septiembre y llegarán al mercado el 29: la barra cuesta USD 699 y los auriculares USD 449 en Estados Unidos, antes de impuestos y conversiones regionales.",
       "Beam Ultra pasa a una configuración 7.1.2 con nueve drivers, dos orientados hacia arriba para Dolby Atmos, un canal central rediseñado y cuatro niveles de mejora de diálogo mediante IA. Sigue siendo una barra compacta, pero ya no intenta simular todo el techo sólo con procesamiento.",
       "Ace Ultra usa drivers de 40 mm, diez micrófonos, cancelación adaptativa y hasta 35 horas de batería con ANC. La función más interesante es Headphone Linking: un botón mueve el audio entre el sistema Sonos y los auriculares sin depender de tener el teléfono cerca.",
-      "El precio exige prudencia. Ninguna ficha técnica compensa una aplicación inestable, y Sonos todavía carga con el recuerdo de su conflictiva actualización de 2024. La buena noticia es que varias funciones llegan como acceso anticipado opcional y en etapas. Después de romper una cocina, entrar despacio es una virtud, no timidez." 
+      "El precio exige prudencia. Ninguna ficha técnica compensa una aplicación inestable, y Sonos todavía carga con el recuerdo de su conflictiva actualización de 2024. La buena noticia es que varias funciones llegan como acceso anticipado opcional y en etapas. Después de romper una cocina, entrar despacio es una virtud, no timidez."
     ],
     features: [
       {

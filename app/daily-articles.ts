@@ -1,5 +1,270 @@
 export const dailyArticles = [
   {
+    slug: "gaming/final-fantasy-vii-revelation-fecha-8-abril-2027",
+    category: "GAMING",
+    date: "4 SEP 2026",
+    dateIso: "2026-09-04T08:40:00-03:00",
+    minutes: 10,
+    title: "Final Fantasy VII Revelation ya tiene fecha: el viaje termina el 8 de abril de 2027",
+    dek: "Square Enix cerró el State of Play con diez minutos de exploración, combate y una fecha concreta. La Highwind abre el planeta; el verdadero desafío será cerrar una historia que lleva tres juegos discutiendo con nuestros recuerdos.",
+    personalAngle: "Final Fantasy VII dejó de ser solamente un juego hace mucho tiempo: es una memoria colectiva que Square Enix viene desarmando y reconstruyendo delante nuestro. Saber que Revelation llega el 8 de abril de 2027 me entusiasma, pero también me pone ese nerviosismo de final de temporada donde cada teoría puede terminar convertida en genialidad o en un cajón lleno de hilos sueltos.",
+    leadEyebrow: "LA ÚLTIMA PARADA YA ESTÁ MARCADA",
+    leadTitle: "Highwind, Sephiroth y un mundo más libre para cerrar la trilogía",
+    image: "https://i.ytimg.com/vi/pfqrUIGUC1o/maxresdefault.jpg",
+    imageAlt: "Cloud y sus compañeros en el tráiler oficial que confirmó la fecha de Final Fantasy VII Revelation",
+    body: [
+      "Square Enix confirmó que Final Fantasy VII Revelation se lanzará el 8 de abril de 2027. El anuncio cerró el State of Play del 3 de septiembre con una presentación extendida dedicada al tercer y último capítulo de la trilogía iniciada por Final Fantasy VII Remake y continuada por Rebirth.",
+      "La demostración puso el foco en la escala. La Highwind no aparece como un ascensor bonito entre regiones: permite volar sobre el planeta, elegir un destino y descender hacia ciudades, ruinas y zonas abiertas. También vimos ganchos, chocobos y nuevas rutas de exploración. La promesa es menos pasillo y más libertad para decidir qué investigar antes de caminar hacia el meteorito que todos conocemos.",
+      "El combate conserva la mezcla de acción y órdenes tácticas, pero ahora debe administrar un grupo más grande y personajes que antes miraban desde el banco. Cid y Vincent son piezas especialmente importantes. Sumarlos no alcanza; necesitan estilos propios y motivos reales para cambiar nuestra formación, no solamente una animación espectacular en el tráiler.",
+      "La fecha concreta ordena el calendario y también sube la presión. Revelation tiene que resolver el destino de Aerith, el papel de Zack, las líneas temporales y la confrontación final con Sephiroth sin perder el corazón del relato original. Después de dos entregas enormes, agregar misterios es fácil. Cerrar cada puerta con elegancia es el jefe secreto.",
+      "No probé esta versión y no voy a convertir diez minutos editados en una reseña. La presentación muestra ambición, variedad y un planeta que parece menos fragmentado, pero todavía faltan datos de rendimiento, duración, precio regional y diferencias entre plataformas. Una fecha de lanzamiento es información; una garantía técnica, no.",
+      "Mi lectura es entusiasmo con el guardado manual activado. El 8 de abril queda lo bastante lejos para que Square Enix pula el juego y lo bastante cerca para que empiece la cuenta regresiva. Yo quiero que la trilogía termine con una decisión propia, no con un laberinto de explicaciones. ¿Qué tendría que resolver Revelation para que vos sientas que este remake realmente llegó a destino?"
+    ],
+    features: [
+      {
+        title: "La Highwind puede convertir el mapa en una aventura",
+        eyebrow: "VOLVER A ELEGIR EL CAMINO",
+        facts: "8 ABR 2027 · HIGHWIND · EXPLORACIÓN ABIERTA",
+        image: "https://i.ytimg.com/vi/E9BTbjtXJWM/maxresdefault.jpg",
+        alt: "La Highwind y la exploración del mundo en el video oficial de Final Fantasy VII Revelation",
+        body: [
+          "Rebirth ya ofrecía regiones amplias, pero seguían conectadas por una estructura muy visible. Poder pilotear la Highwind cambia la sensación del viaje si el juego permite descubrir lugares por curiosidad y no sólo porque una lista nos envía allí. El mapa necesita premiar el desvío sin llenarse de íconos que parezcan tareas domésticas.",
+          "También importa el ritmo. Cuando el argumento anuncia el fin del mundo, una carrera de chocobos puede sentirse encantadora o completamente fuera de lugar. Square Enix tendrá que dejar espacio para respirar sin olvidar que el cielo literalmente está cayendo."
+        ]
+      },
+      {
+        title: "El final no puede esconderse detrás de otra promesa",
+        eyebrow: "TRES JUEGOS PIDEN UNA RESPUESTA",
+        facts: "CLOUD · AERITH · ZACK · SEPHIROTH",
+        image: "https://i.ytimg.com/vi/rpugeKC14bw/maxresdefault.jpg",
+        alt: "Sephiroth y los protagonistas en el tráiler de fecha publicado por Square Enix",
+        body: [
+          "Remake y Rebirth ganaron libertad para sorprender porque postergaron respuestas. Revelation ya no tiene ese lujo. Puede reinterpretar el original, pero necesita explicar sus reglas y aceptar las consecuencias emocionales de lo que cambió. Un final abierto no es lo mismo que un final incompleto.",
+          "Yo prefiero una conclusión discutible pero clara antes que veinte segundos después de los créditos preparando otra saga. Esta trilogía se ganó el derecho a ser extraña; ahora tiene que ganarse el cierre."
+        ]
+      }
+    ],
+    sources: [
+      { name: "PlayStation — tráiler de fecha oficial", url: "https://www.youtube.com/watch?v=pfqrUIGUC1o" },
+      { name: "PlayStation — análisis oficial de combate y exploración", url: "https://www.youtube.com/watch?v=E9BTbjtXJWM" },
+      { name: "Square Enix — tráiler oficial de fecha", url: "https://www.youtube.com/watch?v=rpugeKC14bw" },
+      { name: "PlayStation Blog — fecha y presentación extendida", url: "https://blog.playstation.com/2026/09/03/final-fantasy-vii-revelation-launches-on-ps5-april-8-2027/" },
+      { name: "Square Enix — sitio oficial de Revelation", url: "https://www.square-enix.com/ffvii/en-us/games/revelation/" }
+    ]
+  },
+  {
+    slug: "gaming/onimusha-way-of-the-sword-lanzamiento",
+    category: "GAMING",
+    date: "4 SEP 2026",
+    dateIso: "2026-09-04T08:30:00-03:00",
+    minutes: 10,
+    title: "Onimusha: Way of the Sword despierta hoy: Musashi vuelve a cortar demonios después de dos décadas",
+    dek: "Capcom publica su gran regreso samurái en PS5, Xbox Series, Switch 2 y PC. Hay demo, dos dificultades iniciales y un modo Carnage para después; lo que no hay es motivo para fingir que un tráiler reemplaza una prueba completa.",
+    personalAngle: "Onimusha pertenece a esa época de PlayStation 2 en la que un juego podía ser intenso, extraño y terminar antes de pedirnos un segundo empleo. Ver a la saga regresar con Miyamoto Musashi, la cara de Toshiro Mifune y una Kyoto invadida por Genma me toca la fibra nostálgica. Justamente por eso intento que la nostalgia no sea quien escriba el recibo.",
+    leadEyebrow: "EL GUANTELETE ONI VUELVE A BRILLAR",
+    leadTitle: "Capcom cambia los tanques por katanas sin abandonar la precisión",
+    image: "https://i.ytimg.com/vi/kILALrix3oU/maxresdefault.jpg",
+    imageAlt: "Miyamoto Musashi combate contra los Genma en el tráiler oficial de Onimusha Way of the Sword",
+    body: [
+      "Onimusha: Way of the Sword se lanza este 4 de septiembre para PlayStation 5, Xbox Series X|S, Nintendo Switch 2 y PC. Capcom adelantó la fecha que inicialmente había fijado para el 25 de septiembre y mantuvo disponible una demo para probar el sistema de combate antes de comprar.",
+      "La historia lleva a Miyamoto Musashi a una Kyoto del período Edo temprano consumida por los Genma. El protagonista queda unido al Guantelete Oni, un poder que rechaza al comienzo mientras intenta demostrar que puede sobrevivir con su propia espada. Su rostro está inspirado en Toshiro Mifune, un homenaje que puede aportar presencia sin reemplazar una buena construcción del personaje.",
+      "El combate gira alrededor de bloquear, desviar, ejecutar Issen en el instante justo, absorber almas y utilizar armamento Oni. No parece un clon directo de Dark Souls ni una repetición arqueológica de la saga. Capcom busca una acción deliberada, agresiva y legible, donde leer al enemigo importa tanto como vaciar una barra.",
+      "Hay dos dificultades disponibles desde el inicio: Story para priorizar el relato y Action para una pelea más exigente. Carnage se desbloquea al terminar el juego y convierte muchos golpes en una sentencia inmediata dentro de New Game+. Me gusta que el desafío extremo sea una segunda vuelta y no la aduana obligatoria para conocer la historia.",
+      "El precio internacional de la edición estándar parte de USD 69,99, con ediciones superiores y extras cosméticos. En Argentina conviene revisar la tienda de cada plataforma, impuestos y conversión antes de comparar. No probé el juego completo, así que esto es una nota de lanzamiento, no una recomendación basada en una campaña terminada.",
+      "Mi prioridad sería descargar la demo, comprobar controles y mirar análisis técnicos de la versión concreta que pienso comprar. Switch 2 merece atención especial por rendimiento; PC, por compilación y stuttering. La katana puede verse perfecta en una cinemática y sentirse pesada en la mano. ¿Te alcanza el regreso de Onimusha para comprar de salida o también vas a dejar que la demo corte primero?"
+    ],
+    features: [
+      {
+        title: "Desviar bien debería sentirse mejor que subir veinte puntos",
+        eyebrow: "PRECISIÓN ANTES QUE PLANILLA",
+        facts: "PARRY · DEFLECT · ISSEN · ALMAS",
+        image: "https://i.ytimg.com/vi/CJYFOktBNCg/maxresdefault.jpg",
+        alt: "Combate con katana y desvíos en el video oficial de presentación de Onimusha Way of the Sword",
+        body: [
+          "La identidad de Onimusha vive en ese momento donde un ataque enemigo pasa de amenaza a oportunidad. Si el sonido, la animación y la ventana de respuesta encajan, cada duelo puede contar una pequeña historia sin llenar la pantalla de números. Si fallan, la dificultad se siente como demora y no como aprendizaje.",
+          "La demo es la herramienta más honesta para resolver esa duda. No confirma la variedad de toda la campaña, pero sí permite saber si el control básico nos habla el idioma correcto antes de gastar."
+        ]
+      },
+      {
+        title: "Carnage guarda la locura para quien la pidió",
+        eyebrow: "UN GOLPE, OTRA PARTIDA",
+        facts: "STORY · ACTION · CARNAGE EN NEW GAME+",
+        image: "https://i.ytimg.com/vi/JO7gn396OAI/maxresdefault.jpg",
+        alt: "Musashi enfrenta a un rival en el tráiler oficial Man in White de Onimusha Way of the Sword",
+        body: [
+          "Bloquear Carnage hasta después de los créditos tiene sentido: primero enseña enemigos y herramientas; luego propone dominarlos con margen casi nulo. El progreso parcial que pasa a New Game+ evita empezar completamente vacío, aunque no convierte el modo en un paseo.",
+          "Yo arrancaría en Action y bajaría sin culpa si la dificultad tapa el ritmo. Terminar un juego que disfrutamos vale más que abandonar una compra cara para proteger el orgullo del menú."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Capcom — tráiler oficial Severing Fates", url: "https://www.youtube.com/watch?v=kILALrix3oU" },
+      { name: "Capcom — video oficial de presentación", url: "https://www.youtube.com/watch?v=CJYFOktBNCg" },
+      { name: "Capcom — tráiler oficial Man in White", url: "https://www.youtube.com/watch?v=JO7gn396OAI" },
+      { name: "Capcom — lanzamiento y cambio de fecha", url: "https://store.captown.capcom.com/en/blogs/news/0000033" },
+      { name: "PlayStation Blog — entrevista y detalles del juego", url: "https://blog.playstation.com/2026/08/25/onimusha-way-of-the-sword-interview-demo-update-detailed-new-trailer-revealed/" }
+    ]
+  },
+  {
+    slug: "finanzas/bitcoin-etf-731-millones-mayor-entrada-enero",
+    category: "FINANZAS + CRIPTO",
+    date: "4 SEP 2026",
+    dateIso: "2026-09-04T08:20:00-03:00",
+    minutes: 10,
+    title: "Los ETF de Bitcoin reciben USD 731 millones: la mayor entrada desde enero también tiene dueño",
+    dek: "IBIT de BlackRock captó USD 454 millones y los activos netos del grupo superaron USD 103.000 millones. El número es potente; una sola rueda todavía no alcanza para llamar tendencia a la euforia.",
+    personalAngle: "Los flujos de ETF son el marcador más tentador del mercado cripto: aparece un número verde enorme y enseguida queremos narrar el campeonato completo. USD 731 millones en un día merecen atención. También merece atención que BlackRock haya explicado más del 60% del movimiento y que el mismo fondo liderara las salidas apenas dos ruedas antes.",
+    leadEyebrow: "UNA OLA GRANDE, TODAVÍA UNA SOLA OLA",
+    leadTitle: "BlackRock empujó el mejor día de los fondos spot en casi ocho meses",
+    image: "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DMR8D8Q7DJ0ETNYGBE2SEM/bitco-etf.png",
+    imageAlt: "Representación de Bitcoin frente a edificios financieros usada para ilustrar flujos de ETF spot",
+    body: [
+      "Los ETF spot de Bitcoin listados en Estados Unidos registraron aproximadamente USD 730,9 millones de entradas netas el jueves 3 de septiembre, su mejor sesión desde el 14 de enero. El dato de SoSoValue llegó mientras Bitcoin recuperaba la zona de USD 80.000 y el conjunto de fondos subía entre 5,7% y 5,9% durante la rueda.",
+      "BlackRock volvió a concentrar la atención: IBIT recibió cerca de USD 454 millones. ARKB, de Ark Invest y 21Shares, sumó USD 138 millones; FBTC de Fidelity, unos USD 74 millones; y los dos productos de Grayscale aportaron en conjunto USD 57 millones. VanEck y WisdomTree fueron las excepciones con salidas.",
+      "Los activos netos del grupo cerraron en USD 103.340 millones, algo más del 6% de la capitalización de Bitcoin. Desde el lanzamiento de los fondos en enero de 2024, los ingresos acumulados alcanzaron USD 55.440 millones. Es infraestructura financiera convertida en escala real, no una prueba piloto.",
+      "Pero el gráfico también tiene memoria corta. El martes los fondos habían perdido USD 236 millones y sólo IBIT explicó unos USD 201 millones de esa salida. El mismo vehículo que enciende el titular positivo puede girar con idéntica velocidad. La liquidez institucional abre una puerta grande en ambas direcciones.",
+      "No leería esta cifra como una orden de compra. Un ETF facilita exposición y custodia, pero no elimina volatilidad, comisión, diferencias horarias ni riesgo de concentración. Tampoco sabemos todavía si la rueda siguiente confirmará demanda sostenida o devolverá parte del movimiento.",
+      "Mi regla para estos días es mirar una serie de varias jornadas y separar flujos de precio. Si Bitcoin sube con compras spot y menor apalancamiento, la base puede ser más saludable; si el entusiasmo depende de una sola entrada gigante, el suelo es más angosto. Esto es información general, no asesoramiento financiero. ¿Te importa más el récord de USD 731 millones o la concentración dentro de IBIT?"
+    ],
+    features: [
+      {
+        title: "IBIT es locomotora y punto único de atención",
+        eyebrow: "USD 454 MILLONES EN UNA RUEDA",
+        facts: "BLACKROCK · 62% DEL TOTAL · FLUJO VARIABLE",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1DMF11DF7DGBA996YDVAVM6/pasted-image-673.jpeg",
+        alt: "Tabla de flujos diarios de ETF spot de Bitcoin utilizada por Cointelegraph",
+        body: [
+          "Que un producto lidere no es un defecto automático: IBIT tiene escala, liquidez y una marca que muchos inversores institucionales ya conocen. El problema aparece cuando usamos el total agregado para imaginar una demanda repartida que los datos no muestran.",
+          "Seguiría la participación de ARKB, FBTC y Grayscale en las próximas sesiones. Una tendencia más distribuida sería menos dependiente de las decisiones de un único canal."
+        ]
+      },
+      {
+        title: "Los USD 103.000 millones no son dinero quieto",
+        eyebrow: "TAMAÑO NO SIGNIFICA ESTABILIDAD",
+        facts: "6% DE BTC · HORARIO BURSÁTIL · SIN APALANCAR",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1DMF6DHHH50E3M1SQGZ9HYZ/pasted-image-674.jpeg",
+        alt: "Desglose por fondo de entradas y salidas en ETF spot de Bitcoin",
+        body: [
+          "El valor neto aumenta por aportes y por la suba del activo que ya está dentro. Mezclar ambos efectos puede hacer que una cifra de patrimonio parezca demanda nueva. Por eso conviene mirar flujos netos, volumen y precio por separado.",
+          "Yo evitaría apalancarme por un dato diario. El mercado de Bitcoin opera todo el tiempo; el ETF, no. Esa diferencia puede convertir un movimiento nocturno en una apertura brusca."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Cointelegraph — imagen contextual de ETF Bitcoin", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "SoSoValue vía Cointelegraph — tabla de flujos", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "Farside vía Cointelegraph — desglose por fondo", url: "https://cointelegraph.com/markets/blackrock-bitcoin-etf-inflow-rebound" },
+      { name: "CoinDesk — entrada récord del 3 de septiembre", url: "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january" },
+      { name: "SoSoValue — panel de ETF spot de Bitcoin", url: "https://sosovalue.com/assets/etf/us-btc-spot" }
+    ]
+  },
+  {
+    slug: "finanzas/corea-del-sur-tokeniza-acciones-bonos-2027",
+    category: "FINANZAS + CRIPTO",
+    date: "4 SEP 2026",
+    dateIso: "2026-09-04T08:10:00-03:00",
+    minutes: 11,
+    title: "Corea del Sur pone fecha a las acciones tokenizadas: febrero de 2027 abre la primera puerta",
+    dek: "El regulador presentó un plan en tres etapas para acciones, bonos y fondos, con liquidación futura mediante stablecoins. Hay límites minoristas, requisitos de capital y una diferencia enorme entre reconocer un token y reemplazar todo el mercado.",
+    personalAngle: "La tokenización suele venderse como si Wall Street fuera a despertar mañana dentro de una wallet. El plan de Corea del Sur me interesa porque hace lo contrario: pone leyes, etapas, capital mínimo, conexión con el depositario y límites para inversores. Es menos cinematográfico, pero ése es el aspecto que tiene una infraestructura cuando intenta dejar de ser una demo.",
+    leadEyebrow: "BLOCKCHAIN CON CALENDARIO Y SUPERVISOR",
+    leadTitle: "Primero instrumentos acotados; después, quizá, liquidación con stablecoins",
+    image: "https://cdn.sanity.io/images/s3y3vcno/production/32f05413502b0ca1b61d0b9b4f510a6fc72c8a27-5830x3851.jpg?rect=0,287,5830,3279&w=1920&h=1080&auto=format",
+    imageAlt: "Kwon Dae-young, vicepresidente de la Comisión de Servicios Financieros de Corea del Sur, durante el anuncio oficial",
+    body: [
+      "La Comisión de Servicios Financieros de Corea del Sur presentó el 4 de septiembre una hoja de ruta para emitir y circular valores tokenizados. La primera fase comenzará en febrero de 2027, cuando entre en vigencia la actualización de la ley de registro electrónico que reconoce estos tokens como una forma digital de valores.",
+      "El comienzo será deliberadamente limitado: fondos del mercado monetario privados y bonos reservados a instituciones, acciones no cotizadas mediante estructuras fiduciarias y productos de inversión fraccionada ofrecidos al público. Una segunda etapa ampliaría el alcance a todos los valores de oferta pública.",
+      "La tercera fase apunta a construir pagos on-chain vinculados con stablecoins. No tiene una fecha cerrada y dependerá de los resultados iniciales, la adopción tecnológica y una legislación sobre stablecoins todavía pendiente. Es un objetivo, no una función disponible en febrero.",
+      "El diseño conserva intermediarios conocidos. Las firmas financieras licenciadas podrán operar dentro de sus permisos actuales; los emisores que administren cuentas deberán contar con al menos 4.000 millones de wones de capital, personal específico y controles de tecnología y ciberseguridad. El Korea Securities Depository evaluará conexiones y continuidad operativa.",
+      "Para inversores minoristas aparecen límites concretos: la suscripción individual propuesta será el menor valor entre 30 millones de wones y 5% de la emisión. En mercados extrabursátiles, la compra neta anual por plataforma se limitará a 100 millones de wones. Tokenizar no elimina reglas de oferta, protección ni sanciones por abuso.",
+      "Mi lectura es positiva para la infraestructura y neutral para cualquier token comercial. La noticia no dice que una blockchain pública específica haya ganado ni que una stablecoin vaya a capturar el mercado. Dice que Corea quiere modernizar registros y liquidación sin borrar derechos. Información general, no recomendación. ¿Preferís esta transición lenta y regulada o creés que tantas capas terminan quitándole sentido a la tokenización?"
+    ],
+    features: [
+      {
+        title: "Un token de valor sigue siendo un valor",
+        eyebrow: "EL CÓDIGO NO BORRA EL CONTRATO",
+        facts: "ACCIONES · BONOS · FONDOS · DERECHOS",
+        image: "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1E661NCT1TRWRA3HD65CEX3/blockchainweek2020uk1-1.jpg",
+        alt: "Infraestructura de mercado tradicional usada como contexto para la tokenización de valores",
+        body: [
+          "La parte valiosa del plan es la equivalencia jurídica: digitalizar el registro no debería convertir una acción en una ficha sin voto, dividendo o protección. Cada emisión tendrá que explicar qué posee el comprador, dónde queda registrado y quién responde ante un error.",
+          "Corea no propone tirar el depositario por la ventana. Lo conecta con redes distribuidas y exige pruebas operativas. Esa convivencia puede parecer menos pura, pero reduce el riesgo de que dos libros reclamen verdades diferentes."
+        ]
+      },
+      {
+        title: "La stablecoin aparece al final, no al principio",
+        eyebrow: "PAGO DESPUÉS DE PROBAR EL REGISTRO",
+        facts: "TRES FASES · SIN FECHA FINAL · LEY PENDIENTE",
+        image: "https://s3-images.ctmedia.io/media/content/2026/09/01M1E60QZ49FF0A6D7Q4HGC820/pasted-image-2496.png",
+        alt: "Gráfico de activos del mundo real tokenizados usado para contextualizar el crecimiento del sector",
+        body: [
+          "Separar emisión, negociación y pago permite detectar fallas antes de mover todo el efectivo a la misma red. También reconoce que una stablecoin de liquidación necesita reservas, rescate, supervisión y reglas de insolvencia propias.",
+          "Yo mediría éxito con tiempos y costos reales, no con cantidad de comunicados que incluyen la palabra blockchain. Si la liquidación es más rápida pero la salida a dinero bancario suma otra espera, la mejora será parcial."
+        ]
+      }
+    ],
+    sources: [
+      { name: "FSC vía CoinDesk — imagen del anuncio", url: "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market" },
+      { name: "Cointelegraph — infraestructura de mercado tokenizado", url: "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks" },
+      { name: "RWA.xyz vía Cointelegraph — gráfico de activos tokenizados", url: "https://cointelegraph.com/news/london-stock-exchange-partners-kraken-for-tokenized-uk-stocks" },
+      { name: "FSC Corea del Sur — hoja de ruta oficial", url: "https://www.fsc.go.kr/eng/pr010101/87653" },
+      { name: "OECD — mercados cripto en Asia", url: "https://www.oecd.org/en/publications/asia-capital-markets-report-2026_08f87bed-en/full-report/developments-in-crypto-asset-markets_193a8553.html" }
+    ]
+  },
+  {
+    slug: "finanzas/fondos-monetarios-46100-millones-refugio",
+    category: "FINANZAS + CRIPTO",
+    date: "4 SEP 2026",
+    dateIso: "2026-09-04T08:00:00-03:00",
+    minutes: 10,
+    title: "USD 46.100 millones corren hacia fondos monetarios: el mercado compra tiempo, no tranquilidad",
+    dek: "Fue la mayor entrada semanal desde comienzos de agosto. Petróleo cerca de USD 98, tensión entre Estados Unidos e Irán y bonos castigados empujaron efectivo hacia instrumentos cortos, mientras Europa y Asia todavía recibieron dinero en acciones.",
+    personalAngle: "Cuando el mercado se asusta no siempre vende todo y se esconde debajo de la cama; muchas veces estaciona el dinero donde puede cobrar algo mientras decide. Los USD 46.100 millones que entraron a fondos monetarios cuentan exactamente esa historia. No es pánico absoluto, porque también hubo compras de acciones. Es una cartera con un pie en la puerta.",
+    leadEyebrow: "EFECTIVO CON RENDIMIENTO Y CASCO",
+    leadTitle: "La cautela crece, pero no todos los inversores abandonaron el riesgo",
+    image: "https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg",
+    imageAlt: "Fachada del Departamento del Tesoro de Estados Unidos en una imagen institucional",
+    body: [
+      "Los fondos globales del mercado monetario recibieron USD 46.100 millones netos durante la semana terminada el 2 de septiembre, según datos de LSEG Lipper citados por Reuters. Fue la entrada más grande desde el 5 de agosto y coincidió con una venta de bonos, tensión geopolítica y petróleo más caro.",
+      "El Brent llegó a USD 97,62 por barril después de nuevos ataques estadounidenses cerca del estrecho de Ormuz y respuestas iraníes contra activos de Estados Unidos. La energía más cara vuelve a colocar inflación, tasas y márgenes empresariales en la misma pantalla. Cuando esas tres barras parpadean, la duración corta se vuelve atractiva.",
+      "Los fondos de bonos captaron USD 10.010 millones, el ritmo más bajo en cinco semanas. Dentro de esa cifra, los productos de corto plazo recibieron USD 7.430 millones, su mayor entrada desde comienzos de julio. En cambio, fondos de deuda pública y corporativa sufrieron retiros de USD 3.340 millones y USD 1.410 millones.",
+      "La fotografía no es una huida total de las acciones. Los fondos globales de renta variable sumaron USD 6.650 millones: Europa recibió USD 13.090 millones y Asia USD 4.220 millones, mientras Estados Unidos perdió USD 11.120 millones. Hay cautela, pero también rotación geográfica.",
+      "Oro y otros metales preciosos encadenaron una octava semana de entradas con USD 2.850 millones. Los fondos energéticos, curiosamente, tuvieron una tercera semana de salidas. El precio del petróleo puede subir por riesgo de oferta sin convencer a todos de comprar compañías o vehículos del sector.",
+      "No trasladaría estos flujos automáticamente a una cartera argentina. Moneda, impuestos, regulación, comisiones y acceso cambian el resultado. La enseñanza general es más simple: el mercado está pagando por conservar opciones. Esto no es asesoramiento financiero. ¿Vos leés los USD 46.100 millones como preparación para una caída o como una pausa antes de volver a comprar riesgo?"
+    ],
+    features: [
+      {
+        title: "Corto plazo no significa riesgo cero",
+        eyebrow: "ESTACIONAR TAMBIÉN EXIGE MIRAR EL CARTEL",
+        facts: "LIQUIDEZ · DURACIÓN · MONEDA · COMISIÓN",
+        image: "https://828newsnow.com/wp-content/blogs.dir/282/files/2026/08/Treasury-secretary.jpg",
+        alt: "Autoridades financieras durante las reuniones del G20 que antecedieron a la semana de volatilidad",
+        body: [
+          "Un fondo monetario puede reducir variación de precio frente a un bono largo, pero sigue dependiendo de los instrumentos que compra, su moneda y sus gastos. En dólares, además, un inversor argentino tiene que separar el rendimiento del activo de la forma concreta de acceso.",
+          "Yo compararía plazo de rescate, cartera, calificación, comisión y tratamiento fiscal. La etiqueta cash no convierte todos los productos en la misma caja de ahorro."
+        ]
+      },
+      {
+        title: "La rotación regional dice más que el titular de miedo",
+        eyebrow: "EUROPA Y ASIA RECIBEN; EE.UU. DEVUELVE",
+        facts: "USD 13.090 M · USD 4.220 M · -USD 11.120 M",
+        image: "https://wlos.com/resources/media/6ab94d5f-103c-416d-ad45-121fdf27dd10-jumbo16x9_VAVLHOTELS2NDMEETING.transfer_frame_4780.jpg?1584127945984",
+        alt: "Sede de las reuniones financieras del G20 en Asheville utilizada para contextualizar el mercado global",
+        body: [
+          "Si todo fuera pánico, esperaríamos salidas indiscriminadas. En cambio, el dinero redujo exposición estadounidense y aumentó posiciones en otras regiones. Puede ser valoración, moneda, composición sectorial o una combinación de las tres.",
+          "Una semana no construye una tendencia estructural. Miraría si el patrón continúa después del dato de empleo de Estados Unidos y de las próximas cifras de inflación antes de declarar un cambio de liderazgo."
+        ]
+      }
+    ],
+    sources: [
+      { name: "U.S. Treasury — imagen institucional", url: "https://home.treasury.gov/" },
+      { name: "828newsNOW — cobertura e imagen del G20", url: "https://828newsnow.com/news/228822-asheville-gets-ready-for-g20-meetings-as-world-finance-leaders-head-to-wnc/" },
+      { name: "WLOS — sede y contexto del G20", url: "https://wlos.com/news/local/asheville-welcome-global-finance-leaders-upcoming-g20-meeting-business-central-bank-officials-helene-economy-international-conference" },
+      { name: "Reuters — flujos globales de fondos", url: "https://www.reuters.com/world/china/global-markets-flows-graphic-2026-09-04/" },
+      { name: "LSEG — datos y clasificación Lipper", url: "https://www.lseg.com/en/data-analytics/asset-management-solutions/lipper-fund-performance" }
+    ]
+  },
+  {
     slug: "gaming/the-blood-of-dawnwalker-lanzamiento",
     category: "GAMING",
     date: "3 SEP 2026",

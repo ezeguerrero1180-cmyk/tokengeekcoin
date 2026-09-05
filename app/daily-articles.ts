@@ -1,5 +1,267 @@
 export const dailyArticles = [
   {
+    slug: "gaming/dlss-5-nba-2k27-renderizado-neuronal",
+    category: "GAMING",
+    date: "5 SEP 2026",
+    dateIso: "2026-09-05T15:20:00-03:00",
+    minutes: 11,
+    title: "DLSS 5 debuta en NBA 2K27: la IA ya no sólo suma cuadros, también retoca la imagen",
+    dek: "NVIDIA estrenó su renderizado neuronal guiado por datos 3D en el juego de 2K. Promete materiales, piel e iluminación más creíbles, pero exige una RTX 50 y abre una discusión incómoda: cuánto puede cambiar la IA sin pisar la dirección artística.",
+    personalAngle: "Durante años la pregunta alrededor de DLSS fue bastante sencilla: ¿se ve casi igual y corre más rápido? Con DLSS 5 la conversación cambia. La IA ahora participa de la apariencia final de la escena, y eso me parece fascinante y peligroso a la vez. Si el resultado respeta el trabajo del estudio, puede ser un salto real; si embellece todo con el mismo filtro, terminamos comprando potencia para que un algoritmo vuelva a interpretar el juego que ya pagamos.",
+    leadEyebrow: "LA IA ENTRA AL ÚLTIMO MILISEGUNDO DEL CUADRO",
+    leadTitle: "NBA 2K27 es el primer examen público de un renderizado que quiere mejorar materiales e iluminación",
+    image: "https://i.ytimg.com/vi/LHUzFnq70b8/maxresdefault.jpg",
+    imageAlt: "NBA 2K27 ejecutándose con DLSS 5 en el tráiler oficial de lanzamiento de NVIDIA",
+    body: [
+      "NVIDIA y 2K lanzaron DLSS 5 en NBA 2K27, disponible desde el 4 de septiembre. Es el primer juego comercial que incorpora 3D-Guided Neural Rendering, una etapa de renderizado neuronal que utiliza el cuadro producido por el motor —geometría, texturas, color, vectores de movimiento e iluminación— como base para reconstruir detalles visuales en tiempo real.",
+      "La diferencia con las generaciones anteriores es importante. Super Resolution reconstruía resolución; Frame Generation fabricaba cuadros intermedios; Ray Reconstruction limpiaba el trazado de rayos. DLSS 5 intenta intervenir directamente sobre la respuesta de la luz y los materiales: dispersión de la piel, sombras de contacto, cabello, tela y reflejos. No parte de un prompt y NVIDIA insiste en que la geometría del juego sigue mandando.",
+      "En NBA 2K27 el objetivo es obvio: primeros planos de jugadores, iluminación de estadio, transpiración, camisetas y público. Visual Concepts dice que trabajó con NVIDIA para preservar los escaneos de los atletas y que el efecto es opcional. Eso último importa. Una mejora visual que no convence debería poder apagarse sin convertir el menú en una negociación.",
+      "La barrera de entrada también es clara: DLSS 5 se limita por ahora a las GPU GeForce RTX serie 50 y requiere el controlador Game Ready 616.64. NVIDIA publicita hasta 370 cuadros por segundo en 4K sobre una RTX 5090 combinando DLSS 5, Super Resolution y Multi Frame Generation. Esa cifra describe un equipo extremo y varias tecnologías activas; no representa lo que obtendrá cualquier PC.",
+      "Queda una pregunta que un tráiler no puede cerrar: la estabilidad. Una captura aislada puede mostrar una piel más realista, pero un partido exige que ese detalle permanezca consistente cuando la cámara gira, el jugador corre y la luz cambia. También habrá que medir latencia, consumo de memoria y rendimiento sin multiplicación de cuadros para saber qué parte del salto es imagen y qué parte es marketing.",
+      "Mi lectura es que estamos viendo algo más profundo que otro escalador. Si los desarrolladores conservan control granular, el renderizado neuronal puede recuperar detalles que hoy se recortan para llegar a tiempo. Pero la comparación correcta no es solamente ON contra OFF: también hay que preguntar qué quería mostrar el artista y cuánto hardware cuesta respetarlo. ¿Preferís más realismo automático o una imagen menos perfecta pero totalmente diseñada por el estudio?"
+    ],
+    features: [
+      {
+        title: "No genera la escena desde texto: trabaja sobre el cuadro del motor",
+        eyebrow: "UNA BASE 3D QUE PONE LÍMITES",
+        facts: "COLOR · MOVIMIENTO · GEOMETRÍA · ILUMINACIÓN",
+        image: "https://i.ytimg.com/vi/79D8SVjB3HQ/maxresdefault.jpg",
+        alt: "Desarrolladores de Visual Concepts explicando la integración de DLSS 5 en NBA 2K27",
+        body: [
+          "NVIDIA describe el cuadro original como una base que el modelo no puede ignorar. El motor conserva la posición de objetos, animaciones y composición; la red añade respuestas de iluminación y materiales dentro de parámetros definidos por el equipo artístico.",
+          "Esa arquitectura reduce el riesgo de ver elementos inventados, pero no lo elimina mágicamente. Lo decisivo será la estabilidad temporal y la posibilidad de que cada estudio ajuste qué puede cambiar el modelo en vez de aceptar una estética universal."
+        ]
+      },
+      {
+        title: "La RTX 5090 muestra el techo; la RTX 5060 mostrará la realidad",
+        eyebrow: "EL COSTO IMPORTA TANTO COMO LA FOTO",
+        facts: "RTX 50 · DRIVER 616.64 · EFECTO OPCIONAL",
+        image: "https://i.ytimg.com/vi/5khwlu2qD9U/maxresdefault.jpg",
+        alt: "Demostración oficial de NVIDIA con Tyrese Haliburton observando DLSS 5 en NBA 2K27",
+        body: [
+          "Los números máximos sirven para demostrar que la técnica funciona, no para decidir una compra. La prueba valiosa llegará con placas intermedias, resoluciones comunes y mediciones que separen renderizado neuronal, escalado y generación de cuadros.",
+          "Yo miraría especialmente el modo sin Multi Frame Generation. Si DLSS 5 ofrece una mejora visible manteniendo respuesta y fluidez razonables, habrá una historia técnica. Si necesita multiplicar cuadros para ocultar su costo, será una función mucho más de nicho."
+        ]
+      }
+    ],
+    sources: [
+      { name: "NVIDIA — explicación técnica de DLSS 5", url: "https://www.nvidia.com/en-us/geforce/news/dlss-5-3d-guided-neural-rendering/" },
+      { name: "NVIDIA — controlador Game Ready 616.64", url: "https://www.nvidia.com/en-us/geforce/news/nba-2k27-dlss-5-3d-guided-neural-rendering-geforce-game-ready-driver/" },
+      { name: "2K — lanzamiento oficial de NBA 2K27", url: "https://newsroom.2k.com/news/ball-over-everything-in-nbar-2k27-now-available" },
+      { name: "NVIDIA — tráiler de lanzamiento", url: "https://www.youtube.com/watch?v=LHUzFnq70b8" },
+      { name: "NVIDIA — Inside the Dev Studio", url: "https://www.youtube.com/watch?v=79D8SVjB3HQ" }
+    ]
+  },
+  {
+    slug: "gaming/playstation-descargas-agosto-madden-marvel-tokon-black-ops-2",
+    category: "GAMING",
+    date: "5 SEP 2026",
+    dateIso: "2026-09-05T15:10:00-03:00",
+    minutes: 10,
+    title: "PlayStation revela lo más descargado de agosto: Madden gana en América y Black Ops II se niega a envejecer",
+    dek: "Madden NFL 27 encabezó PS5 en Estados Unidos y Canadá, mientras Call of Duty: Black Ops II volvió a ser número uno en Europa. Marvel Tōkon debutó segundo en América y los clásicos dominaron buena parte de PS4.",
+    personalAngle: "Los rankings de descargas son mi recordatorio mensual de que la conversación en redes y lo que la gente instala no siempre viven en el mismo planeta. Agosto tuvo lanzamientos nuevos, pero Europa puso arriba a Black Ops II y las listas de PS4 siguen llenas de juegos con años encima. La novedad hace ruido; la familiaridad, el precio y jugar con amigos muchas veces hacen la venta.",
+    leadEyebrow: "NOVEDADES ARRIBA, CLÁSICOS QUE NO SUELTAN EL CONTROL",
+    leadTitle: "Tres públicos distintos aparecen detrás de las listas de PS5, PS4 y free-to-play",
+    image: "https://i.ytimg.com/vi/bqQtZ9xm_uI/maxresdefault.jpg",
+    imageAlt: "Madden NFL 27 en su tráiler oficial, juego más descargado de PS5 en Estados Unidos y Canadá durante agosto",
+    body: [
+      "Sony publicó el ranking de descargas de PlayStation Store correspondiente a agosto de 2026. En PS5, EA Sports Madden NFL 27 terminó primero en Estados Unidos y Canadá; Marvel Tōkon: Fighting Souls quedó segundo y Call of Duty: Black Ops II, tercero. En Europa, Black Ops II ocupó el primer puesto, seguido por Minecraft y Assassin's Creed Black Flag Resynced.",
+      "El contraste regional tiene lógica. Madden es una institución deportiva en América del Norte, mientras que Europa conserva una base enorme para Call of Duty y Minecraft. Lo interesante no es declarar un ganador mundial —Sony separa regiones y no publica unidades— sino observar qué juegos consiguen mantenerse visibles cuando termina la campaña de lanzamiento.",
+      "Marvel Tōkon logró un debut fuerte en América con el segundo lugar. El juego de peleas 4 contra 4 reunió una licencia gigantesca con el trabajo de Arc System Works y PlayStation Studios. La posición es una señal de curiosidad y ventas digitales, aunque todavía no informa retención, actividad online ni desempeño en PC.",
+      "La lista europea vuelve especialmente llamativo el regreso de Black Ops II. El título lideró PS5 y también apareció en los rankings de PS4. Un clásico accesible en hardware moderno puede competir contra producciones nuevas porque llega con mapas, personajes y recuerdos ya instalados en la cabeza del jugador. La preservación también es negocio.",
+      "En PS4 la nostalgia fue todavía más visible: Ghost Recon Wildlands lideró en América y Assassin's Creed Odyssey en Europa; Red Dead Redemption 2 quedó segundo en ambas regiones. En free-to-play no hubo revolución: Fortnite y Roblox ocuparon los dos primeros lugares a ambos lados del Atlántico.",
+      "No convertiría descargas en calidad. El ranking excluye paquetes con consola y mejoras, y no ofrece ingresos, precio medio ni horas jugadas. Sirve para medir atención dentro de una tienda concreta. A mí me deja una conclusión: el catálogo viejo no compite solamente por nostalgia, compite porque sigue resolviendo diversión a un precio entendible. ¿Qué te sorprende más: Madden primero en América o Black Ops II primero en Europa?"
+    ],
+    features: [
+      {
+        title: "Marvel Tōkon consigue un debut que ahora debe sostener",
+        eyebrow: "SEGUNDO EN ESTADOS UNIDOS Y CANADÁ",
+        facts: "4 VS. 4 · ARC SYSTEM WORKS · PS5 Y PC",
+        image: "https://i.ytimg.com/vi/rJqTurD4cew/maxresdefault.jpg",
+        alt: "Héroes y villanos de Marvel Tōkon Fighting Souls en el tráiler oficial de lanzamiento de PlayStation",
+        body: [
+          "Entrar segundo detrás de Madden en su mes fuerte habla de una licencia con alcance y de una propuesta visual que consiguió explicar rápido su identidad. El desafío empieza después: emparejamiento estable, equilibrio, jugadores activos y contenido que no fracture la comunidad.",
+          "Los juegos de pelea viven de una base más pequeña pero comprometida. El puesto de agosto abre la puerta; los tiempos de búsqueda y los torneos de los próximos meses dirán cuánta gente decidió quedarse."
+        ]
+      },
+      {
+        title: "Black Ops II convierte la preservación en una fuerza comercial",
+        eyebrow: "UN JUEGO VIEJO EN EL PRIMER PUESTO NUEVO",
+        facts: "N.º 1 UE · N.º 3 US/CANADÁ · CAMPAÑA, MULTI Y ZOMBIES",
+        image: "https://i.ytimg.com/vi/x3tedlWs1XY/maxresdefault.jpg",
+        alt: "Call of Duty Black Ops II en su tráiler oficial, líder de descargas de PS5 en Europa",
+        body: [
+          "La disponibilidad moderna elimina la parte más molesta de volver a un clásico: buscar una consola vieja y esperar que los servicios sigan vivos. Cuando el acceso mejora, el recuerdo puede transformarse en una descarga real y no quedarse en un video de YouTube.",
+          "También conviene mirar el precio y el estado técnico. La nostalgia no justifica cualquier tarifa ni servidores abandonados. Que el juego venda bien aumenta la responsabilidad de mantener seguridad, rendimiento y comunidad."
+        ]
+      }
+    ],
+    sources: [
+      { name: "PlayStation Blog — ranking oficial de agosto", url: "https://blog.playstation.com/2026/09/04/playstation-store-august-2026s-top-downloads/" },
+      { name: "EA Sports — tráiler oficial de Madden NFL 27", url: "https://www.youtube.com/watch?v=bqQtZ9xm_uI" },
+      { name: "PlayStation — tráiler oficial de Marvel Tōkon", url: "https://www.youtube.com/watch?v=rJqTurD4cew" },
+      { name: "Call of Duty — tráiler oficial de Black Ops II", url: "https://www.youtube.com/watch?v=x3tedlWs1XY" }
+    ]
+  },
+  {
+    slug: "finanzas/empleo-eeuu-162000-fed-tasas-septiembre",
+    category: "FINANZAS + CRIPTO",
+    date: "5 SEP 2026",
+    dateIso: "2026-09-05T15:00:00-03:00",
+    minutes: 11,
+    title: "Estados Unidos suma 162.000 empleos y complica al mercado: una buena noticia que acerca otra suba de tasas",
+    dek: "El desempleo se mantuvo en 4,1%, pero el dato superó el ritmo de los últimos doce meses. Wall Street cayó, el dólar y los rendimientos subieron, y la probabilidad implícita de un aumento de 25 puntos básicos volvió a crecer.",
+    personalAngle: "El mercado tiene días en los que parece discutir con el sentido común: aparecen 162.000 empleos nuevos y las acciones bajan. No es que trabajar sea malo. Es que una economía más resistente le da a la Reserva Federal espacio para mantener el dinero caro mientras pelea con la inflación. El dato laboral fue bueno para la calle y bastante incómodo para las valuaciones que necesitaban una tasa más amable.",
+    leadEyebrow: "EL EMPLEO RESISTE Y LA TASA RECIBE OXÍGENO",
+    leadTitle: "La economía creó más puestos, pero la composición muestra un mercado menos parejo de lo que dice el titular",
+    image: "https://s.abcnews.com/images/Business/260807_abcnl_8a_jobs_hpMain_16x9_1600.jpg",
+    imageAlt: "Gráfico televisivo del mercado laboral estadounidense con datos del Bureau of Labor Statistics",
+    body: [
+      "Las nóminas no agrícolas de Estados Unidos aumentaron en 162.000 puestos durante agosto y la tasa de desempleo permaneció en 4,1%, informó el Bureau of Labor Statistics. La creación mensual superó ampliamente el promedio de 31.000 empleos registrado durante los doce meses anteriores.",
+      "La participación laboral subió apenas hasta 61,6%, aunque todavía está medio punto porcentual por debajo de enero. El empleo no se distribuyó de manera uniforme: restaurantes y bares añadieron 59.000 puestos, la educación de gobiernos locales sumó 42.000 y salud creció en 13.000. El sector información perdió 23.000 empleos.",
+      "Esa composición merece más atención que una cifra redonda. Parte del salto en educación compensó una caída previa, mientras que las pérdidas en infraestructura informática, procesamiento de datos, hosting, publicaciones y medios muestran que la economía digital no quedó aislada del ajuste. Crear empleo y crear empleo productivo de forma amplia no son exactamente lo mismo.",
+      "La reacción financiera fue inmediata. Los principales índices de Wall Street cerraron a la baja, el rendimiento de los bonos del Tesoro y el dólar subieron, y el mercado pasó a asignar aproximadamente 58,4% de probabilidad a un aumento de 25 puntos básicos en la reunión de septiembre de la Reserva Federal, frente a 49,4% un día antes, según datos de CME citados por Reuters.",
+      "El próximo filtro será inflación. Un mercado laboral firme puede sostener consumo y salarios, pero el petróleo más caro y los rendimientos elevados vuelven más costoso el financiamiento. La Fed no decide por una sola nómina; combina empleo, precios, expectativas y condiciones financieras. El dato de agosto cambia la conversación, no firma la resolución.",
+      "Para una cartera argentina, la transmisión llega por varios canales: dólar, tasas de bonos estadounidenses, apetito por riesgo y valuaciones tecnológicas. No tomaría una probabilidad de mercado como certeza ni movería toda una posición por una rueda. Esto es información general, no asesoramiento financiero. ¿Preferís una economía con más empleo aunque retrase la baja de tasas, o creés que el mercado ya no soporta otro aumento?"
+    ],
+    features: [
+      {
+        title: "Los 162.000 puestos esconden ganadores y perdedores",
+        eyebrow: "SERVICIOS ARRIBA, INFORMACIÓN ABAJO",
+        facts: "+59.000 GASTRONOMÍA · +42.000 EDUCACIÓN · -23.000 INFORMACIÓN",
+        image: "https://www.bls.gov/opub/ted/2026/images/total-nonfarm-payroll-employment-down-by-92000-in-february-2026.png",
+        alt: "Gráfico oficial del Bureau of Labor Statistics sobre la evolución del empleo por sectores",
+        body: [
+          "El total es saludable frente al último año, pero no describe una expansión sincronizada. Restaurantes y educación pública explicaron una porción grande del avance, mientras tecnología, datos, publicaciones y contenidos recortaron puestos.",
+          "Yo seguiría las revisiones de los próximos dos informes. Las nóminas son estimaciones que se corrigen; una tendencia sólida necesita varios meses y una participación laboral que no dependa de menos personas buscando trabajo."
+        ]
+      },
+      {
+        title: "La probabilidad de la Fed es una apuesta, no una promesa",
+        eyebrow: "58,4% PARA 25 PUNTOS BÁSICOS",
+        facts: "BONOS ARRIBA · DÓLAR ARRIBA · ACCIONES ABAJO",
+        image: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inoaCEtCTrEE/v1/-1x-1.webp",
+        alt: "Operadores y pantallas de mercado durante una jornada marcada por datos laborales de Estados Unidos",
+        body: [
+          "FedWatch resume precios de futuros y cambia cada vez que llega información nueva. Es útil para conocer el consenso del mercado, pero no reemplaza el comunicado, las proyecciones ni la conferencia del banco central.",
+          "La inflación al consumidor y al productor de la próxima semana puede mover otra vez esa balanza. Apostar como si el 58,4% fuera una resolución oficial confunde un precio colectivo con una certeza."
+        ]
+      }
+    ],
+    sources: [
+      { name: "BLS — informe de empleo de agosto de 2026", url: "https://www.bls.gov/news.release/archives/empsit_09042026.htm" },
+      { name: "BLS — resumen y desglose sectorial", url: "https://www.bls.gov/news.release/empsit.nr0.htm" },
+      { name: "Reuters — reacción de Wall Street y expectativas de tasas", url: "https://www.reuters.com/business/nasdaq-sp-500-futures-climb-ahead-key-jobs-report-2026-09-04/" },
+      { name: "CME Group — FedWatch", url: "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" }
+    ]
+  },
+  {
+    slug: "finanzas/foxconn-record-agosto-demanda-servidores-ia",
+    category: "FINANZAS + CRIPTO",
+    date: "5 SEP 2026",
+    dateIso: "2026-09-05T14:50:00-03:00",
+    minutes: 10,
+    title: "Foxconn factura un récord en agosto: la fiebre de servidores de IA ya pesa tanto como la temporada del iPhone",
+    dek: "Los ingresos crecieron 51,98% interanual hasta NT$921.800 millones. La compañía espera superar las previsiones del mercado en el tercer trimestre, empujada por centros de datos y el pico estacional de electrónica.",
+    personalAngle: "Durante mucho tiempo Foxconn fue, para el público, la fábrica detrás del iPhone. El récord de agosto muestra una empresa distinta: sigue dependiendo de la electrónica de consumo, pero la infraestructura de IA ya puede mover su aguja a escala de decenas de miles de millones de dólares. El dato entusiasma; también recuerda que cada chatbot que parece vivir en el aire necesita racks, energía, refrigeración y una cadena industrial gigantesca.",
+    leadEyebrow: "LA IA SALE DE LA NUBE Y ENTRA EN LA FÁBRICA",
+    leadTitle: "Dos meses consecutivos por encima de NT$900.000 millones cambian la escala del fabricante",
+    image: "https://image.honhai.com/upload/202603/news/GTC_Foxconn_booth_2_20260317_0239.jpeg",
+    imageAlt: "Rack de servidores de IA exhibido por Foxconn en su espacio oficial de NVIDIA GTC 2026",
+    body: [
+      "Hon Hai Precision Industry, más conocida como Foxconn, informó ingresos no auditados por NT$921.800 millones —aproximadamente USD 29.150 millones— durante agosto. La cifra creció 51,98% frente al mismo mes de 2025 y marcó el mejor agosto de la historia de la compañía.",
+      "Fue además el segundo mes consecutivo por encima de NT$900.000 millones. Julio había alcanzado un récord mensual de NT$946.500 millones, con un crecimiento interanual de 54,2%. Dos registros seguidos reducen la posibilidad de que estemos mirando solamente un pedido aislado o un efecto de calendario.",
+      "La división de productos de nube y redes, donde se agrupan servidores de inteligencia artificial, fue uno de los motores principales. Foxconn fabrica sistemas para NVIDIA y otros grandes clientes, mientras los proveedores de nube aceleran centros de datos. Al mismo tiempo, agosto comienza la temporada fuerte para dispositivos de consumo antes de los lanzamientos de fin de año.",
+      "La empresa dijo que espera que el tercer trimestre supere las previsiones actuales del mercado, aunque no entregó una cifra concreta. También mantuvo una advertencia sobre la volatilidad política y económica global. Es una combinación razonable: mejor visibilidad de pedidos no elimina tarifas, monedas, restricciones comerciales ni cuellos de botella eléctricos.",
+      "El segundo trimestre ya había dejado señales de escala, con una ganancia neta 35% mayor según Reuters y resultados que superaron expectativas. Las acciones avanzaron 3,4% el viernes, por encima de la suba de 1,5% del mercado taiwanés. El precio celebró crecimiento, pero ahora necesita márgenes y continuidad, no sólo facturación.",
+      "Mi lectura es positiva para la demanda física de IA y más cuidadosa para cualquier acción individual. Foxconn demuestra que el gasto de capital está llegando a la fábrica; no prueba que todos los proyectos de IA generarán retornos ni que los márgenes crecerán al mismo ritmo que los ingresos. Información general, no recomendación. ¿Te parece más importante el récord de ventas o que los servidores reduzcan la dependencia histórica del iPhone?"
+    ],
+    features: [
+      {
+        title: "La fábrica es uno de los mejores termómetros de la IA",
+        eyebrow: "PEDIDOS QUE SE PUEDEN CONTAR EN RACKS",
+        facts: "SERVIDORES · REDES · REFRIGERACIÓN · ENSAMBLAJE",
+        image: "https://image.taiwannews.com.tw/2026%2F03%2F17%2F4fbd5c56cb814becb75426936baf24b6.jpg",
+        alt: "Solución completa de rack de inteligencia artificial de Foxconn presentada en NVIDIA GTC",
+        body: [
+          "Los anuncios de software pueden inflar expectativas antes de generar ventas. Un pedido de racks exige componentes, capacidad fabril, logística y dinero comprometido. Por eso el ingreso de un fabricante aporta una señal diferente sobre el ciclo de inversión.",
+          "Aun así, facturación no equivale a rentabilidad. Sistemas más complejos pueden venderse por mucho dinero y exigir costos altos de componentes, integración y servicio. El margen seguirá siendo la prueba que acompaña al volumen."
+        ]
+      },
+      {
+        title: "El récord llega con una concentración que no desapareció",
+        eyebrow: "GRANDES CLIENTES, GRANDES CICLOS",
+        facts: "NVIDIA · APPLE · HIPERSCALADORES · GEOPOLÍTICA",
+        image: "https://image.taiwannews.com.tw/2024%2F10%2F08%2F726b8af85cb74a68b8d6cc1895da4d3c.jpg",
+        alt: "Sistema NVIDIA GB200 NVL72 fabricado por Foxconn y exhibido durante Hon Hai Tech Day",
+        body: [
+          "Trabajar para los mayores compradores del mundo da escala y previsibilidad, pero concentra poder de negociación. Un cambio de arquitectura, proveedor o presupuesto puede sentirse rápido cuando pocos clientes explican una parte grande del crecimiento.",
+          "También hay riesgo geográfico. Estados Unidos, Taiwán, China y México forman parte de una cadena atravesada por tarifas y controles tecnológicos. El récord de agosto merece celebrarse sin olvidar que esa cadena no opera en un vacío político."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Foxconn — calendario y reporte de ingresos de agosto", url: "https://www.honhai.com/en-us/investor-relations/investor-relations-activities/event-calendar" },
+      { name: "Reuters — récord de agosto y perspectiva del tercer trimestre", url: "https://www.reuters.com/world/asia-pacific/foxconn-says-third-quarter-outperform-market-expectations-ai-strength-2026-09-05/" },
+      { name: "Foxconn — resultados oficiales del segundo trimestre", url: "https://www.honhai.com/en-us/press-center/press-releases/latest-news/2095" },
+      { name: "Foxconn — plataforma de servidores presentada en GTC", url: "https://www.honhai.com/en-us/press-center/press-releases/latest-news/1975" }
+    ]
+  },
+  {
+    slug: "finanzas/fmi-el-salvador-bitcoin-donaciones-fondos-publicos",
+    category: "FINANZAS + CRIPTO",
+    date: "5 SEP 2026",
+    dateIso: "2026-09-05T14:40:00-03:00",
+    minutes: 11,
+    title: "El FMI aclara el misterio de los bitcoins de El Salvador: crecieron por donaciones, no con fondos públicos",
+    dek: "El organismo afirmó que no se utilizaron recursos estatales para acumular BTC desde el acuerdo. La billetera Chivo pasó a control privado y, si el Directorio aprueba las revisiones, el país accederá a unos USD 140 millones adicionales.",
+    personalAngle: "El Salvador llevaba meses mostrando una reserva de Bitcoin que subía mientras su acuerdo con el FMI exigía frenar la acumulación pública. La explicación finalmente llegó: el saldo creció mediante donaciones privadas. Es una respuesta importante, aunque no cierra todas las preguntas. En cripto, saber quién puso los activos, bajo qué condiciones y quién controla las llaves vale tanto como contar las monedas.",
+    leadEyebrow: "MÁS BTC EN EL TABLERO, CERO DINERO PÚBLICO SEGÚN EL FMI",
+    leadTitle: "La aclaración despeja una contradicción contable y abre otra discusión sobre transparencia",
+    image: "https://cdn.blockmedia.co.kr/wp-content/uploads/2025/05/20250528_%EC%97%98%EC%82%B4%EB%B0%94%EB%8F%84%EB%A5%B4-IMF-1200x800.png",
+    imageAlt: "Bitcoin, la bandera de El Salvador y el emblema del FMI en una composición sobre el acuerdo financiero",
+    body: [
+      "El Fondo Monetario Internacional confirmó que no se utilizaron recursos públicos para aumentar las tenencias de Bitcoin vinculadas a El Salvador desde junio de 2025. Según la aclaración recogida por CoinDesk, los activos que aparecieron en las reservas oficiales provinieron de donaciones privadas y no de compras realizadas por el Estado.",
+      "La precisión intenta reconciliar dos hechos que parecían incompatibles. El tablero oficial mostraba una reserva creciente, mientras el programa de financiamiento por USD 1.400 millones comprometía al sector público a mantener sin cambios su exposición y reducir los riesgos fiscales asociados a Bitcoin.",
+      "El comunicado del FMI del 3 de septiembre fue explícito en otro punto: la propiedad y el control operativo de la billetera gubernamental Chivo fueron transferidos a un operador privado. El organismo considera que el programa avanza, aunque el acuerdo técnico todavía necesita aprobación del Directorio Ejecutivo y el cumplimiento de acciones previas.",
+      "Si esa revisión se completa, El Salvador recibiría alrededor de USD 140 millones, equivalentes a SDR 101,96 millones. El FMI también destacó crecimiento económico mayor al esperado y proyectó 4,5% para 2026, junto con una profundización del ajuste fiscal y reformas en pensiones, empleo público, gobernanza y administración tributaria.",
+      "La palabra donación resuelve el origen presupuestario, pero no reemplaza una auditoría pública. Sería razonable conocer donantes, fechas, condiciones, valuación de ingreso, custodio y reglas para disponer de los activos. Una reserva soberana necesita trazabilidad incluso cuando el contribuyente no pagó directamente la compra.",
+      "Mi lectura es que el acuerdo sobrevivió porque ambas partes encontraron una distinción operativa: no hubo adquisición con fondos públicos, pero el país mantuvo visible su narrativa bitcoiner. Eso puede ser jurídicamente compatible y políticamente útil; la transparencia decidirá si también es convincente. Información general, no asesoramiento financiero. ¿Te alcanza la confirmación del FMI o querés ver una auditoría completa de cada donación y movimiento?"
+    ],
+    features: [
+      {
+        title: "Donar no es comprar, pero el activo termina bajo custodia",
+        eyebrow: "EL ORIGEN CAMBIA; LA RESPONSABILIDAD PERMANECE",
+        facts: "DONANTES · LLAVES · VALUACIÓN · DESTINO",
+        image: "https://www.cointribune.com/app/uploads/2023/08/bitcoin-obligation-salvador-1024x683.png",
+        alt: "Presentación pública de la estrategia Bitcoin de El Salvador con el presidente Nayib Bukele",
+        body: [
+          "Si una entidad privada entrega Bitcoin sin contraprestación, el Tesoro no desembolsa dólares y puede cumplir la prohibición de compras. Pero desde el momento en que el activo entra en una reserva vinculada al Estado aparecen deberes de registro, custodia y rendición de cuentas.",
+          "La información más valiosa sería una lista verificable de transacciones y políticas de disposición. Una dirección pública ayuda, pero no explica por sí sola quién autorizó cada movimiento ni bajo qué marco se aceptó la donación."
+        ]
+      },
+      {
+        title: "Chivo privada cambia el riesgo, no lo hace desaparecer",
+        eyebrow: "EL ESTADO SALE DE LA OPERACIÓN DIRECTA",
+        facts: "CONTROL PRIVADO · PROTECCIÓN DEL USUARIO · SUPERVISIÓN",
+        image: "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/59/42/36/59423696-67d5-1954-4849-91dc3fd86ed5/5b84facb-0289-45ac-9b25-c288d0de11b3_01__U00284_U0029.png/392x696bb.png",
+        alt: "Interfaz pública de Chivo Wallet, la billetera cuyo control operativo fue transferido a un privado",
+        body: [
+          "Privatizar la operación reduce exposición fiscal directa, pero los usuarios todavía necesitan reglas claras sobre saldos, datos, reclamos y continuidad del servicio. Cambiar el dueño no borra la historia de una plataforma impulsada desde el Estado.",
+          "Yo miraría quién supervisa al nuevo operador y qué ocurre ante insolvencia o un incidente de seguridad. La verdadera salida pública se mide por obligaciones y garantías, no solamente por el nombre que aparece en el organigrama."
+        ]
+      }
+    ],
+    sources: [
+      { name: "FMI — acuerdo técnico sobre segunda y tercera revisión", url: "https://www.imf.org/en/news/articles/2026/09/03/pr26285-el-salvador-imf-reaches-sla-on-combined-2nd-and-3rd-rev-under-eff-arrangement" },
+      { name: "FMI — documentación del programa de El Salvador", url: "https://www.imf.org/en/countries/slv" },
+      { name: "CoinDesk — aclaración sobre donaciones de Bitcoin", url: "https://www.coindesk.com/business/2026/09/04/imf-confirms-el-salvador-s-bitcoin-growth-was-funded-by-private-donations-not-public-money" },
+      { name: "FMI — primera revisión y riesgos de Bitcoin", url: "https://www.imf.org/-/media/files/publications/cr/2025/english/1slvea2025004-source-pdf.pdf" }
+    ]
+  },
+
+  {
     slug: "gaming/final-fantasy-vii-revelation-fecha-8-abril-2027",
     category: "GAMING",
     date: "4 SEP 2026",

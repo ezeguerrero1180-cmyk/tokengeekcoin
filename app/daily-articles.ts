@@ -116,7 +116,7 @@ export const dailyArticles = [
     personalAngle: "Cada incidente cripto vuelve a producir el mismo titular perezoso: ‘hackearon Bitcoin’. No ocurrió eso. El episodio golpeó la infraestructura federada de Liquid, una red construida alrededor de Bitcoin pero con sus propios mecanismos y responsables. Esa diferencia técnica no minimiza 4.000 BTC; sirve para entender dónde estaba realmente la confianza.",
     leadEyebrow: "UNA CAPA FEDERADA BAJO EXAMEN",
     leadTitle: "La salida de fondos expone el riesgo del puente sin alterar el consenso de la red principal de Bitcoin",
-    image: "https://ww1.prweb.com/prfiles/2019/07/28/16465262/white_on_dark_rgb.jpg",
+    image: "https://liquid.net/liquid-net.png",
     imageAlt: "Identidad visual oficial de Liquid Network, la red lateral desarrollada por Blockstream",
     body: [
       "Liquid Network informó que alrededor de 4.000 de los 4.200 bitcoin alojados en su billetera de federación fueron retirados durante un incidente de seguridad. El valor estimado al momento del reporte rondaba los US$320 millones. La organización describió a los responsables como supuestos white hats, una caracterización todavía no verificada de manera independiente.",

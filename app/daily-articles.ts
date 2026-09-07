@@ -1,5 +1,271 @@
 export const dailyArticles = [
   {
+    slug: "gaming/nintendo-direct-zelda-40-aniversario-switch-2",
+    category: "GAMING",
+    date: "7 SEP 2026",
+    dateIso: "2026-09-07T12:40:00-03:00",
+    minutes: 11,
+    title: "Nintendo prepara dos Direct seguidos: Zelda cumple 40 años y Switch 2 mira al invierno",
+    dek: "La compañía confirmó una presentación de 30 minutos dedicada a The Legend of Zelda para el 8 de septiembre y otra general de 45 minutos para el día 9. Hay agenda oficial; los anuncios concretos siguen bajo llave.",
+    personalAngle: "Nintendo consiguió algo difícil: con apenas dos horarios y dos duraciones ya puso a toda su comunidad a completar los espacios en blanco. A mí también me entusiasma, pero esta vez prefiero llegar con la expectativa bien calibrada. Zelda merece una celebración grande y Switch 2 necesita una segunda mitad de año convincente; eso no convierte cada rumor en un anuncio.",
+    leadEyebrow: "SETENTA Y CINCO MINUTOS EN DOS MAÑANAS",
+    leadTitle: "Primero hablará Zelda; después llegará el panorama general de los próximos juegos de Switch 2",
+    image: "https://i.ytimg.com/vi/laVAS_S9PBk/maxresdefault.jpg",
+    imageAlt: "Placa oficial de The Legend of Zelda 40th Anniversary Direct de Nintendo",
+    body: [
+      "Nintendo confirmó dos transmisiones consecutivas para esta semana. The Legend of Zelda 40th Anniversary Direct se emitirá el martes 8 de septiembre a las 7:00 PT, 10:00 ET y 11:00 de Argentina, con una duración aproximada de 30 minutos. El miércoles 9, a la misma hora, habrá un Nintendo Direct general de unos 45 minutos centrado en juegos de Nintendo Switch 2 que llegarán durante el invierno del hemisferio norte.",
+      "La separación de las presentaciones es una señal interesante por sí sola. Zelda no ocupará un segmento dentro del Direct general: tendrá media hora exclusiva para celebrar cuatro décadas desde el lanzamiento japonés del primer juego en 1986. Nintendo no detalló contenidos, plataformas ni productos. Todo lo que vaya más allá de la fecha, el horario y la duración es, por ahora, expectativa de la comunidad.",
+      "Ese límite importa porque las redes ya mezclan posibilidades razonables con afirmaciones sin confirmar. Remakes, remasterizaciones, nuevo hardware temático, novedades de la película y rescates del catálogo aparecen en cada conversación. Pueden ocurrir, pero no forman parte del anuncio oficial. La mejor forma de disfrutar el evento será mirar lo que Nintendo efectivamente muestre y no evaluar la transmisión contra una lista inventada por terceros.",
+      "El segundo Direct tiene una misión diferente. Switch 2 ya pasó la etapa de explicar qué es la consola y ahora debe sostener una biblioteca que justifique la compra durante su siguiente temporada fuerte. Cuarenta y cinco minutos alcanzan para combinar juegos propios, socios japoneses, producciones occidentales y fechas. Nintendo sólo prometió títulos para este invierno; tampoco adelantó nombres.",
+      "Para quienes miramos desde Argentina, el costo final seguirá siendo parte de la conversación. Un calendario abundante entusiasma, pero cada anuncio también se mide contra precios regionales, almacenamiento y disponibilidad física. Me gustaría que Nintendo use parte de esos 45 minutos para dar fechas claras y explicar ediciones, porque una sorpresa sin información práctica dura apenas lo que dura el tráiler.",
+      "Mi impresión es que dividir la semana fue una buena decisión editorial: Zelda puede respirar como aniversario y el resto del catálogo no queda atrapado bajo una sola franquicia. Voy a mirar ambos Direct con entusiasmo y con una regla sencilla: celebrar lo confirmado, anotar lo que tenga fecha y dejar los rumores afuera. ¿Qué necesitás ver para sentir que Switch 2 ya tiene asegurado su próximo gran año?"
+    ],
+    features: [
+      {
+        title: "Zelda recibe un escenario propio para sus cuatro décadas",
+        eyebrow: "30 MINUTOS EL 8 DE SEPTIEMBRE",
+        facts: "7:00 PT · 10:00 ET · 11:00 ARGENTINA",
+        image: "https://i.ytimg.com/vi/S6C7og5g7Dc/maxresdefault.jpg",
+        alt: "Emisión oficial anunciada para el Direct del 40 aniversario de The Legend of Zelda",
+        body: [
+          "La franquicia nació en Japón en 1986 y atravesó generaciones enteras sin abandonar su idea central de exploración. Dedicarle una transmisión separada permite hablar de historia, presente y futuro sin convertir el aniversario en un montaje apurado.",
+          "La duración no revela cuántos anuncios habrá. Puede contener pocos segmentos extensos o una secuencia rápida de proyectos. Esa incertidumbre es parte del atractivo, siempre que recordemos que Nintendo todavía no confirmó ningún juego concreto."
+        ]
+      },
+      {
+        title: "El Direct general deberá transformar promesas en calendario",
+        eyebrow: "45 MINUTOS PARA SWITCH 2",
+        facts: "9 DE SEPTIEMBRE · JUEGOS DE INVIERNO · TRANSMISIÓN GLOBAL",
+        image: "https://i.ytimg.com/vi/B_QJ4BYIGME/maxresdefault.jpg",
+        alt: "Placa oficial del Nintendo Direct del 9 de septiembre de 2026",
+        body: [
+          "Una consola nueva no vive sólo de su lanzamiento. Necesita continuidad, variedad de géneros y razones para encenderla cada mes. Por eso el Direct general puede ser incluso más importante para el negocio que la celebración del día anterior.",
+          "Yo prestaré atención a tres cosas menos vistosas que una sorpresa: fechas cerradas, tamaño de las descargas y alcance de las ediciones físicas. Son detalles que deciden compras reales cuando termina la música del tráiler."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Nintendo — archivo oficial de Nintendo Direct", url: "https://www.nintendo.com/us/nintendo-direct/archive/" },
+      { name: "Nintendo — Zelda 40th Anniversary Direct", url: "https://www.nintendo.com/en-gb/News/Nintendo-Direct/2026/The-Legend-of-Zelda-40th-Anniversary-Direct-08-09-2026-3190030.html" },
+      { name: "Nintendo — Nintendo Direct del 9 de septiembre", url: "https://www.nintendo.com/en-gb/News/Nintendo-Direct/Latest-Nintendo-Direct/Nintendo-Direct-698557.html" },
+      { name: "Nintendo España — emisión oficial de Zelda", url: "https://www.youtube.com/watch?v=laVAS_S9PBk" },
+      { name: "Nintendo of America — emisión oficial del Direct", url: "https://www.youtube.com/watch?v=B_QJ4BYIGME" }
+    ]
+  },
+  {
+    slug: "gaming/orbitals-switch-2-cooperativo-lanzamiento",
+    category: "GAMING",
+    date: "7 SEP 2026",
+    dateIso: "2026-09-07T12:30:00-03:00",
+    minutes: 10,
+    title: "Orbitals ya despegó en Switch 2: un cooperativo que obliga a hablar con la persona de al lado",
+    dek: "El exclusivo para dos jugadores combina puzles asimétricos, exploración espacial y estética de anime retro. Maki y Omura deben salvar su estación dentro de una tormenta sobrenatural, pero cada participante ve y controla una parte distinta del problema.",
+    personalAngle: "Me gustan los juegos cooperativos que no usan al segundo jugador como una copia. Orbitals parece entender que compartir una aventura significa depender de otra persona: describir una pantalla, coordinar una herramienta y aceptar que el error también se comparte. En una época llena de mundos enormes y solitarios, esa pequeña fricción humana me resulta refrescante.",
+    leadEyebrow: "DOS PANTALLAS, UN SOLO PLAN",
+    leadTitle: "Maki y Omura necesitan habilidades diferentes para atravesar una estación atrapada en una tormenta cósmica",
+    image: "https://i.ytimg.com/vi/sAaJmrRIQrA/maxresdefault.jpg",
+    imageAlt: "Maki y Omura en el tráiler oficial de lanzamiento de Orbitals para Nintendo Switch 2",
+    body: [
+      "Orbitals ya está disponible de forma exclusiva en Nintendo Switch 2. La aventura de Kepler Interactive propone una campaña para exactamente dos jugadores, con Maki y Omura buscando ayuda para su estación hogar, atrapada dentro de una tormenta cósmica de origen sobrenatural. Su presentación mezcla ciencia ficción, animación inspirada en el anime retro y escenarios construidos alrededor de la cooperación.",
+      "La palabra importante es asimetría. Los dos jugadores no siempre reciben la misma información ni realizan la misma acción. Uno puede interpretar un panel mientras el otro manipula una máquina, conducir mientras su compañero vigila peligros o combinar herramientas para abrir una ruta. La solución no está únicamente en la pantalla: también aparece en la conversación entre ambos.",
+      "Se puede jugar en pantalla dividida sobre una misma consola y también a través de las funciones conectadas de Switch 2. La página oficial destaca GameShare y GameChat como maneras de compartir la experiencia, aunque la disponibilidad y los requisitos concretos dependen de la modalidad elegida. Antes de comprar, conviene revisar cuántas consolas, copias y suscripciones necesita el grupo.",
+      "El estilo visual hace una parte enorme del trabajo. Los colores, las siluetas mecánicas y las secuencias cinematográficas buscan el espíritu de la animación de ciencia ficción de décadas pasadas sin copiar una serie particular. No es sólo una capa nostálgica: ayuda a que cada sala tenga lectura clara aun cuando dos personas están intentando resolver cosas diferentes al mismo tiempo.",
+      "También hay un riesgo propio de todo cooperativo obligatorio: depende de encontrar a alguien con ritmo, horarios y paciencia compatibles. No existe un compañero controlado por la máquina que reemplace completamente esa dinámica. Para mí no es un defecto automático, pero sí una condición de compra que debería estar tan visible como la plataforma o el precio.",
+      "Orbitals no necesita prometer cientos de horas para justificar su lugar. Su apuesta es más íntima: que dos personas recuerden el momento en que finalmente entendieron un mecanismo porque empezaron a escucharse. Si mantiene esa creatividad durante la campaña, puede convertirse en uno de esos juegos que recomendás junto con el nombre exacto de la persona con quien deberías jugarlo."
+    ],
+    features: [
+      {
+        title: "La asimetría convierte la comunicación en una mecánica",
+        eyebrow: "NO ALCANZA CON MIRAR TU PANTALLA",
+        facts: "2 JUGADORES · PUZLES · HERRAMIENTAS COMPLEMENTARIAS",
+        image: "https://i.ytimg.com/vi/IBqFf2mXV9Y/maxresdefault.jpg",
+        alt: "Escenas cooperativas de Orbitals en el tráiler oficial de fecha de lanzamiento",
+        body: [
+          "Cuando cada jugador posee sólo una parte de la solución, explicar con claridad vale tanto como mover bien el control. Esa dependencia crea tensión, pero también historias que un modo solitario difícilmente puede fabricar.",
+          "El diseño deberá evitar que uno de los roles se vuelva espectador. Los mejores puzles asimétricos alternan responsabilidad y sorpresa para que ambos participantes sientan que la victoria les pertenece."
+        ]
+      },
+      {
+        title: "Una aventura retrofuturista construida para Switch 2",
+        eyebrow: "ANIME, ESPACIO Y JUEGO COMPARTIDO",
+        facts: "EXCLUSIVO SWITCH 2 · GAMECHAT · GAMESHARE",
+        image: "https://i.ytimg.com/vi/qGGRqF3VJEE/maxresdefault.jpg",
+        alt: "Orbitals presentado oficialmente durante un Nintendo Direct Partner Showcase",
+        body: [
+          "La exclusividad le permite apoyarse desde el inicio en las funciones sociales de la consola. Eso puede hacer más simple invitar a otra persona, siempre que Nintendo comunique sin ambigüedad los límites de cada forma de compartir.",
+          "La estética es la puerta de entrada, pero el boca a boca dependerá de los rompecabezas. Un buen cooperativo se reconoce cuando la pareja sigue discutiendo la solución después de apagar la consola."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Nintendo Australia — artículo oficial de lanzamiento", url: "https://www.nintendo.com/au/news-and-articles/blast-off-on-an-out-of-this-world-adventure-in-orbitals/" },
+      { name: "Orbitals — sitio oficial", url: "https://www.orbitalsgame.com/" },
+      { name: "Nintendo — ficha oficial de Orbitals", url: "https://www.nintendo.com/us/store/products/orbitals-switch-2/" },
+      { name: "Nintendo — tráiler oficial de lanzamiento", url: "https://www.youtube.com/watch?v=sAaJmrRIQrA" },
+      { name: "Nintendo — tráiler oficial de fecha", url: "https://www.youtube.com/watch?v=IBqFf2mXV9Y" }
+    ]
+  },
+  {
+    slug: "finanzas/liquid-network-4000-bitcoin-retiro-incidente",
+    category: "FINANZAS + CRIPTO",
+    date: "7 SEP 2026",
+    dateIso: "2026-09-07T12:20:00-03:00",
+    minutes: 12,
+    title: "Liquid Network frena transacciones tras el retiro de 4.000 bitcoin: el problema no fue Bitcoin",
+    dek: "La red lateral informó que supuestos investigadores de seguridad retiraron cerca de US$320 millones de su billetera federada. Liquid detuvo nuevas operaciones mientras Blockstream investiga; la cadena base de Bitcoin no fue vulnerada.",
+    personalAngle: "Cada incidente cripto vuelve a producir el mismo titular perezoso: ‘hackearon Bitcoin’. No ocurrió eso. El episodio golpeó la infraestructura federada de Liquid, una red construida alrededor de Bitcoin pero con sus propios mecanismos y responsables. Esa diferencia técnica no minimiza 4.000 BTC; sirve para entender dónde estaba realmente la confianza.",
+    leadEyebrow: "UNA CAPA FEDERADA BAJO EXAMEN",
+    leadTitle: "La salida de fondos expone el riesgo del puente sin alterar el consenso de la red principal de Bitcoin",
+    image: "https://ww1.prweb.com/prfiles/2019/07/28/16465262/white_on_dark_rgb.jpg",
+    imageAlt: "Identidad visual oficial de Liquid Network, la red lateral desarrollada por Blockstream",
+    body: [
+      "Liquid Network informó que alrededor de 4.000 de los 4.200 bitcoin alojados en su billetera de federación fueron retirados durante un incidente de seguridad. El valor estimado al momento del reporte rondaba los US$320 millones. La organización describió a los responsables como supuestos white hats, una caracterización todavía no verificada de manera independiente.",
+      "Como medida preventiva, la red detuvo nuevas transacciones y advirtió que las billeteras de usuarios se verán afectadas mientras continúa la respuesta. Según el comunicado citado por Reuters, los fondos salieron mediante SideSwap, un servicio autorizado para facilitar retiros, y la clave criptográfica usada en el proceso no habría sido comprometida. Esa combinación deja preguntas importantes sobre el flujo de autorización.",
+      "Liquid es una sidechain: permite mover una representación de bitcoin, L-BTC, con liquidaciones más rápidas y funciones distintas a las de la cadena principal. Para entrar y salir existe un mecanismo de anclaje administrado por una federación. El incidente ocurrió en ese perímetro. Los mineros, bloques y reglas de consenso de Bitcoin continuaron funcionando con normalidad.",
+      "La distinción es esencial para medir el riesgo. Un activo puede conservar la seguridad de su capa base y perder fondos en un puente, una billetera, un custodio o una aplicación. Cuando el usuario cambia de capa también cambia el modelo de confianza, aunque la interfaz siga mostrando las mismas tres letras: BTC.",
+      "La etiqueta white hat tampoco equivale a garantía de devolución. Describe la intención que los propios responsables dicen tener, no un resultado. Hasta que exista una restitución verificable, un informe técnico y un cronograma claro para reabrir operaciones, los afectados deben tratar la situación como un incidente activo y desconfiar de mensajes privados que ofrezcan recuperar fondos.",
+      "Mi conclusión provisional es incómoda pero útil: no alcanza con preguntar qué moneda compramos; hay que preguntar dónde está, quién autoriza su movimiento y qué pasa cuando el puente se detiene. Liquid deberá explicar la secuencia completa y demostrar que la reparación no depende sólo de una promesa. La transparencia posterior será tan importante como recuperar los bitcoin."
+    ],
+    features: [
+      {
+        title: "Una sidechain hereda el activo, no toda la seguridad",
+        eyebrow: "BTC Y L-BTC NO SON EL MISMO ENTORNO",
+        facts: "FEDERACIÓN · ANCLAJE · LIQUIDACIÓN RÁPIDA",
+        image: "https://miro.medium.com/v2/resize%3Afit%3A1400/0%2Aq2GaprHtSyFs3qeV",
+        alt: "Diagrama del mecanismo de anclaje entre Bitcoin y la red lateral Liquid",
+        body: [
+          "Al mover bitcoin hacia Liquid, el usuario obtiene L-BTC dentro de otro sistema. La paridad económica depende de que el mecanismo de entrada y salida conserve las reservas y ejecute correctamente las autorizaciones.",
+          "La cadena principal puede estar intacta mientras falla ese borde. Es la misma razón por la que un ataque a un exchange no modifica el protocolo de Bitcoin, aunque las pérdidas estén denominadas en BTC."
+        ]
+      },
+      {
+        title: "La pausa protege el sistema, pero deja usuarios esperando",
+        eyebrow: "NUEVAS TRANSACCIONES DETENIDAS",
+        facts: "~4.000 BTC · ~US$320 M · INVESTIGACIÓN ABIERTA",
+        image: "https://substackcdn.com/image/fetch/%24s_%21LbBz%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b90b3be-44e8-4e71-a533-e48d82503c57_583x560.png",
+        alt: "Interfaz de peg-out de SideSwap utilizada para convertir L-BTC en bitcoin",
+        body: [
+          "Detener operaciones evita que el daño se expanda mientras el equipo reconstruye la secuencia. Al mismo tiempo, demuestra que la disponibilidad depende de una respuesta coordinada y no sólo de bloques automáticos.",
+          "Los próximos datos decisivos serán el saldo recuperado, la vulnerabilidad exacta, el tratamiento para usuarios y una auditoría independiente. Sin ellos, cualquier lectura definitiva sería prematura."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Liquid Network — comunicado sobre el incidente", url: "https://x.com/Liquid_BTC/status/2096696272447218108" },
+      { name: "Reuters — retiro de US$320 millones en Liquid", url: "https://www.reuters.com/technology/bitcoin-based-liquid-network-says-320-million-withdrawn-hack-2026-09-07/" },
+      { name: "CoinDesk — seguimiento del incidente", url: "https://www.coindesk.com/markets/2026/09/07/bitcoin-network-used-by-exchanges-hit-by-usd320-million-exploit-hackers-claim-they-re-the-good-guys" },
+      { name: "Blockstream — documentación de Liquid", url: "https://docs.liquid.net/docs/technical-overview" },
+      { name: "Boltz — explicación visual de peg-out", url: "https://blog.boltz.exchange/p/launching-liquid-swaps-unfairly-cheap" }
+    ]
+  },
+  {
+    slug: "finanzas/petroleo-97-dolares-inflacion-bancos-centrales",
+    category: "FINANZAS + CRIPTO",
+    date: "7 SEP 2026",
+    dateIso: "2026-09-07T12:10:00-03:00",
+    minutes: 11,
+    title: "El petróleo vuelve a dictar la agenda: Brent cerca de US$97 y bancos centrales bajo presión",
+    dek: "El crudo acumula una suba cercana al 35% desde febrero y el diésel alcanzó máximos. Las bolsas europeas aflojaron mientras el mercado elevó sus apuestas de subas de tasas en Estados Unidos, Europa y Japón.",
+    personalAngle: "El petróleo tiene una manera brutal de recordarnos que la inflación no vive sólo en una planilla. Entra por el camión, el avión, el fertilizante y la factura de energía hasta aparecer en productos que jamás asociamos con un barril. Cuando Brent se acerca a US$100, una cartera deja de discutir únicamente ganancias empresariales y vuelve a mirar costos básicos.",
+    leadEyebrow: "DEL ESTRECHO DE ORMUZ A CADA PRECIO",
+    leadTitle: "La prima geopolítica del crudo complica la idea de que la inflación estaba lista para bajar",
+    image: "https://static.amundi.com/web-assets/awf-assets/research-center/styles/max_1300x1300/s3/2026-07/header.jpg.webp?itok=o7NQyE9V",
+    imageAlt: "Gráfico de Amundi sobre la volatilidad del petróleo Brent durante 2026",
+    body: [
+      "El barril de Brent operó alrededor de US$97 este lunes, aproximadamente 35% por encima de su nivel de febrero, según el reporte global de Reuters. La tensión naval entre Estados Unidos e Irán volvió a incorporar una prima por interrupciones de suministro, mientras el diésel —clave para transporte e industria— marcó precios récord.",
+      "Las acciones europeas cedieron cerca de 0,1% en una sesión de menor actividad en Estados Unidos por el feriado. El movimiento parece pequeño, pero la señal importante está debajo: inversores que esperaban un descenso ordenado de inflación ahora recalculan márgenes, consumo y tasas con una energía mucho más cara.",
+      "El petróleo no llega al índice de precios por un solo canal. Aumenta el costo directo del combustible, encarece mover mercadería, presiona la generación eléctrica en algunos países y eleva insumos petroquímicos. Las empresas pueden absorber parte del golpe, trasladarlo al consumidor o reducir producción; ninguna alternativa es especialmente amable con las valuaciones.",
+      "El mercado monetario ya reaccionó. Las probabilidades implícitas citadas por Reuters apuntaban a un 58% de chance de suba de la Reserva Federal en su próxima reunión y a un 75% para el Banco de Japón. En Europa, los operadores esperaban que el Banco Central Europeo llevara su tasa al 2,75%. No son decisiones confirmadas, sino precios que pueden cambiar con el próximo dato.",
+      "Para Argentina, el efecto no es lineal. Un crudo alto puede mejorar ingresos de productores y proyectos exportadores, pero también encarecer logística, importar inflación y endurecer las condiciones financieras mundiales. Una empresa energética y el bolsillo de un consumidor pueden vivir el mismo barril como noticias opuestas.",
+      "Yo evitaría dos reflejos: comprar cualquier acción petrolera sólo porque subió el barril o vender todo activo de riesgo por una jornada roja. Lo sensato es mirar duración del shock, inventarios, rutas marítimas y capacidad de las compañías para trasladar costos. US$97 es una fotografía; la inversión depende de cuánto tiempo permanezca allí y de qué política monetaria provoque."
+    ],
+    features: [
+      {
+        title: "El diésel conecta la geopolítica con la economía cotidiana",
+        eyebrow: "TRANSPORTE, INDUSTRIA Y ALIMENTOS",
+        facts: "BRENT ~US$97 · +35% DESDE FEBRERO · DIÉSEL EN MÁXIMOS",
+        image: "https://i.ytimg.com/vi/wIkxUaebB5c/maxresdefault.jpg",
+        alt: "Reporte internacional sobre suministro y demanda de petróleo durante el conflicto con Irán",
+        body: [
+          "El consumidor no compra barriles, pero paga todo lo que viaja gracias a ellos. Por eso el diésel suele ser un termómetro más cercano del impacto económico que la cotización titular del Brent.",
+          "Si el alza persiste, las compañías con poco margen y mucha logística enfrentan la decisión más difícil: subir precios y arriesgar demanda o absorber el costo y reducir rentabilidad."
+        ]
+      },
+      {
+        title: "Las tasas vuelven a depender de un dato que ningún banco central controla",
+        eyebrow: "LA ENERGÍA CAMBIA EL MAPA MONETARIO",
+        facts: "FED 58% · BOJ 75% · BCE 2,75% ESPERADO",
+        image: "https://i.ytimg.com/vi/eyNu0y0i-yk/maxresdefault.jpg",
+        alt: "Cobertura sobre el impacto del conflicto en la demanda y el precio mundial del petróleo",
+        body: [
+          "Una autoridad monetaria no puede producir crudo, pero sí intenta impedir que el shock se convierta en aumentos persistentes de salarios y precios. Esa respuesta suele enfriar también inversión y consumo.",
+          "Las probabilidades de mercado no son pronósticos infalibles. El IPC estadounidense y las señales de actividad pueden moverlas con rapidez; conviene leerlas como expectativas actuales, no como un calendario cerrado."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — mercados globales, petróleo e inflación", url: "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-07/" },
+      { name: "Reuters — rupia, intervención y presión del crudo", url: "https://www.reuters.com/world/india/rupee-may-withstand-oil-fed-pressures-with-rbi-support-2026-09-07/" },
+      { name: "Amundi Investment Institute — volatilidad del petróleo", url: "https://research-center.amundi.com/article/tensions-flare-amid-fragile-ceasefire" },
+      { name: "IEA — Oil Market Report", url: "https://www.iea.org/reports/oil-market-report-september-2026" },
+      { name: "Reuters — cobertura audiovisual de oferta y demanda", url: "https://www.youtube.com/watch?v=wIkxUaebB5c" }
+    ]
+  },
+  {
+    slug: "finanzas/india-rbi-retira-liquidez-record-6-billones-rupias",
+    category: "FINANZAS + CRIPTO",
+    date: "7 SEP 2026",
+    dateIso: "2026-09-07T12:00:00-03:00",
+    minutes: 11,
+    title: "India retira más de 6 billones de rupias del sistema: cuando sobra dinero también aparece un problema",
+    dek: "El RBI absorbió unos US$63.500 millones después de que la liquidez bancaria trepara a un récord de 11,6 billones de rupias. Las subastas revelaron una tensión poco intuitiva: había demasiado efectivo, pero los bancos no querían inmovilizarlo por 30 días.",
+    personalAngle: "Estamos acostumbrados a leer que un banco central ‘inyecta liquidez’ como si fuera abrir una canilla. India muestra la escena inversa: entró tanto dinero que la autoridad monetaria tuvo que aspirarlo a una escala enorme. Lo interesante no es sólo el monto; es que los bancos aceptaron prestarlo por una noche mucho más fácilmente que por un mes.",
+    leadEyebrow: "UNA ASPIRADORA MONETARIA DE US$63.500 MILLONES",
+    leadTitle: "El excedente llegó a casi 4% de los depósitos bancarios y obligó al RBI a actuar en dos plazos",
+    image: "https://www.indiancooperative.com/wp-content/uploads/2021/12/RBII.jpg",
+    imageAlt: "Edificio de la sede del Reserve Bank of India en Mumbai",
+    body: [
+      "El Reserve Bank of India retiró más de 6 billones de rupias —unos US$63.530 millones— del sistema bancario después de que el excedente de liquidez alcanzara un récord de 11,6 billones. Esa reserva sobrante equivalía a casi 4% de los depósitos de los bancos, una magnitud capaz de distorsionar tasas de corto plazo y alimentar presiones inflacionarias.",
+      "La absorción se dividió en dos operaciones de reverse repo variable. Las entidades colocaron 2,59 billones de rupias a 30 días y, horas después, ofrecieron 3,53 billones en una subasta de un día. En términos simples, el banco central recibió temporalmente efectivo de las entidades y entregó activos a cambio, sacando ese dinero de circulación.",
+      "La diferencia entre plazos cuenta una historia. El RBI había ofrecido retirar hasta 7 billones durante 30 días, pero recibió mucho menos. Operadores citados por Reuters hablaron de dificultades técnicas; una fuente familiarizada con el sistema negó que hubiera fallas. Más allá de la disputa, los bancos también tenían un incentivo evidente para no inmovilizar todo su excedente durante un mes.",
+      "El diluvio de rupias surgió en parte de esquemas externos extraordinarios que atrajeron alrededor de US$136.000 millones. Al convertir esos dólares, el sistema recibió moneda local. Lo que era una entrada de divisas positiva generó un segundo trabajo para la autoridad: esterilizar el efectivo para que no empujara las tasas por debajo del nivel deseado.",
+      "India ya había absorbido más de 8,5 billones de rupias mediante distintas operaciones y el mercado espera nuevas herramientas, desde bonos de estabilización hasta swaps de venta y recompra. Cada instrumento cambia el plazo y el costo, pero persigue el mismo objetivo: que la abundancia puntual de dinero no reescriba accidentalmente la política monetaria.",
+      "La lección trasciende India. Liquidez no es lo mismo que riqueza productiva y más dinero disponible no siempre es una buena noticia. Si el excedente aparece demasiado rápido, puede comprimir tasas, inflar activos y debilitar el control sobre precios. A mí me interesa especialmente la preferencia por el plazo corto: muestra que, aun nadando en efectivo, los bancos valoran conservar una salida cercana."
+    ],
+    features: [
+      {
+        title: "El reverse repo permite estacionar efectivo en el banco central",
+        eyebrow: "RETIRAR HOY PARA DEVOLVER DESPUÉS",
+        facts: "₹3,53 BILLONES A UN DÍA · ₹2,59 BILLONES A 30 DÍAS",
+        image: "https://miro.medium.com/v2/resize%3Afit%3A629/1%2Ar3KFyDgUgZ2DtJPUHIUiVw.png",
+        alt: "Fachada histórica de la sede del Reserve Bank of India",
+        body: [
+          "En una operación inversa de recompra, los bancos colocan fondos en la autoridad monetaria a cambio de títulos y una rentabilidad. Mientras dura el acuerdo, ese efectivo deja de presionar el mercado interbancario.",
+          "El plazo define flexibilidad. Una noche permite recuperar el dinero enseguida; 30 días ofrece mayor estabilidad al RBI, pero obliga a la entidad participante a renunciar durante más tiempo a otras oportunidades."
+        ]
+      },
+      {
+        title: "Una entrada de dólares puede terminar creando exceso de rupias",
+        eyebrow: "EL OTRO LADO DEL FLUJO EXTERNO",
+        facts: "US$136.000 M EN ESQUEMAS · ₹11,6 BILLONES DE EXCEDENTE",
+        image: "https://cloudfront-us-east-2.images.arcpublishing.com/reuters/SJTBOWN62NMHBD6RHSWQBFZH7U.jpg",
+        alt: "Símbolo de la rupia y emblema del Reserve Bank of India en su sede de Mumbai",
+        body: [
+          "Cuando el banco central cambia divisas por moneda local, aumenta la cantidad de rupias en el sistema. Si el flujo es excepcional, la esterilización posterior evita que esa expansión interfiera con la tasa de política.",
+          "No todo el excedente desaparecerá con una sola subasta. La combinación de vencimientos y nuevas entradas obliga a administrar la liquidez como un proceso, no como un botón que se pulsa una vez."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — RBI retira más de 6 billones de rupias", url: "https://www.reuters.com/world/india/india-rbi-announces-overnight-cash-withdrawal-after-technical-glitch-30-day-2026-09-07/" },
+      { name: "Reuters — diseño de la subasta a 30 días", url: "https://www.reuters.com/world/india/indias-rbi-taps-longer-duration-reverse-repo-absorb-liquidity-offers-early-exit-2026-09-04/" },
+      { name: "Reuters — cómo India enfrenta el exceso de liquidez", url: "https://www.reuters.com/world/india/how-indias-rbi-could-tackle-liquidity-deluge-triggered-by-dollar-deposits-2026-09-03/" },
+      { name: "Reserve Bank of India — marco de gestión de liquidez", url: "https://m.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=61317" },
+      { name: "Livemint — contexto de la subasta por 7 billones", url: "https://www.livemint.com/industry/banking/rbi-steps-up-liquidity-absorption-with-rs-7-trillion-30-day-reverse-repo-auction-11788544510985.html" }
+    ]
+  },
+
+  {
     slug: "gaming/dlss-5-nba-2k27-renderizado-neuronal",
     category: "GAMING",
     date: "5 SEP 2026",

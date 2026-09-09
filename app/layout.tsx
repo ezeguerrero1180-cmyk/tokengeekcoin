@@ -3,7 +3,8 @@ import "./globals.css";
 import "./v1-articles.css";
 import "./magazine-geek.css";
 import CookieConsent from "./cookie-consent";
-import AdsenseLoader from "./adsense-loader";
+
+const ADSENSE_CLIENT = "ca-pub-2403075217116144";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.tokengeekcoin.com"),
@@ -18,4 +19,4 @@ export const metadata: Metadata = {
   other:{"google-adsense-account":"ca-pub-2403075217116144"}
 };
 
-export default function RootLayout({children}:{children:React.ReactNode}) { return <html lang="es-AR"><head><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700;1,800&family=JetBrains+Mono:wght@600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"/></head><body>{children}<CookieConsent/><AdsenseLoader/></body></html>; }
+export default function RootLayout({children}:{children:React.ReactNode}) { return <html lang="es-AR"><head><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700;1,800&family=JetBrains+Mono:wght@600;700&family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap"/><script dangerouslySetInnerHTML={{__html:`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',analytics_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',wait_for_update:500});`}}/><script async crossOrigin="anonymous" src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}/></head><body>{children}<CookieConsent/></body></html>; }

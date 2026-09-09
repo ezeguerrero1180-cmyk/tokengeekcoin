@@ -4,6 +4,7 @@ import "./v1-articles.css";
 import "./magazine-geek.css";
 import CookieConsent from "./cookie-consent";
 
+// Identificador público verificado también mediante /ads.txt.
 const ADSENSE_CLIENT = "ca-pub-2403075217116144";
 
 export const metadata: Metadata = {

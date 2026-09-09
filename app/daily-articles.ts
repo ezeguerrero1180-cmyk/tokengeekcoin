@@ -1,5 +1,271 @@
 export const dailyArticles = [
   {
+    slug: "gaming/zelda-ocarina-of-time-remake-fecha-switch-2",
+    category: "GAMING",
+    date: "9 SEP 2026",
+    dateIso: "2026-09-09T08:40:00-03:00",
+    minutes: 12,
+    title: "Ocarina of Time vuelve el 5 de noviembre: Nintendo rehace un clásico sin esconder su edad",
+    dek: "El remake exclusivo de Switch 2 suma gráficos reconstruidos, voces, música orquestal, cámara libre y ayudas opcionales. La edición digital costará US$59,99 y la física, US$69,99.",
+    personalAngle: "Rehacer Ocarina of Time debe ser parecido a restaurar una casa donde millones de personas creen haber vivido. Cada textura vieja tiene un recuerdo y cada cambio puede sentirse como una intrusión. Lo que mostró Nintendo me interesa porque moderniza la experiencia sin fingir que el diseño de 1998 necesita pedir perdón por existir.",
+    leadEyebrow: "HYRULE REGRESA CON VOCES Y CÁMARA LIBRE",
+    leadTitle: "Nintendo promete una interpretación fiel que cambia la presentación, pero conserva la estructura de la aventura",
+    image: "https://i.ytimg.com/vi/wuFfiTEr2yc/maxresdefault.jpg",
+    imageAlt: "Link en el tráiler oficial del remake de The Legend of Zelda Ocarina of Time para Switch 2",
+    body: [
+      "Nintendo confirmó que The Legend of Zelda: Ocarina of Time llegará a Switch 2 el 5 de noviembre de 2026. El anuncio formó parte de la presentación por los 40 años de la serie y cerró una espera que comenzó cuando la compañía mostró el proyecto en junio. Esta vez hubo fecha, gameplay y una explicación más concreta de qué significa rehacer el juego de Nintendo 64.",
+      "La reconstrucción incluye gráficos completamente renovados, escenas con voces, diálogos ampliados y música interpretada de forma orquestal. También incorpora cámara libre y controles de movimiento revisados. No se trata simplemente de ejecutar el original con mayor resolución: Nintendo está volviendo a producir su imagen y sonido para una consola moderna.",
+      "Los cambios de accesibilidad parecen pensados para dos públicos distintos. Threads of Time funciona como guía opcional para quien se pierda en la secuencia de la aventura, mientras Link puede tararear melodías aprendidas en vez de obligar siempre al jugador a reproducirlas nota por nota. Quien quiera la experiencia más cercana a 1998 podrá ignorar esas ayudas.",
+      "Eiji Aonuma describió el proyecto como una interpretación fiel con tecnología moderna. Esa elección de palabras fija una frontera: no promete un Hyrule abierto al estilo Breath of the Wild ni una historia reescrita, sino la misma aventura con nuevas herramientas. El desafío será mantener el ritmo deliberado del original sin que los pasillos, combates y transiciones se sientan rígidos en 2026.",
+      "El precio también forma parte del debate. La versión digital se anunció a US$59,99 y la edición física a US$69,99. En Argentina, el costo final dependerá de impuestos, tipo de cambio y disponibilidad local. Para quienes ya acceden al original mediante Nintendo Switch Online, la pregunta no será si Ocarina sigue siendo bueno, sino cuánto valor agregan esta producción y sus cambios.",
+      "Yo no necesito que el remake reemplace al juego de 1998. Prefiero que convivan: uno como documento de su época y otro como puerta para una generación que no quiere pelear con una cámara diseñada hace casi treinta años. Si Nintendo conserva la extrañeza, la melancolía y los silencios de Hyrule, los polígonos nuevos tendrán sentido. ¿Lo jugarías por primera vez o para comprobar si tu recuerdo todavía cabe dentro?"
+    ],
+    features: [
+      {
+        title: "La modernización más importante puede ser la cámara",
+        eyebrow: "MOVERSE SIN LUCHAR CONTRA 1998",
+        facts: "CÁMARA LIBRE · CONTROL REVISADO · SALTO MANUAL",
+        image: "https://i.ytimg.com/vi/PQvD3p2yGwc/maxresdefault.jpg",
+        alt: "Eiji Aonuma demostrando el gameplay renovado de Ocarina of Time en Switch 2",
+        body: [
+          "El sistema Z-targeting del original fue revolucionario, pero también nació para resolver las limitaciones de una cámara sin segundo stick. Una cámara libre puede hacer que explorar y combatir resulte natural sin tocar la arquitectura de cada templo.",
+          "La inclusión de un salto mediante botón parece pequeña y cambia mucho la sensación de control. Nintendo tendrá que evitar que esa libertad rompa acertijos construidos alrededor de movimientos automáticos."
+        ]
+      },
+      {
+        title: "Threads of Time propone ayudar sin resolver por el jugador",
+        eyebrow: "UNA GUÍA QUE SE PUEDE APAGAR",
+        facts: "PISTAS OPCIONALES · DIÁLOGO AMPLIADO · MÚSICA ORQUESTAL",
+        image: "https://i.ytimg.com/vi/A0WX-jsir94/maxresdefault.jpg",
+        alt: "Presentación oficial del 40 aniversario de Zelda donde Nintendo mostró el remake",
+        body: [
+          "Ocarina pertenece a una época en la que quedarse trabado era parte aceptada del viaje. Una ayuda opcional puede abrir el juego a lectores más jóvenes sin borrar el placer de descubrir por cuenta propia.",
+          "El verdadero examen estará en las voces y la música. Agregar sonido donde antes había espacio para imaginar exige una dirección muy cuidadosa para no convertir la atmósfera en ruido permanente."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Nintendo — página oficial del Direct de Zelda", url: "https://www.nintendo.com/us/nintendo-direct/9-8-2026/" },
+      { name: "Nintendo — anuncio japonés de Ocarina of Time", url: "https://www.nintendo.com/jp/topics/article/5101983a-3ed1-4033-841f-c7c80486bfdc" },
+      { name: "Nintendo — tráiler oficial de fecha", url: "https://www.youtube.com/watch?v=wuFfiTEr2yc" },
+      { name: "The Verge — fecha, precio y funciones del remake", url: "https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer" },
+      { name: "Polygon — anuncios del Zelda Direct", url: "https://www.polygon.com/zelda-direct-2026-announcements-reveals-trailers/" }
+    ]
+  },
+  {
+    slug: "gaming/valheim-1-0-deep-north-ps5-switch-2-crossplay",
+    category: "GAMING",
+    date: "9 SEP 2026",
+    dateIso: "2026-09-09T08:30:00-03:00",
+    minutes: 11,
+    title: "Valheim llega a la versión 1.0: cinco años después, el norte finalmente deja de ser un borde vacío",
+    dek: "Deep North completa la progresión del survival vikingo con nuevos enemigos, armas y construcciones. El lanzamiento incorpora PS5 y Switch 2, y mantiene juego cruzado con PC, Mac, Linux y Xbox.",
+    personalAngle: "Valheim fue uno de esos Early Access que se sintieron enormes incluso cuando todavía estaban incompletos. Por eso la versión 1.0 no es un certificado burocrático: es la promesa de que el viaje ya tiene un último horizonte. Me alegra que Iron Gate haya tardado lo necesario, aunque ahora debe demostrar que ese final está a la altura de cinco años de historias creadas por la comunidad.",
+    leadEyebrow: "EL ÚLTIMO BIOMA ABRE SUS PUERTAS",
+    leadTitle: "Deep North cierra la ruta principal mientras el juego suma dos consolas y crossplay total",
+    image: "https://img2.storyblok.com/fit-in/1920x1080/f/157036/6001x3323/1f79e49ebe/deep-north-art-2.jpg",
+    imageAlt: "Arte oficial de Deep North, el bioma final incluido en Valheim 1.0",
+    body: [
+      "Valheim abandona hoy el acceso anticipado y estrena su versión 1.0 junto con Deep North. El juego de supervivencia de Iron Gate comenzó su recorrido público en febrero de 2021 y fue creciendo por biomas, sistemas y actualizaciones. La región congelada completa ahora el arco de progresión planeado para la aventura principal.",
+      "Deep North añade enemigos, materiales, armas y piezas de construcción dentro de un paisaje de hielo, niebla y auroras. La expectativa no está únicamente en la cantidad de contenido, sino en cómo conecta con todo lo anterior. Llegar hasta el norte supone haber atravesado praderas, pantanos, montañas y tierras hostiles; el nuevo territorio debe sentirse como culminación y no como un paquete aislado.",
+      "La versión completa se publica en PC, Linux, Mac, Xbox One y Xbox Series X|S, y suma PlayStation 5 y Nintendo Switch 2. Iron Gate confirmó crossplay entre todas las plataformas. Esa decisión vale más que cualquier lista de objetos nuevos para grupos que durante años estuvieron separados por la consola elegida.",
+      "Los veteranos enfrentan una pregunta práctica: continuar su mundo o empezar otro. Las grandes actualizaciones de Valheim suelen generar contenido nuevo en áreas que todavía no fueron exploradas. Quien haya recorrido extensamente el extremo norte debería leer las indicaciones oficiales y guardar una copia antes de actualizar. Un mundo con cientos de horas merece una precaución de cinco minutos.",
+      "Llegar a 1.0 tampoco significa que desaparezcan todos los problemas ni que el desarrollo termine para siempre. Significa que Iron Gate considera completa la experiencia base que vende. El rendimiento en Switch 2, la estabilidad del juego cruzado y el equilibrio del contenido final serán pruebas más útiles que el número estampado en el menú.",
+      "Mi regreso será con un personaje nuevo y un mundo limpio. No porque quiera borrar lo construido, sino porque Valheim funciona mejor cuando una choza torcida vuelve a sentirse como un logro. Deep North estará lejos, pero saber que existe un final cambia todo el viaje. Después de cinco años, el desafío es simple de decir y difícil de cumplir: cerrar una saga sin cerrar la puerta a las historias de los jugadores."
+    ],
+    features: [
+      {
+        title: "Deep North debe funcionar como final, no sólo como otro clima",
+        eyebrow: "HIELO AL FINAL DE LA PROGRESIÓN",
+        facts: "NUEVOS ENEMIGOS · ARMAS · CONSTRUCCIÓN",
+        image: "https://i.ytimg.com/vi/ILOO3PH6VAo/maxresdefault.jpg",
+        alt: "Deep North en el tráiler animado oficial de Valheim",
+        body: [
+          "Cada bioma de Valheim enseña un peligro nuevo y obliga a revisar comida, armadura y estrategia. El último necesita combinar esa identidad propia con una recompensa emocional para quienes llegaron desde la primera piedra.",
+          "La dificultad no debería depender sólo de enemigos con más vida. Terreno, visibilidad, temperatura y logística pueden hacer del frío una amenaza más interesante que una barra de daño inflada."
+        ]
+      },
+      {
+        title: "El crossplay convierte el lanzamiento en una reunión",
+        eyebrow: "SIETE PLATAFORMAS, EL MISMO MUNDO",
+        facts: "PC · MAC · LINUX · XBOX · PS5 · SWITCH 2",
+        image: "https://i.ytimg.com/vi/eWULkdcaR5o/maxresdefault.jpg",
+        alt: "Valheim 1.0 y Deep North en el tráiler oficial de fecha de lanzamiento",
+        body: [
+          "Sumar PS5 y Switch 2 multiplica la cantidad de grupos posibles. Que todos puedan compartir servidor evita el castigo habitual de recomprar hardware o dejar a un amigo afuera.",
+          "La condición será que la experiencia se mantenga estable en máquinas tan distintas. Interfaz, rendimiento y administración de servidores importarán tanto como el contenido nuevo."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Iron Gate — anuncio oficial de fecha", url: "https://www.valheimgame.com/news/valheim-has-a-release-date-/" },
+      { name: "Iron Gate — sitio oficial de Valheim", url: "https://www.valheimgame.com/" },
+      { name: "Iron Gate — tráiler oficial de Deep North", url: "https://www.youtube.com/watch?v=ILOO3PH6VAo" },
+      { name: "PC Gamer — calendario y lanzamiento de Valheim 1.0", url: "https://www.pcgamer.com/games/pc-game-release-dates-september-2026/" },
+      { name: "GamesRadar — cinco años de acceso anticipado", url: "https://www.gamesradar.com/games/survival/after-over-5-years-in-early-access-valheim-1-0-launches-in-september-with-its-final-biome-update-deep-north/" }
+    ]
+  },
+  {
+    slug: "finanzas/clarity-act-cripto-bancos-voto-senado-septiembre",
+    category: "FINANZAS + CRIPTO",
+    date: "9 SEP 2026",
+    dateIso: "2026-09-09T08:20:00-03:00",
+    minutes: 12,
+    title: "El CLARITY Act llega a su semana decisiva: cripto y bancos pelean por los mismos senadores",
+    dek: "El Senado estadounidense prevé una votación procesal el 15 de septiembre. La industria cripto busca reglas claras; los bancos comunitarios advierten por depósitos, crédito y recompensas de tokens. Hacen falta 60 votos para avanzar.",
+    personalAngle: "Las leyes financieras suelen parecer aburridas hasta que uno descubre quién está peleando por cada palabra. En el CLARITY Act no discuten únicamente si un token es valor o commodity: discuten quién puede captar dinero, pagar recompensas y quedarse con la relación diaria del cliente. Por eso la campaña salió de Washington y llegó a las oficinas locales de los senadores.",
+    leadEyebrow: "UNA VOTACIÓN PROCESAL CON EFECTO DE REFERÉNDUM",
+    leadTitle: "El 15 de septiembre no se aprueba la ley, pero puede definirse si todavía tiene camino durante 2026",
+    image: "https://www.reuters.com/resizer/v2/E7G6IWHRTRI5VPII5AN26LDWI4.jpg?auth=62f51375eb62ae3a149c46241e8bb5a024279fd4043c6c21bb1d36a1e8536f8a&quality=80&width=1920",
+    imageAlt: "Representación de criptomonedas utilizada por Reuters para ilustrar el debate del CLARITY Act",
+    body: [
+      "La industria de activos digitales y los bancos estadounidenses intensificaron su presión antes de la votación prevista para el 15 de septiembre sobre el Digital Asset Market CLARITY Act. El paso será procesal: el Senado decidirá si limita el debate sobre la moción para comenzar a considerar el proyecto. No es la aprobación final de la ley.",
+      "Para superar esa instancia generalmente se necesitan 60 votos. Los republicanos no pueden alcanzarlos solos y también existen dudas dentro de su propio bloque. El calendario aumenta la tensión: si el trámite vuelve a frenarse cerca de las elecciones de noviembre, completar la legislación durante 2026 se vuelve mucho más difícil.",
+      "Las empresas cripto sostienen que el proyecto aclararía qué activos supervisa la SEC, cuáles corresponden a la CFTC y bajo qué reglas pueden operar las plataformas. Stand With Crypto aseguró que sus seguidores contactaron a legisladores casi 50.000 veces durante agosto. El sector ya destinó al menos US$190 millones al ciclo electoral, según Reuters.",
+      "Los bancos comunitarios plantean otro riesgo. Temen que determinadas recompensas sobre tokens estables compitan con los depósitos tradicionales, retirando fondos que luego financian préstamos a familias y comercios. Su campaña busca que los senadores no lean la discusión como innovación contra atraso, sino como una decisión sobre quién sostiene el crédito local.",
+      "También persisten objeciones sobre prevención de lavado, finanzas descentralizadas y conflictos de interés de funcionarios. Tener reglas claras no significa necesariamente tener reglas débiles, y ése es el punto que el texto todavía no logró resolver para suficientes legisladores. Una ley amplia necesita proteger al usuario sin hacer imposible desarrollar software abierto.",
+      "Mi lectura es que el precio de Bitcoin puede reaccionar al titular, pero la historia más grande está en la estructura que quedaría después. El 15 no entrega automáticamente seguridad jurídica ni convierte tokens en commodities; apenas abre o cierra una puerta parlamentaria. Para evaluar el resultado habrá que leer enmiendas, votos y texto final, no un gráfico de cinco minutos."
+    ],
+    features: [
+      {
+        title: "Cripto pide certeza; los bancos temen perder depósitos",
+        eyebrow: "DOS MODELOS COMPITEN POR EL MISMO DÓLAR",
+        facts: "RECOMPENSAS · STABLECOINS · CRÉDITO LOCAL",
+        image: "https://pbs.twimg.com/media/HJgfzRaaoAAiGNj.png",
+        alt: "Jamie Dimon y Brian Armstrong representando el choque entre bancos y empresas cripto",
+        body: [
+          "Una recompensa pagada por una plataforma parece un beneficio simple para el usuario. Para un banco pequeño puede significar depósitos que salen y menos capacidad de prestar dentro de su comunidad.",
+          "La regulación debe separar competencia legítima de arbitraje. Prohibir por proteger incumbentes frena innovación; ignorar el efecto sobre respaldo y liquidez puede trasladar el riesgo al público."
+        ]
+      },
+      {
+        title: "La votación del 15 es el comienzo, no la meta",
+        eyebrow: "60 VOTOS PARA ABRIR EL DEBATE",
+        facts: "CLOTURE · MOCIÓN PARA PROCEDER · ENMIENDAS PENDIENTES",
+        image: "https://asset.coinness.com/news-content/019c2b2e-ae2a-72c0-960a-c37600bcfb62.webp",
+        alt: "Capitolio de Estados Unidos durante el debate legislativo sobre regulación cripto",
+        body: [
+          "Superar el umbral permitiría continuar con debate y enmiendas. Después todavía haría falta una votación de aprobación y resolver diferencias legislativas antes de llegar a la firma presidencial.",
+          "Un fracaso tampoco borra el tema. La SEC y la CFTC seguirán regulando mediante sus propias normas, pero la ausencia de una ley mantendría zonas grises que cada empresa interpreta a su riesgo."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — ofensiva de lobby antes del voto", url: "https://www.reuters.com/legal/government/crypto-banks-take-lobbying-war-us-senators-home-states-ahead-key-vote-2026-09-09/" },
+      { name: "Congress.gov — texto y trámite de H.R. 3633", url: "https://www.congress.gov/bill/119th-congress/house-bill/3633" },
+      { name: "House Financial Services — resumen del CLARITY Act", url: "https://financialservices.house.gov/clarityact/" },
+      { name: "Reuters — antecedentes del retraso en el Senado", url: "https://www.reuters.com/legal/litigation/crypto-bill-faces-long-odds-after-senate-punts-vote-september-2026-08-10/" },
+      { name: "Reuters — objeciones sobre stablecoins y regulación", url: "https://www.reuters.com/legal/transactional/are-stablecoins-legitimizing-future-digital-asset-transactions--pracin-2026-09-03/" }
+    ]
+  },
+  {
+    slug: "finanzas/zcash-etf-500-millones-zcsh-grayscale",
+    category: "FINANZAS + CRIPTO",
+    date: "9 SEP 2026",
+    dateIso: "2026-09-09T08:10:00-03:00",
+    minutes: 11,
+    title: "El ETF de Zcash supera US$500 millones: un gran número que no equivale a US$500 millones de compras nuevas",
+    dek: "ZCSH alcanzó el hito dos semanas después de cotizar en NYSE Arca y ya mantiene más de 550.000 ZEC. Hubo más de US$70 millones de entradas externas y un aporte en especie de US$100 millones desde una afiliada de DCG.",
+    personalAngle: "Los activos bajo gestión son uno de los números más fáciles de usar mal. Ver US$500 millones invita a imaginar medio billón de dólares entrando desde inversores nuevos, pero el fondo también crece cuando sube Zcash y cuando una afiliada aporta tokens que ya tenía. El hito importa; entender sus piezas importa mucho más.",
+    leadEyebrow: "PRIVACIDAD CRIPTO DENTRO DE WALL STREET",
+    leadTitle: "El fondo concentra cerca del 3% de la oferta circulante mientras ZEC gana 43% en una semana",
+    image: "https://cdn.sanity.io/images/s3y3vcno/production/271061a9323bf3f3cb0450115656ad79336f95d7-1528x824.png?rect=32,0,1465,824&w=1920&h=1080&auto=format",
+    imageAlt: "Gráfico de CoinDesk sobre Bitcoin y el crecimiento del ETF de Zcash",
+    body: [
+      "The Zcash ETF, que cotiza como ZCSH en NYSE Arca, informó activos bajo gestión superiores a US$500 millones apenas dos semanas después de su debut del 25 de agosto. El fondo mantiene más de 550.000 ZEC, alrededor de 3% de la oferta circulante estimada de la criptomoneda.",
+      "La cifra necesita contexto. Grayscale reportó más de US$70 millones de entradas acumuladas desde el lanzamiento, excluyendo una inversión en especie cercana a US$100 millones realizada por DCG International Investments, una afiliada del grupo. El resto del AUM también refleja activos que ya estaban en la estructura y la fuerte apreciación del token.",
+      "Zcash subió aproximadamente 43% durante la última semana y operó por encima de US$1.180, según CoinDesk. El fondo y el activo pueden impulsarse mutuamente: la demanda de acciones reduce oferta líquida de ZEC, mientras una cotización más alta eleva automáticamente el valor en dólares de las monedas que ya posee el vehículo.",
+      "El atractivo institucional está asociado a una característica incómoda para muchos reguladores: la privacidad. Zcash permite transacciones protegidas mediante pruebas de conocimiento cero y también operaciones transparentes. Esa posibilidad de revelar información de manera selectiva intenta tender un puente entre confidencialidad financiera y cumplimiento.",
+      "ZCSH no elimina los riesgos del activo subyacente. Su precio puede separarse del valor neto, cobra gastos y no entrega control directo de las monedas. Además, la documentación aclara que no es un fondo registrado bajo la Investment Company Act de 1940 y, por lo tanto, no cuenta con exactamente las mismas protecciones que un ETF tradicional.",
+      "Mi lectura no es que la privacidad haya ganado definitivamente ni que ZEC deba seguir subiendo. El dato relevante es que el mercado regulado encontró demanda para una tesis que antes vivía casi exclusivamente dentro de exchanges. Para saber si es adopción sostenible miraré entradas externas, descuento o prima del fondo y concentración, no sólo un AUM que sube junto con el precio."
+    ],
+    features: [
+      {
+        title: "AUM, entradas y rendimiento son tres cosas diferentes",
+        eyebrow: "DESARMAR EL TITULAR DE US$500 MILLONES",
+        facts: ">US$70 M EXTERNOS · US$100 M AFILIADA · PRECIO DE ZEC",
+        image: "https://static.stocktitan.net/company-logo/zcsh-lg.png?v=4c62400b9d",
+        alt: "Identidad bursátil de ZCSH, el producto cotizado vinculado a Zcash",
+        body: [
+          "El AUM suma el valor actual de todo lo que administra el vehículo. Puede crecer por suscripciones nuevas, aportes en especie y revalorización del activo, incluso sin que entren dólares ese día.",
+          "Separar esas fuentes evita confundir demanda orgánica con rendimiento. Los US$70 millones externos son una señal distinta del aporte afiliado y del aumento de ZEC."
+        ]
+      },
+      {
+        title: "El producto bursátil simplifica acceso, pero agrega otra capa",
+        eyebrow: "EXPOSICIÓN SIN CUSTODIA DIRECTA",
+        facts: "NYSE ARCA · 550.000 ZEC · OPCIONES DISPONIBLES",
+        image: "https://cdn.cryptonews.com.au/2026/08/24163138/zcash-etf.jpg",
+        alt: "Ilustración del proceso para llevar un producto de Zcash al mercado bursátil",
+        body: [
+          "Comprar la acción desde una cuenta tradicional evita administrar claves y billeteras. A cambio, el inversor acepta comisiones, horarios de mercado, intermediarios y la estructura legal del fideicomiso.",
+          "Las opciones recién incorporadas permiten cobertura y estrategias complejas, pero también facilitan apalancamiento. Son herramientas de riesgo, no una garantía de liquidez perfecta ni de ganancias."
+        ]
+      }
+    ],
+    sources: [
+      { name: "CoinDesk — Zcash y el hito de US$500 millones", url: "https://www.coindesk.com/markets/2026/09/09/bitcoin-recovers-toward-usd79-000-as-zcash-records-a-usd500-million-etf-haul" },
+      { name: "SEC — documentación de ZCSH", url: "https://www.sec.gov/Archives/edgar/data/1720265/000119312525298561/zcsh-20251126.htm" },
+      { name: "Grayscale — página institucional", url: "https://www.grayscale.com/" },
+      { name: "GlobeNewswire — comunicado de AUM", url: "https://markets.businessinsider.com/news/stocks/the-zcash-etf-ticker-zcsh-grows-aum-to-more-than-500-million-following-nyse-arca-debut-1036530191" },
+      { name: "StockTitan — datos del Form 8-K", url: "https://www.stocktitan.net/sec-filings/ZCSH/8-k-zcash-etf-reports-material-event-5b9bdfc2d5da.html" }
+    ]
+  },
+  {
+    slug: "finanzas/chime-compra-stride-bank-590-millones",
+    category: "FINANZAS + CRIPTO",
+    date: "9 SEP 2026",
+    dateIso: "2026-09-09T08:00:00-03:00",
+    minutes: 11,
+    title: "Chime compra Stride Bank por US$590 millones: la fintech quiere dejar de alquilar su banco",
+    dek: "La operación en efectivo le dará a Chime una licencia bancaria nacional y control directo sobre infraestructura que utiliza desde hace siete años. La acción subió cerca de 10% y la compañía espera más de US$100 millones en sinergias.",
+    personalAngle: "Durante años las fintech vendieron una experiencia bancaria sin ser bancos: una aplicación brillante apoyada sobre licencias ajenas. Chime está cerrando ese círculo. Comprar Stride no es sumar una función al menú; es adquirir la cañería que estaba detrás de la aplicación y asumir también la responsabilidad regulatoria que viene con ella.",
+    leadEyebrow: "DE SOCIO TECNOLÓGICO A DUEÑO DE LA LICENCIA",
+    leadTitle: "Stride se convertirá en Chime Bank y permitirá integrar depósitos, pagos y préstamos dentro del mismo grupo",
+    image: "https://pbs.twimg.com/media/GtVBeM-bMAYv5zJ.jpg",
+    imageAlt: "Equipo directivo de Chime durante la salida de la compañía al mercado bursátil",
+    body: [
+      "Chime acordó comprar Stride Bank por US$590 millones en efectivo. Stride es un banco con licencia nacional que trabaja con la fintech desde hace más de siete años. Si los reguladores aprueban la transacción, pasará a llamarse Chime Bank, N.A. y funcionará como subsidiaria íntegramente controlada por Chime.",
+      "La diferencia entre una fintech y un banco no era sólo semántica. Chime diseñaba la aplicación, la relación con el cliente y buena parte de la experiencia, mientras entidades asociadas mantenían depósitos y ejecutaban funciones reguladas. Con Stride dentro del grupo podrá coordinar directamente esa infraestructura y ampliar crédito con menos intermediación.",
+      "Los inversores recibieron bien la noticia: la acción avanzó alrededor de 10%. Chime estima más de US$100 millones en sinergias netas por menores pagos a socios, financiación más barata y nuevos productos de préstamo. También elevó sus previsiones de ingresos y beneficio operativo ajustado para el trimestre y el año.",
+      "La operación no cierra inmediatamente. La compañía espera completarla durante la primera mitad de 2027 y necesita autorizaciones regulatorias. Hasta entonces, Stride continúa operando bajo su estructura actual. Una licencia bancaria aporta control, pero también capital obligatorio, supervisión, gestión de riesgo y costos que una aplicación no puede esconder.",
+      "Hay una decisión llamativa: Chime planea mantener los activos del banco por debajo de US$10.000 millones. Superar ese umbral activaría límites estadounidenses sobre ciertas comisiones de tarjetas de débito. Crecer sin cruzarlo puede preservar ingresos, aunque también crea una tensión entre expansión comercial y optimización regulatoria.",
+      "Para mí, la compra demuestra que la batalla fintech ya no consiste en hacer una interfaz más bonita. El verdadero margen está en controlar depósitos, pagos, fondeo y crédito de punta a punta. Chime gana independencia de sus socios y, al mismo tiempo, deja de poder culparlos cuando algo falla. Ese intercambio entre control y responsabilidad será la medida real del acuerdo."
+    ],
+    features: [
+      {
+        title: "La licencia convierte una dependencia en infraestructura propia",
+        eyebrow: "SIETE AÑOS DE SOCIEDAD BAJO EL MISMO TECHO",
+        facts: "US$590 M · LICENCIA NACIONAL · CIERRE EN 2027",
+        image: "https://media.licdn.com/dms/image/v2/C4E22AQHnCOi-q2RfXg/feedshare-shrink_800/feedshare-shrink_800/0/1673776601958?e=2147483647&t=NoaiorSbmTfsWaCBbuKDvar8qcyrp8UE2njNBhjuH1U&v=beta",
+        alt: "Logotipos de Stride Bank y Chime durante su relación comercial",
+        body: [
+          "Stride ya conoce los flujos, sistemas y clientes de Chime. Esa historia reduce parte del riesgo de integración frente a comprar un banco desconocido, aunque no elimina el trabajo regulatorio ni tecnológico.",
+          "La verticalización puede mejorar velocidad de producto y costos. También concentra fallas operativas y reputacionales dentro de una sola marca, que ahora tendrá menos lugares donde repartir responsabilidades."
+        ]
+      },
+      {
+        title: "La barrera de US$10.000 millones condicionará el crecimiento",
+        eyebrow: "SER BANCO, PERO TODAVÍA PEQUEÑO EN LOS PAPELES",
+        facts: ">10 M DE MIEMBROS · >US$100 M EN SINERGIAS · ACTIVOS LIMITADOS",
+        image: "https://images.law.com/contrib/content/uploads/sites/390/2023/12/Chime-App-767x633.jpg",
+        alt: "Aplicación móvil de Chime utilizada por sus clientes de servicios financieros",
+        body: [
+          "Mantener el banco por debajo del umbral protege determinadas comisiones de débito, una fuente de ingresos importante para modelos sin cargos mensuales. El límite puede influir en qué activos conserva y qué préstamos origina.",
+          "Los más de diez millones de miembros activos no se traducen automáticamente en el mismo número de depositantes del banco adquirido. La migración y la estructura final deberán explicarse con claridad."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Chime — anuncio oficial de compra de Stride", url: "https://www.chime.com/newsroom/chime-announces-agreement-to-acquire-stride-bank/" },
+      { name: "Chime Investor Relations — comunicados", url: "https://investors.chime.com/news-events/news-releases" },
+      { name: "Reuters — reacción de la acción y análisis del acuerdo", url: "https://www.reuters.com/legal/transactional/chime-surges-11-stride-deal-puts-fintech-path-bank-charter-2026-09-09/" },
+      { name: "Reuters — términos de la compra", url: "https://www.reuters.com/legal/transactional/chime-buy-nationally-chartered-stride-bank-590-million-shares-jump-2026-09-08/" },
+      { name: "Barron's — contexto de la licencia bancaria", url: "https://www.barrons.com/articles/chime-stride-bank-buy-e0bea1a2" }
+    ]
+  },
+
+  {
     slug: "gaming/nintendo-direct-zelda-40-aniversario-switch-2",
     category: "GAMING",
     date: "7 SEP 2026",

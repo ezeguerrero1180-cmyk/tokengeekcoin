@@ -34,9 +34,6 @@ const worker = {
       return Response.redirect(url.toString(), 301);
     }
 
-    // Vinext emits its browser bundle under this directory. Serve those
-    // immutable files directly from the Workers static-assets binding so a
-    // page navigation can never turn a CSS or JavaScript request into a 404.
     if (url.pathname.startsWith("/_next/static/")) {
       return env.ASSETS.fetch(request);
     }
@@ -56,6 +53,13 @@ const worker = {
       && request.headers.get("accept")?.includes("text/html")
       && !request.headers.get("rsc")
       && !url.pathname.startsWith("/api/");
+    const edgeCache = typeof caches !== "undefined" ? caches.default : null;
+    const cacheKey = isPageNavigation && edgeCache ? new Request(url.toString(), {method:"GET"}) : null;
+    if (cacheKey && edgeCache) {
+      const cached = await edgeCache.match(cacheKey);
+      if (cached) return cached;
+    }
+
     const response = await handler.fetch(request, env, ctx);
     const headers = new Headers(response.headers);
     const isStaticAsset = /\.(?:avif|css|gif|ico|jpe?g|js|png|svg|webp|woff2?)$/i.test(url.pathname);
@@ -70,7 +74,9 @@ const worker = {
       headers.set("Cloudflare-CDN-Cache-Control", "public, max-age=300, stale-while-revalidate=3600");
     }
 
-    return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+    const finalResponse = new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+    if (cacheKey && edgeCache && finalResponse.ok) ctx.waitUntil(edgeCache.put(cacheKey, finalResponse.clone()));
+    return finalResponse;
   },
 };
 

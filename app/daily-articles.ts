@@ -1,4 +1,261 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 10 SEP 2026
+  {
+    slug: "tecnologia/apple-iphone-duo-iphone-18-pro-airpods-watch-novedades",
+    category: "TECNOLOGÍA + IA",
+    date: "10 SEP 2026",
+    dateIso: "2026-09-10T08:40:00-03:00",
+    minutes: 11,
+    title: "Apple abrió una nueva etapa: iPhone Duo, iPhone 18 Pro y un ecosistema que vuelve a moverse",
+    dek: "El primer iPhone plegable se llevó la foto, pero Apple también renovó los Pro, los AirPods y sus relojes. Repaso lo importante, los precios globales y lo que todavía me genera dudas.",
+    personalAngle: "Hacía tiempo que una presentación de Apple no me dejaba la sensación de estar viendo un cambio de etapa y no apenas una lista de mejoras anuales. El iPhone Duo es el protagonista inevitable, aunque para mí la noticia real está en cómo Apple repartió riesgo, precio y nuevas funciones por todo su ecosistema.",
+    leadEyebrow: "EL EVENTO DE APPLE, SIN EL HUMO",
+    leadTitle: "Un plegable de USD 1.999 y varias decisiones que importan más que la bisagra",
+    image: "https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large.jpg",
+    imageAlt: "iPhone Duo abierto y cerrado en la fotografía oficial de Apple",
+    body: [
+      "Apple presentó el iPhone Duo, su primer teléfono plegable, con pantalla interior de 7,6 pulgadas y panel exterior de 5,4. Usa el chip A20 Pro, una arquitectura de doble batería y cámara de vapor para disipar calor. La propuesta no intenta esconder su lugar en el catálogo: parte de USD 1.999 y apunta a quienes quieren un iPhone y una pequeña tableta en el mismo bolsillo.",
+      "Lo que más me interesa no es que Apple haya llegado tarde al formato, sino qué hizo con esos años de espera. La compañía insiste en la continuidad entre las dos pantallas y en adaptar iOS 27 para que las aplicaciones aprovechen el espacio interior. La bisagra puede ser impecable en una demostración; la prueba verdadera llegará con miles de aperturas, bolsillos con polvo y reparaciones fuera de garantía.",
+      "El iPhone 18 Pro y el 18 Pro Max son una actualización más convencional, pero no menor. Incorporan A20 Pro, cámara principal Fusion de 48 megapíxeles con apertura variable, una isla dinámica más pequeña y una nueva cámara de vapor. Los precios de referencia comienzan en USD 1.199 y USD 1.299, respectivamente.",
+      "Apple también renovó los AirPods 5 con chip H2 y cancelación activa de ruido en el modelo superior, mientras el Apple Watch Series 12 estrena un sistema de salud que mide la frecuencia cardíaca con más regularidad y calcula una puntuación de preparación. El Ultra 4 completa la tanda para deporte y aventura.",
+      "Mi conclusión es doble. Es la presentación más ambiciosa de Apple en años, pero también una de las más caras. El Duo puede empujar a todo el mercado plegable y aun así seguir siendo un producto de primera generación que conviene mirar con paciencia. En Argentina, además, los valores y las fechas finales dependerán de importación e impuestos: tomaría los precios en dólares como referencia internacional, no como promesa local."
+    ],
+    features: [
+      {
+        title: "El iPhone 18 Pro apuesta por la cámara y la autonomía",
+        eyebrow: "LA EVOLUCIÓN MÁS RACIONAL",
+        facts: "A20 PRO · 48 MP · APERTURA VARIABLE · IOS 27",
+        image: "https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-2up-260909_inline.jpg.large.jpg",
+        alt: "iPhone 18 Pro y iPhone 18 Pro Max mostrados por Apple",
+        body: [
+          "Para quien no necesita una pantalla que se doble, los Pro parecen la compra más coherente. La apertura variable promete más control en fotografía, mientras el A20 Pro y el nuevo sistema térmico deberían sostener mejor juegos, video y tareas de inteligencia artificial.",
+          "Apple habla de hasta 36 horas de reproducción de video en el Pro y 45 en el Pro Max. Como siempre, esperaría pruebas independientes: autonomía, temperatura y consistencia de cámara dicen mucho más que una tabla de especificaciones."
+        ]
+      },
+      {
+        title: "AirPods y Watch reciben mejoras menos vistosas, pero más cotidianas",
+        eyebrow: "EL ECOSISTEMA TAMBIÉN CUENTA",
+        facts: "H2 · ANC · SERIES 12 · SALUD",
+        image: "https://www.apple.com/newsroom/images/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/article/Apple-iPhone-18-Pro-color-lineup-260909_big.jpg.large.jpg",
+        alt: "Nueva gama de colores del iPhone 18 Pro en una imagen oficial",
+        body: [
+          "Los AirPods 5 parten de USD 129 y llegan a USD 149 con cancelación activa. No revolucionan el audio personal, pero llevan funciones antes más caras a un modelo abierto y ligero.",
+          "En el Watch, el valor dependerá de la calidad de las alertas y de no convertir cada métrica en ansiedad. Me gusta la dirección preventiva, siempre que Apple explique límites y recuerde que el reloj acompaña a un profesional de salud, no lo reemplaza."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Apple Newsroom — iPhone Duo", url: "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/" },
+      { name: "Apple Newsroom — iPhone 18 Pro", url: "https://www.apple.com/newsroom/2026/09/apple-debuts-iphone-18-pro-and-iphone-18-pro-max/" },
+      { name: "Apple Newsroom — AirPods 5", url: "https://www.apple.com/newsroom/2026/09/apple-introduces-airpods-5-with-best-in-class-open-ear-active-noise-cancellation/" },
+      { name: "Apple Newsroom — Watch Series 12", url: "https://www.apple.com/newsroom/2026/09/introducing-apple-watch-series-12-with-the-all-new-health-sensing-system/" },
+      { name: "Reuters — resumen del evento", url: "https://www.reuters.com/technology/foldable-iphone-pricier-18-pro-unveiled-apples-first-event-under-ternus-2026-09-09/" }
+    ]
+  },
+  {
+    slug: "comics/lanterns-capitulo-4-the-weenie-zoe-manhunter",
+    category: "CÓMICS + SERIES",
+    date: "10 SEP 2026",
+    dateIso: "2026-09-10T08:30:00-03:00",
+    minutes: 12,
+    title: "Lanterns capítulo 4: ‘The Weenie’ revela quién era el monstruo que todos tenían delante",
+    dek: "El episodio convierte a Zoe Macon en el centro del misterio, complica a John y Hal y confirma que el pueblo entero estaba protegiendo algo. Este resumen contiene spoilers completos.",
+    personalAngle: "El cuarto capítulo es el momento en que Lanterns deja de prometer un misterio y se anima a cambiarlo delante de nosotros. Me gustó porque la revelación no borra lo anterior: vuelve sospechoso cada silencio del pueblo y, sobre todo, obliga a John y Hal a preguntarse cuánto estaban dispuestos a no ver.",
+    leadEyebrow: "SPOILERS DEL EPISODIO 4",
+    leadTitle: "Zoe no era una víctima: era la pieza que reordena todo el caso",
+    image: "https://i.ytimg.com/vi/UTkKlbq5TwE/maxresdefault.jpg",
+    imageAlt: "Hal Jordan y John Stewart en el video oficial de HBO sobre Lanterns episodio 4",
+    body: [
+      "‘The Weenie’ empieza con la investigación todavía atrapada entre secretos pequeños y una amenaza demasiado grande para el paisaje. Hal y John siguen la pista de Hector Hammond y de la tecnología alienígena, pero el episodio utiliza ese camino como distracción. Hammond importa, aunque no es la respuesta completa que parecía prometer el capítulo anterior.",
+      "La revelación central es que Zoe Macon es la Manhunter. La muerte que ordenaba el tablero era una fachada y William, junto con buena parte del pueblo, ayudó a protegerla. De golpe, los gestos evasivos dejan de ser simple color local: eran una red de complicidad construida para esconder a una entidad capaz de sobrevivir donde una persona común no podría.",
+      "John tampoco sale limpio. El capítulo confirma que sabía más de lo que había contado, y eso golpea la confianza con Hal justo cuando ambos necesitan actuar como una unidad. A la vez, Hal carga con su visita a Sinestro y con la sensación de que su tiempo como Green Lantern se está cerrando aunque todavía no esté dispuesto a nombrarlo.",
+      "La Guardiana presiona a John para que acepte el anillo de Hal, pero él se niega. Para mí, esa decisión es más importante que cualquier destello verde: John no quiere que su identidad nazca de ocupar el lugar de un hombre que aún está a su lado. Es orgullo, respeto y miedo mezclados en una sola respuesta.",
+      "El episodio termina con Zoe viva y el caso completamente transformado. Mi veredicto es 9/10: no porque responda todo, sino porque utiliza una revelación grande para profundizar personajes en lugar de reemplazarlos por exposición. El episodio 5 llega el 13 de septiembre; hasta entonces, la pregunta ya no es quién ocultó la verdad, sino qué precio pagará cada uno por haberla protegido."
+    ],
+    features: [
+      {
+        title: "Hammond funciona mejor como espejo que como culpable final",
+        eyebrow: "EL SEÑUELO DEL EPISODIO",
+        facts: "TECNOLOGÍA ALIENÍGENA · PODER · OBSESIÓN",
+        image: "https://i.ytimg.com/vi/aiRWFMtfu94/maxresdefault.jpg",
+        alt: "Arte del podcast oficial de Lanterns dedicado al episodio The Weenie",
+        body: [
+          "La pista de Hammond permite mostrar qué ocurre cuando el poder alienígena cae en manos humanas sin contexto ni equilibrio. Es peligroso, pero el guion evita convertirlo en la explicación cómoda de todas las rarezas del pueblo.",
+          "Me funciona porque también refleja a los Lanterns: todos usan fuerzas que superan a una persona común y todos creen tener mejores razones. La diferencia moral aparece en los límites que aceptan cuando nadie los está mirando."
+        ]
+      },
+      {
+        title: "Hal y John sostienen la serie cuando el misterio se retuerce",
+        eyebrow: "DOS LINTERNA, DOS HERIDAS",
+        facts: "SINESTRO · EL ANILLO · CONFIANZA",
+        image: "https://i.ytimg.com/vi/5IcLeqlF6QU/maxresdefault.jpg",
+        alt: "Avance oficial de HBO Max para el próximo episodio de Lanterns",
+        body: [
+          "La química de policial de ruta sigue siendo el corazón de Lanterns. Hal disimula su desgaste detrás de experiencia y humor; John intenta construir reglas firmes porque teme lo que puede ocurrir sin ellas.",
+          "La revelación de Zoe sirve porque cae sobre esa relación ya agrietada. Si el episodio siguiente aprovecha la desconfianza sin fabricar una pelea artificial, la serie tiene una base emocional mucho más fuerte que su enigma inicial."
+        ]
+      }
+    ],
+    sources: [
+      { name: "HBO Max — Inside Episode 4", url: "https://www.youtube.com/watch?v=UTkKlbq5TwE" },
+      { name: "HBO Max — podcast oficial del episodio", url: "https://www.youtube.com/watch?v=aiRWFMtfu94" },
+      { name: "Entertainment Weekly — revelación de Manhunter", url: "https://ew.com/manhunter-lanterns-reveal-poorna-jagannathan-reframed-everything-12074142" },
+      { name: "Decider — recap de The Weenie", url: "https://decider.com/2026/09/07/lanterns-episode-4-recap-the-weenie/" },
+      { name: "TechRadar — final explicado", url: "https://www.techradar.com/streaming/hbo-max/lanterns-episode-4-ending-explained" }
+    ]
+  },
+  {
+    slug: "finanzas/tether-fasanara-stablefund-credito-privado-usdt",
+    category: "FINANZAS + CRIPTO",
+    date: "10 SEP 2026",
+    dateIso: "2026-09-10T08:20:00-03:00",
+    minutes: 10,
+    title: "Tether lleva USDT al crédito privado con un fondo que apunta a USD 3.000 millones",
+    dek: "StableFund nace con un compromiso conjunto de USD 400 millones de Tether y Fasanara. La ambición es financiar economía real; el desafío será demostrar que la velocidad cripto no debilita el análisis de riesgo.",
+    personalAngle: "Esta noticia me parece más importante que otra integración de pagos porque muestra a una stablecoin intentando convertirse en tubería de crédito. También exige separar con cuidado el dinero ya comprometido del objetivo comercial: USD 400 millones son el ancla; USD 3.000 millones todavía son una meta.",
+    leadEyebrow: "DE LA LIQUIDEZ DIGITAL AL PRÉSTAMO REAL",
+    leadTitle: "StableFund quiere conectar USDT con empresas, facturas y consumo",
+    image: "https://cdn.prod.website-files.com/656f446e4fb8cebb8dbf789e/6790c496d14b554072a7379b_post-image.webp",
+    imageAlt: "Imagen institucional de Fasanara Capital, socio de Tether en StableFund",
+    body: [
+      "Tether y Fasanara Capital lanzaron StableFund, un vehículo permanente de crédito privado respaldado por un compromiso conjunto de USD 400 millones. El fondo buscará captar hasta USD 3.000 millones de inversores institucionales y financiar activos de corta duración vinculados con pymes, consumo y comercio.",
+      "Fasanara será el gestor de inversiones y aportará su experiencia en crédito respaldado por activos. Tether participará con capital, infraestructura de liquidación mediante USDT y apoyo para originar operaciones. El plan contempla trabajar con plataformas financieras que ya operan en más de sesenta países.",
+      "La tesis es atractiva: usar liquidación con stablecoins para reducir fricción y mover capital con mayor velocidad. Pero liquidar rápido no convierte automáticamente un préstamo en bueno. La calidad del fondo dependerá de originación, garantías, diversificación, mora y transparencia, palabras menos emocionantes que blockchain pero mucho más decisivas.",
+      "También conviene no confundir el objetivo de USD 3.000 millones con dinero ya levantado. El anuncio parte de USD 400 millones y necesita convencer a terceros. En crédito privado, el crecimiento rápido puede ser una virtud operativa o una forma de acumular riesgos poco líquidos antes de que el mercado los vea.",
+      "Mi lectura es positiva con reservas. Que USDT busque utilidad fuera del trading amplía su relevancia, pero acerca a Tether a responsabilidades financieras más tradicionales. Los inversores deberían mirar estructura, comisiones y pérdidas reales antes de convertir el tamaño proyectado en una señal de seguridad."
+    ],
+    features: [
+      {
+        title: "La stablecoin es el riel, no el análisis crediticio",
+        eyebrow: "VELOCIDAD NO ES SOLVENCIA",
+        facts: "USD 400 M · CORTO PLAZO · ACTIVOS REALES",
+        image: "https://foto.haberler.com/haber/2026/01/30/tether-ceo-su-ardoino-dan-stablecoin-getiri-19518463_4095_amp.jpg",
+        alt: "Paolo Ardoino, director ejecutivo de Tether, durante una presentación",
+        body: [
+          "USDT puede acelerar la entrega y devolución de fondos, especialmente entre países. Sin embargo, el riesgo vive en el deudor y en el activo que respalda cada operación, no en la velocidad de la cadena.",
+          "Yo seguiría los reportes de mora y recuperación cuando el fondo tenga historia. Un producto de crédito se entiende mejor en meses difíciles que durante su anuncio."
+        ]
+      },
+      {
+        title: "Tether suma otra capa a un negocio cada vez más amplio",
+        eyebrow: "MÁS ALLÁ DE LAS RESERVAS",
+        facts: "USDT · FINTECH · 60+ PAÍSES",
+        image: "https://tether.io/wp-content/themes/tether-io-theme/assets/images/logo-large.svg",
+        alt: "Logotipo oficial de Tether",
+        body: [
+          "La compañía ya no quiere ser vista únicamente como emisor de dólares digitales. Energía, infraestructura, inversiones y ahora crédito forman un mapa mucho más grande, con oportunidades y conflictos de interés que merecen seguimiento.",
+          "Esto es información general, no asesoramiento financiero. StableFund será relevante si publica evidencia suficiente para evaluar su cartera, no sólo si alcanza una cifra llamativa de activos administrados."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Tether — anuncio oficial de StableFund", url: "https://tether.io/news/tether-and-fasanara-capital-launch-400-million-private-credit-fund-to-expand-stablecoin-enabled-real-economy-lending/" },
+      { name: "Financial Times — Tether y crédito privado", url: "https://www.ft.com/content/b9e0b9b5-3b6e-420e-83da-381b75534635" },
+      { name: "Reuters — regulación y adopción de stablecoins", url: "https://www.reuters.com/legal/transactional/are-stablecoins-legitimizing-future-digital-asset-transactions--pracin-2026-09-03/" }
+    ]
+  },
+  {
+    slug: "finanzas/bis-ia-inversion-riesgo-estabilidad-financiera",
+    category: "FINANZAS + CRIPTO",
+    date: "10 SEP 2026",
+    dateIso: "2026-09-10T08:10:00-03:00",
+    minutes: 10,
+    title: "El BIS mira la fiebre de inversión en IA y advierte: el riesgo ya llegó al sistema financiero",
+    dek: "La inteligencia artificial promete productividad, pero también concentra valoraciones, deuda e infraestructura en pocas manos. Para los bancos centrales, el problema ya no cabe solamente en la sección tecnología.",
+    personalAngle: "Cada ola tecnológica asegura que esta vez las reglas financieras cambiaron. A veces cambia muchísimo; nunca cambia la necesidad de pagar las deudas. La advertencia del BIS me interesa porque no niega la productividad de la IA: pregunta quién financia la carrera y qué ocurre si los retornos tardan más de lo prometido.",
+    leadEyebrow: "CUANDO LOS CHIPS SE CONVIERTEN EN MACROECONOMÍA",
+    leadTitle: "Más inversión, valoraciones altas y una factura energética que los bancos centrales ya no ignoran",
+    image: "https://storage.cobak.co/uploads/1776729715486258_47d2a2fc46.png",
+    imageAlt: "Pablo Hernández de Cos durante una intervención en el Banco de Pagos Internacionales",
+    body: [
+      "Pablo Hernández de Cos, gerente general del Banco de Pagos Internacionales, advirtió que el auge de la inteligencia artificial combina una oportunidad genuina de crecimiento con nuevos riesgos para la estabilidad financiera. Las cinco mayores tecnológicas proyectan más de USD 1 billón de inversión conjunta en 2025 y 2026, mientras estimaciones del sector llevan el gasto global hacia USD 4 billones en 2030.",
+      "El beneficio potencial es real. Programación, consultoría y tareas intensivas en información ya muestran mejoras, pero la difusión depende de redes eléctricas, centros de datos, formación y reglas. Comprar aceleradores no garantiza que toda la economía se vuelva más productiva al mismo ritmo.",
+      "El costado financiero aparece cuando esas inversiones se sostienen con estructuras opacas o deuda y cuando las valuaciones descuentan años de crecimiento perfecto. Si los ingresos tardan, un ajuste puede golpear acciones, crédito, proveedores de energía y fondos expuestos a la misma narrativa.",
+      "Hay además concentración. Un grupo reducido controla chips, nubes y modelos, de modo que una falla o cambio de expectativas puede propagarse con rapidez. Para los bancos centrales, la IA también vuelve más difícil separar demanda fuerte, expansión de capacidad y presión inflacionaria.",
+      "No interpreto el discurso como pronóstico de colapso. Es una invitación a mirar balances además de demos. La pregunta sensata no es si la IA cambiará el mundo, sino qué precio pagamos hoy por beneficios futuros y cuánto margen queda si el calendario se demora."
+    ],
+    features: [
+      {
+        title: "La productividad necesita algo más que centros de datos",
+        eyebrow: "DIFUSIÓN DESIGUAL",
+        facts: "ENERGÍA · HABILIDADES · INFRAESTRUCTURA",
+        image: "https://www.bis.org/publ/arpdf/ar2026e/images/chap1-gra10.jpg",
+        alt: "Gráfico del BIS sobre inversión y adopción vinculadas con inteligencia artificial",
+        body: [
+          "Una empresa puede comprar IA y aun así no reorganizar procesos, capacitar equipos ni medir resultados. Esa distancia entre inversión y productividad explica por qué el impacto macroeconómico puede llegar más lento que el entusiasmo bursátil.",
+          "Las economías con energía barata, capital y habilidades parten con ventaja. El resto corre el riesgo de pagar servicios importados sin capturar una porción equivalente del valor creado."
+        ]
+      },
+      {
+        title: "La deuda convierte una apuesta tecnológica en riesgo compartido",
+        eyebrow: "QUIÉN FINANCIA LA CARRERA",
+        facts: "CAPEX · CRÉDITO · VALORACIONES",
+        image: "https://www.richmondfed.org/-/media/RichmondFedOrg/assets/images/cfo_survey/q1_2026/fig1_acceleration_ai_invest.png",
+        alt: "Gráfico de la Reserva Federal de Richmond sobre aceleración de inversión en IA",
+        body: [
+          "Mientras el gasto se financiaba con caja propia, el riesgo quedaba más contenido en los accionistas. Una mayor participación de deuda y vehículos privados crea conexiones con bancos, aseguradoras y ahorristas.",
+          "Como inversor, no vendería todo por una advertencia ni compraría cualquier empresa que agregue IA a una presentación. Miraría flujo de caja, vencimientos y clientes reales. Información general, no recomendación financiera."
+        ]
+      }
+    ],
+    sources: [
+      { name: "BIS — inteligencia artificial, crecimiento y estabilidad", url: "https://www.bis.org/" },
+      { name: "BIS — estadísticas del Informe Económico Anual 2026", url: "https://www.bis.org/statistics/ar2026stats.htm" },
+      { name: "Reuters — advertencia del BIS sobre el auge de la IA", url: "https://www.reuters.com/business/finance/ai-boom-poses-new-financial-stability-risks-bis-head-says-2026-09-10/" },
+      { name: "Richmond Fed — inversión empresarial en IA", url: "https://www.richmondfed.org/research/national_economy/cfo_survey/research_and_commentary/2026/20260325_research_commentary" }
+    ]
+  },
+  {
+    slug: "gaming/physint-kojima-xbox-playstation-cancelacion",
+    category: "GAMING",
+    date: "10 SEP 2026",
+    dateIso: "2026-09-10T08:00:00-03:00",
+    minutes: 10,
+    title: "PHYSINT cambia PlayStation por Xbox: Kojima mueve su juego de espionaje y sacude la industria",
+    dek: "Microsoft publicará el proyecto después de que Sony se apartara. El anuncio es enorme por lo que simboliza, aunque el juego sigue tan lejos que conviene guardar el entusiasmo en una caja resistente.",
+    personalAngle: "Un juego de espionaje de Hideo Kojima asociado con PlayStation parecía una combinación escrita en piedra. Que PHYSINT termine publicado por Xbox es uno de esos giros que alimentan años de discusiones, pero lo más honesto es sostener dos ideas a la vez: el cambio importa muchísimo y el lanzamiento todavía está muy lejos.",
+    leadEyebrow: "UN CAMBIO DE SOCIO IMPENSADO",
+    leadTitle: "Xbox amplía su alianza con Kojima y se queda con el proyecto que Sony dejó atrás",
+    image: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/KJPXBOX-a19bab905ef4e406d93c-1600x900.jpg",
+    imageAlt: "Hideo Kojima y representantes de Xbox anuncian la nueva alianza para PHYSINT",
+    body: [
+      "Xbox anunció que publicará PHYSINT, el juego de acción y espionaje de Kojima Productions que originalmente se desarrollaba junto con Sony. La asociación amplía el vínculo que ya existe alrededor de OD y también contempla oportunidades en cine y televisión.",
+      "Según explicó Kojima, recibió en junio el aviso de que Sony se apartaba y pasó cerca de tres meses buscando un nuevo socio. Microsoft tomó el proyecto, un movimiento con peso simbólico porque PHYSINT había sido presentado como el regreso del creador a la infiltración cinematográfica dentro del ecosistema PlayStation.",
+      "Todavía sabemos poco del juego. Se lo describe como una experiencia de espionaje táctico con ambición cinematográfica y un elenco que incluye a Don Lee, Charlee Fraser y Minami Hamabe. No hay jugabilidad pública suficiente para evaluar sistemas, ritmo ni alcance.",
+      "La fecha también exige calma. Los reportes sitúan el lanzamiento no antes de 2030, de modo que plataformas, tecnología y estrategia comercial pueden cambiar varias veces. Hoy estamos comentando un acuerdo editorial, no una reserva inminente.",
+      "Mi reacción es entusiasmo prudente. Xbox gana prestigio creativo y Kojima conserva el proyecto, pero ninguna marca garantiza un gran juego. Quiero ver una misión completa, inteligencia enemiga y sigilo funcionando antes de convertir una foto corporativa en obra maestra."
+    ],
+    features: [
+      {
+        title: "Para Xbox, PHYSINT vale tanto como símbolo como por sus ventas futuras",
+        eyebrow: "LA BATALLA POR LA IDENTIDAD",
+        facts: "KOJIMA · XBOX · ESPIONAJE",
+        image: "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/physint-kojima-xbox-1.jpg?crop=7.8125%2C0%2C84.375%2C100&quality=90&strip=all&w=2400",
+        alt: "Hideo Kojima durante el anuncio de PHYSINT para Xbox",
+        body: [
+          "Microsoft consigue un proyecto que conecta de inmediato con la historia de Metal Gear y con una audiencia que suele asociar a Kojima con PlayStation. Esa narrativa tiene valor incluso años antes del estreno.",
+          "También eleva la expectativa. Si Xbox lo usa como bandera de una nueva etapa, deberá proteger tiempo creativo sin dejar que el desarrollo se convierta en una promesa eterna."
+        ]
+      },
+      {
+        title: "El elenco y el póster son pistas, no una demostración",
+        eyebrow: "LO QUE REALMENTE SABEMOS",
+        facts: "DON LEE · CHARLEE FRASER · MINAMI HAMABE",
+        image: "https://cdn.mos.cms.futurecdn.net/HqVTugFaENyAuRGbJRp2MA.jpg",
+        alt: "Póster promocional de PHYSINT presentado por Kojima Productions",
+        body: [
+          "El reparto sugiere una producción global y el póster vende el tono de thriller. Son señales atractivas, pero todavía no explican cómo se juega ni cuánto heredará de las ideas de infiltración que hicieron famoso a Kojima.",
+          "Yo guardaría el nombre en el radar y nada más. Cuando aparezcan sistemas reales, podremos discutir si PHYSINT es una evolución del espionaje o solamente una campaña promocional excepcionalmente larga."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Xbox Wire — alianza para publicar PHYSINT", url: "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint/" },
+      { name: "The Verge — el cambio de PlayStation a Xbox", url: "https://www.theverge.com/games/993205/physint-hideo-kojima-sony-playstation-microsoft-xbox" },
+      { name: "PC Gamer — elenco y primeros datos", url: "https://www.pcgamer.com/games/action/physint-kojimas-forthcoming-tactical-espionage-action-game-gets-a-poster-and-an-early-cast-list/" }
+    ]
+  },
+  // FIN NOTICIAS 10 SEP 2026
   {
     slug: "gaming/zelda-ocarina-of-time-remake-fecha-switch-2",
     category: "GAMING",

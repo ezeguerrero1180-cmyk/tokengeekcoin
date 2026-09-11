@@ -6,7 +6,7 @@ export const dailyArticles = [\n  // INICIO NOTICIAS 11 SEP 2026
     dateIso: "2026-09-11T08:40:00-03:00",
     minutes: 10,
     title: "NASA e IBM entrenaron una IA para leer la Luna: busca hielo, cráteres y lugares donde aterrizar",
-    dek: "El Lunar Foundation Model es abierto, combina datos de nueve instrumentos y promete detectar rasgos lunares con hasta 23% más precisión. La IA sale del chatbot y se pone botas de explorador.",
+    dek: "El Lunar Foundation Model es abierto, combina datos de nueve instrumentos y promete detectar rasgos lunares con hasta 23% más precisión. La IA sale del chatbot y se calza botas de explorador.",
     personalAngle: "Me entusiasma más una IA que encuentra hielo en un cráter oscuro que otra capaz de redactar veinte versiones del mismo correo. Este proyecto no reemplaza a los científicos: les entrega una forma más rápida de atravesar décadas de observaciones y concentrarse en las preguntas que realmente importan para volver a la Luna.",
     leadEyebrow: "INTELIGENCIA ARTIFICIAL CON POLVO LUNAR",
     leadTitle: "Treinta capas de datos para convertir mapas dispersos en una herramienta científica abierta",

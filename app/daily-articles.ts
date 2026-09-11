@@ -1,4 +1,5 @@
-export const dailyArticles = [\n  // INICIO NOTICIAS 11 SEP 2026
+export const dailyArticles = [
+  // INICIO NOTICIAS 11 SEP 2026
   {
     slug: "tecnologia/nasa-ibm-ia-modelo-lunar-hielo-crateres",
     category: "TECNOLOGÍA + IA",
@@ -150,7 +151,7 @@ export const dailyArticles = [\n  // INICIO NOTICIAS 11 SEP 2026
     ]
   },
   {
-    slug: "finanzas-bonos-treasury-5-por-ciento-petroleo-inflacion",
+    slug: "finanzas/bonos-treasury-5-por-ciento-petroleo-inflacion",
     category: "FINANZAS + CRIPTO",
     date: "11 SEP 2026",
     dateIso: "2026-09-11T08:10:00-03:00",

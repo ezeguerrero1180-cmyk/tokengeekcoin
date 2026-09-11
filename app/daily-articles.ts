@@ -1,4 +1,255 @@
-export const dailyArticles = [
+export const dailyArticles = [\n  // INICIO NOTICIAS 11 SEP 2026
+  {
+    slug: "tecnologia/nasa-ibm-ia-modelo-lunar-hielo-crateres",
+    category: "TECNOLOGÍA + IA",
+    date: "11 SEP 2026",
+    dateIso: "2026-09-11T08:40:00-03:00",
+    minutes: 10,
+    title: "NASA e IBM entrenaron una IA para leer la Luna: busca hielo, cráteres y lugares donde aterrizar",
+    dek: "El Lunar Foundation Model es abierto, combina datos de nueve instrumentos y promete detectar rasgos lunares con hasta 23% más precisión. La IA sale del chatbot y se pone botas de explorador.",
+    personalAngle: "Me entusiasma más una IA que encuentra hielo en un cráter oscuro que otra capaz de redactar veinte versiones del mismo correo. Este proyecto no reemplaza a los científicos: les entrega una forma más rápida de atravesar décadas de observaciones y concentrarse en las preguntas que realmente importan para volver a la Luna.",
+    leadEyebrow: "INTELIGENCIA ARTIFICIAL CON POLVO LUNAR",
+    leadTitle: "Treinta capas de datos para convertir mapas dispersos en una herramienta científica abierta",
+    image: "https://www.reuters.com/resizer/v2/QCJK3KBKP5P2FMQD53T4FNJYDA.jpg?auth=d2832ff6bf33ae3111c0e7775eac895836736f14516068f3978476c1c759620b&quality=80&width=1920",
+    imageAlt: "Logo de NASA fotografiado en el Centro Espacial Kennedy",
+    body: [
+      "IBM y NASA publicaron el NASA-IBM Lunar Foundation Model, un modelo abierto diseñado para analizar la superficie lunar. Fue entrenado con más de treinta capas de datos producidas por nueve instrumentos de cuatro misiones, entre ellas Lunar Reconnaissance Orbiter. La idea es reunir observaciones con resoluciones y sensores distintos dentro de una representación común.",
+      "El modelo puede ayudar a señalar depósitos potenciales de hielo en regiones permanentemente sombreadas, contar y clasificar cráteres, estudiar huellas volcánicas y evaluar zonas de aterrizaje. En pruebas comparativas alcanzó hasta 23% más precisión que métodos ampliamente utilizados, una mejora relevante cuando revisar manualmente cada mapa consume tiempo de especialistas.",
+      "El hielo es mucho más que una curiosidad. Puede indicar agua disponible y permitir obtener oxígeno o combustible, recursos decisivos si Artemis consigue establecer una presencia sostenida y usar la Luna como laboratorio para futuras misiones a Marte. El algoritmo no confirma por sí solo que un depósito sea explotable; prioriza dónde conviene mirar con mejores instrumentos.",
+      "Mi lectura es optimista con una condición: abierto también debe significar reproducible. Investigadores externos necesitan conocer datos, límites y sesgos del entrenamiento. Si ese escrutinio ocurre, este modelo puede convertirse en una de las aplicaciones más claras de la IA científica: menos espectáculo, más mapas que ayudan a decidir dónde posar una nave."
+    ],
+    features: [
+      {
+        title: "La Luna no es una sola fotografía",
+        eyebrow: "NUEVE INSTRUMENTOS, CUATRO MISIONES",
+        facts: "30+ CAPAS · DATOS MULTIMODALES · CÓDIGO ABIERTO",
+        image: "https://images-assets.nasa.gov/image/PIA00405/PIA00405~orig.jpg",
+        alt: "Mosaico de la superficie lunar distribuido por NASA",
+        body: [
+          "Cada sensor observa una parte diferente del problema: relieve, temperatura, composición o reflectividad. Cruzarlos permite encontrar patrones que un mapa aislado no muestra, pero también obliga a corregir diferencias de escala y calidad.",
+          "Ahí aparece el valor de un modelo fundacional especializado. No responde cualquier pregunta; aprende una estructura común para que distintos equipos adapten después la herramienta a tareas concretas."
+        ]
+      },
+      {
+        title: "Encontrar hielo es el comienzo, no el final",
+        eyebrow: "DE LA PREDICCIÓN A LA MISIÓN",
+        facts: "HIELO · OXÍGENO · COMBUSTIBLE · ARTEMIS",
+        image: "https://images-assets.nasa.gov/image/PIA13121/PIA13121~orig.jpg",
+        alt: "Región polar de la Luna observada por una misión de NASA",
+        body: [
+          "Una señal prometedora todavía necesita confirmación orbital y, eventualmente, mediciones en el terreno. La IA reduce el espacio de búsqueda; no convierte una probabilidad en una reserva de agua.",
+          "NASA apunta a regresar con astronautas en 2028. Si el calendario se sostiene, herramientas como esta pueden ayudar a que cada misión llegue con mejores preguntas y menos kilómetros cuadrados examinados a ciegas."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — lanzamiento del modelo lunar", url: "https://www.reuters.com/science/ibm-nasa-launch-ai-model-help-map-ice-craters-moon-2026-09-10/" },
+      { name: "IBM Research — Lunar Foundation Model", url: "https://research.ibm.com/" },
+      { name: "NASA — Lunar Reconnaissance Orbiter", url: "https://science.nasa.gov/mission/lro/" },
+      { name: "NASA — programa Artemis", url: "https://www.nasa.gov/artemis/" }
+    ]
+  },
+  {
+    slug: "tecnologia/anthropic-claude-informe-amenazas-armas-ciberataques",
+    category: "TECNOLOGÍA + IA",
+    date: "11 SEP 2026",
+    dateIso: "2026-09-11T08:30:00-03:00",
+    minutes: 11,
+    title: "Anthropic abrió la caja negra del abuso de Claude: ciberataques, vigilancia y riesgo biológico",
+    dek: "La empresa bloqueó operaciones observadas entre diciembre y agosto y admite que los modelos actuales obligan a endurecer defensas. El informe no prueba un apocalipsis, pero sí un cambio de escala.",
+    personalAngle: "Los informes de seguridad escritos por la misma empresa que vende el modelo merecen lectura crítica, pero también contienen señales imposibles de ignorar. Lo que más me preocupa no es un villano genial usando IA: es que herramientas comunes permitan a operadores mediocres sostener campañas que antes exigían equipos enteros.",
+    leadEyebrow: "LA IA TAMBIÉN ACELERA AL ATACANTE",
+    leadTitle: "Anthropic dice haber interrumpido operaciones en siete categorías de daño",
+    image: "https://www.reuters.com/resizer/v2/44Z5SZYHBRKQXJODOI7TYCP3M4.jpg?auth=da3a8184aa06e210faa42da9761f98fd70447b9c0d91bf517a6963768959c45e&quality=80&width=1920",
+    imageAlt: "Ilustración editorial del logotipo de Anthropic junto a un teclado y una mano robótica",
+    body: [
+      "Anthropic publicó su informe de inteligencia de amenazas de septiembre, basado en actividad bloqueada entre diciembre de 2025 y agosto de 2026. Documenta operaciones cibernéticas, vigilancia, propaganda, fraude, armas convencionales, posibles usos biológicos y extracción ilícita de capacidades mediante destilación.",
+      "Uno de los patrones más serios es la automatización del ciclo completo de un ataque. Un grupo vinculado por su comportamiento con la inteligencia rusa habría usado flujos de IA para investigar objetivos, preparar phishing, mantener malware y modificarlo cuando era detectado. Los humanos seguían eligiendo blancos y revisando resultados, pero gran parte del trabajo repetitivo quedaba orquestado por agentes.",
+      "En biología, Anthropic describió cinco casos de investigadores que buscaron apoyo para trabajos de doble uso. Un ejemplo involucró una propuesta sobre chikungunya orientada a transmisibilidad y evasión inmune. La compañía cerró cuentas y reforzó filtros, pero reconoce que separar investigación médica legítima de una aplicación peligrosa no siempre es una decisión limpia.",
+      "El documento también acusa a laboratorios chinos de intentar extraer capacidades de Claude a gran escala; las compañías señaladas no respondieron de inmediato a Reuters. Conviene tratar esa atribución como la afirmación de Anthropic, no como una sentencia independiente. Mi conclusión: publicar indicadores ayuda, pero la supervisión no puede quedar únicamente en manos de las empresas que compiten por lanzar el modelo más potente."
+    ],
+    features: [
+      {
+        title: "La sofisticación dejó de revelar quién está detrás",
+        eyebrow: "ATAQUES MÁS BARATOS Y PERSISTENTES",
+        facts: "PHISHING · MALWARE · EXFILTRACIÓN · AGENTES",
+        image: "https://dims.apnews.com/dims4/default/3fc4831/2147483647/strip/true/crop/5000x3336%2B0%2B0/resize/1200x800%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fc6%2F20%2F785616a9d6cd43fad6538dac7906%2F2ae6211ac40c4c759949e06d6698571b",
+        alt: "Sitio y logotipos de Anthropic mostrados en una computadora",
+        body: [
+          "Antes, una campaña con muchas víctimas y malware adaptable sugería recursos importantes. Anthropic sostiene que esa pista pierde valor cuando un operador puede automatizar reconocimiento, código y análisis de datos.",
+          "Para defensores, bloquear una variante ya no alcanza si el atacante genera la siguiente de inmediato. La detección tendrá que observar comportamiento e identidad, no sólo firmas de archivos."
+        ]
+      },
+      {
+        title: "El doble uso no entra en una casilla simple",
+        eyebrow: "CIENCIA ÚTIL, RIESGO REAL",
+        facts: "BIOLOGÍA · CONTEXTO · SALVAGUARDAS",
+        image: "https://www.anthropic.com/images/icons/apple-touch-icon.png",
+        alt: "Marca oficial de Anthropic, creadora del asistente Claude",
+        body: [
+          "Una consulta sobre virus puede contribuir a una vacuna o a un experimento irresponsable. El texto aislado no siempre revela intención, institución ni capacidad material del usuario.",
+          "Eso obliga a combinar filtros técnicos, revisión humana y cooperación con autoridades. También exige transparencia externa para comprobar que el sistema no bloquea investigación legítima mientras deja pasar solicitudes mejor disfrazadas."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Anthropic — informe de amenazas de septiembre", url: "https://www.anthropic.com/threat-intelligence-report-september-2026" },
+      { name: "Reuters — operaciones atribuidas y respuesta de Anthropic", url: "https://www.reuters.com/legal/litigation/anthropic-disrupts-russian-chinese-ai-campaigns-targeting-its-claude-models-2026-09-10/" },
+      { name: "AP — usos biológicos y nuevas salvaguardas", url: "https://apnews.com/article/anthropic-ai-threat-bioweapon-russia-00266dca90e4f8853f669648998d3bda" },
+      { name: "The Guardian — análisis del informe", url: "https://www.theguardian.com/technology/2026/sep/10/anthropic-report-details-ai-misuse" }
+    ]
+  },
+  {
+    slug: "finanzas/nasdaq-invierte-kraken-acciones-tokenizadas-nets",
+    category: "FINANZAS + CRIPTO",
+    date: "11 SEP 2026",
+    dateIso: "2026-09-11T08:20:00-03:00",
+    minutes: 10,
+    title: "Nasdaq invierte USD 100 millones en Kraken: las acciones tokenizadas entran por la puerta principal",
+    dek: "La inversión en Payward profundiza una alianza para lanzar Nasdaq Equity Tokens en 2027. Operar fuera del horario tradicional suena moderno; conservar derechos y protección será la prueba importante.",
+    personalAngle: "La tokenización deja de parecer un experimento lateral cuando una bolsa como Nasdaq pone capital y marca una fecha. Me interesa la promesa de liquidación continua, pero todavía más la letra pequeña: una acción tokenizada sólo merece ese nombre si conserva derechos, liquidez y una conexión jurídica clara con el activo real.",
+    leadEyebrow: "WALL STREET QUIERE RIELES QUE NO DUERMAN",
+    leadTitle: "Kraken aporta infraestructura cripto; Nasdaq intenta conservar las reglas del mercado regulado",
+    image: "https://www.reuters.com/resizer/v2/C4AAECSQARJTPO6VC4M7YYJJHE.jpg?auth=14b4a5db0f51cb20af1c7b267e8fbef5597b49bd44f4082cc2070b7a7fadc15d&quality=80&width=1920",
+    imageAlt: "Logotipo de Nasdaq en su sede de Nueva York",
+    body: [
+      "Nasdaq Ventures acordó invertir USD 100 millones en Payward, la empresa matriz de Kraken. El acuerdo amplía la colaboración anunciada en marzo para desarrollar infraestructura de negociación y liquidación de valores tokenizados.",
+      "Las compañías apuntan a lanzar Nasdaq Equity Tokens, o NETs, durante el segundo trimestre de 2027 utilizando la plataforma xStocks de Payward. El objetivo es permitir operaciones fuera de los horarios convencionales sin abandonar transparencia, vigilancia de mercado, liquidez ni derechos de accionista.",
+      "Esa última parte es la difícil. Un token puede moverse las veinticuatro horas, pero la empresa subyacente, el custodio, el registro de propiedad y los mecanismos de reclamo siguen viviendo en jurisdicciones concretas. Si el envoltorio digital agrega velocidad pero debilita el vínculo legal, no es una mejora completa.",
+      "Para Kraken, la inversión aporta respaldo institucional y un socio con experiencia regulatoria. Para Nasdaq, ofrece una vía para competir con plataformas cripto que ya avanzan sobre acciones y derivados. Yo esperaría documentación final antes de celebrar: quién vota, quién cobra dividendos, cómo se resuelve un error y qué precio existe cuando el mercado principal está cerrado."
+    ],
+    features: [
+      {
+        title: "Operar 24/7 cambia el horario, no elimina el riesgo",
+        eyebrow: "LIQUIDEZ FUERA DE RUEDA",
+        facts: "NETS · XSTOCKS · Q2 2027",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/NASDAQ_Logo.svg",
+        alt: "Logotipo corporativo de Nasdaq",
+        body: [
+          "Fuera de la rueda tradicional puede haber menos compradores y vendedores, spreads mayores y precios que reaccionen de forma brusca. Disponibilidad permanente no equivale a profundidad permanente.",
+          "La ventaja será real si el sistema explica cuándo hay liquidez directa, cuándo interviene un creador de mercado y cómo se reconcilia el precio con la acción original."
+        ]
+      },
+      {
+        title: "Los derechos del accionista son el verdadero producto",
+        eyebrow: "MÁS QUE UN PRECIO EN PANTALLA",
+        facts: "VOTO · DIVIDENDOS · CUSTODIA · RECLAMOS",
+        image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/K-logo-wikipedia.svg",
+        alt: "Identidad visual del exchange Kraken",
+        body: [
+          "El token debe especificar quién posee legalmente la acción y qué ocurre ante una división, una oferta o una quiebra del intermediario. Sin esa claridad, el inversor compra exposición económica, no necesariamente propiedad equivalente.",
+          "Información general, no recomendación financiera. La fecha de 2027 deja tiempo para evaluar reglamentos y costos; el anuncio de USD 100 millones es importante, pero no reemplaza ese trabajo."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — inversión de Nasdaq en Payward", url: "https://www.reuters.com/legal/government/nasdaq-invest-100-million-kraken-parent-deepen-tokenization-push-2026-09-10/" },
+      { name: "Nasdaq — mercado y tokenización", url: "https://www.nasdaq.com/solutions/fintech" },
+      { name: "Kraken — plataforma xStocks", url: "https://www.kraken.com/xstocks" },
+      { name: "Investor's Business Daily — detalles del acuerdo", url: "https://www.investors.com/news/nasdaq-pours-millions-into-crypto-platform-partnership-for-tokenized-trading/" }
+    ]
+  },
+  {
+    slug: "finanzas-bonos-treasury-5-por-ciento-petroleo-inflacion",
+    category: "FINANZAS + CRIPTO",
+    date: "11 SEP 2026",
+    dateIso: "2026-09-11T08:10:00-03:00",
+    minutes: 10,
+    title: "El bono de Estados Unidos roza el 5%: petróleo caro, inflación y una venta global que llega a todos",
+    dek: "El Treasury a diez años tocó 4,979% y el Brent superó USD 109 antes de retroceder. Cuando sube el precio mundial del dinero, acciones, hipotecas y mercados emergentes sienten el tirón.",
+    personalAngle: "Los bonos parecen aburridos hasta que su rendimiento cambia el precio de casi todo. Un Treasury cerca del 5% compite con acciones, encarece crédito y reduce el margen de países endeudados. Para un lector argentino no es una cifra lejana: termina influyendo sobre el dólar, el riesgo y el apetito por activos emergentes.",
+    leadEyebrow: "EL PRECIO DEL DINERO VUELVE A GRITAR",
+    leadTitle: "La energía empuja inflación mientras los gobiernos necesitan financiar más deuda",
+    image: "https://www.reuters.com/resizer/v2/ETUDPPWVPROYHDDG7DS4C4G3LI.jpg?auth=13ea09803424e2dc876113eb34b12d96490b3b3d57fad0427a7e023bb1f4ece9&quality=80&width=1920",
+    imageAlt: "Edificio del Departamento del Tesoro de Estados Unidos en Washington",
+    body: [
+      "La venta de bonos soberanos empujó el rendimiento del Treasury estadounidense a diez años hasta 4,979%, muy cerca del umbral psicológico del 5%. Los rendimientos de referencia del G7 subieron en promedio cerca de 19 puntos básicos durante la semana, el peor movimiento desde el inicio de la guerra en Oriente Medio.",
+      "El petróleo agravó el cuadro. El Brent llegó a USD 109,97 ante ataques y riesgos sobre rutas de transporte, antes de ceder parte del avance. Una energía más cara alimenta inflación y reduce la posibilidad de que los bancos centrales bajen tasas; de hecho, el mercado elevó hasta 72% la probabilidad de una suba de la Reserva Federal la próxima semana.",
+      "También pesa la oferta de deuda. Gobiernos con déficits grandes deben convencer a inversores de prestarles a plazos largos, y esos inversores piden mayor compensación. El Tesoro recompró USD 5.200 millones en su última operación, por debajo del límite de USD 6.000 millones, una señal que no alcanzó para calmar por completo al mercado.",
+      "Un 5% sostenido no garantiza un desplome bursátil, pero cambia la comparación: un activo considerado seguro ofrece una rentabilidad que obliga a justificar precios exigentes en acciones y crédito. Mi regla aquí es no reaccionar a un número redondo; miraría inflación, petróleo y duración de la tensión antes de asumir que el movimiento terminó."
+    ],
+    features: [
+      {
+        title: "El petróleo conecta geopolítica con la cuota del préstamo",
+        eyebrow: "DEL BARRIL A LA TASA",
+        facts: "BRENT USD 109,97 · INFLACIÓN · FED",
+        image: "https://i.ytimg.com/vi/BXIHbkRffJE/maxresdefault.jpg",
+        alt: "Gráfico televisivo sobre la venta global de bonos y el aumento del petróleo",
+        body: [
+          "Combustible y transporte atraviesan casi todas las cadenas de precios. Si el shock dura, empresas trasladan costos y los bancos centrales enfrentan una inflación menos cómoda.",
+          "Por eso los bonos reaccionan antes que muchos datos oficiales. El mercado intenta calcular cuánto tiempo permanecerán altas las tasas y qué parte del crecimiento se sacrifica."
+        ]
+      },
+      {
+        title: "El 5% es una frontera psicológica, no una ley natural",
+        eyebrow: "LO QUE MIRARÍA DESPUÉS",
+        facts: "TREASURY 10 AÑOS · ACCIONES · CRÉDITO",
+        image: "https://fred.stlouisfed.org/graph/fredgraph.png?id=DGS10",
+        alt: "Serie oficial de la Reserva Federal de St. Louis sobre el Treasury a diez años",
+        body: [
+          "El nivel importa porque no se sostuvo durante períodos largos desde comienzos de siglo, pero una décima no activa automáticamente una crisis. Importan la velocidad, las expectativas y la capacidad de refinanciar.",
+          "Información general, no asesoramiento financiero. Si una cartera depende de tasas bajas eternas, esta semana sirve como prueba de resistencia, no como invitación a vender todo en el peor momento."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Reuters — venta global de bonos", url: "https://www.reuters.com/world/europe/global-bond-selloff-pushes-10-year-us-yield-toward-5-oil-rate-hike-fears-2026-09-11/" },
+      { name: "Federal Reserve Bank of St. Louis — Treasury a 10 años", url: "https://fred.stlouisfed.org/series/DGS10" },
+      { name: "Financial Times — bonos y petróleo", url: "https://www.ft.com/content/49e8c693-0064-4ef9-917f-5f2be97458fc" },
+      { name: "AP — mercados y retroceso del petróleo", url: "https://apnews.com/article/8c3272812f5e9b9238c6a3301921c17a" }
+    ]
+  },
+  {
+    slug: "gaming/onyx-the-dark-grip-switch-2-portatil-bloober",
+    category: "GAMING",
+    date: "11 SEP 2026",
+    dateIso: "2026-09-11T08:00:00-03:00",
+    minutes: 10,
+    title: "Onyx: The Dark Grip convierte la Switch 2 portátil en un fantasma que manipula al protagonista",
+    dek: "El nuevo terror psicológico de Bloober Team sólo se podrá jugar en modo portátil. La pantalla táctil no será un accesorio: nosotros seremos la entidad que altera la realidad de Holden.",
+    personalAngle: "Me gustan los exclusivos cuando existen porque una idea necesita un hardware concreto, no porque una empresa haya comprado una casilla. Onyx toma el mayor compromiso posible: renuncia al televisor para que tocar la consola sea parte del terror. Puede ser brillante o incómodo, pero al menos tiene una razón de diseño.",
+    leadEyebrow: "TERROR QUE CABE ENTRE LAS MANOS",
+    leadTitle: "Bloober quiere que el jugador sea la presencia sobrenatural, no sólo su víctima",
+    image: "https://cdn.mos.cms.futurecdn.net/vYTden8GDj3rko9e4Ubwwh.png",
+    imageAlt: "Holden se observa en un espejo en Onyx The Dark Grip",
+    body: [
+      "Bloober Team presentó Onyx: The Dark Grip durante el Nintendo Direct de septiembre. El juego, antes conocido como Project M, será exclusivo de Switch 2 y tendrá una condición todavía más extraña: sólo funcionará en modo portátil.",
+      "La decisión nace de su mecánica central. Controlamos a una entidad que guía e interfiere en la vida de Holden, un viajero que llega a un pueblo fantasma. Mediante la pantalla táctil podremos abrir puertas, mover objetos, resolver acertijos y leer mentes, mientras el protagonista interpreta nuestras acciones como la presencia de un poltergeist.",
+      "Ese cambio de perspectiva me parece el gancho verdadero. Muchos juegos de terror convierten al jugador en alguien vulnerable frente a una fuerza invisible; Onyx nos entrega esa fuerza y hace que la fragilidad pertenezca al personaje observado. Manipular demasiado puede empujar a Holden hacia la locura.",
+      "Bloober viene de Silent Hill 2 Remake y Cronos: The New Dawn, de modo que conoce el terror psicológico y los mundos que dudan de su propia realidad. Todavía faltan fecha, precio y una demostración extensa. Por ahora, la propuesta merece atención porque convierte una limitación comercial en lenguaje narrativo."
+    ],
+    features: [
+      {
+        title: "El modo portátil deja de ser una opción de menú",
+        eyebrow: "UNA EXCLUSIVIDAD MECÁNICA",
+        facts: "SWITCH 2 · TÁCTIL · SIN MODO TV",
+        image: "https://img.youtube.com/vi/zS7-Se04c8w/maxresdefault.jpg",
+        alt: "Escena del tráiler oficial de Onyx The Dark Grip para Nintendo Switch 2",
+        body: [
+          "Obligar a jugar con la consola en las manos limita comodidad y accesibilidad, pero permite diseñar cada interacción alrededor del tacto y la cercanía. No hay que mantener una versión equivalente para mando tradicional.",
+          "El riesgo es que el gesto se convierta en truco repetitivo. La pantalla necesita cambiar cómo entendemos a Holden y no funcionar solamente como una llave táctil para cien puertas."
+        ]
+      },
+      {
+        title: "Eternal Darkness asoma detrás de la niebla",
+        eyebrow: "EL JUEGO TAMBIÉN MIRA AL JUGADOR",
+        facts: "REALIDAD · LOCURA · POLTERGEIST",
+        image: "https://img.youtube.com/vi/B_QJ4BYIGME/maxresdefault.jpg",
+        alt: "Presentación oficial Nintendo Direct de septiembre de 2026",
+        body: [
+          "La idea de borrar la frontera entre consola, jugador y ficción recuerda a Eternal Darkness, un clásico de GameCube que hacía dudar incluso de la interfaz. Bloober ha mencionado esa tradición como referencia emocional.",
+          "No necesito que copie sus bromas; quiero que encuentre una forma moderna de incomodar. Si Holden aprende a temer nuestros dedos sobre la pantalla, Onyx habrá encontrado algo que un juego conectado al televisor no podría reproducir igual."
+        ]
+      }
+    ],
+    sources: [
+      { name: "Nintendo — tráiler oficial de Onyx", url: "https://www.youtube.com/watch?v=zS7-Se04c8w" },
+      { name: "Nintendo — Direct del 9 de septiembre", url: "https://www.youtube.com/watch?v=B_QJ4BYIGME" },
+      { name: "GamesRadar — anuncio y mecánicas táctiles", url: "https://www.gamesradar.com/games/horror/silent-hill-2-remake-devs-haunted-new-onyx-the-dark-grip-is-the-only-switch-2-game-to-make-its-horror-exclusive-to-handheld-mode/" },
+      { name: "Bloober Team — sitio oficial", url: "https://www.blooberteam.com/" }
+    ]
+  },
+  // FIN NOTICIAS 11 SEP 2026
   // INICIO NOTICIAS 10 SEP 2026
   {
     slug: "tecnologia/apple-iphone-duo-iphone-18-pro-airpods-watch-novedades",

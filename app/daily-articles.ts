@@ -144,7 +144,8 @@ export const dailyArticles = [
     sources: [
       {name: "Reuters", url: "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"},
       {name: "International Energy Agency", url: "https://www.iea.org/topics/oil-market-report"},
-      {name: "OPEC", url: "https://www.opec.org/opec_web/en/publications/338.htm"}
+      {name: "OPEC", url: "https://www.opec.org/opec_web/en/publications/338.htm"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
     ]
   },
   {
@@ -193,7 +194,8 @@ export const dailyArticles = [
     sources: [
       {name: "Reuters", url: "https://www.reuters.com/world/us/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/"},
       {name: "Federal Reserve", url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
-      {name: "U.S. Bureau of Labor Statistics", url: "https://www.bls.gov/cpi/"}
+      {name: "U.S. Bureau of Labor Statistics", url: "https://www.bls.gov/cpi/"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
     ]
   },
   {
@@ -242,7 +244,8 @@ export const dailyArticles = [
     sources: [
       {name: "Senate Banking Committee", url: "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senators-lummis-tillis-release-market-structure-bill-text-ahead-of-banking-committee-markup"},
       {name: "Reuters / MarketScreener", url: "https://www.marketscreener.com/news/crypto-banks-take-lobbying-war-to-us-senators-home-states-ahead-of-key-vote-ce785bd9dd8ff72d"},
-      {name: "SEC — iShares Bitcoin Trust", url: "https://www.sec.gov/Archives/edgar/data/1980994/000143774926026004/bit20260630c_10q.htm"}
+      {name: "SEC — iShares Bitcoin Trust", url: "https://www.sec.gov/Archives/edgar/data/1980994/000143774926026004/bit20260630c_10q.htm"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
     ]
   },
   // FIN NOTICIAS 13 SEP 2026

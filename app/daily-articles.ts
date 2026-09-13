@@ -1,4 +1,251 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 13 SEP 2026
+  {
+    slug: "gaming/blizzcon-2026-starcraft-diablo-wow-forever",
+    category: "GAMING",
+    date: "13 SEP 2026",
+    dateIso: "2026-09-13T18:35:00-03:00",
+    minutes: 10,
+    title: "BlizzCon 2026 tiró tres bombas: StarCraft cambia de género, Diablo V mira a 2029 y WoW vuelve a empezar",
+    dek: "Blizzard confirmó un shooter de mundo abierto de StarCraft para 2030, Diablo V para 2029 y World of Warcraft: Forever para noviembre. Mucho futuro, nostalgia y calendarios que conviene mirar con calma.",
+    personalAngle: "BlizzCon volvió con esa energía de conferencia que te hace gritar primero y revisar la letra chica después. Ver a StarCraft regresar me puede, pero 2030 está demasiado lejos para hipotecar entusiasmo; WoW: Forever, en cambio, es el anuncio que ya podemos medir con fechas, contenido y una beta cercana.",
+    leadEyebrow: "BLIZZARD ABRIÓ TODO EL INVENTARIO",
+    leadTitle: "Una noche de regresos enormes, aunque no todos están igual de cerca",
+    image: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Blizzcon-2026-774a2b066ec4a204de15-1600x900.png",
+    imageAlt: "Arte oficial de la ceremonia de apertura de BlizzCon 2026",
+    body: [
+      "Blizzard concentró décadas de memoria gamer en una sola apertura. StarCraft regresará en 2030 como un shooter de mundo abierto, una decisión capaz de dividir una sala antes de que termine el tráiler. Diablo V llegará en la primavera boreal de 2029 y parte de una idea contundente: Santuario cayó y Diablo ganó.",
+      "El anuncio más inmediato fue World of Warcraft: Forever. Se lanza el 4 de noviembre de 2026, tendrá beta desde el 17 de septiembre y convivirá con Modern y Classic. Blizzard promete tres zonas nuevas, más de 1.000 misiones, nueve mazmorras, dos raids y la nueva raza Skyborne dentro de una Azeroth inspirada en la era Vanilla.",
+      "También hubo contenido más cercano: la temporada Hell's Legacy de Diablo IV llega el 15 de septiembre y Warcraft III: Reforged recibió Forsaken Kingdom. Esa diferencia entre lo jugable ahora y la promesa a cuatro años es importante. Un logo de 2030 funciona como declaración de intención, no como garantía de diseño, rendimiento o fecha.",
+      "Mi orden personal queda así: WoW: Forever es el proyecto para seguir ya; Diablo V es una gran premisa esperando convertirse en juego; y StarCraft merece entusiasmo con freno de mano. Cambiar la estrategia por un shooter puede abrir el universo a otra audiencia, pero Blizzard tendrá que demostrar que no dejó atrás lo que hacía especial a la saga."
+    ],
+    features: [
+      {
+        title: "StarCraft regresa, pero no al género que muchos esperaban",
+        eyebrow: "KOPRULU EN PRIMERA PERSONA",
+        facts: "2030 · MUNDO ABIERTO · SHOOTER",
+        image: "https://bnetcmsus-a.akamaihd.net/cms/gallery/j3/J3RLTCKOODJ51789169243964.png",
+        alt: "Imagen oficial difundida por Blizzard durante BlizzCon 2026",
+        body: [
+          "La confirmación oficial habla de un shooter de mundo abierto. Todavía faltan detalles sobre plataformas, estructura, estudio responsable y sistemas. Para una licencia construida alrededor de la estrategia, el género será la primera gran prueba de identidad.",
+          "No lo reservaría mentalmente cuatro años antes. Sí guardaría el anuncio como señal de que Microsoft y Blizzard quieren convertir StarCraft otra vez en una franquicia activa."
+        ]
+      },
+      {
+        title: "Diablo V ya tiene año y una derrota como punto de partida",
+        eyebrow: "SANTUARIO DESPUÉS DEL FINAL",
+        facts: "PRIMAVERA 2029 · DIABLO GANÓ · SIN PRECIO",
+        image: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Diablo_V_Logo_JPG-5c5de11255f28981c47e-1024x597.jpg",
+        alt: "Logo oficial de Diablo V presentado en BlizzCon 2026",
+        body: [
+          "La idea de comenzar después de la victoria de Diablo tiene fuerza porque cambia la pregunta habitual: ya no es cómo impedir el desastre, sino qué queda por salvar. Por ahora hay concepto y ventana de lanzamiento; faltan gameplay, plataformas y modelo comercial.",
+          "La conversación interesante no es qué tráiler ganó la noche. Es cuál de estos proyectos puede sostener su promesa cuando desaparezcan las luces del escenario."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Blizzard Entertainment", url: "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony"},
+      {name: "Xbox Wire", url: "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony/"},
+      {name: "BlizzCon", url: "https://blizzcon.com/en-us/"}
+    ]
+  },
+  {
+    slug: "gaming/world-of-warcraft-forever-fecha-beta-contenido",
+    category: "GAMING",
+    date: "13 SEP 2026",
+    dateIso: "2026-09-13T18:25:00-03:00",
+    minutes: 9,
+    title: "World of Warcraft: Forever quiere congelar el nivel 60 sin congelar Azeroth",
+    dek: "Llega el 4 de noviembre, abre su beta el 17 de septiembre y propone una tercera versión permanente de WoW con más de 1.000 misiones nuevas.",
+    personalAngle: "La nostalgia suele vendernos un museo con servidores. Forever intenta algo bastante más arriesgado: conservar el límite de nivel 60 y la geografía emocional de Vanilla, pero permitir que el mundo siga creciendo. Si lo logra, puede ser hogar; si se pasa de conservador, será una postal cara.",
+    leadEyebrow: "AZEROTH BUSCA OTRO PUNTO DE GUARDADO",
+    leadTitle: "No es Classic otra vez: es una línea paralela diseñada para durar",
+    image: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Blizzcon-2026-774a2b066ec4a204de15-1600x900.png",
+    imageAlt: "Escenario y arte promocional oficial de BlizzCon 2026",
+    body: [
+      "World of Warcraft: Forever se lanzará globalmente el 4 de noviembre a las 15:00 PST y estará incluido con la suscripción o tiempo de juego de WoW. La beta comienza el 17 de septiembre. Blizzard lo define como un tercer hogar junto a Modern y Classic, ubicado después de Warcraft III: Reforged — Forsaken Kingdom y antes de Molten Core.",
+      "La propuesta suma tres zonas, más de 1.000 misiones, nueve mazmorras, dos raids y la raza Skyborne. El nivel máximo permanecerá en 60 y el progreso se apoyará en nuevas historias y actualizaciones, no en una escalera infinita que vuelva obsoleto todo cada expansión.",
+      "Ahí está la apuesta interesante. El WoW original hacía que viajar importara porque el mundo era grande, lento y social. Forever dice querer recuperar ese ritmo sin copiar cada limitación de 2004. Habrá modelos de personaje HD opcionales, árboles revisados y más combinaciones entre razas y clases.",
+      "También existe una letra chica comercial: Blizzard ofrece paquetes opcionales con cosméticos, acceso a beta, reserva de nombre y tiempo de juego. El acceso base llega con la suscripción; pagar una edición superior compra extras y anticipación, no el derecho básico a entrar el 4 de noviembre."
+    ],
+    features: [
+      {
+        title: "Más de mil misiones no sirven si el mapa vuelve a sentirse como una lista",
+        eyebrow: "EL VIAJE ANTES QUE EL CHECKLIST",
+        facts: "3 ZONAS · 9 MAZMORRAS · 2 RAIDS",
+        image: "https://bnetcmsus-a.akamaihd.net/cms/gallery/j3/J3RLTCKOODJ51789169243964.png",
+        alt: "Material oficial de World of Warcraft Forever publicado por Blizzard",
+        body: [
+          "La cantidad impresiona, pero el éxito dependerá del diseño. Las misiones necesitan crear encuentros, decisiones y pequeños relatos; mil signos de exclamación alineados no reconstruyen comunidad.",
+          "El límite 60 puede ayudar a que las zonas y raids mantengan valor. También puede convertir el progreso en una cinta horizontal difícil de equilibrar. Esa tensión será más reveladora que cualquier cifra del anuncio."
+        ]
+      },
+      {
+        title: "La beta está lo bastante cerca para bajar el volumen del marketing",
+        eyebrow: "PRIMERA PRUEBA: 17 DE SEPTIEMBRE",
+        facts: "BETA · 4 NOVIEMBRE · SUSCRIPCIÓN",
+        image: "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Diablo_V_Logo_JPG-5c5de11255f28981c47e-1024x597.jpg",
+        alt: "Imagen de la cobertura oficial de Xbox Wire sobre los anuncios de Blizzard",
+        body: [
+          "En pocos días aparecerán impresiones sobre ritmo, clases, servidores y rendimiento. Yo esperaría esa información antes de comprar un paquete opcional solo por ansiedad de beta.",
+          "Forever tiene una oportunidad rara: usar la nostalgia como punto de partida y no como jaula. ¿Preferís una Azeroth que se expanda sin subir el nivel máximo o el reinicio clásico sin añadidos?"
+        ]
+      }
+    ],
+    sources: [
+      {name: "World of Warcraft", url: "https://news.blizzard.com/en-us/article/24301145/world-of-warcraft-at-blizzcon-2026-discover-whats-next"},
+      {name: "Blizzard Entertainment", url: "https://news.blizzard.com/en-us/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony"},
+      {name: "Xbox Wire", url: "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony/"}
+    ]
+  },
+  {
+    slug: "finanzas/petroleo-oleoducto-saudi-inflacion-mercados",
+    category: "FINANZAS + CRIPTO",
+    date: "13 SEP 2026",
+    dateIso: "2026-09-13T18:15:00-03:00",
+    minutes: 10,
+    title: "El petróleo pierde su ruta de escape: el oleoducto saudí pone en riesgo 4% de la oferta mundial",
+    dek: "La ruta Este-Oeste permanece cerrada tras ataques con drones. Los inventarios de Yanbu alcanzarían para cinco a siete días y el golpe ya llega a inflación, bonos y acciones.",
+    personalAngle: "El petróleo puede parecer un tema lejano hasta que se mete en el surtidor, el flete y el precio de casi todo. Esta vez el problema no es una línea que sube en una pantalla: es una ruta física que llevaba cuatro millones de barriles diarios evitando Hormuz. Cuando el mapa se cierra, la economía real no tiene botón de teletransporte.",
+    leadEyebrow: "CUATRO MILLONES DE BARRILES SIN ATAJO",
+    leadTitle: "Yanbu tiene días de margen y el mercado ya empezó a cobrar el riesgo",
+    image: "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Infraestructura energética y tuberías industriales como contexto de la interrupción saudí",
+    body: [
+      "El oleoducto Este-Oeste de Arabia Saudita sigue fuera de servicio después de ataques con drones. Esa vía trasladaba cerca de cuatro millones de barriles diarios hacia Yanbu, en el mar Rojo, y permitía esquivar el estrecho de Hormuz. La cifra equivale aproximadamente al 4% de la oferta mundial.",
+      "Fuentes del mercado citadas por Reuters estiman que Yanbu posee inventarios para mantener exportaciones entre cinco y siete días. Existen reservas adicionales en puertos egipcios, pero no reemplazan indefinidamente el flujo. Las estimaciones de reparación van desde una reanudación parcial temprana hasta cinco o seis semanas.",
+      "La producción saudí ya había caído de 10,9 millones de barriles diarios en febrero a 6,2 millones en agosto. Con menos oferta disponible, el petróleo por encima de USD 100 se transmite a combustibles, transporte y costos industriales. También complica a los bancos centrales: combatir inflación energética con tasas más altas enfría demanda, pero no repara un ducto.",
+      "Para Argentina, el efecto no es lineal. Un crudo más caro puede mejorar ingresos del sector exportador, mientras encarece combustibles, logística e inflación local. Mirar solamente a las petroleras o solamente al surtidor deja media pantalla fuera del análisis."
+    ],
+    features: [
+      {
+        title: "Cinco a siete días no son una profecía, son un reloj logístico",
+        eyebrow: "EL COLCHÓN DE YANBU",
+        facts: "5–7 DÍAS · 4 MILLONES BPD · REPARACIÓN INCIERTA",
+        image: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?auto=format&fit=crop&w=1600&q=80",
+        alt: "Tanques de almacenamiento de petróleo utilizados como imagen contextual",
+        body: [
+          "Los inventarios suavizan una interrupción; no crean producción nueva. Si el ducto vuelve parcialmente, el escenario cambia. Si la reparación se extiende, los compradores deberán competir por barriles de otras rutas.",
+          "Por eso el dato relevante no es solo el daño inicial. Hay que seguir capacidad reanudada, exportaciones reales, seguros marítimos y cualquier reapertura de Hormuz."
+        ]
+      },
+      {
+        title: "El shock llega a la cartera por más de una puerta",
+        eyebrow: "ENERGÍA, BONOS Y ACCIONES",
+        facts: "BRENT +USD 100 · MÁS INFLACIÓN · TASAS BAJO PRESIÓN",
+        image: "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80",
+        alt: "Monedas y gráficos financieros como contexto del impacto inflacionario",
+        body: [
+          "Energía cara puede castigar consumo y márgenes, elevar rendimientos de bonos y sostener sectores productores. No convierte automáticamente a cada petrolera en compra ni a cada índice en venta.",
+          "Mi postura es observar, no perseguir el titular. Esto es información general, no asesoramiento financiero. La pregunta clave es cuánto dura la interrupción, porque duración transforma un susto en un cambio de escenario."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Reuters", url: "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/"},
+      {name: "International Energy Agency", url: "https://www.iea.org/topics/oil-market-report"},
+      {name: "OPEC", url: "https://www.opec.org/opec_web/en/publications/338.htm"}
+    ]
+  },
+  {
+    slug: "finanzas/fed-warsh-trump-tasas-reunion-septiembre",
+    category: "FINANZAS + CRIPTO",
+    date: "13 SEP 2026",
+    dateIso: "2026-09-13T18:05:00-03:00",
+    minutes: 9,
+    title: "La Fed llega a una reunión imposible: inflación, petróleo y presión política tiran de la tasa",
+    dek: "El mercado descuenta una alta probabilidad de suba el 16 de septiembre mientras Trump exige tasas más bajas. Kevin Warsh enfrenta su primera gran prueba de credibilidad.",
+    personalAngle: "Hay semanas en las que el mercado parece un jefe final con tres barras de vida. La Fed tiene inflación subyacente firme, petróleo por encima de USD 100 y presión política para abaratar el dinero. Cualquier decisión deja un flanco abierto; por eso esta vez el lenguaje de Kevin Warsh puede mover tanto como el número.",
+    leadEyebrow: "EL PRECIO DEL DINERO EN MODO DIFÍCIL",
+    leadTitle: "Subir combate la inflación; bajar satisface a la política; esperar tampoco es neutral",
+    image: "https://images.unsplash.com/photo-1565373679107-344d38dbf734?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Edificio institucional de Washington como contexto de la reunión de la Reserva Federal",
+    body: [
+      "La Reserva Federal se reúne esta semana con el mercado asignando una probabilidad cercana al 87% a una suba de tasas el 16 de septiembre. El petróleo avanzó con fuerza y la inflación subyacente registró su mayor aumento en cuatro meses, dos señales que vuelven más difícil justificar un recorte.",
+      "Donald Trump dijo que Estados Unidos debería tener la tasa más baja del mundo y sostuvo que la fortaleza económica permitiría hacerlo. Esa es una posición política. El mandato de la Fed, en cambio, obliga a evaluar estabilidad de precios y empleo. Confundir ambos planos convierte una discusión técnica en una encuesta de popularidad.",
+      "Kevin Warsh enfrenta una prueba particularmente delicada. Una suba puede reforzar su compromiso antiinflacionario, pero también elevar hipotecas, crédito y costos financieros antes de las elecciones legislativas. Una pausa necesitaría explicar por qué el shock petrolero no se convertirá en inflación persistente.",
+      "Para acciones y cripto, el detalle importa. No alcanza con adivinar subir o no subir. La trayectoria que sugiera el comunicado, la lectura sobre energía y la independencia que transmita Warsh pueden redefinir rendimientos, dólar y apetito por riesgo durante semanas."
+    ],
+    features: [
+      {
+        title: "La tasa no puede producir petróleo",
+        eyebrow: "LA LIMITACIÓN DEL BANCO CENTRAL",
+        facts: "SHOCK DE OFERTA · DEMANDA · EXPECTATIVAS",
+        image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80",
+        alt: "Billetes de dólar como imagen contextual de política monetaria",
+        body: [
+          "Subir tasas reduce demanda y puede evitar que un shock temporal se propague a salarios y precios. No agrega barriles al mercado. Si la energía sigue escalando, el banco central debe elegir cuánto dolor económico acepta para contener expectativas.",
+          "Esa limitación explica por qué un comunicado prudente puede convivir con una decisión dura. El mercado leerá el mapa futuro, no solo el movimiento de septiembre."
+        ]
+      },
+      {
+        title: "La independencia se demuestra cuando la decisión molesta",
+        eyebrow: "WARSH BAJO DOS REFLECTORES",
+        facts: "16 SEP · PRESIÓN POLÍTICA · CREDIBILIDAD",
+        image: "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1600&q=80",
+        alt: "Mazo y balanza como metáfora visual de independencia institucional",
+        body: [
+          "El presidente puede expresar preferencias; la Fed debe fundamentar su decisión con datos. La credibilidad surge de esa distancia, especialmente cuando el resultado tiene costo electoral.",
+          "Mi plan sería evitar apuestas binarias antes del comunicado y revisar duración, calidad y riesgo de cada posición. Es información educativa, no una recomendación personalizada."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Reuters", url: "https://www.reuters.com/world/us/ahead-fed-meeting-trump-says-us-should-have-worlds-lowest-interest-rate-2026-09-13/"},
+      {name: "Federal Reserve", url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+      {name: "U.S. Bureau of Labor Statistics", url: "https://www.bls.gov/cpi/"}
+    ]
+  },
+  {
+    slug: "finanzas/bitcoin-77300-etf-salidas-clarity-fed",
+    category: "FINANZAS + CRIPTO",
+    date: "13 SEP 2026",
+    dateIso: "2026-09-13T17:55:00-03:00",
+    minutes: 10,
+    title: "Bitcoin aguanta cerca de USD 77.300, pero la semana le sacó tres soportes: ETF, Fed y CLARITY",
+    dek: "Los ETF spot registraron cerca de USD 462,6 millones en salidas semanales. El mercado espera la votación procesal del CLARITY Act el martes y la decisión de la Fed el miércoles.",
+    personalAngle: "Cuando Bitcoin sostiene un precio después de una mala semana, es tentador llamarlo fortaleza. Yo prefiero una palabra menos heroica: equilibrio. Los compradores todavía aparecen, pero desapareció el viento de cola de los ETF y se acercan dos eventos capaces de romper ese equilibrio en direcciones opuestas.",
+    leadEyebrow: "DOS EVENTOS EN 26 HORAS",
+    leadTitle: "La regulación y las tasas llegan juntas a un mercado con menos demanda institucional",
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Moneda física de Bitcoin frente a una pantalla de mercado",
+    body: [
+      "Bitcoin cotiza alrededor de USD 77.332 este domingo, con un rango intradía aproximado entre USD 76.532 y USD 77.403. El precio aislado dice poco. El contexto es una semana en la que los ETF spot estadounidenses habrían acumulado USD 462,6 millones en salidas, sin una sola jornada positiva.",
+      "El martes 15 de septiembre el Senado estadounidense tiene prevista una votación procesal sobre el CLARITY Act. Se requieren 60 votos para avanzar. Superar ese umbral no convertiría inmediatamente el proyecto en ley; fracasar, en cambio, reduciría mucho el margen legislativo disponible durante 2026.",
+      "Unas 26 horas después llegará la decisión de la Fed. Inflación firme y petróleo caro elevaron las apuestas de suba de tasas. Para Bitcoin, una regulación más clara puede funcionar como catalizador estructural, mientras un dólar y rendimientos más altos presionan la liquidez en el corto plazo.",
+      "Esa mezcla invalida los pronósticos cómodos. Un resultado favorable en el Senado podría quedar opacado por un mensaje agresivo de Warsh; una pausa de la Fed podría convivir con otra derrota legislativa. Dos titulares no suman una dirección automática."
+    ],
+    features: [
+      {
+        title: "Las salidas de ETF muestran demanda que se retira, no una sentencia",
+        eyebrow: "USD 462,6 MILLONES MENOS",
+        facts: "4 DÍAS · 0 ENTRADAS · BTC CERCA DE USD 77.300",
+        image: "https://images.unsplash.com/photo-1640340434855-6084b1f4901c?auto=format&fit=crop&w=1600&q=80",
+        alt: "Pantallas con cotizaciones de criptomonedas como contexto de los flujos ETF",
+        body: [
+          "Los vehículos spot conectan capital tradicional con Bitcoin y sus flujos pueden reforzar movimientos. Una semana negativa demuestra que ese comprador no es permanente. Tampoco prueba por sí sola que comenzó una tendencia bajista.",
+          "Conviene mirar varias semanas, activos administrados y concentración por fondo. Un dato diario espectacular es excelente para redes; una serie consistente es mejor para decidir."
+        ]
+      },
+      {
+        title: "CLARITY no se aprueba el martes: intenta conseguir derecho a seguir",
+        eyebrow: "EL UMBRAL DE 60 VOTOS",
+        facts: "15 SEP · CLOTURE · NO ES VOTACIÓN FINAL",
+        image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80",
+        alt: "Capitolio de Estados Unidos como contexto de la votación del CLARITY Act",
+        body: [
+          "La precisión importa: el voto es sobre el avance del trámite. Si reúne 60 apoyos todavía quedarán debate, texto final y otras etapas. El mercado puede celebrar una puerta abierta antes de conocer la habitación.",
+          "Mi lectura es ESPERAR SIN FOMO. No aumentaría riesgo solo para adivinar dos eventos binarios consecutivos. Esto es información general y no asesoramiento financiero."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Senate Banking Committee", url: "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senators-lummis-tillis-release-market-structure-bill-text-ahead-of-banking-committee-markup"},
+      {name: "Reuters / MarketScreener", url: "https://www.marketscreener.com/news/crypto-banks-take-lobbying-war-to-us-senators-home-states-ahead-of-key-vote-ce785bd9dd8ff72d"},
+      {name: "SEC — iShares Bitcoin Trust", url: "https://www.sec.gov/Archives/edgar/data/1980994/000143774926026004/bit20260630c_10q.htm"}
+    ]
+  },
+  // FIN NOTICIAS 13 SEP 2026
   // INICIO NOTICIAS 12 SEP 2026
   {
     slug: "tecnologia/nvidia-inversion-anthropic-ipo-ia",

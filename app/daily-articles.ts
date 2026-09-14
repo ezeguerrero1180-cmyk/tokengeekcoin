@@ -1,4 +1,261 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 14 SEP 2026
+  {
+    slug: "gaming/heroes-storm-xal-atath-ptr-regreso-2026",
+    category: "GAMING",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T08:45:00-03:00",
+    minutes: 9,
+    title: "Heroes of the Storm vuelve a mover el Nexus: Xal’atath entra hoy al PTR",
+    dek: "La villana de World of Warcraft será el primer héroe nuevo anunciado tras años de mantenimiento. Llega al juego completo el 28 de septiembre y Blizzard deja abierta la puerta a más contenido.",
+    personalAngle: "Heroes of the Storm pasó demasiado tiempo en esa zona gris donde un juego sigue vivo gracias a su comunidad, pero la empresa evita pronunciar la palabra futuro. Ver a Xal’atath entrar al PTR hoy no equivale a una resurrección completa; sí es la primera señal concreta en mucho tiempo de que el Nexus volvió a aparecer en el mapa de Blizzard.",
+    leadEyebrow: "EL NEXUS RECUPERA PULSO",
+    leadTitle: "Un héroe nuevo no borra años de silencio, pero cambia la conversación",
+    image: "https://wow.zamimg.com/uploads/screenshots/normal/1186084.jpg",
+    imageAlt: "Arte de Xal’atath difundido a partir del press kit oficial de World of Warcraft",
+    body: [
+      "Xal’atath ya está disponible para probar en el PTR de Heroes of the Storm desde este 14 de septiembre. Su incorporación general está prevista para el 28 de septiembre. Blizzard confirmó el anuncio durante BlizzCon 2026 y lo acompañó con una frase cuidadosamente ambigua: podría haber más novedades para Heroes en el futuro.",
+      "La fecha importa porque HotS llevaba años sostenido principalmente con ajustes, rotaciones y mantenimiento. La llegada de un personaje completamente nuevo requiere diseño de habilidades, arte, animaciones, equilibrio y pruebas. Es una inversión diferente a mantener los servidores encendidos.",
+      "Xal’atath también es una elección inteligente. La antagonista ocupa un lugar central en la etapa actual de World of Warcraft y llega con reconocimiento inmediato. Llevarla al Nexus conecta el MOBA con la agenda presente de Blizzard sin depender únicamente de nostalgia.",
+      "Ahora bien, un héroe no crea por sí solo una hoja de ruta. Todavía no hay confirmación de una cadencia estable, un nuevo equipo dedicado, temporadas regulares ni una expansión del circuito competitivo. Conviene celebrar el contenido que existe y no completar con imaginación lo que Blizzard todavía no prometió.",
+      "Mi lectura es ESPERANZA CON LOS PIES EN EL NEXUS. Hoy probaría el PTR y miraría qué tan elaborado está el kit, cómo responde la comunidad y cuántos parches recibe antes del lanzamiento. La calidad del soporte posterior dirá más que cualquier guiño desde el escenario."
+    ],
+    features: [
+      {
+        title: "Xal’atath tiene que sentirse como una amenaza, no como una skin con estadísticas",
+        eyebrow: "DEL VACÍO AL MOBA",
+        facts: "PTR 14 SEP · LANZAMIENTO 28 SEP · HÉROE NUEVO",
+        image: "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A222%2Ccw%3A1660%2Cch%3A1245%2Cq%3A80%2Cw%3A1660/dvSiN6WfcjaggHCkuH8jnK.jpg",
+        alt: "Xal’atath rodeada de energía del Vacío en una imagen publicada por PC Gamer",
+        body: [
+          "El desafío de adaptar una figura narrativa a Heroes está en traducir identidad a decisiones jugables. Control del espacio, manipulación y presión deberían pesar más que una colección genérica de proyectiles morados.",
+          "El PTR permitirá detectar si su diseño crea respuestas interesantes o simplemente domina por números. En un MOBA veterano, la novedad necesita entusiasmo y también contrajuego."
+        ]
+      },
+      {
+        title: "La comunidad mantuvo la antorcha cuando Blizzard miraba hacia otro lado",
+        eyebrow: "MÁS QUE UN PARCHE",
+        facts: "AÑOS DE MANTENIMIENTO · COMUNIDAD ACTIVA · FUTURO ABIERTO",
+        image: "https://bnetcmsus-a.akamaihd.net/cms/gallery/ga/GAWNXGPMI00T1789168507024.png",
+        alt: "Arte oficial de Blizzard utilizado durante los anuncios de BlizzCon 2026",
+        body: [
+          "Jugadores, creadores y organizadores comunitarios conservaron partidas y torneos cuando el apoyo corporativo se redujo. El regreso de contenido importante también es un reconocimiento indirecto a esa persistencia.",
+          "La pregunta para comentarios es concreta: ¿Xal’atath te alcanza para volver a instalar HotS o necesitás ver un segundo héroe y una hoja de ruta antes de creer en el regreso?"
+        ]
+      }
+    ],
+    sources: [
+      {name: "Blizzard Entertainment", url: "https://news.blizzard.com/en-gb/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony"},
+      {name: "BlizzCon", url: "https://blizzcon.com/en-us/"},
+      {name: "Wowhead — arte de Xal’atath", url: "https://www.wowhead.com/news/new-xalatath-key-art-for-the-war-within-launch-destruction-346173"},
+      {name: "PC Gamer — imagen contextual", url: "https://www.pcgamer.com/games/world-of-warcraft/the-war-within-murdered-one-of-wows-most-important-characters-almost-immediately-but-i-aint-writing-him-off-until-blizzard-shows-me-the-body/"}
+    ]
+  },
+  {
+    slug: "gaming/warcraft-3-forsaken-kingdom-campana-actualizacion",
+    category: "GAMING",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T08:35:00-03:00",
+    minutes: 10,
+    title: "Warcraft III recibe una campaña después de 23 años: Forsaken Kingdom tiene una misión más difícil que vencer a la Plaga",
+    dek: "La expansión ya está disponible con más de 30 horas de historia, el origen del Paladín Renegado y la actualización 3.0. También debe reparar la confianza rota por Reforged.",
+    personalAngle: "Pocas veces una expansión llega con dos barras de vida. La primera pertenece a su campaña; la segunda, a la reputación de Warcraft III: Reforged. Forsaken Kingdom puede contar una gran historia sobre Lordaeron, pero antes tiene que convencer a una comunidad que aprendió a desconfiar de cada promesa asociada con este remaster.",
+    leadEyebrow: "LORDAERON ABRE UNA CAMPAÑA NUEVA",
+    leadTitle: "Treinta horas de contenido y una deuda de confianza mucho más larga",
+    image: "https://bnetcmsus-a.akamaihd.net/cms/gallery/fy/FYU9GSBM93EI1789170246594.png",
+    imageAlt: "Arte oficial de Warcraft III Reforged Forsaken Kingdom publicado por Blizzard",
+    body: [
+      "Warcraft III: Reforged — Forsaken Kingdom ya se puede jugar en PC. Es la primera campaña narrativa nueva del título en más de 23 años y recorre la caída de Lordaeron, la creación de Entrañas y los orígenes del Paladín Renegado.",
+      "La propuesta supera las 30 horas e incorpora un prólogo, nuevas misiones y conexiones que continúan en World of Warcraft: Forever. Blizzard intenta así unir el final de Warcraft III con esa nueva línea permanente de Azeroth que se lanzará en noviembre.",
+      "El contenido llega junto con la actualización 3.0, que renueva gráficos y amplía el World Editor. Esta última parte puede ser tan importante como la campaña: Warcraft III sobrevivió durante décadas porque su comunidad fabricó mapas, modos y hasta géneros enteros.",
+      "Pero Reforged no parte desde cero. Su lanzamiento original eliminó funciones, incumplió expectativas y dañó la relación con jugadores veteranos. Una campaña extensa es una oportunidad real de reparación, aunque la confianza no se reinstala con el mismo botón que un parche.",
+      "Yo no evaluaría Forsaken Kingdom únicamente por la nostalgia de Sylvanas o Arthas. Miraría estabilidad, calidad de misiones, herramientas del editor y respeto por el juego clásico. Si esos cuatro pilares funcionan, Blizzard tendrá algo más valioso que una expansión: una segunda oportunidad bien usada."
+    ],
+    features: [
+      {
+        title: "El Paladín Renegado puede darle una mirada nueva a una historia conocida",
+        eyebrow: "JUGAR DESDE LAS RUINAS",
+        facts: "+30 HORAS · PRÓLOGO · NUEVO HÉROE",
+        image: "https://img1.wywyx.com/uploads/allimg/260513/86-260513105108.jpg",
+        alt: "Arte de Warcraft III Reforged con el Rey Exánime publicado por un medio especializado",
+        body: [
+          "La caída de Lordaeron ya forma parte del ADN de Warcraft, pero cambiar el punto de vista puede evitar que la campaña sea un simple recorrido turístico por momentos famosos.",
+          "Quiero ver decisiones tácticas que reflejen la supervivencia de los Renegados y no solamente cinemáticas que preparen el próximo producto. La historia debería sostenerse incluso para quien no piensa jugar Forever."
+        ]
+      },
+      {
+        title: "El World Editor es el verdadero contenido infinito",
+        eyebrow: "LA HERRAMIENTA QUE CREÓ GÉNEROS",
+        facts: "ACTUALIZACIÓN 3.0 · GRÁFICOS · MAPAS PERSONALIZADOS",
+        image: "https://bnetcmsus-a.akamaihd.net/cms/gallery/j3/J3RLTCKOODJ51789169243964.png",
+        alt: "Identidad visual oficial de World of Warcraft Forever conectada narrativamente con la nueva campaña",
+        body: [
+          "Un editor robusto permite que la comunidad produzca valor durante años. Mejorarlo significa menos titulares inmediatos que anunciar una campaña, pero puede extender mucho más la vida del juego.",
+          "Mi consejo es esperar análisis técnicos si ya sufriste con Reforged. ¿Te interesa más la historia nueva o volverías por las mejoras al editor y los mapas de la comunidad?"
+        ]
+      }
+    ],
+    sources: [
+      {name: "Blizzard Entertainment", url: "https://news.blizzard.com/en-gb/article/24301453/everything-announced-at-blizzcon-2026-opening-ceremony"},
+      {name: "Blizzard — resumen de Warcraft III", url: "https://news.blizzard.com/"},
+      {name: "Windows Central", url: "https://www.windowscentral.com/gaming/blizzard/warcraft-3-is-getting-a-new-expansion-after-over-23-years-called-the-forsaken-kingdom-and-it-is-available-today-for-pc"},
+      {name: "BlizzCon", url: "https://blizzcon.com/en-us/"}
+    ]
+  },
+  {
+    slug: "finanzas/acciones-ia-nvidia-nasdaq-freno-seguridad",
+    category: "FINANZAS + CRIPTO",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T08:25:00-03:00",
+    minutes: 10,
+    title: "El mercado descubrió que frenar la IA también tiene precio: Nasdaq cae y los chips reciben el golpe",
+    dek: "Los futuros del Nasdaq 100 llegaron a perder 1,72% después del llamado de líderes tecnológicos a desacelerar modelos avanzados. Nvidia, AMD e Intel quedaron bajo presión, mientras parte del software subió.",
+    personalAngle: "Durante años Wall Street premió cualquier frase que incluyera IA, capacidad de cómputo y crecimiento exponencial. Hoy apareció la pantalla inversa: si los propios líderes piden bajar la velocidad, el mercado empieza a calcular cuántos chips, centros de datos y múltiplos estaban descontando una carrera sin frenos.",
+    leadEyebrow: "LA IA PISÓ EL FRENO Y WALL STREET SINTIÓ EL CINTURÓN",
+    leadTitle: "El castigo no fue uniforme: hardware cae mientras parte del software respira",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Pantallas de mercado utilizadas como contexto visual de la caída del Nasdaq",
+    body: [
+      "Los futuros del Nasdaq 100 bajaron hasta 1,72% este lunes después de que referentes de Anthropic, OpenAI y xAI respaldaran una desaceleración en el desarrollo de capacidades avanzadas por motivos de seguridad. El Dow cedía 0,18% y el S&P 500 alrededor de 0,70% en la medición previa a la apertura.",
+      "El hardware llevó la peor parte. Nvidia cayó más de 2% en operaciones previas, mientras Intel, AMD y Marvell llegaron a retroceder cerca de 5% o 6%. El razonamiento del mercado es directo: menor velocidad de entrenamiento puede significar menos demanda marginal de aceleradores, memoria y centros de datos.",
+      "El software mostró la otra cara. ServiceNow, Adobe y Workday subieron entre aproximadamente 2,5% y 3%, aliviadas por la posibilidad de que una disrupción más lenta les dé tiempo para adaptar productos y defender márgenes. IA no es un sector único; es una cadena con ganadores distintos según la velocidad.",
+      "A esto se suman petróleo por encima de USD 108 y una probabilidad elevada de suba de tasas. Cuando los rendimientos crecen, las empresas valuadas por beneficios lejanos sufren más. El llamado de seguridad fue la chispa visible sobre un escenario que ya estaba cargado.",
+      "Mi reacción no sería vender cada acción tecnológica ni comprar automáticamente software. Revisaría cuánto crecimiento está incluido en el precio, qué parte del negocio depende del gasto de capital en IA y si una empresa genera caja hoy o necesita una década perfecta para justificar su valuación."
+    ],
+    features: [
+      {
+        title: "Una pausa en modelos no apaga todos los centros de datos",
+        eyebrow: "SEPARAR TITULAR DE CAPEX",
+        facts: "NASDAQ -1,72% · NVDA -2% PREMARKET · CHIPS -5% A -6%",
+        image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80",
+        alt: "Circuitos electrónicos como imagen contextual del sector de semiconductores",
+        body: [
+          "Las empresas todavía necesitan inferencia, productos existentes, almacenamiento y redes. La velocidad de nuevas fronteras puede bajar sin que desaparezca la demanda instalada.",
+          "El riesgo está en la expectativa marginal: precios de acciones y planes de capacidad pueden haber supuesto una expansión casi lineal. Un pequeño cambio en esa pendiente produce grandes movimientos de valuación."
+        ]
+      },
+      {
+        title: "Burry plantea una duda válida, aunque no resuelve el problema",
+        eyebrow: "SEGURIDAD O BARRERA COMPETITIVA",
+        facts: "INCUMBENTES · REGULACIÓN · EVIDENCIA",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80",
+        alt: "Panel de datos utilizado como metáfora de evaluación de riesgos de inteligencia artificial",
+        body: [
+          "Michael Burry sugirió que los grandes laboratorios podrían usar el miedo para frenar competidores pequeños. Es posible que seguridad e incentivo comercial convivan. Una motivación interesada no vuelve falso cada riesgo; un riesgo real tampoco vuelve neutral al incumbente.",
+          "Esto es información general, no asesoramiento financiero. Antes de operar, prefiero esperar precios de cierre y comunicaciones empresariales antes que reaccionar a la primera vela roja."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Reuters", url: "https://www.reuters.com/business/ai-warnings-knock-nasdaq-futures-pressure-tech-stocks-2026-09-14/"},
+      {name: "Reuters Morning Bid", url: "https://www.reuters.com/podcasts/reuters-morning-bid/ai-go-slow-2026-09-14/"},
+      {name: "Nasdaq", url: "https://www.nasdaq.com/market-activity/index/ndx"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
+    ]
+  },
+  {
+    slug: "finanzas/bonos-fed-riesgo-no-subir-tasas",
+    category: "FINANZAS + CRIPTO",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T08:15:00-03:00",
+    minutes: 10,
+    title: "El mercado de bonos teme algo más que una suba de la Fed: que no haga nada",
+    dek: "Con inflación persistente, petróleo caro y déficit elevado, parte de los inversores cree que mantener la tasa podría empujar todavía más arriba los rendimientos largos.",
+    personalAngle: "Normalmente pensamos una pausa de la Fed como el botón menos agresivo. El mercado de bonos está recordando que no actuar también comunica. Si los inversores leen quietud como falta de compromiso con la inflación, pueden exigir más rendimiento a diez y treinta años aunque la tasa corta no se mueva.",
+    leadEyebrow: "CUANDO PAUSA NO SIGNIFICA CALMA",
+    leadTitle: "La credibilidad puede pesar más que 25 puntos básicos",
+    image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Billetes de dólar como contexto visual de la política monetaria estadounidense",
+    body: [
+      "La reunión de la Reserva Federal de esta semana llega con los bonos globales bajo presión. El mercado asigna una probabilidad considerable a una suba de 25 puntos básicos, que sería la primera desde julio de 2023. Sin embargo, varios gestores creen que una pausa mal explicada podría causar más daño en el tramo largo.",
+      "El mecanismo pasa por la prima por plazo. Quien presta dinero durante diez o treinta años exige compensación por inflación, deuda futura e incertidumbre. Si la Fed parece tolerar precios por encima de su objetivo del 2%, esa compensación puede aumentar y elevar hipotecas, crédito empresarial y costo fiscal.",
+      "Los datos alimentan el temor: inflación persistente, petróleo sobre USD 100, déficit federal cercano a 6,5% del PIB y emisión creciente de deuda. Ninguno depende exclusivamente del banco central, pero todos terminan reflejados en el precio que pide un comprador de bonos.",
+      "La postura contraria también tiene argumentos. BlackRock advierte que otra suba presionaría vivienda y sectores sensibles a tasas sin necesariamente frenar las áreas que impulsan el crecimiento. La política monetaria actúa con retraso y un movimiento de hoy puede sentirse dentro de seis meses.",
+      "Mi lectura es que el dilema real no es suba buena contra pausa mala. Es coherencia. Si Warsh sube, tendrá que explicar si se trata de un ajuste aislado. Si espera, deberá mostrar por qué la trayectoria de inflación sigue bajo control. El vacío narrativo sería el resultado más caro."
+    ],
+    features: [
+      {
+        title: "La parte larga de la curva no obedece órdenes",
+        eyebrow: "EL MERCADO FIJA SU PROPIO PRECIO",
+        facts: "10 Y 30 AÑOS · PRIMA POR PLAZO · DÉFICIT",
+        image: "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1600&q=80",
+        alt: "Gráficos y billetes como imagen contextual del mercado de renta fija",
+        body: [
+          "La Fed controla una tasa de referencia de corto plazo. Los rendimientos largos incorporan expectativas de inflación, crecimiento y oferta de deuda. Pueden subir incluso cuando el banco central no toca su instrumento.",
+          "Para una cartera, esto afecta mucho más que bonos: modifica valuaciones de acciones, financiamiento inmobiliario y atractivo relativo de activos sin flujo como oro o Bitcoin."
+        ]
+      },
+      {
+        title: "Veinticinco puntos básicos compran tiempo, no una victoria",
+        eyebrow: "LA OPCIÓN INTERMEDIA",
+        facts: "+25 PB · EFECTO CON REZAGO · REEVALUACIÓN",
+        image: "https://images.unsplash.com/photo-1567427018141-0584cfcbf1b8?auto=format&fit=crop&w=1600&q=80",
+        alt: "Documentos y gráficos financieros como contexto de una decisión de tasas",
+        body: [
+          "Una suba moderada podría reforzar credibilidad sin prometer un ciclo agresivo. También puede convertirse en error si el shock petrolero se revierte y la economía se debilita.",
+          "Información general, no asesoramiento. Yo evitaría interpretar la primera reacción del mercado como veredicto definitivo: bonos y acciones suelen recalibrar cuando aparecen el comunicado y la conferencia completa."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Reuters", url: "https://www.reuters.com/business/finance/biggest-risk-sinking-bond-market-is-fed-standing-pat-2026-09-14/"},
+      {name: "Federal Reserve", url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"},
+      {name: "U.S. Treasury", url: "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
+    ]
+  },
+  {
+    slug: "finanzas/clarity-act-acuerdo-etica-trump-votacion",
+    category: "FINANZAS + CRIPTO",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T08:05:00-03:00",
+    minutes: 10,
+    title: "El CLARITY Act consigue un acuerdo ético de última hora: Trump cede antes del voto clave",
+    dek: "La Casa Blanca aceptó cerca del 80% de una propuesta bipartidista sobre conflictos de interés. Los fiscales estatales tendrían un rol de control y las tenencias significativas deberían venderse o pasar a un fideicomiso ciego.",
+    personalAngle: "La regulación cripto siempre habla de proteger al inversor, pero la prueba más incómoda aparece cuando las reglas alcanzan a quienes las escriben. El acuerdo de hoy no garantiza que el CLARITY Act avance mañana; sí elimina una excusa importante y obliga a mirar el conflicto de interés como parte central del mercado, no como nota al pie.",
+    leadEyebrow: "UN PARCHE ÉTICO ANTES DE LA VOTACIÓN",
+    leadTitle: "El nuevo texto acerca votos, aunque todavía no completa los 60",
+    image: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80",
+    imageAlt: "Capitolio de Estados Unidos como contexto visual de la votación del CLARITY Act",
+    body: [
+      "Donald Trump aceptó una parte sustancial de la propuesta ética negociada por los senadores Thom Tillis y Ruben Gallego para el proyecto de estructura de mercado cripto. Según legisladores republicanos, el acuerdo incorpora aproximadamente el 80% de las demandas planteadas.",
+      "El texto ya prohibía que funcionarios federales electos, sus cónyuges y jueces emitieran activos digitales. La revisión agrega un papel significativo para fiscales generales estatales y exigiría vender o colocar en un fideicomiso ciego intereses financieros relevantes en entidades emisoras de criptomonedas.",
+      "También permitiría que autoridades estatales actúen contra exchanges que listen activos prohibidos por la futura ley. Ese punto generó resistencia dentro de la Casa Blanca por temor a usos partidarios, pero terminó incluido como parte del compromiso necesario para buscar apoyo demócrata.",
+      "El calendario es brutal: el Senado tiene prevista para mañana una votación procesal que necesita 60 votos. Aprobar esa moción no convierte el proyecto en ley; simplemente permite que avance. El acuerdo mejora la aritmética, pero no existe evidencia pública suficiente para declarar asegurado el resultado.",
+      "Para el mercado, la distinción importa. Un voto favorable reduciría incertidumbre sobre el reparto de competencias entre SEC y CFTC. Un fracaso volvería a empujar la discusión hacia 2027. Ninguno de los dos resultados cambia automáticamente el valor fundamental de cada token."
+    ],
+    features: [
+      {
+        title: "Un fideicomiso ciego intenta separar poder público y beneficio privado",
+        eyebrow: "CONFLICTOS DE INTERÉS",
+        facts: "VENTA O BLIND TRUST · FUNCIONARIOS · CÓNYUGES",
+        image: "https://dims.apnews.com/dims4/default/4def9e7/2147483647/strip/true/crop/1953x1306%2B0%2B0/resize/319x213%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F17%2Ffc%2F85309ca7eb25fb3712b7e1b3b880%2F418c4b91ae9f49789fa2f5440216838b",
+        alt: "Donald Trump hablando con periodistas en una fotografía de Associated Press",
+        body: [
+          "La herramienta busca evitar que un funcionario tome decisiones sabiendo exactamente cómo impactan en sus activos. Su eficacia dependerá de definiciones, umbrales, divulgación y capacidad real de fiscalización.",
+          "Aceptar el principio es un avance; conocer el texto actualizado será indispensable para medir excepciones y mecanismos de cumplimiento."
+        ]
+      },
+      {
+        title: "Bitcoin sube, pero mañana no vota una vela verde",
+        eyebrow: "MERCADO ANTES DEL SENADO",
+        facts: "BTC CERCA DE USD 77.700 · +1,5% · 60 VOTOS",
+        image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1600&q=80",
+        alt: "Moneda de Bitcoin frente a gráficos de cotización",
+        body: [
+          "Bitcoin opera cerca de USD 77.700 y recupera alrededor de 1,5% en el día. El movimiento puede reflejar apetito de riesgo, cobertura o expectativas; no prueba que el mercado conozca el resultado legislativo.",
+          "Mi postura es ESPERAR SIN APOSTAR TODO A UN EVENTO BINARIO. Esto es información general, no consejo financiero. Mañana importarán el conteo real y el texto, no los rumores de último minuto."
+        ]
+      }
+    ],
+    sources: [
+      {name: "Associated Press", url: "https://apnews.com/article/donald-trump-cryptocurrency-ethics-521fd5986eb107413064018f7a468c51"},
+      {name: "Reuters", url: "https://www.reuters.com/business/finance/bitcoins-late-summer-rally-set-face-off-against-fed-congress-2026-09-14/"},
+      {name: "Senate Banking Committee", url: "https://www.banking.senate.gov/newsroom/majority/chairman-scott-senators-lummis-tillis-release-market-structure-bill-text-ahead-of-banking-committee-markup"},
+      {name: "Imágenes contextuales: Unsplash", url: "https://unsplash.com/"}
+    ]
+  },
+  // FIN NOTICIAS 14 SEP 2026
   // INICIO NOTICIAS 13 SEP 2026
   {
     slug: "gaming/blizzcon-2026-starcraft-diablo-wow-forever",

@@ -1,4 +1,59 @@
 export const dailyArticles = [
+  // NOTA LANTERNS EPISODIO 5 · 14 SEP 2026
+  {
+    slug: "comics/lanterns-capitulo-5-lights-out-john-stewart",
+    category: "CÓMICS + SERIES",
+    date: "14 SEP 2026",
+    dateIso: "2026-09-14T09:30:00-03:00",
+    minutes: 11,
+    title: "Lanterns capítulo 5: la noche en que ‘Lights Out’ pateó el tablero",
+    dek: "El anillo por fin libera todo su potencial, Zoe y William llevan el misterio hasta sus últimas consecuencias y John Stewart toma una decisión que redefine la temporada. Este resumen contiene spoilers completos.",
+    personalAngle: "Si durante las primeras semanas venías sintiendo que la serie avanzaba con el freno de mano puesto, este episodio es un cachetazo directo a la mesa. Lanterns no sólo acelera: usa el espectáculo para llevar a John hasta una decisión incómoda y demostrar que convertirse en héroe no siempre significa aceptar el uniforme que otros eligieron.",
+    leadEyebrow: "SPOILERS DEL EPISODIO 5",
+    leadTitle: "El capítulo más frenético de la temporada convierte la luz verde en una prueba moral",
+    image: "https://i.ytimg.com/vi/COipU_RnqI8/maxresdefault.jpg",
+    imageAlt: "John Stewart y Hal Jordan en el video oficial Inside Episode 5 de Lanterns",
+    body: [
+      "‘Lights Out’ abandona la paciencia extrema de los primeros episodios y comprime persecuciones, traiciones y revelaciones en unos cincuenta minutos. Después del accidente provocado por Hal, John queda frente a Zoe sabiendo que la mujer que conoció también es la Manhunter escondida en el corazón de Rushville.",
+      "Primero hay que hablar de lo que todos veníamos pidiendo: la luz verde. Se terminó la contención tímida. Los anillos producen constructos más complejos, tácticos y violentos, y el poder vuelve a sentirse ligado a la imaginación y a la desesperación de quien lo usa. Ya no parece una linterna glorificada; vuelve a ser una de las armas más poderosas del cosmos.",
+      "El espectáculo, sin embargo, no tapa el conflicto. Zoe restauró el cuerpo de John y le ofrece una versión de los hechos donde ella es la protectora que el pueblo necesitaba. Los flashbacks muestran que salvó a Kerry cuando escapaba del pasado criminal de su familia en Gotham y explican por qué Rushville construyó una red de lealtad alrededor suyo.",
+      "Hal convierte su aparente enfrentamiento con John en parte de una maniobra para exponer a Zoe. William Macon se sacrifica como señuelo y el plan termina en caos. John utiliza a Hal como carnada, dispara contra Zoe y entrega su corazón a los Guardianes para completar la misión. No es una victoria limpia: es una traición calculada contra alguien que confiaba en él.",
+      "La escena que termina de ordenar el episodio llega después. John se coloca por un instante el anillo de Hal y luego lo rechaza. Comprende que los Guardianes, Hal y hasta su propia familia intentaron empujarlo hacia una identidad prefabricada. El poder está al alcance de su mano, pero no quiere aceptar un símbolo que en ese momento sólo le devuelve vacío.",
+      "Ahí Lanterns encuentra por fin la frecuencia entre sus dos protagonistas. Hal deja de ser únicamente el veterano que da órdenes y John deja de actuar como el reemplazo inevitable. La fricción personal potencia cada decisión bajo presión y convierte la acción en consecuencia, no en un descanso entre escenas policiales.",
+      "Mi veredicto es 9/10. Es impredecible, emocionalmente cargado y visualmente mucho más ambicioso. También deja heridas difíciles de justificar y preguntas sobre la moral de John que la serie deberá enfrentar. No fue simplemente el capítulo donde gastaron más luz verde: fue el momento en que la temporada entendió para qué quería usarla."
+    ],
+    features: [
+      {
+        title: "El anillo dejó de ahorrar batería y recuperó la imaginación",
+        eyebrow: "CONSTRUCTOS A MÁXIMA CAPACIDAD",
+        facts: "LUZ VERDE · VOLUNTAD · COMBATE",
+        image: "https://i.ytimg.com/vi/5IcLeqlF6QU/maxresdefault.jpg",
+        alt: "Hal Jordan usa el poder del anillo en el avance oficial del episodio 5 de Lanterns",
+        body: [
+          "Los constructos de ‘Lights Out’ tienen función, peso y personalidad. Cada defensa y cada golpe nacen de una necesidad concreta, algo fundamental para que Green Lantern no se convierta en otro héroe que solamente dispara rayos de colores.",
+          "La mejora visual funciona porque llega junto con el quiebre narrativo. Después de cuatro episodios de contención, la explosión parece una recompensa; ahora la serie tendrá que sostener creatividad sin depender de una batalla gigantesca cada semana."
+        ]
+      },
+      {
+        title: "John gana la misión y rechaza el destino que le prepararon",
+        eyebrow: "EL ANILLO NO RESUELVE LA IDENTIDAD",
+        facts: "ZOE · HAL · GUARDIANES · ELECCIÓN",
+        image: "https://i.ytimg.com/vi/aJvAktMDerE/maxresdefault.jpg",
+        alt: "Arte del podcast oficial de Lanterns dedicado al episodio 5 Lights Out",
+        body: [
+          "Matar a Zoe prueba que John puede completar una orden, pero no demuestra que confíe en quienes la dieron. El breve momento con el anillo convierte todo el episodio en una pregunta: ¿ser Green Lantern es una vocación personal o la función que otros necesitan que cumpla?",
+          "Que lo retire no es cobardía. Es la primera decisión completamente suya, aunque nazca después de una acción brutal. Esa contradicción deja al personaje en un lugar mucho más interesante que la coronación heroica convencional."
+        ]
+      }
+    ],
+    sources: [
+      { name: "HBO Max — Inside Episode 5", url: "https://www.youtube.com/watch?v=COipU_RnqI8" },
+      { name: "HBO Max — avance oficial del episodio 5", url: "https://www.youtube.com/watch?v=5IcLeqlF6QU" },
+      { name: "HBO Max — podcast oficial de Lights Out", url: "https://www.youtube.com/watch?v=aJvAktMDerE" },
+      { name: "Decider — resumen y final explicado", url: "https://decider.com/2026/09/13/lanterns-episode-5-ending-explained/" },
+      { name: "People — entrevista con Poorna Jagannathan", url: "https://people.com/lanterns-poorna-jagannathan-zoe-surprise-interview-exclusive-12116038" }
+    ]
+  },
   // INICIO NOTICIAS 14 SEP 2026
   {
     slug: "gaming/heroes-storm-xal-atath-ptr-regreso-2026",

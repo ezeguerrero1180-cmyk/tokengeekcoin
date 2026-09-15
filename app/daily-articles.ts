@@ -1,4 +1,334 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 15 SEP 2026
+  {
+    "slug": "gaming/marvel-wolverine-lanzamiento-ps5-insomniac",
+    "category": "GAMING",
+    "date": "15 SEP 2026",
+    "dateIso": "2026-09-15T07:35:00-03:00",
+    "minutes": 10,
+    "title": "Marvel’s Wolverine sale hoy en PS5: las garras llegan con una pregunta más difícil que el combate",
+    "dek": "Insomniac estrena su aventura de Logan este 15 de septiembre. El estudio apuesta por una experiencia más lineal, física y visceral que Spider-Man, con Liam McIntyre al frente.",
+    "personalAngle": "Después de tantos trailers, filtraciones y años de expectativa, hoy conviene separar dos cosas: el lanzamiento real y la fantasía que cada uno construyó alrededor del personaje. No jugué la versión final, así que esto no es una reseña; es una guía honesta de qué promete Insomniac y qué debería demostrar cuando el control queda en nuestras manos.",
+    "leadEyebrow": "LOGAN DESENFUNDA LAS GARRAS EN PS5",
+    "leadTitle": "El desafío no es hacer daño: es lograr que cada golpe se sienta como una decisión de Wolverine",
+    "image": "https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg?crop_strategy=smart&resize=1088%2C612",
+    "imageAlt": "Wolverine en el arte oficial publicado por PlayStation antes del lanzamiento del juego",
+    "body": [
+      "Marvel’s Wolverine se lanza hoy, 15 de septiembre, en PlayStation 5. Insomniac Games presenta una historia independiente dentro de su universo Marvel, con Logan interpretado por Liam McIntyre y un recorrido que cruza escenarios como Madripoor, Canadá y Tokio.",
+      "El propio estudio marcó distancia con Marvel’s Spider-Man: en lugar de una ciudad abierta y desplazamiento aéreo, propone una aventura más concentrada, cercana al suelo y basada en el contacto. Wolverine rompe, recibe daño y pelea como un brawler entrenado, no como un acróbata con garras.",
+      "El combate es la promesa central. Insomniac habla de impulso agresivo, saltos directos sobre los enemigos, golpes críticos, destrucción y una animación que deja asomar el costado animal de Logan. El factor de curación no debería convertirlo en invencible; tiene que sostener el ritmo sin borrar el peligro.",
+      "La otra mitad es narrativa. Jean Grey, Mystique, Sabretooth, los Reavers y La Mano no aparecen solamente para llenar una lista de personajes. El equipo dice que construyó relaciones nuevas alrededor del pasado de Team X, la protección de los mutantes y la tensión entre la furia de Logan y su capacidad de empatía.",
+      "Yo entraría sin esperar un Spider-Man con otra skin. La estructura más lineal puede ser una ventaja si permite mejores encuentros, escenarios que se rompen y una historia sin kilómetros de relleno. También aumenta la presión: cuando hay menos distracciones, cada pelea y cada giro deben justificar su lugar.",
+      "La pregunta para hoy es simple: ¿Insomniac logró que Wolverine sea divertido más allá de la brutalidad inicial? Las primeras horas pueden impresionar con sangre y adamantium; la identidad del juego aparecerá cuando el sistema de combate pida aprender, improvisar y sentir el peso emocional de Logan."
+    ],
+    "features": [
+      {
+        "title": "Un tanque entrenado, desprolijo y peligrosamente humano",
+        "eyebrow": "EL CUERPO CUENTA LA HISTORIA",
+        "facts": "GARRAS · CURACIÓN · DESTRUCCIÓN",
+        "image": "https://i.ytimg.com/vi/OiBo_NgYI5Q/maxresdefault.jpg",
+        "alt": "Wolverine combate contra enemigos en el tráiler extendido oficial de PlayStation",
+        "body": [
+          "Los desarrolladores describen a Logan como un luchador capaz de dominar muchas artes marciales, pero con la presencia de un tanque que rompe el espacio a su alrededor. Esa mezcla tiene que verse en animaciones, impactos y decisiones, no solamente en efectos de sangre.",
+          "La curación será especialmente importante. Si recuperarse elimina toda consecuencia, el combate pierde tensión; si sirve para empujar al jugador hacia adelante mientras conserva recursos y amenazas reales, puede convertirse en la mecánica que mejor traduzca al personaje."
+        ]
+      },
+      {
+        "title": "El traje amarillo no alcanza para capturar a Logan",
+        "eyebrow": "MÁS ALLÁ DEL FAN SERVICE",
+        "facts": "LIAM MCINTYRE · TEAM X · MUTANTES",
+        "image": "https://i.ytimg.com/vi/DlRoO6C1rSg/maxresdefault.jpg",
+        "alt": "Liam McIntyre presenta las características de Marvel’s Wolverine en un video oficial de PlayStation",
+        "body": [
+          "El traje combina referencias amarillas, marrones y azules con materiales tácticos creíbles. Es una lectura visual inteligente, pero la autenticidad dependerá de algo menos fotografiable: que Logan pueda ser feroz, cansado, tierno y contradictorio en la misma historia.",
+          "No voy a ponerle nota antes de jugarlo. Hoy miro estabilidad, variedad de enemigos, evolución del combate y calidad narrativa. Si ya lo empezaste, contanos qué te convenció primero y qué todavía te hace ruido."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "PlayStation Blog — entrevista con Insomniac",
+        "url": "https://blog.playstation.com/2026/09/14/marvels-wolverine-developers-discuss-capturing-the-essence-of-logan-out-september-15/"
+      },
+      {
+        "name": "PlayStation Blog — habilidades y sistemas",
+        "url": "https://blog.playstation.com/2026/08/28/marvels-wolverine-details-on-logans-mutant-abilities-game-features-and-more/"
+      },
+      {
+        "name": "PlayStation Blog — avance jugable",
+        "url": "https://blog.playstation.com/2026/08/13/hands-on-report-marvels-wolverine/"
+      },
+      {
+        "name": "Marvel — lanzamiento en septiembre",
+        "url": "https://www.marvel.com/articles/games/marvels-wolverine-gameplay-trailer-playstation-state-of-play-2025"
+      }
+    ]
+  },
+  {
+    "slug": "gaming/diablo-4-switch-2-hells-legacy-temporada-15",
+    "category": "GAMING",
+    "date": "15 SEP 2026",
+    "dateIso": "2026-09-15T07:25:00-03:00",
+    "minutes": 10,
+    "title": "Diablo IV abre dos portales hoy: Switch 2 y la Temporada del Legado Infernal",
+    "dek": "La Season 15 comienza a desplegarse este 15 de septiembre y recupera a Diablo, Baal, Mefisto y Deckard Cain. Al mismo tiempo, Age of Hatred Collection desembarca en Nintendo Switch 2.",
+    "personalAngle": "El aniversario número 30 de Diablo podría haberse resuelto con una montura y un logo dorado. Blizzard eligió algo bastante más ambicioso: convertir la memoria de la saga en una temporada jugable y llevar el juego a una consola nueva el mismo día. La nostalgia suma, pero la vara real será si esos recuerdos producen decisiones nuevas y si el port portátil sostiene la experiencia.",
+    "leadEyebrow": "TREINTA AÑOS DE INFIERNO, DOS LANZAMIENTOS",
+    "leadTitle": "La temporada mira al pasado mientras Switch 2 intenta abrirle otra puerta al futuro",
+    "image": "https://bnetcmsus-a.akamaihd.net/cms/gallery/mt/MTL64SXUJX7B1789170051153.png",
+    "imageAlt": "Arte oficial de la Temporada del Legado Infernal de Diablo IV publicado por Blizzard",
+    "body": [
+      "Diablo IV inicia hoy el despliegue de Season of Hell’s Legacy, la temporada 15, a las 9:30 del Pacífico. La actualización celebra tres décadas de la franquicia con el regreso de Deckard Cain y enfrentamientos contra los Males Supremos: Baal, Mefisto y Diablo.",
+      "El bucle estacional gira alrededor de recuperar esquirlas de esas almas y cargar con una parte de su poder. La idea encaja con Diablo: cada beneficio importante viene acompañado por un costo. También llegan nueve objetos únicos inspirados en reliquias históricas, entre ellos Stone of Jordan, Leoric’s Crown y Nemesis Bracers.",
+      "Hay un detalle práctico para quienes vienen de la temporada 14. El progreso de War Plans pasa al reino eterno al terminar la temporada, pero en Hardcore solamente cuentan personajes que sigan vivos. Blizzard incluso recomienda conservar otro personaje vivo dentro de la misma partición para asegurar la transferencia.",
+      "En paralelo, Diablo IV: Age of Hatred Collection llega hoy a Nintendo Switch 2. El paquete reúne el juego base, Vessel of Hatred y Lord of Hatred. Es una entrada grande al ecosistema, aunque la noticia técnica que realmente importa será rendimiento, legibilidad, tiempos de carga y estabilidad en sesiones prolongadas.",
+      "No jugué todavía este port ni la versión final de la temporada. Mi prioridad sería probar primero cómo se siente el combate portátil y después evaluar el valor del homenaje. Volver a ver a Diablo funciona durante un trailer; mantener una build interesante durante semanas exige sistemas, botín y equilibrio.",
+      "El movimiento también muestra que Blizzard quiere tratar a Diablo como una plataforma permanente. Entre temporada, consola nueva, futura clase Amazona y Diablo V anunciado para 2029, el desafío ya no es producir novedades: es evitar que cada una compita por la atención y el bolsillo del mismo jugador."
+    ],
+    "features": [
+      {
+        "title": "Los Males Supremos vuelven como mecánica, no sólo como póster",
+        "eyebrow": "NOSTALGIA QUE TIENE QUE JUGAR",
+        "facts": "DIABLO · BAAL · MEFISTO · DECKARD CAIN",
+        "image": "https://bnetcmsus-a.akamaihd.net/cms/gallery/gg/GGMKW6J3AJW31789168654685.png",
+        "alt": "Arte oficial de la Amazona de Diablo IV presentado durante BlizzCon 2026",
+        "body": [
+          "Usar las almas de los jefes como fuente de poder puede darle identidad a la temporada si obliga a elegir riesgos, sinergias y renuncias. Si todo se reduce a una bonificación evidente, el aniversario quedará como decoración.",
+          "Los objetos históricos tienen el mismo examen. Stone of Jordan significa mucho para los veteranos, pero en 2026 necesita un lugar jugable propio. La referencia abre la puerta; el diseño decide cuánto tiempo permanecemos adentro."
+        ]
+      },
+      {
+        "title": "Switch 2 necesita algo más que el mérito de hacerlo portátil",
+        "eyebrow": "EL PORT BAJO LA LUPA",
+        "facts": "AGE OF HATRED · JOY-CON 2 · TRES CAMPAÑAS",
+        "image": "https://bnetcmsus-a.akamaihd.net/cms/gallery/st/STYGBO236XGJ1789168924426.jpg",
+        "alt": "Identidad visual oficial de Diablo V utilizada por Blizzard en el anuncio del futuro de la saga",
+        "body": [
+          "Una colección tan grande puede ser atractiva para quien llega por primera vez, pero también tiene que explicar con claridad qué contenido incluye y en qué orden conviene jugarlo. El tamaño de instalación y la conexión requerida son datos tan útiles como la lista de expansiones.",
+          "Si estás por comprarla, esperaría mediciones independientes del modo portátil y dock. Que un juego corra es el punto de partida; que conserve respuesta, interfaz y legibilidad durante combates cargados es la prueba que importa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Blizzard — resumen de la nueva era de Diablo",
+        "url": "https://news.blizzard.com/es-mx/article/24301509/la-siguiente-era-de-diablo-revelada-en-la-blizzcon-2026-resumen-de-la-ceremonia-de-apertura"
+      },
+      {
+        "name": "Blizzard — Temporada del Legado Infernal",
+        "url": "https://news.blizzard.com/es-es/article/24295394/celebra-30-anos-de-diablo-en-la-temporada-del-legado-del-infierno"
+      },
+      {
+        "name": "Blizzard — anuncios de BlizzCon 2026",
+        "url": "https://news.blizzard.com/es-mx/article/24301453/todos-los-anuncios-de-la-ceremonia-de-apertura-de-la-blizzcon-2026"
+      },
+      {
+        "name": "Xbox Wire — anuncios de BlizzCon",
+        "url": "https://news.xbox.com/en-us/2026/09/12/blizzcon-2026-opening-ceremony/"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/clarity-act-votacion-senado-cripto",
+    "category": "FINANZAS + CRIPTO",
+    "date": "15 SEP 2026",
+    "dateIso": "2026-09-15T07:15:00-03:00",
+    "minutes": 10,
+    "title": "El CLARITY Act enfrenta hoy su prueba de 60 votos: qué está realmente en juego para cripto",
+    "dek": "El Senado de Estados Unidos votará cerca de las 14:15 de Washington si habilita el debate. La nueva versión suma límites éticos para funcionarios, pero no cierra la pelea con bancos y demócratas.",
+    "personalAngle": "En cripto, la palabra claridad suele usarse como si una ley pudiera borrar el riesgo con un resaltador. La votación de hoy es importante, pero conviene ponerle el nombre correcto: es una puerta procesal, no la aprobación definitiva, y el texto todavía contiene peleas sobre poder político, stablecoins y crédito bancario.",
+    "leadEyebrow": "UNA VOTACIÓN PROCESAL CON EFECTO DE SEÑAL",
+    "leadTitle": "Sesenta votos no convierten al proyecto en ley, pero pueden decidir si llega a tener otra oportunidad",
+    "image": "https://www.reuters.com/resizer/v2/BCTPPZ2ETZNV3MUBVXEABOQH6A.jpg?auth=239e530d4a6e8278ae2f94bb9ba963d97120d38f341966c261dcba56c220e88a&quality=80&width=1920",
+    "imageAlt": "Representación de criptomonedas utilizada por Reuters en la cobertura del CLARITY Act",
+    "body": [
+      "El Senado de Estados Unidos tiene previsto votar hoy, poco después de las 14:15 de Washington —15:15 en Argentina—, la moción para avanzar con H.R. 3633, el Digital Asset Market Clarity Act. Se necesitan 60 votos para superar este paso.",
+      "El proyecto busca construir un marco federal para activos digitales y repartir responsabilidades regulatorias con mayor precisión. Para la industria, reducir zonas grises podría facilitar productos, inversión institucional y planificación. Para sus críticos, el problema no es sólo quién regula, sino qué riesgos y conflictos quedan tolerados.",
+      "La versión revisada exige que funcionarios con intereses significativos en empresas cripto se desprendan de ellos o los coloquen en un fideicomiso ciego. También amplía la capacidad de los fiscales generales estatales para hacer cumplir esas restricciones. Es una respuesta directa a meses de discusión ética.",
+      "El frente bancario sigue abierto. Bancos y cooperativas temen que las recompensas asociadas a stablecoins atraigan depósitos fuera del sistema tradicional y reduzcan la capacidad de prestar. El nuevo lenguaje no disipó esas objeciones, y algunos demócratas tampoco consideran suficientes los cambios.",
+      "Si la moción consigue 60 votos, comienza otra etapa de negociación; no hay aprobación automática ni entrada en vigencia. Si fracasa, el calendario electoral deja poco margen para revivirla este año. El mercado puede reaccionar al titular, pero la diferencia jurídica aparece recién con texto final, ambas cámaras y firma presidencial.",
+      "Esto es información general, no asesoramiento financiero personalizado. No compraría ni vendería un token sólo por una votación procedimental. Miraría el resultado, las enmiendas que sobrevivan y la forma concreta en que el texto trata custodios, exchanges, stablecoins y conflictos de interés."
+    ],
+    "features": [
+      {
+        "title": "La cláusula ética dejó de ser un detalle lateral",
+        "eyebrow": "FUNCIONARIOS Y ACTIVOS DIGITALES",
+        "facts": "DESINVERSIÓN · FIDEICOMISO CIEGO · FISCALES ESTATALES",
+        "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Edificio del Capitolio de Estados Unidos, sede de la votación del Senado",
+        "body": [
+          "Una regulación que ordena el mercado mientras permite que quienes la escriben mantengan intereses materiales perdería legitimidad desde el inicio. Por eso el mecanismo de desinversión o blind trust es central, aunque su eficacia dependerá de definiciones, umbrales y fiscalización.",
+          "El cambio puede sumar votos, pero no garantiza consenso. La prueba real será si las restricciones se aplican de forma verificable y pareja, sin excepciones diseñadas alrededor de nombres propios."
+        ]
+      },
+      {
+        "title": "Stablecoins: innovación para pagos o fuga de depósitos",
+        "eyebrow": "EL NUDO CON LOS BANCOS",
+        "facts": "RECOMPENSAS · DEPÓSITOS · CRÉDITO",
+        "image": "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Edificio bancario utilizado como contexto visual del debate por depósitos y stablecoins",
+        "body": [
+          "Las recompensas pueden hacer que una stablecoin se parezca económicamente a una cuenta remunerada sin cargar con las mismas reglas. Los bancos sostienen que eso drena fondeo; la industria responde que protege competencia e innovación.",
+          "Para usuarios argentinos, una ley estadounidense puede cambiar acceso, liquidez y políticas de plataformas globales, pero no elimina riesgo de emisor, reserva, contraparte ni regulación local. La palabra estable describe un objetivo de precio, no una garantía."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters — votación del CLARITY Act",
+        "url": "https://www.reuters.com/legal/government/us-senate-vote-advancing-landmark-crypto-bill-2026-09-15/"
+      },
+      {
+        "name": "Senado de EE.UU. — agenda del 15 de septiembre",
+        "url": "https://www.dailypress.senate.gov/thursday-august-27-2026/"
+      },
+      {
+        "name": "Senate Democratic Caucus — horario de la votación",
+        "url": "https://www.democrats.senate.gov/2026/09/14/schedule-for-tuesday-september-15-2026"
+      },
+      {
+        "name": "Reuters — nuevo texto y cláusulas éticas",
+        "url": "https://www.reuters.com/legal/government/senate-republicans-new-crypto-bill-text-adds-new-ethics-language-2026-09-14/"
+      },
+      {
+        "name": "Unsplash — imágenes contextuales",
+        "url": "https://unsplash.com/"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/treasury-10-anos-supera-5-por-ciento",
+    "category": "FINANZAS + CRIPTO",
+    "date": "15 SEP 2026",
+    "dateIso": "2026-09-15T07:05:00-03:00",
+    "minutes": 10,
+    "title": "El Treasury a 10 años supera 5%: el número que encarece casi todo sin aparecer en la factura",
+    "dek": "El rendimiento llegó a 5,0328%, un máximo cercano a dos décadas. Inflación, deuda, petróleo y expectativas de una suba de la Fed empujan una venta global de bonos.",
+    "personalAngle": "Un rendimiento de 5% parece una cifra técnica hasta que se traduce en hipotecas, crédito, valuaciones y costo de refinanciar deuda pública. Para quienes miramos mercados desde Argentina, el movimiento importa además porque eleva la vara global: si el activo de referencia paga más, todo lo riesgoso tiene que justificar mejor su precio.",
+    "leadEyebrow": "EL PRECIO GLOBAL DEL DINERO VUELVE A SUBIR",
+    "leadTitle": "Cuando el bono de referencia cruza 5%, la presión viaja desde Washington hasta cada balance",
+    "image": "https://ajo.prod.reuters.tv/api/v2/img/6aa87095e4b01915ce4b1c96?quality=80&width=1080",
+    "imageAlt": "Gráfico de Reuters sobre el rendimiento del bono del Tesoro estadounidense a 10 años",
+    "body": [
+      "El rendimiento del Treasury estadounidense a 10 años alcanzó hoy 5,0328%, su nivel más alto en casi dos décadas. Los rendimientos suben cuando cae el precio de los bonos, por lo que el movimiento refleja una venta intensa y global de deuda soberana.",
+      "Detrás aparecen varias fuerzas al mismo tiempo: inflación persistente, petróleo por encima de 100 dólares, deuda pública creciente y la expectativa de que la Reserva Federal suba 25 puntos básicos mañana. El mercado además descuenta aumentos adicionales hacia mediados de 2027.",
+      "El 10 años es una referencia para hipotecas, préstamos empresariales, deuda municipal y valuaciones de acciones. Un salto rápido no sólo encarece el crédito estadounidense: obliga a gobiernos y compañías de otros países a ofrecer más rendimiento o aceptar menor demanda.",
+      "La tensión ya cruzó fronteras. El bono japonés a 10 años superó 3%, máximo de tres décadas; Australia cerró alrededor de 5,41%; Alemania se acercó a máximos desde 2009 y Francia rondó niveles no vistos en 18 años. No es un episodio aislado de Wall Street.",
+      "Para las acciones, el daño no es automático. Empresas con ganancias sólidas pueden resistir, y los índices estadounidenses todavía mostraban relativa calma. Pero una tasa libre de riesgo más alta reduce el valor presente de beneficios futuros y vuelve más exigente cualquier valuación construida sobre crecimiento lejano.",
+      "Esto es información general, no asesoramiento financiero. No perseguiría el movimiento comprando bonos largos sin evaluar duración, inflación, moneda e impuestos, ni asumiría que una acción debe caer porque el Treasury cruzó una cifra redonda. El riesgo principal es la velocidad y persistencia, no el cartel de 5% por sí solo."
+    ],
+    "features": [
+      {
+        "title": "El bono baja de precio cuando el rendimiento sube",
+        "eyebrow": "LA MECÁNICA QUE CONFUNDE",
+        "facts": "PRECIO ↓ · YIELD ↑ · DURACIÓN",
+        "image": "https://www.reuters.com/resizer/v2/3FDZPKFCTNLVFO7TLYB7SWZGMU.jpg?auth=78c8f244430f196d4672864551b3d3adaf4f2ca7bbc5018202f88fb255c16c1d&quality=80&width=1080",
+        "alt": "Edificio de la Reserva Federal fotografiado por Reuters",
+        "body": [
+          "Un bono existente promete pagos fijos. Si los títulos nuevos ofrecen más tasa, el viejo necesita bajar de precio para competir. Cuanto más larga es su duración, más sensible suele ser a cambios en los rendimientos.",
+          "Por eso un Treasury puede ser seguro respecto del pago final y aun generar pérdidas de mercado antes del vencimiento. Riesgo de crédito y riesgo de precio no son la misma cosa."
+        ]
+      },
+      {
+        "title": "El 5% estadounidense sube la vara para Argentina y cripto",
+        "eyebrow": "EL EFECTO DE SEGUNDA RONDA",
+        "facts": "DÓLAR · RIESGO PAÍS · VALUACIONES",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80",
+        "alt": "Pantallas financieras utilizadas como contexto visual de la venta global de bonos",
+        "body": [
+          "Cuando Estados Unidos ofrece más retorno, los capitales exigen una prima mayor para asumir riesgo emergente. Eso puede presionar costos de financiamiento, monedas y activos argentinos incluso sin una noticia doméstica equivalente.",
+          "Cripto tampoco queda fuera. Tasas reales más altas y un dólar firme reducen el atractivo relativo de activos sin flujo contractual. No determinan cada vela, pero cambian el terreno sobre el que se toman riesgos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters — venta global de bonos",
+        "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/"
+      },
+      {
+        "name": "Reuters — dólar, petróleo y expectativas de la Fed",
+        "url": "https://www.reuters.com/world/africa/dollar-near-two-week-high-oil-surge-lifts-yields-fed-hike-bets-2026-09-15/"
+      },
+      {
+        "name": "Reuters — impacto sobre acciones",
+        "url": "https://www.reuters.com/business/finance/stocks-wobble-no-sign-panic-yields-surge-2026-09-15/"
+      },
+      {
+        "name": "U.S. Treasury — datos y tasas de referencia",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates"
+      },
+      {
+        "name": "Unsplash — imagen contextual de mercados",
+        "url": "https://unsplash.com/"
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia/mediatek-dimensity-9600-pro-tsmc-2nm",
+    "category": "TECNOLOGÍA + IA",
+    "date": "15 SEP 2026",
+    "dateIso": "2026-09-15T06:55:00-03:00",
+    "minutes": 10,
+    "title": "MediaTek estrena los 2 nm en Android con Dimensity 9600 Pro: la IA se muda al teléfono",
+    "dek": "El nuevo chip insignia usa el proceso más avanzado de TSMC y promete una mejora del 51% en el procesamiento previo de prompts. El 9600M amplía la apuesta con fabricación de 3 nm.",
+    "personalAngle": "Los nanómetros venden titulares, pero no sostienen solos un buen teléfono. Lo interesante del Dimensity 9600 Pro es la combinación: MediaTek quiere disputar la gama más cara, ejecutar más IA sin enviar todo a la nube y convertir la eficiencia del proceso de TSMC en autonomía real. Hasta ver equipos finales, esas tres promesas deben medirse por separado.",
+    "leadEyebrow": "EL SALTO DE 2 NM LLEGA A DIMENSITY",
+    "leadTitle": "Más IA local puede significar velocidad y privacidad, pero también teléfonos más caros",
+    "image": "https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/ChipSets/Chip%20Card%20D9600%20Pro.png?height=150&length=100&name=Chip+Card+D9600+Pro.png&width=150",
+    "imageAlt": "Imagen oficial del procesador MediaTek Dimensity 9600 Pro",
+    "body": [
+      "MediaTek presentó hoy el Dimensity 9600 Pro, su primer procesador móvil fabricado con el nodo de 2 nanómetros de TSMC. La compañía también anunció el Dimensity 9600M, construido en 3 nm y dirigido a un segmento más amplio de teléfonos insignia.",
+      "Los primeros equipos con ambos chips llegarán pronto, aunque todavía falta conocer modelos, precios y mercados concretos. MediaTek históricamente ha trabajado con Xiaomi, Oppo y Vivo, y ahora busca ganar terreno frente a Qualcomm en la gama premium.",
+      "El 9600 Pro incorpora una NPU dedicada para tareas de inteligencia artificial generativa en el dispositivo. MediaTek afirma una mejora de 51% en el procesamiento del prompt antes de que el modelo empiece a generar la respuesta, comparación que deberá validarse con pruebas independientes y cargas reales.",
+      "Ejecutar más IA local puede reducir latencia, mantener ciertos datos fuera de la nube y habilitar funciones sin conexión. También exige memoria, consumo y disipación. Un benchmark corto no explica cómo se comporta el teléfono después de varios minutos ni cuánto afecta la batería.",
+      "El contexto de precios no es menor. La demanda de infraestructura para IA presiona componentes y MediaTek reconoce que trabaja con fabricantes para limitar el impacto sobre consumidores. Al mismo tiempo, los teléfonos más caros ofrecen mejores márgenes y una puerta más atractiva para competir.",
+      "Mi conclusión provisional es CURIOSIDAD SIN FICHA TÉCNICA CIEGA. Esperaría productos finales, autonomía, temperatura, rendimiento sostenido y políticas de actualización. El chip puede ser excelente y aun quedar atrapado en un teléfono mal refrigerado, caro o con software que no aprovecha su NPU."
+    ],
+    "features": [
+      {
+        "title": "Dos nanómetros importan sólo si mejoran el uso diario",
+        "eyebrow": "DEL NODO AL BOLSILLO",
+        "facts": "TSMC 2 NM · EFICIENCIA · TEMPERATURA",
+        "image": "https://www.mediatek.com/hs-fs/hubfs/Chip%20Card_9600%20M%20new.png?height=150&length=100&name=Chip+Card_9600+M+new.png&width=150",
+        "alt": "Imagen oficial del procesador MediaTek Dimensity 9600M",
+        "body": [
+          "Un nodo más avanzado permite colocar más transistores y buscar mejor relación entre rendimiento y energía, pero el resultado depende del diseño completo. CPU, GPU, módem, memoria, refrigeración y software deciden la experiencia.",
+          "Quiero ver pruebas sostenidas y no únicamente picos. En un smartphone, mantener velocidad sin calentar la mano ni vaciar la batería suele ser más valioso que ganar una tabla durante treinta segundos."
+        ]
+      },
+      {
+        "title": "MediaTek ya no pelea sólo por el chip del teléfono",
+        "eyebrow": "DEL BORDE AL DATA CENTER",
+        "facts": "NPU · ACELERADOR · NVIDIA · ALPHABET",
+        "image": "https://www.mediatek.com/hubfs/MediaTek%20Assets/Images/Static%20Images/All%20Big%20Core%20CPU.png",
+        "alt": "Gráfico oficial de MediaTek sobre su arquitectura de CPU de núcleos grandes",
+        "body": [
+          "MediaTek espera llevar a producción masiva durante el cuarto trimestre su primer acelerador de IA para un gran proveedor de nube estadounidense. La compañía está extendiendo su negocio desde móviles hacia silicio personalizado e infraestructura.",
+          "Esa expansión recibió una señal financiera fuerte: MediaTek captó 3.900 millones de dólares en bonos convertibles; Nvidia invirtió 3.500 millones y Alphabet también participó. El 9600 Pro es un producto móvil, pero aparece dentro de una estrategia de IA mucho más amplia."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters — lanzamiento del Dimensity 9600 Pro",
+        "url": "https://www.reuters.com/business/media-telecom/mediatek-launches-new-mobile-chip-using-tsmcs-most-advanced-technology-2026-09-15/"
+      },
+      {
+        "name": "MediaTek — familia Dimensity",
+        "url": "https://www.mediatek.com/products/smartphones/dimensity-5g"
+      },
+      {
+        "name": "MediaTek — sala de prensa",
+        "url": "https://www.mediatek.com/press-room"
+      },
+      {
+        "name": "TSMC — tecnología de 2 nanómetros",
+        "url": "https://www.tsmc.com/english/dedicatedFoundry/technology/logic/l_2nm"
+      }
+    ]
+  },
+  // FIN NOTICIAS 15 SEP 2026
   // NOTA LANTERNS EPISODIO 5 · 14 SEP 2026
   {
     slug: "comics/lanterns-capitulo-5-lights-out-john-stewart",

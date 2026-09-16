@@ -1,4 +1,4 @@
-"use client";
+window.setTimeout(() => void loadComments(), 0);"use client";
 
 import { useCallback, useEffect, useState } from "react";
 import type { FormEvent } from "react";

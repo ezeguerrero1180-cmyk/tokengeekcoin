@@ -1,4 +1,305 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 16 SEP 2026
+  {
+    "slug": "gaming/aniimo-lanzamiento-pc-ps5-xbox",
+    "category": "GAMING",
+    "date": "16 SEP 2026",
+    "dateIso": "2026-09-16T09:35:00-03:00",
+    "minutes": 9,
+    "title": "Aniimo abre hoy su mundo de criaturas: gratis, enorme y con la monetización bajo la lupa",
+    "dek": "El RPG de Pawprint debuta en PC, PS5 y Xbox Series con juego cruzado, mundo abierto y criaturas que permiten cambiar de forma. La versión móvil llegará el 23 de septiembre.",
+    "personalAngle": "Cada vez que aparece un nuevo juego de criaturas, Internet corre a gritar ‘el próximo Pokémon’. Yo prefiero bajar un cambio: Aniimo tiene ideas propias, pero ser gratuito significa que su identidad también se define por cómo respeta nuestro tiempo y nuestro bolsillo.",
+    "leadEyebrow": "EL MUNDO DE IDYLL YA ESTÁ ABIERTO",
+    "leadTitle": "Capturar criaturas es la puerta; convivir con su economía será la prueba larga",
+    "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/EN_rHVzA4io.jpg",
+    "imageAlt": "Arte oficial del lanzamiento global de Aniimo con sus criaturas en Idyll",
+    "body": [
+      "Aniimo se lanzó globalmente este 16 de septiembre en Windows, Steam, Epic Games Store, PlayStation 5, Xbox Series y Xbox Cloud Gaming. Pawprint Interactive lo ofrece gratis; iOS y Android llegan el 23.",
+      "La propuesta mezcla mundo abierto, colección y combate en tiempo real. Twining permite vincularse con una criatura y adoptar capacidades para moverse, pelear o resolver situaciones.",
+      "Hay juego cruzado cooperativo y competitivo. Eso evita comunidades aisladas, aunque el valor real dependerá de estabilidad, latencia y progreso compartido.",
+      "No jugué la versión final, así que no es una reseña. Primero miraría rendimiento, interfaz, variedad después del tutorial y ritmo de progresión.",
+      "Mi consejo es probar antes de gastar: entender monedas, probabilidades y límites diarios. Un monstruo adorable puede ser compañero; no debería convertirse en cobrador."
+    ],
+    "features": [
+      {
+        "title": "Twining quiere ser más que una montura",
+        "eyebrow": "CAMBIAR DE CUERPO, CAMBIAR DE LÓGICA",
+        "facts": "MUNDO ABIERTO · COMBATE · EXPLORACIÓN",
+        "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/image%20%2816%29_kj225Ff3.png",
+        "alt": "Captura oficial del mundo abierto de Aniimo",
+        "body": [
+          "Si cada vínculo abre rutas distintas, la colección deja de ser inventario y pasa a ser lenguaje de juego.",
+          "Necesita desafíos diseñados alrededor de criaturas, no puertas que sólo pidan la llave correcta."
+        ]
+      },
+      {
+        "title": "Free-to-play no significa costo cero",
+        "eyebrow": "LA LETRA CHICA TAMBIÉN JUEGA",
+        "facts": "TIENDA · CUENTAS · MÓVIL 23/9",
+        "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/%E8%8B%B1%E8%AF%AD-1%E9%A2%84%E5%91%8A820x555_PolUjwwp.jpg",
+        "alt": "Imagen promocional oficial de Aniimo",
+        "body": [
+          "Conviene revisar qué se obtiene jugando y cómo comunica probabilidades.",
+          "Contanos qué apareció cuando se apagó el brillo del tutorial: ahí empieza la historia honesta."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Aniimo — anuncio e imágenes oficiales",
+        "url": "https://aniimo.com/main"
+      },
+      {
+        "name": "Aniimo — horario global",
+        "url": "https://aniimo.com/newslist/detail/100089"
+      },
+      {
+        "name": "Steam — ficha oficial",
+        "url": "https://store.steampowered.com/app/4126040/Aniimo/"
+      }
+    ]
+  },
+  {
+    "slug": "gaming/roman-sands-rebuild-lanzamiento",
+    "category": "GAMING",
+    "date": "16 SEP 2026",
+    "dateIso": "2026-09-16T09:25:00-03:00",
+    "minutes": 8,
+    "title": "Roman Sands RE:Build sale hoy y convierte un resort en el peor trabajo antes del apocalipsis",
+    "dek": "Arbitrary Metric y Serenity Forge estrenan una aventura surrealista que cruza simulación laboral, terror, rompecabezas y dos realidades rotas.",
+    "personalAngle": "Hay juegos que venden poder y otros que te entregan tareas mientras el sol está por tragarse el planeta. Roman Sands me interesa por esa incomodidad: convierte atender huéspedes imposibles en una broma oscura sobre trabajar hasta el fin del mundo.",
+    "leadEyebrow": "CHECK-IN PARA EL FIN DEL MUNDO",
+    "leadTitle": "La rareza importa si todos sus géneros empujan la misma pesadilla",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/header.jpg?t=1789482651",
+    "imageAlt": "Arte oficial de Roman Sands RE:Build publicado en Steam",
+    "body": [
+      "Roman Sands RE:Build se estrena este 16 de septiembre en PC, PlayStation, Xbox y Switch. Lo desarrolla Arbitrary Metric y publica Serenity Forge con Beep Japan.",
+      "En un resort tropical, huéspedes exigen servicio mientras el sol se acerca a destruir el mundo. Hay que cumplir pedidos, mejorar rango y buscar salida.",
+      "La segunda realidad lleva a una estación zoológica en decadencia, con una voz por radio y un parásito invasor.",
+      "La ficha cruza aventura, novela visual, puzles, supervivencia y terror. El desafío es que las transiciones tengan sentido y no parezcan cinco juegos incompletos.",
+      "No probé la versión final. La demo de PC permite medir ritmo y tolerancia al surrealismo antes de comprar."
+    ],
+    "features": [
+      {
+        "title": "El resort usa la sonrisa de servicio como máscara",
+        "eyebrow": "CLIENTES Y UN SOL TERMINAL",
+        "facts": "SIMULACIÓN · PUZLES · CUENTA REGRESIVA",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/extras/bb803d1e355a9730dc882a4d5235c933.avif?t=1789482651",
+        "alt": "Escena oficial del resort de Roman Sands",
+        "body": [
+          "El cliente siempre tiene razón, incluso cuando el cielo se cae.",
+          "Hay una línea fina entre convertir tedio en tema y pedir que lo soportemos."
+        ]
+      },
+      {
+        "title": "La instalación deja sólo la voz por radio",
+        "eyebrow": "OTRA REALIDAD, OTRO MIEDO",
+        "facts": "SUPERVIVENCIA · PARÁSITO · INVESTIGACIÓN",
+        "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/extras/f3c09ce7a374bdcb7c769ed451318590.avif?t=1789482651",
+        "alt": "Escena oficial de la instalación de Roman Sands",
+        "body": [
+          "El aislamiento reemplaza las demandas constantes.",
+          "La pregunta no es si es raro, sino si su rareza dice algo."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Steam — ficha, imágenes y fecha",
+        "url": "https://store.steampowered.com/app/2231460/Roman_Sands_REBuild/"
+      },
+      {
+        "name": "PlayStation Store — ficha oficial",
+        "url": "https://store.playstation.com/concept/10007379"
+      },
+      {
+        "name": "Serenity Forge — publisher",
+        "url": "https://serenityforge.com/"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/fed-warsh-suba-tasas-septiembre-2026",
+    "category": "FINANZAS + CRIPTO",
+    "date": "16 SEP 2026",
+    "dateIso": "2026-09-16T09:15:00-03:00",
+    "minutes": 9,
+    "title": "La Fed llega a una decisión incómoda: subir hoy para intentar abaratar mañana",
+    "dek": "El mercado espera un aumento de 25 puntos básicos, el primero en tres años. Kevin Warsh enfrenta inflación de 3,7%, petróleo caro y presión política.",
+    "personalAngle": "Una suba suele resumirse como dinero más caro. Esta reunión tiene una paradoja mejor: endurecer ahora podría bajar rendimientos largos si devuelve credibilidad; quedarse quieto podría encarecer hipotecas si el mercado interpreta que la Fed perdió el timón.",
+    "leadEyebrow": "UNA DECISIÓN CON DOS PRECIOS DEL DINERO",
+    "leadTitle": "Warsh intenta convencer al mercado de que la inflación tiene techo",
+    "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Edificio institucional de Washington en el contexto de la decisión de la Fed",
+    "body": [
+      "La Reserva Federal anuncia hoy su decisión. Se espera una suba de 25 puntos básicos, la primera en tres años, que llevaría la tasa cerca de 3,9%.",
+      "Warsh lleva cuatro meses al frente: los inversores piden dureza mientras Trump presiona para recortar o mantener.",
+      "La inflación preferida por la Fed llegó a 3,7% y la subyacente a 3,3%. Petróleo y aranceles complican el panorama.",
+      "El Treasury a diez años cruzó 5%, referencia para hipotecas y crédito largo.",
+      "Esto es información general, no asesoramiento. Miraría comunicado, proyecciones y conferencia: una frase sobre 2027 puede pesar más que los 25 puntos de hoy."
+    ],
+    "features": [
+      {
+        "title": "Subir la corta para intentar bajar la larga",
+        "eyebrow": "CREDIBILIDAD CONTRA INFLACIÓN",
+        "facts": "3,7% · 5% TREASURY · 25 PB",
+        "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Dólares y gráficos como contexto de tasas",
+        "body": [
+          "Sin credibilidad, el mercado exige más para prestar a largo plazo.",
+          "La Fed enfría demanda; no repara un oleoducto."
+        ]
+      },
+      {
+        "title": "La presión política vuelve clave la explicación",
+        "eyebrow": "INDEPENDENCIA BAJO LOS REFLECTORES",
+        "facts": "WARSH · TRUMP · META 2%",
+        "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Capitolio estadounidense",
+        "body": [
+          "La decisión debe sostenerse en mandato y datos.",
+          "Miraría votos disidentes, inflación proyectada y pistas sobre octubre."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Federal Reserve — FOMC",
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      },
+      {
+        "name": "AP — Warsh y tasas",
+        "url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1"
+      },
+      {
+        "name": "Unsplash — imágenes",
+        "url": "https://unsplash.com/"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/petroleo-inventarios-eeuu-riesgo-saudita",
+    "category": "FINANZAS + CRIPTO",
+    "date": "16 SEP 2026",
+    "dateIso": "2026-09-16T09:05:00-03:00",
+    "minutes": 9,
+    "title": "El petróleo baja, pero el diésel no respira: inventarios llenos frente a rutas rotas",
+    "dek": "El Brent retrocede desde USD 108 tras una suba inesperada de 7,1 millones de barriles en Estados Unidos. La oferta saudita busca desvíos por Omán.",
+    "personalAngle": "Este mercado parece una pantalla con dos alertas contradictorias: Estados Unidos tiene más crudo del esperado, pero mover barriles desde Medio Oriente se volvió mucho más difícil. El precio baja hoy; la logística todavía no solucionó nada.",
+    "leadEyebrow": "MÁS STOCK NO EQUIVALE A MÁS TRANQUILIDAD",
+    "leadTitle": "Los barriles existen; importa por qué ruta, a qué costo y en qué producto llegan",
+    "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Bomba petrolera en operación",
+    "body": [
+      "Brent y WTI cedían este miércoles después de dos ruedas de avance por problemas sauditas.",
+      "El API informó, según Reuters, que inventarios de crudo de EE.UU. subieron 7,1 millones de barriles; se esperaba una baja de 1,6 millones.",
+      "Arabia Saudita ofrece cargamentos vía transferencias frente a Sohar, Omán, tras daños al oleoducto Este-Oeste e interrupciones en Yanbu.",
+      "Por Ormuz pasaron apenas cuatro buques el martes, contra un promedio reciente de 18.",
+      "Esto no es una recomendación. Para Argentina importa por combustibles, fletes, inflación y divisas."
+    ],
+    "features": [
+      {
+        "title": "El desvío por Omán compra tiempo",
+        "eyebrow": "LOGÍSTICA DE EMERGENCIA",
+        "facts": "SOHAR · TRANSFERENCIAS · YANBU",
+        "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Buque de carga en puerto",
+        "body": [
+          "Transferir crudo entre barcos mantiene cargamentos, pero agrega costo y riesgo.",
+          "Una solución parcial puede bajar el miedo sin normalizar capacidad."
+        ]
+      },
+      {
+        "title": "El diésel muestra lo que el crudo oculta",
+        "eyebrow": "NO TODOS LOS BARRILES SON IGUALES",
+        "facts": "REFINACIÓN · GASOIL · FLETES",
+        "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Instalación industrial de refinación",
+        "body": [
+          "La economía consume combustibles refinados, no crudo.",
+          "Miraría márgenes de refinación además del Brent."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters — petróleo y desvíos",
+        "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/"
+      },
+      {
+        "name": "EIA — inventarios",
+        "url": "https://www.eia.gov/petroleum/supply/weekly/"
+      },
+      {
+        "name": "Unsplash — imágenes",
+        "url": "https://unsplash.com/"
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia/sk-hynix-intel-memoria-ohio-ia",
+    "category": "TECNOLOGÍA",
+    "date": "16 SEP 2026",
+    "dateIso": "2026-09-16T08:55:00-03:00",
+    "minutes": 9,
+    "title": "SK Hynix e Intel exploran fabricar memoria en Ohio: la fiebre de IA busca otra fábrica",
+    "dek": "Las conversaciones preliminares contemplan alquilar parte del complejo de Intel o formar una sociedad con grandes nubes. Corea del Sur podría revisar HBM o DRAM avanzada.",
+    "personalAngle": "La IA cambió el cuello de botella: la memoria capaz de alimentar aceleradores vale casi tanto como el cerebro. Una fábrica compartida sería negocio, política industrial y soberanía tecnológica en el mismo wafer.",
+    "leadEyebrow": "MEMORIA PARA UNA IA QUE NO DEJA DE PEDIR",
+    "leadTitle": "Intel aporta espacio; SK Hynix conserva la tecnología que todos quieren",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Circuitos electrónicos en contexto de las conversaciones entre SK Hynix e Intel",
+    "body": [
+      "SK Hynix conversa preliminarmente con Intel para producir memoria en Estados Unidos por primera vez, según Reuters. No hay acuerdo confirmado.",
+      "Una opción es alquilar parte del complejo de Ohio; otra, una sociedad con grandes nubes que buscan asegurar memoria para IA.",
+      "Para Intel sería capacidad ocupada; para Washington, traer una pieza crítica de la cadena de IA.",
+      "SK Hynix lidera HBM y fabrica DRAM y NAND. Reuters no estableció qué familia entraría.",
+      "No lo leería como fábrica confirmada, sino como señal de que escasez y geopolítica obligan a imaginar alianzas nuevas."
+    ],
+    "features": [
+      {
+        "title": "HBM evita que la GPU baje por cada dato",
+        "eyebrow": "EL CUELLO DE BOTELLA DE LA IA",
+        "facts": "ANCHO DE BANDA · APILADO · ACELERADORES",
+        "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Procesador sobre placa electrónica",
+        "body": [
+          "HBM apila memoria cerca del acelerador.",
+          "Más GPU sirve poco si la memoria llega tarde."
+        ]
+      },
+      {
+        "title": "Una fábrica también es frontera política",
+        "eyebrow": "OHIO, SEÚL Y EL PROCESO",
+        "facts": "ARRENDAMIENTO · SOCIEDAD · REVISIÓN",
+        "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=1600&q=85",
+        "alt": "Equipamiento industrial de precisión",
+        "body": [
+          "Espacio no equivale a entregar secretos industriales.",
+          "Faltan producto y calendario: es negociación, no línea activa."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters — SK Hynix e Intel",
+        "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/"
+      },
+      {
+        "name": "SK Hynix Newsroom",
+        "url": "https://news.skhynix.com/"
+      },
+      {
+        "name": "Intel Ohio",
+        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/ohio.html"
+      },
+      {
+        "name": "Unsplash — imágenes",
+        "url": "https://unsplash.com/"
+      }
+    ]
+  },
+  // FIN NOTICIAS 16 SEP 2026
   // INICIO NOTICIAS 15 SEP 2026
   {
     "slug": "gaming/marvel-wolverine-lanzamiento-ps5-insomniac",

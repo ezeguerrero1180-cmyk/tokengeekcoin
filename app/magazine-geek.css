@@ -706,3 +706,9 @@ footer:not(.article-sources) a:hover{color:var(--mg-acid)}
   background:var(--mg-acid)!important;
   color:var(--mg-ink)!important;
 }
+/* Contraste AA en fondos brillantes. */
+.classic-intro .classic-button,
+.classic-about .classic-socials a,
+.classic-world .classic-world-media span {
+  color: var(--mg-ink);
+}

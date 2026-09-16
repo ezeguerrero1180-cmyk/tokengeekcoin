@@ -238,7 +238,7 @@ export const dailyArticles = [
   },
   {
     "slug": "tecnologia/sk-hynix-intel-memoria-ohio-ia",
-    "category": "TECNOLOGÍA",
+    "category": "TECNOLOGÍA + IA",
     "date": "16 SEP 2026",
     "dateIso": "2026-09-16T08:55:00-03:00",
     "minutes": 9,

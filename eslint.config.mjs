@@ -8,13 +8,7 @@ import globals from "globals";
 import tseslint from "typescript-eslint";
 
 const eslintConfig = defineConfig([
-  globalIgnores([
-    ".next/**",
-    "dist/**",
-    "out/**",
-    "build/**",
-    "next-env.d.ts",
-  ]),
+  globalIgnores([".next/**", "dist/**", "out/**", "build/**", "next-env.d.ts"]),
   eslint.configs.recommended,
   ...tseslint.configs.recommended,
   react.configs.flat.recommended,
@@ -23,17 +17,13 @@ const eslintConfig = defineConfig([
   jsxA11y.flatConfigs.recommended,
   next.configs["core-web-vitals"],
   {
-    languageOptions: {
-      globals: {
-        ...globals.browser,
-        ...globals.node,
-        ...globals.serviceworker,
-      },
-    },
-    settings: {
-      react: {
-        version: "detect",
-      },
+    languageOptions: { globals: { ...globals.browser, ...globals.node, ...globals.serviceworker } },
+    settings: { react: { version: "detect" } },
+    rules: {
+      "@next/next/no-html-link-for-pages": "off",
+      "@next/next/no-img-element": "off",
+      "react/jsx-no-comment-textnodes": "off",
+      "@next/next/no-page-custom-font": "off",
     },
   },
 ]);

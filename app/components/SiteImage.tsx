@@ -1,27 +1,4 @@
 import Image from "next/image";
-
-type SiteImageProps = {
-  src: string;
-  alt: string;
-  width?: number;
-  height?: number;
-  sizes?: string;
-  priority?: boolean;
-  className?: string;
-};
-
-export default function SiteImage({
-  src,
-  alt,
-  width = 1600,
-  height = 900,
-  sizes = "(max-width: 760px) 100vw, 50vw",
-  priority = false,
-  className,
-}: SiteImageProps) {
-  if (!src.startsWith("/")) {
-    return <img src={src} alt={alt} width={width} height={height} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} decoding="async" className={className}/>;
-  }
-
-  return <Image src={src} alt={alt} width={width} height={height} sizes={sizes} priority={priority} quality={78} className={className}/>;
-}
+type SiteImageProps={src:string;alt:string;width?:number;height?:number;sizes?:string;priority?:boolean;className?:string};
+function remoteImageUrl(src:string,width:number,quality=82){try{const url=new URL(src);if(url.hostname==="images.unsplash.com"){url.searchParams.set("auto","format");url.searchParams.set("fit","crop");url.searchParams.set("w",String(width));url.searchParams.set("q",String(quality));return url.toString()}}catch{return src}return src}
+export default function SiteImage({src,alt,width=1600,height=900,sizes="(max-width: 760px) 100vw, 50vw",priority=false,className}:SiteImageProps){if(!src.startsWith("/")){const optimizedSrc=remoteImageUrl(src,Math.min(width,1600));return <img src={optimizedSrc} alt={alt} width={width} height={height} loading={priority?"eager":"lazy"} fetchPriority={priority?"high":"auto"} decoding="async" referrerPolicy="no-referrer" className={className}/>}return <Image src={src} alt={alt} width={width} height={height} sizes={sizes} priority={priority} quality={78} className={className}/>}

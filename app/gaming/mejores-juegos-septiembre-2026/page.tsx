@@ -126,9 +126,7 @@ const games = [
     alt: "Arte oficial de Minecraft Dungeons II con sus héroes y criaturas",
     copy: (
       <>
-        <p>
-          La secuela vuelve a combinar el universo de bloques con exploración de mazmorras,
-          combate cooperativo y una lluvia constante de equipamiento. Es una opción ideal para
+                  combate cooperativo y una lluvia constante de equipamiento. Es una opción ideal para
           grupos que quieren avanzar juntos sin entrar en un juego competitivo.
         </p>
         <p>

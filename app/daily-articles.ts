@@ -1,6 +1,57 @@
 export const dailyArticles = [
   // INICIO NOTICIAS 17 SEP 2026
   {
+    "slug": "gaming/shape-of-dreams-xbox-game-pass-starless-path",
+    "category": "GAMING",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T10:25:00-03:00",
+    "minutes": 8,
+    "title": "Shape of Dreams llega de sorpresa a Xbox: Game Pass recibe un roguelite con un año de ventaja",
+    "dek": "El juego cooperativo de Lizard Smoothie debutó hoy en Series X|S junto con The Starless Path, su mayor actualización, juego cruzado y más de 200 combinaciones para experimentar.",
+    "personalAngle": "Los lanzamientos sorpresa suelen activar mi alarma de backlog, pero este tiene una ventaja concreta: no llega como promesa recién salida del horno. La versión de Xbox incorpora un año de ajustes, contenido y aprendizaje de la comunidad de PC; eso me interesa bastante más que cualquier cartel de ‘disponible ahora’.",
+    "leadEyebrow": "UN ESTRENO QUE YA TRAE CICATRICES ÚTILES",
+    "leadTitle": "Llegar un año después puede ser una ventaja cuando el género vive de repetir, ajustar y volver a intentar",
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-Hero-07db0085714f7d1d2521-1600x900.jpg",
+    "imageAlt": "Arte oficial de Shape of Dreams con sus viajeros enfrentando criaturas en un paisaje onírico",
+    "body": [
+      "Shape of Dreams se lanzó hoy para Xbox Series X|S y entró el mismo día a Game Pass. El roguelite de acción puede jugarse en solitario o en grupos de hasta cuatro personas, admite juego cruzado y llega acompañado por The Starless Path, la actualización más grande publicada por Lizard Smoothie hasta ahora.",
+      "El juego propone elegir entre nueve Viajeros con ritmos de combate diferentes. Las habilidades se llaman Memorias y pueden combinarse con Esencias; el estudio habla de más de 200 piezas entre ambas categorías. Esa cifra promete variedad, aunque la prueba real será cuántas combinaciones resultan divertidas y no solamente posibles.",
+      "La edición de Xbox incorpora desde el primer día los cambios acumulados desde el estreno original en Steam, en septiembre de 2025. Incluye ajustes de rendimiento y equilibrio, nuevos santuarios, recompensas que permiten orientar una build y Limbo, una dificultad de final de juego por encima de Nightmare.",
+      "The Starless Path suma a Cetus, un personaje de rango que usa hielo y puede adaptarse como atacante, luchador cercano o apoyo. También agrega un camino de progresión, un final nuevo, seis Identity Memories compartidas y patrones más exigentes para jefes heroicos.",
+      "No lo probé, así que no voy a vender la idea de que sus sistemas ya derrotaron al cansancio del género. Sí veo una decisión sensata: abrir la puerta de Game Pass con juego cruzado reduce la fricción para formar un grupo, que suele ser el verdadero jefe final de cualquier cooperativo.",
+      "Mi consejo es simple: si ya tenés la suscripción, una primera partida alcanza para medir el tacto del combate antes de convertirlo en otra obligación semanal. El contenido acumulado es una buena bienvenida; nuestro tiempo sigue siendo el recurso más escaso del inventario."
+    ],
+    "features": [
+      {
+        "title": "Más de 200 piezas no garantizan variedad, pero sí un buen laboratorio",
+        "eyebrow": "MEMORIAS, ESENCIAS Y BUILDS",
+        "facts": "9 VIAJEROS · 200+ OPCIONES · SOLO O COOPERATIVO",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-ASSET-02-%E2%80%94-Build-skill-selection-screen-d10e2305417740c95777-1024x576.jpg",
+        "alt": "Pantalla oficial de Shape of Dreams con opciones para construir y modificar habilidades",
+        "body": [
+          "La gracia de un roguelite no está en contar objetos sino en obligarnos a improvisar con ellos. Que el juego permita orientar una build mediante santuarios y recompensas puede reducir esas partidas donde el azar decide demasiado pronto que no vamos a divertirnos.",
+          "También ayuda que cada Viajero tenga armas, habilidades y cadencia propias. Si las identidades se sienten claras, cambiar de personaje puede renovar el juego sin inflar artificialmente la dificultad."
+        ]
+      },
+      {
+        "title": "El cooperativo elimina una barrera y crea otra",
+        "eyebrow": "CUATRO PERSONAS, UN MISMO SUEÑO",
+        "facts": "HASTA 4 JUGADORES · CROSS-PLAY · GAME PASS",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-ASSET-03-%E2%80%94-co-op-gameplay-524747c8fc4a3a76ed81-1024x559.jpg",
+        "alt": "Captura oficial del combate cooperativo para cuatro jugadores de Shape of Dreams",
+        "body": [
+          "Game Pass y el juego cruzado facilitan reunir al equipo, pero cuatro builds simultáneas también pueden convertir la pantalla en fuegos artificiales indescifrables. La legibilidad del combate será tan importante como el daño de cada combo.",
+          "La opción de completar todo en solitario es clave. Un cooperativo sano invita a sumar amigos; no castiga a quien sólo encontró media hora libre y decidió entrar sin coordinar agendas."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Xbox Wire — anuncio oficial, datos e imágenes de Shape of Dreams", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-shape-of-dreams/" },
+      { "name": "Xbox Wire — resumen oficial de Tokyo Game Show 2026", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/" },
+      { "name": "Xbox — ficha oficial de Shape of Dreams", "url": "https://www.xbox.com/en-us/games/store/shape-of-dreams/9PK0DZ68LGC0" }
+    ]
+  },
+  {
     "slug": "gaming/faraday-blues-anuncio-xbox-tgs-2026",
     "category": "GAMING",
     "date": "17 SEP 2026",

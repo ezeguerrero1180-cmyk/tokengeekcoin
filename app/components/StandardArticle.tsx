@@ -42,11 +42,10 @@ export default function StandardArticle({ article, schema, published }: Standard
   const backPath = categoryPath(article.category);
   const articleTheme = theme(article.category);
   const body = article.body.slice(1);
-  const isToday = article.dateIso ? article.dateIso >= "2026-08-28" : false;
-  const showEditorialSourceBlock = !article.dateIso || article.dateIso < "2026-08-30";
+  const usesCurrentEditorialStandard = article.dateIso ? article.dateIso >= "2026-08-29" : false;
   const imageSource = (index: number) => article.sources?.[index] ?? article.sources?.at(-1);
 
-  return <main className={`article-page standard-article standard-${articleTheme}${isToday ? " standard-today" : ""}`}>
+  return <main className={`article-page standard-article standard-${articleTheme}${usesCurrentEditorialStandard ? " standard-today" : ""}`}>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
     <header className="site-header article-header">
       <a className="brand" href="/" aria-label="TokenGeekCoin, inicio"><span className="brand-mark">T.</span><span>TOKENGEEKCOIN.COM</span></a>
@@ -95,7 +94,7 @@ export default function StandardArticle({ article, schema, published }: Standard
       <Comments slug={article.slug} />
 
       <footer className="article-sources standard-article-footer">
-        <div><p>Contenido editorial de TokenGeekCoin. Verificá precios, disponibilidad y condiciones antes de tomar decisiones financieras o de compra.</p>{showEditorialSourceBlock && article.sources && !article.hideSources && <p>{article.sources.map((source, index) => <span key={`${source.url}-${index}`}>{index > 0 && " · "}<a href={source.url} target="_blank" rel="noopener noreferrer">{source.name}</a></span>)}</p>}</div>
+        <div><p>Contenido editorial de TokenGeekCoin. Verificá precios, disponibilidad y condiciones antes de tomar decisiones financieras o de compra.</p>{article.sources && !article.hideSources && <div className="article-source-list"><strong>Fuentes y créditos</strong><ul>{article.sources.map((source) => <li key={source.url}><a href={source.url} target="_blank" rel="noopener noreferrer">{source.name} ↗</a></li>)}</ul></div>}</div>
         <a href={backPath}>VOLVER A {shortCategory(article.category)} ↗</a>
       </footer>
     </article>

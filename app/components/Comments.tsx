@@ -1,6 +1,6 @@
-window.setTimeout(() => void loadComments(), 0);"use client";
+"use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import type { FormEvent } from "react";
 
 type Comment = {
@@ -52,22 +52,26 @@ export default function Comments({ articleSlug, prompt, placeholder = "¿Qué te
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const loadComments = useCallback(async () => {
-    try {
-      const response = await fetch(`/api/comments?slug=${encodeURIComponent(articleSlug)}`);
-      const data = (await response.json()) as ApiResponse;
-      if (!response.ok) throw new Error(data.error || "No pudimos cargar los comentarios.");
-      setComments(data.comments ?? []);
-    } catch (loadError) {
-      setError(loadError instanceof Error ? loadError.message : "No pudimos cargar los comentarios.");
-    } finally {
-      setLoading(false);
-    }
-  }, [articleSlug]);
-
   useEffect(() => {
+    const controller = new AbortController();
+
+    async function loadComments() {
+      try {
+        const response = await fetch(`/api/comments?slug=${encodeURIComponent(articleSlug)}`, { signal: controller.signal });
+        const data = (await response.json()) as ApiResponse;
+        if (!response.ok) throw new Error(data.error || "No pudimos cargar los comentarios.");
+        setComments(data.comments ?? []);
+      } catch (loadError) {
+        if (controller.signal.aborted) return;
+        setError(loadError instanceof Error ? loadError.message : "No pudimos cargar los comentarios.");
+      } finally {
+        if (!controller.signal.aborted) setLoading(false);
+      }
+    }
+
     void loadComments();
-  }, [loadComments]);
+    return () => controller.abort();
+  }, [articleSlug]);
 
   async function submitComment(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();

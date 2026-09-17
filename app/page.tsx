@@ -1,4 +1,4 @@
-<a className="classic-brand" href="/"></a>import { articles } from "./site-data";
+import { articles } from "./site-data";
 import { AdSlot, Footer, MobileMenu, StoryCard } from "./ui";
 import SiteImage from "./components/SiteImage";
 

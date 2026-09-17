@@ -1,5 +1,4 @@
-import { articles } from "./site-data";
-import { AdSlot, Footer, MobileMenu, StoryCard } from "./ui";
+port { AdSlot, Footer, MobileMenu, StoryCard } from "./ui";
 import SiteImage from "./components/SiteImage";
 
 export const dynamic = "force-static";

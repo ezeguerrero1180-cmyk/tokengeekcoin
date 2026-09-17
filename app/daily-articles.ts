@@ -1,4 +1,263 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 17 SEP 2026
+  {
+    "slug": "gaming/faraday-blues-anuncio-xbox-tgs-2026",
+    "category": "GAMING",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T10:20:00-03:00",
+    "minutes": 8,
+    "title": "Faraday Blues mezcla cartas y vidas cruzadas: el debut indie que se robó una parte del TGS",
+    "dek": "Moonless Form presentó en la transmisión de Xbox una aventura narrativa para 2027 con tres protagonistas, un mazo de 52 cartas y 64 finales posibles.",
+    "personalAngle": "En una presentación cargada de marcas enormes, terminé pensando en un juego de cartas donde casi nadie juega a las cartas. Faraday Blues me atrapó por esa contradicción: usa un mazo común para ordenar recuerdos, relaciones y decisiones, no para vender otro roguelike con números cada vez más grandes.",
+    "leadEyebrow": "UNA FAMILIA, TRES HISTORIAS, 52 CARTAS",
+    "leadTitle": "El verdadero truco no es ganar la partida, sino descubrir quién está contando la verdad",
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Faraday-Blues-hkey-art-c796f14c816edaf934bd-1600x900.jpg",
+    "imageAlt": "Arte principal oficial de Faraday Blues con sus tres protagonistas y cartas flotando",
+    "body": [
+      "Faraday Blues fue una de las presentaciones mundiales del Xbox Tokyo Game Show 2026. El estudio Moonless Form planea lanzarlo en 2027 para Xbox Series, PC y Xbox Cloud, todavía sin una fecha más precisa.",
+      "La historia sigue a Lina, una joven que busca a sus padres aunque ellos todavía no saben quién es. Esa premisa se divide en tres novelas visuales conectadas: cada integrante de la familia vive su propia versión de los hechos y el jugador decide en qué orden revelar las cartas.",
+      "El mazo de 52 cartas funciona como interfaz narrativa. Hay que repartirlas entre personajes y situaciones para abrir escenas, modificar vínculos y construir una secuencia propia. El estudio promete 64 finales; el número impresiona, pero lo importante será que las decisiones cambien algo más profundo que la cinemática final.",
+      "No lo jugué y el anuncio no permite juzgar ritmo, duración ni cuánto se repiten los caminos. Sí deja una idea clara: en lugar de convertir las cartas en estadísticas de ataque, las convierte en piezas de memoria. Es un uso bastante más raro y, para mí, mucho más tentador.",
+      "También me gusta que el juego no intente esconder su escala independiente. El arte dibujado, la música melancólica y una mecánica central legible alcanzaron para destacarlo en una vidriera llena de explosiones. A veces una buena pregunta narrativa pesa más que cien millones de polígonos.",
+      "Ahora toca esperar una demostración que explique sus reglas sin destripar el misterio. Si repartir una carta se siente como elegir qué versión de una familia merece ser escuchada, Faraday Blues puede tener algo especial entre manos."
+    ],
+    "features": [
+      {
+        "title": "Tres novelas visuales que se contestan entre sí",
+        "eyebrow": "LA HISTORIA CAMBIA SEGÚN QUIÉN HABLA",
+        "facts": "3 PROTAGONISTAS · 64 FINALES · LANZAMIENTO 2027",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Faraday-Blues-_202XHERO-e2957c081bfa45102c18-1024x576.jpg",
+        "alt": "Escena oficial de Faraday Blues con personajes alrededor de una mesa",
+        "body": [
+          "Contar el mismo conflicto desde varios ojos puede producir matices o simple repetición. El desafío de Moonless Form será hacer que cada recorrido cambie nuestra lectura del anterior y que elegir un orden tenga consecuencias comprensibles.",
+          "Los 64 finales son una promesa, no una garantía de profundidad. Prefiero diez desenlaces que duelan a sesenta variantes de color; el tráiler, por suerte, pone el foco en los vínculos antes que en la cifra."
+        ]
+      },
+      {
+        "title": "El mazo parece un idioma antes que un sistema de combate",
+        "eyebrow": "REPARTIR TAMBIÉN ES DECIDIR",
+        "facts": "52 CARTAS · ELECCIONES · PC Y XBOX",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Faraday-Blues-3-6cb1da1916d3218a7757-1024x576.jpg",
+        "alt": "Captura oficial de Faraday Blues que muestra su interfaz de cartas",
+        "body": [
+          "La claridad de esa interfaz va a definir todo. Si cada carta comunica bien su intención, decidir puede sentirse íntimo; si obliga a adivinar resultados, la emoción corre riesgo de convertirse en prueba y error.",
+          "Lo anoto desde ahora en la lista de 2027, pero con lápiz: la idea ya ganó mi curiosidad y la demo futura tendrá que ganarse el entusiasmo."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Xbox Wire — presentación oficial e imágenes de Faraday Blues", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-faraday-blues/" },
+      { "name": "Xbox Wire — resumen oficial del Tokyo Game Show 2026", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/" },
+      { "name": "Xbox Wire — anuncio de la transmisión del TGS", "url": "https://news.xbox.com/en-us/2026/09/09/xbox-tokyo-game-show-broadcast-announce-2026/" }
+    ]
+  },
+  {
+    "slug": "gaming/physint-bill-skarsgard-kojima-xbox-tgs",
+    "category": "GAMING",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T10:10:00-03:00",
+    "minutes": 8,
+    "title": "PHYSINT pone a Bill Skarsgård en el centro y Kojima vuelve a jugar con la frontera del cine",
+    "dek": "Kojima Productions reveló al protagonista, un nuevo póster y detalles de su proyecto de acción y espionaje durante la presentación de Xbox en Tokyo Game Show.",
+    "personalAngle": "Cada vez que Hideo Kojima dice que un juego también quiere ser cine, una parte de mí se entusiasma y otra busca el control remoto por las dudas. PHYSINT merece atención por el elenco y la ambición, pero hoy tenemos una promesa elegante, no una experiencia jugable demostrada.",
+    "leadEyebrow": "EL ROSTRO DEL NUEVO ESPÍA",
+    "leadTitle": "Un actor potente suma identidad; el gran misterio sigue siendo cómo se juega",
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Physint_ENPoster_0908_4stars_4x5-a6e4884e58448d63c222-546x683.jpg",
+    "imageAlt": "Póster oficial de PHYSINT presentado durante Xbox Tokyo Game Show 2026",
+    "body": [
+      "Kojima Productions confirmó durante la transmisión de Xbox en Tokyo Game Show que Bill Skarsgård será la figura principal de PHYSINT. El anuncio llegó acompañado por un póster nuevo y por otra conversación sobre la intención de mezclar acción, espionaje y lenguaje cinematográfico.",
+      "Skarsgård aporta un rostro reconocible por It, Nosferatu y Boy Kills World. Charlee Fraser también forma parte del proyecto. Es un reparto capaz de sostener escenas intensas, aunque ningún nombre famoso reemplaza la pregunta básica: qué decisiones tendrá el jugador minuto a minuto.",
+      "Sony y Kojima Productions habían presentado PHYSINT como una nueva propiedad intelectual de acción y espionaje para PlayStation. Este mes Xbox anunció además una ampliación de su alianza con el estudio para publicar el juego, un movimiento llamativo que confirma el alcance multiplataforma de la colaboración sin aclarar todavía todos los detalles comerciales.",
+      "No hubo fecha de lanzamiento ni una demostración extensa de gameplay. Conviene frenar cualquier lectura que lo trate como producto cercano: producción, captura y tecnología pueden cambiar muchísimo antes de que podamos evaluarlo con el control en la mano.",
+      "La comparación inevitable será Metal Gear, pero repetir esa sombra sería aburrido. Lo interesante es saber si PHYSINT puede usar actores, cámara y montaje sin convertir al jugador en espectador premium. Death Stranding demostró que Kojima sabe construir sistemas extraños; acá necesitamos ver cuál es el sistema detrás del póster.",
+      "Por ahora me quedo con una noticia concreta —ya conocemos al protagonista— y una duda saludable. El marketing encontró su cara; el próximo paso debería mostrar las manos del jugador."
+    ],
+    "features": [
+      {
+        "title": "Skarsgård puede cargar una escena, pero no puede cargar todo el juego",
+        "eyebrow": "UN PROTAGONISTA CON PESO PROPIO",
+        "facts": "BILL SKARSGÅRD · CHARLEE FRASER · ESPIONAJE",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/TGS_AnnounceStatic_2026-814e275774b1b96bd7e9-1024x576.jpg",
+        "alt": "Gráfica oficial de la transmisión de Xbox en Tokyo Game Show 2026",
+        "body": [
+          "El casting permite imaginar un tono físico y oscuro. Aun así, la actuación en un videojuego depende también de dirección, captura, montaje y del espacio que la obra deja para que nosotros interrumpamos el guion.",
+          "Ese equilibrio es la prueba más difícil: que el actor sea memorable sin que el jugador sienta que llegó tarde a una película."
+        ]
+      },
+      {
+        "title": "La alianza ampliada abre más preguntas que plataformas confirmadas",
+        "eyebrow": "KOJIMA ENTRE XBOX Y PLAYSTATION",
+        "facts": "PUBLICACIÓN · NUEVA IP · SIN FECHA",
+        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Kojima-1-171852f127ac7bef0cec-1024x576.jpg",
+        "alt": "Hideo Kojima durante un anuncio oficial relacionado con su alianza con Xbox",
+        "body": [
+          "El comunicado de Xbox habla de expandir la relación para publicar PHYSINT. Hasta que las empresas detallen plataformas, ventanas y responsabilidades, conviene no llenar los espacios vacíos con guerras de consola.",
+          "Yo quiero ver una misión completa. Un pasillo, una decisión, un error y sus consecuencias contarían más sobre PHYSINT que otra lista de influencias cinematográficas."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Xbox Wire — resumen oficial y anuncio de PHYSINT", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/" },
+      { "name": "Xbox Wire — ampliación de la alianza con Kojima Productions", "url": "https://news.xbox.com/en-us/2026/09/09/xbox-and-kojima-productions-expand-partnership-to-publish-physint/" },
+      { "name": "PlayStation — anuncio original de la nueva IP de acción y espionaje", "url": "https://blog.playstation.com/2024/01/31/kojima-productions-and-playstation-studios-announce-new-action-espionage-game-physint/" }
+    ]
+  },
+  {
+    "slug": "finanzas/dolar-maximo-siete-semanas-fed-mercados",
+    "category": "FINANZAS + CRIPTO",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T10:00:00-03:00",
+    "minutes": 9,
+    "title": "La Fed subió la tasa y el dólar tocó un máximo de siete semanas: el mensaje pesó más que el número",
+    "dek": "El índice dólar llegó a 100,36 después de que la Reserva Federal endureciera su política y proyectara otra suba en 2026. Las bolsas europeas, mientras tanto, aprovecharon la baja del petróleo.",
+    "personalAngle": "Ayer la pregunta era qué haría la Fed; hoy importa cómo lo leyó el mercado. La reacción deja una lección bastante argentina: no alcanza con mirar el número grande del anuncio. El precio se mueve por la diferencia entre lo que ocurrió y lo que millones de carteras ya habían descontado.",
+    "leadEyebrow": "EL DÍA DESPUÉS DE LA FED",
+    "leadTitle": "El dólar ganó fuerza, pero acciones y bonos no contaron exactamente la misma historia",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Billetes de dólar estadounidense como contexto del avance del índice dólar",
+    "body": [
+      "El índice dólar alcanzó 100,36 este jueves, su nivel más alto desde el 31 de julio, antes de moderarse cerca de 100,20. El movimiento llegó después de que la Reserva Federal aumentara su rango objetivo a 3,75%-4% y señalara que podría realizar otra suba durante 2026.",
+      "El dato no viajó solo. El mercado también procesó las proyecciones, el tono de Kevin Warsh y la distancia entre la guía oficial y las apuestas privadas. Los operadores siguen asignando probabilidad a más endurecimiento del que muestra la mediana de la Fed.",
+      "En Europa, el STOXX 600 avanzó alrededor de 0,5%. Viajes y tecnología estuvieron entre los sectores firmes, mientras energía quedó rezagada porque el Brent perdió cerca de 2,8%. Es una combinación curiosa: una Fed más dura puede incomodar al crecimiento, pero petróleo más barato alivia costos y expectativas de inflación.",
+      "Para quienes ahorramos o invertimos desde Argentina, el dólar global importa aunque nuestro mercado tenga sus propias reglas. Una moneda estadounidense más fuerte suele poner presión sobre materias primas, monedas emergentes y activos de riesgo. No es una relación automática, pero sí una corriente que conviene mirar.",
+      "Esto es información general, no una recomendación de compra o venta. Perseguir la primera vela después de una reunión de la Fed suele ser una manera cara de descubrir que el mercado cambia de opinión cuando aparecen nuevos datos.",
+      "Mi lectura es menos dramática: la decisión terminó, la discusión no. Inflación, empleo, petróleo y las próximas palabras de Warsh van a decidir si 100,36 fue un techo momentáneo o el comienzo de otro tramo."
+    ],
+    "features": [
+      {
+        "title": "La diferencia entre la guía oficial y la apuesta privada",
+        "eyebrow": "DOS MAPAS PARA LA MISMA TASA",
+        "facts": "FED 3,75%-4% · DÓLAR 100,36 · OTRA SUBA PROYECTADA",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Pantallas con gráficos financieros como contexto de la reacción del mercado a la Fed",
+        "body": [
+          "La Fed proyecta un camino; los futuros construyen otro con cada dato. Cuando ambos mapas se separan, el precio puede reaccionar con violencia incluso si la decisión principal estaba ampliamente esperada.",
+          "Por eso mirar sólo el titular de la tasa deja media película afuera. El comunicado, las proyecciones y la conferencia definen cuánto dura el efecto."
+        ]
+      },
+      {
+        "title": "Petróleo más barato le dio aire a las bolsas europeas",
+        "eyebrow": "UN ALIVIO QUE TODAVÍA ES FRÁGIL",
+        "facts": "STOXX 600 +0,5% · BRENT -2,8% · ENERGÍA REZAGADA",
+        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Infraestructura energética al atardecer como contexto de la caída del petróleo",
+        "body": [
+          "Menor precio del crudo mejora la cuenta de empresas consumidoras de energía y reduce parte de la presión inflacionaria. Para las petroleras, naturalmente, el efecto corre en sentido contrario.",
+          "Una rueda positiva no convierte al tablero en seguro. Con bancos centrales de Reino Unido y Japón en escena, la semana todavía tiene movimientos suficientes para cambiar el color de las pantallas."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Reserva Federal — decisión y materiales de política monetaria", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" },
+      { "name": "Reuters — dólar, petróleo y expectativas tras la Fed", "url": "https://www.marketscreener.com/news/hawkish-fed-lifts-dollar-to-seven-week-high-markets-brace-for-boe-boj-ce785bd3d88af32d" },
+      { "name": "Reuters — reacción de las bolsas europeas", "url": "https://www.investing.com/news/economy-news/european-shares-rise-as-oil-slips-yields-stall-4904915" },
+      { "name": "AP — reacción de Wall Street a la decisión", "url": "https://apnews.com/article/26a4da336d561d213a3f28f260f25d2c" }
+    ]
+  },
+  {
+    "slug": "finanzas/banco-inglaterra-mantiene-tasa-septiembre-2026",
+    "category": "FINANZAS + CRIPTO",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T09:50:00-03:00",
+    "minutes": 8,
+    "title": "El Banco de Inglaterra mantuvo la tasa, pero tres votos ya pidieron subirla",
+    "dek": "El comité dejó el tipo de referencia en 3,75% por seis votos contra tres. La inflación prevista cerca de 4% para comienzos de 2027 vuelve probable una suba antes de fin de año.",
+    "personalAngle": "Mantener una tasa parece la decisión tranquila, pero un 6-3 es cualquier cosa menos silencio. Me recuerda a esas partidas donde nadie mueve una pieza y, sin embargo, el tablero ya cambió: tres autoridades dejaron escrito que el próximo paso puede llegar antes de lo que esperan hogares y empresas.",
+    "leadEyebrow": "PAUSA EN EL NÚMERO, TENSIÓN EN EL MENSAJE",
+    "leadTitle": "La inflación energética convirtió una reunión sin cambio en una advertencia",
+    "image": "https://assets.apnews.com/a9/c0/ceb91c3e5b5928b0af05e95b0841/c0c2d6bf7d74487bb289f22b82440222",
+    "imageAlt": "Fachada del Banco de Inglaterra en Londres fotografiada por Associated Press",
+    "body": [
+      "El Banco de Inglaterra mantuvo este jueves su tasa de referencia en 3,75%. Seis integrantes del Comité de Política Monetaria votaron por esperar y tres prefirieron elevarla inmediatamente a 4%, una división mayor que la sugerida por un simple titular de ‘sin cambios’.",
+      "El problema central es la inflación. La entidad espera que ronde 4% durante el primer trimestre de 2027, el doble de su objetivo de 2%. El encarecimiento de la energía y las consecuencias económicas del conflicto en Medio Oriente complicaron un proceso de desinflación que ya era irregular.",
+      "Los mercados interpretaron el resultado como una señal de que una suba en noviembre o diciembre es posible. Para familias con hipotecas variables y empresas que refinancian deuda, esa expectativa puede trasladarse a precios antes de que el banco toque formalmente la tasa.",
+      "Desde Argentina, 3,75% puede sonar casi decorativo. Pero en una economía con crédito hipotecario profundo, un cuarto de punto modifica cuotas, consumo y planes de inversión. También afecta a la libra y al rendimiento exigido a los bonos británicos.",
+      "No conviene leer el voto dividido como una promesa segura. Si energía cede o actividad se enfría, el comité puede esperar; si las expectativas de precios se desanclan, los tres votos de hoy pueden sumar compañía.",
+      "Esto no es asesoramiento financiero. Es una invitación a mirar debajo del número quieto: cuando un banco central mantiene la tasa pero cambia la conversación, el costo del dinero ya empezó a moverse."
+    ],
+    "features": [
+      {
+        "title": "El 6-3 importa porque muestra dónde está el desacuerdo",
+        "eyebrow": "LA VOTACIÓN CUENTA SU PROPIA HISTORIA",
+        "facts": "TASA 3,75% · 3 VOTOS POR 4% · META 2%",
+        "image": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Vista de Londres y sus edificios históricos como contexto de la economía británica",
+        "body": [
+          "Los seis votos por mantener priorizan reunir más datos; los tres por subir ven un riesgo inflacionario que ya exige respuesta. Ningún grupo niega el problema: discuten la velocidad y el costo de enfrentarlo.",
+          "Esa diferencia es útil para leer la próxima reunión. Un solo dato fuerte puede mover el centro del comité más rápido de lo que sugiere una tasa inmóvil."
+        ]
+      },
+      {
+        "title": "La energía vuelve a colarse en la cuota del crédito",
+        "eyebrow": "DEL BARRIL AL PRESUPUESTO FAMILIAR",
+        "facts": "INFLACIÓN CERCA DE 4% · HIPOTECAS · LIBRA",
+        "image": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Calle de Londres con un autobús rojo como contexto de los hogares británicos",
+        "body": [
+          "La energía encarece transporte, calefacción y producción. Si ese impacto se filtra a salarios y servicios, el banco teme que una conmoción temporal se convierta en inflación persistente.",
+          "Para seguir este tema yo miraría tres cosas: precios de energía, inflación de servicios y expectativas salariales. El voto de hoy fue una foto; esas variables escriben la película."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Banco de Inglaterra — política monetaria y actas", "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026" },
+      { "name": "Associated Press — decisión, votación e inflación prevista", "url": "https://apnews.com/article/britain-economy-interest-rates-9d2abfcda73347ccb1a19dd39f1c06c8" },
+      { "name": "Reuters — posiciones del comité sobre la trayectoria de tasas", "url": "https://ca.marketscreener.com/news/bank-of-england-policymakers-set-out-views-on-rates-outlook-ce785bd3dd8ef726" }
+    ]
+  },
+  {
+    "slug": "tecnologia/huawei-peerium-atlas-960-superpod",
+    "category": "TECNOLOGÍA + IA",
+    "date": "17 SEP 2026",
+    "dateIso": "2026-09-17T09:40:00-03:00",
+    "minutes": 9,
+    "title": "Huawei responde al cerco de chips con Peerium: unir miles de procesadores para competir como uno",
+    "dek": "La compañía presentó una arquitectura capaz de conectar CPU, aceleradores de IA, memoria y almacenamiento a gran escala, junto con avances de Atlas 960 y su hoja de ruta Ascend.",
+    "personalAngle": "Cuando no podés comprar el chip más potente, quedan dos caminos: esperar o aprender a coordinar muchísimos chips menos perfectos. Huawei eligió el segundo y Peerium me parece interesante por eso. No borra las restricciones tecnológicas, pero intenta mover la competencia desde la pieza individual hacia el sistema completo.",
+    "leadEyebrow": "LA RESPUESTA ESTÁ EN LA RED",
+    "leadTitle": "Huawei quiere que el cuello de botella deje de ser un chip y pase a ser la coordinación de todo el centro de datos",
+    "image": "https://assets.apnews.com/b2/1b/fb36cfa8e5870965fd1f36364899/ed603b6b95c2414ebe60a623b7e20002",
+    "imageAlt": "Visitantes observan tecnología de Huawei en una exposición fotografiada por Associated Press",
+    "body": [
+      "Huawei presentó Peerium durante Huawei Connect 2026 en Shanghái. La arquitectura propone conectar procesadores generales, aceleradores de inteligencia artificial, memoria, discos, interfaces de red y conmutadores mediante UnifiedBus para que trabajen como un recurso coordinado.",
+      "La empresa afirma que el diseño puede escalar hasta un millón de procesadores. También dijo que el clúster Atlas 950, con 256.000 tarjetas, está en despliegue y que Atlas 960 atraviesa pruebas como evolución de su plataforma de cómputo de IA.",
+      "El contexto explica la ambición. Las restricciones estadounidenses limitan el acceso chino a los aceleradores más avanzados de Nvidia y a ciertos procesos de fabricación. Huawei intenta compensar parte de esa brecha sumando escala, interconexión y software propio.",
+      "Eso no convierte automáticamente miles de chips en un superchip perfecto. Comunicarlos consume energía, introduce latencia y exige software capaz de repartir trabajo sin desperdiciar capacidad. Las cifras de una presentación necesitan mediciones independientes con cargas reales.",
+      "La compañía también mostró OceanStor M900, un sistema de memoria de contexto para inferencia que lleva caché a escala de petabytes y busca mover datos directamente entre NPU y almacenamiento. Es una pista importante: en IA, alimentar al procesador puede ser tan difícil como fabricar el procesador.",
+      "Mi conclusión provisional es que Peerium no mata a Nvidia mañana ni resuelve por magia la fabricación avanzada. Sí demuestra que la carrera dejó de ser una comparación de chips aislados. El nuevo campo de batalla es quién conecta cómputo, memoria y red con menos pérdida."
+    ],
+    "features": [
+      {
+        "title": "UnifiedBus intenta convertir componentes distintos en un solo recurso",
+        "eyebrow": "CÓMPUTO, MEMORIA Y RED SIN ISLAS",
+        "facts": "CPU · NPU · SSD · HASTA 1 MILLÓN DE PROCESADORES",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Placa electrónica y circuitos como contexto visual de la arquitectura Peerium",
+        "body": [
+          "El objetivo es reducir las fronteras entre recursos para que una tarea use capacidad disponible en todo el sistema. Sobre el papel, eso mejora utilización y permite construir clústeres gigantes con componentes heterogéneos.",
+          "La pregunta técnica es cuánto cuesta esa coordinación. Ancho de banda, latencia, consumo y herramientas de programación decidirán si la escala es eficiencia o simplemente una cifra enorme."
+        ]
+      },
+      {
+        "title": "M900 recuerda que la IA también tiene hambre de datos",
+        "eyebrow": "EL CUELLO DE BOTELLA NO TERMINA EN LA NPU",
+        "facts": "CACHÉ PB · INFERENCIA · NPU A SSD",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Filas de servidores en un centro de datos como contexto de la infraestructura de IA",
+        "body": [
+          "Los modelos largos reutilizan grandes cantidades de contexto. Guardar y recuperar esa información con rapidez puede liberar aceleradores que, de otro modo, esperan datos caros de mover.",
+          "Por eso M900 complementa el anuncio principal: Huawei no vende sólo fuerza bruta, sino una arquitectura donde cada traslado de información cuenta. Ahora faltan pruebas comparables y clientes que muestren resultados fuera del escenario."
+        ]
+      }
+    ],
+    "sources": [
+      { "name": "Huawei — anuncio oficial de la arquitectura Peerium", "url": "https://www.huawei.com/en/news/2026/9/new-computing-architecture-peerium" },
+      { "name": "Huawei — presentación oficial de OceanStor M900", "url": "https://www.huawei.com/en/news/2026/9/hc-context-memory-storage" },
+      { "name": "Associated Press — contexto de chips, Atlas y competencia con Nvidia", "url": "https://apnews.com/article/huawei-ai-chips-nvidia-superpod-technology-26ab418df1339c518483918218ffbe57" },
+      { "name": "Huawei Connect 2026 — sitio oficial del evento", "url": "https://www.huawei.com/en/events/huaweiconnect" }
+    ]
+  },
+  // FIN NOTICIAS 17 SEP 2026
   // INICIO NOTICIAS 16 SEP 2026
   {
     "slug": "gaming/aniimo-lanzamiento-pc-ps5-xbox",
@@ -8,55 +267,48 @@ export const dailyArticles = [
     "minutes": 9,
     "title": "Aniimo abre hoy su mundo de criaturas: gratis, enorme y con la monetización bajo la lupa",
     "dek": "El RPG de Pawprint debuta en PC, PS5 y Xbox Series con juego cruzado, mundo abierto y criaturas que permiten cambiar de forma. La versión móvil llegará el 23 de septiembre.",
-    "personalAngle": "Cada vez que aparece un nuevo juego de criaturas, Internet corre a gritar ‘el próximo Pokémon’. Yo prefiero bajar un cambio: Aniimo tiene ideas propias, pero ser gratuito significa que su identidad también se define por cómo respeta nuestro tiempo y nuestro bolsillo.",
+    "personalAngle": "Cada vez que aparece un nuevo juego de criaturas, Internet corre a gritar ‘el próximo Pokémon’. Yo prefiero bajar un cambio: Aniimo tiene ideas propias, pero ser gratuito significa que su verdadera identidad no se define sólo en el mapa o el combate, sino también en cómo respeta nuestro tiempo y nuestro bolsillo.",
     "leadEyebrow": "EL MUNDO DE IDYLL YA ESTÁ ABIERTO",
-    "leadTitle": "Capturar criaturas es la puerta; convivir con su economía será la prueba larga",
+    "leadTitle": "Capturar criaturas es la puerta de entrada; convivir con su economía será la prueba larga",
     "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/EN_rHVzA4io.jpg",
-    "imageAlt": "Arte oficial del lanzamiento global de Aniimo con sus criaturas en Idyll",
+    "imageAlt": "Arte oficial del lanzamiento global de Aniimo con sus criaturas en el mundo de Idyll",
     "body": [
-      "Aniimo se lanzó globalmente este 16 de septiembre en Windows, Steam, Epic Games Store, PlayStation 5, Xbox Series y Xbox Cloud Gaming. Pawprint Interactive lo ofrece gratis; iOS y Android llegan el 23.",
-      "La propuesta mezcla mundo abierto, colección y combate en tiempo real. Twining permite vincularse con una criatura y adoptar capacidades para moverse, pelear o resolver situaciones.",
-      "Hay juego cruzado cooperativo y competitivo. Eso evita comunidades aisladas, aunque el valor real dependerá de estabilidad, latencia y progreso compartido.",
-      "No jugué la versión final, así que no es una reseña. Primero miraría rendimiento, interfaz, variedad después del tutorial y ritmo de progresión.",
-      "Mi consejo es probar antes de gastar: entender monedas, probabilidades y límites diarios. Un monstruo adorable puede ser compañero; no debería convertirse en cobrador."
+      "Aniimo se lanzó globalmente este 16 de septiembre en Windows, Steam, Epic Games Store, PlayStation 5, Xbox Series y Xbox Cloud Gaming. Pawprint Interactive lo ofrece como free-to-play y deja la versión para iOS y Android para el 23 de septiembre.",
+      "La propuesta mezcla exploración de mundo abierto, colección de criaturas y combate en tiempo real. Su mecánica más llamativa es Twining: el personaje puede vincularse con un Aniimo y adoptar sus capacidades para moverse, pelear o resolver situaciones desde otra perspectiva.",
+      "También hay juego cruzado entre plataformas y modos cooperativos y competitivos online. Eso puede evitar que cada comunidad termine encerrada en su propio corral, aunque el valor real dependerá de estabilidad, latencia y de qué progreso se comparte entre dispositivos.",
+      "No jugué todavía la versión final, así que esto no es una reseña. Los primeros controles que haría son bastante menos fotogénicos que el bestiario: rendimiento en zonas pobladas, claridad de interfaz, variedad real de actividades y ritmo de progresión después de las primeras horas.",
+      "El otro examen es comercial. La tienda oficial ofrece compras dentro del juego y promociones por vincular cuentas. Que sea gratuito baja la barrera de entrada, pero no nos dice cuánto cuesta jugar cómodamente ni qué tan insistente se vuelve la economía cuando termina la bienvenida.",
+      "Mi consejo es simple: probalo antes de gastar. Si el mundo y las criaturas te enganchan, esperá a entender monedas, probabilidades, pases y límites diarios. Un monstruo adorable puede ser compañero; no debería convertirse en cobrador."
     ],
     "features": [
       {
-        "title": "Twining quiere ser más que una montura",
+        "title": "Twining quiere ser algo más que montar a la criatura de turno",
         "eyebrow": "CAMBIAR DE CUERPO, CAMBIAR DE LÓGICA",
         "facts": "MUNDO ABIERTO · COMBATE · EXPLORACIÓN",
         "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/image%20%2816%29_kj225Ff3.png",
-        "alt": "Captura oficial del mundo abierto de Aniimo",
+        "alt": "Captura oficial de Aniimo que muestra el mundo abierto y una de sus criaturas",
         "body": [
-          "Si cada vínculo abre rutas distintas, la colección deja de ser inventario y pasa a ser lenguaje de juego.",
-          "Necesita desafíos diseñados alrededor de criaturas, no puertas que sólo pidan la llave correcta."
+          "La mejor idea de Aniimo no es sumar otra enciclopedia de bichos, sino permitir que sus habilidades modifiquen cómo atravesamos el escenario. Si cada vínculo abre rutas y decisiones distintas, la colección deja de ser inventario y pasa a ser lenguaje de juego.",
+          "La duda es cuánto tarda en aparecer esa profundidad. Un sistema así necesita desafíos diseñados alrededor de las criaturas, no puertas de colores que sólo piden tener la llave correcta."
         ]
       },
       {
         "title": "Free-to-play no significa costo cero",
         "eyebrow": "LA LETRA CHICA TAMBIÉN JUEGA",
-        "facts": "TIENDA · CUENTAS · MÓVIL 23/9",
+        "facts": "TIENDA · CUENTAS VINCULADAS · MÓVIL 23/9",
         "image": "https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/%E8%8B%B1%E8%AF%AD-1%E9%A2%84%E5%91%8A820x555_PolUjwwp.jpg",
-        "alt": "Imagen promocional oficial de Aniimo",
+        "alt": "Imagen promocional oficial de Aniimo utilizada en sus anuncios previos al lanzamiento",
         "body": [
-          "Conviene revisar qué se obtiene jugando y cómo comunica probabilidades.",
-          "Contanos qué apareció cuando se apagó el brillo del tutorial: ahí empieza la historia honesta."
+          "Antes de comprar moneda premium conviene revisar qué se obtiene jugando, si existen límites de energía y cómo se comunican las probabilidades. La versión móvil puede ampliar muchísimo la comunidad, pero también intensificar el diseño alrededor de sesiones cortas y recompensas diarias.",
+          "Si ya entraste a Idyll, contanos qué te sorprendió cuando se apagó el brillo del tutorial: ahí suele empezar la historia más honesta de cualquier juego como servicio."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Aniimo — anuncio e imágenes oficiales",
-        "url": "https://aniimo.com/main"
-      },
-      {
-        "name": "Aniimo — horario global",
-        "url": "https://aniimo.com/newslist/detail/100089"
-      },
-      {
-        "name": "Steam — ficha oficial",
-        "url": "https://store.steampowered.com/app/4126040/Aniimo/"
-      }
+      { "name": "Aniimo — anuncio oficial de lanzamiento e imágenes", "url": "https://aniimo.com/main" },
+      { "name": "Aniimo — descarga previa y horario global", "url": "https://aniimo.com/newslist/detail/100089" },
+      { "name": "Steam — ficha oficial, modos y requisitos", "url": "https://store.steampowered.com/app/4126040/Aniimo/" },
+      { "name": "PC Gamer — horarios y tamaño de descarga", "url": "https://www.pcgamer.com/games/rpg/aniimo-release-date-launch-times/" }
     ]
   },
   {
@@ -67,55 +319,48 @@ export const dailyArticles = [
     "minutes": 8,
     "title": "Roman Sands RE:Build sale hoy y convierte un resort en el peor trabajo antes del apocalipsis",
     "dek": "Arbitrary Metric y Serenity Forge estrenan una aventura surrealista que cruza simulación laboral, terror, rompecabezas y dos realidades rotas.",
-    "personalAngle": "Hay juegos que venden poder y otros que te entregan tareas mientras el sol está por tragarse el planeta. Roman Sands me interesa por esa incomodidad: convierte atender huéspedes imposibles en una broma oscura sobre trabajar hasta el fin del mundo.",
+    "personalAngle": "Hay juegos que venden poder y otros que te entregan una lista de tareas mientras el sol está por tragarse el planeta. Roman Sands me interesa por esa incomodidad: convierte la rutina de atender huéspedes imposibles en una broma oscura sobre trabajar hasta el fin del mundo.",
     "leadEyebrow": "CHECK-IN PARA EL FIN DEL MUNDO",
-    "leadTitle": "La rareza importa si todos sus géneros empujan la misma pesadilla",
+    "leadTitle": "La rareza no está en mezclar géneros, sino en lograr que todos empujen la misma pesadilla",
     "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/header.jpg?t=1789482651",
-    "imageAlt": "Arte oficial de Roman Sands RE:Build publicado en Steam",
+    "imageAlt": "Arte oficial de Roman Sands RE:Build publicado en Steam para su lanzamiento",
     "body": [
-      "Roman Sands RE:Build se estrena este 16 de septiembre en PC, PlayStation, Xbox y Switch. Lo desarrolla Arbitrary Metric y publica Serenity Forge con Beep Japan.",
-      "En un resort tropical, huéspedes exigen servicio mientras el sol se acerca a destruir el mundo. Hay que cumplir pedidos, mejorar rango y buscar salida.",
-      "La segunda realidad lleva a una estación zoológica en decadencia, con una voz por radio y un parásito invasor.",
-      "La ficha cruza aventura, novela visual, puzles, supervivencia y terror. El desafío es que las transiciones tengan sentido y no parezcan cinco juegos incompletos.",
-      "No probé la versión final. La demo de PC permite medir ritmo y tolerancia al surrealismo antes de comprar."
+      "Roman Sands RE:Build se estrena este 16 de septiembre en PC, PlayStation 4 y 5, Xbox One y Series, y Nintendo Switch. Lo desarrolla Arbitrary Metric, el estudio de Paratopic, y lo publica Serenity Forge junto con Beep Japan.",
+      "La primera realidad es un resort tropical poblado por huéspedes que exigen servicio mientras el sol se acerca a destruir el mundo. Hay que cumplir pedidos, mejorar el rango laboral, conseguir herramientas y buscar una salida bajo una capa de colores veraniegos que no logra esconder el desastre.",
+      "La segunda nos lleva a una estación zoológica en decadencia. Quedan una vaca muerta, una voz por radio y un parásito que invade la instalación. El cambio no parece un simple capítulo nuevo: altera tono, reglas y hasta el género que creemos estar jugando.",
+      "La ficha oficial habla de aventura, novela visual, puzles, supervivencia, simulación y terror atmosférico. Esa lista puede sonar a buffet de mecánicas. El desafío será que las transiciones produzcan sentido y no la sensación de haber abierto cinco juegos incompletos a la vez.",
+      "No probé la versión final. Sí me parece sano que exista una demo en PC para medir ritmo, controles y tolerancia al surrealismo antes de comprar. También celebra que el juego incluya textos en español latinoamericano desde el lanzamiento.",
+      "En un calendario lleno de nombres enormes, esta es la clase de estreno que puede pasar silenciosamente y quedarse pegado en la cabeza. Si funciona, será porque debajo de la rareza hay una idea precisa: seguir cumpliendo tareas cuando todo indica que el sistema —y el mundo— ya terminó."
     ],
     "features": [
       {
-        "title": "El resort usa la sonrisa de servicio como máscara",
-        "eyebrow": "CLIENTES Y UN SOL TERMINAL",
+        "title": "El resort usa la sonrisa del servicio como máscara de terror",
+        "eyebrow": "CLIENTES, RANGO Y UN SOL TERMINAL",
         "facts": "SIMULACIÓN · PUZLES · CUENTA REGRESIVA",
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/extras/bb803d1e355a9730dc882a4d5235c933.avif?t=1789482651",
-        "alt": "Escena oficial del resort de Roman Sands",
+        "alt": "Escena oficial del resort tropical de Roman Sands RE:Build publicada en Steam",
         "body": [
-          "El cliente siempre tiene razón, incluso cuando el cielo se cae.",
-          "Hay una línea fina entre convertir tedio en tema y pedir que lo soportemos."
+          "El chiste funciona porque conocemos esa lógica: el cliente siempre tiene razón, incluso cuando el cielo se cae. Subir de rango para obtener herramientas puede transformar la obediencia laboral en el mecanismo que permite escapar.",
+          "Quiero ver si las tareas evolucionan o si la repetición es parte consciente del comentario. Hay una línea finita entre convertir el tedio en tema y pedirle al jugador que lo soporte."
         ]
       },
       {
-        "title": "La instalación deja sólo la voz por radio",
+        "title": "La instalación abandona el sol y deja sólo la voz por radio",
         "eyebrow": "OTRA REALIDAD, OTRO MIEDO",
         "facts": "SUPERVIVENCIA · PARÁSITO · INVESTIGACIÓN",
         "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/extras/f3c09ce7a374bdcb7c769ed451318590.avif?t=1789482651",
-        "alt": "Escena oficial de la instalación de Roman Sands",
+        "alt": "Escena oficial de la instalación de investigación de Roman Sands RE:Build",
         "body": [
-          "El aislamiento reemplaza las demandas constantes.",
-          "La pregunta no es si es raro, sino si su rareza dice algo."
+          "Pasar de huéspedes absurdos a una estación casi vacía cambia el tipo de presión. Ya no hay demandas constantes: hay aislamiento, mantenimiento y una decisión sobre cuánto preservar cuando sobrevivir también tiene costo.",
+          "Si vas a comprarlo hoy, la demo es el filtro más honesto. Si ya la jugaste, la conversación interesante no es si el juego es raro, sino si su rareza te dijo algo."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Steam — ficha, imágenes y fecha",
-        "url": "https://store.steampowered.com/app/2231460/Roman_Sands_REBuild/"
-      },
-      {
-        "name": "PlayStation Store — ficha oficial",
-        "url": "https://store.playstation.com/concept/10007379"
-      },
-      {
-        "name": "Serenity Forge — publisher",
-        "url": "https://serenityforge.com/"
-      }
+      { "name": "Steam — ficha oficial, imágenes y fecha", "url": "https://store.steampowered.com/app/2231460/Roman_Sands_REBuild/" },
+      { "name": "PlayStation Store — ficha oficial", "url": "https://store.playstation.com/concept/10007379" },
+      { "name": "Serenity Forge — sitio del publisher", "url": "https://serenityforge.com/" },
+      { "name": "Game Informer — calendario de lanzamientos 2026", "url": "https://gameinformer.com/2026" }
     ]
   },
   {
@@ -125,56 +370,49 @@ export const dailyArticles = [
     "dateIso": "2026-09-16T09:15:00-03:00",
     "minutes": 9,
     "title": "La Fed llega a una decisión incómoda: subir hoy para intentar abaratar mañana",
-    "dek": "El mercado espera un aumento de 25 puntos básicos, el primero en tres años. Kevin Warsh enfrenta inflación de 3,7%, petróleo caro y presión política.",
-    "personalAngle": "Una suba suele resumirse como dinero más caro. Esta reunión tiene una paradoja mejor: endurecer ahora podría bajar rendimientos largos si devuelve credibilidad; quedarse quieto podría encarecer hipotecas si el mercado interpreta que la Fed perdió el timón.",
+    "dek": "El mercado espera un aumento de 25 puntos básicos, el primero en tres años. Kevin Warsh enfrenta inflación de 3,7%, petróleo caro y presión política para hacer lo contrario.",
+    "personalAngle": "Una suba de tasas suele resumirse como ‘dinero más caro’. Esta reunión tiene una paradoja mejor: endurecer ahora podría bajar los rendimientos largos si devuelve credibilidad; quedarse quieto podría encarecer hipotecas y deuda si el mercado interpreta que la Fed perdió el timón.",
     "leadEyebrow": "UNA DECISIÓN CON DOS PRECIOS DEL DINERO",
-    "leadTitle": "Warsh intenta convencer al mercado de que la inflación tiene techo",
+    "leadTitle": "Warsh no sólo decide la tasa corta: también intenta convencer al mercado de que la inflación tiene techo",
     "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Edificio institucional de Washington en el contexto de la decisión de la Fed",
+    "imageAlt": "Edificio institucional de Washington utilizado como contexto de la decisión de la Reserva Federal",
     "body": [
-      "La Reserva Federal anuncia hoy su decisión. Se espera una suba de 25 puntos básicos, la primera en tres años, que llevaría la tasa cerca de 3,9%.",
-      "Warsh lleva cuatro meses al frente: los inversores piden dureza mientras Trump presiona para recortar o mantener.",
-      "La inflación preferida por la Fed llegó a 3,7% y la subyacente a 3,3%. Petróleo y aranceles complican el panorama.",
-      "El Treasury a diez años cruzó 5%, referencia para hipotecas y crédito largo.",
-      "Esto es información general, no asesoramiento. Miraría comunicado, proyecciones y conferencia: una frase sobre 2027 puede pesar más que los 25 puntos de hoy."
+      "La Reserva Federal anuncia este miércoles su decisión de política monetaria. Economistas y mercados esperan una suba de 25 puntos básicos que llevaría la tasa de referencia cerca de 3,9% y sería el primer aumento en tres años.",
+      "Kevin Warsh lleva apenas cuatro meses como presidente de la Fed. Su dilema es público: los inversores descuentan una respuesta más dura frente a la inflación, mientras Donald Trump presiona para recortar o mantener las tasas.",
+      "La inflación preferida por la Fed llegó a 3,7% interanual en julio, y la subyacente fue 3,3%. El petróleo por encima de los 100 dólares y el impacto acumulado de aranceles complican la idea de que el problema se resolverá solo.",
+      "El rendimiento del Treasury a diez años cruzó 5% esta semana. Eso importa porque las hipotecas y buena parte del crédito de largo plazo siguen esa referencia más que la tasa diaria de la Fed. La reunión intenta influir sobre ambas curvas al mismo tiempo.",
+      "Para un ahorrista argentino, la transmisión llega por dólar, commodities, bonos y apetito global por riesgo. Una tasa estadounidense más alta puede sacar capital de mercados emergentes; una Fed sin credibilidad también puede hacerlo por otra vía.",
+      "Esto es información general, no asesoramiento financiero personalizado. No ajustaría una cartera por el número aislado: miraría el comunicado, las proyecciones y la conferencia. En jornadas así, una frase sobre 2027 puede pesar más que los 25 puntos de hoy."
     ],
     "features": [
       {
-        "title": "Subir la corta para intentar bajar la larga",
+        "title": "La paradoja: endurecer la tasa corta para aflojar la larga",
         "eyebrow": "CREDIBILIDAD CONTRA INFLACIÓN",
-        "facts": "3,7% · 5% TREASURY · 25 PB",
+        "facts": "3,7% INFLACIÓN · 5% TREASURY · 25 PB",
         "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Dólares y gráficos como contexto de tasas",
+        "alt": "Billetes de dólar junto a gráficos como contexto visual de tasas e inflación",
         "body": [
-          "Sin credibilidad, el mercado exige más para prestar a largo plazo.",
-          "La Fed enfría demanda; no repara un oleoducto."
+          "Si el mercado cree que la Fed tolerará inflación persistente, exige una prima mayor para prestar a diez o treinta años. Una suba creíble puede ser contractiva hoy y, a la vez, reducir esa prima en el futuro.",
+          "No hay garantía. El petróleo responde a geopolítica y la deuda pública a decisiones fiscales que la Fed no controla. La política monetaria puede enfriar demanda; no repara un oleoducto."
         ]
       },
       {
-        "title": "La presión política vuelve clave la explicación",
+        "title": "La presión de la Casa Blanca vuelve más importante la explicación",
         "eyebrow": "INDEPENDENCIA BAJO LOS REFLECTORES",
-        "facts": "WARSH · TRUMP · META 2%",
+        "facts": "WARSH · TRUMP · META DEL 2%",
         "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Capitolio estadounidense",
+        "alt": "Capitolio de Estados Unidos como contexto del debate político alrededor de la Fed",
         "body": [
-          "La decisión debe sostenerse en mandato y datos.",
-          "Miraría votos disidentes, inflación proyectada y pistas sobre octubre."
+          "La independencia no significa ausencia de política; significa que la decisión debe sostenerse en el mandato y los datos. Cuanto mayor es la presión presidencial, más detalle necesita el argumento técnico para evitar lecturas partidarias.",
+          "Para hoy miraría tres cosas: votos disidentes, proyección de inflación y cualquier pista sobre octubre. El titular dura minutos; el mapa de tasas futuras mueve meses."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Federal Reserve — FOMC",
-        "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
-      },
-      {
-        "name": "AP — Warsh y tasas",
-        "url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1"
-      },
-      {
-        "name": "Unsplash — imágenes",
-        "url": "https://unsplash.com/"
-      }
+      { "name": "Federal Reserve — calendario y comunicados del FOMC", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" },
+      { "name": "AP — Warsh y la decisión esperada de tasas", "url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1" },
+      { "name": "Reuters — mercados globales antes de la Fed", "url": "https://www.reuters.com/markets/global-markets-wrapup-1-2026-09-16/" },
+      { "name": "Unsplash — imágenes contextuales con licencia", "url": "https://unsplash.com/" }
     ]
   },
   {
@@ -184,56 +422,49 @@ export const dailyArticles = [
     "dateIso": "2026-09-16T09:05:00-03:00",
     "minutes": 9,
     "title": "El petróleo baja, pero el diésel no respira: inventarios llenos frente a rutas rotas",
-    "dek": "El Brent retrocede desde USD 108 tras una suba inesperada de 7,1 millones de barriles en Estados Unidos. La oferta saudita busca desvíos por Omán.",
+    "dek": "El Brent retrocede desde USD 108 tras una suba inesperada de 7,1 millones de barriles en Estados Unidos. La oferta saudita busca desvíos por Omán y el diésel europeo sigue cerca de récords.",
     "personalAngle": "Este mercado parece una pantalla con dos alertas contradictorias: Estados Unidos tiene más crudo del esperado, pero mover barriles desde Medio Oriente se volvió mucho más difícil. El precio baja hoy; la logística todavía no solucionó nada.",
     "leadEyebrow": "MÁS STOCK NO EQUIVALE A MÁS TRANQUILIDAD",
-    "leadTitle": "Los barriles existen; importa por qué ruta, a qué costo y en qué producto llegan",
+    "leadTitle": "Los barriles existen; el problema es por qué ruta, a qué costo y en qué producto llegan",
     "image": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Bomba petrolera en operación",
+    "imageAlt": "Bomba petrolera en operación como contexto de la variación del precio del crudo",
     "body": [
-      "Brent y WTI cedían este miércoles después de dos ruedas de avance por problemas sauditas.",
-      "El API informó, según Reuters, que inventarios de crudo de EE.UU. subieron 7,1 millones de barriles; se esperaba una baja de 1,6 millones.",
-      "Arabia Saudita ofrece cargamentos vía transferencias frente a Sohar, Omán, tras daños al oleoducto Este-Oeste e interrupciones en Yanbu.",
-      "Por Ormuz pasaron apenas cuatro buques el martes, contra un promedio reciente de 18.",
-      "Esto no es una recomendación. Para Argentina importa por combustibles, fletes, inflación y divisas."
+      "El Brent cedía alrededor de medio punto porcentual este miércoles y cotizaba cerca de 108 dólares por barril, mientras el WTI perdía más de 1%. La baja llegó después de dos ruedas de fuerte avance por problemas en la infraestructura exportadora saudita.",
+      "El American Petroleum Institute informó, según fuentes citadas por Reuters, que los inventarios de crudo de Estados Unidos aumentaron 7,1 millones de barriles en la semana terminada el 11 de septiembre. El consenso esperaba una reducción cercana a 1,6 millones.",
+      "La presión bajista convive con un mapa físico muy tenso. Arabia Saudita ofrece cargamentos adicionales a refinerías asiáticas mediante transferencias barco a barco frente a Sohar, Omán, después de los daños sufridos por su oleoducto Este-Oeste y las interrupciones en Yanbu.",
+      "El tránsito visible por el estrecho de Ormuz fue de apenas cuatro buques el martes, muy por debajo del promedio reciente de 18. Antes de la guerra entre Estados Unidos, Israel e Irán, esa vía manejaba cerca de una quinta parte del petróleo y gas natural licuado mundial.",
+      "El crudo no cuenta toda la historia. El gasoil europeo rondó niveles récord porque se redujeron suministros de diésel y combustible de aviación desde Medio Oriente, mientras ataques y restricciones también afectan refinerías rusas.",
+      "Esto no es una recomendación de inversión. Un dato semanal puede mover futuros sin resolver la escasez estructural de productos. Para Argentina importa por combustibles, fletes, inflación y divisas: el barril internacional puede retroceder y aun así dejar una factura local más pesada."
     ],
     "features": [
       {
-        "title": "El desvío por Omán compra tiempo",
+        "title": "El desvío por Omán compra tiempo, no repara la red",
         "eyebrow": "LOGÍSTICA DE EMERGENCIA",
-        "facts": "SOHAR · TRANSFERENCIAS · YANBU",
+        "facts": "SOHAR · TRANSFERENCIAS STS · YANBU",
         "image": "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Buque de carga en puerto",
+        "alt": "Buque de carga en puerto como contexto visual de los desvíos petroleros por Omán",
         "body": [
-          "Transferir crudo entre barcos mantiene cargamentos, pero agrega costo y riesgo.",
-          "Una solución parcial puede bajar el miedo sin normalizar capacidad."
+          "Transferir crudo entre buques permite mantener cargamentos, pero agrega coordinación, seguros y exposición operacional. Es una válvula temporal para una red que perdió rutas redundantes.",
+          "El mercado reaccionará tanto a la cantidad exportada como al tiempo de reparación. Una solución parcial puede bajar el miedo sin devolver la capacidad normal."
         ]
       },
       {
-        "title": "El diésel muestra lo que el crudo oculta",
+        "title": "El diésel revela la parte que el precio del crudo oculta",
         "eyebrow": "NO TODOS LOS BARRILES SON IGUALES",
         "facts": "REFINACIÓN · GASOIL · FLETES",
         "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Instalación industrial de refinación",
+        "alt": "Instalación industrial de refinación utilizada como contexto para la escasez de diésel",
         "body": [
-          "La economía consume combustibles refinados, no crudo.",
-          "Miraría márgenes de refinación además del Brent."
+          "Una economía no consume crudo: consume nafta, diésel, jet fuel y petroquímicos. Si faltan capacidad de refinación o rutas para productos, un inventario alto de materia prima no evita la tensión en surtidores y transporte.",
+          "Por eso miraría márgenes de refinación y precios mayoristas además del Brent. La pantalla principal puede ponerse roja mientras la parte más cotidiana del sistema sigue recalentada."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Reuters — petróleo y desvíos",
-        "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/"
-      },
-      {
-        "name": "EIA — inventarios",
-        "url": "https://www.eia.gov/petroleum/supply/weekly/"
-      },
-      {
-        "name": "Unsplash — imágenes",
-        "url": "https://unsplash.com/"
-      }
+      { "name": "Reuters — petróleo, inventarios y desvíos sauditas", "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/" },
+      { "name": "MarketScreener — reproducción del cable Reuters y precios", "url": "https://www.marketscreener.com/news/oil-falls-as-us-crude-inventories-rise-despite-saudi-supply-concerns-ce785bd2d980f225" },
+      { "name": "U.S. EIA — datos oficiales de inventarios petroleros", "url": "https://www.eia.gov/petroleum/supply/weekly/" },
+      { "name": "Unsplash — imágenes contextuales con licencia", "url": "https://unsplash.com/" }
     ]
   },
   {
@@ -243,60 +474,50 @@ export const dailyArticles = [
     "dateIso": "2026-09-16T08:55:00-03:00",
     "minutes": 9,
     "title": "SK Hynix e Intel exploran fabricar memoria en Ohio: la fiebre de IA busca otra fábrica",
-    "dek": "Las conversaciones preliminares contemplan alquilar parte del complejo de Intel o formar una sociedad con grandes nubes. Corea del Sur podría revisar HBM o DRAM avanzada.",
-    "personalAngle": "La IA cambió el cuello de botella: la memoria capaz de alimentar aceleradores vale casi tanto como el cerebro. Una fábrica compartida sería negocio, política industrial y soberanía tecnológica en el mismo wafer.",
+    "dek": "Las conversaciones preliminares contemplan alquilar parte del complejo de Intel o formar una sociedad con grandes nubes. Corea del Sur podría revisar cualquier transferencia de HBM o DRAM avanzada.",
+    "personalAngle": "Durante años, la conversación sobre chips giró alrededor de quién hacía el mejor procesador. La IA cambió el cuello de botella: ahora la memoria capaz de alimentar esos aceleradores vale casi tanto como el cerebro. Por eso una fábrica compartida en Ohio sería negocio, política industrial y soberanía tecnológica en el mismo wafer.",
     "leadEyebrow": "MEMORIA PARA UNA IA QUE NO DEJA DE PEDIR",
-    "leadTitle": "Intel aporta espacio; SK Hynix conserva la tecnología que todos quieren",
+    "leadTitle": "Intel aporta espacio y Estados Unidos aporta presión; SK Hynix conserva la tecnología que todos quieren",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Circuitos electrónicos en contexto de las conversaciones entre SK Hynix e Intel",
+    "imageAlt": "Circuitos electrónicos utilizados como contexto visual de las conversaciones entre SK Hynix e Intel",
     "body": [
-      "SK Hynix conversa preliminarmente con Intel para producir memoria en Estados Unidos por primera vez, según Reuters. No hay acuerdo confirmado.",
-      "Una opción es alquilar parte del complejo de Ohio; otra, una sociedad con grandes nubes que buscan asegurar memoria para IA.",
-      "Para Intel sería capacidad ocupada; para Washington, traer una pieza crítica de la cadena de IA.",
-      "SK Hynix lidera HBM y fabrica DRAM y NAND. Reuters no estableció qué familia entraría.",
-      "No lo leería como fábrica confirmada, sino como señal de que escasez y geopolítica obligan a imaginar alianzas nuevas."
+      "SK Hynix mantiene conversaciones preliminares con Intel para producir chips de memoria en Estados Unidos por primera vez, según tres fuentes citadas por Reuters. Ninguna de las empresas confirmó un acuerdo ni decidió todavía qué tecnología se fabricaría.",
+      "Un escenario contempla que la compañía surcoreana alquile parte del complejo que Intel desarrolla en Ohio. Otro suma una empresa conjunta con grandes proveedores de nube interesados en asegurar memoria para centros de datos y sistemas de inteligencia artificial.",
+      "Para Intel, conseguir un socio ayudaría a ocupar capacidad y aliviar la presión financiera de un proyecto enorme. Para Washington, significaría trasladar a suelo estadounidense una parte crítica de la cadena de IA que hoy depende en gran medida de Asia.",
+      "SK Hynix fabrica DRAM para servidores, PC y teléfonos, NAND para almacenamiento y lidera el mercado de memoria HBM utilizada junto a aceleradores de IA. Reuters no pudo establecer cuál de esas familias entraría en el eventual acuerdo.",
+      "Ese detalle define la dificultad política. Corea del Sur considera HBM y DRAM avanzada tecnologías sensibles; cualquier transferencia catalogada como tecnología nacional esencial puede quedar bajo revisión de su legislación industrial.",
+      "Yo no leería estas charlas como una fábrica confirmada. Son una señal de que la escasez de memoria y la carrera geopolítica están obligando a rivales históricos a imaginar estructuras nuevas. La pregunta no es sólo quién fabrica el chip, sino quién controla el proceso cuando la demanda se vuelve estratégica."
     ],
     "features": [
       {
-        "title": "HBM evita que la GPU baje por cada dato",
+        "title": "HBM es el ascensor que evita que la GPU baje por cada dato",
         "eyebrow": "EL CUELLO DE BOTELLA DE LA IA",
         "facts": "ANCHO DE BANDA · APILADO · ACELERADORES",
         "image": "https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Procesador sobre placa electrónica",
+        "alt": "Procesador sobre una placa electrónica como contexto de memoria de alto ancho de banda",
         "body": [
-          "HBM apila memoria cerca del acelerador.",
-          "Más GPU sirve poco si la memoria llega tarde."
+          "Los modelos grandes necesitan mover enormes volúmenes de datos entre memoria y cómputo. HBM apila memoria cerca del acelerador para entregar ancho de banda mucho mayor que soluciones convencionales.",
+          "Ese rendimiento explica por qué asegurar suministro se volvió una prioridad para las nubes. Comprar más GPU sirve de poco si la memoria necesaria llega tarde."
         ]
       },
       {
-        "title": "Una fábrica también es frontera política",
-        "eyebrow": "OHIO, SEÚL Y EL PROCESO",
-        "facts": "ARRENDAMIENTO · SOCIEDAD · REVISIÓN",
+        "title": "Una fábrica también es una frontera política",
+        "eyebrow": "OHIO, SEÚL Y LA PROPIEDAD DEL PROCESO",
+        "facts": "ARRENDAMIENTO · JOINT VENTURE · REVISIÓN",
         "image": "https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&w=1600&q=85",
-        "alt": "Equipamiento industrial de precisión",
+        "alt": "Equipamiento industrial de alta precisión como contexto de una planta de semiconductores",
         "body": [
-          "Espacio no equivale a entregar secretos industriales.",
-          "Faltan producto y calendario: es negociación, no línea activa."
+          "Alquilar espacio no es lo mismo que entregar secretos de fabricación. El acuerdo tendría que separar infraestructura, equipos, personal y propiedad intelectual con una precisión casi tan exigente como la litografía.",
+          "También faltan nube, producto y calendario. Hasta que esas piezas aparezcan, conviene llamarlo por su nombre: una negociación estratégica con potencial enorme, no una línea de producción en marcha."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Reuters — SK Hynix e Intel",
-        "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/"
-      },
-      {
-        "name": "SK Hynix Newsroom",
-        "url": "https://news.skhynix.com/"
-      },
-      {
-        "name": "Intel Ohio",
-        "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/ohio.html"
-      },
-      {
-        "name": "Unsplash — imágenes",
-        "url": "https://unsplash.com/"
-      }
+      { "name": "Reuters — conversaciones entre SK Hynix e Intel", "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/" },
+      { "name": "SK Hynix Newsroom — tecnología y producción de memoria", "url": "https://news.skhynix.com/" },
+      { "name": "Intel — proyecto de fabricación en Ohio", "url": "https://www.intel.com/content/www/us/en/corporate/usa-chipmaking/ohio.html" },
+      { "name": "Aju Press — respuesta de SK Hynix y contexto surcoreano", "url": "https://m.ajupress.com/view/20260916163708021" },
+      { "name": "Unsplash — imágenes contextuales con licencia", "url": "https://unsplash.com/" }
     ]
   },
   // FIN NOTICIAS 16 SEP 2026
@@ -4337,3 +4558,4 @@ export const dailyArticles = [
     ]
   }
 ];
+

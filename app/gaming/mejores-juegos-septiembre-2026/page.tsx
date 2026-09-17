@@ -1,4 +1,4 @@
-<img src={item.image} alt={item.alt} width="1600" height="900" loading="lazy" decoding="async"/>import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Comments from "../../components/Comments";
 import NexoPromo from "../../components/NexoPromo";
 import ArticleSeo from "../../components/ArticleSeo";

@@ -1,4 +1,334 @@
 export const dailyArticles = [
+  // INICIO NOTICIAS 18 SEP 2026
+  {
+    "slug": "gaming/raji-kaliyuga-gameplay-tercera-persona-tgs-2026",
+    "category": "GAMING",
+    "date": "18 SEP 2026",
+    "dateIso": "2026-09-18T09:30:00-03:00",
+    "minutes": 9,
+    "title": "Raji: Kaliyuga abandona la vista isométrica: su salto al combate 3D ya tiene algo que demostrar",
+    "dek": "Nodding Heads mostró un recorrido jugable más amplio de la secuela durante Xbox Tokyo Game Show: dos protagonistas, exploración en tercera persona y un conflicto mitológico seis años después del original.",
+    "personalAngle": "Raji: An Ancient Epic tenía una identidad visual tan marcada que cambiar la cámara me genera entusiasmo y un poquito de miedo. La tercera persona puede darle más peso al combate, pero también puede convertir algo singular en otro action RPG correcto. Este nuevo vistazo, por suerte, conserva bastante del color y la mitología que hicieron reconocible al primero.",
+    "leadEyebrow": "LA CÁMARA CAMBIA, LA IDENTIDAD NO DEBERÍA",
+    "leadTitle": "Más cerca de los golpes y de los dioses, pero también más cerca de comparaciones inevitables",
+    "image": "https://images.gamewatcherstatic.com/image/file/4/6d/133284/Raji_Kaliyuga_screen1.jpg",
+    "imageAlt": "Raji y Darsh combaten criaturas demoníacas en una escena oficial de Raji: Kaliyuga",
+    "body": [
+      "Raji: Kaliyuga recibió un nuevo recorrido con comentarios de sus desarrolladores durante la transmisión de Xbox en Tokyo Game Show 2026. La secuela transcurre seis años después de Raji: An Ancient Epic y vuelve a enfrentar a la protagonista con Mahabalasura, ahora acompañada por su hermano Darsh.",
+      "El cambio más evidente está en la perspectiva. La cámara isométrica del primer juego deja paso a una aventura de acción en tercera persona, con escenarios más verticales, combate cercano y una escala que busca representar un conflicto entre mortales, dioses y asuras.",
+      "El sistema alternará entre Raji, guerrera ligada a la fe y al combate físico, y Darsh, un caminante de sueños con habilidades diferentes. No parece un cambio cosmético: si el estudio consigue que cada personaje resuelva obstáculos y peleas de otra manera, el dúo puede darle ritmo a una campaña que necesita algo más que enemigos grandes.",
+      "No jugué esta versión y el video todavía no permite juzgar respuesta de controles, rendimiento ni diseño de niveles. La mudanza a Unreal Engine 5 promete detalle, pero la tecnología sola no preserva una personalidad artística. Ahí está, para mí, la batalla más importante del proyecto.",
+      "El primer Raji podía ser irregular, aunque jamás parecía genérico. Sus referencias a mitología, arquitectura y pintura del subcontinente indio lo separaban de buena parte del catálogo. Quiero que Kaliyuga use la nueva cámara para acercarnos a ese universo, no para limar sus bordes hasta parecerse a cualquier aventura occidental.",
+      "Todavía no hay una fecha concreta. Se confirmó para Xbox Series X|S y PC, con Xbox Play Anywhere, y el material previo también lo ubica en otras plataformas actuales. Mi lista de seguimiento ya lo tiene marcado, pero el próximo examen será una demo que deje sentir el peso de cada golpe."
+    ],
+    "features": [
+      {
+        "title": "Dos protagonistas pueden ser una mecánica, no sólo una dupla",
+        "eyebrow": "RAJI Y DARSH CAMBIAN EL RITMO",
+        "facts": "2 PERSONAJES · TERCERA PERSONA · SEIS AÑOS DESPUÉS",
+        "image": "https://i.ytimg.com/vi/WHcPSPFkUPI/maxresdefault.jpg",
+        "alt": "Raji: Kaliyuga mostrado en el recorrido jugable de Xbox Tokyo Game Show 2026",
+        "body": [
+          "Raji representa fuerza, disciplina y armas divinas; Darsh abre la puerta a poderes ligados al sueño. La oportunidad está en diseñar situaciones donde alternar cambie nuestra lectura del espacio y no sea apenas cambiar una barra de habilidades.",
+          "Cuando una secuela suma un segundo héroe, el riesgo es repartir la campaña en dos mitades desiguales. Prefiero que se crucen, se necesiten y obliguen a reaprender sin borrar lo dominado."
+        ]
+      },
+      {
+        "title": "El salto técnico importa menos que conservar una voz propia",
+        "eyebrow": "UNREAL ENGINE 5 NO ES UNA DIRECCIÓN ARTÍSTICA",
+        "facts": "MITOLOGÍA INDIA · ACCIÓN 3D · SIN FECHA",
+        "image": "https://i.ytimg.com/vi/WHcPSPFkUPI/2.jpg",
+        "alt": "Escena de combate del video de jugabilidad de Raji: Kaliyuga",
+        "body": [
+          "La iluminación, las ruinas y las criaturas se ven más densas, pero la verdadera continuidad está en los motivos religiosos, los colores y la forma de narrar sus mitos. Eso fue el corazón del original.",
+          "Mi entusiasmo depende de que Nodding Heads use la cámara cercana para mostrar mejor ese mundo y no para perseguir una plantilla de moda. La ambición suma; la personalidad decide."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "GameWatcher — capturas y contexto de Raji: Kaliyuga",
+        "url": "https://www.gamewatcher.com/news/raji-kaliyuga-release-date-gameplay-platforms-and-more"
+      },
+      {
+        "name": "Nodding Heads Games — sitio oficial y premisa de la secuela",
+        "url": "https://www.noddingheadsgames.com/"
+      },
+      {
+        "name": "GameTrailers — recorrido de jugabilidad presentado en Xbox TGS 2026",
+        "url": "https://www.youtube.com/watch?v=WHcPSPFkUPI"
+      },
+      {
+        "name": "Xbox Wire — resumen oficial de Tokyo Game Show 2026",
+        "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      }
+    ]
+  },
+  {
+    "slug": "gaming/wo-long-2-fecha-demo-alpha-30-septiembre",
+    "category": "GAMING",
+    "date": "18 SEP 2026",
+    "dateIso": "2026-09-18T09:20:00-03:00",
+    "minutes": 9,
+    "title": "Wo Long 2 fija fecha y libera una demo: Team Ninja deja que el combate hable antes de pedir la compra",
+    "dek": "Wings of Ember llegará el 4 de marzo de 2027 y su Alpha gratuita estará disponible hasta el 30 de septiembre, salvo en Switch 2. El progreso no se transfiere, pero completar la prueba desbloquea un casco.",
+    "personalAngle": "Una demo con fecha de vencimiento es una mezcla rara de generosidad y reloj en cuenta regresiva. Aun así, prefiero mil veces probar un parry difícil ahora que escuchar seis meses de promesas sobre lo preciso que será. Team Ninja pone el sistema central sobre la mesa y eso merece más atención que cualquier bono de reserva.",
+    "leadEyebrow": "ANTES DEL TRÁILER, EL CONTROL",
+    "leadTitle": "La mejor noticia no es marzo de 2027: es poder comprobar hoy si el nuevo parry se siente bien",
+    "image": "https://teamninja-studio.com/wolong2/assets/img/top_vs.jpg",
+    "imageAlt": "Arte principal oficial de Wo Long 2: Wings of Ember con el protagonista y el fénix",
+    "body": [
+      "Team Ninja confirmó que Wo Long 2: Wings of Ember se lanzará el 4 de marzo de 2027. Llegará a Xbox Series X|S, Xbox en PC, Game Pass, PlayStation 5, Nintendo Switch 2 y Steam, con versiones físicas y digitales según la plataforma.",
+      "La Alpha pública ya está disponible en Xbox, PC y PlayStation 5 hasta el 30 de septiembre. Nintendo Switch 2 queda fuera de esta prueba. Completarla entrega el Fledgling Phoenix Helmet para el juego final, aunque el progreso de la demo no se trasladará.",
+      "La secuela amplía el sistema de desvíos con movimientos aéreos y habilidades Insight que permiten usar posiciones enemigas y terreno. También promete 18 categorías de armas, hechizos vinculados a las Cinco Fases y manifestaciones de bestias divinas.",
+      "El mundo se abre más que en Fallen Dynasty. Las batallas de Changban y los Acantilados Rojos funcionan como campos amplios donde conquistar bases, elevar moral, explorar rutas y sumar generales aliados. Que sea más grande no garantiza que sea mejor; la densidad de decisiones será la medida real.",
+      "No voy a puntuar una Alpha que no probé. Sí puedo decir que su existencia mejora la conversación: quienes entren podrán discutir latencia del parry, legibilidad y rendimiento con algo más firme que un montaje de dos minutos.",
+      "Si te interesa el género, yo probaría primero y reservaría después —o no reservaría—. La ventana termina rápido, pero marzo queda lejos. Un casco virtual no vale más que comprobar si el juego respeta tu tiempo y tus reflejos."
+    ],
+    "features": [
+      {
+        "title": "El parry ahora también despega del suelo",
+        "eyebrow": "DEFLECT, INSIGHT Y COMBATE AÉREO",
+        "facts": "18 ARMAS · 5 FASES · HABILIDADES INSIGHT",
+        "image": "https://teamninja-studio.com/wolong2/assets/img/system_action-kisei.jpg",
+        "alt": "Captura oficial de Wo Long 2 que muestra una habilidad de combate acrobática",
+        "body": [
+          "Insight Deflect puede lanzar enemigos y abrir un contraataque; Insight Jump permite esquivar golpes críticos y reposicionarse. La idea es sumar altura sin perder la lectura rítmica que definía al primer juego.",
+          "El peligro está en sobrecargar la pantalla de respuestas perfectas. Un buen sistema difícil hace visible el error; uno confuso sólo castiga sin enseñar."
+        ]
+      },
+      {
+        "title": "Los campos abiertos necesitan decisiones, no kilómetros",
+        "eyebrow": "BASES, MORAL Y RUTAS ALTERNATIVAS",
+        "facts": "CHANGBAN · ACANTILADOS ROJOS · COOPERATIVO",
+        "image": "https://teamninja-studio.com/wolong2/assets/img/system_seiatsu-modal.jpg",
+        "alt": "Escenario abierto oficial de Wo Long 2 con una base por conquistar",
+        "body": [
+          "Conquistar posiciones, buscar pistas y reclutar guerreros puede convertir el recorrido en estrategia. Si cada desvío sólo entrega materiales, la amplitud será una lista de mandados con demonios.",
+          "La demo es el lugar ideal para medirlo. Yo miraría cuánto cambia una pelea cuando llegamos con más moral o aliados, y si explorar revela posibilidades en vez de simples números."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Team Ninja — sitio oficial, arte y ficha de Wo Long 2",
+        "url": "https://teamninja-studio.com/wolong2/us/"
+      },
+      {
+        "name": "Team Ninja — sistemas, combate y campos abiertos",
+        "url": "https://teamninja-studio.com/wolong2/us/system/index.html"
+      },
+      {
+        "name": "Xbox Wire — fecha, jefe y Alpha presentados en Tokyo Game Show",
+        "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
+      },
+      {
+        "name": "Windows Central — plataformas, demo y ediciones",
+        "url": "https://www.windowscentral.com/gaming/wo-long-2-wings-of-embers-release-date-revealed-with-demo"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/sec-exencion-acciones-tokenizadas-cinco-anos",
+    "category": "FINANZAS + CRIPTO",
+    "date": "18 SEP 2026",
+    "dateIso": "2026-09-18T09:10:00-03:00",
+    "minutes": 9,
+    "title": "La SEC abre una ventana de cinco años para acciones tokenizadas: blockchain entra al mercado con derechos reales",
+    "dek": "La exención permitirá operar representaciones digitales de valores y alivia ciertas obligaciones para plataformas y proveedores de liquidez, pero excluye tokens sintéticos y reconoce la oposición del emisor.",
+    "personalAngle": "Hace años que la tokenización promete convertir cualquier activo en una ficha negociable las 24 horas. Esta vez la noticia no es otro piloto: el regulador estadounidense dibujó una puerta concreta. Me entusiasma la infraestructura, aunque celebro todavía más que haya separado una acción con derechos de una imitación que sólo sigue el precio.",
+    "leadEyebrow": "TOKENIZAR NO ES COPIAR UN TICKER",
+    "leadTitle": "La diferencia entre innovación y disfraz financiero empieza en quién posee qué",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Representación física de una red blockchain iluminada",
+    "body": [
+      "La Comisión de Bolsa y Valores de Estados Unidos presentó una exención de innovación con vigencia de cinco años para plataformas que faciliten negociación de acciones y otros valores tokenizados. También contempla alivio de registro para ciertos proveedores de liquidez.",
+      "La regla distingue una representación digital con derechos económicos y societarios de un token sintético que sólo replica el precio. Para entrar en el esquema, las acciones tokenizadas deberán conservar derechos equivalentes a los títulos tradicionales, incluidos dividendos y voto.",
+      "Las plataformas deberán avisar a la empresa antes de listar una versión tokenizada de sus acciones y no podrán avanzar si el emisor se opone. Ese detalle limita la lógica de ‘tokenizo primero, pregunto después’ que apareció en algunos productos ofrecidos fuera de Estados Unidos.",
+      "Coinbase, Robinhood y Kraken están entre las compañías interesadas en este mercado. La oportunidad es grande: liquidación más rápida, fracciones pequeñas, custodia digital y horarios extendidos. El costo oculto está en unir blockchain con registro societario, cumplimiento y resolución de errores.",
+      "Desde Argentina, el atractivo es evidente, pero no conviene confundir acceso técnico con protección jurídica. El inversor debe entender quién custodia el activo, qué jurisdicción aplica, cómo cobra dividendos y qué sucede si falla el intermediario.",
+      "Esto es información general, no asesoramiento financiero. Mi regla provisional sería sencilla: si el producto no puede explicar en una página quién es dueño de la acción y cómo ejerce sus derechos, la palabra tokenización está haciendo demasiado trabajo de marketing."
+    ],
+    "features": [
+      {
+        "title": "Cinco años de alivio no significan cinco años sin reglas",
+        "eyebrow": "UN PUENTE REGULATORIO, NO UNA ZONA LIBRE",
+        "facts": "5 AÑOS · AVISO AL EMISOR · SIN TOKENS SINTÉTICOS",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Pantallas bursátiles con gráficos y cotizaciones",
+        "body": [
+          "La exención reduce obstáculos de encuadre para mercados y proveedores de liquidez, pero mantiene condiciones de integridad y protección. El experimento tiene borde, plazo y supervisión.",
+          "Ese plazo también obliga a pensar qué ocurre después. Una plataforma seria debería diseñar desde hoy la migración a un régimen permanente, no depender de que la excepción se renueve."
+        ]
+      },
+      {
+        "title": "Una acción digital debe seguir siendo una acción",
+        "eyebrow": "DIVIDENDOS, VOTO Y OPOSICIÓN DEL EMISOR",
+        "facts": "DERECHOS REALES · AUTOCUSTODIA POSIBLE · 24/7",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Panel digital con métricas financieras y gráficos",
+        "body": [
+          "El avance más importante es conceptual: representar un título en blockchain no debería borrar los derechos que le dan valor. Sin dividendos ni voto, el inversor compra exposición, no necesariamente propiedad.",
+          "La negociación continua puede mejorar acceso y liquidez, pero también elimina pausas útiles. Un mercado abierto toda la noche no vuelve más razonable una decisión tomada a las tres de la mañana."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Unsplash — Shubham Dhage, imagen de blockchain",
+        "url": "https://unsplash.com/photos/1639762681485-074b7f938ba0"
+      },
+      {
+        "name": "Unsplash — Austin Distel, pantallas bursátiles",
+        "url": "https://unsplash.com/photos/1611974789855-9c2a0a7236a3"
+      },
+      {
+        "name": "Unsplash — Luke Chesser, panel financiero",
+        "url": "https://unsplash.com/photos/1551288049-bebda4e38f71"
+      },
+      {
+        "name": "Reuters — exención de cinco años y condiciones de la SEC",
+        "url": "https://www.reuters.com/world/us-securities-regulator-rolls-out-five-year-exemption-tokenized-stock-trading-2026-09-17/"
+      },
+      {
+        "name": "Financial Times — alcance del régimen para acciones tokenizadas",
+        "url": "https://www.ft.com/content/b528698e-9b04-4497-9d22-67e401be21d3"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/banco-japon-sube-tasa-yen-cae-125",
+    "category": "FINANZAS + CRIPTO",
+    "date": "18 SEP 2026",
+    "dateIso": "2026-09-18T09:00:00-03:00",
+    "minutes": 8,
+    "title": "Japón subió la tasa a 1,25% y el yen cayó: cuando el mercado escucha más el tono que el número",
+    "dek": "El Banco de Japón llevó el costo del dinero al máximo en 31 años, pero dos votos disidentes y una guía menos dura de lo esperado empujaron al dólar hasta 157,84 yenes.",
+    "personalAngle": "Subir la tasa y ver caer la moneda parece un bug del mercado, pero tiene lógica: los precios comparan la decisión con lo que esperaban, no con el titular aislado. Japón entregó el aumento; lo que faltó fue convencer de que vendrán varios más. Esa diferencia es una clase práctica sobre expectativas.",
+    "leadEyebrow": "LA TASA SUBIÓ, LA CONFIANZA NO",
+    "leadTitle": "Un cuarto de punto fue insuficiente frente a un mercado que ya había comprado una historia más agresiva",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Billetes y monedas japonesas como contexto de la decisión del Banco de Japón",
+    "body": [
+      "El Banco de Japón elevó su tasa de referencia en 25 puntos básicos hasta 1,25%, el nivel más alto en 31 años. La decisión salió por siete votos contra dos y coincidió con lo que esperaba buena parte del mercado.",
+      "Sin embargo, el yen se debilitó. El dólar avanzó alrededor de 1,2% hasta 157,84 yenes, máximo de dos semanas y uno de sus mayores movimientos diarios recientes. La reacción no negó la suba; castigó la falta de una guía claramente más agresiva.",
+      "Dos integrantes votaron contra el aumento, una señal de resistencia interna después del ciclo de endurecimiento más rápido en décadas. Con la inflación subyacente cerca del objetivo de 2%, los operadores redujeron parte de sus apuestas por nuevas subas rápidas.",
+      "La ministra de Finanzas, Satsuki Katayama, mantuvo sobre la mesa la posibilidad de intervenir si los movimientos cambiarios se vuelven excesivos. Esa amenaza puede frenar especulación, aunque no reemplaza una trayectoria monetaria creíble.",
+      "Para un inversor argentino, el episodio sirve más como lección de proceso que como orden de operar yenes. Las monedas reaccionan al diferencial futuro de tasas, al petróleo, al riesgo global y a lo que ya estaba descontado.",
+      "Esto no es asesoramiento financiero. Yo evitaría convertir un solo día en una tesis permanente: hoy el mensaje decepcionó, mañana un dato de salarios o inflación puede reescribir el mapa con la misma velocidad."
+    ],
+    "features": [
+      {
+        "title": "El mercado ya había pagado por una secuencia más dura",
+        "eyebrow": "EXPECTATIVAS CONTRA DECISIÓN",
+        "facts": "TASA 1,25% · VOTACIÓN 7-2 · USD/JPY 157,84",
+        "image": "https://images.unsplash.com/photo-1532236204992-f5e85c024202?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Cruce urbano de Tokio iluminado durante la noche",
+        "body": [
+          "Cuando una suba está anticipada, el precio depende de la frase siguiente: cuántos aumentos restan y con qué convicción. El Banco de Japón no entregó la señal que buscaban las posiciones alcistas en yenes.",
+          "Por eso una noticia aparentemente positiva para la moneda terminó produciendo el efecto contrario. El mercado no vota el pasado; revaloriza el futuro."
+        ]
+      },
+      {
+        "title": "La intervención puede comprar tiempo, no resolver el argumento",
+        "eyebrow": "TOKIO VIGILA EL TIPO DE CAMBIO",
+        "facts": "MÁXIMO DE 2 SEMANAS · INFLACIÓN CERCA DE 2% · RIESGO DE INTERVENCIÓN",
+        "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Monte Fuji y paisaje japonés bajo un cielo despejado",
+        "body": [
+          "Japón ya coordinó acciones cambiarias este año y vuelve a advertir que puede actuar. Es una herramienta potente para desorden extremo, pero su efecto dura menos si la diferencia de tasas sigue empujando en sentido contrario.",
+          "La próxima pista estará en salarios, inflación y cohesión del directorio. Dos disidencias no bloquean el camino, aunque vuelven más angosto cada paso."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Unsplash — Jason Leung, dinero japonés",
+        "url": "https://unsplash.com/photos/1526304640581-d334cdbbf45e"
+      },
+      {
+        "name": "Unsplash — Jezael Melgoza, Tokio",
+        "url": "https://unsplash.com/photos/1532236204992-f5e85c024202"
+      },
+      {
+        "name": "Unsplash — Manuel Cosentino, Japón",
+        "url": "https://unsplash.com/photos/1490806843957-31f4c9a91c65"
+      },
+      {
+        "name": "Reuters — reacción del yen y votación del Banco de Japón",
+        "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
+      },
+      {
+        "name": "Al Jazeera — tasa en máximo de 31 años y contexto inflacionario",
+        "url": "https://www.aljazeera.com/news/2026/9/18/japans-interest-rate-hiked-to-31-year-high-at-1-25-as-inflation-rises"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas/fondos-acciones-salida-23210-millones-inflacion",
+    "category": "FINANZAS + CRIPTO",
+    "date": "18 SEP 2026",
+    "dateIso": "2026-09-18T08:50:00-03:00",
+    "minutes": 8,
+    "title": "USD 23.210 millones salieron de fondos de acciones: el petróleo y la Fed encendieron el modo defensa",
+    "dek": "Fue la mayor salida semanal global en nueve meses. Estados Unidos concentró USD 31.440 millones de retiros, mientras Asia recibió dinero y el oro volvió a captar flujos.",
+    "personalAngle": "Cuando el mercado se pone nervioso, los números parecen una evacuación masiva. Pero debajo del total hay rutas distintas: sale dinero de acciones estadounidenses, entra en Asia, vuelve al oro y busca deuda pública. No es un botón rojo único; es una mudanza apresurada entre habitaciones.",
+    "leadEyebrow": "EL DINERO NO DESAPARECE, CAMBIA DE REFUGIO",
+    "leadTitle": "La foto global muestra miedo a la inflación, pero también una rotación bastante selectiva",
+    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Gráficos bursátiles en una pantalla durante una jornada de mercado",
+    "body": [
+      "Los fondos globales de acciones registraron retiros netos por USD 23.210 millones en la semana terminada el 16 de septiembre, el mayor egreso desde diciembre de 2025, según datos de LSEG Lipper citados por Reuters.",
+      "El salto del petróleo a máximos de cuatro meses elevó temores de inflación y rendimientos de los bonos. A eso se sumó la suba de 25 puntos básicos de la Reserva Federal y su advertencia de que podrían necesitarse nuevos aumentos.",
+      "Estados Unidos sufrió salidas por USD 31.440 millones, la cuarta semana consecutiva en rojo. Europa perdió USD 295 millones y Asia recibió USD 6.260 millones. El agregado global es defensivo, pero el detalle confirma que no todas las regiones fueron tratadas igual.",
+      "Los fondos sectoriales captaron USD 4.490 millones, liderados por tecnología, finanzas y consumo discrecional. Bonos públicos y deuda de corto plazo también recibieron entradas, mientras el alto rendimiento y los bonos denominados en euros perdieron dinero.",
+      "El oro y otros metales preciosos sumaron USD 1.170 millones, su novena entrada en diez semanas. Ese dato encaja con la búsqueda de cobertura, aunque una racha de flujos no garantiza que el precio suba ni que la protección funcione en cada cartera.",
+      "Esto es información general, no asesoramiento financiero. Yo leería la semana como advertencia contra la concentración, no como señal automática para vender todo. Cuando el tablero se sacude, conocer qué riesgo asumimos vale más que adivinar la próxima vela."
+    ],
+    "features": [
+      {
+        "title": "Estados Unidos explica más que el total global",
+        "eyebrow": "CUARTA SEMANA DE RETIROS",
+        "facts": "EE.UU. -USD 31.440 M · ASIA +USD 6.260 M · EUROPA -USD 295 M",
+        "image": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Operador frente a varias pantallas con información financiera",
+        "body": [
+          "La salida estadounidense superó el retiro neto global porque Asia compensó una parte. Eso importa: hablar de huida de las acciones sin mirar regiones borra la rotación que realmente ocurrió.",
+          "También hubo demanda dentro de sectores cíclicos y tecnológicos. El miedo no apagó todas las apuestas; las volvió más selectivas."
+        ]
+      },
+      {
+        "title": "Bonos públicos y oro ganaron aire, el alto rendimiento no",
+        "eyebrow": "REFUGIO CON MATICES",
+        "facts": "ORO +USD 1.170 M · BONOS GLOBALES +USD 855 M · HIGH YIELD -USD 3.850 M",
+        "image": "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Lingotes de oro apilados como símbolo de activos defensivos",
+        "body": [
+          "El dinero favoreció deuda gubernamental y vencimientos cortos, mientras evitó bonos con mayor riesgo crediticio. Es la versión de renta fija de cerrar escotillas sin abandonar por completo el barco.",
+          "El oro encadenó otra semana positiva de flujos, pero sigue expuesto a tasas reales y al dólar. Refugio no significa precio inmóvil ni ausencia de pérdidas."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Unsplash — Adam Nowakowski, gráficos de mercado",
+        "url": "https://unsplash.com/photos/1590283603385-17ffb3a7f29f"
+      },
+      {
+        "name": "Unsplash — Nicholas Cappello, pantallas financieras",
+        "url": "https://unsplash.com/photos/1535320903710-d993d3d77d29"
+      },
+      {
+        "name": "Unsplash — Scottsdale Mint, lingotes de oro",
+        "url": "https://unsplash.com/photos/1610375461246-83df859d849d"
+      },
+      {
+        "name": "Reuters — flujos globales de fondos y desglose regional",
+        "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-pix-2026-09-18/"
+      }
+    ]
+  },
+  // FIN NOTICIAS 18 SEP 2026
   // INICIO NOTICIAS 17 SEP 2026
   {
     "slug": "gaming/shape-of-dreams-xbox-game-pass-starless-path",

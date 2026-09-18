@@ -26,7 +26,7 @@ export const dailyArticles = [
         "title": "Dos protagonistas pueden ser una mecánica, no sólo una dupla",
         "eyebrow": "RAJI Y DARSH CAMBIAN EL RITMO",
         "facts": "2 PERSONAJES · TERCERA PERSONA · SEIS AÑOS DESPUÉS",
-        "image": "https://i.ytimg.com/vi/WHcPSPFkUPI/maxresdefault.jpg",
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1112/b2a8c539fc67cc62b0a657a3df8ae160b7c1cf6d187671be.jpg",
         "alt": "Raji: Kaliyuga mostrado en el recorrido jugable de Xbox Tokyo Game Show 2026",
         "body": [
           "Raji representa fuerza, disciplina y armas divinas; Darsh abre la puerta a poderes ligados al sueño. La oportunidad está en diseñar situaciones donde alternar cambie nuestra lectura del espacio y no sea apenas cambiar una barra de habilidades.",
@@ -37,7 +37,7 @@ export const dailyArticles = [
         "title": "El salto técnico importa menos que conservar una voz propia",
         "eyebrow": "UNREAL ENGINE 5 NO ES UNA DIRECCIÓN ARTÍSTICA",
         "facts": "MITOLOGÍA INDIA · ACCIÓN 3D · SIN FECHA",
-        "image": "https://i.ytimg.com/vi/WHcPSPFkUPI/2.jpg",
+        "image": "https://static.actugaming.net/media/2025/11/raji-kaliyuga-annonce-screenshot-3.jpg",
         "alt": "Escena de combate del video de jugabilidad de Raji: Kaliyuga",
         "body": [
           "La iluminación, las ruinas y las criaturas se ven más densas, pero la verdadera continuidad está en los motivos religiosos, los colores y la forma de narrar sus mitos. Eso fue el corazón del original.",
@@ -51,12 +51,12 @@ export const dailyArticles = [
         "url": "https://www.gamewatcher.com/news/raji-kaliyuga-release-date-gameplay-platforms-and-more"
       },
       {
-        "name": "Nodding Heads Games — sitio oficial y premisa de la secuela",
-        "url": "https://www.noddingheadsgames.com/"
+        "name": "PlayStation Store — captura oficial de combate de Raji: Kaliyuga",
+        "url": "https://store.playstation.com/en-us/concept/10017570"
       },
       {
-        "name": "GameTrailers — recorrido de jugabilidad presentado en Xbox TGS 2026",
-        "url": "https://www.youtube.com/watch?v=WHcPSPFkUPI"
+        "name": "ActuGaming — captura de exploración de Raji: Kaliyuga",
+        "url": "https://www.actugaming.net/raji-kaliyuga-annonce-suite-directe-raji-an-ancient-epic-ps5-xbox-series-pc-770678/"
       },
       {
         "name": "Xbox Wire — resumen oficial de Tokyo Game Show 2026",
@@ -176,15 +176,15 @@ export const dailyArticles = [
     "sources": [
       {
         "name": "Unsplash — Shubham Dhage, imagen de blockchain",
-        "url": "https://unsplash.com/photos/1639762681485-074b7f938ba0"
+        "url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Austin Distel, pantallas bursátiles",
-        "url": "https://unsplash.com/photos/1611974789855-9c2a0a7236a3"
+        "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Luke Chesser, panel financiero",
-        "url": "https://unsplash.com/photos/1551288049-bebda4e38f71"
+        "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Reuters — exención de cinco años y condiciones de la SEC",
@@ -244,15 +244,15 @@ export const dailyArticles = [
     "sources": [
       {
         "name": "Unsplash — Jason Leung, dinero japonés",
-        "url": "https://unsplash.com/photos/1526304640581-d334cdbbf45e"
+        "url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Jezael Melgoza, Tokio",
-        "url": "https://unsplash.com/photos/1532236204992-f5e85c024202"
+        "url": "https://images.unsplash.com/photo-1532236204992-f5e85c024202?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Manuel Cosentino, Japón",
-        "url": "https://unsplash.com/photos/1490806843957-31f4c9a91c65"
+        "url": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Reuters — reacción del yen y votación del Banco de Japón",
@@ -312,15 +312,15 @@ export const dailyArticles = [
     "sources": [
       {
         "name": "Unsplash — Adam Nowakowski, gráficos de mercado",
-        "url": "https://unsplash.com/photos/1590283603385-17ffb3a7f29f"
+        "url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Nicholas Cappello, pantallas financieras",
-        "url": "https://unsplash.com/photos/1535320903710-d993d3d77d29"
+        "url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Unsplash — Scottsdale Mint, lingotes de oro",
-        "url": "https://unsplash.com/photos/1610375461246-83df859d849d"
+        "url": "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=82"
       },
       {
         "name": "Reuters — flujos globales de fondos y desglose regional",

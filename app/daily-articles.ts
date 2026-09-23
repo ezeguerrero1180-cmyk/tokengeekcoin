@@ -1,386 +1,112 @@
 export const dailyArticles = [
-  // INICIO NOTICIAS 18 SEP 2026
   {
-    "slug": "gaming/raji-kaliyuga-gameplay-tercera-persona-tgs-2026",
+    "slug": "gaming/xbox-recortes-estudios-halo-activision-2026",
     "category": "GAMING",
-    "date": "18 SEP 2026",
-    "dateIso": "2026-09-18T09:30:00-03:00",
-    "minutes": 9,
-    "title": "Raji: Kaliyuga abandona la vista isométrica: su salto al combate 3D ya tiene algo que demostrar",
-    "dek": "Nodding Heads mostró un recorrido jugable más amplio de la secuela durante Xbox Tokyo Game Show: dos protagonistas, exploración en tercera persona y un conflicto mitológico seis años después del original.",
-    "personalAngle": "Raji: An Ancient Epic tenía una identidad visual tan marcada que cambiar la cámara me genera entusiasmo y un poquito de miedo. La tercera persona puede darle más peso al combate, pero también puede convertir algo singular en otro action RPG correcto. Este nuevo vistazo, por suerte, conserva bastante del color y la mitología que hicieron reconocible al primero.",
-    "leadEyebrow": "LA CÁMARA CAMBIA, LA IDENTIDAD NO DEBERÍA",
-    "leadTitle": "Más cerca de los golpes y de los dioses, pero también más cerca de comparaciones inevitables",
-    "image": "https://images.gamewatcherstatic.com/image/file/4/6d/133284/Raji_Kaliyuga_screen1.jpg",
-    "imageAlt": "Raji y Darsh combaten criaturas demoníacas en una escena oficial de Raji: Kaliyuga",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T09:00:00-03:00",
+    "minutes": 8,
+    "title": "Xbox elimina 268 puestos y reorganiza sus estudios: Halo pasa a Activision",
+    "dek": "Microsoft Gaming confirmó una nueva etapa de su reestructuración: recortes, fusiones de estudios y cambios de responsabilidad para sus franquicias principales.",
+    "personalAngle": "Xbox ya no necesita comprar más estudios: necesita ordenar los que tiene sin apagar la creatividad que los hizo valiosos.",
+    "leadEyebrow": "EL RESET DE XBOX ENTRA EN OTRA FASE",
+    "leadTitle": "Menos unidades, más concentración y una pregunta incómoda sobre el futuro de sus equipos",
+    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/05/Bootup_Wire-9c068aa206c9a72d2b1f-1024x576.png",
+    "imageAlt": "Logo oficial de Xbox utilizado en Xbox Wire",
+    "imageCredit": "Xbox Wire",
     "body": [
-      "Raji: Kaliyuga recibió un nuevo recorrido con comentarios de sus desarrolladores durante la transmisión de Xbox en Tokyo Game Show 2026. La secuela transcurre seis años después de Raji: An Ancient Epic y vuelve a enfrentar a la protagonista con Mahabalasura, ahora acompañada por su hermano Darsh.",
-      "El cambio más evidente está en la perspectiva. La cámara isométrica del primer juego deja paso a una aventura de acción en tercera persona, con escenarios más verticales, combate cercano y una escala que busca representar un conflicto entre mortales, dioses y asuras.",
-      "El sistema alternará entre Raji, guerrera ligada a la fe y al combate físico, y Darsh, un caminante de sueños con habilidades diferentes. No parece un cambio cosmético: si el estudio consigue que cada personaje resuelva obstáculos y peleas de otra manera, el dúo puede darle ritmo a una campaña que necesita algo más que enemigos grandes.",
-      "No jugué esta versión y el video todavía no permite juzgar respuesta de controles, rendimiento ni diseño de niveles. La mudanza a Unreal Engine 5 promete detalle, pero la tecnología sola no preserva una personalidad artística. Ahí está, para mí, la batalla más importante del proyecto.",
-      "El primer Raji podía ser irregular, aunque jamás parecía genérico. Sus referencias a mitología, arquitectura y pintura del subcontinente indio lo separaban de buena parte del catálogo. Quiero que Kaliyuga use la nueva cámara para acercarnos a ese universo, no para limar sus bordes hasta parecerse a cualquier aventura occidental.",
-      "Todavía no hay una fecha concreta. Se confirmó para Xbox Series X|S y PC, con Xbox Play Anywhere, y el material previo también lo ubica en otras plataformas actuales. Mi lista de seguimiento ya lo tiene marcado, pero el próximo examen será una demo que deje sentir el peso de cada golpe."
+      "Xbox confirmó la eliminación de 268 puestos entre Halo Studios, otros equipos first-party y la estructura central de Xbox Game Studios.",
+      "El cambio más llamativo es que Activision ampliará su responsabilidad sobre World’s Edge y Rare, además de desarrollar el próximo Halo con un equipo creado específicamente para ese proyecto.",
+      "Bethesda incorporará a Obsidian bajo su estructura, mientras Playground Games y Turn 10 pasarán a funcionar como un solo estudio enfocado en Forza y Fable.",
+      "La situación de Ninja Theory es más delicada: dos acuerdos para transferir el estudio fracasaron y Microsoft iniciará consultas sobre un posible cierre, aunque todavía explora alternativas.",
+      "Para mí, la pregunta importante no es quién controla cada estudio, sino qué margen tendrán los equipos para hacer buenos juegos. Halo, Forza y Fable no necesitan más organigramas: necesitan tiempo, dirección clara y condiciones de trabajo sostenibles."
     ],
     "features": [
       {
-        "title": "Dos protagonistas pueden ser una mecánica, no sólo una dupla",
-        "eyebrow": "RAJI Y DARSH CAMBIAN EL RITMO",
-        "facts": "2 PERSONAJES · TERCERA PERSONA · SEIS AÑOS DESPUÉS",
-        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202511/1112/b2a8c539fc67cc62b0a657a3df8ae160b7c1cf6d187671be.jpg",
-        "alt": "Raji: Kaliyuga mostrado en el recorrido jugable de Xbox Tokyo Game Show 2026",
+        "title": "Halo cambia de casa sin cambiar de presión",
+        "eyebrow": "ACTIVISION TOMA EL MANDO",
+        "facts": "268 PUESTOS · NUEVO EQUIPO · HALO",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Control de videojuegos sobre una mesa como contexto de la industria gaming",
+        "imageCredit": "Unsplash",
         "body": [
-          "Raji representa fuerza, disciplina y armas divinas; Darsh abre la puerta a poderes ligados al sueño. La oportunidad está en diseñar situaciones donde alternar cambie nuestra lectura del espacio y no sea apenas cambiar una barra de habilidades.",
-          "Cuando una secuela suma un segundo héroe, el riesgo es repartir la campaña en dos mitades desiguales. Prefiero que se crucen, se necesiten y obliguen a reaprender sin borrar lo dominado."
+          "Activision tendrá que demostrar que la reorganización mejora el desarrollo y no convierte a Halo en otra franquicia administrada por demasiadas capas.",
+          "El equipo separado puede aportar foco, pero el resultado dependerá de la autonomía real y de cuánto tiempo reciba para construir algo sólido."
         ]
       },
       {
-        "title": "El salto técnico importa menos que conservar una voz propia",
-        "eyebrow": "UNREAL ENGINE 5 NO ES UNA DIRECCIÓN ARTÍSTICA",
-        "facts": "MITOLOGÍA INDIA · ACCIÓN 3D · SIN FECHA",
-        "image": "https://static.actugaming.net/media/2025/11/raji-kaliyuga-annonce-screenshot-3.jpg",
-        "alt": "Escena de combate del video de jugabilidad de Raji: Kaliyuga",
+        "title": "La fusión de Playground y Turn 10 busca eficiencia",
+        "eyebrow": "FORZA Y FABLE EN UN MISMO EQUIPO",
+        "facts": "FORZA · FABLE · DOS ESTUDIOS",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Consola y videojuegos como contexto de la reorganización de Xbox",
+        "imageCredit": "Unsplash",
         "body": [
-          "La iluminación, las ruinas y las criaturas se ven más densas, pero la verdadera continuidad está en los motivos religiosos, los colores y la forma de narrar sus mitos. Eso fue el corazón del original.",
-          "Mi entusiasmo depende de que Nodding Heads use la cámara cercana para mostrar mejor ese mundo y no para perseguir una plantilla de moda. La ambición suma; la personalidad decide."
+          "La unión puede compartir tecnología y producción, aunque también exige cuidar identidades creativas muy diferentes.",
+          "El próximo año mostrará si la simplificación acelera decisiones o simplemente cambia el nombre del organigrama."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "GameWatcher — capturas y contexto de Raji: Kaliyuga",
-        "url": "https://www.gamewatcher.com/news/raji-kaliyuga-release-date-gameplay-platforms-and-more"
-      },
-      {
-        "name": "PlayStation Store — captura oficial de combate de Raji: Kaliyuga",
-        "url": "https://store.playstation.com/en-us/concept/10017570"
-      },
-      {
-        "name": "ActuGaming — captura de exploración de Raji: Kaliyuga",
-        "url": "https://www.actugaming.net/raji-kaliyuga-annonce-suite-directe-raji-an-ancient-epic-ps5-xbox-series-pc-770678/"
-      },
-      {
-        "name": "Xbox Wire — resumen oficial de Tokyo Game Show 2026",
-        "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
-      }
+      { "name": "Xbox Wire — Continuing Our Reset", "url": "https://news.xbox.com/en-us/2026/09/22/continuing-our-reset/amp/" },
+      { "name": "Xbox Wire — Resetting Xbox", "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/" },
+      { "name": "Microsoft — resultados de Gaming FY26", "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2026-Q3/more-personal-computing-performance" }
     ]
   },
   {
-    "slug": "gaming/wo-long-2-fecha-demo-alpha-30-septiembre",
+    "slug": "gaming/control-resonant-lanzamiento-24-septiembre-2026",
     "category": "GAMING",
-    "date": "18 SEP 2026",
-    "dateIso": "2026-09-18T09:20:00-03:00",
-    "minutes": 9,
-    "title": "Wo Long 2 fija fecha y libera una demo: Team Ninja deja que el combate hable antes de pedir la compra",
-    "dek": "Wings of Ember llegará el 4 de marzo de 2027 y su Alpha gratuita estará disponible hasta el 30 de septiembre, salvo en Switch 2. El progreso no se transfiere, pero completar la prueba desbloquea un casco.",
-    "personalAngle": "Una demo con fecha de vencimiento es una mezcla rara de generosidad y reloj en cuenta regresiva. Aun así, prefiero mil veces probar un parry difícil ahora que escuchar seis meses de promesas sobre lo preciso que será. Team Ninja pone el sistema central sobre la mesa y eso merece más atención que cualquier bono de reserva.",
-    "leadEyebrow": "ANTES DEL TRÁILER, EL CONTROL",
-    "leadTitle": "La mejor noticia no es marzo de 2027: es poder comprobar hoy si el nuevo parry se siente bien",
-    "image": "https://teamninja-studio.com/wolong2/assets/img/top_vs.jpg",
-    "imageAlt": "Arte principal oficial de Wo Long 2: Wings of Ember con el protagonista y el fénix",
-    "body": [
-      "Team Ninja confirmó que Wo Long 2: Wings of Ember se lanzará el 4 de marzo de 2027. Llegará a Xbox Series X|S, Xbox en PC, Game Pass, PlayStation 5, Nintendo Switch 2 y Steam, con versiones físicas y digitales según la plataforma.",
-      "La Alpha pública ya está disponible en Xbox, PC y PlayStation 5 hasta el 30 de septiembre. Nintendo Switch 2 queda fuera de esta prueba. Completarla entrega el Fledgling Phoenix Helmet para el juego final, aunque el progreso de la demo no se trasladará.",
-      "La secuela amplía el sistema de desvíos con movimientos aéreos y habilidades Insight que permiten usar posiciones enemigas y terreno. También promete 18 categorías de armas, hechizos vinculados a las Cinco Fases y manifestaciones de bestias divinas.",
-      "El mundo se abre más que en Fallen Dynasty. Las batallas de Changban y los Acantilados Rojos funcionan como campos amplios donde conquistar bases, elevar moral, explorar rutas y sumar generales aliados. Que sea más grande no garantiza que sea mejor; la densidad de decisiones será la medida real.",
-      "No voy a puntuar una Alpha que no probé. Sí puedo decir que su existencia mejora la conversación: quienes entren podrán discutir latencia del parry, legibilidad y rendimiento con algo más firme que un montaje de dos minutos.",
-      "Si te interesa el género, yo probaría primero y reservaría después —o no reservaría—. La ventana termina rápido, pero marzo queda lejos. Un casco virtual no vale más que comprobar si el juego respeta tu tiempo y tus reflejos."
-    ],
-    "features": [
-      {
-        "title": "El parry ahora también despega del suelo",
-        "eyebrow": "DEFLECT, INSIGHT Y COMBATE AÉREO",
-        "facts": "18 ARMAS · 5 FASES · HABILIDADES INSIGHT",
-        "image": "https://teamninja-studio.com/wolong2/assets/img/system_action-kisei.jpg",
-        "alt": "Captura oficial de Wo Long 2 que muestra una habilidad de combate acrobática",
-        "body": [
-          "Insight Deflect puede lanzar enemigos y abrir un contraataque; Insight Jump permite esquivar golpes críticos y reposicionarse. La idea es sumar altura sin perder la lectura rítmica que definía al primer juego.",
-          "El peligro está en sobrecargar la pantalla de respuestas perfectas. Un buen sistema difícil hace visible el error; uno confuso sólo castiga sin enseñar."
-        ]
-      },
-      {
-        "title": "Los campos abiertos necesitan decisiones, no kilómetros",
-        "eyebrow": "BASES, MORAL Y RUTAS ALTERNATIVAS",
-        "facts": "CHANGBAN · ACANTILADOS ROJOS · COOPERATIVO",
-        "image": "https://teamninja-studio.com/wolong2/assets/img/system_seiatsu-modal.jpg",
-        "alt": "Escenario abierto oficial de Wo Long 2 con una base por conquistar",
-        "body": [
-          "Conquistar posiciones, buscar pistas y reclutar guerreros puede convertir el recorrido en estrategia. Si cada desvío sólo entrega materiales, la amplitud será una lista de mandados con demonios.",
-          "La demo es el lugar ideal para medirlo. Yo miraría cuánto cambia una pelea cuando llegamos con más moral o aliados, y si explorar revela posibilidades en vez de simples números."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Team Ninja — sitio oficial, arte y ficha de Wo Long 2",
-        "url": "https://teamninja-studio.com/wolong2/us/"
-      },
-      {
-        "name": "Team Ninja — sistemas, combate y campos abiertos",
-        "url": "https://teamninja-studio.com/wolong2/us/system/index.html"
-      },
-      {
-        "name": "Xbox Wire — fecha, jefe y Alpha presentados en Tokyo Game Show",
-        "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/"
-      },
-      {
-        "name": "Windows Central — plataformas, demo y ediciones",
-        "url": "https://www.windowscentral.com/gaming/wo-long-2-wings-of-embers-release-date-revealed-with-demo"
-      }
-    ]
-  },
-  {
-    "slug": "finanzas/sec-exencion-acciones-tokenizadas-cinco-anos",
-    "category": "FINANZAS + CRIPTO",
-    "date": "18 SEP 2026",
-    "dateIso": "2026-09-18T09:10:00-03:00",
-    "minutes": 9,
-    "title": "La SEC abre una ventana de cinco años para acciones tokenizadas: blockchain entra al mercado con derechos reales",
-    "dek": "La exención permitirá operar representaciones digitales de valores y alivia ciertas obligaciones para plataformas y proveedores de liquidez, pero excluye tokens sintéticos y reconoce la oposición del emisor.",
-    "personalAngle": "Hace años que la tokenización promete convertir cualquier activo en una ficha negociable las 24 horas. Esta vez la noticia no es otro piloto: el regulador estadounidense dibujó una puerta concreta. Me entusiasma la infraestructura, aunque celebro todavía más que haya separado una acción con derechos de una imitación que sólo sigue el precio.",
-    "leadEyebrow": "TOKENIZAR NO ES COPIAR UN TICKER",
-    "leadTitle": "La diferencia entre innovación y disfraz financiero empieza en quién posee qué",
-    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Representación física de una red blockchain iluminada",
-    "body": [
-      "La Comisión de Bolsa y Valores de Estados Unidos presentó una exención de innovación con vigencia de cinco años para plataformas que faciliten negociación de acciones y otros valores tokenizados. También contempla alivio de registro para ciertos proveedores de liquidez.",
-      "La regla distingue una representación digital con derechos económicos y societarios de un token sintético que sólo replica el precio. Para entrar en el esquema, las acciones tokenizadas deberán conservar derechos equivalentes a los títulos tradicionales, incluidos dividendos y voto.",
-      "Las plataformas deberán avisar a la empresa antes de listar una versión tokenizada de sus acciones y no podrán avanzar si el emisor se opone. Ese detalle limita la lógica de ‘tokenizo primero, pregunto después’ que apareció en algunos productos ofrecidos fuera de Estados Unidos.",
-      "Coinbase, Robinhood y Kraken están entre las compañías interesadas en este mercado. La oportunidad es grande: liquidación más rápida, fracciones pequeñas, custodia digital y horarios extendidos. El costo oculto está en unir blockchain con registro societario, cumplimiento y resolución de errores.",
-      "Desde Argentina, el atractivo es evidente, pero no conviene confundir acceso técnico con protección jurídica. El inversor debe entender quién custodia el activo, qué jurisdicción aplica, cómo cobra dividendos y qué sucede si falla el intermediario.",
-      "Esto es información general, no asesoramiento financiero. Mi regla provisional sería sencilla: si el producto no puede explicar en una página quién es dueño de la acción y cómo ejerce sus derechos, la palabra tokenización está haciendo demasiado trabajo de marketing."
-    ],
-    "features": [
-      {
-        "title": "Cinco años de alivio no significan cinco años sin reglas",
-        "eyebrow": "UN PUENTE REGULATORIO, NO UNA ZONA LIBRE",
-        "facts": "5 AÑOS · AVISO AL EMISOR · SIN TOKENS SINTÉTICOS",
-        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Pantallas bursátiles con gráficos y cotizaciones",
-        "body": [
-          "La exención reduce obstáculos de encuadre para mercados y proveedores de liquidez, pero mantiene condiciones de integridad y protección. El experimento tiene borde, plazo y supervisión.",
-          "Ese plazo también obliga a pensar qué ocurre después. Una plataforma seria debería diseñar desde hoy la migración a un régimen permanente, no depender de que la excepción se renueve."
-        ]
-      },
-      {
-        "title": "Una acción digital debe seguir siendo una acción",
-        "eyebrow": "DIVIDENDOS, VOTO Y OPOSICIÓN DEL EMISOR",
-        "facts": "DERECHOS REALES · AUTOCUSTODIA POSIBLE · 24/7",
-        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Panel digital con métricas financieras y gráficos",
-        "body": [
-          "El avance más importante es conceptual: representar un título en blockchain no debería borrar los derechos que le dan valor. Sin dividendos ni voto, el inversor compra exposición, no necesariamente propiedad.",
-          "La negociación continua puede mejorar acceso y liquidez, pero también elimina pausas útiles. Un mercado abierto toda la noche no vuelve más razonable una decisión tomada a las tres de la mañana."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Unsplash — Shubham Dhage, imagen de blockchain",
-        "url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Austin Distel, pantallas bursátiles",
-        "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Luke Chesser, panel financiero",
-        "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Reuters — exención de cinco años y condiciones de la SEC",
-        "url": "https://www.reuters.com/world/us-securities-regulator-rolls-out-five-year-exemption-tokenized-stock-trading-2026-09-17/"
-      },
-      {
-        "name": "Financial Times — alcance del régimen para acciones tokenizadas",
-        "url": "https://www.ft.com/content/b528698e-9b04-4497-9d22-67e401be21d3"
-      }
-    ]
-  },
-  {
-    "slug": "finanzas/banco-japon-sube-tasa-yen-cae-125",
-    "category": "FINANZAS + CRIPTO",
-    "date": "18 SEP 2026",
-    "dateIso": "2026-09-18T09:00:00-03:00",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T08:30:00-03:00",
     "minutes": 8,
-    "title": "Japón subió la tasa a 1,25% y el yen cayó: cuando el mercado escucha más el tono que el número",
-    "dek": "El Banco de Japón llevó el costo del dinero al máximo en 31 años, pero dos votos disidentes y una guía menos dura de lo esperado empujaron al dólar hasta 157,84 yenes.",
-    "personalAngle": "Subir la tasa y ver caer la moneda parece un bug del mercado, pero tiene lógica: los precios comparan la decisión con lo que esperaban, no con el titular aislado. Japón entregó el aumento; lo que faltó fue convencer de que vendrán varios más. Esa diferencia es una clase práctica sobre expectativas.",
-    "leadEyebrow": "LA TASA SUBIÓ, LA CONFIANZA NO",
-    "leadTitle": "Un cuarto de punto fue insuficiente frente a un mercado que ya había comprado una historia más agresiva",
-    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Billetes y monedas japonesas como contexto de la decisión del Banco de Japón",
+    "title": "Control Resonant llega mañana y convierte Manhattan en una pesadilla imposible",
+    "dek": "Remedy estrena el 24 de septiembre su secuela sobrenatural para PS5, Xbox Series y PC, con Dylan Faden como protagonista y una ciudad deformada por una nueva resonancia.",
+    "personalAngle": "Control siempre me gustó cuando parecía una oficina que había olvidado las reglas del mundo. Resonant promete sacar esa rareza a Manhattan, y ahí está su mayor oportunidad: crecer sin perder la incomodidad que hacía especial al original.",
+    "leadEyebrow": "MANHATTAN YA NO RESPETA LA GEOMETRÍA",
+    "leadTitle": "Remedy cambia el foco hacia Dylan y apuesta por una escala mucho más ambiciosa",
+    "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Ciudad nocturna con edificios iluminados como contexto visual de la Manhattan sobrenatural de Control Resonant",
+    "imageCredit": "Unsplash",
     "body": [
-      "El Banco de Japón elevó su tasa de referencia en 25 puntos básicos hasta 1,25%, el nivel más alto en 31 años. La decisión salió por siete votos contra dos y coincidió con lo que esperaba buena parte del mercado.",
-      "Sin embargo, el yen se debilitó. El dólar avanzó alrededor de 1,2% hasta 157,84 yenes, máximo de dos semanas y uno de sus mayores movimientos diarios recientes. La reacción no negó la suba; castigó la falta de una guía claramente más agresiva.",
-      "Dos integrantes votaron contra el aumento, una señal de resistencia interna después del ciclo de endurecimiento más rápido en décadas. Con la inflación subyacente cerca del objetivo de 2%, los operadores redujeron parte de sus apuestas por nuevas subas rápidas.",
-      "La ministra de Finanzas, Satsuki Katayama, mantuvo sobre la mesa la posibilidad de intervenir si los movimientos cambiarios se vuelven excesivos. Esa amenaza puede frenar especulación, aunque no reemplaza una trayectoria monetaria creíble.",
-      "Para un inversor argentino, el episodio sirve más como lección de proceso que como orden de operar yenes. Las monedas reaccionan al diferencial futuro de tasas, al petróleo, al riesgo global y a lo que ya estaba descontado.",
-      "Esto no es asesoramiento financiero. Yo evitaría convertir un solo día en una tesis permanente: hoy el mensaje decepcionó, mañana un dato de salarios o inflación puede reescribir el mapa con la misma velocidad."
+      "CONTROL Resonant se lanza el 24 de septiembre de 2026 para PlayStation 5, Xbox Series X|S y PC a través de Steam y Epic Games Store. Remedy también confirmó compatibilidad con GeForce NOW y una versión para Mac más adelante durante el año.",
+      "La historia pone a Dylan Faden en el centro. Después de años de confinamiento, despierta mientras una fuerza paranatural distorsiona Manhattan y obliga a cruzar calles, edificios y realidades que ya no funcionan como deberían.",
+      "La secuela reemplaza parte del foco del primer juego por una aventura de mayor escala, con combate cuerpo a cuerpo, exploración y una ciudad que se transforma alrededor del protagonista. La idea no es repetir la Casa Inmemorial con otra pintura, sino llevar la lógica de Control a un espacio abierto y más impredecible.",
+      "En PlayStation 5 habrá modos de rendimiento, calidad y balance, además de funciones específicas del DualSense. La campaña principal debería durar entre 25 y 35 horas, con más contenido para quienes quieran completar todos los secretos.",
+      "No compraría sólo por la promesa de rareza. Remedy tiene una identidad fuerte, pero una ciudad más grande también puede diluir el misterio si el mapa se llena de tareas repetidas. Mi expectativa está alta y mi regla sigue siendo la misma: que cada lugar extraño tenga una idea detrás, no sólo una textura espectacular."
     ],
     "features": [
       {
-        "title": "El mercado ya había pagado por una secuencia más dura",
-        "eyebrow": "EXPECTATIVAS CONTRA DECISIÓN",
-        "facts": "TASA 1,25% · VOTACIÓN 7-2 · USD/JPY 157,84",
-        "image": "https://images.unsplash.com/photo-1532236204992-f5e85c024202?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Cruce urbano de Tokio iluminado durante la noche",
+        "title": "Dylan deja de ser una incógnita y toma el control",
+        "eyebrow": "EL HERMANO DE JESSE AL FRENTE",
+        "facts": "DYLAN · 25–35 HORAS · PS5, XBOX Y PC",
+        "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Arquitectura urbana distorsionada como contexto de la aventura de Dylan Faden",
+        "imageCredit": "Unsplash",
         "body": [
-          "Cuando una suba está anticipada, el precio depende de la frase siguiente: cuántos aumentos restan y con qué convicción. El Banco de Japón no entregó la señal que buscaban las posiciones alcistas en yenes.",
-          "Por eso una noticia aparentemente positiva para la moneda terminó produciendo el efecto contrario. El mercado no vota el pasado; revaloriza el futuro."
+          "Dylan llega con una historia pesada y una relación compleja con Jesse. Convertirlo en protagonista permite mostrar otra perspectiva del universo Remedy, aunque también obliga a que sus decisiones sean más interesantes que su apellido.",
+          "La prueba será que el jugador sienta que está descubriendo su propia forma de controlar el caos, no simplemente recorriendo una secuela desde el punto de vista equivocado."
         ]
       },
       {
-        "title": "La intervención puede comprar tiempo, no resolver el argumento",
-        "eyebrow": "TOKIO VIGILA EL TIPO DE CAMBIO",
-        "facts": "MÁXIMO DE 2 SEMANAS · INFLACIÓN CERCA DE 2% · RIESGO DE INTERVENCIÓN",
-        "image": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Monte Fuji y paisaje japonés bajo un cielo despejado",
+        "title": "La ciudad puede ser el personaje más difícil de diseñar",
+        "eyebrow": "ESCALA CONTRA MISTERIO",
+        "facts": "MANHATTAN · RESONANCIA · EXPLORACIÓN",
+        "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?auto=format&fit=crop&w=1400&q=85",
+        "alt": "Vista urbana de Manhattan utilizada como referencia visual para la ambientación de Control Resonant",
+        "imageCredit": "Unsplash",
         "body": [
-          "Japón ya coordinó acciones cambiarias este año y vuelve a advertir que puede actuar. Es una herramienta potente para desorden extremo, pero su efecto dura menos si la diferencia de tasas sigue empujando en sentido contrario.",
-          "La próxima pista estará en salarios, inflación y cohesión del directorio. Dos disidencias no bloquean el camino, aunque vuelven más angosto cada paso."
+          "Una ciudad abierta ofrece más rutas y encuentros, pero también amenaza con volver rutinaria la sorpresa. Remedy tendrá que esconder sus mejores ideas en edificios, estaciones y calles que no se sientan como simples pasillos entre misiones.",
+          "Si cada esquina altera la lógica del espacio, Resonant puede ampliar Control sin perder su personalidad. Si no, la escala será apenas un número más grande en la caja."
         ]
       }
     ],
     "sources": [
-      {
-        "name": "Unsplash — Jason Leung, dinero japonés",
-        "url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Jezael Melgoza, Tokio",
-        "url": "https://images.unsplash.com/photo-1532236204992-f5e85c024202?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Manuel Cosentino, Japón",
-        "url": "https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Reuters — reacción del yen y votación del Banco de Japón",
-        "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/"
-      },
-      {
-        "name": "Al Jazeera — tasa en máximo de 31 años y contexto inflacionario",
-        "url": "https://www.aljazeera.com/news/2026/9/18/japans-interest-rate-hiked-to-31-year-high-at-1-25-as-inflation-rises"
-      }
+      { "name": "Remedy Entertainment — anuncio oficial de lanzamiento", "url": "https://www.remedygames.com/article/control-resonant-launches-worldwide-on-september-24" },
+      { "name": "PlayStation Blog — funciones de PS5", "url": "https://blog.playstation.com/2026/09/15/control-resonant-ps5-features-detailed/" },
+      { "name": "PlayStation Blog — tráiler y fecha de lanzamiento", "url": "https://blog.playstation.com/?p=419178" },
+      { "name": "NVIDIA — DLSS y path tracing", "url": "https://www.nvidia.com/en-eu/geforce/news/control-resonant-september-24-dlss-4-5-path-tracing/" }
     ]
   },
-  {
-    "slug": "finanzas/fondos-acciones-salida-23210-millones-inflacion",
-    "category": "FINANZAS + CRIPTO",
-    "date": "18 SEP 2026",
-    "dateIso": "2026-09-18T08:50:00-03:00",
-    "minutes": 8,
-    "title": "USD 23.210 millones salieron de fondos de acciones: el petróleo y la Fed encendieron el modo defensa",
-    "dek": "Fue la mayor salida semanal global en nueve meses. Estados Unidos concentró USD 31.440 millones de retiros, mientras Asia recibió dinero y el oro volvió a captar flujos.",
-    "personalAngle": "Cuando el mercado se pone nervioso, los números parecen una evacuación masiva. Pero debajo del total hay rutas distintas: sale dinero de acciones estadounidenses, entra en Asia, vuelve al oro y busca deuda pública. No es un botón rojo único; es una mudanza apresurada entre habitaciones.",
-    "leadEyebrow": "EL DINERO NO DESAPARECE, CAMBIA DE REFUGIO",
-    "leadTitle": "La foto global muestra miedo a la inflación, pero también una rotación bastante selectiva",
-    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=85",
-    "imageAlt": "Gráficos bursátiles en una pantalla durante una jornada de mercado",
-    "body": [
-      "Los fondos globales de acciones registraron retiros netos por USD 23.210 millones en la semana terminada el 16 de septiembre, el mayor egreso desde diciembre de 2025, según datos de LSEG Lipper citados por Reuters.",
-      "El salto del petróleo a máximos de cuatro meses elevó temores de inflación y rendimientos de los bonos. A eso se sumó la suba de 25 puntos básicos de la Reserva Federal y su advertencia de que podrían necesitarse nuevos aumentos.",
-      "Estados Unidos sufrió salidas por USD 31.440 millones, la cuarta semana consecutiva en rojo. Europa perdió USD 295 millones y Asia recibió USD 6.260 millones. El agregado global es defensivo, pero el detalle confirma que no todas las regiones fueron tratadas igual.",
-      "Los fondos sectoriales captaron USD 4.490 millones, liderados por tecnología, finanzas y consumo discrecional. Bonos públicos y deuda de corto plazo también recibieron entradas, mientras el alto rendimiento y los bonos denominados en euros perdieron dinero.",
-      "El oro y otros metales preciosos sumaron USD 1.170 millones, su novena entrada en diez semanas. Ese dato encaja con la búsqueda de cobertura, aunque una racha de flujos no garantiza que el precio suba ni que la protección funcione en cada cartera.",
-      "Esto es información general, no asesoramiento financiero. Yo leería la semana como advertencia contra la concentración, no como señal automática para vender todo. Cuando el tablero se sacude, conocer qué riesgo asumimos vale más que adivinar la próxima vela."
-    ],
-    "features": [
-      {
-        "title": "Estados Unidos explica más que el total global",
-        "eyebrow": "CUARTA SEMANA DE RETIROS",
-        "facts": "EE.UU. -USD 31.440 M · ASIA +USD 6.260 M · EUROPA -USD 295 M",
-        "image": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Operador frente a varias pantallas con información financiera",
-        "body": [
-          "La salida estadounidense superó el retiro neto global porque Asia compensó una parte. Eso importa: hablar de huida de las acciones sin mirar regiones borra la rotación que realmente ocurrió.",
-          "También hubo demanda dentro de sectores cíclicos y tecnológicos. El miedo no apagó todas las apuestas; las volvió más selectivas."
-        ]
-      },
-      {
-        "title": "Bonos públicos y oro ganaron aire, el alto rendimiento no",
-        "eyebrow": "REFUGIO CON MATICES",
-        "facts": "ORO +USD 1.170 M · BONOS GLOBALES +USD 855 M · HIGH YIELD -USD 3.850 M",
-        "image": "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1400&q=85",
-        "alt": "Lingotes de oro apilados como símbolo de activos defensivos",
-        "body": [
-          "El dinero favoreció deuda gubernamental y vencimientos cortos, mientras evitó bonos con mayor riesgo crediticio. Es la versión de renta fija de cerrar escotillas sin abandonar por completo el barco.",
-          "El oro encadenó otra semana positiva de flujos, pero sigue expuesto a tasas reales y al dólar. Refugio no significa precio inmóvil ni ausencia de pérdidas."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Unsplash — Adam Nowakowski, gráficos de mercado",
-        "url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Nicholas Cappello, pantallas financieras",
-        "url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Unsplash — Scottsdale Mint, lingotes de oro",
-        "url": "https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=82"
-      },
-      {
-        "name": "Reuters — flujos globales de fondos y desglose regional",
-        "url": "https://www.reuters.com/world/china/global-markets-flows-graphic-pix-2026-09-18/"
-      }
-    ]
-  },
-  // FIN NOTICIAS 18 SEP 2026
   // INICIO NOTICIAS 17 SEP 2026
-  {
-    "slug": "gaming/shape-of-dreams-xbox-game-pass-starless-path",
-    "category": "GAMING",
-    "date": "17 SEP 2026",
-    "dateIso": "2026-09-17T10:25:00-03:00",
-    "minutes": 8,
-    "title": "Shape of Dreams llega de sorpresa a Xbox: Game Pass recibe un roguelite con un año de ventaja",
-    "dek": "El juego cooperativo de Lizard Smoothie debutó hoy en Series X|S junto con The Starless Path, su mayor actualización, juego cruzado y más de 200 combinaciones para experimentar.",
-    "personalAngle": "Los lanzamientos sorpresa suelen activar mi alarma de backlog, pero este tiene una ventaja concreta: no llega como promesa recién salida del horno. La versión de Xbox incorpora un año de ajustes, contenido y aprendizaje de la comunidad de PC; eso me interesa bastante más que cualquier cartel de ‘disponible ahora’.",
-    "leadEyebrow": "UN ESTRENO QUE YA TRAE CICATRICES ÚTILES",
-    "leadTitle": "Llegar un año después puede ser una ventaja cuando el género vive de repetir, ajustar y volver a intentar",
-    "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-Hero-07db0085714f7d1d2521-1600x900.jpg",
-    "imageAlt": "Arte oficial de Shape of Dreams con sus viajeros enfrentando criaturas en un paisaje onírico",
-    "body": [
-      "Shape of Dreams se lanzó hoy para Xbox Series X|S y entró el mismo día a Game Pass. El roguelite de acción puede jugarse en solitario o en grupos de hasta cuatro personas, admite juego cruzado y llega acompañado por The Starless Path, la actualización más grande publicada por Lizard Smoothie hasta ahora.",
-      "El juego propone elegir entre nueve Viajeros con ritmos de combate diferentes. Las habilidades se llaman Memorias y pueden combinarse con Esencias; el estudio habla de más de 200 piezas entre ambas categorías. Esa cifra promete variedad, aunque la prueba real será cuántas combinaciones resultan divertidas y no solamente posibles.",
-      "La edición de Xbox incorpora desde el primer día los cambios acumulados desde el estreno original en Steam, en septiembre de 2025. Incluye ajustes de rendimiento y equilibrio, nuevos santuarios, recompensas que permiten orientar una build y Limbo, una dificultad de final de juego por encima de Nightmare.",
-      "The Starless Path suma a Cetus, un personaje de rango que usa hielo y puede adaptarse como atacante, luchador cercano o apoyo. También agrega un camino de progresión, un final nuevo, seis Identity Memories compartidas y patrones más exigentes para jefes heroicos.",
-      "No lo probé, así que no voy a vender la idea de que sus sistemas ya derrotaron al cansancio del género. Sí veo una decisión sensata: abrir la puerta de Game Pass con juego cruzado reduce la fricción para formar un grupo, que suele ser el verdadero jefe final de cualquier cooperativo.",
-      "Mi consejo es simple: si ya tenés la suscripción, una primera partida alcanza para medir el tacto del combate antes de convertirlo en otra obligación semanal. El contenido acumulado es una buena bienvenida; nuestro tiempo sigue siendo el recurso más escaso del inventario."
-    ],
-    "features": [
-      {
-        "title": "Más de 200 piezas no garantizan variedad, pero sí un buen laboratorio",
-        "eyebrow": "MEMORIAS, ESENCIAS Y BUILDS",
-        "facts": "9 VIAJEROS · 200+ OPCIONES · SOLO O COOPERATIVO",
-        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-ASSET-02-%E2%80%94-Build-skill-selection-screen-d10e2305417740c95777-1024x576.jpg",
-        "alt": "Pantalla oficial de Shape of Dreams con opciones para construir y modificar habilidades",
-        "body": [
-          "La gracia de un roguelite no está en contar objetos sino en obligarnos a improvisar con ellos. Que el juego permita orientar una build mediante santuarios y recompensas puede reducir esas partidas donde el azar decide demasiado pronto que no vamos a divertirnos.",
-          "También ayuda que cada Viajero tenga armas, habilidades y cadencia propias. Si las identidades se sienten claras, cambiar de personaje puede renovar el juego sin inflar artificialmente la dificultad."
-        ]
-      },
-      {
-        "title": "El cooperativo elimina una barrera y crea otra",
-        "eyebrow": "CUATRO PERSONAS, UN MISMO SUEÑO",
-        "facts": "HASTA 4 JUGADORES · CROSS-PLAY · GAME PASS",
-        "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Shape-of-Dreams-ASSET-03-%E2%80%94-co-op-gameplay-524747c8fc4a3a76ed81-1024x559.jpg",
-        "alt": "Captura oficial del combate cooperativo para cuatro jugadores de Shape of Dreams",
-        "body": [
-          "Game Pass y el juego cruzado facilitan reunir al equipo, pero cuatro builds simultáneas también pueden convertir la pantalla en fuegos artificiales indescifrables. La legibilidad del combate será tan importante como el daño de cada combo.",
-          "La opción de completar todo en solitario es clave. Un cooperativo sano invita a sumar amigos; no castiga a quien sólo encontró media hora libre y decidió entrar sin coordinar agendas."
-        ]
-      }
-    ],
-    "sources": [
-      { "name": "Xbox Wire — anuncio oficial, datos e imágenes de Shape of Dreams", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-shape-of-dreams/" },
-      { "name": "Xbox Wire — resumen oficial de Tokyo Game Show 2026", "url": "https://news.xbox.com/en-us/2026/09/17/xbox-tokyo-game-show-2026-recap/" },
-      { "name": "Xbox — ficha oficial de Shape of Dreams", "url": "https://www.xbox.com/en-us/games/store/shape-of-dreams/9PK0DZ68LGC0" }
-    ]
-  },
   {
     "slug": "gaming/faraday-blues-anuncio-xbox-tgs-2026",
     "category": "GAMING",

@@ -1,5 +1,67 @@
 export const dailyArticles = [
   {
+    "slug": "finanzas/dolar-maximos-dos-meses-fed-septiembre-2026",
+    "category": "FINANZAS + CRIPTO",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T10:00:00-03:00",
+    "minutes": 8,
+    "title": "El dólar toca máximos de dos meses mientras el mercado recalcula a la Fed",
+    "dek": "El índice dólar llegó a 100,79 mientras los inversores descuentan nuevas subas de tasas y siguen de cerca la baja del petróleo y la diplomacia en Medio Oriente.",
+    "personalAngle": "El dólar no sube porque exista una sola noticia, sino porque varias dudas apuntan en la misma dirección: inflación, tasas y petróleo vuelven a competir por nuestra atención.",
+    "leadEyebrow": "LA FED VUELVE A DOMINAR LA PANTALLA",
+    "leadTitle": "Una moneda fuerte puede ser refugio, presión y problema emergente al mismo tiempo",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Billetes de dólar estadounidense como contexto del avance del índice dólar",
+    "imageCredit": "Unsplash",
+    "body": [
+      "El índice dólar subió a 100,79 este miércoles, su nivel más fuerte en dos meses, mientras los inversores aumentaron sus apuestas a nuevas subas de tasas en Estados Unidos.",
+      "El euro cayó a mínimos desde fines de julio y la libra también retrocedió. La reacción refleja un mercado que considera dominante la señal de la Reserva Federal: si la inflación no baja con rapidez, todavía hay margen para endurecer la política monetaria.",
+      "El petróleo agrega una segunda capa. El crudo cedió por expectativas de una salida diplomática al conflicto en Medio Oriente, pero sigue lo bastante caro como para mantener viva la preocupación por precios y transporte.",
+      "Para Argentina, un dólar global más firme suele complicar a las monedas emergentes, presionar commodities y volver más selectivo el acceso al financiamiento. No es una relación automática, pero sí una corriente que conviene mirar antes de tomar decisiones.",
+      "Esto es información general, no asesoramiento financiero. Yo no perseguiría el movimiento de una rueda: esperaría datos de inflación, empleo y el próximo mensaje de la Fed antes de convertir un máximo de dos meses en una tesis permanente."
+    ],
+    "features": [
+      { "title": "La tasa vuelve a pesar más que el refugio", "eyebrow": "DÓLAR Y RENDIMIENTOS", "facts": "ÍNDICE 100,79 · EURO EN MÍNIMOS · MÁS TASAS", "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85", "alt": "Pantallas con gráficos financieros como contexto de la reacción del mercado", "imageCredit": "Unsplash", "body": ["La moneda estadounidense recibe apoyo cuando el mercado cree que los rendimientos seguirán altos. Esa expectativa puede cambiar con un solo dato, por eso el precio necesita confirmación y no sólo titulares.", "La diferencia entre la proyección oficial y las apuestas de futuros será el dato más interesante para seguir."] },
+      { "title": "Petróleo más barato no borra el riesgo inflacionario", "eyebrow": "ALIVIO CONDICIONAL", "facts": "BRENT · DIPLOMACIA · INFLACIÓN", "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=85", "alt": "Infraestructura energética al atardecer como contexto del precio del petróleo", "imageCredit": "Unsplash", "body": ["Una baja del crudo puede aliviar expectativas de inflación, pero todavía no repara rutas, refinerías ni la incertidumbre geopolítica.", "Para leer el mercado completo hay que mirar dólar, petróleo, bonos y acciones juntos; ninguna pantalla cuenta toda la historia."] }
+    ],
+    "sources": [
+      { "name": "Reuters — dólar en máximos de dos meses", "url": "https://www.marketscreener.com/news/dollar-at-2-month-highs-as-fed-outlook-dominant-ce785ad9dd89fe23" },
+      { "name": "Reuters — dólar, petróleo y diplomacia", "url": "https://uk.marketscreener.com/news/dollar-holds-near-2-month-high-as-markets-weigh-rate-hikes-iran-diplomacy-ce785ad9d88ff025" },
+      { "name": "Federal Reserve — calendario del FOMC", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" }
+    ]
+  },
+  {
+    "slug": "tecnologia/alibaba-chip-zhenwu-v900-qwen4-septiembre-2026",
+    "category": "TECNOLOGÍA + IA",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T09:30:00-03:00",
+    "minutes": 9,
+    "title": "Alibaba presenta el Zhenwu V900 y acelera su carrera por controlar toda la pila de IA",
+    "dek": "La compañía china anunció un acelerador tres veces más potente que su generación anterior y planes para entrenar Qwen 4 con hasta 10 billones de parámetros.",
+    "personalAngle": "La noticia no es sólo que Alibaba quiera fabricar un chip potente. Es que intenta controlar silicio, nube, modelos y agentes a la vez, justo cuando la competencia tecnológica entre China y Estados Unidos se vuelve más difícil de separar del comercio.",
+    "leadEyebrow": "CHIPS, NUBE Y MODELOS EN UNA SOLA JUGADA",
+    "leadTitle": "Alibaba quiere que sus clientes compren el ecosistema completo, no una pieza aislada",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Circuitos electrónicos como contexto visual del nuevo acelerador de inteligencia artificial de Alibaba",
+    "imageCredit": "Unsplash",
+    "body": [
+      "Alibaba presentó el acelerador Zhenwu V900 durante su conferencia Apsara. La empresa lo describió como el chip de inteligencia artificial más potente desarrollado en China y afirmó que triplica el rendimiento de su antecesor, el Zhenwu M890.",
+      "El chip está pensado para entrenamiento e inferencia y forma parte de una estrategia más amplia: Alibaba también anunció una nueva generación de modelos Qwen, infraestructura de centros de datos y herramientas para agentes de IA.",
+      "La compañía dijo que Qwen 4 está en entrenamiento y que su hoja de ruta contempla modelos de entre cinco y diez billones de parámetros. Es una cifra enorme, pero no alcanza por sí sola para medir calidad: también importan datos, eficiencia, disponibilidad y costo por consulta.",
+      "El contexto geopolítico es inevitable. Las restricciones de Estados Unidos dificultan el acceso chino a aceleradores avanzados de Nvidia, así que construir chips propios y ofrecerlos desde la nube se vuelve una cuestión de negocio y de autonomía tecnológica.",
+      "Mi conclusión provisional es prudente: Alibaba está armando una alternativa de pila completa, pero las afirmaciones de rendimiento necesitan comparaciones independientes. La carrera no se gana con una cifra de laboratorio, sino con clientes que puedan entrenar y ejecutar modelos de forma estable."
+    ],
+    "features": [
+      { "title": "El V900 importa porque conecta chip y servicio", "eyebrow": "SILICIO PARA LA NUBE", "facts": "3X RENDIMIENTO · ENTRENAMIENTO · INFERENCIA", "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=85", "alt": "Filas de servidores en un centro de datos como contexto de la infraestructura de Alibaba Cloud", "imageCredit": "Unsplash", "body": ["Alibaba no busca solamente vender hardware: quiere alquilar capacidad desde sus centros de datos y controlar la experiencia completa.", "Ese modelo puede reducir dependencias, aunque también obliga a demostrar que software, memoria, red y acelerador trabajan juntos sin desperdiciar costos."] },
+      { "title": "Qwen 4 entra en la carrera de los modelos gigantes", "eyebrow": "MÁS PARÁMETROS, MÁS RESPONSABILIDAD", "facts": "5–10T PARÁMETROS · QWEN 4 · AGENTES", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=85", "alt": "Visualización abstracta de inteligencia artificial como contexto de los nuevos modelos Qwen", "imageCredit": "Unsplash", "body": ["El tamaño puede ampliar capacidades, pero también aumenta entrenamiento, energía y costos de inferencia.", "El resultado más importante será si Alibaba logra que agentes y modelos multimodales sean útiles para clientes reales, no sólo impresionantes durante una presentación."] }
+    ],
+    "sources": [
+      { "name": "Alibaba Cloud — estrategia full-stack de IA", "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy" },
+      { "name": "Associated Press — chip y planes de modelos de Alibaba", "url": "https://apnews.com/article/b29908e516faff9f5a82b201ba954aab" },
+      { "name": "Alibaba Group — chips y modelos de IA", "url": "https://home.alibabagroup.com/en-US/document-1994119844504535040" }
+    ]
+  },
+  {
     "slug": "gaming/xbox-recortes-estudios-halo-activision-2026",
     "category": "GAMING",
     "date": "23 SEP 2026",

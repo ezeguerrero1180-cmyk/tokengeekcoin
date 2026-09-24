@@ -82,7 +82,11 @@ export const articles:Article[]=[
 const EDITORIAL_STANDARD_EFFECTIVE_DATE = "2026-08-29";
 const MONTHS:Record<string,string>={ENE:"01",FEB:"02",MAR:"03",ABR:"04",MAY:"05",JUN:"06",JUL:"07",AGO:"08",SEP:"09",OCT:"10",NOV:"11",DIC:"12"};
 
-function articleDateKey(article:Article){
+// Mantiene la portada y los portales ordenados por fecha, aunque las notas nuevas
+// se agreguen al final del archivo central de artículos.
+articles.sort((a,b)=>String(b.dateIso||b.date).localeCompare(String(a.dateIso||a.date)));
+
+ function articleDateKey(article:Article){
  const isoDate=article.dateIso?.slice(0,10);
  if(isoDate)return isoDate;
  const [day,month,year]=article.date.split(" ");

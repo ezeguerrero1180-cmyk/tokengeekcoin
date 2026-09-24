@@ -1,5 +1,67 @@
 export const dailyArticles = [
   {
+    "slug": "finanzas/dolar-maximos-dos-meses-fed-septiembre-2026",
+    "category": "FINANZAS + CRIPTO",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T10:00:00-03:00",
+    "minutes": 8,
+    "title": "El dólar toca máximos de dos meses mientras el mercado recalcula a la Fed",
+    "dek": "El índice dólar llegó a 100,79 mientras los inversores descuentan nuevas subas de tasas y siguen de cerca la baja del petróleo y la diplomacia en Medio Oriente.",
+    "personalAngle": "El dólar no sube porque exista una sola noticia, sino porque varias dudas apuntan en la misma dirección: inflación, tasas y petróleo vuelven a competir por nuestra atención.",
+    "leadEyebrow": "LA FED VUELVE A DOMINAR LA PANTALLA",
+    "leadTitle": "Una moneda fuerte puede ser refugio, presión y problema emergente al mismo tiempo",
+    "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Billetes de dólar estadounidense como contexto del avance del índice dólar",
+    "imageCredit": "Unsplash",
+    "body": [
+      "El índice dólar subió a 100,79 este miércoles, su nivel más fuerte en dos meses, mientras los inversores aumentaron sus apuestas a nuevas subas de tasas en Estados Unidos.",
+      "El euro cayó a mínimos desde fines de julio y la libra también retrocedió. La reacción refleja un mercado que considera dominante la señal de la Reserva Federal: si la inflación no baja con rapidez, todavía hay margen para endurecer la política monetaria.",
+      "El petróleo agrega una segunda capa. El crudo cedió por expectativas de una salida diplomática al conflicto en Medio Oriente, pero sigue lo bastante caro como para mantener viva la preocupación por precios y transporte.",
+      "Para Argentina, un dólar global más firme suele complicar a las monedas emergentes, presionar commodities y volver más selectivo el acceso al financiamiento. No es una relación automática, pero sí una corriente que conviene mirar antes de tomar decisiones.",
+      "Esto es información general, no asesoramiento financiero. Yo no perseguiría el movimiento de una rueda: esperaría datos de inflación, empleo y el próximo mensaje de la Fed antes de convertir un máximo de dos meses en una tesis permanente."
+    ],
+    "features": [
+      { "title": "La tasa vuelve a pesar más que el refugio", "eyebrow": "DÓLAR Y RENDIMIENTOS", "facts": "ÍNDICE 100,79 · EURO EN MÍNIMOS · MÁS TASAS", "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=85", "alt": "Pantallas con gráficos financieros como contexto de la reacción del mercado", "imageCredit": "Unsplash", "body": ["La moneda estadounidense recibe apoyo cuando el mercado cree que los rendimientos seguirán altos. Esa expectativa puede cambiar con un solo dato, por eso el precio necesita confirmación y no sólo titulares.", "La diferencia entre la proyección oficial y las apuestas de futuros será el dato más interesante para seguir."] },
+      { "title": "Petróleo más barato no borra el riesgo inflacionario", "eyebrow": "ALIVIO CONDICIONAL", "facts": "BRENT · DIPLOMACIA · INFLACIÓN", "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1400&q=85", "alt": "Infraestructura energética al atardecer como contexto del precio del petróleo", "imageCredit": "Unsplash", "body": ["Una baja del crudo puede aliviar expectativas de inflación, pero todavía no repara rutas, refinerías ni la incertidumbre geopolítica.", "Para leer el mercado completo hay que mirar dólar, petróleo, bonos y acciones juntos; ninguna pantalla cuenta toda la historia."] }
+    ],
+    "sources": [
+      { "name": "Reuters — dólar en máximos de dos meses", "url": "https://www.marketscreener.com/news/dollar-at-2-month-highs-as-fed-outlook-dominant-ce785ad9dd89fe23" },
+      { "name": "Reuters — dólar, petróleo y diplomacia", "url": "https://uk.marketscreener.com/news/dollar-holds-near-2-month-high-as-markets-weigh-rate-hikes-iran-diplomacy-ce785ad9d88ff025" },
+      { "name": "Federal Reserve — calendario del FOMC", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" }
+    ]
+  },
+  {
+    "slug": "tecnologia/alibaba-chip-zhenwu-v900-qwen4-septiembre-2026",
+    "category": "TECNOLOGÍA + IA",
+    "date": "23 SEP 2026",
+    "dateIso": "2026-09-23T09:30:00-03:00",
+    "minutes": 9,
+    "title": "Alibaba presenta el Zhenwu V900 y acelera su carrera por controlar toda la pila de IA",
+    "dek": "La compañía china anunció un acelerador tres veces más potente que su generación anterior y planes para entrenar Qwen 4 con hasta 10 billones de parámetros.",
+    "personalAngle": "La noticia no es sólo que Alibaba quiera fabricar un chip potente. Es que intenta controlar silicio, nube, modelos y agentes a la vez, justo cuando la competencia tecnológica entre China y Estados Unidos se vuelve más difícil de separar del comercio.",
+    "leadEyebrow": "CHIPS, NUBE Y MODELOS EN UNA SOLA JUGADA",
+    "leadTitle": "Alibaba quiere que sus clientes compren el ecosistema completo, no una pieza aislada",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85",
+    "imageAlt": "Circuitos electrónicos como contexto visual del nuevo acelerador de inteligencia artificial de Alibaba",
+    "imageCredit": "Unsplash",
+    "body": [
+      "Alibaba presentó el acelerador Zhenwu V900 durante su conferencia Apsara. La empresa lo describió como el chip de inteligencia artificial más potente desarrollado en China y afirmó que triplica el rendimiento de su antecesor, el Zhenwu M890.",
+      "El chip está pensado para entrenamiento e inferencia y forma parte de una estrategia más amplia: Alibaba también anunció una nueva generación de modelos Qwen, infraestructura de centros de datos y herramientas para agentes de IA.",
+      "La compañía dijo que Qwen 4 está en entrenamiento y que su hoja de ruta contempla modelos de entre cinco y diez billones de parámetros. Es una cifra enorme, pero no alcanza por sí sola para medir calidad: también importan datos, eficiencia, disponibilidad y costo por consulta.",
+      "El contexto geopolítico es inevitable. Las restricciones de Estados Unidos dificultan el acceso chino a aceleradores avanzados de Nvidia, así que construir chips propios y ofrecerlos desde la nube se vuelve una cuestión de negocio y de autonomía tecnológica.",
+      "Mi conclusión provisional es prudente: Alibaba está armando una alternativa de pila completa, pero las afirmaciones de rendimiento necesitan comparaciones independientes. La carrera no se gana con una cifra de laboratorio, sino con clientes que puedan entrenar y ejecutar modelos de forma estable."
+    ],
+    "features": [
+      { "title": "El V900 importa porque conecta chip y servicio", "eyebrow": "SILICIO PARA LA NUBE", "facts": "3X RENDIMIENTO · ENTRENAMIENTO · INFERENCIA", "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1400&q=85", "alt": "Filas de servidores en un centro de datos como contexto de la infraestructura de Alibaba Cloud", "imageCredit": "Unsplash", "body": ["Alibaba no busca solamente vender hardware: quiere alquilar capacidad desde sus centros de datos y controlar la experiencia completa.", "Ese modelo puede reducir dependencias, aunque también obliga a demostrar que software, memoria, red y acelerador trabajan juntos sin desperdiciar costos."] },
+      { "title": "Qwen 4 entra en la carrera de los modelos gigantes", "eyebrow": "MÁS PARÁMETROS, MÁS RESPONSABILIDAD", "facts": "5–10T PARÁMETROS · QWEN 4 · AGENTES", "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1400&q=85", "alt": "Visualización abstracta de inteligencia artificial como contexto de los nuevos modelos Qwen", "imageCredit": "Unsplash", "body": ["El tamaño puede ampliar capacidades, pero también aumenta entrenamiento, energía y costos de inferencia.", "El resultado más importante será si Alibaba logra que agentes y modelos multimodales sean útiles para clientes reales, no sólo impresionantes durante una presentación."] }
+    ],
+    "sources": [
+      { "name": "Alibaba Cloud — estrategia full-stack de IA", "url": "https://www.alibabacloud.com/en/press-room/alibaba-unveils-roadmap-on-full-stack-ai-strategy" },
+      { "name": "Associated Press — chip y planes de modelos de Alibaba", "url": "https://apnews.com/article/b29908e516faff9f5a82b201ba954aab" },
+      { "name": "Alibaba Group — chips y modelos de IA", "url": "https://home.alibabagroup.com/en-US/document-1994119844504535040" }
+    ]
+  },
+  {
     "slug": "gaming/xbox-recortes-estudios-halo-activision-2026",
     "category": "GAMING",
     "date": "23 SEP 2026",
@@ -4662,6 +4724,130 @@ export const dailyArticles = [
       { name: "Sky News — más de 100 firmantes", url: "https://news.sky.com/story/tech-companies-write-open-letter-calling-for-collective-action-against-ai-enabled-cyber-attacks-13577985" },
       { name: "NCSC — declaración Five Eyes", url: "https://www.ncsc.gov.uk/news/the-ai-shift-in-cyber-risk-why-leaders-must-act-now" },
       { name: "Reuters — llamado a reforzar defensas", url: "https://www.reuters.com/legal/litigation/major-tech-companies-call-defensive-surge-defeat-ai-driven-hacks-2026-08-27/" }
+    ]
+  },
+  {
+    slug: "gaming/control-resonant-lanzamiento-manhattan-24-septiembre-2026",
+    category: "GAMING",
+    date: "24 SEP 2026",
+    dateIso: "2026-09-24T10:00:00-03:00",
+    minutes: 10,
+    title: "Control Resonant ya está disponible: Remedy lleva el caos paranormal a Manhattan",
+    dek: "El nuevo juego de Remedy llega con Dylan Faden como protagonista y una Manhattan deformada por una crisis sobrenatural.",
+    personalAngle: "Remedy entiende algo que muchos juegos olvidan: el misterio funciona mejor cuando no te explica todo en la primera pantalla.",
+    leadEyebrow: "LA AGENCIA FEDERAL CAMBIA DE CIUDAD",
+    leadTitle: "Dylan Faden sale del confinamiento y encuentra una Manhattan que dejó de obedecer las reglas",
+    image: "https://www.remedygames.com/wp-content/uploads/2026/08/control-resonant-key-art.jpg",
+    imageAlt: "Dylan Faden frente a una Manhattan alterada en Control Resonant",
+    imageCredit: "Remedy Entertainment",
+    body: [
+      "Hay juegos que te piden salvar el mundo y otros que directamente lo doblan como una hoja de papel. Control Resonant pertenece al segundo grupo. Remedy lanzó hoy la nueva entrega de su universo paranormal y pone a Dylan Faden en el centro de una crisis que transforma Manhattan.",
+      "Después de años de confinamiento, Dylan emerge con nuevas habilidades y una misión poco tranquilizadora: enfrentar una entidad cósmica mientras la ciudad se convierte en un laberinto de amenazas, anomalías y espacios que no deberían existir.",
+      "El juego llega a Xbox Series X|S, PC y otras plataformas. La ficha de Xbox también lo presenta como uno de los lanzamientos destacados de la semana, mientras Remedy confirma su estreno mundial para el 24 de septiembre.",
+      "Lo que más me interesa no es solamente la escala. La primera entrega brillaba cuando te dejaba leer informes absurdamente serios sobre fenómenos imposibles y sacar tus propias conclusiones. Si Resonant conserva esa mezcla de acción, burocracia paranormal y exploración, puede sentirse mucho más personal que otro blockbuster de mapa abierto.",
+      "Mi cautela está en el ritmo. Una Manhattan más grande no garantiza un misterio mejor; si todo se convierte en explosión y marcador, la rareza pierde fuerza. Yo jugaría las primeras horas sin mirar guías, apagaría las notificaciones y dejaría que el juego me desoriente un poco. En Remedy, perderse suele ser parte de la diversión."
+    ],
+    features: [
+      { title: "Dylan Faden toma el relevo", eyebrow: "NUEVO PROTAGONISTA", facts: "PODERES · MANHATTAN · CRISIS", image: "https://news.xbox.com/wp-content/uploads/sites/2/2026/09/control-resonant-dylan.jpg", alt: "Dylan Faden, protagonista de Control Resonant", imageCredit: "Xbox Wire", body: ["La historia cambia de perspectiva y abre una puerta para explorar el universo de Control desde afuera de la Casa Inmemorial.", "El desafío será que el nuevo escenario conserve la personalidad visual y narrativa de la serie."] },
+      { title: "Una ciudad que no quiere ser mapa", eyebrow: "EXPLORACIÓN PARANORMAL", facts: "ANOMALÍAS · DOCUMENTOS · SECRETOS", image: "https://www.remedygames.com/wp-content/uploads/2026/08/control-resonant-manhattan.jpg", alt: "Calles de Manhattan alteradas por fenómenos paranormales", imageCredit: "Remedy Entertainment", body: ["El Manhattan de Resonant no funciona como una lista de tareas: la ciudad es parte del misterio y puede cambiar la lectura de cada encuentro.", "Ese enfoque, más cercano a un expediente extraño que a una checklist, es lo que puede diferenciarlo."] }
+    ],
+    sources: [
+      { name: "Remedy Entertainment — lanzamiento mundial", url: "https://www.remedygames.com/article/control-resonant-launches-worldwide-on-september-24" },
+      { name: "Xbox Wire — lanzamientos del 21 al 25 de septiembre", url: "https://news.xbox.com/en-us/2026/09/18/next-week-on-xbox-new-games-for-september-21-to-25/" },
+      { name: "PC Gamer — calendario de lanzamientos", url: "https://www.pcgamer.com/games/pc-gaming-show/september-2026-game-release-dates/" }
+    ]
+  },
+  {
+    slug: "finanzas/dolar-maximos-dos-meses-24-septiembre-2026",
+    category: "FINANZAS + CRIPTO",
+    date: "24 SEP 2026",
+    dateIso: "2026-09-24T10:30:00-03:00",
+    minutes: 9,
+    title: "El dólar afloja apenas después de tocar máximos de dos meses",
+    dek: "La moneda estadounidense retrocedió levemente tras una fuerte suba impulsada por las expectativas de nuevas subidas de tasas de la Reserva Federal.",
+    personalAngle: "Un dólar fuerte no es una señal mágica: es el resultado de varias dudas que se acomodan, por ahora, del mismo lado.",
+    leadEyebrow: "TASAS, BONOS Y GEOPOLÍTICA",
+    leadTitle: "La moneda estadounidense se toma un respiro, pero el mercado todavía mira hacia arriba",
+    image: "https://www.reuters.com/graphics/USA-FED/RATES/zdpxqzqjzvx/chart.png",
+    imageAlt: "Gráfico del avance reciente del dólar frente a otras monedas",
+    imageCredit: "Reuters",
+    body: [
+      "El dólar hizo algo muy de dólar: subió con fuerza, llegó a máximos de dos meses y después se tomó un respiro como si nada. Este jueves retrocedió levemente, aunque sigue cerca de sus niveles más altos desde comienzos de septiembre.",
+      "Reuters vincula la suba con datos económicos sólidos de Estados Unidos y con la expectativa de que la Reserva Federal mantenga una postura dura frente a la inflación. El mercado ahora descuenta que las tasas podrían seguir elevadas durante más tiempo.",
+      "El rendimiento del bono del Tesoro a dos años, muy sensible a las expectativas de política monetaria, alcanzó su nivel más alto desde mayo de 2024. Cuando ese rendimiento sube, los activos denominados en dólares suelen ganar atractivo relativo.",
+      "También aparece la geopolítica. Japón volvió a señalar que mantiene vigentes los principios de una posible intervención coordinada para estabilizar el yen, mientras los operadores siguen atentos a la relación entre Estados Unidos y China.",
+      "Para Argentina, un dólar global fuerte puede complicar a las monedas emergentes y encarecer el financiamiento, aunque no existe una traducción automática a la cotización local. Esto es información general, no asesoramiento financiero. Yo no perseguiría el movimiento de una rueda: miraría inflación, empleo y el próximo mensaje de la Fed antes de convertir un máximo en una tesis permanente."
+    ],
+    features: [
+      { title: "El bono de dos años vuelve a ser protagonista", eyebrow: "SEÑAL DE TASAS", facts: "BONOS · FED · INFLACIÓN", image: "https://www.federalreserve.gov/images/monetarypolicy/fomc.png", alt: "Calendario y comunicación institucional del Comité Federal de Mercado Abierto", imageCredit: "Federal Reserve", body: ["El tramo corto de la curva resume lo que el mercado cree que hará la Fed en los próximos meses.", "No es una predicción infalible, pero ayuda a separar una reacción emocional de un cambio más persistente en las expectativas."] },
+      { title: "El yen agrega una segunda tensión", eyebrow: "MONEDAS Y POLÍTICA", facts: "YEN · INTERVENCIÓN · RIESGO", image: "https://www.reuters.com/graphics/JAPAN-MARKETS/YEN/akvewqkqkvr/chart.png", alt: "Evolución del yen frente al dólar en los mercados internacionales", imageCredit: "Reuters", body: ["La posibilidad de intervención japonesa recuerda que el mercado cambiario no depende sólo de las tasas estadounidenses.", "Una señal política puede cambiar la velocidad del movimiento incluso cuando la tendencia de fondo parece clara."] }
+    ],
+    sources: [
+      { name: "Reuters — dólar cerca del máximo de dos meses", url: "https://www.marketscreener.com/news/dollar-near-2-month-peak-as-investors-pause-after-rally-geopolitics-eyed-ce785adedd8afe25" },
+      { name: "Federal Reserve — calendario del FOMC", url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" },
+      { name: "Reuters — dólar, tasas y diplomacia", url: "https://uk.marketscreener.com/news/dollar-holds-near-2-month-high-as-markets-weigh-rate-hikes-iran-diplomacy-ce785ad9d88ff025" }
+    ]
+  },
+  {
+    slug: "tecnologia/meta-vr-glasses-100-gramos-2026",
+    category: "TECNOLOGÍA + IA",
+    date: "24 SEP 2026",
+    dateIso: "2026-09-24T11:00:00-03:00",
+    minutes: 10,
+    title: "Meta presenta sus nuevas gafas de realidad virtual de 100 gramos",
+    dek: "El dispositivo promete cine 3D, videojuegos, trabajo con varias pantallas y funciones de inteligencia artificial, aunque llegará en 2027.",
+    personalAngle: "Meta quiere que la realidad virtual deje de parecer un casco; la pregunta es si también puede dejar de sentirse como una obligación tecnológica.",
+    leadEyebrow: "REALIDAD VIRTUAL SIN CASCO",
+    leadTitle: "Un cine IMAX, una oficina privada y un agente de IA en un par de gafas",
+    image: "https://about.fb.com/wp-content/uploads/2026/09/hero_vr_glasses.jpg",
+    imageAlt: "Persona utilizando las nuevas Meta VR Glasses en un entorno cotidiano",
+    imageCredit: "Meta Newsroom",
+    body: [
+      "Meta presentó sus nuevas Meta VR Glasses, un dispositivo de aproximadamente 100 gramos que intenta hacer algo que la industria viene prometiendo hace años: que la realidad virtual se parezca más a ponerse anteojos que a equiparse para una misión espacial.",
+      "Las gafas incorporan pantallas micro-OLED 5K, certificación IMAX Enhanced, audio espacial y un sistema externo que concentra batería, almacenamiento y procesamiento. La empresa dice que se pueden usar para películas 3D, eventos deportivos y un espacio de trabajo con varias pantallas virtuales.",
+      "La inteligencia artificial está integrada en el sistema operativo. Meta promete que el usuario podrá abrir aplicaciones, reproducir contenido y organizar el espacio con la voz, la mirada y gestos naturales. También habrá llamadas holográficas y más de 75 juegos compatibles con seguimiento de manos.",
+      "La otra pieza importante es Xbox Cloud Gaming: Meta quiere que las gafas funcionen también como una consola portátil para transmitir cientos de juegos. La idea suena atractiva, aunque dependerá por completo de una conexión estable y de una latencia que no arruine la experiencia.",
+      "El precio anunciado es de 1.299,99 dólares y la llegada está prevista para la primavera de 2027. Me entusiasma el concepto, pero no compraría una primera generación sin probar autonomía, temperatura, comodidad y privacidad. Pesar menos que un casco es un avance; demostrar que no necesitamos quitárnoslas a los veinte minutos será el examen real."
+    ],
+    features: [
+      { title: "El procesamiento se muda al bolsillo", eyebrow: "DISEÑO EN DOS PIEZAS", facts: "100 G · PUCK · 5K", image: "https://about.fb.com/wp-content/uploads/2026/09/vr_glasses_puck.jpg", alt: "Unidad externa de procesamiento y batería de Meta VR Glasses", imageCredit: "Meta Newsroom", body: ["Separar las gafas del procesamiento permite reducir peso, aunque agrega un accesorio que hay que cargar y transportar.", "La solución es razonable para una primera generación, pero también muestra que la miniaturización todavía tiene límites."] },
+      { title: "Un cine privado que también quiere ser consola", eyebrow: "ENTRETENIMIENTO INMERSIVO", facts: "IMAX · 3D · XBOX CLOUD", image: "https://about.fb.com/wp-content/uploads/2026/09/vr_glasses_cinema.jpg", alt: "Experiencia cinematográfica inmersiva mostrada en Meta VR Glasses", imageCredit: "Meta Newsroom", body: ["Meta está vendiendo el dispositivo como cine, oficina y consola al mismo tiempo.", "La amplitud puede ser una ventaja, pero también obliga a que cada modo funcione bien y no quede como una demostración de feria tecnológica."] }
+    ],
+    sources: [
+      { name: "Meta Newsroom — Meta VR Glasses", url: "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/" },
+      { name: "Meta Newsroom — Ray-Ban Meta Audio", url: "https://about.fb.com/news/2026/09/introducing-ray-ban-meta-audio-glasses-new-styles-plus-muse/" },
+      { name: "Meta Newsroom — nuevas funciones de Ray-Ban Display", url: "https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/" }
+    ]
+  },
+  {
+    slug: "comics-series/american-horror-story-temporada-13-24-septiembre-2026",
+    category: "CÓMICS + SERIES",
+    date: "24 SEP 2026",
+    dateIso: "2026-09-24T11:30:00-03:00",
+    minutes: 9,
+    title: "American Horror Story vuelve con su temporada 13 y una triple dosis de terror",
+    dek: "La nueva temporada se estrena hoy en FX y Hulu con tres episodios iniciales y recupera el número más supersticioso de la televisión.",
+    personalAngle: "A esta altura, American Horror Story ya no necesita demostrar que puede ser incómoda; necesita volver a tener algo que decir.",
+    leadEyebrow: "EL NÚMERO MALDITO LLEGA A LA PANTALLA",
+    leadTitle: "La temporada 13 arranca con tres episodios y una pregunta: ¿todavía puede sorprender?",
+    image: "https://press.hulu.com/wp-content/uploads/2026/09/ahs13-key-art.jpg",
+    imageAlt: "Arte promocional de la temporada 13 de American Horror Story",
+    imageCredit: "FX / Hulu",
+    body: [
+      "Hay series que cumplen años y otras que eligen el número 13 para recordarnos que nunca aprendemos. American Horror Story estrena hoy su decimotercera temporada con una premiere especial de tres episodios en FX y Hulu.",
+      "El lanzamiento juega de frente con la superstición alrededor del número 13, una decisión coherente para una antología que convirtió hoteles, asilos, circos y casas malditas en distintos laboratorios de terror televisivo.",
+      "La temporada llega dentro de la programación de septiembre de Hulu y mantiene el modelo de estreno que combina televisión lineal con streaming. Para quienes miran desde Argentina, conviene revisar la disponibilidad local y el horario de lanzamiento de la plataforma contratada.",
+      "Lo más difícil para una serie tan extensa no es sumar monstruos. Es encontrar una idea que justifique otra temporada. Cuando American Horror Story acierta, el exceso se vuelve estilo; cuando falla, los giros parecen un desfile de maquillaje sin una historia debajo.",
+      "Yo arrancaría con los tres episodios antes de sacar conclusiones. Si la temporada consigue una atmósfera propia y no sólo referencias a sus mejores años, todavía tiene espacio para incomodar. Si se apoya únicamente en el número 13, el demonio más peligroso va a ser la nostalgia."
+    ],
+    features: [
+      { title: "Tres episodios para marcar territorio", eyebrow: "ESTRENO ESPECIAL", facts: "FX · HULU · 3 EPISODIOS", image: "https://press.hulu.com/wp-content/uploads/2026/09/ahs13-cast.jpg", alt: "Reparto de la temporada 13 de American Horror Story", imageCredit: "FX / Hulu", body: ["El estreno triple permite que la nueva historia presente su tono y conflicto con más espacio que un lanzamiento semanal tradicional.", "También plantea un riesgo: si los tres capítulos no encuentran ritmo, el espectador puede abandonar antes de que la temporada despegue."] },
+      { title: "El terror de la antología necesita una idea nueva", eyebrow: "MÁS ALLÁ DEL GUIÑO", facts: "ANTOLOGÍA · ATMÓSFERA · PERSONAJES", image: "https://press.hulu.com/wp-content/uploads/2026/09/ahs13-still.jpg", alt: "Escena promocional de la temporada 13 de American Horror Story", imageCredit: "FX / Hulu", body: ["La serie puede cambiar de escenario cada temporada, pero el público ya reconoce sus trucos.", "La verdadera novedad tendrá que estar en los personajes y en la pregunta que la historia deje después de cada episodio."] }
+    ],
+    sources: [
+      { name: "Disney+ Press — programación de septiembre", url: "https://press.disneyplus.com/news/next-on-disney-plus-september-2026" },
+      { name: "Hulu — American Horror Story", url: "https://www.hulu.com/series/american-horror-story" },
+      { name: "FX — programación y novedades", url: "https://www.fxnetworks.com/shows/american-horror-story" }
     ]
   }
 ];

@@ -86,13 +86,6 @@ const MONTHS:Record<string,string>={ENE:"01",FEB:"02",MAR:"03",ABR:"04",MAY:"05"
 // se agreguen al final del archivo central de artículos.
 articles.sort((a,b)=>String(b.dateIso||b.date).localeCompare(String(a.dateIso||a.date)));
 
-// Ordena la portada mostrando primero las noticias más nuevas
-articles.sort((a, b) =>
-  String(b.dateIso || b.date).localeCompare(
-    String(a.dateIso || a.date)
-  )
-);
-
  function articleDateKey(article:Article){
  const isoDate=article.dateIso?.slice(0,10);
  if(isoDate)return isoDate;

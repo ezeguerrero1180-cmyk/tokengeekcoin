@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+@import "./styles/globals.css";
+@import "./styles/v1-articles.css";
+@import "./styles/magazine-geek.css";

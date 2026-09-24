@@ -1,0 +1,6 @@
+{
+  "name": "Diario Actual - Noticias de Hoy",
+  "description": "Portal de noticias de última hora organizado con las noticias de hoy en portada principal y seguimiento en tiempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

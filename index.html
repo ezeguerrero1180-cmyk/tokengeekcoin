@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TokenGeekCoin — Gaming, finanzas, tecnología y cultura geek</title>
+    <meta name="description" content="Noticias, análisis y comparadores de gaming, finanzas, tecnología y cómics organizadas con las noticias de hoy en portada." />
+    <meta property="og:title" content="TokenGeekCoin — Gaming, finanzas, tecnología y cultura geek" />
+    <meta property="og:description" content="Noticias, análisis y comparadores de gaming, finanzas, tecnología y cómics organizadas con las noticias de hoy en portada." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/tab-icon.png" />
+    <script>
+      (function() {
+        try {
+          var origFetch = typeof window !== 'undefined' && window.fetch ? window.fetch.bind(window) : null;
+          var activeFetch = origFetch;
+          var desc = {
+            get: function() {
+              return activeFetch;
+            },
+            set: function(val) {
+              activeFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          };
+          try {
+            Object.defineProperty(window, 'fetch', desc);
+          } catch (e1) {
+            try {
+              Object.defineProperty(Window.prototype, 'fetch', desc);
+            } catch (e2) {}
+          }
+        } catch (err) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#09070e] text-[#fffdf8] antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

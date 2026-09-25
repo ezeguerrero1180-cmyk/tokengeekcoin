@@ -242,7 +242,7 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
           </h1>
 
           <p
-            className="dek text-base sm:text-lg md:text-xl font-sans leading-relaxed mb-6"
+            className="dek text-base sm:text-lg md:text-xl font-serif leading-relaxed mb-6"
             style={{
               borderLeft: '8px solid var(--mg-acid)',
               paddingLeft: '18px',
@@ -297,7 +297,7 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
         {/* Article Body Content */}
         <div className="p-6 md:p-10 space-y-8 max-w-3xl mx-auto w-full prose">
           {/* Main Paragraphs */}
-          <div className={`font-sans space-y-5 text-stone-100 ${bodyFontSizeClass}`}>
+          <div className={`font-serif space-y-5 text-stone-100 ${bodyFontSizeClass}`}>
             {article.body.map((paragraph, index) => (
               <React.Fragment key={index}>
                 <p className="leading-relaxed">
@@ -365,7 +365,7 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
                       >
                         {feat.title}
                       </h4>
-                      <p className="font-sans text-sm sm:text-base text-stone-200 leading-relaxed mb-4">
+                      <p className="font-serif text-sm sm:text-base text-stone-200 leading-relaxed mb-4">
                         {Array.isArray(feat.body) ? feat.body.join(' ') : feat.body}
                       </p>
                       {feat.facts && (

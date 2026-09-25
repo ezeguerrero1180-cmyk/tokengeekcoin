@@ -166,7 +166,7 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               value={dek}
               onChange={(e) => setDek(e.target.value)}
               placeholder="Breve resumen del impacto de la noticia..."
-              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-sans outline-none"
+              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-serif outline-none"
             />
           </div>
 
@@ -207,7 +207,7 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               value={bodyText}
               onChange={(e) => setBodyText(e.target.value)}
               placeholder="Escribe el desarrollo completo del artículo..."
-              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-sans outline-none"
+              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-serif outline-none"
             />
           </div>
 

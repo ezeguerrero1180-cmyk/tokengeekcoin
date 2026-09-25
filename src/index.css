@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: Arial, "Helvetica Neue", Helvetica, system-ui, -apple-system, sans-serif;
-  --font-serif: Arial, "Helvetica Neue", Helvetica, system-ui, -apple-system, sans-serif;
-  --font-mono: Arial, "Helvetica Neue", Helvetica, system-ui, -apple-system, sans-serif;
+  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-mono: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @import "./styles/globals.css";

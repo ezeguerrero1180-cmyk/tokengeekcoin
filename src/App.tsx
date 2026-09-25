@@ -210,6 +210,9 @@ export default function App() {
                     src={leadArticle.image}
                     alt={leadArticle.imageAlt || leadArticle.title}
                     priority={true}
+                    objectFit="contain"
+                    aspectRatio="auto"
+                    className="w-full h-full flex items-center justify-center bg-transparent"
                   />
                 </div>
                 <div className="classic-lead-copy">

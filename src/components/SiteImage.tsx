@@ -6,7 +6,8 @@ interface SiteImageProps {
   alt: string;
   category?: string;
   className?: string;
-  aspectRatio?: 'video' | 'portrait' | 'square' | 'hero';
+  aspectRatio?: 'video' | 'portrait' | 'square' | 'hero' | 'auto';
+  objectFit?: 'cover' | 'contain';
   priority?: boolean;
   onClick?: () => void;
   width?: number | string;
@@ -20,6 +21,7 @@ export const SiteImage: React.FC<SiteImageProps> = ({
   category = 'DEFAULT',
   className = '',
   aspectRatio = 'video',
+  objectFit = 'cover',
   priority = false,
   onClick,
   width: _width,
@@ -58,12 +60,16 @@ export const SiteImage: React.FC<SiteImageProps> = ({
     }
   }
 
-  const aspectClass = {
-    video: 'aspect-[16/9]',
-    portrait: 'aspect-[4/5]',
-    square: 'aspect-square',
-    hero: 'aspect-[16/9] md:aspect-[21/9]',
-  }[aspectRatio];
+  const aspectClass = aspectRatio === 'auto'
+    ? ''
+    : {
+        video: 'aspect-[16/9]',
+        portrait: 'aspect-[4/5]',
+        square: 'aspect-square',
+        hero: 'aspect-[16/9] md:aspect-[21/9]',
+      }[aspectRatio];
+
+  const fitClass = objectFit === 'contain' ? 'object-contain' : 'object-cover';
 
   const handleError = () => {
     if (!retryWithAltExt && (src.endsWith('.webp') || src.endsWith('.png') || src.endsWith('.jpg'))) {
@@ -90,7 +96,7 @@ export const SiteImage: React.FC<SiteImageProps> = ({
         decoding="async"
         onError={handleError}
         onLoad={() => setIsLoaded(true)}
-        className={`w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.02] ${
+        className={`w-full h-full ${fitClass} transition-transform duration-500 group-hover:scale-[1.02] ${
           isLoaded ? 'opacity-100' : 'opacity-0'
         }`}
       />

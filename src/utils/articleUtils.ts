@@ -22,8 +22,8 @@ export function isTodayArticle(article: Article): boolean {
   const todayPattern = `${now.getDate()} ${MONTHS_ES[now.getMonth()]} ${now.getFullYear()}`;
   if (dateStr.includes(todayPattern)) return true;
 
-  // Also match '24 SEP 2026' as today's date in this publication context
-  if (dateStr.includes('24 SEP 2026')) return true;
+  // Also match '25 SEP 2026' or '24 SEP 2026' as recent today dates in this publication context
+  if (dateStr.includes('25 SEP 2026') || dateStr.includes('24 SEP 2026')) return true;
 
   if (article.dateIso) {
     try {
@@ -35,8 +35,8 @@ export function isTodayArticle(article: Article): boolean {
       ) {
         return true;
       }
-      // Also match 2026-09-24 ISO
-      if (article.dateIso.startsWith('2026-09-24')) {
+      // Also match 2026-09-25 or 2026-09-24 ISO
+      if (article.dateIso.startsWith('2026-09-25') || article.dateIso.startsWith('2026-09-24')) {
         return true;
       }
     } catch {
@@ -61,8 +61,8 @@ export function isNewPublication(article: Article): boolean {
   if (isTodayArticle(article)) return true;
   if (isYesterdayArticle(article)) return true;
   const d = (article.date || '').toUpperCase();
-  if (d.includes('24 SEP') || d.includes('23 SEP') || d.includes('HOY') || d.includes('AYER')) return true;
-  if (article.dateIso && (article.dateIso.startsWith('2026-09-24') || article.dateIso.startsWith('2026-09-23'))) return true;
+  if (d.includes('25 SEP') || d.includes('24 SEP') || d.includes('23 SEP') || d.includes('HOY') || d.includes('AYER')) return true;
+  if (article.dateIso && (article.dateIso.startsWith('2026-09-25') || article.dateIso.startsWith('2026-09-24') || article.dateIso.startsWith('2026-09-23'))) return true;
   return false;
 }
 

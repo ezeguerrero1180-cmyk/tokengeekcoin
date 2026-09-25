@@ -1,5 +1,67 @@
 [
   {
+    "slug": "comics-series/dc-new-york-comic-con-2026-paneles-exclusivos",
+    "category": "CÓMICS + SERIES",
+    "date": "25 SEP 2026",
+    "dateIso": "2026-09-25T13:30:00-03:00",
+    "minutes": 8,
+    "title": "DC prepara un NYCC 2026 gigante: Absolute, Vertigo y Jim Lee con la caja de sorpresas lista",
+    "dek": "La editorial confirmó paneles, firmas, exclusivos y una presencia ampliada en New York Comic Con, que se realizará del 8 al 11 de octubre.",
+    "personalAngle": "Las convenciones valen por los anuncios, sí, pero también por esa sensación de estar a dos pasillos de una portada que todavía no existe. DC parece querer recuperar justamente eso.",
+    "leadEyebrow": "EL CALENDARIO EMPIEZA A PICAR",
+    "leadTitle": "Paneles, variantes y una fila digital: así planea DC ocupar New York Comic Con",
+    "image": "https://static.dc.com/2026-09/NYCC_3000_1000.jpg?w=1200",
+    "imageAlt": "Banner oficial de DC para New York Comic Con 2026",
+    "imageCredit": "DC",
+    "body": [
+      "New York Comic Con todavía está a un par de semanas, pero DC ya dejó la puerta entreabierta para que se escape el olor a tinta, foil y novedades. La editorial confirmó una presencia ampliada para el evento, que se realizará del 8 al 11 de octubre, con un stand de varios niveles, paneles editoriales, firmas y una zona de fotos cosplay en 360 grados.",
+      "El corazón de la programación está donde tenía que estar: Absolute Universe, DC Next Level, Vertigo y Black Label. El viernes habrá un panel de Absolute con avances y anuncios; el sábado, Next Level & Beyond y el clásico Jim Lee & Friends, que vuelve a venderse como el lugar para las revelaciones sorpresa.",
+      "También habrá una parada para los Teen Titans de Kami Garcia y Gabriel Picolo, además de firmas de Scott Snyder, Nick Dragotta, Matt Fraction, Joshua Williamson, Hayden Sherman y el propio Jim Lee. Para ordenar el caos, DC suma filas digitales en algunas actividades del stand.",
+      "En materia de coleccionables, la editorial llevará variantes foil de Absolute Batman, Absolute Wonder Woman, Absolute Superman, Absolute Catwoman y Absolute Green Arrow, entre otras. También anticipó tomos exclusivos, productos de DC Shop y novedades vinculadas a Clayface, LEGO Batman, DC Universe Online y Mattel DC Collector.",
+      "Lo más interesante no es una tapa brillante aislada. Es que DC está usando el evento para conectar sus líneas: el universo Absolute, nuevas series Next Level, el regreso de Vertigo y su calendario audiovisual comparten espacio. Ojalá los anuncios estén a la altura de esa ambición."
+    ],
+    "features": [
+      {
+        "title": "El universo Absolute se queda con el escenario del viernes",
+        "eyebrow": "ANUNCIOS Y PRIMEROS VISTAZOS",
+        "facts": "ABSOLUTE · PANEL · 9 DE OCTUBRE",
+        "image": "https://static.dc.com/2026-09/ABS_SM_Cv1_2026NYCC-FOIL.jpg",
+        "alt": "Portada foil exclusiva de Absolute Superman para New York Comic Con 2026",
+        "imageCredit": "DC",
+        "body": [
+          "DC reservó un panel específico para Absolute Universe, con autores y artistas de la línea para adelantar el futuro de sus títulos.",
+          "Después de meses de expansión, la convención puede ser el lugar donde se vea hacia dónde va el próximo gran arco."
+        ]
+      },
+      {
+        "title": "Los exclusivos vuelven a ser parte del espectáculo",
+        "eyebrow": "FOIL, TOMOS Y FILAS",
+        "facts": "VARIANTES · DC SHOP · COLECCIÓN",
+        "image": "https://static.dc.com/2026-09/DC-NYCC-Exclusives-2026m-28.jpg",
+        "alt": "Selección de cómics y variantes exclusivas de DC para New York Comic Con 2026",
+        "imageCredit": "DC",
+        "body": [
+          "Las tapas exclusivas y los productos limitados son parte del atractivo, pero DC acompaña el despliegue con una fila digital para algunas firmas y actividades.",
+          "Para quien viaje al evento, conviene mirar las reglas y horarios antes de armar una ruta de compras como si fuera un mapa de Gotham."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "DC — programación oficial de New York Comic Con 2026",
+        "url": "https://www.dc.com/blog/2026-09-16/dc-unveils-lineup-for-new-york-comic-con-2026"
+      },
+      {
+        "name": "New York Comic Con — fechas y planificación oficial",
+        "url": "https://www.newyorkcomiccon.com/en-us/plan-your-show.html"
+      },
+      {
+        "name": "DC — expansión de la línea Next Level",
+        "url": "https://www.dc.com/blog/2026-06-17/dc-announces-three-new-next-level-comic-book-series"
+      }
+    ]
+  },
+  {
     "slug": "gaming/mejores-juegos-septiembre-2026",
     "category": "GAMING",
     "date": "25 AGO 2026",

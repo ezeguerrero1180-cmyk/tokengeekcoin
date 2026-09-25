@@ -251,6 +251,14 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
             {article.dek}
           </p>
 
+          {article.personalAngle && (
+            <div
+              className="p-3 mb-6 text-sm font-sans italic border-l-4 border-[var(--mg-orange)] bg-[#17102b] text-[#ded7ef]"
+            >
+              💬 <strong>Nota del editor:</strong> {article.personalAngle}
+            </div>
+          )}
+
           <div className="flex flex-wrap items-center gap-4 text-xs font-sans" style={{ color: 'var(--mg-acid)' }}>
             <span className="flex items-center gap-1.5 font-bold">
               <Calendar className="w-3.5 h-3.5" />

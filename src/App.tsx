@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useCallback } from 'react';
 import rawArticles from './data/articlesData.json';
 import { Article } from './types/article';
 import { isNewPublication, sortArticlesTodayFirst } from './utils/articleUtils';
@@ -12,9 +12,89 @@ import { StoryCard } from './components/ArticleCard';
 import { ArticleReaderModal } from './components/ArticleReaderModal';
 import { Footer } from './components/Footer';
 import { SiteImage } from './components/SiteImage';
+import { OfertasPage } from './components/OfertasPage';
+import { ComparadoresPage } from './components/ComparadoresPage';
+
+export type AppView = 'home' | 'ofertas' | 'comparadores';
+
+const getViewFromUrl = (): AppView => {
+  if (typeof window === 'undefined') return 'home';
+  const path = window.location.pathname.toLowerCase();
+  const hash = window.location.hash.toLowerCase();
+
+  if (
+    path === '/ofertas' ||
+    path === '/ofertas/' ||
+    hash === '#ofertas' ||
+    hash.startsWith('#/ofertas')
+  ) {
+    return 'ofertas';
+  }
+
+  if (
+    path === '/comparadores' ||
+    path === '/comparadores/' ||
+    hash === '#comparadores' ||
+    hash.startsWith('#/comparadores')
+  ) {
+    return 'comparadores';
+  }
+
+  return 'home';
+};
 
 export default function App() {
+  const [currentView, setCurrentView] = useState<AppView>(getViewFromUrl);
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
+
+  // Sync with browser back/forward buttons & hash changes
+  useEffect(() => {
+    // Ensure Google AdSense script is active in head
+    const adsenseSrc = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2403075217116144';
+    if (!document.querySelector(`script[src*="ca-pub-2403075217116144"]`)) {
+      const script = document.createElement('script');
+      script.src = adsenseSrc;
+      script.async = true;
+      script.crossOrigin = 'anonymous';
+      document.head.appendChild(script);
+    }
+
+    const handleLocationChange = () => {
+      setCurrentView(getViewFromUrl());
+    };
+
+    window.addEventListener('popstate', handleLocationChange);
+    window.addEventListener('hashchange', handleLocationChange);
+    return () => {
+      window.removeEventListener('popstate', handleLocationChange);
+      window.removeEventListener('hashchange', handleLocationChange);
+    };
+  }, []);
+
+  const navigateTo = useCallback((view: AppView, hash?: string) => {
+    setCurrentView(view);
+    if (view === 'ofertas') {
+      window.history.pushState(null, '', '/ofertas');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (view === 'comparadores') {
+      window.history.pushState(null, '', '/comparadores');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      window.history.pushState(null, '', hash || '/');
+      if (hash) {
+        setTimeout(() => {
+          const el = document.querySelector(hash);
+          if (el) {
+            el.scrollIntoView({ behavior: 'smooth' });
+            return;
+          }
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 50);
+      } else {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+  }, []);
 
   // All articles sorted with today's first
   const allArticles: Article[] = useMemo(() => {
@@ -48,263 +128,337 @@ export default function App() {
 
   return (
     <>
-      <main className="classic-home">
-        {/* Header exacto del modelo original */}
-        <Header />
+      {/* Header presente en todas las vistas */}
+      <Header onNavigate={navigateTo} currentView={currentView} />
 
-        {/* Portada banner */}
-        <section className="classic-banner" aria-label="Portada TokenGeekCoin">
-          <SiteImage
-            src="/channel-banner.webp"
-            alt="TokenGeekCoin: gaming, inversiones, tecnología y cómics"
-            priority
-          />
-          <div className="classic-banner-shade" />
-          <a className="classic-banner-button" href="#noticias">
-            Explorar noticias <span>→</span>
-          </a>
-        </section>
+      {currentView === 'ofertas' && (
+        <main className="classic-home">
+          <OfertasPage onBackToHome={() => navigateTo('home')} />
+        </main>
+      )}
 
-        {/* Intro con Curiosidad en modo ON */}
-        <section className="classic-intro">
-          <div className="classic-intro-copy">
-            <p className="classic-kicker">GAMING · FINANZAS · TECNOLOGÍA · CULTURA GEEK</p>
-            <h1>
-              Curiosidad en
-              <br />
-              <em>modo ON.</em>
-            </h1>
-            <p className="classic-lead">
-              Un espacio personal para entender el multiverso digital, descubrir historias y tomar
-              mejores decisiones sin apagar la pasión geek.
-            </p>
-            <div className="classic-actions">
-              <a className="classic-button" href="#noticias">
-                Explorar noticias
-              </a>
-              <a className="classic-link" href="#territorios">
-                Ver Ofertas Geek →
-              </a>
-            </div>
-          </div>
-          <div className="classic-orbit" aria-hidden="true">
-            <span className="classic-orbit-ring" />
-            <span className="classic-orbit-core">T.</span>
-            <span className="classic-orbit-chip chip-one">XP</span>
-            <span className="classic-orbit-chip chip-two">₿</span>
-            <span className="classic-orbit-chip chip-three">AI</span>
-          </div>
-        </section>
+      {currentView === 'comparadores' && (
+        <main className="classic-home">
+          <ComparadoresPage onBackToHome={() => navigateTo('home')} />
+        </main>
+      )}
 
-        {/* Marquee ticker */}
-        <div className="classic-marquee" aria-hidden="true">
-          <div className="classic-marquee-track">
-            <span>
-              JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
-            </span>
-            <span>
-              JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
-            </span>
-          </div>
-        </div>
-
-        {/* LO ÚLTIMO: Publicaciones nuevas como se muestran */}
-        <section className="classic-section classic-latest" id="noticias">
-          <div className="classic-section-heading">
-            <div>
-              <p className="classic-kicker">LO ÚLTIMO</p>
-              <h2>Explorar noticias</h2>
-            </div>
-            <a className="classic-link" href="#noticias">
-              Ver todas →
+      {currentView === 'home' && (
+        <main className="classic-home">
+          {/* Portada banner */}
+          <section className="classic-banner" aria-label="Portada TokenGeekCoin">
+            <SiteImage
+              src="/channel-banner.webp"
+              alt="TokenGeekCoin: gaming, inversiones, tecnología y cómics"
+              priority
+            />
+            <div className="classic-banner-shade" />
+            <a
+              className="classic-banner-button cursor-pointer"
+              href="/#noticias"
+              onClick={(e) => {
+                e.preventDefault();
+                navigateTo('home', '#noticias');
+              }}
+            >
+              Explorar noticias <span>→</span>
             </a>
+          </section>
+
+          {/* Intro con Curiosidad en modo ON */}
+          <section className="classic-intro">
+            <div className="classic-intro-copy">
+              <p className="classic-kicker">GAMING · FINANZAS · TECNOLOGÍA · CULTURA GEEK</p>
+              <h1>
+                Curiosidad en
+                <br />
+                <em>modo ON.</em>
+              </h1>
+              <p className="classic-lead">
+                Un espacio personal para entender el multiverso digital, descubrir historias y tomar
+                mejores decisiones sin apagar la pasión geek.
+              </p>
+              <div className="classic-actions">
+                <a
+                  className="classic-button cursor-pointer"
+                  href="/#noticias"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigateTo('home', '#noticias');
+                  }}
+                >
+                  Explorar noticias
+                </a>
+                <a
+                  className="classic-link cursor-pointer"
+                  href="/ofertas"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigateTo('ofertas');
+                  }}
+                >
+                  Ver Ofertas Geek →
+                </a>
+              </div>
+            </div>
+            <div className="classic-orbit" aria-hidden="true">
+              <span className="classic-orbit-ring" />
+              <span className="classic-orbit-core">T.</span>
+              <span className="classic-orbit-chip chip-one">XP</span>
+              <span className="classic-orbit-chip chip-two">₿</span>
+              <span className="classic-orbit-chip chip-three">AI</span>
+            </div>
+          </section>
+
+          {/* Marquee ticker */}
+          <div className="classic-marquee" aria-hidden="true">
+            <div className="classic-marquee-track">
+              <span>
+                JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
+              </span>
+              <span>
+                JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
+              </span>
+            </div>
           </div>
 
-          {leadArticle && (
-            <div className="classic-lead-story">
-              <div
-                className="classic-lead-image cursor-pointer"
-                onClick={() => setSelectedArticle(leadArticle)}
-              >
-                <SiteImage
-                  src={leadArticle.image}
-                  alt={leadArticle.imageAlt || leadArticle.title}
-                  priority={true}
-                />
+          {/* LO ÚLTIMO: Publicaciones nuevas como se muestran */}
+          <section className="classic-section classic-latest" id="noticias">
+            <div className="classic-section-heading">
+              <div>
+                <p className="classic-kicker">LO ÚLTIMO</p>
+                <h2>Explorar noticias</h2>
               </div>
-              <div className="classic-lead-copy">
-                <p className="classic-kicker">NUEVA · {leadArticle.category}</p>
-                <h3>
-                  <a
-                    href={`#${leadArticle.slug}`}
-                    onClick={(e) => {
-                      e.preventDefault();
-                      setSelectedArticle(leadArticle);
-                    }}
-                  >
-                    {leadArticle.title}
-                  </a>
-                </h3>
-                <p>{leadArticle.dek}</p>
-                <span>
-                  {leadArticle.date} · {leadArticle.minutes} min de lectura
-                </span>
-                <button
-                  className="classic-button cursor-pointer"
+              <a
+                className="classic-link cursor-pointer"
+                href="/#noticias"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('home', '#noticias');
+                }}
+              >
+                Ver todas →
+              </a>
+            </div>
+
+            {leadArticle && (
+              <div className="classic-lead-story">
+                <div
+                  className="classic-lead-image cursor-pointer"
                   onClick={() => setSelectedArticle(leadArticle)}
                 >
-                  Leer la noticia
-                </button>
-              </div>
-            </div>
-          )}
-
-          <div className="classic-story-grid">
-            {companionArticles.map((article) => (
-              <StoryCard
-                key={article.slug}
-                article={article}
-                onSelect={setSelectedArticle}
-              />
-            ))}
-          </div>
-        </section>
-
-        {/* Mis territorios */}
-        <section className="classic-section classic-territories" id="territorios">
-          <div className="classic-section-heading">
-            <div>
-              <p className="classic-kicker">CUATRO PUNTOS, UN MISMO UNIVERSO</p>
-              <h2>Mis territorios</h2>
-            </div>
-          </div>
-          <div className="classic-topic-grid">
-            <a href="#noticias">
-              <span>01</span>
-              <h3>
-                Tecnología
-                <br />
-                & IA
-              </h3>
-              <p>Herramientas, futuro y cambios que ya están ocurriendo.</p>
-            </a>
-            <a href="#noticias">
-              <span>02</span>
-              <h3>Gaming</h3>
-              <p>Lanzamientos, análisis y decisiones de compra.</p>
-            </a>
-            <a href="#noticias">
-              <span>03</span>
-              <h3>
-                Finanzas
-                <br />
-                & cripto
-              </h3>
-              <p>Mercados y hábitos explicados sin humo.</p>
-            </a>
-            <a href="#noticias">
-              <span>04</span>
-              <h3>
-                Cómics
-                <br />
-                & series
-              </h3>
-              <p>Historias, personajes y universos que vale explorar.</p>
-            </a>
-          </div>
-        </section>
-
-        {/* Portales destacados */}
-        <section className="classic-section classic-world-section" id="portales">
-          <div className="classic-section-heading">
-            <div>
-              <p className="classic-kicker">PORTALES DESTACADOS</p>
-              <h2>La última noticia de cada mundo</h2>
-            </div>
-            <a className="classic-link" href="#noticias">
-              Ver todas →
-            </a>
-          </div>
-          <div className="classic-world-grid">
-            {worlds.map((world) => (
-              <article className={`classic-world ${world.tone}`} key={world.category}>
-                <div
-                  className="classic-world-media cursor-pointer"
-                  onClick={() => setSelectedArticle(world.article)}
-                >
                   <SiteImage
-                    src={world.article.image}
-                    alt={world.article.imageAlt || world.article.title}
+                    src={leadArticle.image}
+                    alt={leadArticle.imageAlt || leadArticle.title}
+                    priority={true}
                   />
-                  <span>Última noticia</span>
                 </div>
-                <div>
-                  <p className="classic-kicker">{world.category}</p>
+                <div className="classic-lead-copy">
+                  <p className="classic-kicker">NUEVA · {leadArticle.category}</p>
                   <h3>
                     <a
-                      href={`#${world.article.slug}`}
+                      href={`#${leadArticle.slug}`}
                       onClick={(e) => {
                         e.preventDefault();
-                        setSelectedArticle(world.article);
+                        setSelectedArticle(leadArticle);
                       }}
                     >
-                      {world.article.title}
+                      {leadArticle.title}
                     </a>
                   </h3>
-                  <p>{world.article.dek}</p>
-                  <div className="classic-world-footer">
-                    <span>
-                      {world.article.date} · {world.article.minutes} min
-                    </span>
-                    <button
-                      className="classic-link cursor-pointer"
-                      onClick={() => setSelectedArticle(world.article)}
-                    >
-                      Leer ahora →
-                    </button>
-                  </div>
+                  <p>{leadArticle.dek}</p>
+                  <span>
+                    {leadArticle.date} · {leadArticle.minutes} min de lectura
+                  </span>
+                  <button
+                    className="classic-button cursor-pointer"
+                    onClick={() => setSelectedArticle(leadArticle)}
+                  >
+                    Leer la noticia
+                  </button>
                 </div>
-              </article>
-            ))}
-          </div>
-        </section>
+              </div>
+            )}
 
-        {/* Sobre mí */}
-        <section className="classic-about" id="sobre-mi">
-          <div>
-            <p className="classic-kicker">EL HUMANO DETRÁS DE LA PANTALLA</p>
-            <h2>
-              Abogado de profesión,
-              <br />
-              <em>geek por elección.</em>
-            </h2>
-          </div>
-          <div>
-            <p>
-              Soy Ezequiel Guerrero. Escribo desde Jujuy sobre tecnología, mercados, videojuegos,
-              cómics y las ideas que conectan esos mundos.
-            </p>
-            <div className="classic-socials">
+            <div className="classic-story-grid">
+              {companionArticles.map((article) => (
+                <StoryCard
+                  key={article.slug}
+                  article={article}
+                  onSelect={setSelectedArticle}
+                />
+              ))}
+            </div>
+          </section>
+
+          {/* Mis territorios */}
+          <section className="classic-section classic-territories" id="territorios">
+            <div className="classic-section-heading">
+              <div>
+                <p className="classic-kicker">CUATRO PUNTOS, UN MISMO UNIVERSO</p>
+                <h2>Mis territorios</h2>
+              </div>
+            </div>
+            <div className="classic-topic-grid">
               <a
-                href="https://www.linkedin.com/in/eze-guerrero-06585142b/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/#noticias"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('home', '#noticias');
+                }}
               >
-                Seguir en LinkedIn ↗
+                <span>01</span>
+                <h3>
+                  Tecnología
+                  <br />
+                  & IA
+                </h3>
+                <p>Herramientas, futuro y cambios que ya están ocurriendo.</p>
               </a>
               <a
-                href="https://www.youtube.com/@eztec3/videos?sub_confirmation=1"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/ofertas"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('ofertas');
+                }}
               >
-                Suscribirse en YouTube ↗
+                <span>02</span>
+                <h3>Gaming</h3>
+                <p>Lanzamientos, ofertas en hardware y decisiones de compra.</p>
+              </a>
+              <a
+                href="/comparadores"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('comparadores');
+                }}
+              >
+                <span>03</span>
+                <h3>
+                  Finanzas
+                  <br />
+                  & cripto
+                </h3>
+                <p>Mercados, comparadores y hábitos explicados sin humo.</p>
+              </a>
+              <a
+                href="/#noticias"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('home', '#noticias');
+                }}
+              >
+                <span>04</span>
+                <h3>
+                  Cómics
+                  <br />
+                  & series
+                </h3>
+                <p>Historias, personajes y universos que vale explorar.</p>
               </a>
             </div>
-          </div>
-        </section>
-      </main>
+          </section>
 
-      <Footer />
+          {/* Portales destacados */}
+          <section className="classic-section classic-world-section" id="portales">
+            <div className="classic-section-heading">
+              <div>
+                <p className="classic-kicker">PORTALES DESTACADOS</p>
+                <h2>La última noticia de cada mundo</h2>
+              </div>
+              <a
+                className="classic-link cursor-pointer"
+                href="/#noticias"
+                onClick={(e) => {
+                  e.preventDefault();
+                  navigateTo('home', '#noticias');
+                }}
+              >
+                Ver todas →
+              </a>
+            </div>
+            <div className="classic-world-grid">
+              {worlds.map((world) => (
+                <article className={`classic-world ${world.tone}`} key={world.category}>
+                  <div
+                    className="classic-world-media cursor-pointer"
+                    onClick={() => setSelectedArticle(world.article)}
+                  >
+                    <SiteImage
+                      src={world.article.image}
+                      alt={world.article.imageAlt || world.article.title}
+                    />
+                    <span>Última noticia</span>
+                  </div>
+                  <div>
+                    <p className="classic-kicker">{world.category}</p>
+                    <h3>
+                      <a
+                        href={`#${world.article.slug}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setSelectedArticle(world.article);
+                        }}
+                      >
+                        {world.article.title}
+                      </a>
+                    </h3>
+                    <p>{world.article.dek}</p>
+                    <div className="classic-world-footer">
+                      <span>
+                        {world.article.date} · {world.article.minutes} min
+                      </span>
+                      <button
+                        className="classic-link cursor-pointer"
+                        onClick={() => setSelectedArticle(world.article)}
+                      >
+                        Leer ahora →
+                      </button>
+                    </div>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          {/* Sobre mí */}
+          <section className="classic-about" id="sobre-mi">
+            <div>
+              <p className="classic-kicker">EL HUMANO DETRÁS DE LA PANTALLA</p>
+              <h2>
+                Abogado de profesión,
+                <br />
+                <em>geek por elección.</em>
+              </h2>
+            </div>
+            <div>
+              <p>
+                Soy Ezequiel Guerrero. Escribo desde Jujuy sobre tecnología, mercados, videojuegos,
+                cómics y las ideas que conectan esos mundos.
+              </p>
+              <div className="classic-socials">
+                <a
+                  href="https://www.linkedin.com/in/eze-guerrero-06585142b/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Seguir en LinkedIn ↗
+                </a>
+                <a
+                  href="https://www.youtube.com/@eztec3/videos?sub_confirmation=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Suscribirse en YouTube ↗
+                </a>
+              </div>
+            </div>
+          </section>
+        </main>
+      )}
+
+      {/* Footer presente en todas las vistas */}
+      <Footer onNavigate={navigateTo} />
 
       {/* Visor modal para lectura de artículos */}
       <ArticleReaderModal

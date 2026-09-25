@@ -6,12 +6,25 @@ const distDir = path.resolve('dist');
 const clientDir = path.join(distDir, 'client');
 const serverDir = path.join(distDir, 'server');
 
-// 1. Create dist/client if not existing
+// 1. Create static fallback HTML files for direct route access
+const indexHtmlPath = path.join(distDir, 'index.html');
+if (fs.existsSync(indexHtmlPath)) {
+  const routes = ['ofertas', 'comparadores'];
+  for (const route of routes) {
+    const routeDir = path.join(distDir, route);
+    if (!fs.existsSync(routeDir)) {
+      fs.mkdirSync(routeDir, { recursive: true });
+    }
+    fs.copyFileSync(indexHtmlPath, path.join(routeDir, 'index.html'));
+  }
+}
+
+// 2. Create dist/client if not existing
 if (!fs.existsSync(clientDir)) {
   fs.mkdirSync(clientDir, { recursive: true });
 }
 
-// 2. Copy static files into dist/client for compatibility with setups expecting ./dist/client
+// 3. Copy static files into dist/client for compatibility with setups expecting ./dist/client
 const items = fs.readdirSync(distDir);
 for (const item of items) {
   if (item === 'client' || item === 'server') continue;
@@ -20,7 +33,7 @@ for (const item of items) {
   fs.cpSync(src, dest, { recursive: true });
 }
 
-// 3. Ensure worker bundle exists in dist/server/index.js
+// 4. Ensure worker bundle exists in dist/server/index.js
 if (!fs.existsSync(serverDir)) {
   fs.mkdirSync(serverDir, { recursive: true });
 }

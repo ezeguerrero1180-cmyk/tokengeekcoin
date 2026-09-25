@@ -139,12 +139,17 @@ footer:not(.article-sources) a:hover{color:var(--mg-acid)}
 .offer-card{display:flex;flex-direction:column}.offer-card>p:not(.eyebrow){min-height:0;flex:1}
 .trust{padding:55px;background:var(--mg-ink);color:var(--mg-white);border-left:15px solid var(--mg-acid)}
 .trust h2{font-size:4.5rem;font-style:italic}.trust p{border-color:var(--mg-purple);color:var(--mg-muted)}
-.comparison{border:5px solid var(--mg-ink);box-shadow:14px 14px 0 var(--mg-purple)}
-.comparison-head{background:linear-gradient(105deg,var(--mg-purple),var(--mg-purple-dark));border-bottom:8px solid var(--mg-orange)}
-.comparison-head h2{font-size:4rem;font-style:italic}
-.compare-row.head{background:var(--mg-acid)}
-.compare-row>*{border-color:var(--mg-ink)}
-.compare-actions{background:var(--mg-orange);gap:4px}.compare-actions button{font-family:var(--mg-mono)}
+.comparison{border:3px solid #372856;box-shadow:12px 12px 0 var(--mg-purple);background:#0d0818;color:#fffdf8}
+.comparison-head{background:linear-gradient(105deg,#1f143a 0%,#2b1852 100%);border-bottom:6px solid var(--mg-orange)}
+.comparison-head h2{font-size:4rem;font-style:italic;color:#ffffff!important}
+.compare-row.head{background:var(--mg-acid)!important}
+.compare-row.head>*{color:var(--mg-ink)!important}
+.compare-row:not(.head){background:#110c1e!important;border-bottom:1px solid #2b1e47!important}
+.compare-row:not(.head):nth-child(even){background:#17102b!important}
+.compare-row:not(.head) :is(h1,h2,h3,h4,p,li,label,strong,a,span,div){color:#f1edfa!important}
+.compare-row:not(.head)>div:first-child{color:var(--mg-acid)!important;font-weight:800!important}
+.compare-row>*{border-color:#2b1e47}
+.compare-actions{background:#0d0818;gap:12px}
 .mini-grid article{border-top:8px solid var(--mg-purple);background:var(--mg-white);padding:25px;box-shadow:7px 7px 0 var(--mg-orange)}
 .legal{max-width:none;padding:90px max(24px,12vw);border-top:10px solid var(--mg-purple);border-bottom:10px solid var(--mg-orange)}
 .legal:before{content:"TOKENGEEKCOIN";display:block;margin-bottom:35px;color:var(--mg-purple);font:800 .75rem var(--mg-mono);letter-spacing:.16em}

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { OFFERS_DATA, OfferItem, AMAZON_REFERRAL_TAG } from '../data/offersData';
+import { AdSenseUnit } from './AdSenseUnit';
 
 interface OfertasPageProps {
   onBackToHome?: () => void;
@@ -55,6 +56,9 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
             </div>
           </div>
         </aside>
+
+        {/* Espacio publicitario AdSense */}
+        <AdSenseUnit label="PUBLICIDAD — OFERTAS PATROCINADAS" className="my-8" />
 
         {/* Barra de Filtros */}
         <div className="filter-row" style={{ marginTop: '36px', marginBottom: '32px' }}>
@@ -172,6 +176,9 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
             </div>
           </div>
         </section>
+
+        {/* Espacio publicitario inferior AdSense */}
+        <AdSenseUnit label="PUBLICIDAD RECOMENDADA" className="my-10" />
 
         {onBackToHome && (
           <div style={{ textAlign: 'center', marginTop: '48px' }}>

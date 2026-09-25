@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPARISONS_DATA, AMAZON_REFERRAL_TAG } from '../data/comparisonsData';
+import { AdSenseUnit } from './AdSenseUnit';
 
 interface ComparadoresPageProps {
   onBackToHome?: () => void;
@@ -92,6 +93,9 @@ export const ComparadoresPage: React.FC<ComparadoresPageProps> = ({ onBackToHome
             </div>
           </div>
         </aside>
+
+        {/* Espacio publicitario AdSense */}
+        <AdSenseUnit label="PUBLICIDAD — GOOGLE ADSENSE" className="my-8" />
 
         {/* Lista de Comparadores con Fondo Oscuro de Alto Contraste */}
         <div style={{ display: 'grid', gap: '64px', marginTop: '40px' }}>
@@ -517,6 +521,9 @@ export const ComparadoresPage: React.FC<ComparadoresPageProps> = ({ onBackToHome
             </section>
           ))}
         </div>
+
+        {/* Espacio publicitario inferior AdSense */}
+        <AdSenseUnit label="PUBLICIDAD RECOMENDADA" className="my-10" />
 
         {onBackToHome && (
           <div style={{ textAlign: 'center', marginTop: '64px' }}>

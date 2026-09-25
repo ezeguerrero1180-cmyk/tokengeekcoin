@@ -96,35 +96,75 @@ export default function App() {
     }
   }, []);
 
+  // State for active category clicked in "Mi Universo"
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
   // All articles sorted with today's first
   const allArticles: Article[] = useMemo(() => {
     return sortArticlesTodayFirst(rawArticles as Article[]);
   }, []);
 
-  // ONLY NEW PUBLICATIONS (today & yesterday's news)
+  // ONLY NEW PUBLICATIONS (today's news - 25 SEP 2026)
   const newArticles: Article[] = useMemo(() => {
     return allArticles.filter(isNewPublication);
   }, [allArticles]);
 
   const leadArticle: Article = newArticles[0] || allArticles[0];
-  const companionArticles: Article[] = newArticles.slice(1);
+  const companionArticles: Article[] = newArticles.slice(1, 4);
 
-  // The 4 distinct portals
-  const worlds = useMemo(() => {
-    const portals = [
-      { category: 'TECNOLOGÍA + IA', tone: 'tech' },
-      { category: 'GAMING', tone: 'violet' },
-      { category: 'FINANZAS + CRIPTO', tone: 'acid' },
-      { category: 'CÓMICS + SERIES', tone: 'orange' },
-    ];
-    return portals.map((portal) => ({
-      ...portal,
-      article:
-        newArticles.find((a) => a.category === portal.category) ||
-        allArticles.find((a) => a.category === portal.category) ||
-        allArticles[0],
+  // Metadata for the 4 categories in "Mi Universo"
+  const categoriesMeta = useMemo(() => {
+    return [
+      {
+        id: 'TECNOLOGÍA + IA',
+        num: '01',
+        title: 'Tecnología & IA',
+        desc: 'Herramientas, modelos de IA, novedades y cambios que ya están ocurriendo.',
+      },
+      {
+        id: 'GAMING',
+        num: '02',
+        title: 'Gaming',
+        desc: 'Lanzamientos, análisis, consolas, hardware y decisiones de compra.',
+      },
+      {
+        id: 'FINANZAS + CRIPTO',
+        num: '03',
+        title: 'Finanzas & Cripto',
+        desc: 'Mercados, Bitcoin, ETF, tasas de interés y hábitos explicados sin humo.',
+      },
+      {
+        id: 'CÓMICS + SERIES',
+        num: '04',
+        title: 'Cómics & Series',
+        desc: 'Historias, universos cinematográficos, adaptaciones y novelas gráficas.',
+      },
+    ].map((cat) => ({
+      ...cat,
+      count: allArticles.filter((a) => a.category === cat.id).length,
     }));
-  }, [newArticles, allArticles]);
+  }, [allArticles]);
+
+  // Articles filtered when a category is selected in "Mi Universo"
+  const categoryArticles: Article[] = useMemo(() => {
+    if (!activeCategory) return [];
+    return allArticles.filter((a) => a.category === activeCategory);
+  }, [allArticles, activeCategory]);
+
+  const handleCategoryClick = useCallback((categoryId: string) => {
+    setActiveCategory((prev) => {
+      if (prev === categoryId) {
+        return null;
+      }
+      setTimeout(() => {
+        const el = document.getElementById('categoria-noticias');
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 60);
+      return categoryId;
+    });
+  }, []);
 
   return (
     <>
@@ -145,100 +185,18 @@ export default function App() {
 
       {currentView === 'home' && (
         <main className="classic-home">
-          {/* Portada banner */}
-          <section className="classic-banner" aria-label="Portada TokenGeekCoin">
-            <SiteImage
-              src="/channel-banner.webp"
-              alt="TokenGeekCoin: gaming, inversiones, tecnología y cómics"
-              priority
-            />
-            <div className="classic-banner-shade" />
-            <a
-              className="classic-banner-button cursor-pointer"
-              href="/#noticias"
-              onClick={(e) => {
-                e.preventDefault();
-                navigateTo('home', '#noticias');
-              }}
-            >
-              Explorar noticias <span>→</span>
-            </a>
-          </section>
-
-          {/* Intro con Curiosidad en modo ON */}
-          <section className="classic-intro">
-            <div className="classic-intro-copy">
-              <p className="classic-kicker">GAMING · FINANZAS · TECNOLOGÍA · CULTURA GEEK</p>
-              <h1>
-                Curiosidad en
-                <br />
-                <em>modo ON.</em>
-              </h1>
-              <p className="classic-lead">
-                Un espacio personal para entender el multiverso digital, descubrir historias y tomar
-                mejores decisiones sin apagar la pasión geek.
-              </p>
-              <div className="classic-actions">
-                <a
-                  className="classic-button cursor-pointer"
-                  href="/#noticias"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigateTo('home', '#noticias');
-                  }}
-                >
-                  Explorar noticias
-                </a>
-                <a
-                  className="classic-link cursor-pointer"
-                  href="/ofertas"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    navigateTo('ofertas');
-                  }}
-                >
-                  Ver Ofertas Geek →
-                </a>
-              </div>
-            </div>
-            <div className="classic-orbit" aria-hidden="true">
-              <span className="classic-orbit-ring" />
-              <span className="classic-orbit-core">T.</span>
-              <span className="classic-orbit-chip chip-one">XP</span>
-              <span className="classic-orbit-chip chip-two">₿</span>
-              <span className="classic-orbit-chip chip-three">AI</span>
-            </div>
-          </section>
-
-          {/* Marquee ticker */}
-          <div className="classic-marquee" aria-hidden="true">
-            <div className="classic-marquee-track">
-              <span>
-                JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
-              </span>
-              <span>
-                JUGAR · APRENDER · INVERTIR · IMAGINAR · JUGAR · APRENDER · INVERTIR · IMAGINAR ·&nbsp;
-              </span>
-            </div>
-          </div>
-
-          {/* LO ÚLTIMO: Publicaciones nuevas como se muestran */}
-          <section className="classic-section classic-latest" id="noticias">
+          {/* LO ÚLTIMO ARRIBA: Publicaciones del día en portada principal */}
+          <section className="classic-section classic-latest" id="noticias" style={{ paddingTop: '42px' }}>
             <div className="classic-section-heading">
               <div>
-                <p className="classic-kicker">LO ÚLTIMO</p>
-                <h2>Explorar noticias</h2>
+                <p className="classic-kicker">LO ÚLTIMO · NOTICIAS DE HOY</p>
+                <h2>Últimas noticias</h2>
               </div>
-              <a
-                className="classic-link cursor-pointer"
-                href="/#noticias"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('home', '#noticias');
-                }}
-              >
-                Ver todas →
-              </a>
+              <div className="flex items-center gap-3">
+                <span className="text-xs uppercase font-mono tracking-widest text-[#a8a29e] hidden sm:inline">
+                  25 SEP 2026 · {newArticles.length} publicaciones de hoy
+                </span>
+              </div>
             </div>
 
             {leadArticle && (
@@ -254,7 +212,7 @@ export default function App() {
                   />
                 </div>
                 <div className="classic-lead-copy">
-                  <p className="classic-kicker">NUEVA · {leadArticle.category}</p>
+                  <p className="classic-kicker">HOY · {leadArticle.category}</p>
                   <h3>
                     <a
                       href={`#${leadArticle.slug}`}
@@ -274,7 +232,7 @@ export default function App() {
                     className="classic-button cursor-pointer"
                     onClick={() => setSelectedArticle(leadArticle)}
                   >
-                    Leer la noticia
+                    Leer la noticia →
                   </button>
                 </div>
               </div>
@@ -291,135 +249,91 @@ export default function App() {
             </div>
           </section>
 
-          {/* Mis territorios */}
-          <section className="classic-section classic-territories" id="territorios">
+          {/* MI UNIVERSO: Accesos a las cuatro categorías temáticas */}
+          <section className="classic-section classic-territories" id="mi-universo">
             <div className="classic-section-heading">
               <div>
                 <p className="classic-kicker">CUATRO PUNTOS, UN MISMO UNIVERSO</p>
-                <h2>Mis territorios</h2>
+                <h2>Mi universo</h2>
+                <p style={{ marginTop: '10px', color: 'rgba(255,255,255,0.88)', maxWidth: '640px', lineHeight: 1.5 }}>
+                  Haz clic en cualquiera de las cuatro ramas para desplegar y consultar todas sus noticias.
+                </p>
               </div>
+              {activeCategory && (
+                <button
+                  className="classic-button cursor-pointer"
+                  onClick={() => setActiveCategory(null)}
+                  style={{ background: '#1c1917', color: '#f5f5f4', border: '1px solid #78716c' }}
+                >
+                  ✕ Cerrar categoría
+                </button>
+              )}
             </div>
+
             <div className="classic-topic-grid">
-              <a
-                href="/#noticias"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('home', '#noticias');
-                }}
-              >
-                <span>01</span>
-                <h3>
-                  Tecnología
-                  <br />
-                  & IA
-                </h3>
-                <p>Herramientas, futuro y cambios que ya están ocurriendo.</p>
-              </a>
-              <a
-                href="/ofertas"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('ofertas');
-                }}
-              >
-                <span>02</span>
-                <h3>Gaming</h3>
-                <p>Lanzamientos, ofertas en hardware y decisiones de compra.</p>
-              </a>
-              <a
-                href="/comparadores"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('comparadores');
-                }}
-              >
-                <span>03</span>
-                <h3>
-                  Finanzas
-                  <br />
-                  & cripto
-                </h3>
-                <p>Mercados, comparadores y hábitos explicados sin humo.</p>
-              </a>
-              <a
-                href="/#noticias"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('home', '#noticias');
-                }}
-              >
-                <span>04</span>
-                <h3>
-                  Cómics
-                  <br />
-                  & series
-                </h3>
-                <p>Historias, personajes y universos que vale explorar.</p>
-              </a>
+              {categoriesMeta.map((cat) => {
+                const isActive = activeCategory === cat.id;
+                return (
+                  <button
+                    key={cat.id}
+                    type="button"
+                    className={`cursor-pointer ${isActive ? 'is-active ring-4 ring-[#d8ff3e]' : ''}`}
+                    onClick={() => handleCategoryClick(cat.id)}
+                    aria-expanded={isActive}
+                  >
+                    <span>{cat.num} · {isActive ? 'VIENDO NOTICIAS' : 'CLIC PARA EXPLORAR'}</span>
+                    <h3>{cat.title}</h3>
+                    <p>{cat.desc}</p>
+                    <div style={{ marginTop: 'auto', paddingTop: '16px', fontWeight: 900, fontSize: '0.85rem' }}>
+                      {isActive ? '▲ Ocultar noticias' : `▼ Ver noticias (${cat.count}) →`}
+                    </div>
+                  </button>
+                );
+              })}
             </div>
           </section>
 
-          {/* Portales destacados */}
-          <section className="classic-section classic-world-section" id="portales">
-            <div className="classic-section-heading">
-              <div>
-                <p className="classic-kicker">PORTALES DESTACADOS</p>
-                <h2>La última noticia de cada mundo</h2>
+          {/* SECCIÓN DESPLEGABLE: Solo se muestra al hacer clic en una categoría */}
+          {activeCategory && (
+            <section
+              className="classic-section classic-latest"
+              id="categoria-noticias"
+              style={{
+                background: '#09070e',
+                borderTop: '5px solid var(--mg-acid)',
+                borderBottom: '5px solid var(--mg-acid)',
+              }}
+            >
+              <div className="classic-section-heading">
+                <div>
+                  <p className="classic-kicker" style={{ color: 'var(--mg-acid)' }}>
+                    EXPLORANDO TERRITORIO
+                  </p>
+                  <h2 style={{ color: '#fff' }}>Noticias de {activeCategory}</h2>
+                  <p style={{ marginTop: '6px', color: '#a8a29e', fontSize: '0.95rem' }}>
+                    Mostrando {categoryArticles.length} artículos publicados en este territorio
+                  </p>
+                </div>
+                <button
+                  className="classic-button cursor-pointer"
+                  onClick={() => setActiveCategory(null)}
+                  style={{ background: 'var(--mg-acid)', color: '#000', fontWeight: 900 }}
+                >
+                  ✕ Ocultar sección
+                </button>
               </div>
-              <a
-                className="classic-link cursor-pointer"
-                href="/#noticias"
-                onClick={(e) => {
-                  e.preventDefault();
-                  navigateTo('home', '#noticias');
-                }}
-              >
-                Ver todas →
-              </a>
-            </div>
-            <div className="classic-world-grid">
-              {worlds.map((world) => (
-                <article className={`classic-world ${world.tone}`} key={world.category}>
-                  <div
-                    className="classic-world-media cursor-pointer"
-                    onClick={() => setSelectedArticle(world.article)}
-                  >
-                    <SiteImage
-                      src={world.article.image}
-                      alt={world.article.imageAlt || world.article.title}
-                    />
-                    <span>Última noticia</span>
-                  </div>
-                  <div>
-                    <p className="classic-kicker">{world.category}</p>
-                    <h3>
-                      <a
-                        href={`#${world.article.slug}`}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          setSelectedArticle(world.article);
-                        }}
-                      >
-                        {world.article.title}
-                      </a>
-                    </h3>
-                    <p>{world.article.dek}</p>
-                    <div className="classic-world-footer">
-                      <span>
-                        {world.article.date} · {world.article.minutes} min
-                      </span>
-                      <button
-                        className="classic-link cursor-pointer"
-                        onClick={() => setSelectedArticle(world.article)}
-                      >
-                        Leer ahora →
-                      </button>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
+
+              <div className="classic-story-grid">
+                {categoryArticles.map((article) => (
+                  <StoryCard
+                    key={article.slug}
+                    article={article}
+                    onSelect={setSelectedArticle}
+                  />
+                ))}
+              </div>
+            </section>
+          )}
 
           {/* Sobre mí */}
           <section className="classic-about" id="sobre-mi">

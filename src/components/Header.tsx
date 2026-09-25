@@ -49,6 +49,12 @@ export function MobileMenu({ onNavigate, currentView }: HeaderProps) {
           Comparadores
         </a>
         <a
+          href="/#mi-universo"
+          onClick={(e) => handleLink(e, 'home', '#mi-universo')}
+        >
+          Mi Universo
+        </a>
+        <a
           href="/#sobre-mi"
           onClick={(e) => handleLink(e, 'home', '#sobre-mi')}
         >
@@ -119,6 +125,12 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, currentView = 'home'
           }}
         >
           Comparadores
+        </a>
+        <a
+          href="/#mi-universo"
+          onClick={(e) => handleLink(e, 'home', '#mi-universo')}
+        >
+          Mi Universo
         </a>
         <a
           href="/#sobre-mi"

@@ -72,7 +72,7 @@ export function parseArticleDate(article: Article): number {
     if (!isNaN(time)) return time;
   }
   if (isTodayArticle(article)) {
-    return new Date('2026-09-24T12:00:00-03:00').getTime();
+    return new Date('2026-09-25T12:00:00-03:00').getTime();
   }
   if (isYesterdayArticle(article)) {
     return new Date('2026-09-23T12:00:00-03:00').getTime();

@@ -66,7 +66,7 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className="tag cursor-pointer"
+              className="tag haskins-btn cursor-pointer"
               style={{
                 background: selectedCategory === cat ? 'var(--mg-acid, #d9ff3f)' : 'var(--mg-white, #fff)',
                 color: 'var(--mg-ink, #0c0a12)',
@@ -95,9 +95,9 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
           }}
         >
           {filteredOffers.map((item) => (
-            <article className="offer-card" key={item.id} style={{ display: 'flex', flexDirection: 'column' }}>
+            <article className="offer-card haskins-card group" key={item.id} style={{ display: 'flex', flexDirection: 'column' }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '18px' }}>
-                <div className="product-icon" style={{ fontSize: '1.2rem', padding: '12px' }}>
+                <div className="product-icon haskins-spin" style={{ fontSize: '1.2rem', padding: '12px' }}>
                   {item.icon}
                 </div>
                 <span className="tag" style={{ margin: 0 }}>
@@ -105,11 +105,11 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
                 </span>
               </div>
 
-              <h2 style={{ fontSize: '1.7rem', lineHeight: 1.05, margin: '0 0 12px', fontWeight: 900 }}>
+              <h2 className="font-display group-hover:text-[#ff5c35] transition-colors" style={{ fontSize: '1.7rem', lineHeight: 1.05, margin: '0 0 12px', fontWeight: 900 }}>
                 {item.name}
               </h2>
 
-              <p style={{ fontSize: '0.94rem', lineHeight: 1.55, margin: '0 0 16px', color: '#444' }}>
+              <p className="font-sans" style={{ fontSize: '0.94rem', lineHeight: 1.55, margin: '0 0 16px', color: '#444' }}>
                 {item.copy}
               </p>
 
@@ -117,7 +117,7 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
                 <span style={{ fontSize: '0.68rem', fontWeight: 900, textTransform: 'uppercase', letterSpacing: '0.08em', color: '#666', display: 'block', marginBottom: '8px' }}>
                   Aspectos Clave:
                 </span>
-                <ul style={{ margin: 0, paddingLeft: '18px', fontSize: '0.82rem', lineHeight: 1.5, color: '#333' }}>
+                <ul className="font-sans" style={{ margin: 0, paddingLeft: '18px', fontSize: '0.82rem', lineHeight: 1.5, color: '#333' }}>
                   {item.specs.map((spec, idx) => (
                     <li key={idx} style={{ marginBottom: '4px' }}>{spec}</li>
                   ))}
@@ -125,13 +125,13 @@ export const OfertasPage: React.FC<OfertasPageProps> = ({ onBackToHome }) => {
               </div>
 
               {item.shippingNote && (
-                <div style={{ fontSize: '0.72rem', color: '#555', background: '#f5f3ec', padding: '6px 10px', borderLeft: '4px solid var(--mg-orange, #ff6645)', marginBottom: '16px' }}>
+                <div className="font-sans" style={{ fontSize: '0.72rem', color: '#555', background: '#f5f3ec', padding: '6px 10px', borderLeft: '4px solid var(--mg-orange, #ff6645)', marginBottom: '16px' }}>
                   ✓ {item.shippingNote}
                 </div>
               )}
 
               <a
-                className="amazon-offer-link cursor-pointer"
+                className="amazon-offer-link haskins-btn cursor-pointer"
                 href={item.amazonUrl}
                 target="_blank"
                 rel="noopener noreferrer"

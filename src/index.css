@@ -1,11 +1,184 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  --font-serif: Georgia, "Times New Roman", serif;
-  --font-mono: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-sans: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-serif: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-display: 'Anton', Impact, "Arial Black", "Arial Narrow", sans-serif;
+  --font-mono: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 @import "./styles/globals.css";
 @import "./styles/v1-articles.css";
 @import "./styles/magazine-geek.css";
+
+/* Ryan Haskins-inspired Typography Classes */
+.font-display {
+  font-family: 'Anton', Impact, "Arial Black", "Arial Narrow", sans-serif !important;
+  letter-spacing: 0.01em;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-style: normal !important;
+}
+
+/* Reglas de visualización clara para títulos de noticias al ingresar y portadas */
+.article-page h1,
+.article h1,
+.classic-lead-copy h3,
+.story-card h3,
+.offer-card h2 {
+  font-family: 'Anton', Impact, "Arial Black", "Arial Narrow", sans-serif !important;
+  font-style: normal !important;
+  line-height: 1.15 !important;
+  letter-spacing: 0.01em !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  text-shadow: none !important;
+}
+
+.font-sans,
+.font-serif {
+  font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+.font-mono {
+  font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+}
+
+/* Ryan Haskins-inspired Kinetic Keyframes & Animations */
+@keyframes tgcMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes tgcMarqueeReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes tgcSpinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes tgcPulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(217, 255, 53, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(217, 255, 53, 0);
+  }
+}
+
+@keyframes tgcBeaconPulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 1;
+  }
+}
+
+/* Ticker Marquee Ribbon */
+.tgc-marquee-wrap {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  position: relative;
+  background: var(--mg-ink);
+  border-top: 2px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 3px solid var(--mg-acid);
+}
+
+.tgc-marquee-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: tgcMarquee 35s linear infinite;
+  will-change: transform;
+}
+
+.tgc-marquee-wrap:hover .tgc-marquee-track {
+  animation-play-state: paused;
+}
+
+.tgc-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 24px;
+  font-family: 'Anton', Impact, sans-serif;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--mg-white);
+}
+
+.tgc-marquee-item .star {
+  color: var(--mg-acid);
+  display: inline-block;
+  animation: tgcSpinSlow 12s linear infinite;
+}
+
+.tgc-marquee-item .highlight {
+  color: var(--mg-orange);
+}
+
+/* Haskins Card Hover Dynamics */
+.haskins-card {
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease;
+}
+
+.haskins-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 8px 8px 0px var(--mg-acid);
+}
+
+/* Image Zoom on hover inside cards */
+.haskins-zoom-img {
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.group:hover .haskins-zoom-img,
+.haskins-card:hover .haskins-zoom-img {
+  transform: scale(1.05);
+}
+
+/* Rotating asterisk icon */
+.haskins-spin {
+  display: inline-block;
+  animation: tgcSpinSlow 15s linear infinite;
+  transform-origin: center;
+}
+
+/* Tactile button */
+.haskins-btn {
+  transition: transform 0.15s ease, background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.haskins-btn:active {
+  transform: scale(0.96) !important;
+}
+
+/* Radar dot */
+.haskins-radar {
+  animation: tgcBeaconPulse 2s ease-in-out infinite;
+}
+

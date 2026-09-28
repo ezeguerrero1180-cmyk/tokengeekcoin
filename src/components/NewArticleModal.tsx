@@ -103,8 +103,8 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               ★ PORTADA DE HOY (24 SEP 2026)
             </span>
             <h3
-              className="text-2xl sm:text-3xl font-black uppercase italic tracking-tight"
-              style={{ fontFamily: 'var(--mg-display)' }}
+              className="text-2xl sm:text-3xl font-black uppercase tracking-normal"
+              style={{ fontFamily: 'var(--mg-display)', fontStyle: 'normal', lineHeight: 1.15 }}
             >
               Publicar Noticia de Hoy
             </h3>
@@ -152,7 +152,7 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               placeholder="Ej: Nuevo bombazo en la Gamescom 2026..."
-              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-sans outline-none"
+              className="w-full p-3 bg-[#110d1a] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-base font-sans outline-none placeholder:text-stone-500"
             />
           </div>
 
@@ -166,7 +166,7 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               value={dek}
               onChange={(e) => setDek(e.target.value)}
               placeholder="Breve resumen del impacto de la noticia..."
-              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-serif outline-none"
+              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-sans outline-none"
             />
           </div>
 
@@ -207,7 +207,7 @@ export const NewArticleModal: React.FC<NewArticleModalProps> = ({
               value={bodyText}
               onChange={(e) => setBodyText(e.target.value)}
               placeholder="Escribe el desarrollo completo del artículo..."
-              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-serif outline-none"
+              className="w-full p-2.5 bg-[#15111c] border-2 border-white/20 focus:border-[var(--mg-acid)] text-white text-sm font-sans outline-none"
             />
           </div>
 

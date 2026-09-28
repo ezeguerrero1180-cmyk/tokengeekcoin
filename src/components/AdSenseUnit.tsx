@@ -42,7 +42,7 @@ export const AdSenseUnit: React.FC<AdSenseUnitProps> = ({
       aria-label="Espacio publicitario"
     >
       {label && (
-        <span className="block text-[10px] font-mono tracking-widest uppercase text-stone-400 mb-2 font-bold select-none">
+        <span className="block text-[10px] font-sans tracking-widest uppercase text-stone-400 mb-2 font-bold select-none">
           — {label} —
         </span>
       )}

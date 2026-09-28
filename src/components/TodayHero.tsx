@@ -76,13 +76,13 @@ export const TodayHero: React.FC<TodayHeroProps> = ({
             {/* Title */}
             <h3
               onClick={() => onSelectArticle(leadArticle)}
-              className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-stone-950 leading-tight hover:text-[#ff5c35] transition-colors cursor-pointer mb-3"
+              className="font-display text-2xl sm:text-3xl md:text-4xl text-stone-950 leading-tight hover:text-[#ff5c35] transition-colors cursor-pointer mb-3"
             >
               {leadArticle.title}
             </h3>
 
             {/* Dek / Subtitle */}
-            <p className="text-sm md:text-base text-stone-700 leading-relaxed line-clamp-3 mb-4">
+            <p className="font-sans text-sm md:text-base text-stone-700 leading-relaxed line-clamp-3 mb-4">
               {leadArticle.dek}
             </p>
 
@@ -90,7 +90,7 @@ export const TodayHero: React.FC<TodayHeroProps> = ({
             <div className="flex items-center gap-3 pt-2">
               <button
                 onClick={() => onSelectArticle(leadArticle)}
-                className="inline-flex items-center gap-2 px-4 py-2 bg-stone-950 text-[#d8ff3e] hover:bg-stone-800 text-xs font-bold uppercase tracking-wider rounded-sm transition-colors"
+                className="haskins-btn inline-flex items-center gap-2 px-4 py-2 bg-stone-950 text-[#d8ff3e] hover:bg-stone-800 text-xs font-bold uppercase tracking-wider rounded-sm transition-all"
               >
                 <span>Leer Noticia Completa</span>
                 <ArrowRight className="w-3.5 h-3.5" />
@@ -141,7 +141,7 @@ export const TodayHero: React.FC<TodayHeroProps> = ({
                     <span aria-hidden="true">·</span>
                     <span>{article.minutes} min</span>
                   </div>
-                  <h4 className="font-serif text-sm sm:text-base font-bold text-stone-900 group-hover:text-[#ff5c35] transition-colors leading-snug line-clamp-2">
+                  <h4 className="font-display text-base sm:text-lg text-stone-900 group-hover:text-[#ff5c35] transition-colors leading-snug line-clamp-2">
                     {article.title}
                   </h4>
                   <p className="text-xs text-stone-600 line-clamp-2 mt-1">
@@ -190,7 +190,7 @@ export const TodayHero: React.FC<TodayHeroProps> = ({
                     <span>·</span>
                     <span className="text-[#ff5c35]">Hoy</span>
                   </div>
-                  <h5 className="font-serif text-xs sm:text-sm font-bold text-stone-900 group-hover:text-[#ff5c35] transition-colors line-clamp-2">
+                  <h5 className="font-display text-sm sm:text-base text-stone-900 group-hover:text-[#ff5c35] transition-colors line-clamp-2">
                     {article.title}
                   </h5>
                 </div>

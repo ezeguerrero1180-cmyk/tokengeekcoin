@@ -1,5 +1,4 @@
-import { AMAZON_REFERRAL_TAG } from './offersData';
-export { AMAZON_REFERRAL_TAG };
+export const AMAZON_REFERRAL_TAG = 'tokengeekcoin-20';
 
 export interface ComparisonCriterion {
   name: string;
@@ -8,25 +7,20 @@ export interface ComparisonCriterion {
   winner?: 'a' | 'b' | 'tie';
 }
 
+export interface ComparisonProduct {
+  badge: string;
+  name: string;
+  keyPoints: string[];
+  amazonUrl: string;
+}
+
 export interface ComparisonItem {
   id: string;
   category: string;
   title: string;
   summary: string;
-  productA: {
-    name: string;
-    label: string;
-    amazonUrl: string;
-    badge: string;
-    keyPoints: string[];
-  };
-  productB: {
-    name: string;
-    label: string;
-    amazonUrl: string;
-    badge: string;
-    keyPoints: string[];
-  };
+  productA: ComparisonProduct;
+  productB: ComparisonProduct;
   criteria: ComparisonCriterion[];
   verdict: {
     title: string;
@@ -38,213 +32,129 @@ export interface ComparisonItem {
 
 export const COMPARISONS_DATA: ComparisonItem[] = [
   {
-    id: 'ps5-vs-xbox-series-x',
-    category: 'GAMING · CONSOLAS DE ACTUAL GENERACIÓN',
-    title: 'PlayStation 5 Slim vs Xbox Series X',
-    summary: 'La batalla definitiva entre los dos gigantes del salón. Ambas consolas ofrecen arquitectura AMD RDNA 2 y unidades SSD ultrarrápidas, pero sus filosofías de catálogo, servicios de suscripción y tecnologías exclusivas difieren drásticamente.',
+    id: 'steam-deck-oled-vs-rog-ally-x',
+    category: 'CONSOLAS PORTÁTILES',
+    title: 'Steam Deck OLED vs. ASUS ROG Ally X',
+    summary: 'La batalla definitiva por el trono del gaming portátil en 2026: ¿la optimización y pantalla perfecta de Valve o la fuerza bruta y batería colosal de ASUS con Windows 11?',
     productA: {
-      name: 'PlayStation 5 Slim (1TB)',
-      label: 'Opción Sony',
-      amazonUrl: `https://www.amazon.com/s?k=PlayStation+5+Slim+Console&tag=${AMAZON_REFERRAL_TAG}`,
-      badge: 'LÍDER EN EXCLUSIVOS',
+      badge: 'MEJOR EXPERIENCIA DE USO',
+      name: 'Steam Deck OLED',
       keyPoints: [
-        'Mando DualSense con gatillos adaptativos y respuesta háptica superior',
-        'Exclusivos aclamados: Spider-Man 2, God of War Ragnarök, Demon’s Souls, Final Fantasy',
-        'Lector Blu-ray modular desmontable en chasis Slim',
+        'Pantalla OLED HDR de 90Hz con negros infinitos',
+        'SteamOS: suspensión instantánea y cero configuración molesta',
+        'Ergonomía superior con trackpads hápticos dedicados',
+        'Relación precio-calidad insuperable en la categoría',
       ],
+      amazonUrl: `https://www.amazon.com/dp/B0CN71XW77?tag=${AMAZON_REFERRAL_TAG}`,
     },
     productB: {
-      name: 'Xbox Series X (1TB)',
-      label: 'Opción Microsoft',
-      amazonUrl: `https://www.amazon.com/s?k=Xbox+Series+X+Console&tag=${AMAZON_REFERRAL_TAG}`,
       badge: 'MÁXIMA POTENCIA BRUTA',
+      name: 'ASUS ROG Ally X',
       keyPoints: [
-        '12 Teraflops GPU vs 10.28 de PS5, mejor resolución nativa en multiplataformas',
-        'Xbox Game Pass Ultimate con lanzamientos día 1 y catálogo masivo',
-        'Quick Resume para pausar y reanudar múltiples juegos de inmediato',
+        'Batería gigante de 80Wh (el doble que la competencia)',
+        '24GB de memoria RAM LPDDR5X a 7500 MT/s',
+        'Compatibilidad nativa con Game Pass, Epic, EA y Ubisoft',
+        'Panel 1080p a 120Hz con VRR (FreeSync Premium)',
       ],
+      amazonUrl: `https://www.amazon.com/dp/B0D7791R75?tag=${AMAZON_REFERRAL_TAG}`,
     },
     criteria: [
       {
-        name: 'Potencia Gráfica (GPU)',
-        a: '10.28 TFLOPs, 36 CUs a 2.23 GHz (frecuencia variable)',
-        b: '12.15 TFLOPs, 52 CUs a 1.825 GHz (frecuencia fija)',
-        winner: 'b',
-      },
-      {
-        name: 'Almacenamiento Interno',
-        a: '1TB Custom SSD (848 GB utilizables) a 5.5 GB/s sin compresión',
-        b: '1TB Custom NVMe SSD (802 GB utilizables) a 2.4 GB/s sin compresión',
+        name: 'Pantalla',
+        a: '7.4" OLED HDR (1280x800) a 90Hz, 1000 nits pico',
+        b: '7.0" IPS FHD (1920x1080) a 120Hz con VRR',
         winner: 'a',
       },
       {
-        name: 'Innovación en el Mando',
-        a: 'DualSense: retroalimentación háptica micro-precisa, altavoz y gatillos resistivos',
-        b: 'Mando Xbox inalámbrico: diseño ergonómico continuista y respuesta por vibración estándar',
+        name: 'Autonomía de Batería',
+        a: '50 Wh (~3 a 8 horas según carga gráfica)',
+        b: '80 Wh (~4 a 10 horas, récord en PC portátiles)',
+        winner: 'b',
+      },
+      {
+        name: 'Memoria RAM',
+        a: '16 GB LPDDR5 (6400 MT/s)',
+        b: '24 GB LPDDR5X (7500 MT/s ultra-rápida)',
+        winner: 'b',
+      },
+      {
+        name: 'Sistema Operativo',
+        a: 'SteamOS 3.5 (Linux optimizado para consolas)',
+        b: 'Windows 11 Home (Mayor catálogo pero interfaz de escritorio)',
         winner: 'a',
       },
       {
-        name: 'Catálogo de Exclusivos',
-        a: 'Títulos first-party de referencia mundial cinematográfica y de autor',
-        b: 'Expansión con franquicias de Bethesda, Activision Blizzard e ID Software',
+        name: 'Controles Hápticos',
+        a: 'Doble trackpad con retroalimentación háptica HD',
+        b: 'Sin trackpads, joystick convencionales asimétricos',
         winner: 'a',
-      },
-      {
-        name: 'Servicio de Suscripción',
-        a: 'PlayStation Plus (Essential / Extra / Deluxe) con biblioteca clásica',
-        b: 'Xbox Game Pass Ultimate: juegos first-party día 1 en consola, PC y nube',
-        winner: 'b',
-      },
-      {
-        name: 'Multitarea y Sistema',
-        a: 'Reanudación de una sola aplicación a la vez',
-        b: 'Quick Resume: salta entre 4 a 6 juegos suspendidos sin pantallas de carga',
-        winner: 'b',
-      },
-      {
-        name: 'Retrocompatibilidad',
-        a: '99% compatible con catálogo de PlayStation 4',
-        b: 'Cuatro generaciones: juegos originales de Xbox, Xbox 360 y Xbox One con FPS Boost',
-        winner: 'b',
       },
     ],
     verdict: {
-      title: 'El Veredicto de Compra',
-      forA: 'Elige PlayStation 5 si buscas las experiencias narrativas para un solo jugador más premiadas, inmersion sensorial háptica con el DualSense y el ecosistema líder de la comunidad gamer.',
-      forB: 'Elige Xbox Series X si priorizas el valor económico a largo plazo gracias a Game Pass, mayor rendimiento gráfico en títulos multiplataforma y una retrocompatibilidad inigualable.',
-      finalThoughts: 'Ambas consolas cuentan con envío garantizado a Argentina e internacional en Amazon con cálculo de impuestos en origen.',
+      title: 'Veredicto del Analista',
+      forA: 'Ideal si buscas una experiencia auténtica de consola: enciendes y juegas de inmediato sin pelear con drivers de Windows ni actualizaciones lentas.',
+      forB: 'Imprescindible si juegas títulos con anticheat estricto de Xbox Game Pass, Fortnite, EA Sports FC o exiges la mayor potencia gráfica disponible en la mano.',
+      finalThoughts: 'Si tu biblioteca principal está en Steam, el Deck OLED ofrece la experiencia más redonda y placentera. Si quieres un mini PC gamer de viaje sin límites, el Ally X es la bestia a comprar.',
     },
   },
   {
-    id: 'monitores-144hz-vs-240hz',
-    category: 'HARDWARE · PANTALLAS GAMING',
-    title: 'Monitor 144Hz / 165Hz vs 240Hz / 360Hz',
-    summary: '¿Es perceptible el salto de fluidez más allá de los 144 Hz o se trata de una ganancia marginal con rendimientos decrecientes? Desglosamos los tiempos de respuesta, el impacto en la latencia de entrada y los requerimientos de tarjeta gráfica.',
+    id: 'ledger-nano-x-vs-trezor-safe-3',
+    category: 'SEGURIDAD & CRIPTO',
+    title: 'Ledger Nano X vs. Trezor Safe 3',
+    summary: 'Dos filosofías de seguridad digital frente a frente: ¿la portabilidad inalámbrica de Ledger con chip cerrado o la transparencia auditada de código abierto con Secure Element de Trezor?',
     productA: {
-      name: 'Monitor 144Hz / 180Hz IPS QHD (1440p)',
-      label: 'Estándar Ideal Calidad/Precio',
-      amazonUrl: `https://www.amazon.com/s?k=ASUS+TUF+Gaming+Monitor+27+180Hz+1440p&tag=${AMAZON_REFERRAL_TAG}`,
-      badge: 'MEJOR EQUILIBRIO',
+      badge: 'MOVILIDAD TOTAL',
+      name: 'Ledger Nano X',
       keyPoints: [
-        'Excelente resolución 1440p con gran nitidez para trabajo y juegos',
-        'Exige una GPU gama media razonable (RTX 4060 Ti / RX 7700 XT)',
-        'Salto abismal de 60Hz a 144Hz (reducción del 58% en tiempo de cuadro)',
+        'Batería y Bluetooth integrados para operar desde el móvil',
+        'App Ledger Live con staking, swapping y compra integrada',
+        'Soporte para más de 5.500 monedas y tokens',
+        'Diseño compacto y discreto en acero inoxidable',
       ],
+      amazonUrl: `https://www.amazon.com/dp/B07M61KDMW?tag=${AMAZON_REFERRAL_TAG}`,
     },
     productB: {
-      name: 'Monitor 240Hz / 360Hz Fast IPS / OLED',
-      label: 'Especializado Esports',
-      amazonUrl: `https://www.amazon.com/s?k=Gaming+Monitor+240Hz+Fast+IPS&tag=${AMAZON_REFERRAL_TAG}`,
-      badge: 'MÁXIMA COMPETITIVIDAD',
+      badge: 'CÓDIGO ABIERTO PURISTA',
+      name: 'Trezor Safe 3',
       keyPoints: [
-        'Tiempo entre fotogramas de solo 4.16ms (240Hz) a 2.77ms (360Hz)',
-        'Claridad de movimiento ultra limpia en giros rápidos de cámara (Valorant, CS2)',
-        'Requiere un procesador y tarjeta gráfica tope de gama para mantener los FPS',
+        'Chip Secure Element EAL6+ con firmware Open Source',
+        'Trezor Suite: interfaz de privacidad con CoinJoin nativo',
+        'Fácil respaldo con estándar Shamir Backup (SLIP39)',
+        'Sin baterías internas: mayor longevidad física',
       ],
+      amazonUrl: `https://www.amazon.com/dp/B0CL5N5B7K?tag=${AMAZON_REFERRAL_TAG}`,
     },
     criteria: [
       {
-        name: 'Tiempo por Fotograma',
-        a: '6.94 ms (a 144 Hz) / 5.55 ms (a 180 Hz)',
-        b: '4.16 ms (a 240 Hz) / 2.77 ms (a 360 Hz)',
+        name: 'Arquitectura de Código',
+        a: 'Firmware propietario auditado con chip Secure Element CC EAL5+',
+        b: 'Firmware 100% de código abierto verificado + chip Secure Element EAL6+',
         winner: 'b',
       },
       {
-        name: 'Percepción de Fluidez Real',
-        a: 'Transformador respecto a 60Hz; cualquier usuario lo nota de inmediato',
-        b: 'Sutil; perceptible principalmente por jugadores de shooters tácticos entrenados',
+        name: 'Conectividad',
+        a: 'Bluetooth inalámbrico + USB-C para iOS y Android',
+        b: 'Solo cable USB-C (evita cualquier vector inalámbrico)',
         winner: 'a',
       },
       {
-        name: 'Resolución habitual por precio',
-        a: '1440p (2560x1440) accesible con paneles Fast IPS con gran color',
-        b: 'Generalmente 1080p en la misma franja de precio, o costo muy superior en 1440p/OLED',
-        winner: 'a',
+        name: 'Batería y Vida Útil',
+        a: 'Batería de 100 mAh recargable (requiere mantenimiento periódico)',
+        b: 'Sin batería, se alimenta directo por USB (dura décadas guardado)',
+        winner: 'b',
       },
       {
-        name: 'Exigencia al Hardware del PC',
-        a: 'Moderada; alcanzable en títulos AAA y competitivos actuales',
-        b: 'Muy exigente; requiere CPUs de alto IPC (Ryzen 7 7800X3D) y GPUs potentes',
-        winner: 'a',
-      },
-      {
-        name: 'Claridad en Movimiento (Motion Blur)',
-        a: 'Buena con overdrive bien configurado',
-        b: 'Excepcional, ghosting prácticamente nulo en paneles rápidos',
+        name: 'Privacidad Avanzada',
+        a: 'Soporte estándar de nodos y red Tor vía Ledger Live',
+        b: 'CoinJoin integrado para mezclar transacciones Bitcoin en Trezor Suite',
         winner: 'b',
       },
     ],
     verdict: {
-      title: 'El Veredicto de Compra',
-      forA: 'Opta por 144Hz/180Hz en 1440p si juegas títulos variados (RPGs, aventuras, simulación, FPS casual) y valoras la calidad de imagen, los colores y la definición.',
-      forB: 'Ve por 240Hz o más si compites seriamente en títulos rápidos como Counter-Strike 2, Valorant, Overwatch 2 o Apex Legends y cada milisegundo de reacción cuenta en tu ranking.',
-      finalThoughts: 'Ambas categorías cuentan con modelos certificados elegibles para envío puerta a puerta internacional en Amazon.',
-    },
-  },
-  {
-    id: 'hardware-wallets-vs-exchanges',
-    category: 'FINANZAS · CUSTODIA BITCOIN Y CRIPTO',
-    title: 'Hardware Wallet (Cold Storage) vs Custodia en Exchange',
-    summary: '“Not your keys, not your coins”. Comparamos la seguridad real entre guardar tus activos en billeteras frías desconectadas de internet frente a dejarlos en exchanges centralizados.',
-    productA: {
-      name: 'Hardware Wallet Fría (Trezor Safe 3 / Ledger)',
-      label: 'Autocustodia Soberana',
-      amazonUrl: `https://www.amazon.com/s?k=Trezor+Safe+3+Hardware+Wallet&tag=${AMAZON_REFERRAL_TAG}`,
-      badge: 'MÁXIMA SEGURIDAD',
-      keyPoints: [
-        'Claves privadas generadas y resguardadas fuera de internet',
-        'Inmune a hackeos del servidor del exchange o congelamiento de cuentas',
-        'Tú tienes el control total de tus fondos mediante semilla de recuperación',
-      ],
-    },
-    productB: {
-      name: 'Exchange Centralizado (Binance, Coinbase, Kraken)',
-      label: 'Custodia Delegada',
-      amazonUrl: `https://www.amazon.com/s?k=YubiKey+Security+Key&tag=${AMAZON_REFERRAL_TAG}`,
-      badge: 'COMODIDAD INMEDIATA',
-      keyPoints: [
-        'Facilidad para comprar y vender en segundos con órdenes automáticas',
-        'Recuperación de contraseña mediante correo o soporte técnico',
-        'Riesgo de contraparte: insolvencia, bloqueos regulatorios o quiebras',
-      ],
-    },
-    criteria: [
-      {
-        name: 'Control de Claves Privadas',
-        a: '100% en tu poder en dispositivo físico aislado con chip seguro EAL6+',
-        b: 'En poder de la empresa; no eres dueño directo de las monedas en la blockchain',
-        winner: 'a',
-      },
-      {
-        name: 'Riesgo de Quiebra o Corralito',
-        a: 'Nulo; tus fondos están en la blockchain y nadie puede congelarlos',
-        b: 'Existente; casos como FTX, Mt. Gox y Celsius demostraron el riesgo de custodia',
-        winner: 'a',
-      },
-      {
-        name: 'Facilidad de Operación Diaria',
-        a: 'Requiere conectar el dispositivo y autorizar cada firma físicamente',
-        b: 'Inmediata desde una app móvil o navegador web',
-        winner: 'b',
-      },
-      {
-        name: 'Recuperación ante Pérdida Personal',
-        a: 'Depende 100% de respaldar correctamente tus 12/24 palabras clave en papel o metal',
-        b: 'Soporte al cliente para resetear credenciales presentando DNI/Pasaporte',
-        winner: 'b',
-      },
-      {
-        name: 'Privacidad Financiera',
-        a: 'Alta; no requiere enviar documentos de identidad para generar direcciones',
-        b: 'Baja; procesos obligatorios de KYC (Know Your Customer)',
-        winner: 'a',
-      },
-    ],
-    verdict: {
-      title: 'El Veredicto de Compra',
-      forA: 'Si tus ahorros en Bitcoin o cripto son significativos para ti, una hardware wallet es una inversión no negociable de paz mental.',
-      forB: 'Mantén en un exchange solo el capital que utilizas activamente para trading semanal o compras inmediatas.',
-      finalThoughts: 'Siempre adquiere dispositivos de hardware wallet nuevos y sellados desde canales oficiales con envío directo.',
+      title: 'Veredicto de Custodia Fría',
+      forA: 'Para usuarios que operan a diario en DeFi o necesitan autorizar transferencias desde el smartphone de viaje sin cables.',
+      forB: 'Para puristas de Bitcoin y ahorro a largo plazo (HODL) que prefieren código transparente y dispositivos que puedan guardarse años en una caja fuerte sin degradarse.',
+      finalThoughts: 'Ambos dispositivos ofrecen seguridad militar frente a hackeos de software. La elección depende de si valoras la comodidad del Bluetooth o la filosofía incondicional del software libre.',
     },
   },
 ];

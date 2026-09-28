@@ -15,6 +15,7 @@ import { SiteImage } from './components/SiteImage';
 import { OfertasPage } from './components/OfertasPage';
 import { ComparadoresPage } from './components/ComparadoresPage';
 import { AdSenseUnit } from './components/AdSenseUnit';
+import { KineticMarquee } from './components/KineticMarquee';
 
 export type AppView = 'home' | 'ofertas' | 'comparadores';
 
@@ -172,6 +173,9 @@ export default function App() {
       {/* Header presente en todas las vistas */}
       <Header onNavigate={navigateTo} currentView={currentView} />
 
+      {/* Marquee ticker cinético inspirado en Ryan Haskins manteniendo la paleta de colores */}
+      <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
+
       {currentView === 'ofertas' && (
         <main className="classic-home">
           <OfertasPage onBackToHome={() => navigateTo('home')} />
@@ -194,32 +198,38 @@ export default function App() {
                 <h2>Últimas noticias</h2>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-xs uppercase font-mono tracking-widest text-[#a8a29e] hidden sm:inline">
+                <span className="text-xs uppercase font-sans font-bold tracking-wider text-[#a8a29e] hidden sm:inline">
                   25 SEP 2026 · {newArticles.length} publicaciones de hoy
                 </span>
               </div>
             </div>
 
             {leadArticle && (
-              <div className="classic-lead-story">
+              <div className="classic-lead-story haskins-card group">
                 <div
-                  className="classic-lead-image cursor-pointer"
+                  className="classic-lead-image cursor-pointer overflow-hidden"
                   onClick={() => setSelectedArticle(leadArticle)}
                 >
-                  <SiteImage
-                    src={leadArticle.image}
-                    alt={leadArticle.imageAlt || leadArticle.title}
-                    priority={true}
-                    objectFit="contain"
-                    aspectRatio="auto"
-                    className="w-full h-full flex items-center justify-center bg-transparent"
-                  />
+                  <div className="w-full h-full flex items-center justify-center haskins-zoom-img">
+                    <SiteImage
+                      src={leadArticle.image}
+                      alt={leadArticle.imageAlt || leadArticle.title}
+                      priority={true}
+                      objectFit="contain"
+                      aspectRatio="auto"
+                      className="w-full h-full flex items-center justify-center bg-transparent"
+                    />
+                  </div>
                 </div>
                 <div className="classic-lead-copy">
-                  <p className="classic-kicker">HOY · {leadArticle.category}</p>
+                  <p className="classic-kicker flex items-center gap-1.5">
+                    <span className="text-[var(--mg-acid)] text-xs haskins-spin">✹</span>
+                    <span>HOY · {leadArticle.category}</span>
+                  </p>
                   <h3>
                     <a
                       href={`#${leadArticle.slug}`}
+                      className="font-display group-hover:text-[var(--mg-acid)] transition-colors duration-200"
                       onClick={(e) => {
                         e.preventDefault();
                         setSelectedArticle(leadArticle);
@@ -228,12 +238,12 @@ export default function App() {
                       {leadArticle.title}
                     </a>
                   </h3>
-                  <p>{leadArticle.dek}</p>
-                  <span>
+                  <p className="font-sans leading-relaxed">{leadArticle.dek}</p>
+                  <span className="font-sans">
                     {leadArticle.date} · {leadArticle.minutes} min de lectura
                   </span>
                   <button
-                    className="classic-button cursor-pointer"
+                    className="classic-button haskins-btn cursor-pointer"
                     onClick={() => setSelectedArticle(leadArticle)}
                   >
                     Leer la noticia →

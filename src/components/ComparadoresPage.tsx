@@ -102,7 +102,7 @@ export const ComparadoresPage: React.FC<ComparadoresPageProps> = ({ onBackToHome
           {COMPARISONS_DATA.map((comp) => (
             <section
               key={comp.id}
-              className="comparison"
+              className="comparison haskins-card group"
               id={comp.id}
               style={{
                 background: '#110c1e',

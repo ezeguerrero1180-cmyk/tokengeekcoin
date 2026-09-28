@@ -1,13 +1,13 @@
 import React from 'react';
 
 interface FooterProps {
-  onNavigate?: (view: 'home' | 'ofertas' | 'comparadores', hash?: string) => void;
+  onNavigate?: (view: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi', hash?: string) => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const handleLink = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    view: 'home' | 'ofertas' | 'comparadores',
+    view: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi',
     hash?: string
   ) => {
     if (onNavigate) {
@@ -44,7 +44,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <a href="/#mi-universo" onClick={(e) => handleLink(e, 'home', '#mi-universo')}>
           Mi Universo
         </a>
-        <a href="/#sobre-mi" onClick={(e) => handleLink(e, 'home', '#sobre-mi')}>
+        <a href="/sobre-mi" onClick={(e) => handleLink(e, 'sobre-mi')}>
           Sobre mí
         </a>
       </div>

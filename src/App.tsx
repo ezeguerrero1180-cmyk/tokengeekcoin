@@ -16,8 +16,9 @@ import { OfertasPage } from './components/OfertasPage';
 import { ComparadoresPage } from './components/ComparadoresPage';
 import { AdSenseUnit } from './components/AdSenseUnit';
 import { KineticMarquee } from './components/KineticMarquee';
+import { SobreMiPage } from './components/SobreMiPage';
 
-export type AppView = 'home' | 'ofertas' | 'comparadores';
+export type AppView = 'home' | 'ofertas' | 'comparadores' | 'sobre-mi';
 
 const getViewFromUrl = (): AppView => {
   if (typeof window === 'undefined') return 'home';
@@ -40,6 +41,17 @@ const getViewFromUrl = (): AppView => {
     hash.startsWith('#/comparadores')
   ) {
     return 'comparadores';
+  }
+
+  if (
+    path === '/sobre-mi' ||
+    path === '/sobre-mi/' ||
+    path === '/autor/ezequiel-guerrero' ||
+    path === '/autor/ezequiel-guerrero/' ||
+    hash === '#sobre-mi' ||
+    hash.startsWith('#/sobre-mi')
+  ) {
+    return 'sobre-mi';
   }
 
   return 'home';
@@ -80,6 +92,9 @@ export default function App() {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else if (view === 'comparadores') {
       window.history.pushState(null, '', '/comparadores');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (view === 'sobre-mi') {
+      window.history.pushState(null, '', '/sobre-mi');
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       window.history.pushState(null, '', hash || '/');
@@ -173,25 +188,86 @@ export default function App() {
       {/* Header presente en todas las vistas */}
       <Header onNavigate={navigateTo} currentView={currentView} />
 
-      {/* Marquee ticker cinético inspirado en Ryan Haskins manteniendo la paleta de colores */}
-      <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
-
       {currentView === 'ofertas' && (
         <main className="classic-home">
+          <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
           <OfertasPage onBackToHome={() => navigateTo('home')} />
         </main>
       )}
 
       {currentView === 'comparadores' && (
         <main className="classic-home">
+          <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
           <ComparadoresPage onBackToHome={() => navigateTo('home')} />
         </main>
       )}
 
+      {currentView === 'sobre-mi' && (
+        <SobreMiPage
+          onBackToHome={() => navigateTo('home')}
+          onSelectArticle={setSelectedArticle}
+          latestArticles={allArticles}
+        />
+      )}
+
       {currentView === 'home' && (
         <main className="classic-home">
-          {/* LO ÚLTIMO ARRIBA: Publicaciones del día en portada principal */}
-          <section className="classic-section classic-latest" id="noticias" style={{ paddingTop: '42px' }}>
+          {/* Portada banner original en la parte superior */}
+          <section className="classic-banner" aria-label="Portada TokenGeekCoin">
+            <SiteImage
+              src="/channel-banner.webp"
+              alt="TokenGeekCoin: gaming, inversiones, tecnología y cómics"
+              priority
+            />
+            <div className="classic-banner-shade" />
+            <a className="classic-banner-button haskins-btn" href="#noticias">
+              Explorar noticias <span>→</span>
+            </a>
+          </section>
+
+          {/* Intro con Curiosidad en modo ON */}
+          <section className="classic-intro">
+            <div className="classic-intro-copy">
+              <p className="classic-kicker">GAMING · FINANZAS · TECNOLOGÍA · CULTURA GEEK</p>
+              <h1 className="font-display">
+                Curiosidad en
+                <br />
+                <em>modo ON.</em>
+              </h1>
+              <p className="classic-lead font-sans">
+                Un espacio personal para entender el multiverso digital, descubrir historias y tomar
+                mejores decisiones sin apagar la pasión geek.
+              </p>
+              <div className="classic-actions">
+                <a className="classic-button haskins-btn" href="#noticias">
+                  Explorar noticias
+                </a>
+                <a
+                  className="classic-link cursor-pointer"
+                  href="/ofertas"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    navigateTo('ofertas');
+                  }}
+                >
+                  Ver Ofertas Geek →
+                </a>
+              </div>
+            </div>
+            <div className="classic-orbit" aria-hidden="true">
+              <span className="classic-orbit-ring" />
+              <span className="classic-orbit-core">T.</span>
+              <span className="classic-orbit-chip chip-one">XP</span>
+              <span className="classic-orbit-chip chip-two">₿</span>
+              <span className="classic-orbit-chip chip-three">AI</span>
+            </div>
+          </section>
+
+          {/* Marquee ticker cinético inspirado en Ryan Haskins */}
+          <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
+
+          {/* LO ÚLTIMO: Publicaciones del día en portada principal */}
+          <section className="classic-section classic-latest" id="noticias">
             <div className="classic-section-heading">
               <div>
                 <p className="classic-kicker">LO ÚLTIMO · NOTICIAS DE HOY</p>
@@ -389,6 +465,14 @@ export default function App() {
                 >
                   Suscribirse en YouTube ↗
                 </a>
+              </div>
+              <div className="mt-5">
+                <button
+                  onClick={() => navigateTo('sobre-mi')}
+                  className="classic-button haskins-btn cursor-pointer inline-flex items-center gap-2"
+                >
+                  Conocer mi historia completa →
+                </button>
               </div>
             </div>
           </section>

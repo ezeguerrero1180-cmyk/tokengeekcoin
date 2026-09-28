@@ -1,14 +1,14 @@
 import React from 'react';
 
 export interface HeaderProps {
-  onNavigate?: (view: 'home' | 'ofertas' | 'comparadores', hash?: string) => void;
-  currentView?: 'home' | 'ofertas' | 'comparadores';
+  onNavigate?: (view: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi', hash?: string) => void;
+  currentView?: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi';
 }
 
 export function MobileMenu({ onNavigate, currentView }: HeaderProps) {
   const handleLink = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    view: 'home' | 'ofertas' | 'comparadores',
+    view: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi',
     hash?: string
   ) => {
     if (onNavigate) {
@@ -55,8 +55,9 @@ export function MobileMenu({ onNavigate, currentView }: HeaderProps) {
           Mi Universo
         </a>
         <a
-          href="/#sobre-mi"
-          onClick={(e) => handleLink(e, 'home', '#sobre-mi')}
+          href="/sobre-mi"
+          className={currentView === 'sobre-mi' ? 'active' : ''}
+          onClick={(e) => handleLink(e, 'sobre-mi')}
         >
           Sobre mí
         </a>
@@ -68,7 +69,7 @@ export function MobileMenu({ onNavigate, currentView }: HeaderProps) {
 export const Header: React.FC<HeaderProps> = ({ onNavigate, currentView = 'home' }) => {
   const handleLink = (
     e: React.MouseEvent<HTMLAnchorElement>,
-    view: 'home' | 'ofertas' | 'comparadores',
+    view: 'home' | 'ofertas' | 'comparadores' | 'sobre-mi',
     hash?: string
   ) => {
     if (onNavigate) {
@@ -133,8 +134,12 @@ export const Header: React.FC<HeaderProps> = ({ onNavigate, currentView = 'home'
           Mi Universo
         </a>
         <a
-          href="/#sobre-mi"
-          onClick={(e) => handleLink(e, 'home', '#sobre-mi')}
+          href="/sobre-mi"
+          onClick={(e) => handleLink(e, 'sobre-mi')}
+          style={{
+            color: currentView === 'sobre-mi' ? 'var(--mg-acid, #d9ff3f)' : undefined,
+            fontWeight: currentView === 'sobre-mi' ? 900 : undefined,
+          }}
         >
           Sobre mí
         </a>

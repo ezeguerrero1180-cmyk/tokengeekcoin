@@ -192,8 +192,10 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
         </div>
 
         {/* Article Header (Magazine Geek Style) */}
-        <header className="p-6 md:p-10 border-b-6 border-[var(--mg-orange)] relative overflow-hidden"
-          style={{ background: 'linear-gradient(120deg, var(--mg-ink) 0 68%, var(--mg-purple) 68%)' }}>
+        <header
+          className="p-6 md:p-10 border-b-6 border-[var(--mg-orange)] relative overflow-hidden"
+          style={{ background: 'linear-gradient(120deg, var(--mg-ink) 0 68%, var(--mg-purple) 68%)' }}
+        >
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <span
               className="eyebrow"
@@ -231,12 +233,12 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
           </div>
 
           <h1
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-normal mb-4 text-white"
+            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight mb-4 text-white"
             style={{
-              fontFamily: 'var(--mg-display)',
-              lineHeight: 1.15,
+              fontFamily: 'var(--mg-display), Impact, "Arial Black", sans-serif',
+              lineHeight: 1.12,
               fontStyle: 'normal',
-              textShadow: 'none',
+              textShadow: '2px 2px 0 #1b0f38',
               letterSpacing: '0.01em',
               wordBreak: 'normal',
               overflowWrap: 'break-word',
@@ -279,8 +281,8 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
           </div>
         </header>
 
-        {/* Hero Image */}
-        <div className="relative border-b-6 border-[var(--mg-purple)]">
+        {/* Hero Image principal debajo del titular */}
+        <div className="relative border-b-6 border-[var(--mg-purple)] bg-[#0d0914]">
           <SiteImage
             src={article.image}
             alt={article.imageAlt || article.title}
@@ -290,10 +292,13 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
           />
           {article.imageAlt && (
             <div
-              className="p-2 text-[11px] font-sans border-t border-white/10"
+              className="p-2.5 text-[11px] font-sans border-t border-white/10 flex items-center justify-between"
               style={{ background: 'var(--mg-panel)', color: 'var(--mg-muted)' }}
             >
-              Foto: {article.imageAlt}
+              <span>Foto: {article.imageAlt}</span>
+              {article.imageCredit && (
+                <span className="text-[10px] text-stone-400 font-mono">{article.imageCredit}</span>
+              )}
             </div>
           )}
         </div>

@@ -275,7 +275,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-xs uppercase font-sans font-bold tracking-wider text-[#a8a29e] hidden sm:inline">
-                  25 SEP 2026 · {newArticles.length} publicaciones de hoy
+                  28 SEP 2026 · {newArticles.length} publicaciones de hoy
                 </span>
               </div>
             </div>

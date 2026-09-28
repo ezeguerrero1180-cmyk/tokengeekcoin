@@ -1,5 +1,315 @@
 [
   {
+    "slug": "gaming/minecraft-dungeons-2-xbox-game-pass-play-anywhere",
+    "category": "GAMING",
+    "date": "28 SEP 2026",
+    "dateIso": "2026-09-28T10:00:00-03:00",
+    "minutes": 6,
+    "title": "Minecraft Dungeons II debuta en Xbox Game Pass y Play Anywhere: Mojang y Microsoft reinventan el ARPG de bloques",
+    "dek": "La secuela llega desde el primer día a Xbox Series X|S, PC y la nube, incorporando tres árboles de clases, mecánicas de verticalidad y multijugador cooperativo cross-play.",
+    "personalAngle": "La primera entrega era entretenida pero se quedaba corta para quien buscaba profundizar en builds. Esta secuela entiende exactamente qué le pedía la comunidad: progresión real, ganchos de redstone y botín con sentido.",
+    "leadEyebrow": "LANZAMIENTO DESTACADO · XBOX & PC",
+    "leadTitle": "Acción, rol cooperativo y redstone táctica: así evoluciona el universo de Mojang",
+    "image": "/articles/2026-09-28/minecraft-dungeons-2-hero.jpg",
+    "imageAlt": "Minecraft Dungeons II encabeza la alineación de lanzamientos cooperativos para Xbox y PC este otoño",
+    "imageCredit": "TokenGeekCoin / Mojang & Xbox Studios",
+    "body": [
+      "La división de Xbox Game Studios y Mojang Studios firmaron el día de hoy uno de sus movimientos estratégicos más ambiciosos del año. Minecraft Dungeons II desembarca formalmente a nivel global en las plataformas Xbox Series X|S, PC con Windows y Xbox Cloud Gaming, estando disponible desde el minuto uno sin costo adicional para todos los suscriptores activos de Xbox Game Pass Ultimate y PC Game Pass, así como a través del programa Xbox Play Anywhere.",
+      "El título original, lanzado en mayo de 2020, logró congregar a más de 25 millones de jugadores únicos gracias a una propuesta accesible que simplificaba los complejos sistemas de progresión vistos en sagas insignia del género dungeon crawler como Diablo o Path of Exile. Sin embargo, la comunidad más ávida reclamó durante años mayor profundidad en el combate, mejor rejugabilidad en el endgame y un diseño de niveles menos lineal. Esta secuela no solo atiende de manera frontal esas demandas, sino que redefine los pilares técnicos y de diseño del ecosistema cooperativo de Mojang.",
+      "Para la directiva de Xbox, el lanzamiento de una secuela directa para una franquicia multimillonaria dentro del catálogo de Game Pass responde a la necesidad imperiosa de mantener altos índices de retención y horas de juego activas (engagement metrics) antes del inicio de la campaña navideña.",
+      "Minecraft Dungeons II no es únicamente un producto dirigido al público infantil o casual; sus nuevos niveles de dificultad —que incluyen el modo Apocalipsis+ y mazmorras procedimentales de las Ciudades Antiguas (Ancient Cities)— ofrecen el reto técnico que demandan los veteranos de los Action-RPG. Al eliminar las barreras de entrada mediante el servicio de suscripción, el título garantiza una masa crítica de usuarios inmediata en los servidores globales, asegurando el éxito comercial de su modelo de pases de aventura y expansiones cosméticas planificadas para los próximos dos años."
+    ],
+    "features": [
+      {
+        "title": "Un salto evolutivo en el combate y la progresión de personajes",
+        "eyebrow": "SISTEMAS Y BUILDS",
+        "facts": "3 ÁRBOLES · VERTICALIDAD · RE-FORJA",
+        "image": "/articles/2026-09-28/minecraft-dungeons-2-tactics.jpg",
+        "alt": "Las nuevas mecánicas de movilidad y verticalidad añaden una capa táctica inédita al género",
+        "imageCredit": "TokenGeekCoin / Mojang Studios",
+        "body": [
+          "En la primera entrega, la identidad táctica de un jugador dependía de manera casi exclusiva del nivel absoluto de sus ítems equipados, lo que derivaba en una experiencia sumamente lineal donde las decisiones de construcción de personaje eran secundarias.",
+          "Sistema de Ramas Pasivas e Habilidades de Clase: Aunque se mantiene la libertad de no estar atado a una clase rígida al inicio de la partida, los jugadores ahora pueden invertir puntos de experiencia en tres árboles pasivos principales: Vanguardia (enfocado en combate cuerpo a cuerpo y mitigación de daño), Sombra de Arcano (centrado en artefactos y control de masas) y Francotirador de Redstone (especializado en daño a distancia y trampas de entorno).",
+          "Movimiento Dinámico, Esquiva y Verticalidad: El motor gráfico mejorado incorpora mecánicas de salto activo, escalada de cornisas e interactividad con el escenario. Los personajes pueden utilizar ganchos de redstone para posicionarse en plataformas elevadas o romper estructuras endebles para aplastar hordas de Illagers.",
+          "Segmentación de Armaduras y Re-forja: A diferencia del conjunto único de armadura de la entrega original, el equipamiento ahora se fragmenta en cuatro ranuras independientes: yelmo, pechera, guantes y calzado. Este cambio exponencial en las combinaciones permite activar bonificaciones de conjunto (set bonuses) inspiradas en los diferentes biomas del universo Minecraft."
+        ]
+      },
+      {
+        "title": "Ecosistema Microsoft: Cross-Play, Cloud y Play Anywhere",
+        "eyebrow": "INFRAESTRUCTURA Y SERVICIOS",
+        "facts": "CROSS-PLAY · 4 JUGADORES · COOP HÍBRIDO",
+        "image": "/articles/2026-09-28/minecraft-dungeons-2-hero.jpg",
+        "alt": "Alineación de héroes cooperativos en Minecraft Dungeons II",
+        "imageCredit": "Xbox Game Studios",
+        "body": [
+          "Xbox Play Anywhere: Adquirir la versión digital o acceder mediante suscripción otorga una licencia unificada. La partida guardada, los cosméticos desbloqueados, el inventario y los logros de Xbox se sincronizan de manera instantánea entre consolas Xbox Series X|S, ordenadores con Windows y dispositivos móviles alimentados por Xbox Cloud Gaming.",
+          "Juego Cruzado Sin Costuras (Full Cross-Play): El modo multijugador admite escuadrones de hasta cuatro jugadores simultáneos. Un usuario desde una PC de escritorio puede unirse sin latencia adicional a la partida de un jugador en consola o alguien jugando vía streaming desde una consola portátil (handheld PC).",
+          "Cooperativo Local y En Línea Simultáneo: Mojang escuchó las peticiones de la comunidad e implementó la función de juego híbrido, permitiendo que dos personas jueguen en pantalla dividida en la misma sala física mientras se conectan a la vez con otros dos amigos a través de Internet."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Xbox Wire — Comunicado oficial de lanzamiento Minecraft Dungeons II",
+        "url": "https://news.xbox.com/"
+      },
+      {
+        "name": "Mojang Studios — Blog de desarrollo sobre combate y progresión",
+        "url": "https://www.minecraft.net/"
+      }
+    ]
+  },
+  {
+    "slug": "comics/lanterns-capitulo-6-sombras-en-la-frecuencia",
+    "category": "CÓMICS + SERIES",
+    "date": "28 SEP 2026",
+    "dateIso": "2026-09-28T11:00:00-03:00",
+    "minutes": 6,
+    "title": "Lanterns Capítulo 6: 'Sombras en la Frecuencia' transforma el thriller noir en una colisión cósmica de consecuencias irreversibles",
+    "dek": "Atención: Este artículo contiene spoilers completos del capítulo 6 de Lanterns. Kyle Chandler y Aaron Pierre consolidan a la serie de DC Studios como el estándar dorado de la TV de superhéroes.",
+    "personalAngle": "Si los episodios previos cocinaron la investigación policial a fuego lento en la América profunda, este capítulo da el golpe en la mesa: desmitifica a Hal Jordan sin faltarle el respeto y eleva a John Stewart a estratega supremo.",
+    "leadEyebrow": "DC STUDIOS · CAPÍTULO 6",
+    "leadTitle": "Sombras en la Frecuencia: el thriller policial se conecta con el sector 2814",
+    "image": "/articles/2026-09-28/lanterns-ep6-lead.jpg",
+    "imageAlt": "Hal Jordan y John Stewart enfrentan las ramificaciones de la conspiración terrestre y cósmica en el sexto episodio",
+    "imageCredit": "TokenGeekCoin / DC Studios & HBO Max",
+    "body": [
+      "Tras el impacto narrativo del capítulo 5 ('Lights Out'), donde el anillo liberó su potencial definitivo y la investigación de Zoe y William expuso las grietas del caso central, la nueva entrega de Lanterns no baja las revoluciones. El sexto episodio, titulado 'Sombras en la Frecuencia', consolida a la serie del DCU supervisada por James Gunn y Peter Safran como el estándar dorado de las producciones televisivas de superhéroes: un drama policiaco de atmósfera pesada (detective noir) despojado de artificios, donde la ciencia ficción cósmica actúa como amplificador de las miserias humanas.",
+      "Si los episodios anteriores construyeron una tensión procedimental a fuego lento en los rincones rurales de Estados Unidos, este capítulo da el zarpazo definitivo. Con la verdad sobre el homicidio inicial finalmente al descubierto, las lealtades dentro y fuera de la corporación saltan por los aires.",
+      "El gran mérito de Chris Mundy, Damon Lindelof y Tom King en la sala de guionistas es no haber sucumbido a las prisas del espectáculo pirotécnico fácil. Cada pista desenterrada en el barro de Nebraska o en los informes desclasificados de los años setenta resuena con autenticidad, obligando al espectador a cuestionar junto a los protagonistas si la misión de los Linternas Verdes protege la verdad o simplemente encubre los daños colaterales de una civilización galáctica en decadencia."
+    ],
+    "features": [
+      {
+        "title": "John Stewart y Hal Jordan: La colisión de dos filosofías de liderazgo",
+        "eyebrow": "DUPLA PROTAGONISTA",
+        "facts": "HAL JORDAN · JOHN STEWART · OA",
+        "image": "/articles/2026-09-28/lanterns-ep6-tactics.jpg",
+        "alt": "El apartado visual del episodio equilibra el suspenso policíaco con demostraciones de poder de la luz verde",
+        "imageCredit": "TokenGeekCoin / DC Studios",
+        "body": [
+          "El núcleo emocional y estructural del episodio reside en el choque frontal entre Hal Jordan (Kyle Chandler) y John Stewart (Aaron Pierre).",
+          "Tras la decisión tomada por Stewart en la entrega anterior de no reportar de inmediato la anomalía a los Guardianes de Oa, este episodio explora el precio de operar al margen del protocolo:",
+          "El peso del veterano: Hal Jordan muestra aquí su versión más humana, desgastada y cínica. La serie no le teme a retratar a un Hal que empieza a sentir el desgaste biológico y psicológico de décadas portando la batería verde, convirtiéndolo en un mentor imperfecto cuyas cicatrices del pasado pesan más que sus certezas.",
+          "El cálculo estratégico de Stewart: Aaron Pierre entrega su mejor actuación de la temporada. Su John Stewart no es un novato sumiso; es un exagente militar que entiende la guerra, la contrainteligencia y la diplomacia. La dinámica entre ambos pasa del recelo generacional a una alianza tácita nacida de la necesidad de supervivencia."
+        ]
+      },
+      {
+        "title": "El misterio terrenal se conecta con la amenaza cósmica",
+        "eyebrow": "TRAMA Y CONSPIRACIÓN",
+        "facts": "SECTOR 2814 · SINESTRO · GUERRA FRÍA",
+        "image": "/articles/2026-09-28/lanterns-ep6-lead.jpg",
+        "alt": "Hal Jordan y John Stewart en la investigación del reactor de la Guerra Fría",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "El gran acierto del guion en 'Sombras en la Frecuencia' es cómo entrelaza la trama de misterio terrenal —liderada por los giros dramáticos en torno a las revelaciones de Zoe y William— con los cables de alta tensión que conectan directamente con el sector 2814.",
+          "1. La pista del reactor antiguo: La investigación del crimen en el pueblo norteamericano deja de ser un simple asesinato local para revelar la presencia de tecnología alienígena latente integrada en infraestructura militar terrestre desde la Guerra Fría.",
+          "2. Sinestro en las sombras: Aunque su presencia física sigue siendo dosificada con cuentagotas, las implicaciones de su influencia en los acontecimientos de la Tierra preparan el terreno para un enfrentamiento de escala masiva en el cierre de temporada.",
+          "3. El suspenso como motor: A diferencia de las producciones tradicionales del género que abusan del CGI para tapar baches de guion, Lanterns utiliza los constructos de luz verde con moderación quirúrgica. Cuando el anillo se enciende, la escena cobra un peso narrativo real."
+        ]
+      },
+      {
+        "title": "Veredicto TokenGeekCoin: Camino a un final de temporada histórico",
+        "eyebrow": "VEREDICTO EDITORIAL",
+        "facts": "DCU · JAMES GUNN · HBO PRESTIGE",
+        "image": "/articles/2026-09-28/lanterns-ep6-tactics.jpg",
+        "alt": "La luz verde esmeralda y el suspenso cinematográfico en Lanterns",
+        "imageCredit": "TokenGeekCoin Editorial",
+        "body": [
+          "'Sombras en la Frecuencia' es el mejor episodio de la serie hasta la fecha. Consigue lo que muy pocas adaptaciones de cómic logran en televisión: elevar la escala del conflicto sin perder de vista la psicología de sus protagonistas.",
+          "Con un ritmo impecable, actuaciones sobresalientes y una dirección de fotografía que saca el máximo provecho de las sombras y los destellos esmeralda, Lanterns entra en su recta final perfilándose como una de las obras más sólidas del universo DC."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "HBO Max & DC Studios — Ficha oficial de Lanterns Episodio 6",
+        "url": "https://www.dc.com/"
+      },
+      {
+        "name": "DC.com — Cobertura y guías del DC Universe",
+        "url": "https://www.dc.com/"
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/petroleo-supera-106-dolares-choque-energetico-mercados-bitcoin",
+    "category": "FINANZAS + CRIPTO",
+    "date": "28 SEP 2026",
+    "dateIso": "2026-09-28T10:15:00-03:00",
+    "minutes": 7,
+    "title": "El petróleo supera los USD 106 por barril: el choque energético sacude los mercados globales y presiona a Bitcoin",
+    "dek": "La escalada del crudo Brent impulsa la aversión al riesgo en Wall Street, frena las expectativas de recortes de tasas de la Fed y desata liquidaciones millonarias en el sector cripto.",
+    "personalAngle": "El petróleo por encima de 100 dólares siempre actúa como un shock de realidad macroeconómica: suben los costos de transporte, se enfrían los activos de riesgo y los mineros de Bitcoin recalculan márgenes contra el costo eléctrico.",
+    "leadEyebrow": "MACROECONOMÍA Y ACTIVOS DIGITALES",
+    "leadTitle": "Entre la aversión al riesgo y la narrativa de reserva de valor frente a la inflación",
+    "image": "/articles/2026-09-28/petroleo-106-bitcoin-hero.jpg",
+    "imageAlt": "La escalada del crudo impulsa la aversión al riesgo en Wall Street y el mercado cripto",
+    "imageCredit": "TokenGeekCoin / Mercados Globales",
+    "body": [
+      "Los mercados financieros internacionales abrieron la semana con una violenta corrección a la baja en los índices de renta variable y activos de alta volatilidad. El precio del petróleo crudo (referencial internacional Brent) perforó con fuerza la barrera psicológica de los USD 106 por barril, alcanzando niveles no vistos en más de dos años. Esta escalada responde de forma directa al recrudecimiento de las tensiones geopolíticas en Medio Oriente, el cierre preventivo de importantes estrechos marítimos para el transporte de hidrocarburos y la consiguiente amenaza de un estrangulamiento en la oferta global de energía.",
+      "Las implicaciones de esta subida repentina en las materias primas van mucho más allá del sector energético tradicional. Los principales selectivos bursátiles de Asia —como el Nikkei 225 y el Hang Seng— sufrieron caídas superiores al 2.8%, una tendencia que se replicó rápidamente en la apertura de los parqués europeos y en los contratos de futuros del S&P 500 y Nasdaq 100 en Wall Street.",
+      "Para los inversores en criptoactivos, la clave de las próximas semanas estará en monitorear si Bitcoin logra desacoplarse de los mercados de renta variable. Si la crisis geopolítica e inflacionaria se profundiza, la narrativa de Bitcoin como un activo escaso, descentralizado, neutral e inconfiscable podría ganar tracción entre actores institucionales que busquen proteger su poder adquisitivo frente a la devaluación paulatina de las divisas fiduciarias afectadas por el shock energético."
+    ],
+    "features": [
+      {
+        "title": "El efecto dominó: Inflación persistentemente alta y política monetaria de la Fed",
+        "eyebrow": "IMPACTO EN TASAS",
+        "facts": "BRENT > $106 · TASAS 10Y AL 4.65% · FED EN ALERTA",
+        "image": "/articles/2026-09-28/petroleo-106-liquidity.jpg",
+        "alt": "La liquidez global se contrae ante el repunte de los rendimientos de los bonos soberanos",
+        "imageCredit": "TokenGeekCoin / Macro Data",
+        "body": [
+          "El principal temor de los analistas macroeconómicos radica en el impacto directo que el costo de la energía tiene sobre el Índice de Precios al Consumo (IPC) a escala global. El barril por encima de los USD 100 actúa como un impuesto invisible sobre toda la cadena de producción, transporte y logística internacional, destruyendo las esperanzas de que la inflación se estabilice cerca del objetivo del 2% anual fijado por los bancos centrales.",
+          "Revisión de Tasas de Interés: La Reserva Federal de los Estados Unidos (Fed), junto con el Banco Central Europeo (BCE), se encuentra en una encrucijada crítica. Un choque de oferta energética reduce drásticamente el margen para continuar con el ciclo de recortes en los tipos de interés. Los swaps de mercado indican ahora que la probabilidad de una pausa o incluso una subida preventiva de tipos ha aumentado significativamente.",
+          "Fuga hacia la Calidad (Flight to Quality): Los inversores institucionales han iniciado una rotación masiva de capital hacia activos de refugio tradicional. Los rendimientos de los bonos del Tesoro de EE. UU. a 10 años se dispararon hacia el 4.65%, mientras que el dólar estadounidense (DXY) mostró una fortaleza vertiginosa frente a las divisas de mercados emergentes."
+        ]
+      },
+      {
+        "title": "¿Cómo reacciona el ecosistema Cripto? Bitcoin entre el Risk-Off y la Cobertura",
+        "eyebrow": "LIQUIDEZ Y MINERÍA",
+        "facts": "USD 420M LIQUIDADOS · ALTCOINS -8% · COSTO POW",
+        "image": "/articles/2026-09-28/petroleo-106-bitcoin-hero.jpg",
+        "alt": "Gráficos de volatilidad y cotización de Bitcoin en el contexto del choque petrolero",
+        "imageCredit": "TokenGeekCoin Financial",
+        "body": [
+          "Corrección de Corto Plazo por Fuga de Liquidez: En el horizonte temporal inmediato, Bitcoin continúa operando con una marcada correlación respecto al sector tecnológico tradicional (Nasdaq). El aumento de la liquidez fiduciaria restringida provoca ventas forzadas en posiciones apalancadas de criptomonedas. Durante las últimas 24 horas, las liquidaciones en el mercado de derivados cripto superaron los USD 420 millones, con más del 80% correspondiendo a posiciones largas.",
+          "Presión sobre las Altcoins y DeFi: Las altcoins de mediana y baja capitalización han sufrido el golpe más severo, cayendo en promedio entre un 6% y un 12%. Los protocolos de Finanzas Descentralizadas (DeFi) han registrado un descenso en el Valor Total Bloqueado (TVL), a medida que los inversionistas retiran capital hacia monedas estables (stablecoins) de rendimiento o tesoros tokenizados.",
+          "El Costo Energético de la Minería de Bitcoin: La subida internacional del gas natural y el petróleo incrementa los costos operativos de las grandes instalaciones de minería de Proof-of-Work (PoW). Las empresas mineras que cotizan en bolsa y operan con tarifas eléctricas variables verán reducidos sus márgenes de ganancia, lo que podría desencadenar capitulación de mineros ineficientes o la venta de reservas de BTC retenidas en sus balances para financiar gastos operativos."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters Commodities & Energy Weekly Report",
+        "url": "https://www.reuters.com/markets/commodities/"
+      },
+      {
+        "name": "Bloomberg Markets — Crude Oil Surges Past $106 Amid Supply Strain",
+        "url": "https://www.bloomberg.com/energy"
+      },
+      {
+        "name": "CoinGlass — Derivatives & Crypto Liquidation Monitor",
+        "url": "https://www.coinglass.com/"
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia-ia/openai-devday-2026-san-francisco-era-agentes-autonomos",
+    "category": "TECNOLOGÍA + IA",
+    "date": "28 SEP 2026",
+    "dateIso": "2026-09-28T10:30:00-03:00",
+    "minutes": 6,
+    "title": "OpenAI entra en la previa del DevDay 2026: San Francisco se prepara para la era de los Agentes Autónomos",
+    "dek": "La conferencia anual insignia organizada por la firma de Sam Altman promete convertir a la IA en una fuerza ejecutiva autónoma capaz de planificar, programar y operar software complejo.",
+    "personalAngle": "Dejamos atrás la fase de las preguntas y respuestas: el salto real está en los modelos que ejecutan flujos de trabajo en segundo plano, debuguean código y coordinan tareas sin que tengamos que supervisar cada paso.",
+    "leadEyebrow": "EVENTOS & DESARROLLO DE SOFTWARE",
+    "leadTitle": "San Francisco concentra la mirada del software global en la antesala del DevDay 2026",
+    "image": "/articles/2026-09-28/openai-devday-2026-hero.jpg",
+    "imageAlt": "San Francisco recibe a miles de desarrolladores e ingenieros de IA para el OpenAI DevDay 2026",
+    "imageCredit": "TokenGeekCoin / OpenAI DevDay Press",
+    "body": [
+      "La expectación en el Silicon Valley ha alcanzado su punto máximo. La ciudad de San Francisco se encuentra en las horas previas al arranque del OpenAI DevDay 2026, la conferencia anual insignia organizada por la firma liderada por Sam Altman. El evento, que se celebrará oficialmente el día de mañana, reúne a miles de ingenieros de software, científicos de datos, fundadores de startups y directivos de tecnología de todo el globo para presenciar los avances que definirán el rumbo del desarrollo de software impulsado por Inteligencia Artificial durante el próximo año.",
+      "Si la edición de 2023 se caracterizó por la presentación de los GPTs personalizados y la llegada del modelo GPT-4 Turbo, y las iteraciones posteriores perfeccionaron la razonabilidad multimodal y la voz en tiempo real, el DevDay 2026 promete ser el punto de inflexión donde la Inteligencia Artificial pase de ser una herramienta puramente de consulta para convertirse en una fuerza ejecutiva autónoma.",
+      "Para el sector de las tecnologías descentralizadas, el avance de las APIs de OpenAI representa el combustible para una nueva ola de innovación. La convergencia entre Agentes de IA e Inteligencia Financiera permitirá la creación de bots autónomos capaces de auditar contratos inteligentes (Smart Contracts) en tiempo real, ejecutar estrategias de arbitraje de liquidez en intercambios descentralizados (DEX) y gestionar gobernanzas DAO sin intervención humana, marcando el inicio de la economía de máquina a máquina (Machine-to-Machine Economy)."
+    ],
+    "features": [
+      {
+        "title": "Agentes Autónomos y la transformación de la API de OpenAI",
+        "eyebrow": "NIVEL 3 Y 4 DE IA",
+        "facts": "-60% COSTO TOKEN · MEMORIA EXTENDIDA · AGENTES NATIVOS",
+        "image": "/articles/2026-09-28/openai-devday-2026-agents.jpg",
+        "alt": "El desarrollo de software experimenta un cambio de paradigma hacia la programación orientada a agentes",
+        "imageCredit": "TokenGeekCoin / AI Architecture",
+        "body": [
+          "Nivel 3 y Nivel 4 de Inteligencia Artificial: La industria prevé la presentación de herramientas que permiten a los modelos no solo responder preguntas o generar texto, sino planificar, ejecutar y corregir proyectos complejos de manera independiente. Esto incluye la interacción nativa con terminales de código, entornos de desarrollo (IDEs), APIs corporativas y navegadores web sin necesidad de supervisión paso a paso.",
+          "Reducción Dramática de Latencia y Costo por Token: Para que los agentes autónomos sean viables comercialmente en aplicaciones masivas, OpenAI presentará nuevas APIs optimizadas. Se rumorea una reducción de hasta un 60% en los costos de inferencia para sus modelos de razonamiento avanzado, así como el debut de un modelo ultra-rápido diseñado específicamente para interacciones de voz y control robótico.",
+          "Memoria Persistente y Contexto Infinito: La comunidad espera un salto cualitativo en la gestión de memoria contextual para desarrolladores, permitiendo que las aplicaciones construidas sobre OpenAI \"recuerden\" interacciones complejas, reglas de negocio e historiales de código a lo largo de meses sin saturar la ventana de tokens."
+        ]
+      },
+      {
+        "title": "La batalla por el ecosistema de desarrolladores: OpenAI vs. Anthropic y Meta",
+        "eyebrow": "COMPETENCIA Y GOBERNANZA",
+        "facts": "OPENAI · CLAUDE · LLAMA · AI ACT",
+        "image": "/articles/2026-09-28/openai-devday-2026-hero.jpg",
+        "alt": "Auditorio del evento de desarrollo de OpenAI en San Francisco",
+        "imageCredit": "Silicon Valley Tech Press",
+        "body": [
+          "El DevDay 2026 no se celebra en un vacío. OpenAI enfrenta la competencia más feroz de su historia. Modelos de código abierto como Llama de Meta han demostrado que las empresas pueden desplegar modelos de altísimo rendimiento en sus propios servidores a una fracción del costo. Al mismo tiempo, rivales como Anthropic (con su serie Claude) han ganado una cuota de mercado sustancial entre los programadores debido a su superior capacidad de análisis sintáctico y código estructurado.",
+          "Por este motivo, se espera que Sam Altman centre gran parte de su discurso de apertura en las ventajas del ecosistema cerrado de alta integración: herramientas de ciberseguridad avanzada, cumplimiento estricto con las regulaciones de la Unión Europea (AI Act), marcas de agua criptográficas (cryptographic watermarking) para autenticar contenido generado por IA y nuevos programas de monetización directos para creadores de software que utilicen su tienda de agentes."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "OpenAI DevDay Official Portal & Stream Agenda",
+        "url": "https://devday.openai.com/"
+      },
+      {
+        "name": "TechCrunch — What to Expect at OpenAI DevDay 2026",
+        "url": "https://techcrunch.com/category/artificial-intelligence/"
+      }
+    ]
+  },
+  {
+    "slug": "comics-series/foc-absolute-batman-25-absolute-wonder-woman-25-dc-comics",
+    "category": "CÓMICS + SERIES",
+    "date": "28 SEP 2026",
+    "dateIso": "2026-09-28T10:45:00-03:00",
+    "minutes": 6,
+    "title": "Última llamada para el catálogo FOC: Absolute Batman #25 y Absolute Wonder Woman #25 entran en su día decisivo",
+    "dek": "Día crítico para las comic shops y coleccionistas: hoy cierra el Final Order Cutoff para dos de los números más codiciados de DC Comics, con variantes exclusivas y acabados foil.",
+    "personalAngle": "El sistema de Final Order Cutoff es la verdadera adrenalina del coleccionismo moderno: si te duermes hoy con el encargo en la tienda, mañana pagas el triple en la reventa o te quedas sin la portada que querías para tu biblioteca.",
+    "leadEyebrow": "COLECCIONISMO & NOVELA GRÁFICA",
+    "leadTitle": "Día clave para las tiendas de cómics: el cierre del FOC define las tiradas de Absolute",
+    "image": "/articles/2026-09-28/absolute-dc-foc-hero.jpg",
+    "imageAlt": "Las tiendas especializadas cierran hoy las órdenes de pedido para la aclamada línea Absolute de DC",
+    "imageCredit": "TokenGeekCoin / DC Comics Art",
+    "body": [
+      "Día crítico y lleno de tensión en las oficinas de los minoristas, tiendas de cómics (comic shops) y distribuidores de novela gráfica de todo el mundo. Hoy, 28 de septiembre de 2026, se cumple de forma improrrogable el plazo de Final Order Cutoff (FOC) para dos de las entregas más solicitadas y comentadas de la industria del noveno arte: Absolute Batman #25 y Absolute Wonder Woman #25.",
+      "El sistema FOC es el engranaje comercial más importante del mercado directo de cómics en Norteamérica y Europa. Representa la fecha límite exacta en la cual los dueños de las tiendas deben enviar a la distribuidora (como Lunar Distribution o Diamond) el número final y exacto de ejemplares físicos que imprimirán las editoriales para sus clientes. Un error en el cálculo durante el día de hoy puede significar quedarse sin stock ante una demanda explosiva o, por el contrario, asumir pérdidas por exceso de inventario.",
+      "Para los lectores de nuestro portal y coleccionistas en activo: si planeas asegurar tu copia de Absolute Batman #25 o Absolute Wonder Woman #25, hoy es el último día para contactar a tu tienda local de cómics o registrar tu suscripción en portales de preventa. Una vez cerrado el FOC de esta noche, la única alternativa para adquirir estas ediciones especiales será recurrir a la reventa en el mercado secundario a precios significativamente elevados."
+    ],
+    "features": [
+      {
+        "title": "La revolución de la línea Absolute: El mayor acierto de DC Comics en la década",
+        "eyebrow": "CLÍMAX EDITORIAL",
+        "facts": "BATMAN #25 · WONDER WOMAN #25 · FANTASÍA OSCURA",
+        "image": "/articles/2026-09-28/absolute-dc-foc-hero.jpg",
+        "alt": "Ilustración imponente de Absolute Batman y Absolute Wonder Woman",
+        "imageCredit": "DC Comics / TokenGeekCoin",
+        "body": [
+          "Cuando DC Comics anunció el lanzamiento de su universo Absolute bajo la supervisión creativa de mentes maestras de la industria, existía cierto escepticismo sobre si el público respondería a otra reinvención de sus héroes tradicionales. Hoy, al llegar al número 25 de sus series insignia, la línea se ha consolidado como un fenómeno de ventas y aclamación crítica sin precedentes recientes.",
+          "Absolute Batman #25: La visión de este Bruce Wayne —despojado de la fortuna multimillonaria de la familia Wayne y convertido en un ingeniero civil de clase trabajadora que utiliza la infraestructura urbana de Gotham como arma— ha resonado profundamente con una nueva generación de lectores. El número 25 promete el clímax de la confrontación contra la versión militarizada de la Corte de los Búhos, un evento que cambiará el statu quo del personaje para los próximos años.",
+          "Absolute Wonder Woman #25: Con una narrativa volcada hacia la fantasía oscura, la mitología nórdica y el terror cósmico, esta interpretación de Diana Prince —criada en el infierno por brujas y armada con una espada de escala colosal— ha redefinido el potencial comercial del personaje, superando en ventas a la serie regular tradicional."
+        ]
+      },
+      {
+        "title": "El fenómeno del mercado secundario y las portadas variantes",
+        "eyebrow": "ESPECULACIÓN Y RATIOS",
+        "facts": "VARIANTES 1:50 · EDICIONES FOIL · DIE-CUT",
+        "image": "/articles/2026-09-28/absolute-dc-foc-variants.jpg",
+        "alt": "El mercado secundario y las portadas variantes impulsan las reservas del catálogo FOC",
+        "imageCredit": "TokenGeekCoin Comics Desk",
+        "body": [
+          "El motivo por el cual el FOC de hoy genera tanta agitación en la comunidad de coleccionistas es la estricta política de tiradas y portadas variantes (variant covers):",
+          "1. Portadas por Ratio de Pedido: DC Comics ha confirmado portadas incentivo exclusivas dibujadas por artistas de renombre internacional. Las tiendas solo pueden solicitar una copia de la portada variante 1:50 o 1:100 por cada 50 o 100 copias que encarguen de la portada regular, lo que desencadena una carrera por maximizar las órdenes base.",
+          "2. Ediciones Especiales Foil y Die-Cut: Los números #25 de ambas colecciones contarán con acabados metálicos (foil) y troquelados especiales que no tendrán reimpresiones posteriores, convirtiéndolos automáticamente en objetos de deseo para los especuladores del mercado de cómics graduados (CGC).",
+          "3. Preventa Digital vs. Formato Físico: A pesar del crecimiento imparable de las plataformas de lectura digital, la línea Absolute ha demostrado que el coleccionismo físico de grapas y ediciones de lujo sigue siendo la columna vertebral financiera de la industria del cómic."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "Lunar Distribution — FOC Orders Weekly Catalogue",
+        "url": "https://www.lunardistribution.com/"
+      },
+      {
+        "name": "DC Comics — Retailer Solicitations & Variant Checklist",
+        "url": "https://www.dc.com/"
+      }
+    ]
+  },
+  {
     "slug": "comics-series/dc-new-york-comic-con-2026-paneles-exclusivos",
     "category": "CÓMICS + SERIES",
     "date": "25 SEP 2026",

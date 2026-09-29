@@ -567,14 +567,86 @@
     "image": "/articles/playstation-august-2026/marvel-tokon.webp",
     "body": [
       "Septiembre no da respiro: samuráis, mutantes, autos imposibles y mazmorras de bloques compiten por nuestro tiempo. Analizamos qué ofrece cada estreno y para qué tipo de jugador puede ser la mejor compra.",
-      "Onimusha: Way of the Sword encabeza el mes con acción samurái; Marvel’s Wolverine es la gran exclusiva de PS5; Hot Wheels Infinite Rush apuesta por velocidad arcade; y Minecraft Dungeons II ofrece cooperativo y Game Pass desde el primer día."
+      "En lugar de dejarnos llevar por el hype ciego, en TokenGeekCoin pasamos cada lanzamiento por el filtro del presupuesto geek: costo por hora de diversión, plataformas confirmadas y el valor real frente a tus suscripciones actuales."
     ],
     "bullets": [
       "Aprovechá las suscripciones que ya pagás.",
       "Elegí una prioridad que realmente vayas a jugar.",
       "No uses el fondo de emergencia para combatir el FOMO."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Onimusha: Way of the Sword",
+        "eyebrow": "01 · ACCIÓN SAMURÁI",
+        "facts": "04 SEP 2026 · PS5, XBOX SERIES, PC · COMPRA PRIORITARIA",
+        "image": "https://www.capcom.co.jp/ir/news/html/images/260603a.png",
+        "alt": "Imagen oficial de Onimusha: Way of the Sword con Miyamoto Musashi",
+        "imageCredit": "Capcom",
+        "body": [
+          "Capcom rescata una de sus sagas históricas con combates técnicos con katana, absorción de almas de demonios (Genma) y un Japón feudal recreado con el motor RE Engine.",
+          "Para nostálgicos de PlayStation 2 y amantes del combate de precisión, es el gran regreso que encabeza el mes con solidez técnica."
+        ]
+      },
+      {
+        "title": "Marvel's Wolverine",
+        "eyebrow": "02 · EL MUTANTE MÁS ESPERADO",
+        "facts": "15 SEP 2026 · PLAYSTATION 5 · ALTA PRIORIDAD",
+        "image": "https://gmedia.playstation.com/is/image/SIEPDC/marvels-wolverine-screenshot-06-en-08june26?$1600px$",
+        "alt": "Captura oficial de Marvel's Wolverine para PlayStation 5",
+        "imageCredit": "Insomniac Games / Sony Interactive Entertainment",
+        "body": [
+          "Insomniac Games cambia las telarañas por las garras de adamantium y construye una aventura original de Logan con acción visceral, escenarios variados y encuentros con mutantes emblemáticos como Omega Red.",
+          "Su exclusividad en PlayStation 5 lo convierte en el gran peso pesado del catálogo de Sony para la segunda mitad del año."
+        ]
+      },
+      {
+        "title": "Hot Wheels Infinite Rush",
+        "eyebrow": "03 · VELOCIDAD ARCADE",
+        "facts": "10 SEP 2026 · PS5, XBOX, SWITCH 2, PC · COMPRA INTELIGENTE",
+        "image": "https://milestone.it/wp-content/uploads/2026/06/slide-infinite-rush-new-2.webp",
+        "alt": "Arte oficial de Hot Wheels Infinite Rush con vehículos compitiendo",
+        "imageCredit": "Milestone",
+        "body": [
+          "Milestone amplía la fórmula de carreras arcade con cuatro islas para explorar y más de 150 vehículos, acrobacias y loopings pensados tanto para competir como para jugar con amigos.",
+          "Ofrece cross-play entre PC, PlayStation 5 y Xbox Series, siendo la opción ideal para partidas rápidas sin compromisos de cientos de horas."
+        ]
+      },
+      {
+        "title": "Minecraft Dungeons II",
+        "eyebrow": "04 · COOP Y BOTÍN",
+        "facts": "29 SEP 2026 · PS5, XBOX, SWITCH 1/2, PC · GAME PASS DÍA UNO",
+        "image": "/articles/2026-09-28/minecraft-dungeons-2-hero.jpg",
+        "alt": "Arte oficial de Minecraft Dungeons II con sus héroes y criaturas",
+        "imageCredit": "Mojang Studios / Xbox Game Studios",
+        "body": [
+          "La secuela combina el universo de bloques con exploración de mazmorras, combate cooperativo y una lluvia constante de equipamiento para escuadrones de hasta cuatro jugadores.",
+          "Estar incluido desde el día uno en Xbox Game Pass y PC Game Pass lo posiciona con un valor excepcional para organizar el gasto mensual."
+        ]
+      }
+    ],
+    "leadEyebrow": "GUÍA DE LANZAMIENTOS · TODAS LAS CONSOLAS",
+    "leadTitle": "Cuatro mundos, cuatro estilos y una sola billetera para septiembre de 2026",
+    "personalAngle": "Septiembre no da respiro: samuráis, mutantes, autos imposibles y mazmorras de bloques compiten por nuestro tiempo y nuestra billetera. Analizamos qué ofrece cada estreno y para qué tipo de jugador puede ser la mejor compra sin romper el presupuesto.",
+    "imageAlt": "Lanzamientos destacados de videojuegos para septiembre de 2026",
+    "imageCredit": "TokenGeekCoin / Capcom, Insomniac, Milestone & Mojang",
+    "sources": [
+      {
+        "name": "Capcom — Comunicado oficial Onimusha",
+        "url": "https://www.capcom.co.jp/ir/english/news/html/e260702.html"
+      },
+      {
+        "name": "PlayStation — Ficha oficial de Marvel's Wolverine",
+        "url": "https://www.playstation.com/en-us/games/marvels-wolverine/"
+      },
+      {
+        "name": "Milestone — Hot Wheels Infinite Rush",
+        "url": "https://milestone.it/games/hot-wheels-infinite-rush/"
+      },
+      {
+        "name": "Xbox & Mojang — Anuncio de Minecraft Dungeons II",
+        "url": "https://www.minecraft.net/en-us/about-dungeons-ii"
+      }
+    ]
   },
   {
     "slug": "comics/lanterns-capitulo-2-sinestro-antaan",
@@ -585,15 +657,84 @@
     "dek": "El episodio acelera, expande el lore cósmico y deja una conexión enorme entre Antaan, los Manhunters y Atrocitus.",
     "image": "/articles/lanterns-episode-2/sinestro.webp",
     "body": [
-      "El segundo capítulo corrige el rumbo: hace avanzar la investigación, fortalece la química entre Hal Jordan y John Stewart y abre la puerta al lado cósmico del DCU.",
-      "Sinestro domina su escena desde una prisión espacial. Antaan, consumido por la venganza tras la destrucción de su mundo, comparte ecos demasiado fuertes con Atrocitus como para ignorarlos."
+      "¡Qué manera de cerrar el domingo por la noche! Si leíste mi análisis del estreno, sabés que el primer episodio me había dejado un sabor agridulce: una trama lenta, demasiados flashbacks y un universo enorme encerrado en la Tierra.",
+      "La buena noticia es que Lanterns corrigió el rumbo. 'Trust Fall' hace avanzar la investigación, fortalece la química entre Hal Jordan y John Stewart y suelta dos pistas que cambian la escala de la historia: los Manhunters y la llegada formal de Sinestro.",
+      "La producción equilibra el suspenso policíaco con la mitología de los cómics, demostrando que la paciencia del episodio debut tenía como objetivo preparar una colisión de mayores proporciones."
     ],
     "bullets": [
       "Más ritmo y más mitología.",
       "Los Manhunters cambian la escala del misterio.",
       "John crea un constructo que persiste sin el anillo."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Sinestro entra como el Hannibal Lecter del cosmos",
+        "eyebrow": "01 · EL GRAN DEBUT",
+        "facts": "ULRICH THOMSEN · PRISIÓN ESPACIAL · MANIPULACIÓN",
+        "image": "/articles/lanterns-episode-2/sinestro.webp",
+        "alt": "Sinestro en su celda espacial interrogando a Hal Jordan",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "La sorpresa indiscutible llega al final: Hal viaja a una prisión espacial y se encuentra cara a cara con Sinestro, interpretado por Ulrich Thomsen. No necesita un anillo amarillo ni una batalla gigantesca para dominar la escena; alcanza con su mirada, su historia con Hal y una pregunta incómoda sobre John Stewart.",
+          "La serie revela que fue un Linterna, intentó un golpe contra los Guardianes y mató a uno de ellos antes de que Hal lo derrotara. Es una reinterpretación, pero conserva lo esencial: su obsesión con el orden, su inteligencia y su capacidad de convertir el miedo ajeno en un arma."
+        ]
+      },
+      {
+        "title": "Antaan no es Atrocitus… todavía",
+        "eyebrow": "02 · IRA EN ESTADO LATENTE",
+        "facts": "PAUL BEN-VICTOR · RED LANTERNS · VENGANZA",
+        "image": "/articles/lanterns-episode-2/antaan-manhunters.jpg",
+        "alt": "Antaan en Lanterns junto a una referencia del cómic sobre los Manhunters",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "El episodio no presenta oficialmente a Atrocitus. Quien secuestra a John es Antaan, interpretado por Paul Ben-Victor: un alienígena cuyo mundo fue destruido desde adentro por un Manhunter y que ahora vive consumido por la venganza.",
+          "La conexión con los cómics es demasiado fuerte para ignorarla. Atrocitus también sobrevivió a una masacre provocada por los Manhunters y convirtió su furia en la energía de los Red Lanterns. La ira ya está en pantalla; el anillo rojo, por ahora, sigue siendo una teoría."
+        ]
+      },
+      {
+        "title": "Dos pistas que cambian todo el tablero: Manhunters y John Stewart",
+        "eyebrow": "03 · EL LORE SE ABRE",
+        "facts": "MANHUNTERS · CONSTRUCTO SIN ANILLO · RUSHVILLE",
+        "image": "/articles/lanterns-episode-2/hal-john.webp",
+        "alt": "Hal Jordan y John Stewart en pleno entrenamiento de vuelo",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "Manhunters: Antes del Green Lantern Corps, los Guardianes crearon a los Manhunters. Estas máquinas terminaron rebelándose y provocando exterminios en distintos mundos. Ahora uno de ellos podría estar escondido en Rushville, mezclado entre los humanos.",
+          "John Stewart y un constructo sin anillo: Durante su lección de vuelo, John crea un ave verde que continúa existiendo después de quitarse el anillo. Hal decide ocultárselo a los Guardianes y Sinestro parece saber que ese poder convierte al novato en una amenaza mucho mayor."
+        ]
+      },
+      {
+        "title": "Veredicto TokenGeekCoin: Ahora sí, la serie se pone seria (9/10)",
+        "eyebrow": "MI VEREDICTO GEEKCOINERO",
+        "facts": "9/10 · DOMINGOS 22:00 ARG · HBO Y HBO MAX",
+        "image": "/articles/lanterns-episode-2/john-stewart.webp",
+        "alt": "John Stewart durante el segundo episodio de Lanterns",
+        "imageCredit": "TokenGeekCoin Editorial",
+        "body": [
+          "Este capítulo deja atrás buena parte de la pesadez del estreno. La investigación avanza, los constructos tienen más presencia y la dupla empieza a funcionar.",
+          "El gran triunfo es recordar que detrás del crimen terrestre hay una mitología inmensa esperando salir: Sinestro, los Manhunters, el posible germen de los Red Lanterns y un poder nuevo en John Stewart."
+        ]
+      }
+    ],
+    "leadEyebrow": "HBO · TEMPORADA 1 · EPISODIO 2",
+    "leadTitle": "La serie despegó: el debut de Ulrich Thomsen y la sombra de los Manhunters",
+    "personalAngle": "¡Qué manera de cerrar el domingo por la noche! Si leíste mi análisis del estreno, sabés que el primer episodio me había dejado un sabor agridulce. La buena noticia es que 'Trust Fall' corrigió el rumbo: hace avanzar la investigación, fortalece la química entre Hal Jordan y John Stewart y suelta dos pistas que cambian la escala de la historia: los Manhunters y la llegada formal de Sinestro.",
+    "imageAlt": "Ulrich Thomsen como Sinestro en el segundo episodio de Lanterns",
+    "imageCredit": "John Johnson / HBO Max & DC Studios",
+    "sources": [
+      {
+        "name": "People Magazine — Lanterns Season 1 Episode 2 Ending Explained",
+        "url": "https://people.com/lanterns-season-1-episode-2-ending-explained-12066255"
+      },
+      {
+        "name": "TheWrap — Lanterns Antaan and Manhunters Explained",
+        "url": "https://www.thewrap.com/creative-content/tv-shows/lanterns-antaan-manhunters-explained/"
+      },
+      {
+        "name": "HBO — Sitio Oficial de Lanterns",
+        "url": "https://www.hbo.com/content/lanterns"
+      }
+    ]
   },
   {
     "slug": "finanzas/guia-geek-inversionista-portafolio-crypto",
@@ -604,15 +745,74 @@
     "dek": "Presupuesto, fondo de emergencia y una estrategia DCA para empezar sin abandonar tus hobbies.",
     "image": "/articles/geek-investor-guide/geek-investor-hero.webp",
     "body": [
-      "La tensión entre disfrutar hoy y construir un futuro financiero puede sentirse como una batalla imposible. La salida no es abandonar lo que te apasiona, sino asignarle un lugar consciente dentro de tu economía.",
-      "Antes de exponerte a cripto, revisá deudas costosas y armá una reserva. DCA puede reducir decisiones emocionales, pero no elimina el riesgo ni garantiza rentabilidad."
+      "Ser geek puede ser caro: juegos, consolas, figuras, cómics y suscripciones compiten por el mismo presupuesto que tus metas financieras. La salida no es abandonar lo que te apasiona, sino asignarle un lugar consciente dentro de tu economía.",
+      "Esta guía convierte el ahorro y la inversión en un sistema fácil de seguir. No promete hacerte rico de la noche a la mañana: propone construir hábitos, reducir decisiones impulsivas y avanzar sin poner en riesgo el dinero que necesitás para vivir."
     ],
     "bullets": [
       "50% necesidades, 30% deseos geek, 10% emergencia y 10% inversión como punto de partida adaptable.",
       "Verificá proveedores, comisiones, custodia y recuperación.",
       "Contenido educativo: no es asesoramiento financiero."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "El presupuesto TokenGeekCoin: Cuatro cofres, un solo mapa",
+        "eyebrow": "01 · DISTRIBUCIÓN DEL INGRESO",
+        "facts": "50% NECESIDADES · 30% DESEOS GEEK · 10% EMERGENCIA · 10% INVERSIÓN",
+        "image": "/articles/geek-investor-guide/four-budget-chests.webp",
+        "alt": "Cuatro cofres que representan necesidades, hobbies, emergencia e inversión",
+        "imageCredit": "Ilustración original · TokenGeekCoin",
+        "body": [
+          "50% Necesidades: Vivienda, servicios, comida, transporte y deudas caras.",
+          "30% Deseos Geek: Juegos, mangas, figuras, cine y salidas sin culpa.",
+          "10% Fondo de Emergencia: Reserva líquida y segura para imprevistos.",
+          "10% Inversión: Cripto y tecnología con horizonte de largo plazo y tolerancia al riesgo."
+        ]
+      },
+      {
+        "title": "Estrategia DCA: Constancia antes que adivinación",
+        "eyebrow": "02 · DOLLAR-COST AVERAGING",
+        "facts": "COMPRAS PERIÓDICAS · PROMEDIO DE ENTRADA · DISCIPLINA",
+        "image": "/articles/geek-investor-guide/dca-routine.webp",
+        "alt": "Calendario que deposita cantidades iguales de monedas en una bóveda digital",
+        "imageCredit": "Ilustración original · TokenGeekCoin",
+        "body": [
+          "Dollar-cost averaging significa invertir una suma fija a intervalos regulares (semanal o mensual), eliminando el estrés de adivinar los picos o suelos del mercado.",
+          "Cuando el precio baja acumulás más unidades; cuando sube, comprás menos. Esta rutina reduce el impacto del FOMO y las compras impulsivas."
+        ]
+      },
+      {
+        "title": "Modo Seguro: Tu plan en tres movimientos",
+        "eyebrow": "03 · SEGURIDAD Y CUSTODIA",
+        "facts": "FONDO SEPARADO · 2FA Y HARDWARE WALLET · PROVEEDORES REGISTRADOS",
+        "image": "/articles/geek-investor-guide/geek-investor-hero.webp",
+        "alt": "Guía práctica de seguridad para el inversor geek",
+        "imageCredit": "TokenGeekCoin Security",
+        "body": [
+          "1. Calculá: Anotá ingresos y egresos reales; adaptá los porcentajes a tus posibilidades.",
+          "2. Protegé: Activá 2FA mediante app autenticadora, usá contraseñas robustas y considerá billeteras frías.",
+          "3. Regulaciones: Verificá que las plataformas operen bajo los registros correspondientes y no inviertas dinero comprometido para el corto plazo."
+        ]
+      }
+    ],
+    "leadEyebrow": "PRESUPUESTO · HÁBITOS · DCA",
+    "leadTitle": "Cómo armar tu primer portafolio crypto sin dejar de comprar cómics",
+    "personalAngle": "Ser geek puede ser caro: videojuegos, consolas, figuras coleccionables, cómics y suscripciones compiten por el mismo dinero que tus metas financieras. La salida no es abandonar lo que te apasiona, sino asignarle un lugar consciente dentro de tu economía.",
+    "imageAlt": "Inversionista geek frente a gráficos, videojuegos, cómics y criptoactivos",
+    "imageCredit": "TokenGeekCoin Editorial",
+    "sources": [
+      {
+        "name": "CFPB — Essential Guide to Building an Emergency Fund",
+        "url": "https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/"
+      },
+      {
+        "name": "Investor.gov (SEC) — Dollar-Cost Averaging Guide",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+      },
+      {
+        "name": "CNV Argentina — Alertas al Inversor y Registro de PSAV",
+        "url": "https://www.argentina.gob.ar/cnv/alertas-al-inversor"
+      }
+    ]
   },
   {
     "slug": "comics/anime-futuro-tecnologia-portafolio",
@@ -623,15 +823,71 @@
     "dek": "IA con personalidad, interfaces neuronales y robots: dos futuros que ya empiezan a salir de la ficción.",
     "image": "/articles/anime-tech-future/anime-future-hero.webp",
     "body": [
-      "La ciencia ficción japonesa dejó de ser solamente fantasía: sus preguntas sobre inteligencia artificial, robots y conexión humana ya aparecen en laboratorios y productos reales.",
-      "Estamos más cerca de llevar en el teléfono un asistente convincente que de conectarnos un cable al cerebro. El software puede iterar rápido; el hardware médico necesita años de investigación y autorización."
+      "Si sos de los míos, seguro alternás entre revisar los gráficos de tus inversiones y devorar historias de anime. Pero la ciencia ficción japonesa dejó de ser solamente una fantasía: sus preguntas sobre inteligencia artificial, robots y conexión humana ya aparecen en laboratorios, fábricas y productos reales.",
+      "En TokenGeekCoin armé un experimento mental: enfrenté dos arquetipos que atraviesan el anime contemporáneo para descubrir cuál está anticipando mejor el rumbo tecnológico y económico de los próximos años."
     ],
     "bullets": [
       "IA: ventaja de distribución del software.",
       "Interfaces cerebrales: barreras médicas y regulatorias.",
       "Robótica: energía, seguridad y mantenimiento."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Inteligencia artificial con alma: cuando la pantalla te mira de vuelta",
+        "eyebrow": "01 · PERSONALIDAD SINTÉTICA",
+        "facts": "MODELOS MULTIMODALES · ASISTENTES DE VOZ · CENTROS DE DATOS",
+        "image": "/articles/anime-tech-future/ai-with-soul.webp",
+        "alt": "Joven conversando con una inteligencia artificial formada por luz",
+        "imageCredit": "Ilustración original · TokenGeekCoin",
+        "body": [
+          "Imaginemos un futuro donde un asistente virtual administra la agenda, ayuda con las finanzas y adapta su tono hasta parecer empático. Con los modelos de voz en tiempo real, la interacción ya no es una caja de texto sino una presencia continua.",
+          "En la capa económica, detrás de cada avatar hay una infraestructura masiva de semiconductores, energía, centros de datos y redes de alta velocidad."
+        ]
+      },
+      {
+        "title": "Robótica e interfaces neuronales: el despertar de los ciborgs",
+        "eyebrow": "02 · HARDWARE Y MATERIA",
+        "facts": "INTERFACES CEREBRO-COMPUTADORA · ROBOTS HUMANOIDES · ENSAYOS CLÍNICOS",
+        "image": "/articles/anime-tech-future/neural-cyborg.webp",
+        "alt": "Persona usando una interfaz cerebral para controlar un robot humanoide",
+        "imageCredit": "Ilustración original · TokenGeekCoin",
+        "body": [
+          "El segundo futuro es físico: personas que controlan prótesis o dispositivos con impulsos cerebrales y robots humanoides en almacenes logísticos.",
+          "Aunque los avances son sorprendentes, la frontera médica, la durabilidad de los materiales y los marcos regulatorios hacen que la transición del laboratorio al consumo masivo tome años."
+        ]
+      },
+      {
+        "title": "Veredicto Geekcoinero: Me la juego por la IA avanzada",
+        "eyebrow": "03 · LA CARRERA DEL FUTURO",
+        "facts": "VELOCIDAD DE SOFTWARE VS BARRERAS DE HARDWARE Y MEDICINA",
+        "image": "/articles/anime-tech-future/anime-future-hero.webp",
+        "alt": "Comparativa de evolución tecnológica anime",
+        "imageCredit": "TokenGeekCoin Editorial",
+        "body": [
+          "Estamos mucho más cerca de llevar en el bolsillo un asistente con personalidad convincente que de conectarnos un cable directo al córtex cerebral. El software puede iterar globalmente en semanas; el hardware médico requiere años de validación y cirugía.",
+          "Mirar estas historias no es predecir la bolsa, sino anticipar qué debates éticos, técnicos y de infraestructura dominarán la conversación."
+        ]
+      }
+    ],
+    "leadEyebrow": "TEMPORADA 2026 · CIENCIA FICCIÓN · INVERSIÓN",
+    "leadTitle": "Software vs. Hardware: dos visiones del anime que definen la próxima década",
+    "personalAngle": "Si sos de los míos, seguro alternás entre revisar los gráficos de tus inversiones y devorar historias de anime. Pero la ciencia ficción japonesa dejó de ser solamente una fantasía: sus preguntas sobre inteligencia artificial, robots y conexión humana ya aparecen en laboratorios y productos reales.",
+    "imageAlt": "Ilustración conceptual de anime con tecnología cibernética e inteligencia artificial",
+    "imageCredit": "TokenGeekCoin Editorial",
+    "sources": [
+      {
+        "name": "OpenAI — Advanced Voice Mode & GPT-4o",
+        "url": "https://openai.com/index/introducing-gpt-live/"
+      },
+      {
+        "name": "ClinicalTrials.gov — Neural Interface Clinical Studies",
+        "url": "https://clinicaltrials.gov/study/NCT06429735"
+      },
+      {
+        "name": "Figure AI & NVIDIA — Robotics and National AI Infrastructure",
+        "url": "https://www.figure.ai/news/figure-signs-agreement-with-catalyst-brands"
+      }
+    ]
   },
   {
     "slug": "finanzas/bitcoin-bessent-reserva-federal",
@@ -642,15 +898,72 @@
     "dek": "Tesoro, liquidez y reserva estratégica explicados sin confundir recompras de deuda con emisión monetaria.",
     "image": "/articles/bitcoin-bessent-fed/bitcoin.webp",
     "body": [
-      "El Tesoro anunció mayores recompras para bonos de largo plazo. La señal importa, pero no equivale a QE ni demuestra por sí sola la causa de un movimiento de Bitcoin.",
-      "El Tesoro administra deuda; la Reserva Federal conduce la política monetaria. Separar hechos oficiales de narrativas de mercado ayuda a evitar decisiones por FOMO."
+      "Bitcoin volvió a moverse con violencia y la explicación más repetida apuntó a Washington. El secretario del Tesoro, Scott Bessent, anunció que las operaciones de recompra para los bonos de 10 a 30 años pasarán de un máximo de USD 2.000 millones a por lo menos USD 4.000 millones por operación.",
+      "El dato es real y el entusiasmo del mercado también. Lo que necesita matices es el salto desde esa noticia hasta afirmar que Estados Unidos volvió a imprimir dinero de la nada. La operación busca mejorar la liquidez de títulos viejos y menos negociados; el propio Tesoro prevé reemplazarlos mediante nueva emisión."
     ],
     "bullets": [
       "No perseguir subas rápidas.",
       "Definir compras periódicas acordes al riesgo personal.",
       "Contenido informativo, no recomendación financiera."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "La jugada de Bessent: Más liquidez para la deuda que menos circula",
+        "eyebrow": "01 · OPERACIONES DE RECOMPRA",
+        "facts": "BONOS 10-30 AÑOS · USD 4.000M POR OPERACIÓN · RECOMPRAS OFF-THE-RUN",
+        "image": "/articles/bitcoin-bessent-fed/scott-bessent.webp",
+        "alt": "Retrato oficial del secretario del Tesoro Scott Bessent",
+        "imageCredit": "U.S. Department of the Treasury",
+        "body": [
+          "Las recompras se concentran en bonos 'off-the-run': emisiones antiguas que suelen negociarse menos que las emisiones recientes. El Tesoro compra parte de esos títulos para asegurar liquidez en el mercado secundario y financia la operación con nueva deuda.",
+          "Para los inversores, el anuncio funciona como una señal de apoyo a la estabilidad del mercado de bonos soberanos. Esa percepción reduce fricciones en el crédito y mejora el apetito por riesgo global."
+        ]
+      },
+      {
+        "title": "La diferencia clave: Tesoro ≠ Reserva Federal",
+        "eyebrow": "02 · INSTITUCIONES Y MECANISMOS",
+        "facts": "TESORO = GESTIÓN DE DEUDA · FED = POLÍTICA MONETARIA Y QE",
+        "image": "/articles/bitcoin-bessent-fed/federal-reserve.jpg",
+        "alt": "Edificio Marriner S. Eccles de la Reserva Federal en Washington",
+        "imageCredit": "Federal Reserve System",
+        "body": [
+          "El Tesoro administra la deuda y las cuentas del gobierno federal; no imprime dinero por sí mismo. La Reserva Federal es el banco central y quien conduce la política monetaria mediante tasas y expansión de balance (QE).",
+          "Confundir las recompras técnicas del Tesoro con compras de activos de la Fed lleva a lecturas distorsionadas del ciclo de liquidez."
+        ]
+      },
+      {
+        "title": "Por qué Bitcoin reaccionó: Tres fuerzas en juego",
+        "eyebrow": "03 · CATALIZADORES DEL MERCADO",
+        "facts": "LIQUIDEZ PERCIBIDA · RENDIMIENTOS Y DÓLAR · RESERVA ESTRATÉGICA",
+        "image": "/articles/bitcoin-bessent-fed/bitcoin.jpg",
+        "alt": "Gráfico macroeconómico y cotización de Bitcoin en USD",
+        "imageCredit": "TokenGeekCoin Markets",
+        "body": [
+          "1. Liquidez percibida: El mercado interpretó la medida como un alivio a las condiciones financieras y a la tensión en la curva de rendimientos largos.",
+          "2. Dólar y rendimientos: Las expectativas de menores tasas efectivas aumentan el atractivo relativo de activos escasos como Bitcoin.",
+          "3. Entorno regulatorio y Reserva Estratégica: La orden ejecutiva de marzo de 2025 para la Reserva Estratégica de Bitcoin mantiene una base institucional favorable."
+        ]
+      }
+    ],
+    "leadEyebrow": "MERCADOS · TESORO DE EE. UU. · BITCOIN",
+    "leadTitle": "La jugada de Scott Bessent que encendió al mercado financiero",
+    "personalAngle": "Bitcoin volvió a moverse con fuerza y la explicación más repetida en redes apuntó a Washington. El secretario del Tesoro anunció mayores recompras para bonos largos. El dato es real, pero hay que separar los hechos oficiales de la narrativa de que la Reserva Federal volvió a imprimir dinero.",
+    "imageAlt": "Moneda física de Bitcoin sobre gráficos de cotización bursátil",
+    "imageCredit": "Kanchanara / Unsplash",
+    "sources": [
+      {
+        "name": "U.S. Department of the Treasury — Press Release SB0607",
+        "url": "https://home.treasury.gov/news/press-releases/sb0607"
+      },
+      {
+        "name": "Federal Reserve — Open Market Operations",
+        "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm"
+      },
+      {
+        "name": "The White House — Executive Order on Strategic Bitcoin Reserve",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/03/establishment-of-the-strategic-bitcoin-reserve-and-united-states-digital-asset-stockpile/"
+      }
+    ]
   },
   {
     "slug": "gaming/lanzamientos-playstation-agosto-2026",
@@ -661,15 +974,72 @@
     "dek": "Madden NFL 27, Marvel Tōkon y Star Wars Zero Company pasan por el radar de precio y horas de diversión.",
     "image": "/articles/playstation-august-2026/marvel-tokon.webp",
     "body": [
-      "El calendario no da tregua. Revisamos precio, rejugabilidad y el momento ideal para comprar para decidir si vale pagar el lanzamiento o esperar una oferta.",
-      "La métrica es simple: costo dividido por horas de diversión. Cuanto más jugás, menor es el costo por hora, pero ninguna compra debería desplazar tus objetivos financieros."
+      "El calendario de lanzamientos de PlayStation no da tregua. Si todavía estás intentando terminar los juegos del mes pasado o tu billetera sigue recuperándose de las ofertas de la PS Store, agosto llegó cargado de títulos capaces de reclamar tu atención y tu presupuesto.",
+      "En TokenGeekCoin no nos limitamos a contar qué juegos salen. Revisamos sus precios, su potencial de rejugabilidad y el momento ideal para comprar. Así podés decidir si vale la pena pagar el precio de lanzamiento o esperar una oferta.",
+      "Nuestra métrica básica: costo dividido horas de diversión. Cuanto más jugás, menor es el costo unitario por hora, pero ninguna compra debería desplazar tus objetivos financieros o tu fondo de reserva."
     ],
     "bullets": [
       "Madden: alta prioridad para fanáticos del deporte.",
       "Marvel Tōkon: gran rejugabilidad competitiva.",
       "Star Wars Zero Company: propuesta táctica de campaña extensa."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Madden NFL 27: El rey del emparrillado",
+        "eyebrow": "01 · EL GIGANTE DEPORTIVO",
+        "facts": "14 AGO 2026 · USD 69,99 · +100 HORAS · COMPRA JUSTIFICADA PARA FANS",
+        "image": "/articles/playstation-august-2026/madden-nfl-27.webp",
+        "alt": "Captura de Madden NFL 27 con el nuevo Persona Engine",
+        "imageCredit": "EA Sports",
+        "body": [
+          "La nueva temporada llegó con el Persona Engine, un modo Franquicia más reactivo y mejoras notables en los duelos tácticos entre receptores y defensores.",
+          "Si sos fanático del fútbol americano, el competitivo online y las ligas organizadas diluyen rápidamente el costo de salida a lo largo de los meses."
+        ]
+      },
+      {
+        "title": "MARVEL Tōkon: Fighting Souls",
+        "eyebrow": "02 · EL FENÓMENO DE PELEAS",
+        "facts": "06 AGO 2026 · USD 69,99 · 20H CAMPAÑA + MULTIJUGADOR · COMPRA INTELIGENTE",
+        "image": "/articles/playstation-august-2026/marvel-tokon.webp",
+        "alt": "Arte oficial de MARVEL Tōkon Fighting Souls",
+        "imageCredit": "Arc System Works / PlayStation Studios",
+        "body": [
+          "La colaboración entre Arc System Works, PlayStation Studios y Marvel Games reúne equipos de cuatro luchadores en combates explosivos con estética anime dinámica.",
+          "Es la mezcla perfecta entre gaming y cómics. Si contás con amigos para torneos locales o querés competir en ranked, su rejugabilidad infinita amortiza el precio de salida."
+        ]
+      },
+      {
+        "title": "STAR WARS Zero Company",
+        "eyebrow": "03 · LA PROPUESTA TÁCTICA",
+        "facts": "27 AGO 2026 · USD 59,99 · 30-40H DE CAMPAÑA · VALOR EXCEPCIONAL",
+        "image": "/articles/playstation-august-2026/star-wars-zero-company.jpg",
+        "alt": "Arte oficial de STAR WARS Zero Company con escuadrón clon",
+        "imageCredit": "Lucasfilm Games",
+        "body": [
+          "Juego táctico por turnos al mando de un escuadrón durante las Guerras Clon. Coberturas, árbol de habilidades y decisiones permanentes para quienes prefieren pensar cada movimiento.",
+          "Con un precio de salida menor al estándar de USD 70 y una campaña extensa para un solo jugador, es una de las opciones más recomendadas para fans de XCOM."
+        ]
+      }
+    ],
+    "leadEyebrow": "PLAYSTATION 5 · ANÁLISIS DE COSTO/HORA",
+    "leadTitle": "Métrica Token: Costo dividido por horas de diversión",
+    "personalAngle": "El calendario no da tregua. En TokenGeekCoin no nos limitamos a contar qué juegos salen: revisamos precio, rejugabilidad y el momento ideal para comprar para decidir si vale pagar el lanzamiento o esperar una oferta.",
+    "imageAlt": "Arte oficial de MARVEL Tōkon Fighting Souls",
+    "imageCredit": "PlayStation Studios & Marvel Games",
+    "sources": [
+      {
+        "name": "EA Sports — Madden NFL 27 FAQ Oficial",
+        "url": "https://www.ea.com/games/madden-nfl/madden-nfl-27/faq"
+      },
+      {
+        "name": "PlayStation Store — Marvel Tōkon Fighting Souls",
+        "url": "https://www.playstation.com/en-us/games/marvel-tokon-fighting-souls/"
+      },
+      {
+        "name": "StarWars.com — Star Wars Zero Company",
+        "url": "https://www.starwars.com/games-apps/star-wars-zero-company"
+      }
+    ]
   },
   {
     "slug": "comics/lanterns-primer-episodio-ritmo-lento",
@@ -680,15 +1050,80 @@
     "dek": "El debut tiene misterio y un universo enorme detrás, pero todavía guarda demasiado poder en el anillo.",
     "image": "/articles/lanterns-season-1/lanterns-investigation.webp",
     "body": [
-      "El universo de Green Lantern tiene todo para una gran ópera espacial. El estreno, sin embargo, avanza con demasiada calma y el verdadero poder visual del anillo apenas asoma.",
-      "La elección de un policial rural puede funcionar. El desafío es hacer que las subtramas y la dupla entre John Stewart y Hal Jordan enciendan pronto la escala cósmica."
+      "El universo de Green Lantern tiene todo para ser la respuesta de DC a las grandes óperas espaciales: planetas alienígenas, guerras entre espectros emocionales y un anillo capaz de materializar cualquier idea que sostenga la voluntad de su portador.",
+      "Después del primer episodio de Lanterns, sin embargo, me quedó un sabor agridulce. El estreno avanza con demasiada calma, el carisma de los protagonistas todavía está contenido y el verdadero poder visual del anillo apenas asoma.",
+      "La producción elige conscientemente el tono de drama policiaco y misterio rural antes que el despliegue intergaláctico. John Stewart y Hal Jordan investigan un asesinato en el corazón de Estados Unidos, una premisa oficial que busca anclar la mitología de DC en la tierra profunda."
     ],
     "bullets": [
       "Veredicto inicial: 8/10.",
       "Una buena base con margen para acelerar.",
       "El anillo todavía tiene carga."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Un anillo de poder para hacer constructos aburridos",
+        "eyebrow": "01 · EL PODER BAJO MÍNIMOS",
+        "facts": "HAL JORDAN · JOHN STEWART · RUSHVILLE",
+        "image": "/articles/lanterns-season-1/lanterns-john-hal.jpg",
+        "alt": "Kyle Chandler interpreta a Hal Jordan en Lanterns",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "El mayor atractivo visual de un Linterna Verde es la creatividad de sus constructos. En los cómics, Kyle Rayner o John Stewart pueden crear desde mecas complejos hasta murallas tácticas diseñadas según su experiencia y personalidad.",
+          "En este primer capítulo, el uso del anillo se siente limitado. Escudos, esferas y rayos verdes cumplen su función, pero no transmiten todavía la imaginación infinita que debería convertir cada combate en una sorpresa: el anillo más poderoso del cosmos todavía parece una linterna glorificada."
+        ]
+      },
+      {
+        "title": "La Tierra no es el problema. La espera sí.",
+        "eyebrow": "02 · EL RITMO DE LA INVESTIGACIÓN",
+        "facts": "NEBRASKA · SHERIFF KERRY · INVESTIGACIÓN POLICIAL",
+        "image": "/articles/lanterns-season-1/lanterns-rushville.jpg",
+        "alt": "Kelly Macdonald como la sheriff Kerry en Lanterns",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "La serie elige el policial y el misterio rural antes que la ópera espacial. Esa decisión puede funcionar: John Stewart y Hal Jordan investigan un asesinato en el corazón de Estados Unidos, una premisa oficial que busca combinar el universo DC con un drama detectivesco.",
+          "El problema aparece cuando las subtramas cotidianas tardan demasiado en revelar qué aportan. Por ahora, pasamos más tiempo esperando la chispa entre los protagonistas que explorando los peligros del Sector 2814."
+        ]
+      },
+      {
+        "title": "El lore que queremos ver: Green Lantern Corps y Blackest Night",
+        "eyebrow": "03 · EL LORE EN ESPERA",
+        "facts": "OA · KILOWOG · THE BLACKEST NIGHT",
+        "image": "/articles/lanterns-season-1/lanterns-cast.jpg",
+        "alt": "John Stewart camina entre humo y escombros con una linterna verde",
+        "imageCredit": "HBO Max / DC Studios",
+        "body": [
+          "Oa, el entrenamiento del Cuerpo y veteranos como Kilowog podrían ampliar la escala sin abandonar el conflicto entre John y Hal. La fuerza policial intergaláctica merece convertirse en un personaje más.",
+          "Héroes y villanos resucitados como Black Lanterns, alianzas entre espectros emocionales y una amenaza que alcance a todo DC: material de alto impacto para encender el verdadero potencial de futuras temporadas."
+        ]
+      },
+      {
+        "title": "Veredicto TokenGeekCoin: El anillo todavía tiene carga (8/10)",
+        "eyebrow": "VEREDICTO EDITORIAL",
+        "facts": "8/10 · DOMINGOS 22:00 ARG · HBO Y HBO MAX",
+        "image": "/articles/lanterns-season-1/lanterns-investigation.jpg",
+        "alt": "Hal Jordan y John Stewart en la investigación del asesinato",
+        "imageCredit": "TokenGeekCoin Editorial",
+        "body": [
+          "Es apenas el comienzo. Aunque el ritmo y el despliegue visual no alcanzaron todo lo que esperaba, la producción, el misterio y el potencial del universo siguen ahí.",
+          "Mi voto es de confianza: quiero ver cómo crece la dupla y cuándo la historia decide mirar hacia las estrellas."
+        ]
+      }
+    ],
+    "leadEyebrow": "HBO · TEMPORADA 1 · EPISODIO 1",
+    "leadTitle": "La primera impresión: el misterio rural contiene el poder del Sector 2814",
+    "personalAngle": "El universo de Green Lantern tiene todo para ser la respuesta de DC a las grandes óperas espaciales. Después del primer episodio, sin embargo, me quedó un sabor agridulce: el estreno avanza con demasiada calma, el carisma de los protagonistas todavía está contenido y el verdadero poder visual del anillo apenas asoma.",
+    "imageAlt": "John Stewart y Hal Jordan observan el horizonte en Lanterns",
+    "imageCredit": "HBO Max & DC Studios",
+    "sources": [
+      {
+        "name": "HBO — Ficha oficial de Lanterns",
+        "url": "https://www.hbo.com/content/lanterns"
+      },
+      {
+        "name": "DC.com — Guía y cobertura oficial de Lanterns",
+        "url": "https://www.dc.com/tv/lanterns-2026"
+      }
+    ]
   },
   {
     "slug": "finanzas/bitcoin-mercado-criptomonedas-24-septiembre-2026",
@@ -7756,7 +8191,44 @@
       "Una pausa del precio no garantiza ruptura alcista ni caída.",
       "Evitá apalancarte con dinero que no podés perder."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Compresión de rango y derivados sin sobrecalentamiento",
+        "eyebrow": "01 · ESTRUCTURA DE MERCADO",
+        "facts": "USD 78.800 · FUNDING RATES NEUTRALES · VOLATILIDAD EN MÍNIMOS",
+        "image": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1800&q=85",
+        "alt": "Gráfico de consolidación de Bitcoin en USD 78.800",
+        "imageCredit": "TokenGeekCoin Markets",
+        "body": [
+          "La compresión de volatilidad tras el rebote inicial muestra un mercado que absorbe ventas sin liquidaciones en cascada.",
+          "Las tasas de financiación se mantienen en niveles saludables, alejando el riesgo de un apalancamiento excesivo en el corto plazo."
+        ]
+      },
+      {
+        "title": "La espera del catalizador: Jackson Hole y flujos de ETF",
+        "eyebrow": "02 · MACRO Y LIQUIDEZ",
+        "facts": "FED · ENTRADAS DE FONDOS INSTITUCIONALES · SOPORTE CLAVE",
+        "image": "/articles/bitcoin-bessent-fed/bitcoin.jpg",
+        "alt": "Moneda de Bitcoin frente a pantallas de cotización institucional",
+        "imageCredit": "TokenGeekCoin Markets",
+        "body": [
+          "Los inversores institucionales esperan señales de confirmación sobre la política de tasas de la Reserva Federal.",
+          "Mantener la zona de soporte actual es el requisito indispensable para proyectar un nuevo asalto hacia los máximos históricos."
+        ]
+      }
+    ],
+    "leadEyebrow": "ANÁLISIS TÉCNICO Y MACRO · BITCOIN",
+    "leadTitle": "Consolidación en USD 78.800: entre la compresión de volatilidad y la liquidez",
+    "sources": [
+      {
+        "name": "CoinGlass — Bitcoin Derivatives & Liquidation Heatmap",
+        "url": "https://www.coinglass.com/"
+      },
+      {
+        "name": "Federal Reserve — Macroeconomic Data",
+        "url": "https://www.federalreserve.gov/"
+      }
+    ]
   },
   {
     "slug": "finanzas/taurus-swift-depositos-tokenizados-bancos",
@@ -7780,7 +8252,44 @@
       "Es infraestructura autorizada, no una migración bancaria a una red pública.",
       "Adopción institucional no equivale a recomendación de comprar criptoactivos."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "El puente entre la mensajería interbancaria y los libros distribuidos",
+        "eyebrow": "01 · INTEGRACIÓN TÉCNICA",
+        "facts": "SWIFT · TAURUS · DEPÓSITOS TOKENIZADOS BANCARIOS",
+        "image": "https://26780121.fs1.hubspotusercontent-eu1.net/hubfs/26780121/Blog%20post%20Social%20media%20template%20Taurus%20-%202026-08-25T064229.357.png",
+        "alt": "Arquitectura de conexión de Taurus con la red Swift",
+        "imageCredit": "Taurus SA",
+        "body": [
+          "La conexión técnica de Taurus con el libro mayor compartido de Swift permite a los bancos comerciales mover valor tokenizado sin rehacer sus sistemas centrales de core bancario.",
+          "Esto allana el camino para liquidaciones transfronterizas instantáneas entre múltiples instituciones financieras reguladas."
+        ]
+      },
+      {
+        "title": "De la prueba de concepto a la liquidación regulada",
+        "eyebrow": "02 · ADOPCIÓN REAL",
+        "facts": "LIQUIDEZ 24/7 · CUMPLIMIENTO REGULATORIO · RWA",
+        "image": "/articles/geek-investor-guide/four-budget-chests.webp",
+        "alt": "Ecosistema de activos del mundo real y depósitos tokenizados",
+        "imageCredit": "TokenGeekCoin Research",
+        "body": [
+          "A diferencia de las redes experimentales aisladas, el protocolo de Swift aprovecha la base de más de 11.000 instituciones miembros en todo el mundo.",
+          "El foco no está en reemplazar el dinero fiduciario, sino en dotarlo de programabilidad y disponibilidad 24/7."
+        ]
+      }
+    ],
+    "leadEyebrow": "INFRAESTRUCTURA BANCARIA · BLOCKCHAIN",
+    "leadTitle": "La interoperabilidad de Swift con redes públicas y privadas de tokenización",
+    "sources": [
+      {
+        "name": "Taurus SA — Comunicado Oficial de Integración Swift",
+        "url": "https://www.taurushq.com/"
+      },
+      {
+        "name": "Swift — Collaborative Ledger and Digital Assets Experimentation",
+        "url": "https://www.swift.com/"
+      }
+    ]
   },
   {
     "slug": "tecnologia/snap-specs-gafas-ar-autonomas-precio",
@@ -7804,7 +8313,40 @@
       "La preventa cuesta USD 2.195, con un depósito reembolsable de USD 200.",
       "El indicador luminoso ayuda con la privacidad, pero no elimina todas las dudas sociales."
     ],
-    "features": []
+    "features": [
+      {
+        "title": "Independencia total del teléfono y visión óptica transparente",
+        "eyebrow": "01 · TECNOLOGÍA WAVEGUIDE",
+        "facts": "SNAP OS · PROYECTORES MICROLED · 4 HORAS DE BATERÍA",
+        "image": "https://images.ctfassets.net/o1znirz7lzo4/5CBMRXSmjZwMc64R4jgXXh/03f5992883caf5d2253b610b1b4f9553/SPECS27_52_Front_View.png?fm=webp&h=800&q=60",
+        "alt": "Visión frontal y óptica de las gafas Snap SPECS",
+        "imageCredit": "Snap Inc.",
+        "body": [
+          "Snap logra incorporar procesamiento informático, refrigeración por vapor y proyectores microLED dentro de un marco autónomo que no necesita cables ni teléfono.",
+          "La interacción manual y por voz con Snap OS demuestra que la computación espacial liviana es técnicamente viable hoy."
+        ]
+      },
+      {
+        "title": "El dilema del precio: USD 2.195 para desarrolladores y entusiastas",
+        "eyebrow": "02 · MERCADO Y ESTRATEGIA",
+        "facts": "USD 2.195 · ECOSISTEMA LENS STUDIO · HARDWARE DE PRUEBA",
+        "image": "/articles/anime-tech-future/ai-with-soul.webp",
+        "alt": "Interacción holográfica en computación espacial",
+        "imageCredit": "TokenGeekCoin Hardware Lab",
+        "body": [
+          "Con un precio similar al de una computadora gamer de gama alta, las SPECS están concebidas para programadores y pioneros de Lens Studio, no para el consumidor masivo.",
+          "Es el paso necesario que sienta las bases para cuando los costos de fabricación de las guías de onda bajen a niveles de consumo general."
+        ]
+      }
+    ],
+    "leadEyebrow": "HARDWARE · REALIDAD AUMENTADA",
+    "leadTitle": "Snap SPECS: Realidad aumentada autónoma y el costo de ser pionero",
+    "sources": [
+      {
+        "name": "Snap Inc. — Specs Developer Portal & Announcement",
+        "url": "https://www.specs.com/"
+      }
+    ]
   },
   {
     "slug": "gaming/gta-vi-netflix-extended-look-2026",

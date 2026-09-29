@@ -118,38 +118,38 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
             <button
               onClick={handleToggleSpeech}
               style={{
-                background: isSpeaking ? 'var(--mg-acid)' : 'transparent',
-                color: isSpeaking ? 'var(--mg-ink)' : 'var(--mg-white)',
-                borderColor: isSpeaking ? 'var(--mg-acid)' : '#ffffff40',
+                background: isSpeaking ? '#1e1438' : 'transparent',
+                color: isSpeaking ? 'var(--mg-acid)' : 'var(--mg-white)',
+                borderColor: isSpeaking ? 'var(--mg-acid)' : 'rgba(255,255,255,0.3)',
               }}
               className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-sans font-bold uppercase tracking-wider border transition-all cursor-pointer"
               title={isSpeaking ? 'Detener lectura' : 'Escuchar noticia'}
             >
-              {isSpeaking ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
+              {isSpeaking ? <VolumeX className="w-3.5 h-3.5 text-[var(--mg-acid)]" /> : <Volume2 className="w-3.5 h-3.5" />}
               <span className="hidden sm:inline">
                 {isSpeaking ? 'Pausar audio' : 'Escuchar'}
               </span>
             </button>
 
             {/* Font size switcher */}
-            <div className="flex items-center border border-white/30 text-xs font-sans font-bold">
+            <div className="flex items-center border border-white/30 text-xs font-sans font-bold bg-[#0d0915]">
               <button
                 onClick={() => setFontSize('normal')}
-                className={`px-2 py-1 ${fontSize === 'normal' ? 'bg-[var(--mg-acid)] text-[var(--mg-ink)]' : 'text-white'}`}
+                className={`px-2.5 py-1 transition-colors ${fontSize === 'normal' ? 'bg-[#1e1438] text-[var(--mg-acid)] font-black ring-1 ring-[var(--mg-acid)]' : 'text-white hover:text-stone-300'}`}
                 title="Texto normal"
               >
                 A
               </button>
               <button
                 onClick={() => setFontSize('large')}
-                className={`px-2 py-1 border-x border-white/30 ${fontSize === 'large' ? 'bg-[var(--mg-acid)] text-[var(--mg-ink)]' : 'text-white'}`}
+                className={`px-2.5 py-1 border-x border-white/30 transition-colors ${fontSize === 'large' ? 'bg-[#1e1438] text-[var(--mg-acid)] font-black ring-1 ring-[var(--mg-acid)]' : 'text-white hover:text-stone-300'}`}
                 title="Texto grande"
               >
                 A+
               </button>
               <button
                 onClick={() => setFontSize('xl')}
-                className={`px-2 py-1 ${fontSize === 'xl' ? 'bg-[var(--mg-acid)] text-[var(--mg-ink)]' : 'text-white'}`}
+                className={`px-2.5 py-1 transition-colors ${fontSize === 'xl' ? 'bg-[#1e1438] text-[var(--mg-acid)] font-black ring-1 ring-[var(--mg-acid)]' : 'text-white hover:text-stone-300'}`}
                 title="Texto extra grande"
               >
                 A++
@@ -170,13 +170,14 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
               <button
                 onClick={() => onToggleBookmark(article)}
                 style={{
-                  background: isBookmarked ? 'var(--mg-acid)' : 'transparent',
-                  color: isBookmarked ? 'var(--mg-ink)' : 'var(--mg-white)',
+                  background: isBookmarked ? '#1e1438' : 'transparent',
+                  color: isBookmarked ? 'var(--mg-acid)' : 'var(--mg-white)',
+                  borderColor: isBookmarked ? 'var(--mg-acid)' : 'rgba(255,255,255,0.3)',
                 }}
-                className="p-1.5 border border-white/30 transition-all cursor-pointer"
+                className="p-1.5 border transition-all cursor-pointer"
                 title={isBookmarked ? 'Quitar de guardados' : 'Guardar'}
               >
-                <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-current' : ''}`} />
+                <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-current text-[var(--mg-acid)]' : ''}`} />
               </button>
             )}
 
@@ -217,12 +218,13 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
             {isToday && (
               <span
                 style={{
-                  background: 'var(--mg-acid)',
-                  color: 'var(--mg-ink)',
+                  background: '#130c24',
+                  color: 'var(--mg-acid)',
+                  border: '2px solid var(--mg-acid)',
                   fontFamily: 'var(--mg-mono)',
                   fontWeight: 900,
                   fontSize: '0.7rem',
-                  padding: '5px 10px',
+                  padding: '4px 10px',
                   transform: 'skew(-8deg)',
                   boxShadow: '3px 3px 0 var(--mg-purple)',
                 }}
@@ -379,64 +381,33 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
                       </p>
                       {feat.facts && (
                         <div
-                          className="feature-facts p-3 text-xs font-sans font-bold"
+                          className="feature-facts p-4 text-xs font-sans border-l-4 border-[var(--mg-acid)]"
                           style={{
-                            background: 'var(--mg-acid)',
-                            color: 'var(--mg-ink)',
-                            transform: 'skew(-4deg)',
+                            background: '#0d0819',
+                            color: '#ede9fe',
                           }}
                         >
+                          <div className="text-[var(--mg-acid)] uppercase tracking-wider text-[11px] mb-2 font-mono font-black flex items-center gap-1.5">
+                            <span className="opacity-70">//</span>
+                            <span>DATOS CLAVE</span>
+                          </div>
                           {Array.isArray(feat.facts) ? (
-                            <ul className="space-y-1">
+                            <ul className="space-y-1.5 text-stone-200">
                               {feat.facts.map((fact: string, fIdx: number) => (
-                                <li key={fIdx}>• {fact}</li>
+                                <li key={fIdx} className="leading-relaxed text-stone-200 flex items-start gap-2">
+                                  <span className="text-[var(--mg-acid)] font-bold select-none">›</span>
+                                  <span>{fact}</span>
+                                </li>
                               ))}
                             </ul>
                           ) : (
-                            <p>{feat.facts}</p>
+                            <p className="text-stone-200 leading-relaxed">{feat.facts}</p>
                           )}
                         </div>
                       )}
                     </div>
                   </div>
                 ))}
-              </div>
-            </div>
-          )}
-
-          {/* Official Source Reference */}
-          {((article.sources && article.sources.length > 0) || article.sourceUrl) && (
-            <div
-              className="article-sources p-6 border-3 border-[var(--mg-purple)] mt-8"
-              style={{ background: 'var(--mg-panel)' }}
-            >
-              <p className="text-xs font-sans font-bold uppercase tracking-wider text-stone-400 mb-2">
-                Fuentes oficiales verificadas:
-              </p>
-              <div className="space-y-1">
-                {article.sources && article.sources.map((src, sIdx) => (
-                  <a
-                    key={sIdx}
-                    href={src.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 font-sans text-sm font-bold text-[var(--mg-acid)] hover:underline mr-4"
-                  >
-                    <span>{src.name || src.url}</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-                ))}
-                {article.sourceUrl && !article.sources && (
-                  <a
-                    href={article.sourceUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1.5 font-sans text-sm font-bold text-[var(--mg-acid)] hover:underline"
-                  >
-                    <span>{article.sourceName || article.sourceUrl}</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
-                )}
               </div>
             </div>
           )}

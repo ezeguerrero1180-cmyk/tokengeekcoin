@@ -372,7 +372,7 @@ export default function App() {
                   <button
                     key={cat.id}
                     type="button"
-                    className={`cursor-pointer ${isActive ? 'is-active ring-4 ring-[#d8ff3e]' : ''}`}
+                    className={`cursor-pointer ${isActive ? 'is-active ring-2 ring-[var(--mg-acid)] ring-offset-2 ring-offset-[#0d0818]' : ''}`}
                     onClick={() => handleCategoryClick(cat.id)}
                     aria-expanded={isActive}
                   >
@@ -412,7 +412,7 @@ export default function App() {
                 <button
                   className="classic-button cursor-pointer"
                   onClick={() => setActiveCategory(null)}
-                  style={{ background: 'var(--mg-acid)', color: '#000', fontWeight: 900 }}
+                  style={{ background: '#19102c', color: 'var(--mg-acid)', border: '2px solid var(--mg-acid)', fontWeight: 900 }}
                 >
                   ✕ Ocultar sección
                 </button>

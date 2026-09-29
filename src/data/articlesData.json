@@ -2,60 +2,260 @@
   {
     "slug": "gaming/minecraft-dungeons-2-xbox-game-pass-play-anywhere",
     "category": "GAMING",
-    "date": "28 SEP 2026",
-    "dateIso": "2026-09-28T10:00:00-03:00",
+    "date": "29 SEP 2026",
+    "dateIso": "2026-09-29T09:00:00-03:00",
     "minutes": 6,
-    "title": "Minecraft Dungeons II debuta en Xbox Game Pass y Play Anywhere: Mojang y Microsoft reinventan el ARPG de bloques",
-    "dek": "La secuela llega desde el primer día a Xbox Series X|S, PC y la nube, incorporando tres árboles de clases, mecánicas de verticalidad y multijugador cooperativo cross-play.",
-    "personalAngle": "La primera entrega era entretenida pero se quedaba corta para quien buscaba profundizar en builds. Esta secuela entiende exactamente qué le pedía la comunidad: progresión real, ganchos de redstone y botín con sentido.",
-    "leadEyebrow": "LANZAMIENTO DESTACADO · XBOX & PC",
-    "leadTitle": "Acción, rol cooperativo y redstone táctica: así evoluciona el universo de Mojang",
-    "image": "/articles/2026-09-28/minecraft-dungeons-2-hero.jpg",
-    "imageAlt": "Minecraft Dungeons II encabeza la alineación de lanzamientos cooperativos para Xbox y PC este otoño",
+    "title": "Minecraft Dungeons II llega a Xbox Game Pass y Play Anywhere: Mojang evoluciona el ARPG cooperativo",
+    "dek": "La división de videojuegos de Microsoft y Mojang Studios firman uno de sus lanzamientos más estratégicos del año, disponible desde el primer minuto en consolas, PC y la nube con cuatro ranuras de equipo independientes y esquiva activa.",
+    "personalAngle": "Mojang no se limitó a una actualización cosmética: la reestructuración del combate con esquiva direccional, salto activo y talentos pasivos resuelve exactamente lo que la comunidad core pedía frente a referentes como Diablo.",
+    "leadEyebrow": "GAMING & WEB3 · COOPERATIVO DE NUEVA GENERACIÓN",
+    "leadTitle": "Acción cooperativa, rol táctico y cross-play: el universo de Mojang se expande",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Minecraft Dungeons II debuta como el lanzamiento cooperativo más fuerte de la temporada en Xbox Game Pass",
     "imageCredit": "TokenGeekCoin / Mojang & Xbox Studios",
     "body": [
-      "La división de Xbox Game Studios y Mojang Studios firmaron el día de hoy uno de sus movimientos estratégicos más ambiciosos del año. Minecraft Dungeons II desembarca formalmente a nivel global en las plataformas Xbox Series X|S, PC con Windows y Xbox Cloud Gaming, estando disponible desde el minuto uno sin costo adicional para todos los suscriptores activos de Xbox Game Pass Ultimate y PC Game Pass, así como a través del programa Xbox Play Anywhere.",
-      "El título original, lanzado en mayo de 2020, logró congregar a más de 25 millones de jugadores únicos gracias a una propuesta accesible que simplificaba los complejos sistemas de progresión vistos en sagas insignia del género dungeon crawler como Diablo o Path of Exile. Sin embargo, la comunidad más ávida reclamó durante años mayor profundidad en el combate, mejor rejugabilidad en el endgame y un diseño de niveles menos lineal. Esta secuela no solo atiende de manera frontal esas demandas, sino que redefine los pilares técnicos y de diseño del ecosistema cooperativo de Mojang.",
-      "Para la directiva de Xbox, el lanzamiento de una secuela directa para una franquicia multimillonaria dentro del catálogo de Game Pass responde a la necesidad imperiosa de mantener altos índices de retención y horas de juego activas (engagement metrics) antes del inicio de la campaña navideña.",
-      "Minecraft Dungeons II no es únicamente un producto dirigido al público infantil o casual; sus nuevos niveles de dificultad —que incluyen el modo Apocalipsis+ y mazmorras procedimentales de las Ciudades Antiguas (Ancient Cities)— ofrecen el reto técnico que demandan los veteranos de los Action-RPG. Al eliminar las barreras de entrada mediante el servicio de suscripción, el título garantiza una masa crítica de usuarios inmediata en los servidores globales, asegurando el éxito comercial de su modelo de pases de aventura y expansiones cosméticas planificadas para los próximos dos años."
+      "La división de videojuegos de Microsoft y Mojang Studios firman uno de sus lanzamientos más estratégicos para el cierre del año. Minecraft Dungeons II desembarca oficialmente en el catálogo global de Xbox Game Pass, PC Game Pass y la plataforma Xbox Play Anywhere, estando disponible desde el primer minuto en Xbox Series X|S, PC con Windows y dispositivos compatibles a través de Xbox Cloud Gaming.",
+      "Cuando el Minecraft Dungeons original debutó en 2020, logró atraer a más de 25 millones de jugadores al presentar una alternativa accesible a clásicos del género dungeon crawler como Diablo o Torchlight. Sin embargo, la comunidad más experimentada pronto encontró límites en la progresión y la variedad de builds.",
+      "Para esta secuela, Mojang Studios reestructuró la arquitectura del juego para ofrecer una experiencia mucho más robusta. El equipamiento abandona el formato de armadura completa única y se divide en cuatro ranuras independientes (casco, peto, guantes y calzado), lo que permite combinar modificadores de estadísticas y crear combinaciones tácticas complejas.",
+      "Se introduce además un sistema de esquiva direccional con consumo de energía y salto activo para sortear mecánicas de entorno y trampas en tiempo real. En el apartado de personalización, los héroes cuentan ahora con árboles de habilidades pasivas que potencian el daño elemental, la supervivencia en grupo y la regeneración de recursos.",
+      "La narrativa traslada la acción a los rincones más profundos del mundo exterior, destacando las Ciudades Antiguas (Ancient Cities) y zonas de Deep Dark, donde las mecánicas de sigilo y gestión de amenazas son vitales para evitar la llegada de bosses de gran escala."
+    ],
+    "bullets": [
+      "Disponible día uno en Xbox Series X|S, PC Game Pass y Xbox Cloud Gaming.",
+      "Sistema de cuatro ranuras independientes: casco, peto, guantes y calzado.",
+      "Esquiva direccional con consumo de energía y salto activo en combate en tiempo real.",
+      "Árboles de talentos pasivos y nuevas mazmorras en Ciudades Antiguas (Ancient Cities).",
+      "Soporte completo Xbox Play Anywhere y Cross-Play cooperativo para 4 jugadores."
     ],
     "features": [
       {
-        "title": "Un salto evolutivo en el combate y la progresión de personajes",
-        "eyebrow": "SISTEMAS Y BUILDS",
-        "facts": "3 ÁRBOLES · VERTICALIDAD · RE-FORJA",
-        "image": "/articles/2026-09-28/minecraft-dungeons-2-tactics.jpg",
-        "alt": "Las nuevas mecánicas de movilidad y verticalidad añaden una capa táctica inédita al género",
-        "imageCredit": "TokenGeekCoin / Mojang Studios",
+        "title": "De la simplicidad arcade al Action-RPG de profundidad",
+        "eyebrow": "SISTEMAS Y COMBATE",
+        "facts": "4 RANURAS · ESQUIVA ACTIVA · TALENTOS PASIVOS · DEEP DARK",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Minecraft Dungeons II debuta como el lanzamiento cooperativo más fuerte de la temporada en Xbox Game Pass",
+        "imageCredit": "Mojang Studios",
         "body": [
-          "En la primera entrega, la identidad táctica de un jugador dependía de manera casi exclusiva del nivel absoluto de sus ítems equipados, lo que derivaba en una experiencia sumamente lineal donde las decisiones de construcción de personaje eran secundarias.",
-          "Sistema de Ramas Pasivas e Habilidades de Clase: Aunque se mantiene la libertad de no estar atado a una clase rígida al inicio de la partida, los jugadores ahora pueden invertir puntos de experiencia en tres árboles pasivos principales: Vanguardia (enfocado en combate cuerpo a cuerpo y mitigación de daño), Sombra de Arcano (centrado en artefactos y control de masas) y Francotirador de Redstone (especializado en daño a distancia y trampas de entorno).",
-          "Movimiento Dinámico, Esquiva y Verticalidad: El motor gráfico mejorado incorpora mecánicas de salto activo, escalada de cornisas e interactividad con el escenario. Los personajes pueden utilizar ganchos de redstone para posicionarse en plataformas elevadas o romper estructuras endebles para aplastar hordas de Illagers.",
-          "Segmentación de Armaduras y Re-forja: A diferencia del conjunto único de armadura de la entrega original, el equipamiento ahora se fragmenta en cuatro ranuras independientes: yelmo, pechera, guantes y calzado. Este cambio exponencial en las combinaciones permite activar bonificaciones de conjunto (set bonuses) inspiradas en los diferentes biomas del universo Minecraft."
+          "Especialización y piezas independientes: El equipamiento abandona el formato de armadura completa única y se divide en cuatro ranuras independientes (casco, peto, guantes y calzado), lo que permite combinar modificadores de estadísticas y crear combinaciones tácticas complejas.",
+          "Movimiento y verticalidad en combate: Se introduce un sistema de esquiva direccional con consumo de energía y salto activo para sortear mecánicas de entorno y trampas en tiempo real.",
+          "Árboles de Talentos Pasivos: A diferencia de la entrega anterior —donde el rol del personaje dependía exclusivamente de las armas equipadas—, los héroes cuentan ahora con ramas de habilidades pasivas que potencian el daño elemental, la supervivencia en grupo o la regeneración de recursos.",
+          "Nuevos biomas y peligro en las sombras: La narrativa traslada la acción a los rincones más profundos del mundo exterior, destacando las Ciudades Antiguas (Ancient Cities) y zonas de Deep Dark, donde las mecánicas de sigilo y gestión de amenazas son vitales para evitar la llegada de bosses de gran escala."
         ]
       },
       {
-        "title": "Ecosistema Microsoft: Cross-Play, Cloud y Play Anywhere",
-        "eyebrow": "INFRAESTRUCTURA Y SERVICIOS",
-        "facts": "CROSS-PLAY · 4 JUGADORES · COOP HÍBRIDO",
-        "image": "/articles/2026-09-28/minecraft-dungeons-2-hero.jpg",
-        "alt": "Alineación de héroes cooperativos en Minecraft Dungeons II",
+        "title": "Ecosistema Microsoft: Juego cruzado y continuidad de partida",
+        "eyebrow": "INFRAESTRUCTURA DE JUEGO",
+        "facts": "PLAY ANYWHERE · CROSS-PLAY 4 JUGADORES · COOP HÍBRIDO LOCAL Y EN LÍNEA",
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Juego cruzado sin barreras y pantalla dividida en consolas y PC",
         "imageCredit": "Xbox Game Studios",
         "body": [
-          "Xbox Play Anywhere: Adquirir la versión digital o acceder mediante suscripción otorga una licencia unificada. La partida guardada, los cosméticos desbloqueados, el inventario y los logros de Xbox se sincronizan de manera instantánea entre consolas Xbox Series X|S, ordenadores con Windows y dispositivos móviles alimentados por Xbox Cloud Gaming.",
-          "Juego Cruzado Sin Costuras (Full Cross-Play): El modo multijugador admite escuadrones de hasta cuatro jugadores simultáneos. Un usuario desde una PC de escritorio puede unirse sin latencia adicional a la partida de un jugador en consola o alguien jugando vía streaming desde una consola portátil (handheld PC).",
-          "Cooperativo Local y En Línea Simultáneo: Mojang escuchó las peticiones de la comunidad e implementó la función de juego híbrido, permitiendo que dos personas jueguen en pantalla dividida en la misma sala física mientras se conectan a la vez con otros dos amigos a través de Internet."
+          "Xbox Play Anywhere: Adquirir el título digitalmente o acceder mediante Game Pass habilita la sincronización automática de partidas guardadas, logros y progresos entre PC, consola y la nube de forma transparente.",
+          "Cross-Play sin barreras: Soporta sesiones cooperativas de hasta 4 jugadores simultáneos, permitiendo partidas híbridas entre usuarios en consolas de sobremesa, PCs de escritorio y dispositivos portátiles (handhelds).",
+          "Cooperativo local y en línea: Mantiene la pantalla dividida en la misma consola para sesiones en casa, combinable con salas en línea mediante drop-in/drop-out."
         ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Xbox Wire — Comunicado oficial de lanzamiento Minecraft Dungeons II",
-        "url": "https://news.xbox.com/"
       },
       {
-        "name": "Mojang Studios — Blog de desarrollo sobre combate y progresión",
-        "url": "https://www.minecraft.net/"
+        "title": "Análisis TokenGeekCoin: Una jugada clave para la retención en Game Pass",
+        "eyebrow": "VEREDICTO EDITORIAL",
+        "facts": "RETENCIÓN Q4 · GENERACIÓN PROCEDIMENTAL · EVENTOS SEMANALES",
+        "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Estrategia de retención en suscripciones Game Pass de Microsoft",
+        "imageCredit": "TokenGeekCoin Gaming Desk",
+        "body": [
+          "Para el ecosistema Xbox, lanzar un título de primer nivel con una propiedad intelectual masiva directamente en su servicio de suscripción permite dinamizar la retención de usuarios en el cambio de trimestre.",
+          "Minecraft Dungeons II no solo cubre el espectro de jugadores casuales que buscan diversión en grupo de forma rápida, sino que ofrece a la comunidad core desafíos de alto nivel (endgame), mazmorras con generación procedimental y eventos semanales programados."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/bitcoin-consolida-83000-ballenas-acumulan",
+    "category": "FINANZAS + CRIPTO",
+    "date": "29 SEP 2026",
+    "dateIso": "2026-09-29T10:00:00-03:00",
+    "minutes": 5,
+    "title": "Bitcoin consolida los USD 83.000 tras una ola de liquidaciones: las ballenas acumulan en plena volatilidad",
+    "dek": "Tras liquidarse más de USD 280 millones en posiciones largas apalancadas, el volumen de negociación on-chain se dispara un 36% mientras direcciones de 100 a 1.000 BTC absorben más de 113.900 bitcoins.",
+    "personalAngle": "Lejos de ser una señal bajista estructural, el reajuste hacia los USD 83.100 limpia el apalancamiento excesivo en derivados. Con soporte firme en la SMA-30 y compras institucionales sostenidas, la estructura de acumulación permanece sólida.",
+    "leadEyebrow": "MERCADOS ON-CHAIN · BITCOIN",
+    "leadTitle": "Bitcoin resiste la toma de ganancias y refuerza el suelo institucional en USD 80.000",
+    "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Gráfico de análisis de Bitcoin y criptomonedas en zona de 83.000 dólares",
+    "imageCredit": "TokenGeekCoin / TradingView & On-Chain Metrics",
+    "body": [
+      "El mercado de activos digitales atraviesa una jornada de fuerte reajuste técnico. Tras rozar la resistencia clave de los USD 85.000 en el inicio de la semana, Bitcoin (BTC) retrocedió un 1,4% para situarse en la zona de los USD 83.100, impulsado por la liquidación en cadena de más de USD 280 millones en posiciones largas apalancadas.",
+      "A pesar de la toma de ganancias a corto plazo, la métrica que captura la atención de los analistas on-chain es el volumen de negociación, el cual se disparó más de un 36% por encima de su promedio móvil de 30 días, alcanzando los USD 39.680 millones. Este incremento en la liquidez confirma que la corrección no responde a un drenaje de interés, sino a una rotación activa de capital en los niveles superiores del rango trimestral.",
+      "Mientras el comercio minorista reacciona con cautela a los movimientos intradía, las carteras institucionales y las direcciones conocidas como 'ballenas' (que sostienen entre 100 y 1.000 BTC) continúan ejecutando compras escalonadas. Datos de red confirman que este segmento ha absorbido más de 113.900 BTC durante las últimas diez semanas, creando un suelo de demanda constante frente a la presión de venta en los derivados.",
+      "La dinámica actual refleja que, a pesar de las tensiones macroeconómicas derivadas del encarecimiento energético, el interés de los operadores a largo plazo permanece como un ancla fundamental para la estabilidad del activo digital líder."
+    ],
+    "bullets": [
+      "Precio de BTC se consolida en torno a los USD 83.100 tras rozar los USD 85.000.",
+      "Liquidación de más de USD 280 millones en posiciones largas apalancadas.",
+      "Volumen diario repunta un 36% sobre el promedio móvil, sumando USD 39.680 millones.",
+      "Ballenas (100 a 1.000 BTC) absorben 113.900 BTC en las últimas diez semanas.",
+      "Soportes clave: SMA-30 en USD 79.900 y Fibonacci 23,6% en USD 80.479."
+    ],
+    "features": [
+      {
+        "title": "Acumulación silenciosa: La respuesta de los grandes tenedores",
+        "eyebrow": "MÉTRICAS TÉCNICAS",
+        "facts": "113.900 BTC ACUMULADOS · SMA-30 USD 79.900 · FIBONACCI 23,6% USD 80.479",
+        "image": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80",
+        "alt": "El mercado cripto experimenta volumen récord en la zona de los USD 83.000 mientras los grandes tenedores absorben la oferta",
+        "imageCredit": "Glassnode & TokenGeekCoin Research",
+        "body": [
+          "Soportes clave en observación: El primer nivel defensivo se ubica en la media móvil simple de 30 días (SMA-30) cerca de los USD 79.900, seguido por el retroceso de Fibonacci del 23,6% en los USD 80.479.",
+          "Resistencia a batir: La franja comprendida entre los USD 84.100 y USD 85.050 se mantiene como el obstáculo principal para retomar la trayectoria hacia máximos históricos.",
+          "Comportamiento del resto del mercado: Ethereum (ETH) cotiza en torno a los USD 2.650 con ligeras pérdidas del 2,5%, mientras tokens alternativos como Hedera (HBAR) y Quant (QNT) registran desacoples alcistas impulsados por integraciones institucionales."
+        ]
+      },
+      {
+        "title": "Visión TokenGeekCoin: Macroeconomía y liquidez en pugna",
+        "eyebrow": "ESTRUCTURA DE MERCADO",
+        "facts": "ETFS AL CONTADO · DEUDA SOBERANA · ESTRUCTURA ALCISTA INTACTA",
+        "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Consolidación de activos digitales frente a la volatilidad macroeconómica",
+        "imageCredit": "TokenGeekCoin Markets Desk",
+        "body": [
+          "La dinámica actual de Bitcoin refleja el conflicto entre dos fuerzas contrapuestas. Por un lado, la presión macroeconómica generada por el alza en los precios de la energía y los rendimientos de la deuda soberana presiona a los activos de riesgo. Por el otro, la infraestructura ETF institucional y el apetito de los tenedores a largo plazo limitan la profundidad de las caídas.",
+          "Para los inversores del ecosistema digital, la consolidación por encima de los USD 80.000 sugiere que la estructura alcista de mediano plazo se mantiene intacta, funcionando como una fase de acumulación previa a los cierres trimestrales de la industria."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/petroleo-tasas-cripto",
+    "category": "FINANZAS + CRIPTO",
+    "date": "29 SEP 2026",
+    "dateIso": "2026-09-29T10:30:00-03:00",
+    "minutes": 6,
+    "title": "La paradoja del petróleo y las tasas de interés: cómo la volatilidad del crudo redefine la liquidez de los activos digitales",
+    "dek": "Con el barril en zonas críticas por encima de los USD 100, la amenaza inflacionaria condiciona a los bancos centrales, pero los activos digitales muestran un desacople estructural frente a la renta variable.",
+    "personalAngle": "El viejo axioma de que un petróleo caro derriba al mercado cripto está siendo desafiado: la acumulación institucional en ETFs y el resguardo en stablecoins demuestran que Bitcoin se comporta cada vez más como reserva inelástica ante la degradación fiduciaria.",
+    "leadEyebrow": "MACROECONOMÍA · PETRÓLEO & MERCADOS",
+    "leadTitle": "Inflación energética y rendimientos soberanos: el nuevo tablero para el capital digital",
+    "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Petróleo y mercados financieros globales en plena redefinición",
+    "imageCredit": "TokenGeekCoin / Bloomberg Commodities",
+    "body": [
+      "El panorama macroeconómico global atraviesa una fase de intensa recomposición. La reciente volatilidad en los mercados energéticos —con el barril de petróleo crudo oscilando en zonas críticas por encima de los USD 100 debido a las fricciones geopolíticas y las restricciones en las rutas de distribución— ha vuelto a colocar la amenaza inflacionaria en el centro de las decisiones de los bancos centrales.",
+      "Esta tensión en las materias primas ha generado un efecto dominó directo sobre los rendimientos de la deuda soberana estadounidense, empujando las tasas a largo plazo y condicionando las expectativas de liquidez en las bolsas globales. Sin embargo, el comportamiento del mercado de activos digitales ha comenzado a mostrar un desacople estructural fascinante frente a los activos de riesgo tradicionales (risk-on).",
+      "La interacción entre el crudo, la inflación y los activos digitales sugiere que el mercado cripto ha superado la etapa de responder ciegamente como un activo especulativo de alta volatilidad, madurando hacia una infraestructura financiera alternativa capaz de absorber oferta en momentos de estrés global."
+    ],
+    "bullets": [
+      "Barril de crudo oscila por encima de los USD 100 por tensiones en rutas de suministro.",
+      "Rendimientos de los Treasuries a 10 años atraen capital y restringen liquidez global.",
+      "ETFs spot de BTC y ETH consolidan pisos de absorción permanente frente a ventas minoristas.",
+      "Stablecoins respaldadas en USD aumentan su uso como cobertura cambiaria internacional.",
+      "Rotación defensiva hacia soluciones layer-1 y protocolos con comisiones sostenibles."
+    ],
+    "features": [
+      {
+        "title": "1. El canal de transmisión macro: De la bomba de gasolina a Wall Street",
+        "eyebrow": "TRANSMISIÓN MACRO",
+        "facts": "PRESIÓN IPC · RESTRICCIÓN DE LA FED · RENDIMIENTO BONOS 10 AÑOS",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+        "alt": "El petróleo alto reactiva las alertas de inflación global",
+        "imageCredit": "TokenGeekCoin Macro Desk",
+        "body": [
+          "Presión inflacionaria persistente: Un costo elevado del barril de energía impacta de forma inmediata en la cadena de transporte, los costos industriales y los precios al consumidor final, elevando las métricas del Índice de Precios al Consumidor (IPC).",
+          "Restricción de los Bancos Centrales: Ante el riesgo de un rebrote inflacionario, entidades como la Reserva Federal de Estados Unidos (Fed) y el Banco Central Europeo se ven obligadas a mantener tasas de interés elevadas por más tiempo del previsto, frenando la flexibilización monetaria.",
+          "Aumento en el rendimiento de los bonos: El repunte en las tasas de los Treasuries estadounidenses a 10 años atrae capitales conservadores en busca de rendimientos garantizados, encareciendo el costo del capital comercial y drenando la liquidez especulativa en la renta variable y los mercados emergentes."
+        ]
+      },
+      {
+        "title": "2. La resistencia de las Criptomonedas: Absorción de oferta y maduración institucional",
+        "eyebrow": "RESILIENCIA DIGITAL",
+        "facts": "PISOS ETF · COBERTURA FIDUCIARIA · UTILIDAD DE RED LAYER-1",
+        "image": "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Las estructuras institucionales cripto sostienen la liquidez frente al encarecimiento del crudo",
+        "imageCredit": "TokenGeekCoin On-Chain Research",
+        "body": [
+          "Pisos de demanda institucional: Los ETF de Bitcoin y Ethereum al contado han creado una infraestructura de acumulación permanente. Las correcciones intradía provocadas por la volatilidad macroeconómica están siendo aprovechadas por fondos corporativos y carteras institucionales para absorber la oferta de los operadores minoristas.",
+          "Cobertura contra la degradación fiduciaria: En regiones afectadas por la depreciación cambiaria secundaria al fortalecimiento del dólar estadounidense y el encarecimiento de la energía, las reservas en activos digitales y las stablecoins respaldadas en USD continúan ganando adopción como mecanismo de resguardo de valor.",
+          "Rotación hacia utilidades de red: Proyectos layer-1 y soluciones de escalabilidad de segunda capa con altos volúmenes de captura de comisiones están atrayendo flujos defensivos, comportándose como activos productivos dentro de la infraestructura digital."
+        ]
+      },
+      {
+        "title": "3. Visión TokenGeekCoin: ¿Qué escenario esperar para el próximo trimestre?",
+        "eyebrow": "ESTRATEGIA TRIMESTRAL",
+        "facts": "ESCASEZ PROGRAMÁTICA · AJUSTES DERIVADOS · ALTERNATIVA ESTRUCTURAL",
+        "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Perspectiva de liquidez y escasez programática en activos digitales",
+        "imageCredit": "TokenGeekCoin Strategic Desk",
+        "body": [
+          "La interacción entre el petróleo, la inflación y los activos digitales sugiere que el mercado cripto ha superado la etapa de responder ciegamente como un activo especulativo de alta volatilidad.",
+          "Si bien los picos repentinos en los precios de la energía pueden desencadenar ajustes temporales en las posiciones apalancadas de derivados, la acumulación estratégica a largo plazo indica que los inversores ven en la escasez programática de activos como Bitcoin una alternativa estructural frente a un sistema financiero global condicionado por la geopolítica energética y la deuda soberana."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia-ia/huawei-peerium-supercomputo",
+    "category": "TECNOLOGÍA + IA",
+    "date": "29 SEP 2026",
+    "dateIso": "2026-09-29T11:00:00-03:00",
+    "minutes": 7,
+    "title": "Huawei responde a las restricciones de chips con Peerium: la arquitectura que une procesadores para desafiar el dominio en IA",
+    "dek": "Frente al bloqueo a litografías sub-3nm, Huawei invierte la ecuación del hardware: escala horizontalmente miles de aceleradores Ascend mediante una interconexión masiva de ultra baja latencia y memoria distribuida.",
+    "personalAngle": "En vez de buscar chips diminutos a costos desorbitados, Peerium interconecta cuatro chips de generación madura con una eficiencia de red cuatro veces mayor. Es un cambio de paradigma: el verdadero rey del supercómputo moderno no es el silicio individual, sino la autopista que los conecta.",
+    "leadEyebrow": "HARDWARE & SUPERCOMPUTO · INTELIGENCIA ARTIFICIAL",
+    "leadTitle": "Huawei Peerium: la escala horizontal como respuesta al bloqueo de litografía avanzada",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Servidores de IA e infraestructura de supercómputo Peerium de Huawei",
+    "imageCredit": "TokenGeekCoin / Huawei Enterprise",
+    "body": [
+      "La carrera global por la supremacía en infraestructura de inteligencia artificial ha entrado en una fase crítica donde las limitaciones de la física y las restricciones comerciales obligan a rediseñar la arquitectura del software y el hardware desde sus cimientos. En este contexto, Huawei ha presentado oficialmente Peerium, una arquitectura de interconexión masiva de nueva generación diseñada para vincular miles de CPU, aceleradores de IA (como la serie Ascend), módulos de memoria distribuida y unidades de almacenamiento masivo para que funcionen unificados como un solo supercomputador lógico.",
+      "El movimiento de la firma asiática no representa únicamente una evolución técnica, sino una respuesta estratégica directa al bloqueo de acceso a tecnologías avanzadas de litografía de silicio de menos de 3 nanómetros. Ante la imposibilidad de escalar la densidad de transistores en un solo die de silicio al ritmo de competidores occidentales, la industria de semiconductores en China está apostando a la escala horizontal, convirtiendo la eficiencia de las redes de interconexión en el nuevo campo de batalla tecnológico.",
+      "En el entrenamiento de Grandes Modelos de Lenguaje (LLMs) y sistemas multimodales de última generación, el principal enemigo no es necesariamente la velocidad de cálculo pura de una GPU individual, sino el ancho de banda y la latencia en la transferencia de datos entre los procesadores. Cuando miles de chips trabajan en paralelo para ajustar miles de millones de parámetros, los buses de datos tradicionales se saturan, generando tiempos muertos donde los procesadores quedan inactivos esperando información.",
+      "La arquitectura Peerium aborda esta problemática mediante una topología de red de ultra baja latencia, pools de memoria compartida distribuida y orquestación dinámica de cargas con servidores Atlas 960."
+    ],
+    "bullets": [
+      "Presentación oficial de Peerium: arquitectura de interconexión masiva para supercómputo de IA.",
+      "Topología de red unificada con protocolo de ultra baja latencia entre nodos.",
+      "Pools de memoria RAM y VRAM compartida distribuida entre miles de procesadores Ascend.",
+      "Integración nativa con servidores de alta densidad Atlas 960 y tolerancia a fallos del 99,99%.",
+      "Estrategia de escala horizontal: multiplica eficiencia de red para superar restricciones de litografía."
+    ],
+    "features": [
+      {
+        "title": "1. ¿Cómo funciona Peerium? Eliminando los cuellos de botella del supercómputo",
+        "eyebrow": "ARQUITECTURA DE RED",
+        "facts": "ULTRA BAJA LATENCIA · POOLS VRAM COMPARTIDA · ATLAS 960 ORQUESTADO",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Peerium permite interconectar miles de aceleradores para operar como un único clúster masivo de procesamiento para modelos de IA",
+        "imageCredit": "Huawei Enterprise Solutions",
+        "body": [
+          "Topología de red unificada de ultra baja latencia: Implementa un protocolo de comunicación propietario que reduce drásticamente la sobrecarga (overhead) de los paquetes de datos entre nodos de cómputo, permitiendo transferencias bidireccionales casi instantáneas.",
+          "Pools de memoria compartida distribuida: Rompe la barrera de la VRAM aislada de cada tarjeta aceleradora. Mediante Peerium, un clúster de IA puede direccionar memoria RAM y VRAM distribuida a lo largo de miles de tarjetas como si pertenecieran al mismo espacio de direccionamiento local.",
+          "Orquestación dinámica de cargas con Atlas 960: Integrado de forma nativa con la familia de chips Ascend y los servidores de alta densidad Atlas 960, el sistema redirige automáticamente el procesamiento si uno de los nodos presenta sobrecalentamiento o fallos en las celdas, garantizando un tiempo de actividad del 99,99% en sesiones de entrenamiento que duran semanas."
+        ]
+      },
+      {
+        "title": "2. La ruta del silicio: Escalado horizontal vs. Litografía de vanguardia",
+        "eyebrow": "PARADIGMA TECNOLÓGICO",
+        "facts": "LITOGRAFÍA SUB-3NM VS INTERCONEXIÓN · SOBERANÍA SILICIO · DENSIDAD CLÚSTER",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Comparativa técnica entre miniaturización de litografía y escalabilidad de red",
+        "imageCredit": "TokenGeekCoin Tech Analysis",
+        "body": [
+          "Durante la última década, la industria de los semiconductores siguió la premisa de reducir el tamaño de los transistores (pasando de 7nm a 5nm, 3nm y los recientes procesos de 2nm). Sin embargo, el costo de construcción de las fundiciones de vanguardia y la complejidad de las máquinas de litografía ultravioleta extrema (EUV) han creado barreras infranqueables para varios actores del mercado.",
+          "Con Peerium, Huawei invierte la ecuación: en lugar de fabricar un chip el doble de potente mediante litografía ultra reducida, interconecta cuatro chips de generación anterior con una eficiencia de red cuatro veces mayor.",
+          "La estrategia permite mitigar la dependencia de cadenas de suministro globales complejas reutilizando capacidades de fabricación locales o maduras para alcanzar niveles de rendimiento equivalente a clústeres occidentales de primer nivel."
+        ]
+      },
+      {
+        "title": "3. Análisis TokenGeekCoin: La carrera por la infraestructura descentralizada de cómputo",
+        "eyebrow": "VEREDICTO EDITORIAL",
+        "facts": "EXAFLOPS · NUBE DEMOCRATIZADA · COMPETENCIA EN DATA CENTERS",
+        "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Centros de datos y supercomputación en la era de los modelos multimodales",
+        "imageCredit": "TokenGeekCoin Infrastructure Desk",
+        "body": [
+          "El despliegue de soluciones como Peerium demuestra que la competencia global por la Inteligencia Artificial ya no se mide únicamente por el rendimiento de una tarjeta gráfica de consumo, sino por la capacidad de los centros de datos (data centers) para escalar a niveles de exaFLOPs de manera eficiente.",
+          "Para el ecosistema de la tecnología y el desarrollo de software, la diversificación en las arquitecturas de supercómputo resulta altamente positiva. La irrupción de un estándar de interconexión masiva competitivo presiona al mercado global para reducir los costos de acceso a la nube, democratizando las herramientas necesarias para entrenar modelos de IA avanzados y garantizando alternativas viables en la infraestructura digital que sostendrá los servicios del futuro."
+        ]
       }
     ]
   },
@@ -128,68 +328,6 @@
       {
         "name": "DC.com — Cobertura y guías del DC Universe",
         "url": "https://www.dc.com/"
-      }
-    ]
-  },
-  {
-    "slug": "finanzas-cripto/petroleo-supera-106-dolares-choque-energetico-mercados-bitcoin",
-    "category": "FINANZAS + CRIPTO",
-    "date": "28 SEP 2026",
-    "dateIso": "2026-09-28T10:15:00-03:00",
-    "minutes": 7,
-    "title": "El petróleo supera los USD 106 por barril: el choque energético sacude los mercados globales y presiona a Bitcoin",
-    "dek": "La escalada del crudo Brent impulsa la aversión al riesgo en Wall Street, frena las expectativas de recortes de tasas de la Fed y desata liquidaciones millonarias en el sector cripto.",
-    "personalAngle": "El petróleo por encima de 100 dólares siempre actúa como un shock de realidad macroeconómica: suben los costos de transporte, se enfrían los activos de riesgo y los mineros de Bitcoin recalculan márgenes contra el costo eléctrico.",
-    "leadEyebrow": "MACROECONOMÍA Y ACTIVOS DIGITALES",
-    "leadTitle": "Entre la aversión al riesgo y la narrativa de reserva de valor frente a la inflación",
-    "image": "/articles/2026-09-28/petroleo-106-bitcoin-hero.jpg",
-    "imageAlt": "La escalada del crudo impulsa la aversión al riesgo en Wall Street y el mercado cripto",
-    "imageCredit": "TokenGeekCoin / Mercados Globales",
-    "body": [
-      "Los mercados financieros internacionales abrieron la semana con una violenta corrección a la baja en los índices de renta variable y activos de alta volatilidad. El precio del petróleo crudo (referencial internacional Brent) perforó con fuerza la barrera psicológica de los USD 106 por barril, alcanzando niveles no vistos en más de dos años. Esta escalada responde de forma directa al recrudecimiento de las tensiones geopolíticas en Medio Oriente, el cierre preventivo de importantes estrechos marítimos para el transporte de hidrocarburos y la consiguiente amenaza de un estrangulamiento en la oferta global de energía.",
-      "Las implicaciones de esta subida repentina en las materias primas van mucho más allá del sector energético tradicional. Los principales selectivos bursátiles de Asia —como el Nikkei 225 y el Hang Seng— sufrieron caídas superiores al 2.8%, una tendencia que se replicó rápidamente en la apertura de los parqués europeos y en los contratos de futuros del S&P 500 y Nasdaq 100 en Wall Street.",
-      "Para los inversores en criptoactivos, la clave de las próximas semanas estará en monitorear si Bitcoin logra desacoplarse de los mercados de renta variable. Si la crisis geopolítica e inflacionaria se profundiza, la narrativa de Bitcoin como un activo escaso, descentralizado, neutral e inconfiscable podría ganar tracción entre actores institucionales que busquen proteger su poder adquisitivo frente a la devaluación paulatina de las divisas fiduciarias afectadas por el shock energético."
-    ],
-    "features": [
-      {
-        "title": "El efecto dominó: Inflación persistentemente alta y política monetaria de la Fed",
-        "eyebrow": "IMPACTO EN TASAS",
-        "facts": "BRENT > $106 · TASAS 10Y AL 4.65% · FED EN ALERTA",
-        "image": "/articles/2026-09-28/petroleo-106-liquidity.jpg",
-        "alt": "La liquidez global se contrae ante el repunte de los rendimientos de los bonos soberanos",
-        "imageCredit": "TokenGeekCoin / Macro Data",
-        "body": [
-          "El principal temor de los analistas macroeconómicos radica en el impacto directo que el costo de la energía tiene sobre el Índice de Precios al Consumo (IPC) a escala global. El barril por encima de los USD 100 actúa como un impuesto invisible sobre toda la cadena de producción, transporte y logística internacional, destruyendo las esperanzas de que la inflación se estabilice cerca del objetivo del 2% anual fijado por los bancos centrales.",
-          "Revisión de Tasas de Interés: La Reserva Federal de los Estados Unidos (Fed), junto con el Banco Central Europeo (BCE), se encuentra en una encrucijada crítica. Un choque de oferta energética reduce drásticamente el margen para continuar con el ciclo de recortes en los tipos de interés. Los swaps de mercado indican ahora que la probabilidad de una pausa o incluso una subida preventiva de tipos ha aumentado significativamente.",
-          "Fuga hacia la Calidad (Flight to Quality): Los inversores institucionales han iniciado una rotación masiva de capital hacia activos de refugio tradicional. Los rendimientos de los bonos del Tesoro de EE. UU. a 10 años se dispararon hacia el 4.65%, mientras que el dólar estadounidense (DXY) mostró una fortaleza vertiginosa frente a las divisas de mercados emergentes."
-        ]
-      },
-      {
-        "title": "¿Cómo reacciona el ecosistema Cripto? Bitcoin entre el Risk-Off y la Cobertura",
-        "eyebrow": "LIQUIDEZ Y MINERÍA",
-        "facts": "USD 420M LIQUIDADOS · ALTCOINS -8% · COSTO POW",
-        "image": "/articles/2026-09-28/petroleo-106-bitcoin-hero.jpg",
-        "alt": "Gráficos de volatilidad y cotización de Bitcoin en el contexto del choque petrolero",
-        "imageCredit": "TokenGeekCoin Financial",
-        "body": [
-          "Corrección de Corto Plazo por Fuga de Liquidez: En el horizonte temporal inmediato, Bitcoin continúa operando con una marcada correlación respecto al sector tecnológico tradicional (Nasdaq). El aumento de la liquidez fiduciaria restringida provoca ventas forzadas en posiciones apalancadas de criptomonedas. Durante las últimas 24 horas, las liquidaciones en el mercado de derivados cripto superaron los USD 420 millones, con más del 80% correspondiendo a posiciones largas.",
-          "Presión sobre las Altcoins y DeFi: Las altcoins de mediana y baja capitalización han sufrido el golpe más severo, cayendo en promedio entre un 6% y un 12%. Los protocolos de Finanzas Descentralizadas (DeFi) han registrado un descenso en el Valor Total Bloqueado (TVL), a medida que los inversionistas retiran capital hacia monedas estables (stablecoins) de rendimiento o tesoros tokenizados.",
-          "El Costo Energético de la Minería de Bitcoin: La subida internacional del gas natural y el petróleo incrementa los costos operativos de las grandes instalaciones de minería de Proof-of-Work (PoW). Las empresas mineras que cotizan en bolsa y operan con tarifas eléctricas variables verán reducidos sus márgenes de ganancia, lo que podría desencadenar capitulación de mineros ineficientes o la venta de reservas de BTC retenidas en sus balances para financiar gastos operativos."
-        ]
-      }
-    ],
-    "sources": [
-      {
-        "name": "Reuters Commodities & Energy Weekly Report",
-        "url": "https://www.reuters.com/markets/commodities/"
-      },
-      {
-        "name": "Bloomberg Markets — Crude Oil Surges Past $106 Amid Supply Strain",
-        "url": "https://www.bloomberg.com/energy"
-      },
-      {
-        "name": "CoinGlass — Derivatives & Crypto Liquidation Monitor",
-        "url": "https://www.coinglass.com/"
       }
     ]
   },

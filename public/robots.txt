@@ -1,0 +1,6 @@
+# Robots.txt for TokenGeekCoin
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://tokengeekcoin.com/sitemap.xml

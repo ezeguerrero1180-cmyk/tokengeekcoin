@@ -17,6 +17,7 @@ import { ComparadoresPage } from './components/ComparadoresPage';
 import { AdSenseUnit } from './components/AdSenseUnit';
 import { KineticMarquee } from './components/KineticMarquee';
 import { SobreMiPage } from './components/SobreMiPage';
+import { useSEO } from './hooks/useSEO';
 
 export type AppView = 'home' | 'ofertas' | 'comparadores' | 'sobre-mi';
 
@@ -60,6 +61,10 @@ const getViewFromUrl = (): AppView => {
 export default function App() {
   const [currentView, setCurrentView] = useState<AppView>(getViewFromUrl);
   const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  // Dynamic Expert-Level SEO synchronization
+  useSEO({ article: selectedArticle, currentView, activeCategory });
 
   // Sync with browser back/forward buttons & hash changes
   useEffect(() => {
@@ -112,9 +117,6 @@ export default function App() {
       }
     }
   }, []);
-
-  // State for active category clicked in "Mi Universo"
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   // All articles sorted with today's first
   const allArticles: Article[] = useMemo(() => {

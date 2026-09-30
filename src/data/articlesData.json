@@ -1,5 +1,228 @@
 [
   {
+    "slug": "tecnologia-ia/ifixit-desmontaje-iphone-18-pro-camara-apertura-variable-reparabilidad",
+    "category": "TECNOLOGÍA + IA",
+    "date": "30 SEP 2026",
+    "dateIso": "2026-09-30T09:00:00-03:00",
+    "minutes": 6,
+    "title": "iFixit desglosa el nuevo iPhone 18 Pro y revela sorpresas en su durabilidad y cámara",
+    "dek": "Apple estrena una cámara con apertura variable electromagnética, pero complica el acceso al panel frontal y componentes internos con una placa sándwich y módulos sellados.",
+    "personalAngle": "La ingeniería detrás de la apertura física en el iPhone 18 Pro es fascinante, pero el coste para el usuario es directo: cualquier holgura en las microhojas magnéticas obligará a sustituir el módulo fotográfico íntegro a precios exorbitantes.",
+    "leadEyebrow": "TEARDOWN & HARDWARE · IPHONE 18 PRO",
+    "leadTitle": "Desmontaje iFixit: microactuadores magnéticos y el desafío de la reparabilidad",
+    "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "iPhone 18 Pro desmontado por iFixit mostrando componentes internos y lente de cámara",
+    "imageCredit": "TokenGeekCoin / iFixit Research",
+    "body": [
+      "El equipo de especialistas en reparación de iFixit ha publicado su esperado desmontaje técnico (teardown) del iPhone 18 Pro. El análisis revela avances notables en ingeniería de hardware y eficiencia térmica, aunque confirma una arquitectura interna que dificulta el mantenimiento casero y encarece las sustituciones fuera del canal oficial.",
+      "El elemento más destacado del análisis es la lente principal con apertura variable física. El mecanismo utiliza seis diminutas hojas metálicas accionadas por impulsos magnéticos para alternar entre pasos de apertura (ƒ/1.48, ƒ/1.8, ƒ/2.8 y ƒ/4.0), ofreciendo profundidad de campo óptica real sin recurrir a filtros de bokeh artificial por software.",
+      "Sin embargo, la complejidad mecánica introduce nuevos retos de durabilidad: si una sola de las hojas sufre descalibración por caídas o calor extremo, el usuario deberá reemplazar todo el módulo fotográfico ensamblado. Además, la placa base en disposición sándwich encierra los chips de memoria NAND en las capas internas, complicando severamente la recuperación de datos ante fallos en la línea de alimentación.",
+      "En contrapartida positiva, Apple integró una cámara de vapor ampliada que disipa el calor del procesador con mucha mayor homogeneidad, lo que se traduce en un rendimiento sostenido superior en sesiones prolongadas de gaming y captura de video en formato ProRes espacial."
+    ],
+    "bullets": [
+      "Apertura variable física mediante 6 microhojas electromagnéticas (ƒ/1.48 a ƒ/4.0).",
+      "Riesgo de reparación: averías en las hojas exigen el recambio del módulo completo.",
+      "Placa madre en sándwich encierra la memoria NAND dificultando recuperación de datos.",
+      "Cámara de vapor ampliada para sostener el rendimiento térmico del nuevo procesador.",
+      "iFixit asigna una puntuación provisional de 7/10 en el índice de reparabilidad."
+    ],
+    "features": [
+      {
+        "title": "Un módulo fotográfico con microactuadores electromagnéticos",
+        "eyebrow": "INGENIERÍA ÓPTICA",
+        "facts": "ƒ/1.48 A ƒ/4.0 · 6 HOJAS MAGNÉTICAS · RECAMBIO COMPLETO",
+        "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
+        "alt": "El teardown de iFixit expone los microactuadores de la nueva cámara del iPhone 18 Pro",
+        "imageCredit": "iFixit / Unsplash",
+        "body": [
+          "El elemento más destacado del análisis es la lente principal con apertura variable física. El mecanismo utiliza seis diminutas hojas metálicas accionadas por impulsos magnéticos para alternar entre pasos de apertura (ƒ/1.48, ƒ/1.8, ƒ/2.8 y ƒ/4.0).",
+          "Riesgo de reparación: iFixit advierte que si una de las hojas falla, el usuario deberá reemplazar todo el módulo fotográfico ensamblado, elevando el presupuesto de asistencia técnica.",
+          "Placa de circuito en sándwich: La disposición de la placa madre encierra la memoria NAND en las capas internas, complicando la recuperación de datos ante fallos eléctricos.",
+          "Cámara de vapor ampliada: Apple integró una estructura de refrigeración líquida más grande para sostener el rendimiento del chip sin sobrecalentamiento."
+        ]
+      },
+      {
+        "title": "Veredicto de Reparabilidad iFixit: 7 sobre 10",
+        "eyebrow": "EVALUACIÓN TÉCNICA",
+        "facts": "NOTA 7/10 · VIDRIO TRASERO REMOVIBLE · BARRERA DE SOFTWARE",
+        "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Proceso de desmontaje y tornillería de precisión en smartphones de gama alta",
+        "imageCredit": "TokenGeekCoin Tech Desk",
+        "body": [
+          "\"La precisión de la cámara con apertura variable es asombrosa desde el punto de vista de la ingeniería, pero convierte cualquier fallo mecánico en una reparación de módulo completo\", señalaron los técnicos de iFixit al publicar su informe.",
+          "A pesar de las complicaciones en el módulo de cámara y la placa base, el dispositivo conserva la arquitectura de chasis que permite retirar el cristal trasero de forma independiente sin desarmar la pantalla delantera, lo que evita que la nota descienda aún más."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia-ia/stepfun-step-5-preview-modelo-600b-pesos-abiertos",
+    "category": "TECNOLOGÍA + IA",
+    "date": "30 SEP 2026",
+    "dateIso": "2026-09-30T09:30:00-03:00",
+    "minutes": 6,
+    "title": "Fuga masiva y pesos abiertos: StepFun presenta Step 5 Preview con 600B de parámetros",
+    "dek": "El modelo masivo de arquitectura MoE ofrece una ventana de contexto de 1 millón de tokens, activación escasa de 27B por inferencia y prepara su liberación pública el 15 de octubre.",
+    "personalAngle": "StepFun demuestra que el verdadero músculo de la IA libre no está solo en la cantidad bruta de parámetros, sino en activar apenas 27B de los 600B totales. Esto vuelve viable el despliegue de agentes autónomos sin depender de monopolios de nube cerrados.",
+    "leadEyebrow": "OPEN WEIGHTS · INTELIGENCIA ARTIFICIAL",
+    "leadTitle": "Step 5 Preview: 600 mil millones de parámetros y 1M de contexto para la comunidad abierta",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Representación conceptual de red neuronal de Inteligencia Artificial masiva de 600B de parámetros",
+    "imageCredit": "TokenGeekCoin / StepFun Research",
+    "body": [
+      "La carrera por la dominación de la Inteligencia Artificial de código abierto da un salto cuantitativo con el anuncio de Step 5 Preview, el nuevo modelo insignia desarrollado por la firma StepFun. Diseñado para competir cara a cara contra las arquitecturas propietarias más avanzadas, el modelo combina una escala monumental con un consumo de recursos computacionales altamente optimizado.",
+      "Step 5 Preview adopta una arquitectura de Mezcla Escasa de Expertos (Sparse Mixture of Experts - MoE). Con un total de 600.000 millones de parámetros, solo activa 27.000 millones por cada token procesado, permitiendo una velocidad de inferencia sin precedentes en clústeres comerciales.",
+      "El sistema ofrece una ventana de contexto de 1 millón de tokens nativos, lo que posibilita ingerir y razonar sobre libros enteros, bases de código gigantescas o transcripciones financieras complejas en un solo pase sin degradación semántica.",
+      "La compañía confirmó que liberará los pesos del modelo (Open Weights) el próximo 15 de octubre, permitiendo que universidades, desarrolladores independientes y empresas alojen e investiguen el modelo de forma soberana."
+    ],
+    "bullets": [
+      "Arquitectura Sparse MoE con 600B de parámetros totales y activación de 27B por token.",
+      "Ventana de contexto ultra extendida de 1 millón de tokens nativos.",
+      "Entrada multimodal directa de texto, imágenes de alta resolución (hasta 60) y video.",
+      "Liberación programada de pesos abiertos (Open Weights) el 15 de octubre de 2026.",
+      "Alternativa soberana frente a las API cerradas de los gigantes tecnológicos."
+    ],
+    "features": [
+      {
+        "title": "Arquitectura MoE y rendimiento para agentes autónomos",
+        "eyebrow": "ARQUITECTURA SPARSE MOE",
+        "facts": "600B PARÁMETROS · 27B ACTIVOS · 1M TOKENS CONTEXTO",
+        "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+        "alt": "StepFun busca liderar el ecosistema de IA de código abierto con Step 5 Preview",
+        "imageCredit": "StepFun / Unsplash",
+        "body": [
+          "Contexto extendido: Soporta hasta 1 millón de tokens nativos, permitiendo analizar libros enteros o repositorios de código en una sola consulta.",
+          "Procesamiento multimodal: Acepta entrada directa de texto, imágenes de alta resolución (hasta 60 por solicitud) y secuencias de video continuo.",
+          "Liberación de Pesos (Open Weights): StepFun confirmó que los pesos del modelo se liberarán públicamente el próximo 15 de octubre, permitiendo su despliegue local por la comunidad global."
+        ]
+      },
+      {
+        "title": "Impacto en la descentralización del desarrollo de IA",
+        "eyebrow": "ECOSISTEMA ABIERTO",
+        "facts": "DESPLIEGUE LOCAL · PRIVACIDAD EMPRESARIAL · SOBERANÍA TÉCNICA",
+        "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Servidores de inferencia y computación para modelos de inteligencia artificial",
+        "imageCredit": "TokenGeekCoin AI Desk",
+        "body": [
+          "Este movimiento representa un hito para desarrolladores e investigadores que buscan alternativas independientes frente a las API cerradas de los gigantes tecnológicos.",
+          "Al poder ejecutar un modelo de 600B con consumo activo de apenas 27B, las empresas podrán implementar sistemas de agentes autónomos y análisis de documentos confidenciales dentro de su propia infraestructura privada sin filtrar información sensible a servidores de terceros."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/insomniac-desmiente-ia-generativa-marvels-wolverine",
+    "category": "GAMING",
+    "date": "30 SEP 2026",
+    "dateIso": "2026-09-30T10:00:00-03:00",
+    "minutes": 5,
+    "title": "Insomniac desmiente el uso de IA generativa en Marvel’s Wolverine",
+    "dek": "El estudio aclara que una textura extraña detectada por los jugadores se debió a un fallo en el mapa UV y no a contenido automatizado, ratificando su compromiso con el arte 100% humano.",
+    "personalAngle": "La reacción de los fans ante una simple textura corrupta demuestra la paranoia actual en torno a la IA en el gaming triple A. Que Insomniac salga a aclarar un glitch de mapeado UV en menos de 24 horas dice mucho del valor que la industria da hoy al trabajo puramente humano.",
+    "leadEyebrow": "PLAYSTATION STUDIOS · DESARROLLO AAA",
+    "leadTitle": "Insomniac Games: cero inteligencia artificial en el arte de Marvel’s Wolverine",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Consola de videojuegos y mando de última generación enfocado en desarrollo de juegos AAA",
+    "imageCredit": "TokenGeekCoin / Insomniac Games",
+    "body": [
+      "Tras la difusión viral de un video en redes sociales que acusaba al estudio de utilizar herramientas de generación por IA para el diseño del entorno en Marvel’s Wolverine, Insomniac Games ha salido a desmentir categóricamente las especulaciones.",
+      "La controversia comenzó cuando usuarios detectaron un cartel publicitario dentro de un callejón nocturno con letras y caracteres distorsionados, un defecto visual similar a las anomalías típicas que generan los modelos de imagen por IA.",
+      "Sin embargo, James Stevenson, director de comunicación del estudio, aclaró la situación: \"No hay elementos generados por IA en Marvel’s Wolverine. Se trata simplemente de un fallo en la superposición del mapa UV de texturas, y el parche corrector ya está listo.\"",
+      "La rápida respuesta de Insomniac refleja la sensibilidad actual de la industria del videojuego respecto a la Inteligencia Artificial generativa. El estudio reiteró que todos los modelados 3D, animaciones, captura de movimiento y textos de Marvel’s Wolverine han sido creados de manera 100% artesanal por sus equipos de artistas y diseñadores."
+    ],
+    "bullets": [
+      "Insomniac desmiente tajantemente el uso de IA generativa en Marvel’s Wolverine.",
+      "El error viral en redes fue provocado por un fallo técnico en el mapa UV de texturas.",
+      "El parche que corrige el mapeo de texturas ya se encuentra preparado.",
+      "Reafirmación del compromiso con el arte, animación y guión 100% artesanal humano.",
+      "Sensibilidad creciente de la comunidad ante el contenido automatizado en juegos AAA."
+    ],
+    "features": [
+      {
+        "title": "Un bug visual confunde la conversación en redes",
+        "eyebrow": "DESGLOSE TÉCNICO",
+        "facts": "MAPA UV CORRUPTO · CARTELES DISTORSIONADOS · PARCHE LISTO",
+        "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Insomniac ratifica su compromiso con el desarrollo de arte tradicional hecho por humanos",
+        "imageCredit": "Insomniac Games / Unsplash",
+        "body": [
+          "La polémica comenzó cuando un cartel dentro de un escenario mostraba caracteres distorsionados, un defecto visual similar a las anomalías típicas que generan los modelos de imagen por IA.",
+          "James Stevenson, director de comunicación del estudio, aclaró la situación: \"No hay elementos generados por IA en Marvel’s Wolverine. Se trata simplemente de un fallo en la superposición del mapa UV de texturas, y el parche corrector ya está listo.\""
+        ]
+      },
+      {
+        "title": "Compromiso con el trabajo artístico tradicional",
+        "eyebrow": "FILOSOFÍA DE DESARROLLO",
+        "facts": "100% ARTESANAL · CAPTURA DE MOVIMIENTO · GUION ORIGINAL",
+        "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Detalle de producción y diseño artístico en desarrollo de videojuegos",
+        "imageCredit": "TokenGeekCoin Gaming Desk",
+        "body": [
+          "La rápida respuesta de Insomniac refleja la sensibilidad actual de la industria del videojuego respecto a la Inteligencia Artificial generativa.",
+          "El estudio reiteró que todos los modelados 3D, animaciones, captura de movimiento y textos de Marvel’s Wolverine han sido creados de manera 100% artesanal por sus equipos de artistas y diseñadores, defendiendo el prestigio del oficio creativo en los desarrollos AAA."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/comercio-global-desaceleracion-2026-ocde-unctad-bitcoin",
+    "category": "FINANZAS + CRIPTO",
+    "date": "30 SEP 2026",
+    "dateIso": "2026-09-30T10:30:00-03:00",
+    "minutes": 6,
+    "title": "El comercio global se desacelera en 2026: la OCDE advierte un impacto directo en economías emergentes",
+    "dek": "Tensiones proteccionistas y costos logísticos reducen la previsión del intercambio mundial al 2,2%, mientras el capital busca refugio en infraestructura tecnológica y activos digitales.",
+    "personalAngle": "La caída del comercio al 2,2% refleja la fractura del modelo globalizado tradicional. Lo interesante es la respuesta de los inversores: mientras los sectores manufactureros sufren por aranceles y fletes caros, la infraestructura digital y Bitcoin actúan como un canal de escape frente a la depreciación monetaria.",
+    "leadEyebrow": "MACROECONOMÍA · OCDE & UNCTAD",
+    "leadTitle": "Desaceleración del intercambio global y la migración hacia el refugio digital",
+    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+    "imageAlt": "Puerto de contenedores marítimos representando el comercio internacional global",
+    "imageCredit": "TokenGeekCoin / Port Logistics Data",
+    "body": [
+      "En sus más recientes informes macroeconómicos, la Organización para la Cooperación y el Desarrollo Económicos (OCDE) y la UNCTAD advirtieron que el comercio global sufrirá una notable desaceleración, pasando del 3,8% a un modesto 2,2% en 2026.",
+      "El freno en el intercambio marítimo y comercial responde a tres factores determinantes: la fragmentación geoeconómica con el incremento de barreras arancelarias, el encarecimiento de los fletes logísticos en rutas oceánicas estratégicas y las tasas de interés restrictivas que encarecen el crédito corporativo a nivel mundial.",
+      "Para América Latina, la proyección de crecimiento se ajustó al 2,3% debido a una menor demanda de materias primas por parte de las economías centrales. Ante este escenario, los grandes capitales muestran un comportamiento dual:",
+      "Mientras el comercio tradicional enfrenta menor ingreso de divisas y contracción en exportaciones, la inversión en infraestructura de IA registra crecimientos de doble dígito en centros de datos, y activos como Bitcoin y stablecoins experimentan una sólida acumulación institucional como refugio frente a la devaluación y el riesgo soberano.",
+      "Conclusión para TokenGeekCoin: Mientras la economía real enfrenta fricciones operativas, la liquidez internacional continúa migrando hacia la infraestructura digital y los criptoactivos como mecanismo de cobertura patrimonial."
+    ],
+    "bullets": [
+      "OCDE y UNCTAD recortan previsión de crecimiento del comercio mundial al 2,2% en 2026.",
+      "América Latina desacelera al 2,3% impactada por menor demanda de materias primas.",
+      "Costos logísticos y fletes marítimos al alza por tensiones en pasos comerciales clave.",
+      "Tasas corporativas restrictivas limitan la reposición masiva de inventarios industriales.",
+      "Capitales institucionales migran a infraestructura de IA y Bitcoin como cobertura."
+    ],
+    "features": [
+      {
+        "title": "Factores determinantes del freno macroeconómico",
+        "eyebrow": "VULNERABILIDADES GLOBALES",
+        "facts": "CRECIMIENTO 2,2% · FLETES AL ALZA · BARRERAS ARANCELARIAS",
+        "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
+        "alt": "El freno en el intercambio maritimo global impacta las proyecciones de divisas en países emergentes",
+        "imageCredit": "UNCTAD / Unsplash",
+        "body": [
+          "Fragmentación geoeconómica: El incremento de barreras arancelarias ha encarecido los costos de importación de insumos industriales clave.",
+          "Fletes logísticos al alza: Las perturbaciones en rutas marítimas principales continúan elevando las tarifas de transporte oceánico.",
+          "Tasas restrictivas: El elevado costo del crédito corporativo frena la expansión de inventarios a nivel global."
+        ]
+      },
+      {
+        "title": "Comportamiento dual: Comercio tradicional vs. Refugio digital",
+        "eyebrow": "TENDENCIAS DE CAPITAL 2026",
+        "facts": "COMERCIO 2,2% · INFRAESTRUCTURA IA +18% · BITCOIN RESERVA",
+        "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
+        "alt": "Mercados financieros y flujos de capital hacia tecnología y activos digitales",
+        "imageCredit": "TokenGeekCoin Economic Analysis",
+        "body": [
+          "Comercio Tradicional: Desaceleración al 2,2% con menor ingreso de divisas y contracción en exportaciones.",
+          "Infraestructura IA: Crecimiento doble dígito mediante inversión masiva en centros de datos y semiconductores.",
+          "Bitcoin / Stablecoins: Acumulación institucional sostenida como refugio frente a la devaluación y el riesgo soberano.",
+          "Conclusión para TokenGeekCoin: Mientras la economía real enfrenta fricciones operativas, la liquidez internacional continúa migrando hacia la infraestructura digital y los criptoactivos como mecanismo de cobertura patrimonial."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "gaming/minecraft-dungeons-2-xbox-game-pass-play-anywhere",
     "category": "GAMING",
     "date": "29 SEP 2026",

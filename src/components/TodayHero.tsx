@@ -35,7 +35,7 @@ export const TodayHero: React.FC<TodayHeroProps> = ({
           </h2>
         </div>
         <div className="text-xs text-stone-500 font-medium">
-          Edición 30 SEP 2026 · {todayArticles.length} noticias publicadas hoy
+          Edición {leadArticle?.date || '01 OCT 2026'} · {todayArticles.length} noticias publicadas hoy
         </div>
       </div>
 

@@ -17,13 +17,13 @@ export function isTodayArticle(article: Article): boolean {
   const dateStr = (article.date || '').toUpperCase();
   if (dateStr.includes('HOY')) return true;
 
-  // Check against current environment date (28 SEP 2026 or system date)
+  // Check against current environment date
   const now = new Date();
   const todayPattern = `${now.getDate()} ${MONTHS_ES[now.getMonth()]} ${now.getFullYear()}`;
   if (dateStr.includes(todayPattern)) return true;
 
-  // Match 30 SEP 2026 as current today date
-  if (dateStr.includes('30 SEP 2026')) return true;
+  // Match 2 OCT 2026 / 02 OCT 2026 as current today date
+  if (dateStr.includes('2 OCT 2026') || dateStr.includes('02 OCT 2026')) return true;
 
   if (article.dateIso) {
     try {
@@ -35,8 +35,8 @@ export function isTodayArticle(article: Article): boolean {
       ) {
         return true;
       }
-      // Also match 2026-09-30 ISO
-      if (article.dateIso.startsWith('2026-09-30')) {
+      // Also match 2026-10-02 ISO
+      if (article.dateIso.startsWith('2026-10-02')) {
         return true;
       }
     } catch {
@@ -51,8 +51,8 @@ export function isYesterdayArticle(article: Article): boolean {
   if (!article) return false;
   const dateStr = (article.date || '').toUpperCase();
   if (dateStr.includes('AYER')) return true;
-  if (dateStr.includes('29 SEP 2026')) return true;
-  if (article.dateIso && article.dateIso.startsWith('2026-09-29')) return true;
+  if (dateStr.includes('1 OCT 2026') || dateStr.includes('01 OCT 2026')) return true;
+  if (article.dateIso && article.dateIso.startsWith('2026-10-01')) return true;
   return false;
 }
 
@@ -61,8 +61,8 @@ export function isNewPublication(article: Article): boolean {
   if (isTodayArticle(article)) return true;
   if (isYesterdayArticle(article)) return true;
   const d = (article.date || '').toUpperCase();
-  if (d.includes('30 SEP') || d.includes('29 SEP') || d.includes('28 SEP') || d.includes('25 SEP') || d.includes('24 SEP') || d.includes('HOY') || d.includes('AYER')) return true;
-  if (article.dateIso && (article.dateIso.startsWith('2026-09-30') || article.dateIso.startsWith('2026-09-29') || article.dateIso.startsWith('2026-09-28') || article.dateIso.startsWith('2026-09-25') || article.dateIso.startsWith('2026-09-24'))) return true;
+  if (d.includes('2 OCT') || d.includes('02 OCT') || d.includes('1 OCT') || d.includes('01 OCT') || d.includes('30 SEP') || d.includes('29 SEP') || d.includes('28 SEP') || d.includes('HOY') || d.includes('AYER')) return true;
+  if (article.dateIso && (article.dateIso.startsWith('2026-10-02') || article.dateIso.startsWith('2026-10-01') || article.dateIso.startsWith('2026-09-30') || article.dateIso.startsWith('2026-09-29') || article.dateIso.startsWith('2026-09-28'))) return true;
   return false;
 }
 

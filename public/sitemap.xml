@@ -5,27 +5,131 @@
   <!-- Core Portal Pages -->
   <url>
     <loc>https://tokengeekcoin.com/</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/ofertas</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comparadores</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/sobre-mi</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/fotonica-cobre-silicio-migracion-cifrado-post-cuantico</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/fotonica-cuantica-hero.jpg</image:loc>
+      <image:title><![CDATA[Hardware: Fotónica Cobre-Silicio y la migración urgente al cifrado post-cuántico]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/fotonica-datacenter.jpg</image:loc>
+      <image:title><![CDATA[Interconexiones ópticas directas en centros de datos]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/post-quantum-encryption.jpg</image:loc>
+      <image:title><![CDATA[Migración masiva hacia criptografía basada en reticulados]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T08:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Hardware: Fotónica Cobre-Silicio y la migración urgente al cifrado post-cuántico]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/openai-o3-razonamiento-profundo-agentes-autonomos-cicd</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/openai-o3-hero.webp</image:loc>
+      <image:title><![CDATA[IA: La frontera del razonamiento profundo con la serie "o3" y agentes autónomos]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/o3-reasoning-chain.jpg</image:loc>
+      <image:title><![CDATA[Cadenas de pensamiento y verificación lógica paso a paso]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/autonomous-agent-cicd.jpg</image:loc>
+      <image:title><![CDATA[Auditoría autónoma de contratos inteligentes y flujos CI/CD]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T08:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[IA: La frontera del razonamiento profundo con la serie "o3" y agentes autónomos]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/gaming/rockstar-games-motor-rage-10-gta-vi-revolucion-grafica</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/gta-vi-rage10-hero.jpg</image:loc>
+      <image:title><![CDATA[Gaming: La revolución gráfica de Rockstar Games y el motor RAGE 10 para GTA VI]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/gta-vi-physics-fluids.jpg</image:loc>
+      <image:title><![CDATA[Físicas de fluidos volumétricas y refracción lumínica]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/gta-vi-vice-city-npcs.jpg</image:loc>
+      <image:title><![CDATA[Inteligencia contextual en NPCs y ecosistema urbano]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T09:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Gaming: La revolución gráfica de Rockstar Games y el motor RAGE 10 para GTA VI]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/finanzas-cripto/ethereum-layer-2-zk-rollups-inyeccion-institucional-defi</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/ethereum-l2-hero.webp</image:loc>
+      <image:title><![CDATA[Cripto & DeFi: La escala masiva de Ethereum Layer-2 y la inyección institucional]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/zk-rollups-architecture.jpg</image:loc>
+      <image:title><![CDATA[Arquitectura ZK-Rollup y pruebas de conocimiento cero]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-05/defi-institutional-rwa.jpg</image:loc>
+      <image:title><![CDATA[Adopción corporativa de Real-World Assets (RWA) y Liquid Staking]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-05T09:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Cripto & DeFi: La escala masiva de Ethereum Layer-2 y la inyección institucional]]></news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/tecnologia-ia/github-copilot-era-computer-use-automatizacion-devops</loc>
@@ -529,7 +633,7 @@
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -557,13 +661,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Los mejores juegos de septiembre para todas las consolas]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -591,13 +695,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanterns capítulo 2: Sinestro enciende la serie]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -621,13 +725,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[La guía definitiva del Geek Inversionista]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -651,13 +755,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[De la pantalla al portafolio: anime y futuro tecnológico]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -681,13 +785,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Bitcoin, Scott Bessent y la Reserva Federal]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -711,13 +815,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-02</lastmod>
+    <lastmod>2026-10-05</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -745,7 +849,7 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-02T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Por qué Lanterns se siente tan lenta]]></news:title>
     </news:news>
   </url>

@@ -5,27 +5,157 @@
   <!-- Core Portal Pages -->
   <url>
     <loc>https://tokengeekcoin.com/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/ofertas</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comparadores</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/sobre-mi</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/cultura-geek/resena-lanterns-final-temporada-giro-hal-jordan-john-stewart</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/lanterns-hal-john.jpg</image:loc>
+      <image:title><![CDATA[Reseña Geek: Final de temporada de "Lanterns" — Un cierre tremendo con sabor agridulce]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/lanterns-sheriff-climax.jpg</image:loc>
+      <image:title><![CDATA[El dilema moral de Kerry y el disparo a Hal Jordan]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/lanterns-ring.webp</image:loc>
+      <image:title><![CDATA[La consagración de John Stewart como Green Lantern]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T08:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Reseña Geek: Final de temporada de "Lanterns" — Un cierre tremendo con sabor agridulce]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/google-gemini-4-argon-ciberseguridad-explotacion-codigo</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/gemini-argon-hero.jpg</image:loc>
+      <image:title><![CDATA[IA: Google lanza Gemini 4 "Argon" para ciberseguridad y explotación de código]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/gemini-code-defense.jpg</image:loc>
+      <image:title><![CDATA[Detección de vulnerabilidades Zero-Day y auto-parcheo]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/gemini-soc-audit.jpg</image:loc>
+      <image:title><![CDATA[Gobernanza y despliegue en infraestructuras críticas]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T08:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[IA: Google lanza Gemini 4 "Argon" para ciberseguridad y explotación de código]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/deepseek-ronda-12000-millones-tencent-ipo-2027</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/deepseek-supercomputing-hero.jpg</image:loc>
+      <image:title><![CDATA[Business & AI: DeepSeek cierra ronda de USD $12.000 millones respaldada por Tencent]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/deepseek-tencent-investment.jpg</image:loc>
+      <image:title><![CDATA[Infraestructura de supercómputo de próxima generación]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/deepseek-enterprise-agents.jpg</image:loc>
+      <image:title><![CDATA[Dominio en el mercado de agentes autónomos B2B]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T09:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Business & AI: DeepSeek cierra ronda de USD $12.000 millones respaldada por Tencent]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/seagate-toshiba-guerra-cabezales-tdk-almacenamiento-data-centers-ia</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/seagate-toshiba-tdk-hero.jpg</image:loc>
+      <image:title><![CDATA[Hardware & Cloud: Seagate y Toshiba compiten por el negocio de cabezales de TDK]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/tdk-magnetic-heads.jpg</image:loc>
+      <image:title><![CDATA[Nanotecnología HAMR en cabezales magnéticos]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/cloud-storage-racks.jpg</image:loc>
+      <image:title><![CDATA[El dilema del costo por petabyte en nubes masivas]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T09:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Hardware & Cloud: Seagate y Toshiba compiten por el negocio de cabezales de TDK]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/finanzas-cripto/bitcoin-sustenta-86000-soporte-institucional-volumen-cauto</loc>
+    <lastmod>2026-10-06</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/bitcoin-86k-hero.jpg</image:loc>
+      <image:title><![CDATA[Cripto: Bitcoin sustenta los USD $86.000 con volumen cauto en el mercado]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/bitcoin-institutional-accumulation.jpg</image:loc>
+      <image:title><![CDATA[Defensa institucional del soporte en $84.900]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-06/crypto-layer2-rotation.jpg</image:loc>
+      <image:title><![CDATA[Irrigación de capital hacia Layer-2 y tokens de IA]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-06T10:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Cripto: Bitcoin sustenta los USD $86.000 con volumen cauto en el mercado]]></news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/tecnologia-ia/fotonica-cobre-silicio-migracion-cifrado-post-cuantico</loc>
@@ -633,7 +763,7 @@
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -661,13 +791,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Los mejores juegos de septiembre para todas las consolas]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -695,13 +825,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanterns capítulo 2: Sinestro enciende la serie]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -725,13 +855,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[La guía definitiva del Geek Inversionista]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -755,13 +885,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[De la pantalla al portafolio: anime y futuro tecnológico]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -785,13 +915,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Bitcoin, Scott Bessent y la Reserva Federal]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -815,13 +945,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-06</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -849,7 +979,7 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-05T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Por qué Lanterns se siente tan lenta]]></news:title>
     </news:news>
   </url>

@@ -5,27 +5,131 @@
   <!-- Core Portal Pages -->
   <url>
     <loc>https://tokengeekcoin.com/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/ofertas</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comparadores</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/sobre-mi</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/openai-despliega-gpt-6-intelligent-ui-chatgpt-razonamiento-agentico</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/gpt-6-intelligent-ui-hero.jpg</image:loc>
+      <image:title><![CDATA[IA: OpenAI despliega GPT-6 con "Intelligent UI" integrada y widgets reactivos]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/gpt-6-agentic-reasoning.jpg</image:loc>
+      <image:title><![CDATA[Árboles de deducción lógica y razonamiento científico]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/ai-race-benchmark-pricing.jpg</image:loc>
+      <image:title><![CDATA[Guerra de precios y competencia frente a Claude y open-source]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T08:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[IA: OpenAI despliega GPT-6 con "Intelligent UI" integrada y widgets reactivos]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/finlandia-suspende-construccion-data-centers-google-impacto-ambiental</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/finland-google-datacenter-hero.jpg</image:loc>
+      <image:title><![CDATA[Infrastructure: Finlandia suspende la construcción de data centers de Google por impacto ambiental]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/finland-environmental-forest.jpg</image:loc>
+      <image:title><![CDATA[Protección estricta de ecosistemas boreales y biodiversidad]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/green-energy-datacenter-grid.jpg</image:loc>
+      <image:title><![CDATA[El desafío del consumo energético e hídrico de la IA]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T08:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Infrastructure: Finlandia suspende la construcción de data centers de Google por impacto ambiental]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/gaming/xbox-game-pass-octubre-2026-battlefield-6-estreno-indies</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/battlefield-6-gamepass-hero.jpg</image:loc>
+      <image:title><![CDATA[Gaming: Xbox Game Pass suma títulos y prepara el estreno simultáneo de Battlefield 6]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/xbox-gamepass-dashboard.jpg</image:loc>
+      <image:title><![CDATA[El modelo de suscripción como epicentro del gaming]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/battlefield-multiplayer-action.jpg</image:loc>
+      <image:title><![CDATA[Guerra combinada masiva y destrucción Frostbite]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T09:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Gaming: Xbox Game Pass suma títulos y prepara el estreno simultáneo de Battlefield 6]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/finanzas-cripto/bitcoin-sustenta-83000-soporte-clave-analisis-bonos-altcoins</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/bitcoin-83k-consolidation-hero.jpg</image:loc>
+      <image:title><![CDATA[Cripto: Bitcoin sustenta los USD $83.000 mientras el mercado digiere factores macro]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/macro-bond-yields-crypto.jpg</image:loc>
+      <image:title><![CDATA[Correlación con bonos soberanos y política monetaria]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-08/altcoins-layer2-infrastructure.jpg</image:loc>
+      <image:title><![CDATA[Resiliencia en protocolos de Capa 2 e infraestructura modular]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-08T09:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Cripto: Bitcoin sustenta los USD $83.000 mientras el mercado digiere factores macro]]></news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-7-final-de-temporada-resena-geek</loc>
@@ -763,7 +867,7 @@
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -791,13 +895,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Los mejores juegos de septiembre para todas las consolas]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -825,13 +929,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanterns capítulo 2: Sinestro enciende la serie]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -855,13 +959,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[La guía definitiva del Geek Inversionista]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -885,13 +989,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[De la pantalla al portafolio: anime y futuro tecnológico]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -915,13 +1019,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Bitcoin, Scott Bessent y la Reserva Federal]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -945,13 +1049,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-08</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -979,7 +1083,7 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-06T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Por qué Lanterns se siente tan lenta]]></news:title>
     </news:news>
   </url>

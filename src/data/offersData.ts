@@ -27,7 +27,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Salidas HDMI 2.1a y DisplayPort 1.4a',
     ],
     shippingNote: 'Tarifa plana de envío internacional disponible con cálculo de tasas prepagadas en Amazon.',
-    amazonUrl: `https://www.amazon.com/dp/B0CS6XMSHZ?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=GeForce+RTX+4070+Super+12GB&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'ryzen-7-7800x3d',
@@ -43,7 +43,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'TDP contenido de 120W (fácil de refrigerar)',
     ],
     shippingNote: 'Envío puerta a puerta por couriers oficiales de Amazon sin sorpresas aduaneras.',
-    amazonUrl: `https://www.amazon.com/dp/B0BTZB7F88?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=AMD+Ryzen+7+7800X3D&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'steam-deck-oled',
@@ -59,7 +59,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Wi-Fi 6E de baja latencia',
     ],
     shippingNote: 'Caja original sellada con embalaje protector internacional.',
-    amazonUrl: `https://www.amazon.com/dp/B0CN71XW77?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Valve+Steam+Deck+OLED&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'ledger-nano-x',
@@ -75,7 +75,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Respaldo de clave semilla BIP39 de 24 palabras',
     ],
     shippingNote: 'Embalaje anti-manipulación oficial verificado por el fabricante.',
-    amazonUrl: `https://www.amazon.com/dp/B07M61KDMW?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Ledger+Nano+X+Hardware+Wallet&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'logitech-g-pro-x-superlight-2',
@@ -91,7 +91,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Peso pluma de apenas 60 gramos',
     ],
     shippingNote: 'Envío internacional elegible para tarifa reducida de Amazon.',
-    amazonUrl: `https://www.amazon.com/dp/B07NY3D8KK?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Logitech+G+PRO+X+SUPERLIGHT+2&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'trezor-safe-3',
@@ -107,7 +107,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Soporte nativo para Bitcoin, ETH y miles de redes',
     ],
     shippingNote: 'Sello holográfico inviolable garantizado de fábrica.',
-    amazonUrl: `https://www.amazon.com/dp/B0CL5N5B7K?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Trezor+Safe+3+Hardware+Wallet&tag=${AMAZON_REFERRAL_TAG}`,
   },
   // Motherboards AMD B500 / B550
   {
@@ -124,7 +124,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Wi-Fi 6E integrado, LAN Realtek 2.5G y audio de alta fidelidad ALC1200',
     ],
     shippingNote: 'Envío internacional directo de Amazon con cálculo exacto de impuestos al checkout.',
-    amazonUrl: `https://www.amazon.com/dp/B09Z25W478?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=MSI+MAG+B550+TOMAHAWK+WiFi&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'asus-rog-strix-b550-f-gaming',
@@ -140,7 +140,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'WiFi 6E (802.11ax), Intel 2.5 Gb Ethernet y SupremeFX S1220A',
     ],
     shippingNote: 'Embalaje oficial protegido con opción de entrega puerta a puerta.',
-    amazonUrl: `https://www.amazon.com/dp/B09AM75664?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=ASUS+ROG+Strix+B550-F+Gaming+WiFi+II&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'gigabyte-b550-aorus-elite-ax',
@@ -156,7 +156,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Intel WiFi 6 802.11ax y LAN Realtek 2.5GbE con administración de ancho de banda',
     ],
     shippingNote: 'Cubre tarifa plana internacional y garantías oficiales globales de Amazon.',
-    amazonUrl: `https://www.amazon.com/dp/B08K12LWB9?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Gigabyte+B550+AORUS+Elite+AX+V2&tag=${AMAZON_REFERRAL_TAG}`,
   },
   // Monitores Gaming
   {
@@ -173,7 +173,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Certificación VESA DisplayHDR 400 con cobertura DCI-P3 del 98%',
     ],
     shippingNote: 'Embalaje reforzado anti-impactos especial para paneles de monitor de Amazon.',
-    amazonUrl: `https://www.amazon.com/dp/B093MTSTKD?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=LG+UltraGear+27GP850-B+27+Inch+QHD&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'asus-tuf-vg27aql3a',
@@ -189,7 +189,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Certificación DisplayHDR 400 y soporte 130% sRGB para colores vivos',
     ],
     shippingNote: 'Envío internacional prioritario puerta a puerta con Amazon Global.',
-    amazonUrl: `https://www.amazon.com/dp/B0C8ZJKPWC?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=ASUS+TUF+Gaming+VG27AQL3A+1440p&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'samsung-odyssey-g5-27',
@@ -205,7 +205,7 @@ export const OFFERS_DATA: OfferItem[] = [
       'Tiempo de respuesta de 1ms MPRT para transiciones instantáneas sin ghosting',
     ],
     shippingNote: 'Garantía de cero píxeles muertos y transporte asegurado por Amazon.',
-    amazonUrl: `https://www.amazon.com/dp/B09477TLYH?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=Samsung+Odyssey+G5+27+Inch+QHD+165Hz&tag=${AMAZON_REFERRAL_TAG}`,
   },
   {
     id: 'aoc-gaming-24g2sp',
@@ -221,6 +221,6 @@ export const OFFERS_DATA: OfferItem[] = [
       'Compatible con FreeSync Premium y tecnología Flicker-Free para cuidar la vista',
     ],
     shippingNote: 'Opción muy accesible con tarifa plana de importación directa.',
-    amazonUrl: `https://www.amazon.com/dp/B09WF96L4K?tag=${AMAZON_REFERRAL_TAG}`,
+    amazonUrl: `https://www.amazon.com/s?k=AOC+Gaming+24G2SP+24+Inch+165Hz&tag=${AMAZON_REFERRAL_TAG}`,
   },
 ];

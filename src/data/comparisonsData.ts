@@ -45,7 +45,7 @@ export const COMPARISONS_DATA: ComparisonItem[] = [
         'Ergonomía superior con trackpads hápticos dedicados',
         'Relación precio-calidad insuperable en la categoría',
       ],
-      amazonUrl: `https://www.amazon.com/dp/B0CN71XW77?tag=${AMAZON_REFERRAL_TAG}`,
+      amazonUrl: `https://www.amazon.com/s?k=Valve+Steam+Deck+OLED&tag=${AMAZON_REFERRAL_TAG}`,
     },
     productB: {
       badge: 'MÁXIMA POTENCIA BRUTA',
@@ -56,7 +56,7 @@ export const COMPARISONS_DATA: ComparisonItem[] = [
         'Compatibilidad nativa con Game Pass, Epic, EA y Ubisoft',
         'Panel 1080p a 120Hz con VRR (FreeSync Premium)',
       ],
-      amazonUrl: `https://www.amazon.com/dp/B0D7791R75?tag=${AMAZON_REFERRAL_TAG}`,
+      amazonUrl: `https://www.amazon.com/s?k=ASUS+ROG+Ally+X&tag=${AMAZON_REFERRAL_TAG}`,
     },
     criteria: [
       {
@@ -111,7 +111,7 @@ export const COMPARISONS_DATA: ComparisonItem[] = [
         'Soporte para más de 5.500 monedas y tokens',
         'Diseño compacto y discreto en acero inoxidable',
       ],
-      amazonUrl: `https://www.amazon.com/dp/B07M61KDMW?tag=${AMAZON_REFERRAL_TAG}`,
+      amazonUrl: `https://www.amazon.com/s?k=Ledger+Nano+X+Hardware+Wallet&tag=${AMAZON_REFERRAL_TAG}`,
     },
     productB: {
       badge: 'CÓDIGO ABIERTO PURISTA',
@@ -122,7 +122,7 @@ export const COMPARISONS_DATA: ComparisonItem[] = [
         'Fácil respaldo con estándar Shamir Backup (SLIP39)',
         'Sin baterías internas: mayor longevidad física',
       ],
-      amazonUrl: `https://www.amazon.com/dp/B0CL5N5B7K?tag=${AMAZON_REFERRAL_TAG}`,
+      amazonUrl: `https://www.amazon.com/s?k=Trezor+Safe+3+Hardware+Wallet&tag=${AMAZON_REFERRAL_TAG}`,
     },
     criteria: [
       {

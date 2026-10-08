@@ -1,4 +1,4 @@
-export const AMAZON_REFERRAL_TAG = 'tokengeekcoin-20';
+export const AMAZON_REFERRAL_TAG = 'eztec3-20';
 
 export interface OfferItem {
   id: string;

@@ -1,5 +1,217 @@
 [
   {
+    "slug": "tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights",
+    "category": "TECNOLOGÍA + IA",
+    "date": "9 OCT 2026",
+    "dateIso": "2026-10-09T08:00:00-03:00",
+    "minutes": 5,
+    "title": "IA: Meta presenta \"Chameleon 2\" con inferencia agéntica nativa en el dispositivo",
+    "dek": "Meta libera los pesos de Chameleon 2: su nuevo modelo de frontera genera texto, imagen y audio entrelazados en tiempo real directamente en procesadores móviles sin depender de la nube.",
+    "personalAngle": "Chameleon 2 demuestra que la verdadera soberanía de la IA está en el silicio de tu bolsillo: privacidad total, cero latencia de red y razonamiento multimodal agéntico sin enviar tus datos a servidores externos.",
+    "leadEyebrow": "META AI · MODELO MULTIMODAL DE BORDE",
+    "leadTitle": "Meta sacude el mercado con Chameleon 2: IA agéntica completa en smartphones, audio-visual nativo y pesos abiertos",
+    "image": "/articles/2026-10-09/meta-chameleon-2-hero.jpg",
+    "imageAlt": "Smartphone ejecutando Chameleon 2 generando audio y gráficos en el dispositivo",
+    "imageCredit": "Meta AI Research / TokenGeekCoin Lab",
+    "body": [
+      "Meta ha presentado oficialmente Chameleon 2, su modelo de lenguaje y visión de próxima generación diseñado desde el origen para operar con capacidades de inferencia agéntica de forma local en chips de última hornada.",
+      "A diferencia de las arquitecturas tradicionales que dependen de APIs remotas en nubes centralizadas, Chameleon 2 procesa y genera de manera entrelazada texto, imágenes fotorrealistas y audio sintético en tiempo real, garantizando la privacidad absoluta de los datos del usuario en su terminal.",
+      "El avance es posible gracias a una técnica de cuantización y destilación algorítmica profunda que permite exprimir las unidades de procesamiento neuronal (NPU) de procesadores móviles modernos sin sacrificar coherencia lógica ni capacidad de resolución de problemas.",
+      "Siguiendo la política de Meta en favor del software abierto, Chameleon 2 se distribuye bajo licencia open-weights para investigación y desarrollo comercial, desafiando el modelo de ecosistemas cerrados y de pago por suscripción."
+    ],
+    "bullets": [
+      "Privacidad absoluta on-device: Inferencia agéntica ejecutada íntegramente en el hardware del teléfono.",
+      "Multimodalidad simétrica y nativa: Generación y comprensión simultánea de texto, audio e imágenes sin puentes intermediarios.",
+      "Aprovechamiento de NPUs móviles: Optimizado para procesadores móviles con aceleración de punto flotante de bajo consumo.",
+      "Licencia Open-Weights: Acceso libre para desarrolladores, startups e investigadores a nivel global."
+    ],
+    "features": [
+      {
+        "title": "Aceleración por hardware en procesadores de vanguardia",
+        "eyebrow": "SILICIO MÓVIL & EFICIENCIA",
+        "facts": "CERO LATENCIA · 4W DE CONSUMO · MICROCONTROLADORES DE IA",
+        "image": "/articles/2026-10-09/mobile-npu-local-inference.jpg",
+        "alt": "Procesador móvil con unidad NPU integrada y disipación de calor de alta eficiencia",
+        "imageCredit": "Qualcomm / MediaTek / Meta Silicon Labs",
+        "body": [
+          "La arquitectura modular de Chameleon 2 distribuye las cargas de trabajo entre núcleos de rendimiento y la NPU móvil, minimizando el calentamiento y la descarga de batería.",
+          "Los desarrolladores pueden integrar agentes de voz y edición visual instantánea sin preocuparse por caídas de conectividad o costos de API por token."
+        ]
+      },
+      {
+        "title": "Impulso a la comunidad y fin de las dependencias centralizadas",
+        "eyebrow": "ECOSISTEMA OPEN SOURCE",
+        "facts": "HUGGING FACE READY · PESOS ABIERTOS · ENTRENAMIENTO DISTRIBUIDO",
+        "image": "/articles/2026-10-09/open-weights-ai-developer.jpg",
+        "alt": "Estación de desarrollo de IA ajustando pesos de modelos multimodales abiertos",
+        "imageCredit": "TokenGeekCoin Developer Workshop",
+        "body": [
+          "La comunidad independiente de desarrollo ya ha comenzado a optimizar Chameleon 2 para distribuciones locales de Linux, macOS y plataformas de robótica embebida.",
+          "Este lanzamiento reaviva la competencia directa frente a los modelos privativos de OpenAI y Google en el terreno de las aplicaciones móviles."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hardware/tsmc-inicia-pruebas-produccion-nodo-1-4nm-a14-angstroms",
+    "category": "HARDWARE",
+    "date": "9 OCT 2026",
+    "dateIso": "2026-10-09T08:30:00-03:00",
+    "minutes": 5,
+    "title": "Hardware: TSMC inicia pruebas de producción en el nodo de 1.4nm (A14)",
+    "dek": "El mayor fabricante de chips del planeta entra en la era de los Angstroms con la producción piloto de 1.4 nanómetros, utilizando transistores GAA de 2da generación y fotolitografía High-NA EUV de ASML.",
+    "personalAngle": "El nodo A14 de TSMC no es un salto incremental: es la frontera donde la física cuántica y la nanotecnología de precisión extrema se dan la mano para alimentar los futuros superchips de IA de 2027.",
+    "leadEyebrow": "SEMICONDUCTORES & ERA DE LOS ANGSTROMS",
+    "leadTitle": "TSMC enciende la era de 1.4 nanómetros: fotolitografía High-NA EUV, transistores nanosheet y salto de eficiencia del 30%",
+    "image": "/articles/2026-10-09/tsmc-1-4nm-fab-hero.jpg",
+    "imageAlt": "Sala limpia de manufactura avanzada de TSMC con sistemas de fotolitografía High-NA EUV",
+    "imageCredit": "TSMC Corporate / ASML / Taiwan Semiconductor Review",
+    "body": [
+      "Taiwan Semiconductor Manufacturing Company (TSMC) ha inaugurado oficialmente la etapa de producción piloto en su nodo de 1.4 nanómetros —denominado comercialmente A14— en sus avanzadas instalaciones de Fab 20 y Fab 22.",
+      "El nuevo proceso litográfico incorpora de forma generalizada las herramientas de litografía ultravioleta extrema de alta apertura numérica (High-NA EUV) fabricadas por ASML, permitiendo imprimir pistas de circuito de apenas unas decenas de átomos de ancho.",
+      "En el aspecto electrónico, el nodo A14 adopta transistores GAA (Gate-All-Around) de nanocintas apiladas de segunda generación con suministro de energía por la cara trasera (Backside Power Delivery), logrando un incremento del 30% en eficiencia energética y hasta un 18% más de velocidad de conmutación.",
+      "Los primeros contratos de reserva de capacidad para obleas de 300 mm ya han sido asignados prioritariamente a clientes clave como Apple, NVIDIA y AMD para sus procesadores de centros de datos de finales de 2027."
+    ],
+    "bullets": [
+      "Producción de prueba activa: El nodo A14 de 1.4nm comienza a arrojar las primeras obleas funcionales en Taiwán.",
+      "Herramientas High-NA EUV: Uso de sistemas ASML Twinscan EXE de última generación para imprimir patrones nanoscópicos.",
+      "Transistores Nanosheet GAA Gen 2: Control electromagnético de cuatro caras y alimentación eléctrica trasera.",
+      "Producción masiva hacia 2027: Destinado a microarquitecturas de IA empresarial y chips insignia de consumo masivo."
+    ],
+    "features": [
+      {
+        "title": "Arquitectura de nanocintas y suministro de energía posterior",
+        "eyebrow": "FÍSICA DE SEMICONDUCTORES",
+        "facts": "BACKSIDE POWER DELIVERY · MENOR RESISTENCIA TÉRMICA · 1.4 NM",
+        "image": "/articles/2026-10-09/tsmc-gaa-nanosheet.jpg",
+        "alt": "Esquema tridimensional de transistores GAA nanosheet a escala sub-2nm",
+        "imageCredit": "TokenGeekCoin Semiconductor Insights",
+        "body": [
+          "Al separar las líneas de suministro eléctrico de las vías de señal de datos enviándolas por el reverso de la oblea, TSMC reduce drásticamente las caídas de voltaje y la congestión de interconexión.",
+          "Esta proeza de ingeniería permite una densidad de transistores récord superior a los 350 millones por milímetro cuadrado."
+        ]
+      },
+      {
+        "title": "Obleas de 300 mm y dominio geopolítico del silicio",
+        "eyebrow": "CADENA DE SUMINISTRO GLOBAL",
+        "facts": "ASML TWINSCAN · SALAS LIMPIAS CLASE 1 · INVERSIÓN MULTIMILLONARIA",
+        "image": "/articles/2026-10-09/tsmc-wafer-bunny-suit.jpg",
+        "alt": "Técnico de sala limpia sosteniendo oblea de silicio de microcircuitos de última generación",
+        "imageCredit": "TSMC Fab Cleanroom Operations",
+        "body": [
+          "La ventaja competitiva de TSMC se consolida frente a Intel y Samsung en la carrera por los nodos de vanguardia bajo la barrera de los 2 nanómetros.",
+          "La alta demanda de aceleradores para inteligencia artificial garantiza que las líneas de producción operen a plena capacidad durante todo el ciclo."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/unreal-engine-5-6-optimizacion-consolas-60fps-realidad-mixta",
+    "category": "GAMING",
+    "date": "9 OCT 2026",
+    "dateIso": "2026-10-09T09:00:00-03:00",
+    "minutes": 5,
+    "title": "Gaming: Unreal Engine 5.6 optimiza el rendimiento en consolas y realidad mixta",
+    "dek": "Epic Games lanza Unreal Engine 5.6 con la eliminación definitiva de tirones por compilación de shaders, reducción del 25% en consumo de VRAM y renderizado foveal nativo para realidad mixta a 60 FPS estables.",
+    "personalAngle": "Por fin se acaba la pesadilla de los micro-parones por shaders: Unreal Engine 5.6 pule el motor para que los juegos se sientan tan fluidos como se ven de espectaculares en consolas y PC.",
+    "leadEyebrow": "EPIC GAMES · MOTOR GRÁFICO NEXT-GEN",
+    "leadTitle": "Llega Unreal Engine 5.6: fin al 'shader compilation stutter', 60 FPS con Lumen/Nanite y salto en VR/MR",
+    "image": "/articles/2026-10-09/ue56-console-performance-hero.jpg",
+    "imageAlt": "Escenario de mundo abierto en Unreal Engine 5.6 con contador a 60 FPS y microgeometría Nanite",
+    "imageCredit": "Epic Games / Unreal Engine / TokenGeekCoin Gaming",
+    "body": [
+      "Epic Games ha lanzado la versión final de Unreal Engine 5.6, una actualización que prioriza de manera explícita la estabilidad de framerate, el ahorro de memoria de video y la erradicación de los problemas de rendimiento en consolas de actual generación y PC.",
+      "El cambio más celebrado por la comunidad de desarrolladores es el nuevo pipeline asíncrono de pre-compilación de shaders, que elimina prácticamente al 100% los temidos micro-tirones ('shader stuttering') que plagaron varios lanzamientos de mundo abierto en años anteriores.",
+      "Además, el sistema de geometría virtualizada Nanite y la iluminación global por trazado de rayos Lumen han recibido perfiles ultraligeros que facilitan alcanzar los 60 FPS sostenidos sin recurrir a reconstrucciones de imagen borrosas ni sacrificios de fidelidad visual.",
+      "En el segmento de realidad virtual y computación espacial, UE 5.6 añade un framework nativo de renderizado foveal dinámico con seguimiento ocular, duplicando el rendimiento en visores de alta resolución."
+    ],
+    "bullets": [
+      "Fin al Shader Stutter: Compilación predictiva en segundo plano que garantiza transiciones de escenario sin caídas de cuadros.",
+      "60 FPS sostenidos en consolas: Perfiles optimizados de Lumen y Nanite para PlayStation 5, Xbox Series X y futuras revisiones.",
+      "-25% en uso de VRAM: Algoritmos de empaquetado de texturas virtuales que previenen cuellos de botella en GPUs de gama media.",
+      "Renderizado foveal nativo: Compatibilidad plug-and-play con visores de Realidad Mixta y VR con eye-tracking."
+    ],
+    "features": [
+      {
+        "title": "Línea de tiempo de fotogramas perfecta a 16.6 milisegundos",
+        "eyebrow": "ESTABILIDAD DE FRAMERATE",
+        "facts": "CERO TIRONES · PROFILING GPU EN VIVO · OPTIMIZACIÓN VRAM",
+        "image": "/articles/2026-10-09/ue56-shader-compilation-vram.jpg",
+        "alt": "Consola de métricas de rendimiento con gráfico plano de 16.6ms a 60 FPS y cero eventos de stutter",
+        "imageCredit": "Epic Developer Portal / Unreal Diagnostics",
+        "body": [
+          "Las nuevas herramientas de telemetría permiten a los estudios de desarrollo identificar cuellos de botella de renderizado en tiempo real antes de empaquetar las compilaciones finales.",
+          "La gestión inteligente de fragmentación de memoria evita caídas repentinas de texturas en pantallas complejas con cientos de personajes en pantalla."
+        ]
+      },
+      {
+        "title": "Inmersión foveal en mundos virtuales sin pérdida visual",
+        "eyebrow": "REALIDAD MIXTA & ESPACIAL",
+        "facts": "EYE-TRACKING ACTIVO · ALTA DENSIDAD CENTRAL · DISPOSITIVOS STANDALONE",
+        "image": "/articles/2026-10-09/ue56-mixed-reality-foveated.jpg",
+        "alt": "Jugador con visor de realidad mixta experimentando renderizado foveal de alta fidelidad",
+        "imageCredit": "TokenGeekCoin Spatial Reality Review",
+        "body": [
+          "Al concentrar la máxima potencia gráfica únicamente en el punto exacto donde miran los ojos del jugador, el motor reduce la carga de procesamiento hasta en un 50% en la periferia.",
+          "Esto permite llevar mundos con calidad cinematográfica a dispositivos autónomos y gafas de realidad mixta ligeras."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/svm-rollups-record-volumen-4200-millones-solana-l2",
+    "category": "FINANZAS + CRIPTO",
+    "date": "9 OCT 2026",
+    "dateIso": "2026-10-09T09:30:00-03:00",
+    "minutes": 5,
+    "title": "Cripto: SVM-Rollups alcanzan récord de volumen de USD $4.200 millones en Solana",
+    "dek": "Las capas de escalabilidad basadas en la Solana Virtual Machine marcan un hito histórico impulsadas por DeFi de alta frecuencia, microtransacciones con tarifas de fracciones de centavo y puentes sin custodia instantáneos.",
+    "personalAngle": "Solana demostró que su arquitectura de ejecución paralela no solo funciona en la Capa 1, sino que escala de forma brutal como motor para una nueva generación de rollups financieros ultrarrápidos.",
+    "leadEyebrow": "DEFI DE ALTA VELOCIDAD & CAPA 2 EN SOLANA",
+    "leadTitle": "Explosión de liquidez en rollups SVM: $4.2B diarios, tarifas invisibles y migración masiva de trading institucional",
+    "image": "/articles/2026-10-09/solana-svm-rollups-hero.jpg",
+    "imageAlt": "Terminal financiera mostrando el récord de volumen diario de 4.200 millones en rollups SVM de Solana",
+    "imageCredit": "DeFi Llama / Solana Floor / TokenGeekCoin Markets",
+    "body": [
+      "El ecosistema de escalabilidad basado en la Máquina Virtual de Solana (SVM) ha alcanzado un hito histórico al registrar más de 4.200 millones de dólares en volumen de negociación en solo 24 horas a través de sus principales redes de Capa 2.",
+      "El auge está impulsado por la adopción masiva de plataformas de finanzas descentralizadas (DeFi) orientadas al trading algorítmico de alta frecuencia y microtransacciones para aplicaciones de consumo, donde la latencia de confirmación se mide en milisegundos.",
+      "Gracias a la ejecución concurrente multihilo de la SVM, las comisiones de gas se mantienen estables en menos de $0.0001 dólares por transferencia, sorteando la congestión de la red principal y atrayendo liquidez institucional.",
+      "La maduración de puentes criptográficos sin custodia con pruebas de validez criptográfica ha permitido a los usuarios mover capital entre la capa base de Solana y los rollups de forma instantánea y sin fricciones."
+    ],
+    "bullets": [
+      "Récord de USD $4.200M diarios: Crecimiento intermensual del +114% en volumen procesado en segundas capas SVM.",
+      "Tarifas de fracciones de centavo: Costo promedio por transacción inferior a $0.0002 dólares sin saturación.",
+      "Ejecución paralela multihilo: Procesamiento no bloqueante de miles de transacciones concurrentes por segundo.",
+      "Puentes de liquidez instantáneos: Transferencias seguras y descentralizadas entre L1 y L2 con liquidación atómica."
+    ],
+    "features": [
+      {
+        "title": "Arquitectura de cómputo multihilo de la máquina virtual SVM",
+        "eyebrow": "INFRAESTRUCTURA ON-CHAIN",
+        "facts": "+90K TPS COMPROBADOS · ESTADO PARALELO · ZERO MEMPOOL",
+        "image": "/articles/2026-10-09/solana-svm-parallel-execution.jpg",
+        "alt": "Representación digital de flujos de transacciones paralelas concurrentes en la SVM de Solana",
+        "imageCredit": "Solana Foundation Engineering",
+        "body": [
+          "La capacidad de la SVM para aislar las cuentas de contratos inteligentes evita que picos de demanda en un protocolo congelen las transacciones del resto del ecosistema.",
+          "Esta arquitectura modular posiciona a los rollups SVM como la alternativa de mayor rendimiento para libros de órdenes descentralizados y mercados de derivados."
+        ]
+      },
+      {
+        "title": "Puentes atómicos sin custodia y seguridad criptográfica",
+        "eyebrow": "INTEROPERABILIDAD & PUENTES L2",
+        "facts": "LIQUIDEZ UNIFICADA · PRUEBAS DE VALIDEZ · CERO CUSTODIA CENTRAL",
+        "image": "/articles/2026-10-09/solana-l2-trustless-bridge.jpg",
+        "alt": "Puente criptográfico descentralizado transfiriendo liquidez entre Solana L1 y L2",
+        "imageCredit": "TokenGeekCoin Crypto Intelligence",
+        "body": [
+          "Los nuevos protocolos de mensajería cross-rollup eliminan los periodos de espera de días comunes en otras cadenas, permitiendo arbitrajes inmediatos con seguridad verificada en código.",
+          "Los inversores institucionales valoran la reducción de riesgos de contraparte en el movimiento de grandes volúmenes de capital."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "tecnologia-ia/openai-despliega-gpt-6-intelligent-ui-chatgpt-razonamiento-agentico",
     "category": "TECNOLOGÍA + IA",
     "date": "8 OCT 2026",

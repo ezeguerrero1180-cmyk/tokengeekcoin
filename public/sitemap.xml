@@ -5,27 +5,131 @@
   <!-- Core Portal Pages -->
   <url>
     <loc>https://tokengeekcoin.com/</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/ofertas</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comparadores</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/sobre-mi</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/meta-chameleon-2-hero.jpg</image:loc>
+      <image:title><![CDATA[IA: Meta presenta "Chameleon 2" con inferencia agéntica nativa en el dispositivo]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/mobile-npu-local-inference.jpg</image:loc>
+      <image:title><![CDATA[Aceleración por hardware en procesadores de vanguardia]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/open-weights-ai-developer.jpg</image:loc>
+      <image:title><![CDATA[Impulso a la comunidad y fin de las dependencias centralizadas]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-09T08:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[IA: Meta presenta "Chameleon 2" con inferencia agéntica nativa en el dispositivo]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/hardware/tsmc-inicia-pruebas-produccion-nodo-1-4nm-a14-angstroms</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/tsmc-1-4nm-fab-hero.jpg</image:loc>
+      <image:title><![CDATA[Hardware: TSMC inicia pruebas de producción en el nodo de 1.4nm (A14)]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/tsmc-gaa-nanosheet.jpg</image:loc>
+      <image:title><![CDATA[Arquitectura de nanocintas y suministro de energía posterior]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/tsmc-wafer-bunny-suit.jpg</image:loc>
+      <image:title><![CDATA[Obleas de 300 mm y dominio geopolítico del silicio]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-09T08:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Hardware: TSMC inicia pruebas de producción en el nodo de 1.4nm (A14)]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/gaming/unreal-engine-5-6-optimizacion-consolas-60fps-realidad-mixta</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/ue56-console-performance-hero.jpg</image:loc>
+      <image:title><![CDATA[Gaming: Unreal Engine 5.6 optimiza el rendimiento en consolas y realidad mixta]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/ue56-shader-compilation-vram.jpg</image:loc>
+      <image:title><![CDATA[Línea de tiempo de fotogramas perfecta a 16.6 milisegundos]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/ue56-mixed-reality-foveated.jpg</image:loc>
+      <image:title><![CDATA[Inmersión foveal en mundos virtuales sin pérdida visual]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-09T09:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Gaming: Unreal Engine 5.6 optimiza el rendimiento en consolas y realidad mixta]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/finanzas-cripto/svm-rollups-record-volumen-4200-millones-solana-l2</loc>
+    <lastmod>2026-10-09</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/solana-svm-rollups-hero.jpg</image:loc>
+      <image:title><![CDATA[Cripto: SVM-Rollups alcanzan récord de volumen de USD $4.200 millones en Solana]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/solana-svm-parallel-execution.jpg</image:loc>
+      <image:title><![CDATA[Arquitectura de cómputo multihilo de la máquina virtual SVM]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-09/solana-l2-trustless-bridge.jpg</image:loc>
+      <image:title><![CDATA[Puentes atómicos sin custodia y seguridad criptográfica]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-09T09:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Cripto: SVM-Rollups alcanzan récord de volumen de USD $4.200 millones en Solana]]></news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/tecnologia-ia/openai-despliega-gpt-6-intelligent-ui-chatgpt-razonamiento-agentico</loc>
@@ -867,7 +971,7 @@
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -895,13 +999,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Los mejores juegos de septiembre para todas las consolas]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -929,13 +1033,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanterns capítulo 2: Sinestro enciende la serie]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -959,13 +1063,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[La guía definitiva del Geek Inversionista]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -989,13 +1093,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[De la pantalla al portafolio: anime y futuro tecnológico]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1019,13 +1123,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Bitcoin, Scott Bessent y la Reserva Federal]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1049,13 +1153,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-09</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1083,7 +1187,7 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-08T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Por qué Lanterns se siente tan lenta]]></news:title>
     </news:news>
   </url>

@@ -5,27 +5,131 @@
   <!-- Core Portal Pages -->
   <url>
     <loc>https://tokengeekcoin.com/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/ofertas</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comparadores</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/sobre-mi</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/tecnologia-ia/anthropic-lanza-claude-4-sonnet-agentes-depuracion-autonoma-ci-cd</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/claude-4-sonnet-hero.jpg</image:loc>
+      <image:title><![CDATA[IA: Anthropic lanza "Claude 4 Sonnet" con agentes de depuración autónoma en repositorios]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/ci-cd-github-actions-claude.jpg</image:loc>
+      <image:title><![CDATA[Automatización de flujos de trabajo en GitHub Actions]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/persistent-sandbox-debugger.jpg</image:loc>
+      <image:title><![CDATA[Sandboxes con aislamiento de kernel y memoria segura]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[IA: Anthropic lanza "Claude 4 Sonnet" con agentes de depuración autónoma en repositorios]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/hardware/qualcomm-presenta-arquitectura-oryon-3-servidores-ia-centros-de-datos</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/qualcomm-oryon-3-hero.jpg</image:loc>
+      <image:title><![CDATA[Hardware: Qualcomm presenta la arquitectura "Oryon 3" para servidores de IA]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/hyperscale-arm-datacenter.jpg</image:loc>
+      <image:title><![CDATA[Refrigeración líquida y densidad de cómputo en servidores]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/oryon-3-thermal-efficiency.jpg</image:loc>
+      <image:title><![CDATA[Mapa térmico y optimización de silicio a plena carga]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T08:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Hardware: Qualcomm presenta la arquitectura "Oryon 3" para servidores de IA]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/gaming/valve-anuncia-consola-portatil-steam-deck-pro-oled-120hz-3nm-fsr-4</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/steam-deck-pro-hero.jpg</image:loc>
+      <image:title><![CDATA[Gaming: Valve anuncia la consola portátil "Steam Deck Pro" con OLED 120Hz y APU en 3nm]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/steam-deck-pro-3nm-apu.jpg</image:loc>
+      <image:title><![CDATA[Ingeniería interna en 3nm y cámara de vapor rediseñada]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/steam-deck-pro-battery.jpg</image:loc>
+      <image:title><![CDATA[Pantalla OLED 120Hz y autonomía extendida]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T09:00:00-03:00</news:publication_date>
+      <news:title><![CDATA[Gaming: Valve anuncia la consola portátil "Steam Deck Pro" con OLED 120Hz y APU en 3nm]]></news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tokengeekcoin.com/finanzas-cripto/ethereum-layer-3-record-historico-15-millones-transacciones-diarias</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/ethereum-layer3-hero.jpg</image:loc>
+      <image:title><![CDATA[Cripto: Redes Layer-3 de Ethereum marcan récord con 15M de transacciones diarias]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/onchain-gaming-socialfi.jpg</image:loc>
+      <image:title><![CDATA[Gaming On-Chain y microtransacciones instantáneas]]></image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://tokengeekcoin.com/articles/2026-10-13/unified-liquidity-bridge.jpg</image:loc>
+      <image:title><![CDATA[Puentes criptográficos y liquidación recursiva]]></image:title>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-13T09:30:00-03:00</news:publication_date>
+      <news:title><![CDATA[Cripto: Redes Layer-3 de Ethereum marcan récord con 15M de transacciones diarias]]></news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights</loc>
@@ -971,7 +1075,7 @@
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -999,13 +1103,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Los mejores juegos de septiembre para todas las consolas]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1033,13 +1137,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanterns capítulo 2: Sinestro enciende la serie]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1063,13 +1167,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[La guía definitiva del Geek Inversionista]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1093,13 +1197,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[De la pantalla al portafolio: anime y futuro tecnológico]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1123,13 +1227,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Bitcoin, Scott Bessent y la Reserva Federal]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1153,13 +1257,13 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?]]></news:title>
     </news:news>
   </url>
   <url>
     <loc>https://tokengeekcoin.com/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-13</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -1187,7 +1291,7 @@
         <news:name>TokenGeekCoin</news:name>
         <news:language>es</news:language>
       </news:publication>
-      <news:publication_date>2026-10-09T12:00:00Z</news:publication_date>
+      <news:publication_date>2026-10-13T12:00:00Z</news:publication_date>
       <news:title><![CDATA[Por qué Lanterns se siente tan lenta]]></news:title>
     </news:news>
   </url>

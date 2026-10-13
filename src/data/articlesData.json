@@ -1,5 +1,217 @@
 [
   {
+    "slug": "tecnologia-ia/anthropic-lanza-claude-4-sonnet-agentes-depuracion-autonoma-ci-cd",
+    "category": "TECNOLOGÍA + IA",
+    "date": "13 OCT 2026",
+    "dateIso": "2026-10-13T08:00:00-03:00",
+    "minutes": 6,
+    "title": "IA: Anthropic lanza \"Claude 4 Sonnet\" con agentes de depuración autónoma en repositorios",
+    "dek": "Anthropic revoluciona el desarrollo de software con Claude 4 Sonnet: entornos de ejecución persistentes en sandbox, depuración autónoma de bugs y conexión nativa con pipelines de GitHub Actions.",
+    "personalAngle": "Claude 4 Sonnet no es otro generador de código: es el primer ingeniero de software agéntico que clona tu repositorio, corre la suite de pruebas en un contenedor aislado y te entrega el Pull Request listo y verificado.",
+    "leadEyebrow": "ANTHROPIC · AGENTES DE SOFTWARE & CI/CD",
+    "leadTitle": "Llega Claude 4 Sonnet: depuración autónoma en sandboxes persistentes, 40% más rápido y testing continuo",
+    "image": "/articles/2026-10-13/claude-4-sonnet-hero.jpg",
+    "imageAlt": "Terminal de desarrollo con Claude 4 Sonnet depurando código de forma autónoma en tiempo real",
+    "imageCredit": "Anthropic Research / TokenGeekCoin Lab",
+    "body": [
+      "Anthropic ha presentado oficialmente Claude 4 Sonnet, una variante de frontera optimizada para flujos de ingeniería de software que trasciende el paradigma del chat convencional.",
+      "La mayor novedad del modelo radica en su capacidad para operar dentro de entornos de ejecución persistentes (sandboxes de Linux aislados), donde el agente ejecuta código, reproduce errores de memoria y genera parches sin requerir prompts continuos del desarrollador.",
+      "El sistema incorpora integración bidireccional con GitHub Actions y pipelines CI/CD: al detectar una falla en producción, Claude 4 Sonnet aísla el fallo, escribe la prueba unitaria de regresión y valida que toda la suite pase en verde antes de sugerir el merge.",
+      "Gracias a una arquitectura de inferencia optimizada para árboles de sintaxis abstracta (AST), los tiempos de respuesta se han reducido en un 40% frente a la generación anterior, manteniendo el contexto de proyectos de millones de líneas de código."
+    ],
+    "bullets": [
+      "Entornos de ejecución persistentes: Pruebas y depuración autónoma dentro de contenedores seguros.",
+      "Integración nativa con CI/CD: Vinculación con GitHub Actions para validación automática de pull requests.",
+      "40% más veloz en código complejo: Reducción sustancial de latencia en análisis de repositorios masivos.",
+      "Resolución proactiva de bugs: Diagnóstico y generación de tests de regresión antes del despliegue a producción."
+    ],
+    "features": [
+      {
+        "title": "Automatización de flujos de trabajo en GitHub Actions",
+        "eyebrow": "DEVOPS AGÉNTICO",
+        "facts": "CI/CD INTEGRADO · TEST SUITES EN VERDE · PULL REQUESTS VERIFICADOS",
+        "image": "/articles/2026-10-13/ci-cd-github-actions-claude.jpg",
+        "alt": "Panel de control de DevOps mostrando flujo de trabajo de GitHub Actions automatizado por Claude",
+        "imageCredit": "GitHub / Anthropic Enterprise",
+        "body": [
+          "El agente puede clonar ramas de desarrollo, correr linters, compilar artefactos en Docker y ejecutar pruebas de integración complejas.",
+          "Las empresas reducen drásticamente el tiempo de revisión de código rutinario, permitiendo a los ingenieros enfocarse en diseño de arquitectura."
+        ]
+      },
+      {
+        "title": "Sandboxes con aislamiento de kernel y memoria segura",
+        "eyebrow": "SEGURIDAD & EJECUCIÓN",
+        "facts": "CONTENEDORES LXC · ZERO LEAKS · MONITOREO DE RECURSOS EN VIVO",
+        "image": "/articles/2026-10-13/persistent-sandbox-debugger.jpg",
+        "alt": "Consola de depuración autónoma con árbol de errores y monitoreo de memoria",
+        "imageCredit": "TokenGeekCoin Security Engineering",
+        "body": [
+          "Cada sesión de depuración se ejecuta en un micro-sandbox con límites estrictos de red y recursos, garantizando que el código evaluado no vulnere la infraestructura.",
+          "El sistema detecta automáticamente desbordamientos de búfer, condiciones de carrera concurrentes y fugas de memoria silenciosas."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hardware/qualcomm-presenta-arquitectura-oryon-3-servidores-ia-centros-de-datos",
+    "category": "HARDWARE",
+    "date": "13 OCT 2026",
+    "dateIso": "2026-10-13T08:30:00-03:00",
+    "minutes": 5,
+    "title": "Hardware: Qualcomm presenta la arquitectura \"Oryon 3\" para servidores de IA",
+    "dek": "Qualcomm irrumpe en los centros de datos con la arquitectura ARM Oryon 3: procesadores de altísima densidad térmica con aceleradores NPU dedicados en el encapsulado para inferencia masiva de IA.",
+    "personalAngle": "El dominio de x86 en la nube tiene un nuevo rival de peso: Qualcomm adapta la eficiencia implacable de sus núcleos móviles al rack de servidores, prometiendo reducir la factura eléctrica de los hyperscalers.",
+    "leadEyebrow": "SILICIO ARM & HIPERESCALA CLOUD",
+    "leadTitle": "Qualcomm desafía a Intel y AMD: núcleos Oryon 3 en 3nm para clústeres de inferencia de IA en la nube",
+    "image": "/articles/2026-10-13/qualcomm-oryon-3-hero.jpg",
+    "imageAlt": "Procesador de servidor empresarial Qualcomm Oryon 3 con núcleos NPU integrados",
+    "imageCredit": "Qualcomm Datacenter / Tech Insights / TokenGeekCoin",
+    "body": [
+      "Qualcomm ha desvelado su esperada arquitectura de procesamiento Oryon 3 orientada a centros de datos, marcando su regreso estratégico al mercado de computación de alto rendimiento e infraestructura de nube.",
+      "Diseñada a medida sobre el conjunto de instrucciones ARMv9, la plataforma Oryon 3 ofrece una relación de rendimiento por vatio optimizada para las cargas de trabajo de inferencia continua que demandan los grandes modelos de lenguaje.",
+      "Cada socket de servidor integra hasta 128 núcleos Oryon 3 junto con un acelerador neuronal (NPU) de precisión mixta dentro del propio encapsulado, eliminando los cuellos de botella de ancho de banda entre CPU y acelerador tradicional.",
+      "La compañía confirmó alianzas estratégicas con los principales proveedores de nube pública para comenzar los despliegues de clústeres a gran escala en el primer trimestre de 2027."
+    ],
+    "bullets": [
+      "Eficiencia térmica récord: Hasta un 45% menos de consumo de energía frente a CPUs x86 equivalentes en tareas de IA.",
+      "Aceleración NPU en el encapsulado: Inferencia directa de modelos de parámetros masivos sin saturar el bus PCIe.",
+      "Arquitectura ARMv9 escalable: Compatibilidad completa con software Linux de servidor y contenedores nativos.",
+      "Despliegues comerciales 2027: Acuerdos cerrados con hiperescalares para centros de datos de próxima generación."
+    ],
+    "features": [
+      {
+        "title": "Refrigeración líquida y densidad de cómputo en servidores",
+        "eyebrow": "INFRAESTRUCTURA DE CENTROS DE DATOS",
+        "facts": "RACKS LIQUID-COOLED · ALTA DENSIDAD · EMISIONES REDUCIDAS",
+        "image": "/articles/2026-10-13/hyperscale-arm-datacenter.jpg",
+        "alt": "Pasillo de centro de datos con bastidores de servidores ARM refrigerados por líquido",
+        "imageCredit": "Qualcomm Cloud Infrastructure Labs",
+        "body": [
+          "El formato de bastidores optimizado para Oryon 3 permite instalar más del doble de núcleos de cómputo en el mismo espacio físico de un centro de datos convencional.",
+          "La reducción en disipación de calor mitiga el impacto ecológico y los requerimientos de agua para refrigeración en instalaciones a escala de gigavatios."
+        ]
+      },
+      {
+        "title": "Mapa térmico y optimización de silicio a plena carga",
+        "eyebrow": "INGENIERÍA TÉRMICA",
+        "facts": "4.2 GHZ ALL-CORE · CONTROL TÉRMICO ACTIVO · ARQUITECTURA CHIPLET",
+        "image": "/articles/2026-10-13/oryon-3-thermal-efficiency.jpg",
+        "alt": "Simulación de dispersión de calor en microprocesador ARM Oryon 3",
+        "imageCredit": "TokenGeekCoin Hardware Engineering",
+        "body": [
+          "La distribución térmica homogénea de los chiplets previene zonas calientes (hotspots), garantizando frecuencias sostenidas de reloj sin estrangulamiento térmico.",
+          "Este balance es crítico para garantizar latencias uniformes en APIs de inteligencia artificial que atienden millones de peticiones por segundo."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/valve-anuncia-consola-portatil-steam-deck-pro-oled-120hz-3nm-fsr-4",
+    "category": "GAMING",
+    "date": "13 OCT 2026",
+    "dateIso": "2026-10-13T09:00:00-03:00",
+    "minutes": 6,
+    "title": "Gaming: Valve anuncia la consola portátil \"Steam Deck Pro\" con OLED 120Hz y APU en 3nm",
+    "dek": "Valve oficializa la Steam Deck Pro: pantalla OLED de 120Hz, procesador personalizado en 3nm con reescalado por hardware FSR 4 para 60 FPS estables en juegos AAA y 35% más batería.",
+    "personalAngle": "Valve no decepciona: la Steam Deck Pro no reinventa la rueda, sino que perfecciona todo lo que amamos de la consola portátil con 120Hz reales y la potencia para jugar lanzamientos modernos a 60 FPS sin derretir la batería.",
+    "leadEyebrow": "VALVE · HARDWARE GAMING PORTÁTIL",
+    "leadTitle": "La bestia portátil de Valve: Steam Deck Pro llega en noviembre con OLED 120Hz, chip en 3nm y FSR 4",
+    "image": "/articles/2026-10-13/steam-deck-pro-hero.jpg",
+    "imageAlt": "Consola portátil Steam Deck Pro en manos de un jugador mostrando pantalla OLED a 120Hz",
+    "imageCredit": "Valve Corporation / Steam Deck Official / TokenGeekCoin",
+    "body": [
+      "Valve ha hecho oficial el lanzamiento de la Steam Deck Pro, la mayor evolución en su aclamada línea de consolas portátiles para PC gaming, con llegada confirmada a tiendas para el próximo mes de noviembre.",
+      "El dispositivo monta una nueva pantalla OLED de 7.4 pulgadas con tasa de refresco adaptativa de hasta 120Hz y soporte HDR cinematográfico, ofreciendo una fluidez visual sin precedentes para la categoría portátil.",
+      "En el corazón del equipo late una APU semipersonalizada fabricada en el nodo de 3 nanómetros en colaboración con AMD, equipada con soporte nativo de hardware para la tecnología de reescalado y generación de cuadros FSR 4.",
+      "Gracias al salto en eficiencia litográfica y una batería rediseñada de 60Wh, la Steam Deck Pro incrementa su autonomía en más de un 35% durante sesiones de juego exigente, manteniendo los apreciados trackpads hápticos y la compatibilidad total con SteamOS."
+    ],
+    "bullets": [
+      "Pantalla OLED HDR de 120Hz: Tasa de refresco variable con negros perfectos y brillo pico de 1.100 nits.",
+      "APU personalizada en 3nm: Salto de rendimiento con menor calentamiento y arquitectura Zen 5 / RDNA 3.5.",
+      "Reescalado por hardware FSR 4: 60 FPS estables garantizados en los títulos AAA más demandantes.",
+      "Batería +35% y lanzamiento en noviembre: Mayor autonomía en viajes y disponibilidad global inminente."
+    ],
+    "features": [
+      {
+        "title": "Ingeniería interna en 3nm y cámara de vapor rediseñada",
+        "eyebrow": "ARQUITECTURA DE SILICIO",
+        "facts": "AMD 3NM CUSTOM · REFRIGERACIÓN SILENCIOSA · SSD M.2 2230 HASTA 2TB",
+        "image": "/articles/2026-10-13/steam-deck-pro-3nm-apu.jpg",
+        "alt": "Corte esquemático del interior de la Steam Deck Pro con chip APU de 3nm y disipación",
+        "imageCredit": "Valve Hardware Design Group",
+        "body": [
+          "El rediseño del flujo de aire térmico reduce el ruido del ventilador a la mitad, manteniendo las temperaturas del chasis frescas al tacto.",
+          "La integración de memoria RAM LPDDR5X ultrarrápida asegura que los juegos de mundo abierto carguen assets sin tirones."
+        ]
+      },
+      {
+        "title": "Pantalla OLED 120Hz y autonomía extendida",
+        "eyebrow": "PANTALLA & BATERÍA",
+        "facts": "120HZ ADAPTATIVO · BATERÍA DE 60WH · CARGA RÁPIDA 65W",
+        "image": "/articles/2026-10-13/steam-deck-pro-battery.jpg",
+        "alt": "Steam Deck Pro en mesa de juego mostrando panel OLED brillante y autonomía de batería",
+        "imageCredit": "TokenGeekCoin Hardware Reviews",
+        "body": [
+          "La tasa de refresco adaptativa permite bloquear juegos a 40Hz, 60Hz o 120Hz según la prioridad entre duración de batería y suavidad de movimiento.",
+          "Los sticks con sensores Hall effect de fábrica erradican por completo el riesgo de drift a largo plazo."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/ethereum-layer-3-record-historico-15-millones-transacciones-diarias",
+    "category": "FINANZAS + CRIPTO",
+    "date": "13 OCT 2026",
+    "dateIso": "2026-10-13T09:30:00-03:00",
+    "minutes": 5,
+    "title": "Cripto: Redes Layer-3 de Ethereum marcan récord con 15M de transacciones diarias",
+    "dek": "Las soluciones de Capa 3 sobre rollups de Ethereum alcanzan máximos históricos de adopción: gaming on-chain y plataformas SocialFi procesan microtransacciones por debajo de $0,00001 USD.",
+    "personalAngle": "El trilema de la escalabilidad de Ethereum se resuelve en capas: la L1 protege el consenso, las L2 unifican la liquidez y las L3 permiten juegos masivos y redes sociales descentralizadas con comisiones literalmente invisibles.",
+    "leadEyebrow": "ETHEREUM LAYER-3 & HIPERESCALABILIDAD",
+    "leadTitle": "Ethereum entra en la era L3: 15 millones de transacciones al día, comisiones hiperbajas y boom en SocialFi",
+    "image": "/articles/2026-10-13/ethereum-layer3-hero.jpg",
+    "imageAlt": "Ecosistema multicapa de Ethereum con redes Layer-3 procesando millones de transacciones",
+    "imageCredit": "L2Beat / Ethereum Foundation / TokenGeekCoin Crypto",
+    "body": [
+      "Las redes de Capa 3 (L3) construidas sobre los principales rollups de Ethereum —como Arbitrum Orbit, ZK Stack y OP Stack— han alcanzado un récord absoluto de actividad al procesar más de 15 millones de transacciones en un solo día.",
+      "Este fenómeno de adopción masiva está impulsado por aplicaciones de videojuegos enteramente 'on-chain' y plataformas SocialFi, que requieren una capacidad de procesamiento de miles de interacciones por usuario sin fricción de costos.",
+      "Al anclarse directamente en la Capa 2 para la disponibilidad de datos y liquidación recurrente, las cadenas L3 logran reducir las tarifas de gas a niveles inferiores a los $0.00001 dólares, haciendo las comisiones imperceptibles para el usuario final.",
+      "La interoperabilidad entre capas ha dado un salto cualitativo mediante puentes de liquidez unificada, permitiendo que activos emitidos en la red principal de Ethereum circulen instantáneamente por cualquier aplicación de tercera capa."
+    ],
+    "bullets": [
+      "Récord de 15M+ transacciones diarias: Volumen histórico impulsado por gaming descentralizado y SocialFi.",
+      "Comisiones inferiores a $0,00001 USD: Costos de ejecución prácticamente nulos para el usuario final.",
+      "Seguridad anclada a Layer-2 y Layer-1: Liquidación criptográfica por pruebas de validez (ZK-proofs) recursivas.",
+      "Liquidez unificada instantánea: Movimiento fluido de capital entre rollups sin periodos de espera."
+    ],
+    "features": [
+      {
+        "title": "Gaming On-Chain y microtransacciones instantáneas",
+        "eyebrow": "APLICACIONES DE CONSUMO",
+        "facts": "MICRO-GAS IMPERCEPTIBLE · SOCIALFI MASIVO · CONFIRMACIÓN EN MILISEGUNDOS",
+        "image": "/articles/2026-10-13/onchain-gaming-socialfi.jpg",
+        "alt": "Interfaz de videojuego Web3 y red SocialFi operando sobre Ethereum Layer-3",
+        "imageCredit": "TokenGeekCoin Web3 Gaming Lab",
+        "body": [
+          "Cada movimiento de inventario, voto social o recompensa en el juego se asienta directamente en la blockchain sin interrumpir la experiencia de juego.",
+          "La experiencia de usuario replica la inmediatez de los videojuegos convencionales mientras conserva la propiedad digital de los activos."
+        ]
+      },
+      {
+        "title": "Puentes criptográficos y liquidación recursiva",
+        "eyebrow": "INTEROPERABILIDAD & PRUEBAS ZK",
+        "facts": "PRUEBAS RECURSIVAS · LIQUIDEZ COMPARTIDA · BASE / ARBITRUM / OPTIMISM",
+        "image": "/articles/2026-10-13/unified-liquidity-bridge.jpg",
+        "alt": "Puente digital de liquidez unificada entre capas de escalabilidad de Ethereum",
+        "imageCredit": "Ethereum Layer-3 Architecture",
+        "body": [
+          "Las pruebas de validez recursivas empaquetan miles de transacciones de la L3 en una única prueba que se verifica en la L2, reduciendo el consumo de gas exponencialmente.",
+          "Este modelo consolida a Ethereum como la capa de liquidación y confianza global más robusta del mercado."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights",
     "category": "TECNOLOGÍA + IA",
     "date": "9 OCT 2026",

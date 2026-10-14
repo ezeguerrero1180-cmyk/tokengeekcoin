@@ -1,5 +1,217 @@
 [
   {
+    "slug": "hardware/asml-eleva-previsiones-2026-litografia-sub-2nm-centros-datos-ia",
+    "category": "HARDWARE",
+    "date": "14 OCT 2026",
+    "dateIso": "2026-10-14T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Hardware: ASML eleva sus previsiones para 2026: el auge de centros de datos para IA sostiene la litografía ultravioleta",
+    "dek": "La compañía neerlandesa ASML actualiza al alza sus estimaciones de ingresos a entre €44.000M y €45.000M para 2026, respaldada por la demanda sin precedentes de sistemas High-NA EUV para la era sub-2nm.",
+    "personalAngle": "El silicio de vanguardia ya no es una simple pieza electrónica: es el activo soberano y geopolítico más codiciado del siglo XXI. El auge de ASML prueba que la IA no es un espejismo temporal sino un cambio de época industrial.",
+    "leadEyebrow": "ASML · LITOGRAFÍA HIGH-NA EUV & SUB-2NM",
+    "leadTitle": "ASML proyecta hasta €45.000 millones en 2026: TSMC, Samsung e Intel aseguran maquinaria EUV para la era de 2 nanómetros",
+    "image": "/articles/2026-10-14/asml-sub2nm-cleanroom-hero.jpg",
+    "imageAlt": "Equipo de litografía ultravioleta extrema High-NA EUV de ASML en sala limpia estéril de semiconductores",
+    "imageCredit": "ASML Holdings / TokenGeekCoin Tech",
+    "body": [
+      "La compañía neerlandesa ASML, pilar indiscutible de la cadena de suministro global de semiconductores, ha actualizado al alza la franja inferior de sus proyecciones operativas para el cierre del ejercicio 2026. La firma anticipa ahora ingresos situados entre los €44.000 millones y €45.000 millones, impulsada por un apetito institucional sin precedentes hacia su maquinaria de litografía ultravioleta extrema (EUV) y profunda (DUV).",
+      "A medida que la industria global de microelectrónica avanza de forma irreversible hacia procesos de fabricación de 2 nanómetros y arquitecturas de transistores Gate-All-Around (GAA), la dependencia de los fabricantes respecto a las herramientas de ASML se ha profundizado. La tecnología High-NA EUV se ha consolidado como el único método viable para definir patrones microscópicos en las obleas de silicio con la precisión requerida por los aceleradores de cálculo moderno.",
+      "Fundiciones insignia como TSMC, Samsung Foundry e Intel Foundry Services han asegurado reservas de capacidad de producción con años de antelación para respaldar los pedidos de gigantes como NVIDIA, AMD, Qualcomm y Apple, quienes demandan áreas de silicio cada vez mayores orientadas al procesamiento masivo de tensores.",
+      "Pese a las tensiones comerciales internacionales y las restricciones sobre la exportación de tecnología de doble uso hacia mercados asiáticos, el gasto en capital (CapEx) destinado a centros de datos e infraestructura hiperescalable ha absorbido con holgura cualquier desaceleración puntual en el segmento de electrónica de consumo tradicional como ordenadores personales o telefonía móvil."
+    ],
+    "bullets": [
+      "Ingresos récord proyectados: Previsión elevada a €44.000M – €45.000M con márgenes brutos de entre el 54% y 56%.",
+      "Monopolio tecnológico en sub-2nm: Los escáneres High-NA EUV son imprescindibles para transistores GAA y empaquetado avanzado.",
+      "CapEx asegurado por fundiciones: TSMC, Intel y Samsung copan la producción para abastecer a NVIDIA, AMD y Apple.",
+      "Resiliencia geopolítica: La demanda de centros de datos compensa holgadamente las restricciones comerciales."
+    ],
+    "features": [
+      {
+        "title": "Obleas de 300 mm y transistores GAA de alta precisión",
+        "eyebrow": "INGENIERÍA SUB-2NM",
+        "facts": "PATRONES NANOMÉTRICOS · HIGH-NA EUV · SILICIO DE ALTA DENSIDAD",
+        "image": "/articles/2026-10-14/asml-high-na-euv-wafer.jpg",
+        "alt": "Oblea de silicio de 300mm con patrones de circuitos de sub-2 nanómetros",
+        "imageCredit": "ASML Laboratory / TokenGeekCoin",
+        "body": [
+          "La litografía High-NA EUV reduce la cantidad de exposiciones múltiples requeridas por capa, aumentando el rendimiento (yield) operativo de las fundiciones más avanzadas.",
+          "Este avance permite integrar cientos de miles de millones de transistores en empaquetados 2.5D y 3D esenciales para la siguiente generación de aceleradores neuronales."
+        ]
+      },
+      {
+        "title": "Infraestructura de fundición y salas limpias automatizadas",
+        "eyebrow": "CADENA DE SUMINISTRO GLOBAL",
+        "facts": "ROBÓTICA FOUP · SALAS LIMPIAS CLASE 1 · CAPEX ESTRATÉGICO",
+        "image": "/articles/2026-10-14/semiconductor-foundry-cleanroom.jpg",
+        "alt": "Planta de fundición de semiconductores de última generación con vehículos guiados automatizados",
+        "imageCredit": "TSMC / Intel Foundry Services",
+        "body": [
+          "Las fábricas de silicio operan con sistemas de transporte aéreo robotizado y control atmosférico estricto para evitar cualquier contaminación en escala atómica.",
+          "El silicio avanzado se ha consolidado como el recurso soberano más codiciado del siglo XXI, marcando la pauta de la soberanía industrial."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia-ia/kt-estrena-red-dedicada-ia-800gbps-corea-del-sur-all-photonic",
+    "category": "TECNOLOGÍA + IA",
+    "date": "14 OCT 2026",
+    "dateIso": "2026-10-14T08:00:00-03:00",
+    "minutes": 5,
+    "title": "IA: KT estrena la primera red dedicada para IA a 800 Gbps: Corea del Sur revoluciona la interconexión de centros de datos",
+    "dek": "KT Corporation despliega en Seúl una red de transmisión exclusiva para cargas de inteligencia artificial a 800 Gbps por canal fotónico, recortando la latencia en un 45% mediante tecnología All-Photonic Network.",
+    "personalAngle": "La velocidad de cálculo en los chips es solo la mitad de la batalla: si no puedes transferir petabytes de pesos y gradientes sin latencia entre servidores distantes, los clusters de IA se asfixian. Lo que KT ha encendido hoy es el modelo que el resto del planeta tendrá que replicar.",
+    "leadEyebrow": "COREA DEL SUR · REDES ALL-PHOTONIC (APN) A 800 GBPS",
+    "leadTitle": "Corea del Sur enciende la primera red fotónica de 800 Gbps para clusters de IA: KT elimina la conversión optoelectrónica",
+    "image": "/articles/2026-10-14/kt-800gbps-photonic-hero.jpg",
+    "imageAlt": "Bastidor de servidores en centro de datos de Seúl con transceptores ópticos de 800 Gbps y cableado de fibra fotónica",
+    "imageCredit": "KT Corporation / Seoul Tech Infrastructure",
+    "body": [
+      "En un despliegue de ingeniería que redefine las telecomunicaciones de alta velocidad, el gigante surcoreano KT Corporation ha presentado oficialmente su red de transmisión ultra rápida dedicada en exclusiva a cargas de Inteligencia Artificial (AI-Dedicated Line). Capaz de operar a un ancho de banda sostenido de 800 Gigabits por segundo (Gbps) por canal fotónico, la plataforma multiplica por ocho la capacidad de las líneas comerciales previas.",
+      "A medida que los modelos fundacionales escalan hacia billones de parámetros, una sola instalación resulta insuficiente para albergar el cómputo requerido. Las empresas deben interconectar múltiples centros de datos geográficamente distantes, pero este enfoque colisiona habitualmente con el cuello de botella de la latencia y la saturación del tráfico entre nodos.",
+      "La solución de KT se fundamenta en la arquitectura All-Photonic Network (APN), realizando la transmisión de paquetes mediante luz de extremo a extremo. Al suprimir los conversores optoelectrónicos intermediarios que tradicionalmente convertían señales ópticas a eléctricas en cada conmutador, la latencia interna cae un 45%, sincronizando gradientes de entrenamiento sin pérdidas de ciclos de reloj.",
+      "El sistema garantiza un SLA del 99.999% con fibra redundante autorreparable en menos de 10 milisegundos y un ahorro energético del 38% frente a los esquemas de enrutamiento IP convencionales."
+    ],
+    "bullets": [
+      "800 Gbps simétricos dedicados: Ancho de banda ultra masivo por canal mediante multiplexación DWDM.",
+      "Latencia reducida en 45%: Arquitectura All-Photonic (APN) sin conversores optoelectrónicos intermediarios.",
+      "Eficiencia energética un 38% superior: Menor consumo en conmutación frente a la infraestructura IP tradicional.",
+      "SLA 99.999% con autorreparación: Enrutamiento redundante con reconexión automática en menos de 10 milisegundos."
+    ],
+    "features": [
+      {
+        "title": "Arquitectura All-Photonic Network (APN) sin conversión O/E/O",
+        "eyebrow": "FOTÓNICA DE RED",
+        "facts": "CONMUTACIÓN ÓPTICA PURA · CERO CONVERSIÓN ELÉCTRICA · DWDM AVANZADO",
+        "image": "/articles/2026-10-14/all-photonic-network-apn.jpg",
+        "alt": "Esquema visual de conmutación óptica pura en red fotónica de alta velocidad",
+        "imageCredit": "KT R&D Center / TokenGeekCoin Tech",
+        "body": [
+          "Al mantener la señal lumínica durante todo el trayecto entre servidores, se eliminan los tiempos de espera y el calor generado por las conversiones electrónicas.",
+          "Esto permite que supercomputadoras distribuidas en distintas ciudades operen como si estuvieran alojadas dentro del mismo gabinete físico."
+        ]
+      },
+      {
+        "title": "Megacomplejo de centros de datos interconectados en Seúl",
+        "eyebrow": "INFRAESTRUCTURA HIPERESCALABLE",
+        "facts": "ANILLO ÓPTICO METROPOLITANO · CENTROS DE DATOS IA · SEÚL 2026",
+        "image": "/articles/2026-10-14/korea-datacenter-ai-connectivity.jpg",
+        "alt": "Centro de datos de Seúl con líneas fotónicas metropolitanas de alta velocidad",
+        "imageCredit": "Korea Telecom Hyperscale Infrastructure",
+        "body": [
+          "La red enlaza los principales centros de cómputo neural de Seúl y la región de Gyeonggi, estableciendo una autopista de datos para consorcios públicos y privados.",
+          "Corea del Sur se posiciona como el banco de pruebas mundial para el entrenamiento colaborativo de grandes modelos de lenguaje en tiempo real."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "comics/dc-comics-anuncia-darkseid-vs-the-world-regreso-etrigan-the-demon-harren",
+    "category": "CÓMICS + SERIES",
+    "date": "14 OCT 2026",
+    "dateIso": "2026-10-14T08:00:00-03:00",
+    "minutes": 5,
+    "title": "Cómics: DC Comics anuncia 'Darkseid vs. The World' y revive The Demon con James Harren para el cierre de año",
+    "dek": "DC Comics revela las solicitudes de fin de año con el evento apocalíptico 'DC All In Saga: Darkseid vs. The World #1' y el regreso gótico de Etrigan el Demonio de la mano de James Harren.",
+    "personalAngle": "DC ha encontrado el balance perfecto: por un lado, una catástrofe multiversal cósmica que sacude los cimientos de la Liga de la Justicia; por el otro, el regreso de Etrigan con James Harren desatando puro horror visceral y fantasía medieval. Una recta final de año soñada para los lectores de cómics.",
+    "leadEyebrow": "DC ALL IN · EVENTO CÓSMICO & HORROR MÍSTICO",
+    "leadTitle": "DC All In choca universos en 'Darkseid vs. The World' y James Harren resucita a Etrigan The Demon",
+    "image": "/articles/2026-10-14/dc-darkseid-vs-world-hero.jpg",
+    "imageAlt": "Portada épica de Darkseid enfrentando a la Liga de la Justicia y versiones del Universo Absolute",
+    "imageCredit": "DC Comics / TokenGeekCoin Editorial",
+    "body": [
+      "La industria editorial del cómic estadounidense ha registrado un movimiento de alto impacto tras la difusión de las solicitudes oficiales de DC Comics para el cierre de 2026. La editorial de Burbank ha confirmado el lanzamiento de la miniserie evento DC All In Saga: Darkseid vs. The World #1, acompañada por el ansiado regreso en solitario de The Demon #1, escrito e ilustrado por el aclamado artista James Harren.",
+      "Bajo la supervisión narrativa de los arquitectos de DC All In, 'Darkseid vs. The World' entrelaza la continuidad tradicional de la Tierra Principal con el disruptivo Universo Absolute. Tras los acontecimientos cósmicos que alteraron la esencia del tirano de Apokolips, Darkseid busca reescribir la Ecuación de la Anti-Vida para absorber el tejido cuántico del multiverso.",
+      "La saga reunirá a las formaciones clásicas de la Liga de la Justicia con sus contrapartes oscuras de la línea Absolute, desatando colisiones ideológicas y combates de proporciones titánicas donde Superman, Batman y Wonder Woman deberán llevar sus principios al límite.",
+      "Paralelamente, la línea mística recibe un soplo de aire fresco con The Demon. La dualidad entre Jason Blood y Etrigan será retratada bajo un prisma de horror gótico visceral y folclore artúrico, despojando al personaje de adornos superheroicos convencionales."
+    ],
+    "bullets": [
+      "Darkseid vs. The World #1: El choque definitivo entre la Tierra Principal y el Universo Absolute de DC.",
+      "Reescritura de la Anti-Vida: El Señor de Apokolips amenaza con fusionar y devorar las dimensiones cósmicas.",
+      "Retorno de The Demon #1: James Harren asume el guion y arte de Etrigan con una estética gótica medieval.",
+      "Impulso al mercado de cómics: Estrategia de DC para dinamizar librerías y suscripciones en el último trimestre de 2026."
+    ],
+    "features": [
+      {
+        "title": "James Harren y la reinvención visceral de Etrigan el Demonio",
+        "eyebrow": "HORROR GÓTICO MEDIEVAL",
+        "facts": "ARTE DE JAMES HARREN · JASON BLOOD · FUEGO MÍSTICO & FOLCLORE",
+        "image": "/articles/2026-10-14/etrigan-demon-gothic-art.jpg",
+        "alt": "Ilustración de Etrigan el Demonio exhalando fuego infernal en catedral gótica",
+        "imageCredit": "DC Black Label / James Harren",
+        "body": [
+          "Harren reimagina el mito del demonio rimador con composiciones dinámicas, criaturas grotescas y un enfoque cercano al dark fantasy de culto.",
+          "Jason Blood lidia con maldiciones ancestrales mientras el vínculo con Etrigan se vuelve más inestable y destructivo que nunca."
+        ]
+      },
+      {
+        "title": "La colisión entre Tierra Principal y el Universo Absolute",
+        "eyebrow": "MULTIVERSO DC ALL IN",
+        "facts": "BATMAN ABSOLUTE · SUPERMAN ABSOLUTE · CRISIS CUÁNTICA",
+        "image": "/articles/2026-10-14/dc-all-in-absolute-multiverse.jpg",
+        "alt": "Grieta cósmica multiversal enfrentando versiones clásicas y Absolute de la Liga de la Justicia",
+        "imageCredit": "DC Entertainment",
+        "body": [
+          "Los héroes curtidos de la continuidad clásica deben cooperar con versiones más jóvenes, implacables y despojadas de privilegios del Universo Absolute.",
+          "El evento promete secuelas duraderas que redefinirán el mapa cósmico de DC durante los próximos dos años."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "finanzas-cripto/fmi-banco-mundial-bangkok-blueprint-fraude-financiero-digital-defi",
+    "category": "FINANZAS + CRIPTO",
+    "date": "14 OCT 2026",
+    "dateIso": "2026-10-14T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Cripto: FMI y Banco Mundial presentan el 'Bangkok Blueprint' para blindar el sistema contra el fraude financiero digital",
+    "dek": "El Fondo Monetario Internacional y el Banco Mundial revelan una hoja de ruta global con intercambio de alertas en tiempo real, KYC biométrico en pasarelas fiat y auditorías de código abierto para protocolos DeFi.",
+    "personalAngle": "La maduración definitiva de las criptomonedas y las fintech pasa obligatoriamente por la seguridad. El Bangkok Blueprint no busca asfixiar la innovación descentralizada, sino erradicar la impunidad cibernética que ha alejado al capital institucional.",
+    "leadEyebrow": "FMI & BANCO MUNDIAL · REGULACIÓN FINTECH & DEFI",
+    "leadTitle": "Nace el 'Bangkok Blueprint': el FMI y el Banco Mundial unen a bancos centrales contra estafas digitales y lavado en Web3",
+    "image": "/articles/2026-10-14/fmi-bangkok-blueprint-hero.jpg",
+    "imageAlt": "Cumbre financiera internacional en Bangkok con presentación del marco regulatorio del FMI y Banco Mundial",
+    "imageCredit": "Global Economic Forum / IMF Media",
+    "body": [
+      "En el marco de las sesiones plenarias internacionales celebradas en Asia, el Fondo Monetario Internacional (FMI) y el Grupo Banco Mundial han hecho público el marco normativo denominado Bangkok Blueprint. Esta iniciativa multilateral establece una hoja de ruta técnica y legal estandarizada para combatir la propagación de estafas sofisticadas, lavado de dinero y cibercrimen en plataformas Fintech y ecosistemas de activos digitales.",
+      "La rápida sofisticación de los vectores de ataque financiero —que combinan ingeniería social asistida por IA, clonación de voz y transacciones relámpago a través de plataformas descentralizadas— ha sobrepasado los marcos jurídicos locales. El Bangkok Blueprint articula una respuesta basada en el intercambio de inteligencia en tiempo real, supervisión biométrica en rampas fiat y auditorías obligatorias a contratos inteligentes.",
+      "Uno de los puntos más relevantes es la creación de un centro de datos internacional para alertar y congelar cuentas sospechosas de forma automatizada a través de fronteras en cuestión de segundos, neutralizando el lavado transfronterizo.",
+      "La reacción inicial de los mercados ante la presentación ha sido de optimismo prudente: al disipar la incertidumbre regulatoria, se abren las puertas para una mayor participación de fondos institucionales y bancos custodios en activos digitales regulados."
+    ],
+    "bullets": [
+      "Intercambio de inteligencia en tiempo real: Red internacional para detección y congelamiento inmediato de fondos ilícitos.",
+      "KYC biométrico en rampas fiat: Mayores exigencias de identidad en pasarelas de conversión fiat-cripto.",
+      "Auditorías obligatorias en DeFi: Protocolos públicos de alto volumen deberán someter su código a revisión verificable.",
+      "Fondo de garantía para usuarios: Esquemas de compensación multilateral financiados por el sector privado para víctimas de fraude."
+    ],
+    "features": [
+      {
+        "title": "Verificación biométrica y cumplimiento en pasarelas fiat-to-crypto",
+        "eyebrow": "IDENTIDAD DIGITAL & COMPLIANCE",
+        "facts": "KYC BIOMÉTRICO · SEGUIMIENTO ON-CHAIN · REGULACIÓN AML GLOBAL",
+        "image": "/articles/2026-10-14/biometric-kyc-compliance.jpg",
+        "alt": "Consola de verificación de identidad digital biométrica y monitoreo de transacciones fiat on-chain",
+        "imageCredit": "Fintech Compliance Systems / TokenGeekCoin",
+        "body": [
+          "Los exchanges y pasarelas de pago implementarán autenticación multifactorial avanzada para prevenir usurpaciones de identidad y estafas asistidas por IA generativa.",
+          "Los estándares armonizados evitarán el arbitraje regulatorio entre jurisdicciones permisivas."
+        ]
+      },
+      {
+        "title": "Auditorías de código continuo y telemetría de amenazas en DeFi",
+        "eyebrow": "SEGURIDAD DE PROTOCOLOS DESCENTRALIZADOS",
+        "facts": "CONTRATOS INTELIGENTES VERIFICADOS · TELEMETRÍA DE AMENAZAS · DEFI INSTITUCIONAL",
+        "image": "/articles/2026-10-14/defi-smart-contract-audit.jpg",
+        "alt": "Centro de monitoreo de seguridad DeFi con análisis de vulnerabilidades en contratos inteligentes",
+        "imageCredit": "Blockchain Security Alliance",
+        "body": [
+          "Las plataformas descentralizadas contarán con pausas de emergencia validadas criptográficamente ante anomalías en los pools de liquidez.",
+          "Este entorno predecible reduce los riesgos sistémicos y abre el paso a la custodia institucional a gran escala."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "tecnologia-ia/anthropic-lanza-claude-4-sonnet-agentes-depuracion-autonoma-ci-cd",
     "category": "TECNOLOGÍA + IA",
     "date": "13 OCT 2026",

@@ -1,5 +1,217 @@
 [
   {
+    "slug": "hardware/tsmc-bate-record-beneficios-q3-2026-auge-chips-ia-hpc-3nm-2nm",
+    "category": "HARDWARE",
+    "date": "15 OCT 2026",
+    "dateIso": "2026-10-15T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Hardware: TSMC pulveriza sus récords en el Q3 de 2026: el auge de aceleradores de IA dispara su beneficio neto un 68,7%",
+    "dek": "La mayor fundición del planeta reporta 23.600 millones de dólares de ganancia neta en el trimestre, con los nodos de 3nm y 2nm copando las líneas de producción para abastecer a NVIDIA, Apple y AMD.",
+    "personalAngle": "Si alguien dudaba de la solidez económica de la revolución de la inteligencia artificial, el balance de TSMC disipa cualquier incertidumbre: el silicio de alta densidad es el nuevo petróleo geopolítico y Taiwán sigue siendo su refinería indispensable.",
+    "leadEyebrow": "TSMC · BALANCE FINANCIERO Q3 2026 & SILICIO AVANZADO",
+    "leadTitle": "TSMC registra 23.600 millones de dólares de beneficio trimestral: la demanda de silicio para IA desborda su capacidad fabril",
+    "image": "/articles/2026-10-15/tsmc-q3-record-fab-hero.jpg",
+    "imageAlt": "Línea de producción automatizada y salas limpias de TSMC en Taiwán para nodos de 3nm y 2nm",
+    "imageCredit": "TSMC Media Center / TokenGeekCoin",
+    "body": [
+      "Taiwan Semiconductor Manufacturing Company (TSMC) ha presentado los resultados financieros correspondientes al tercer trimestre de 2026, pulverizando holgadamente todas las estimaciones previas de Wall Street y del consenso asiático. El gigante de los semiconductores registró un beneficio neto histórico de NT$763.060 millones (aproximadamente 23.600 millones de dólares estadounidenses), lo que supone un astronómico crecimiento interanual del 68,7% respecto al mismo periodo del año anterior.",
+      "La facturación consolidada de la firma alcanzó los 46.720 millones de dólares, marcando un incremento del 41,2% en dólares y un 50,9% en moneda local. El principal motor indiscutible de esta expansión continuada ha sido el segmento de Computación de Alto Rendimiento (HPC), que ya representa el 68% de los ingresos totales de la compañía, catapultado por las órdenes masivas de aceleradores de cálculo tensorial para clústeres de entrenamiento y centros de datos de inteligencia artificial a escala global.",
+      "El dominio tecnológico de TSMC en la litografía de vanguardia ha quedado patente en el desglose por litografía: las tecnologías avanzadas (procesos iguales o inferiores a 7 nanómetros) generaron un abrumador 79% de los ingresos por venta de obleas. Específicamente, el nodo de 3 nanómetros (N3 y sus variantes N3E/N3P) contribuyó con el 33% de la facturación, los 5 nanómetros aportaron el 28%, los 7 nanómetros un 10%, y las primeras líneas piloto comerciales del nodo de 2 nanómetros (N2 con arquitectura nanosheet GAA) ya suponen el 8% de los ingresos tempranos.",
+      "Acompañando estas cifras históricas, TSMC exhibió una rentabilidad envidiable con un margen bruto del 66,4%, un margen operativo del 58,7% y un margen neto del 51,1%. Para el cuarto trimestre de 2026, la dirección ejecutiva proyecta ingresos entre 52.300 y 54.300 millones de dólares, manteniendo su previsión de gasto de capital (CapEx) entre 60.000 y 64.000 millones de dólares para expandir sus plantas de empaquetado avanzado CoWoS y acelerar el despliegue fabril en Arizona, Kumamoto y Dresde."
+    ],
+    "bullets": [
+      "Beneficio neto récord: 23.600 millones de dólares netos en el Q3, un crecimiento del 68,7% interanual.",
+      "HPC como motor absoluto: El cálculo para IA y centros de datos genera ya el 68% de toda la facturación.",
+      "Supremacía en litografía avanzada: Los nodos de 3nm (33%), 5nm (28%) y 2nm (8%) concentran la demanda global.",
+      "Márgenes históricos: Margen bruto del 66,4% y proyección para el Q4 de hasta 54.300 millones de dólares."
+    ],
+    "features": [
+      {
+        "title": "Obleas de 300 mm y empaquetado avanzado CoWoS en nodo de 3nm y 2nm",
+        "eyebrow": "TECNOLOGÍA DE SILICIO",
+        "facts": "TRANSISTORES GAA · COPOSICIÓN 2.5D/3D · RENDIMIENTO OBLEA",
+        "image": "/articles/2026-10-15/tsmc-3nm-wafer-packaging.jpg",
+        "alt": "Oblea de silicio de 300mm con patrones nanoscópicos en equipo de litografía avanzada",
+        "imageCredit": "TSMC Foundry / TokenGeekCoin",
+        "body": [
+          "La integración de transistores Gate-All-Around (GAA) en el nodo de 2 nanómetros reduce el consumo energético hasta un 30% manteniendo la máxima frecuencia de reloj.",
+          "El cuello de botella de la industria ya no radica en la litografía pura, sino en la capacidad de empaquetado tridimensional CoWoS para interconectar memoria HBM3e y silicio lógico."
+        ]
+      },
+      {
+        "title": "Infraestructura de cálculo HPC para centros de datos hiperescalables",
+        "eyebrow": "ARQUITECTURA DE IA",
+        "facts": "REFRIGERACIÓN LÍQUIDA · SERVIDORES CLUSTER · APETITO DE NUBE",
+        "image": "/articles/2026-10-15/tsmc-hpc-ai-accelerators.jpg",
+        "alt": "Servidor de alta densidad con aceleradores de cálculo neuronal y refrigeración líquida",
+        "imageCredit": "TokenGeekCoin Hardware Lab",
+        "body": [
+          "Gigantes tecnológicos como NVIDIA, AMD, Apple, Google y Microsoft han acaparado las reservas de obleas de TSMC hasta finales de 2027.",
+          "La inversión continua de capital asegura que las fábricas funcionen con una tasa de utilización superior al 95% en los nodos más avanzados."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "comics/dc-comics-anuncia-absolute-justice-jason-aaron-juan-ferreyra-nycc-2026",
+    "category": "CÓMICS + SERIES",
+    "date": "15 OCT 2026",
+    "dateIso": "2026-10-15T08:00:00-03:00",
+    "minutes": 5,
+    "title": "Cómics: DC Comics anuncia 'Absolute Justice': Jason Aaron y Juan Ferreyra reunirán a los héroes del Absolute Universe en abril de 2027",
+    "dek": "Revelada en el panel estelar de New York Comic Con 2026, la miniserie de cinco entregas juntará por primera vez a Batman, Superman, Wonder Woman y Martian Manhunter sin interrumpir las series regulares.",
+    "personalAngle": "DC está ejecutando su iniciativa All In con una maestría envidiable: en lugar de saturar al lector con crossovers mensuales obligatorios, Absolute Justice será un evento autocontenido que elevará el peso mitológico de un universo donde todo juega en contra de la esperanza.",
+    "leadEyebrow": "DC COMICS · NEW YORK COMIC CON 2026 & ABSOLUTE UNIVERSE",
+    "leadTitle": "La Liga de la Justicia del Universo Absolute toma forma: Jason Aaron y Juan Ferreyra lideran 'Absolute Justice'",
+    "image": "/articles/2026-10-15/absolute-justice-dc-hero.jpg",
+    "imageAlt": "Ilustración oficial de Absolute Justice con Martian Manhunter reuniendo a Batman, Superman y Wonder Woman",
+    "imageCredit": "DC Comics / Juan Ferreyra",
+    "body": [
+      "Durante un abarrotado panel en la New York Comic Con 2026 dedicado a la iniciativa DC All In, la editorial ha oficializado el anuncio más esperado por los lectores: 'Absolute Justice', una miniserie evento de cinco números programada para iniciar su publicación en abril de 2027. El proyecto estará escrito por Jason Aaron (co-arquitecto de la línea y guionista de Absolute Superman) y contará con el deslumbrante arte interior y portadas del aclamado ilustrador Juan Ferreyra.",
+      "Esta miniserie constituirá la primera reunión formal de los icónicos héroes en las páginas del Universo Absolute. Lejos de la camaradería clásica de la Liga de la Justicia tradicional, los personajes operan en una realidad alternativa hostil donde carecen de sus privilegios históricos: Batman es un obrero de clase trabajadora sin fortuna en Gotham, Superman creció en la Tierra como un paria sin la contención familiar de Smallville, y Wonder Woman fue forjada en las profundidades del inframundo.",
+      "El núcleo catalizador de la alianza recaerá sobre J'onn J'onzz, el Detective Marciano, quien utilizará sus facultades telepáticas para rastrear y conectar a estos vigilantes aislados antes de que las fuerzas oscuras que controlan la realidad los aniquilen por separado. La alineación también sumará a la Green Lantern Jo Mullein y a Flash (Wally West), consolidando una resistencia desesperada bajo el lema del cómic: 'Si todo el universo está inclinado en nuestra contra, no queda más remedio que pelear'.",
+      "Para tranquilidad de los lectores y coleccionistas, los creadores y el arquitecto principal Scott Snyder confirmaron que 'Absolute Justice' no interrumpirá el curso de las cabeceras mensuales como Absolute Batman, Absolute Superman o Absolute Wonder Woman con tie-ins forzados o números de relleno. La historia se desarrollará como una obra autoconclusiva de alto impacto que allanará el camino hacia el clímax editorial proyectado bajo el concepto de 'Absolute Crisis'."
+    ],
+    "bullets": [
+      "Miniserie de 5 números en abril de 2027: Escrita por Jason Aaron con arte de Juan Ferreyra.",
+      "Primer crossover del Absolute Universe: Une a Batman, Superman, Wonder Woman, Martian Manhunter y Jo Mullein.",
+      "Martian Manhunter como nexo: El Detective Marciano actuará como la mente que reúne al grupo contra un destino opresivo.",
+      "Sin tie-ins disruptivos: Las colecciones mensuales continuarán su ritmo sin interrupciones argumentales forzadas."
+    ],
+    "features": [
+      {
+        "title": "La red psíquica de J'onn J'onzz y el ensamblaje de la resistencia",
+        "eyebrow": "ARGUMENTO & NARRATIVA",
+        "facts": "TELEPATÍA MARCIANA · UNIVERSO OPRESIVO · JO MULLEIN & FLASH",
+        "image": "/articles/2026-10-15/absolute-martian-assembly.jpg",
+        "alt": "Panel de cómic con el Detective Marciano enlazando psíquicamente a los héroes entre ruinas urbanas",
+        "imageCredit": "DC Comics / Juan Ferreyra",
+        "body": [
+          "En el Universo Absolute, los héroes no son figuras deificadoas por el público, sino rebeldes cazados por instituciones implacables.",
+          "La habilidad telepática de J'onn J'onzz se convierte en la única línea de comunicación segura frente a los sistemas de vigilancia globales."
+        ]
+      },
+      {
+        "title": "El estilo visceral de Juan Ferreyra plasmando a Batman y Superman",
+        "eyebrow": "DIRECCIÓN ARTÍSTICA",
+        "facts": "ACUARELA OSCURA · BATMAN CON HACHA · SUPERMAN ARMADURADO",
+        "image": "/articles/2026-10-15/absolute-batman-superman-ferreyra.jpg",
+        "alt": "Arte interior de cómic con Absolute Batman empuñando una gran hacha y Absolute Superman con traje de batalla",
+        "imageCredit": "DC Entertainment / Juan Ferreyra",
+        "body": [
+          "El ilustrador argentino aporta un trazo crudo y texturas de acuarela que enfatizan las cicatrices y la brutalidad física de los personajes.",
+          "La silueta imponente del Batman de Scott Snyder y Nick Dragotta contrasta con la presencia titánica y melancólica del Superman de Aaron."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "cripto/sangria-mercado-bitcoin-cae-81000-dolares-liquidaciones-930-millones",
+    "category": "FINANZAS + CRIPTO",
+    "date": "15 OCT 2026",
+    "dateIso": "2026-10-15T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Cripto: Sangría en el mercado cripto: Bitcoin pierde los 81.000 dólares y desata más de 930 millones de liquidaciones en 24 horas",
+    "dek": "Una feroz cascada de liquidaciones forzadas en contratos de futuros barre las posiciones alcistas tras la ruptura de soportes clave en los principales exchanges internacionales.",
+    "personalAngle": "El apalancamiento desmedido siempre cobra su factura en cripto. Quienes operaban con márgenes extremos aprendieron hoy una lección dolorosa, pero en la cadena de bloques los datos muestran acumulación institucional sostenida mientras el pánico se apodera de los derivados minoristas.",
+    "leadEyebrow": "MERCADO CRIPTO · LIQUIDACIONES MASIVAS & ANÁLISIS ON-CHAIN",
+    "leadTitle": "Bitcoin cae bajo el umbral de los 81.000 $: más de 930 millones de dólares liquidados en una de las mayores sacudidas del año",
+    "image": "/articles/2026-10-15/bitcoin-liquidation-hero.jpg",
+    "imageAlt": "Monitores de trading institucional mostrando el gráfico de desplome de Bitcoin y alerta de liquidaciones masivas",
+    "imageCredit": "TokenGeekCoin Market Terminal / Glassnode",
+    "body": [
+      "Una violenta ola vendedora ha sacudido con fuerza los cimientos del ecosistema cripto en las últimas 24 horas. El precio de Bitcoin experimentó una abrupta caída que perforó con contundencia el soporte psicológico de los 81.000 dólares, llegando a marcar mínimos intradía en el rango de los 80.350 a 80.500 dólares en plataformas de referencia como Binance, Bybit y Coinbase.",
+      "El rápido movimiento a la baja activó un efecto dominó devastador en el mercado de derivados financieros. De acuerdo con los registros agregados de Coinglass y datos on-chain de Glassnode, las liquidaciones totales en el sector de activos digitales superaron los 1.050 millones de dólares en la jornada, de los cuales más de 930 millones de dólares correspondieron de forma exclusiva a posiciones largas (longs) apalancadas de inversores que anticipaban un rebote hacia nuevos máximos.",
+      "El descalabro no tardó en contagiarse a las principales altcoins del mercado: Ethereum (ETH) retrocedió con fuerza buscando consolidación técnica en zonas bajas, mientras que Solana (SOL), Ripple (XRP) y Avalanche (AVAX) sufrieron descensos de entre el 7% y el 12%. La profundidad de mercado en los libros de órdenes se evaporó temporalmente, obligando a los algoritmos de liquidación automática de los exchanges a ejecutar cierres forzados a precios de mercado con deslizamientos (slippage) acusados.",
+      "A pesar del dramatismo vivido en las pantallas de futuros, los analistas de métricas en cadena destacan una divergencia relevante: las reservas de Bitcoin en los exchanges centralizados continúan disminuyendo en términos netos, evidenciando que las carteras de tenedores a largo plazo (HODLers) y los emisores de fondos cotizados en bolsa (ETFs) aprovecharon la volatilidad para acumular unidades con descuento mientras el apalancamiento especulativo era limpiado del sistema."
+    ],
+    "bullets": [
+      "Más de 930M$ en largos liquidados: El total de liquidaciones superó los 1.050 millones de dólares en 24 horas.",
+      "Mínimos intradía en 80.350 $: Ruptura del soporte clave de 81.000 $ provocó cierres forzados en cadena.",
+      "Efecto arrastre en altcoins: Desplomes generalizados del 7% al 12% en Ethereum, Solana y tokens de Layer-1.",
+      "Resiliencia on-chain: Salidas netas de BTC de los exchanges hacia custodia fría sugieren absorción institucional."
+    ],
+    "features": [
+      {
+        "title": "Mapas de calor de liquidación y libros de órdenes desbalanceados",
+        "eyebrow": "DERIVADOS & MERCADOS",
+        "facts": "COINGLASS METRICS · STOP-LOSS CASCADES · HIGH VOLATILITY",
+        "image": "/articles/2026-10-15/crypto-orderbook-heatmaps.jpg",
+        "alt": "Pantallas de trading profesional con mapas de calor de volumen y niveles de liquidación de Bitcoin",
+        "imageCredit": "TokenGeekCoin Analytics / Bybit Terminal",
+        "body": [
+          "Las bolsas de liquidez concentradas entre 82.500 $ y 81.200 $ actuaron como imán para los creadores de mercado, barriendo el apalancamiento retail.",
+          "Las tasas de financiación (funding rates) se reajustaron a terreno neutro y negativo, eliminando el exceso de optimismo especulativo."
+        ]
+      },
+      {
+        "title": "Flujos de acumulación de ballenas y salidas netas hacia custodia fría",
+        "eyebrow": "MÉTRICAS ON-CHAIN",
+        "facts": "OUTFLOW INSTITUCIONAL · FONDOS ETF · MANOS FUERTES",
+        "image": "/articles/2026-10-15/onchain-bitcoin-macro-flow.jpg",
+        "alt": "Panel de inteligencia blockchain con seguimiento de transacciones de ballenas y reservas en exchanges",
+        "imageCredit": "Arcane Intelligence / TokenGeekCoin Research",
+        "body": [
+          "Más de 9.300 BTC fueron transferidos fuera de exchanges hacia direcciones de acumulación durante el pico de la corrección.",
+          "El ratio MVRV y los indicadores de estrés cíclico confirman que la estructura alcista macroeconómica sigue intacta."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/castlevania-belmonts-curse-estreno-ps5-xbox-pc-switch-evil-empire-konami",
+    "category": "GAMING",
+    "date": "15 OCT 2026",
+    "dateIso": "2026-10-15T08:00:00-03:00",
+    "minutes": 5,
+    "title": "Gaming: Castlevania: Belmont's Curse se estrena hoy: Konami y Evil Empire celebran el 40 aniversario con el regreso del Metroidvania 2D",
+    "dek": "La heroína Rose Belmont empuña el látigo sagrado en el París de 1499 en el primer gran Metroidvania 2D de exploración no lineal de la saga desde Order of Ecclesia.",
+    "personalAngle": "Ver renacer a Castlevania de la mano de Evil Empire es el sueño de cualquier veterano del género: una jugabilidad milimétrica, respeto absoluto por la fórmula de Koji Igarashi y una dirección artística gótica que demuestra que la leyenda del clan Belmont está más viva que nunca.",
+    "leadEyebrow": "KONAMI & EVIL EMPIRE · 40 ANIVERSARIO CASTLEVANIA",
+    "leadTitle": "El renacer del clan Belmont: 'Castlevania: Belmont's Curse' ya disponible en consolas y PC con exploración pura 2D",
+    "image": "/articles/2026-10-15/castlevania-belmont-hero.jpg",
+    "imageAlt": "Arte conceptual de Castlevania Belmont's Curse con Rose Belmont observando el castillo de Drácula en París",
+    "imageCredit": "Konami Digital Entertainment / Evil Empire",
+    "body": [
+      "Los amantes del terror gótico y la exploración de plataformas están de enhorabuena. Konami Digital Entertainment y el prestigioso estudio francés Evil Empire (reconocidos por su brillante trabajo en las expansiones de Dead Cells) han lanzado oficialmente hoy, 15 de octubre de 2026, 'Castlevania: Belmont's Curse'. El título ya se encuentra disponible en PlayStation 5, Xbox Series X/S, Nintendo Switch y PC a través de Steam y Epic Games Store.",
+      "La obra conmemora el 40 aniversario del nacimiento de la legendaria franquicia iniciada en 1986 y representa la vigésima sexta entrega troncal de la serie. Más importante aún para la comunidad: 'Belmont's Curse' constituye el primer Castlevania canónico en adoptar una estructura de acción y aventura 2D de exploración no lineal ('Metroidvania') desde la aclamada obra maestra Castlevania: Order of Ecclesia, publicada originalmente en 2008.",
+      "Ambientada en el año 1499, la trama sitúa a los jugadores en los zapatos de Rose Belmont, intrépida hija del legendario cazador Trevor Belmont y la hechicera Sypha Belnades. La aventura arranca cuando una réplica colosal y sobrenatural del Castlevania se materializa misteriosamente sobre la urbe de París durante una luna de sangre. Armada con una versión evolucionada del mítico Vampire Killer y artes mágicas elementales heredadas de su madre, Rose deberá penetrar en el bastión de los no-muertos para desentrañar una conspiración que amenaza con arrastrar a Europa hacia la oscuridad eterna.",
+      "En el plano mecánico, el juego brilla con animaciones dibujadas a mano a 60 fotogramas por segundo, un intrincado árbol de habilidades de combate, sub-armas tradicionales modernizadas (dagas de plata, agua bendita bendecida, cruces bumerán) y una portentosa banda sonora compuesta con instrumentos de época y guitarras barrocas que rinde tributo directo a las partituras inmortales de Michiru Yamane."
+    ],
+    "bullets": [
+      "Disponible hoy 15 de octubre de 2026: Lanzamiento simultáneo en PS5, Xbox Series, Switch y PC.",
+      "Retorno al Metroidvania 2D: Primer título canónico de exploración libre desde Order of Ecclesia en 2008.",
+      "Protagonizada por Rose Belmont: Hija de Trevor Belmont y Sypha Belnades en el París gótico de 1499.",
+      "Desarrollado por Evil Empire: Combate vertiginoso, animaciones artesanales y banda sonora orquestal barroca."
+    ],
+    "features": [
+      {
+        "title": "Combate ágil con látigo sagrado y magias arcanas en catedrales de París",
+        "eyebrow": "MECÁNICAS DE JUEGO",
+        "facts": "VAMPIRE KILLER · MAGIAS ELEMENTALES · MAPA LABERÍNTICO 2D",
+        "image": "/articles/2026-10-15/castlevania-gameplay.jpg",
+        "alt": "Captura de juego en 2D con Rose Belmont saltando y atacando gárgolas con látigo eléctrico en catedral gótica",
+        "imageCredit": "Evil Empire / Konami",
+        "body": [
+          "El sistema de combate permite alternar entre latigazos de cadena sagrada y conjuros de hielo y fuego en medio de combos aéreos vertiginosos.",
+          "El mapeado interconectado incluye criptas subterráneas, abadías abandonadas y las torres flotantes del castillo de Drácula."
+        ]
+      },
+      {
+        "title": "Duelos colosales contra jefes y estética gótica artesanal",
+        "eyebrow": "DIRECCIÓN DE ARTE & BOSSES",
+        "facts": "JEFES MULTIFASE · VITRALES GÓTICOS · BANDA SONORA SINFÓNICA",
+        "image": "/articles/2026-10-15/castlevania-boss-throne.jpg",
+        "alt": "Enfrentamiento épico de jefe de Castlevania en la sala del trono con vitrales iluminados por la luna",
+        "imageCredit": "Konami Digital Entertainment / TokenGeekCoin",
+        "body": [
+          "Cada señor vampírico cuenta con múltiples fases cinemáticas que desafían los reflejos y el dominio de esquivas milimétricas.",
+          "La ambientación recrea vidrieras policromadas góticas y una iluminación tenebrista que homenajea los clásicos de la era de 32 bits."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "hardware/asml-eleva-previsiones-2026-litografia-sub-2nm-centros-datos-ia",
     "category": "HARDWARE",
     "date": "14 OCT 2026",

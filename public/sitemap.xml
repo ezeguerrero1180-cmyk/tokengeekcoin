@@ -1,51 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://tokengeekcoin.com/</loc>
+    <loc>https://www.tokengeekcoin.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/noticias-de-hoy</loc>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.tokengeekcoin.com/quienes-somos</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/ofertas-geek</loc>
+    <loc>https://www.tokengeekcoin.com/contacto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/politica-de-privacidad</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/terminos-y-condiciones</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/aviso-legal</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/politica-de-cookies</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/categoria/tecnologia-ia</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/categoria/tecnologia-ia</loc>
+    <loc>https://www.tokengeekcoin.com/categoria/hardware</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/categoria/hardware</loc>
+    <loc>https://www.tokengeekcoin.com/categoria/gaming</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/categoria/gaming</loc>
+    <loc>https://www.tokengeekcoin.com/categoria/finanzas-cripto</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/categoria/finanzas-cripto</loc>
+    <loc>https://www.tokengeekcoin.com/categoria/comics-series</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/categoria/comics-series</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/tsmc-bate-record-beneficios-q3-2026-auge-chips-ia-hpc-3nm-2nm</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-15T08:00:00-03:00</news:publication_date>
+      <news:title>Hardware: TSMC pulveriza sus récords en el Q3 de 2026: el auge de aceleradores de IA dispara su beneficio neto un 68,7%</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-15/tsmc-q3-record-fab-hero.jpg</image:loc>
+      <image:title>Línea de producción automatizada y salas limpias de TSMC en Taiwán para nodos de 3nm y 2nm</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/hardware/asml-eleva-previsiones-2026-litografia-sub-2nm-centros-datos-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/dc-comics-anuncia-absolute-justice-jason-aaron-juan-ferreyra-nycc-2026</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-15T08:00:00-03:00</news:publication_date>
+      <news:title>Cómics: DC Comics anuncia &apos;Absolute Justice&apos;: Jason Aaron y Juan Ferreyra reunirán a los héroes del Absolute Universe en abril de 2027</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-15/absolute-justice-dc-hero.jpg</image:loc>
+      <image:title>Ilustración oficial de Absolute Justice con Martian Manhunter reuniendo a Batman, Superman y Wonder Woman</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/sangria-mercado-bitcoin-cae-81000-dolares-liquidaciones-930-millones</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-15T08:00:00-03:00</news:publication_date>
+      <news:title>Cripto: Sangría en el mercado cripto: Bitcoin pierde los 81.000 dólares y desata más de 930 millones de liquidaciones en 24 horas</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-15/bitcoin-liquidation-hero.jpg</image:loc>
+      <image:title>Monitores de trading institucional mostrando el gráfico de desplome de Bitcoin y alerta de liquidaciones masivas</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/castlevania-belmonts-curse-estreno-ps5-xbox-pc-switch-evil-empire-konami</loc>
+    <lastmod>2026-10-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-15T08:00:00-03:00</news:publication_date>
+      <news:title>Gaming: Castlevania: Belmont&apos;s Curse se estrena hoy: Konami y Evil Empire celebran el 40 aniversario con el regreso del Metroidvania 2D</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-15/castlevania-belmont-hero.jpg</image:loc>
+      <image:title>Arte conceptual de Castlevania Belmont&apos;s Curse con Rose Belmont observando el castillo de Drácula en París</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/asml-eleva-previsiones-2026-litografia-sub-2nm-centros-datos-ia</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <news:news>
       <news:publication>
         <news:name>TokenGeekCoin</news:name>
@@ -54,12 +147,16 @@
       <news:publication_date>2026-10-14T08:00:00-03:00</news:publication_date>
       <news:title>Hardware: ASML eleva sus previsiones para 2026: el auge de centros de datos para IA sostiene la litografía ultravioleta</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-14/asml-sub2nm-cleanroom-hero.jpg</image:loc>
+      <image:title>Equipo de litografía ultravioleta extrema High-NA EUV de ASML en sala limpia estéril de semiconductores</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/kt-estrena-red-dedicada-ia-800gbps-corea-del-sur-all-photonic</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/kt-estrena-red-dedicada-ia-800gbps-corea-del-sur-all-photonic</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <news:news>
       <news:publication>
         <news:name>TokenGeekCoin</news:name>
@@ -68,12 +165,16 @@
       <news:publication_date>2026-10-14T08:00:00-03:00</news:publication_date>
       <news:title>IA: KT estrena la primera red dedicada para IA a 800 Gbps: Corea del Sur revoluciona la interconexión de centros de datos</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-14/kt-800gbps-photonic-hero.jpg</image:loc>
+      <image:title>Bastidor de servidores en centro de datos de Seúl con transceptores ópticos de 800 Gbps y cableado de fibra fotónica</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/dc-comics-anuncia-darkseid-vs-the-world-regreso-etrigan-the-demon-harren</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/dc-comics-anuncia-darkseid-vs-the-world-regreso-etrigan-the-demon-harren</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <news:news>
       <news:publication>
         <news:name>TokenGeekCoin</news:name>
@@ -82,12 +183,16 @@
       <news:publication_date>2026-10-14T08:00:00-03:00</news:publication_date>
       <news:title>Cómics: DC Comics anuncia &apos;Darkseid vs. The World&apos; y revive The Demon con James Harren para el cierre de año</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-14/dc-darkseid-vs-world-hero.jpg</image:loc>
+      <image:title>Portada épica de Darkseid enfrentando a la Liga de la Justicia y versiones del Universo Absolute</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/fmi-banco-mundial-bangkok-blueprint-fraude-financiero-digital-defi</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/fmi-banco-mundial-bangkok-blueprint-fraude-financiero-digital-defi</loc>
     <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
     <news:news>
       <news:publication>
         <news:name>TokenGeekCoin</news:name>
@@ -96,2413 +201,1729 @@
       <news:publication_date>2026-10-14T08:00:00-03:00</news:publication_date>
       <news:title>Cripto: FMI y Banco Mundial presentan el &apos;Bangkok Blueprint&apos; para blindar el sistema contra el fraude financiero digital</news:title>
     </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-14/fmi-bangkok-blueprint-hero.jpg</image:loc>
+      <image:title>Cumbre financiera internacional en Bangkok con presentación del marco regulatorio del FMI y Banco Mundial</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/anthropic-lanza-claude-4-sonnet-agentes-depuracion-autonoma-ci-cd</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/anthropic-lanza-claude-4-sonnet-agentes-depuracion-autonoma-ci-cd</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-13T08:00:00-03:00</news:publication_date>
-      <news:title>IA: Anthropic lanza &quot;Claude 4 Sonnet&quot; con agentes de depuración autónoma en repositorios</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-13/claude-4-sonnet-hero.jpg</image:loc>
+      <image:title>Terminal de desarrollo con Claude 4 Sonnet depurando código de forma autónoma en tiempo real</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/hardware/qualcomm-presenta-arquitectura-oryon-3-servidores-ia-centros-de-datos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/qualcomm-presenta-arquitectura-oryon-3-servidores-ia-centros-de-datos</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-13T08:30:00-03:00</news:publication_date>
-      <news:title>Hardware: Qualcomm presenta la arquitectura &quot;Oryon 3&quot; para servidores de IA</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-13/qualcomm-oryon-3-hero.jpg</image:loc>
+      <image:title>Procesador de servidor empresarial Qualcomm Oryon 3 con núcleos NPU integrados</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/valve-anuncia-consola-portatil-steam-deck-pro-oled-120hz-3nm-fsr-4</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/valve-anuncia-consola-portatil-steam-deck-pro-oled-120hz-3nm-fsr-4</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-13T09:00:00-03:00</news:publication_date>
-      <news:title>Gaming: Valve anuncia la consola portátil &quot;Steam Deck Pro&quot; con OLED 120Hz y APU en 3nm</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-13/steam-deck-pro-hero.jpg</image:loc>
+      <image:title>Consola portátil Steam Deck Pro en manos de un jugador mostrando pantalla OLED a 120Hz</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/ethereum-layer-3-record-historico-15-millones-transacciones-diarias</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/ethereum-layer-3-record-historico-15-millones-transacciones-diarias</loc>
     <lastmod>2026-10-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-13T09:30:00-03:00</news:publication_date>
-      <news:title>Cripto: Redes Layer-3 de Ethereum marcan récord con 15M de transacciones diarias</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-13/ethereum-layer3-hero.jpg</image:loc>
+      <image:title>Ecosistema multicapa de Ethereum con redes Layer-3 procesando millones de transacciones</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/meta-presenta-chameleon-2-inferencia-agentica-borde-open-weights</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-09T08:00:00-03:00</news:publication_date>
-      <news:title>IA: Meta presenta &quot;Chameleon 2&quot; con inferencia agéntica nativa en el dispositivo</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-09/meta-chameleon-2-hero.jpg</image:loc>
+      <image:title>Smartphone ejecutando Chameleon 2 generando audio y gráficos en el dispositivo</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/hardware/tsmc-inicia-pruebas-produccion-nodo-1-4nm-a14-angstroms</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/tsmc-inicia-pruebas-produccion-nodo-1-4nm-a14-angstroms</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-09T08:30:00-03:00</news:publication_date>
-      <news:title>Hardware: TSMC inicia pruebas de producción en el nodo de 1.4nm (A14)</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-09/tsmc-1-4nm-fab-hero.jpg</image:loc>
+      <image:title>Sala limpia de manufactura avanzada de TSMC con sistemas de fotolitografía High-NA EUV</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/unreal-engine-5-6-optimizacion-consolas-60fps-realidad-mixta</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/unreal-engine-5-6-optimizacion-consolas-60fps-realidad-mixta</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-09T09:00:00-03:00</news:publication_date>
-      <news:title>Gaming: Unreal Engine 5.6 optimiza el rendimiento en consolas y realidad mixta</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-09/ue56-console-performance-hero.jpg</image:loc>
+      <image:title>Escenario de mundo abierto en Unreal Engine 5.6 con contador a 60 FPS y microgeometría Nanite</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/svm-rollups-record-volumen-4200-millones-solana-l2</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/svm-rollups-record-volumen-4200-millones-solana-l2</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-09T09:30:00-03:00</news:publication_date>
-      <news:title>Cripto: SVM-Rollups alcanzan récord de volumen de USD $4.200 millones en Solana</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-09/solana-svm-rollups-hero.jpg</image:loc>
+      <image:title>Terminal financiera mostrando el récord de volumen diario de 4.200 millones en rollups SVM de Solana</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/openai-despliega-gpt-6-intelligent-ui-chatgpt-razonamiento-agentico</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/openai-despliega-gpt-6-intelligent-ui-chatgpt-razonamiento-agentico</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T08:00:00-03:00</news:publication_date>
-      <news:title>IA: OpenAI despliega GPT-6 con &quot;Intelligent UI&quot; integrada y widgets reactivos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-08/gpt-6-intelligent-ui-hero.jpg</image:loc>
+      <image:title>Pantalla de ChatGPT con GPT-6 desplegando widgets interactivos y componentes dinámicos en tiempo real</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/finlandia-suspende-construccion-data-centers-google-impacto-ambiental</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/finlandia-suspende-construccion-data-centers-google-impacto-ambiental</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T08:30:00-03:00</news:publication_date>
-      <news:title>Infrastructure: Finlandia suspende la construcción de data centers de Google por impacto ambiental</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-08/finland-google-datacenter-hero.jpg</image:loc>
+      <image:title>Terrenos de construcción de data center de Google paralizados en Finlandia</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/xbox-game-pass-octubre-2026-battlefield-6-estreno-indies</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/xbox-game-pass-octubre-2026-battlefield-6-estreno-indies</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T09:00:00-03:00</news:publication_date>
-      <news:title>Gaming: Xbox Game Pass suma títulos y prepara el estreno simultáneo de Battlefield 6</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-08/battlefield-6-gamepass-hero.jpg</image:loc>
+      <image:title>Captura de acción táctica y combate militar realista de Battlefield 6</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-sustenta-83000-soporte-clave-analisis-bonos-altcoins</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-sustenta-83000-soporte-clave-analisis-bonos-altcoins</loc>
     <lastmod>2026-10-08</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-08T09:30:00-03:00</news:publication_date>
-      <news:title>Cripto: Bitcoin sustenta los USD $83.000 mientras el mercado digiere factores macro</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-08/bitcoin-83k-consolidation-hero.jpg</image:loc>
+      <image:title>Monitor de cotizaciones financieras mostrando a Bitcoin cotizando en los USD 83.079 con soporte en 82.500</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-7-final-de-temporada-resena-geek</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-7-final-de-temporada-resena-geek</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T08:00:00-03:00</news:publication_date>
-      <news:title>Reseña Geek: Lanterns Capítulo 7 (Final de Temporada) — Un cierre tremendo con sabor agridulce</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-06/lanterns-hal-john.jpg</image:loc>
+      <image:title>Aaron Pierre como John Stewart y Kyle Chandler como Hal Jordan en la serie Lanterns de HBO</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/google-gemini-4-argon-ciberseguridad-explotacion-codigo</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/google-gemini-4-argon-ciberseguridad-explotacion-codigo</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T08:30:00-03:00</news:publication_date>
-      <news:title>IA: Google lanza Gemini 4 &quot;Argon&quot; para ciberseguridad y explotación de código</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-06/gemini-argon-hero.jpg</image:loc>
+      <image:title>Google despliega Gemini 4 Argon para auditoría de código y ciberdefensa agéntica</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/deepseek-ronda-12000-millones-tencent-ipo-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/deepseek-ronda-12000-millones-tencent-ipo-2027</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T09:00:00-03:00</news:publication_date>
-      <news:title>Business &amp; AI: DeepSeek cierra ronda de USD $12.000 millones respaldada por Tencent</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-06/deepseek-supercomputing-hero.jpg</image:loc>
+      <image:title>Centro de supercómputo de DeepSeek expandido con inversión récord</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/seagate-toshiba-guerra-cabezales-tdk-almacenamiento-data-centers-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/seagate-toshiba-guerra-cabezales-tdk-almacenamiento-data-centers-ia</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T09:30:00-03:00</news:publication_date>
-      <news:title>Hardware &amp; Cloud: Seagate y Toshiba compiten por el negocio de cabezales de TDK</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-06/seagate-toshiba-tdk-hero.jpg</image:loc>
+      <image:title>Montaje electromecánico de cabezales magnéticos y platos de disco duro de alta capacidad</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-sustenta-86000-soporte-institucional-volumen-cauto</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-sustenta-86000-soporte-institucional-volumen-cauto</loc>
     <lastmod>2026-10-06</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-06T10:00:00-03:00</news:publication_date>
-      <news:title>Cripto: Bitcoin sustenta los USD $86.000 con volumen cauto en el mercado</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-06/bitcoin-86k-hero.jpg</image:loc>
+      <image:title>Pantalla de análisis financiero mostrando a Bitcoin cotizando en la zona de USD $86.000</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/fotonica-cobre-silicio-migracion-cifrado-post-cuantico</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/fotonica-cobre-silicio-migracion-cifrado-post-cuantico</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-05T08:00:00-03:00</news:publication_date>
-      <news:title>Hardware: Fotónica Cobre-Silicio y la migración urgente al cifrado post-cuántico</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-05/fotonica-cuantica-hero.jpg</image:loc>
+      <image:title>Procesador fotónico híbrido para aceleración y computación cuántica</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/openai-o3-razonamiento-profundo-agentes-autonomos-cicd</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/openai-o3-razonamiento-profundo-agentes-autonomos-cicd</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-05T08:30:00-03:00</news:publication_date>
-      <news:title>IA: La frontera del razonamiento profundo con la serie &quot;o3&quot; y agentes autónomos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-05/openai-o3-hero.webp</image:loc>
+      <image:title>Modelo avanzado de inteligencia artificial OpenAI o3 en entorno tecnológico</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/rockstar-games-motor-rage-10-gta-vi-revolucion-grafica</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/rockstar-games-motor-rage-10-gta-vi-revolucion-grafica</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-05T09:00:00-03:00</news:publication_date>
-      <news:title>Gaming: La revolución gráfica de Rockstar Games y el motor RAGE 10 para GTA VI</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-05/gta-vi-rage10-hero.jpg</image:loc>
+      <image:title>Grand Theft Auto VI Vice City bajo el motor gráfico RAGE 10</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/ethereum-layer-2-zk-rollups-inyeccion-institucional-defi</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/ethereum-layer-2-zk-rollups-inyeccion-institucional-defi</loc>
     <lastmod>2026-10-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-05T09:30:00-03:00</news:publication_date>
-      <news:title>Cripto &amp; DeFi: La escala masiva de Ethereum Layer-2 y la inyección institucional</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-05/ethereum-l2-hero.webp</image:loc>
+      <image:title>Infraestructura de escalabilidad de Layer-2 para Ethereum y finanzas descentralizadas</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/github-copilot-era-computer-use-automatizacion-devops</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/github-copilot-era-computer-use-automatizacion-devops</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T08:00:00-03:00</news:publication_date>
-      <news:title>GitHub Copilot inaugura la era del &quot;Computer Use&quot;: control autónomo del sistema y pruebas locales</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-02/copilot-hero.jpg</image:loc>
+      <image:title>Entorno de desarrollo con GitHub Copilot ejecutando Computer Use de forma autónoma</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/incidentes-agentes-autonomos-protocolos-seguridad-ciberseguridad-openai</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/incidentes-agentes-autonomos-protocolos-seguridad-ciberseguridad-openai</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T08:30:00-03:00</news:publication_date>
-      <news:title>Protocolos de seguridad reforzados tras incidentes con agentes autónomos en entornos aislados</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-02/ai-safety-hero.jpg</image:loc>
+      <image:title>Sala de servidores de inteligencia artificial con indicadores de contención y aislamiento en sandbox</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/estreno-mundial-ace-combat-8-wings-of-theve-unreal-engine-5</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/estreno-mundial-ace-combat-8-wings-of-theve-unreal-engine-5</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T09:00:00-03:00</news:publication_date>
-      <news:title>Ace Combat 8: Wings of Theve desata la locura en su estreno mundial y arrasa en streaming</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-02/ace-combat-hero.jpg</image:loc>
+      <image:title>Caza de combate furtivo surcando cúmulos de tormenta con postquemadores en Ace Combat 8</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-consolida-86000-dolares-etf-institucionales-tasas-interes</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-consolida-86000-dolares-etf-institucionales-tasas-interes</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-02T09:30:00-03:00</news:publication_date>
-      <news:title>Bitcoin desafía la resistencia y consolida los USD $86.000 con entradas récord en los ETF</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-02/bitcoin-hero.jpg</image:loc>
+      <image:title>Moneda física dorada de Bitcoin y ticker financiero marcando la barrera de 86.000 dólares</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/google-gemini-4-argon-ia-programacion-ciberseguridad</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/google-gemini-4-argon-ia-programacion-ciberseguridad</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-01T08:00:00-03:00</news:publication_date>
-      <news:title>Google presenta Gemini 4 Argon: su nuevo modelo de IA especializado en programación y ciberseguridad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-01/gemini-4-argon.jpg</image:loc>
+      <image:title>Visualización técnica de Gemini 4 Argon con sintaxis de código y matriz de ciberseguridad</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/china-700-millones-usuarios-ia-generativa-adopcion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/china-700-millones-usuarios-ia-generativa-adopcion</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-01T08:30:00-03:00</news:publication_date>
-      <news:title>China alcanza los 700 millones de usuarios de Inteligencia Artificial generativa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-01/china-ia-700m.jpg</image:loc>
+      <image:title>Mapa conceptual de conexiones neuronales y adopción digital masiva en China</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/ace-combat-8-rayman-origins-novedades-videojuegos-octubre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/ace-combat-8-rayman-origins-novedades-videojuegos-octubre</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-01T09:00:00-03:00</news:publication_date>
-      <news:title>Inicia la temporada fuerte de lanzamientos: Ace Combat 8 y Rayman Origins lideran las novedades de octubre</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-01/ace-combat-rayman.jpg</image:loc>
+      <image:title>Caza de combate supersónico cortando nubes con postcombustión representando a Ace Combat 8</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/open-standard-stablecoin-respaldada-visa-mastercard-stripe</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/open-standard-stablecoin-respaldada-visa-mastercard-stripe</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-01T09:30:00-03:00</news:publication_date>
-      <news:title>Open Standard lanza una nueva stablecoin institucional respaldada por Visa, Mastercard y Stripe</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-01/visa-stripe-stablecoin.jpg</image:loc>
+      <image:title>Terminal de pago digital y moneda stablecoin institucional de Open Standard</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/bcra-estrategia-tres-ejes-presion-cambiaria-dolar-futuro-cuarto-trimestre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bcra-estrategia-tres-ejes-presion-cambiaria-dolar-futuro-cuarto-trimestre</loc>
     <lastmod>2026-10-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-01T10:00:00-03:00</news:publication_date>
-      <news:title>Estrategia en tres ejes para contener la presión cambiaria en el inicio del cuarto trimestre</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-01/bcra-dolar-estrategia.jpg</image:loc>
+      <image:title>Pantallas de cotizaciones bursátiles y gráficos financieros de política cambiaria</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/ifixit-desmontaje-iphone-18-pro-camara-apertura-variable-reparabilidad</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/ifixit-desmontaje-iphone-18-pro-camara-apertura-variable-reparabilidad</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-30T09:00:00-03:00</news:publication_date>
-      <news:title>iFixit desglosa el nuevo iPhone 18 Pro y revela sorpresas en su durabilidad y cámara</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>iPhone 18 Pro desmontado por iFixit mostrando componentes internos y lente de cámara</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/stepfun-step-5-preview-modelo-600b-pesos-abiertos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/stepfun-step-5-preview-modelo-600b-pesos-abiertos</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-30T09:30:00-03:00</news:publication_date>
-      <news:title>Fuga masiva y pesos abiertos: StepFun presenta Step 5 Preview con 600B de parámetros</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Representación conceptual de red neuronal de Inteligencia Artificial masiva de 600B de parámetros</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/insomniac-desmiente-ia-generativa-marvels-wolverine</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/insomniac-desmiente-ia-generativa-marvels-wolverine</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-30T10:00:00-03:00</news:publication_date>
-      <news:title>Insomniac desmiente el uso de IA generativa en Marvel’s Wolverine</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Consola de videojuegos y mando de última generación enfocado en desarrollo de juegos AAA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/comercio-global-desaceleracion-2026-ocde-unctad-bitcoin</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/comercio-global-desaceleracion-2026-ocde-unctad-bitcoin</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-30T10:30:00-03:00</news:publication_date>
-      <news:title>El comercio global se desacelera en 2026: la OCDE advierte un impacto directo en economías emergentes</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Puerto de contenedores marítimos representando el comercio internacional global</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/minecraft-dungeons-2-xbox-game-pass-play-anywhere</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/minecraft-dungeons-2-xbox-game-pass-play-anywhere</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T09:00:00-03:00</news:publication_date>
-      <news:title>Minecraft Dungeons II llega a Xbox Game Pass y Play Anywhere: Mojang evoluciona el ARPG cooperativo</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Minecraft Dungeons II debuta como el lanzamiento cooperativo más fuerte de la temporada en Xbox Game Pass</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-consolida-83000-ballenas-acumulan</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-consolida-83000-ballenas-acumulan</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T10:00:00-03:00</news:publication_date>
-      <news:title>Bitcoin consolida los USD 83.000 tras una ola de liquidaciones: las ballenas acumulan en plena volatilidad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Gráfico de análisis de Bitcoin y criptomonedas en zona de 83.000 dólares</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas-cripto/petroleo-tasas-cripto</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/petroleo-tasas-cripto</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T10:30:00-03:00</news:publication_date>
-      <news:title>La paradoja del petróleo y las tasas de interés: cómo la volatilidad del crudo redefine la liquidez de los activos digitales</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Petróleo y mercados financieros globales en plena redefinición</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/huawei-peerium-supercomputo</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/huawei-peerium-supercomputo</loc>
     <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-29T11:00:00-03:00</news:publication_date>
-      <news:title>Huawei responde a las restricciones de chips con Peerium: la arquitectura que une procesadores para desafiar el dominio en IA</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80</image:loc>
+      <image:title>Servidores de IA e infraestructura de supercómputo Peerium de Huawei</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-6-sombras-en-la-frecuencia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-6-sombras-en-la-frecuencia</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-28T11:00:00-03:00</news:publication_date>
-      <news:title>Lanterns Capítulo 6: &apos;Sombras en la Frecuencia&apos; transforma el thriller noir en una colisión cósmica de consecuencias irreversibles</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-28/lanterns-ep6-lead.jpg</image:loc>
+      <image:title>Hal Jordan y John Stewart enfrentan las ramificaciones de la conspiración terrestre y cósmica en el sexto episodio</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia-ia/openai-devday-2026-san-francisco-era-agentes-autonomos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia-ia/openai-devday-2026-san-francisco-era-agentes-autonomos</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-28T10:30:00-03:00</news:publication_date>
-      <news:title>OpenAI entra en la previa del DevDay 2026: San Francisco se prepara para la era de los Agentes Autónomos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-28/openai-devday-2026-hero.jpg</image:loc>
+      <image:title>San Francisco recibe a miles de desarrolladores e ingenieros de IA para el OpenAI DevDay 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics-series/foc-absolute-batman-25-absolute-wonder-woman-25-dc-comics</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics-series/foc-absolute-batman-25-absolute-wonder-woman-25-dc-comics</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-28T10:45:00-03:00</news:publication_date>
-      <news:title>Última llamada para el catálogo FOC: Absolute Batman #25 y Absolute Wonder Woman #25 entran en su día decisivo</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-28/absolute-dc-foc-hero.jpg</image:loc>
+      <image:title>Las tiendas especializadas cierran hoy las órdenes de pedido para la aclamada línea Absolute de DC</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics-series/dc-new-york-comic-con-2026-paneles-exclusivos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics-series/dc-new-york-comic-con-2026-paneles-exclusivos</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T13:30:00-03:00</news:publication_date>
-      <news:title>DC prepara un NYCC 2026 gigante: Absolute, Vertigo y Jim Lee con la caja de sorpresas lista</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://static.dc.com/2026-09/NYCC_3000_1000.jpg?w=1200</image:loc>
+      <image:title>Banner oficial de DC para New York Comic Con 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/ea-sports-fc-27-lanzamiento-global-25-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/ea-sports-fc-27-lanzamiento-global-25-septiembre-2026</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T09:00:00-03:00</news:publication_date>
-      <news:title>EA SPORTS FC 27 ya salió: el fútbol virtual se baja del estadio y se va a la calle</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://mms.businesswire.com/media/20260723334852/en/2858678/4/assets_2026_07_1784296826_Copy_of_EA_FC27_ULT_KeyArt_RGB_16-9_1920x1080.jpg</image:loc>
+      <image:title>Arte oficial de EA SPORTS FC 27 con Kylian Mbappé y Jude Bellingham</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-presion-tasas-etf-25-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-presion-tasas-etf-25-septiembre-2026</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T10:30:00-03:00</news:publication_date>
-      <news:title>Bitcoin pierde fuerza cerca de los USD 84.000: el rival de hoy no es otra cripto, son las tasas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.zonebourse.com/images/stock/bitbo.png</image:loc>
+      <image:title>Gráfico de evolución del precio de Bitcoin frente al dólar estadounidense</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/meta-muse-agente-ia-gafas-25-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/meta-muse-agente-ia-gafas-25-septiembre-2026</loc>
     <lastmod>2026-09-25</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-25T12:00:00-03:00</news:publication_date>
-      <news:title>Meta quiere que su IA te acompañe con gafas: Muse deja de vivir sólo en la pantalla</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://about.fb.com/wp-content/uploads/2026/09/The-Biggest-News-From-Connect-2026_Header-1.jpg</image:loc>
+      <image:title>Mark Zuckerberg presenta novedades de inteligencia artificial durante Meta Connect 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/mejores-juegos-septiembre-2026</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/mejores-juegos-septiembre-2026</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>Los mejores juegos de septiembre para todas las consolas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/playstation-august-2026/marvel-tokon.webp</image:loc>
+      <image:title>Lanzamientos destacados de videojuegos para septiembre de 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-2-sinestro-antaan</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-2-sinestro-antaan</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>Lanterns capítulo 2: Sinestro enciende la serie</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/lanterns-episode-2/sinestro.webp</image:loc>
+      <image:title>Ulrich Thomsen como Sinestro en el segundo episodio de Lanterns</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/guia-geek-inversionista-portafolio-crypto</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>La guía definitiva del Geek Inversionista</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/geek-investor-guide/geek-investor-hero.webp</image:loc>
+      <image:title>Inversionista geek frente a gráficos, videojuegos, cómics y criptoactivos</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/anime-futuro-tecnologia-portafolio</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/anime-futuro-tecnologia-portafolio</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>De la pantalla al portafolio: anime y futuro tecnológico</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/anime-tech-future/anime-future-hero.webp</image:loc>
+      <image:title>Ilustración conceptual de anime con tecnología cibernética e inteligencia artificial</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-bessent-reserva-federal</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-bessent-reserva-federal</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>Bitcoin, Scott Bessent y la Reserva Federal</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/bitcoin-bessent-fed/bitcoin.webp</image:loc>
+      <image:title>Moneda física de Bitcoin sobre gráficos de cotización bursátil</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/lanzamientos-playstation-agosto-2026</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/lanzamientos-playstation-agosto-2026</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>Lanzamientos de PlayStation: ¿vale la pena romper la alcancía?</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/playstation-august-2026/marvel-tokon.webp</image:loc>
+      <image:title>Arte oficial de MARVEL Tōkon Fighting Souls</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-primer-episodio-ritmo-lento</loc>
-    <lastmod>2026-10-14</lastmod>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-primer-episodio-ritmo-lento</loc>
+    <lastmod>2026-10-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-10-14T08:00:00Z</news:publication_date>
-      <news:title>Por qué Lanterns se siente tan lenta</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/lanterns-season-1/lanterns-investigation.webp</image:loc>
+      <image:title>John Stewart y Hal Jordan observan el horizonte en Lanterns</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-mercado-criptomonedas-24-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-mercado-criptomonedas-24-septiembre-2026</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T12:00:00-03:00</news:publication_date>
-      <news:title>Bitcoin recupera impulso mientras el mercado cripto espera una señal más clara</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Representación visual de Bitcoin sobre una pantalla de mercado</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics-series/american-horror-story-temporada-13-24-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics-series/american-horror-story-temporada-13-24-septiembre-2026</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T11:30:00-03:00</news:publication_date>
-      <news:title>American Horror Story vuelve con su temporada 13 y una triple dosis de terror</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Arte promocional de la temporada 13 de American Horror Story</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/meta-vr-glasses-100-gramos-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/meta-vr-glasses-100-gramos-2026</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T11:00:00-03:00</news:publication_date>
-      <news:title>Meta presenta sus nuevas gafas de realidad virtual de 100 gramos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Persona utilizando las nuevas Meta VR Glasses en un entorno cotidiano</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/dolar-maximos-dos-meses-24-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/dolar-maximos-dos-meses-24-septiembre-2026</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T10:30:00-03:00</news:publication_date>
-      <news:title>El dólar afloja apenas después de tocar máximos de dos meses</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Gráfico del avance reciente del dólar frente a otras monedas</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/control-resonant-lanzamiento-manhattan-24-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/control-resonant-lanzamiento-manhattan-24-septiembre-2026</loc>
     <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-24T10:00:00-03:00</news:publication_date>
-      <news:title>Control Resonant ya está disponible: Remedy lleva el caos paranormal a Manhattan</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Dylan Faden frente a una Manhattan alterada en Control Resonant</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/dolar-maximos-dos-meses-fed-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/dolar-maximos-dos-meses-fed-septiembre-2026</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T10:00:00-03:00</news:publication_date>
-      <news:title>El dólar toca máximos de dos meses mientras el mercado recalcula a la Fed</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Billetes de dólar estadounidense como contexto del avance del índice dólar</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/alibaba-chip-zhenwu-v900-qwen4-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/alibaba-chip-zhenwu-v900-qwen4-septiembre-2026</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T09:30:00-03:00</news:publication_date>
-      <news:title>Alibaba presenta el Zhenwu V900 y acelera su carrera por controlar toda la pila de IA</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Circuitos electrónicos como contexto visual del nuevo acelerador de inteligencia artificial de Alibaba</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/xbox-recortes-estudios-halo-activision-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/xbox-recortes-estudios-halo-activision-2026</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T09:00:00-03:00</news:publication_date>
-      <news:title>Xbox elimina 268 puestos y reorganiza sus estudios: Halo pasa a Activision</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/05/Bootup_Wire-9c068aa206c9a72d2b1f-1024x576.png</image:loc>
+      <image:title>Logo oficial de Xbox utilizado en Xbox Wire</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/control-resonant-lanzamiento-24-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/control-resonant-lanzamiento-24-septiembre-2026</loc>
     <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-23T08:30:00-03:00</news:publication_date>
-      <news:title>Control Resonant llega mañana y convierte Manhattan en una pesadilla imposible</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Ciudad nocturna con edificios iluminados como contexto visual de la Manhattan sobrenatural de Control Resonant</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/faraday-blues-anuncio-xbox-tgs-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/faraday-blues-anuncio-xbox-tgs-2026</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T10:20:00-03:00</news:publication_date>
-      <news:title>Faraday Blues mezcla cartas y vidas cruzadas: el debut indie que se robó una parte del TGS</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Faraday-Blues-hkey-art-c796f14c816edaf934bd-1600x900.jpg</image:loc>
+      <image:title>Arte principal oficial de Faraday Blues con sus tres protagonistas y cartas flotando</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/physint-bill-skarsgard-kojima-xbox-tgs</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/physint-bill-skarsgard-kojima-xbox-tgs</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T10:10:00-03:00</news:publication_date>
-      <news:title>PHYSINT pone a Bill Skarsgård en el centro y Kojima vuelve a jugar con la frontera del cine</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Physint_ENPoster_0908_4stars_4x5-a6e4884e58448d63c222-546x683.jpg</image:loc>
+      <image:title>Póster oficial de PHYSINT presentado durante Xbox Tokyo Game Show 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/dolar-maximo-siete-semanas-fed-mercados</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/dolar-maximo-siete-semanas-fed-mercados</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T10:00:00-03:00</news:publication_date>
-      <news:title>La Fed subió la tasa y el dólar tocó un máximo de siete semanas: el mensaje pesó más que el número</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Billetes de dólar estadounidense como contexto del avance del índice dólar</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/banco-inglaterra-mantiene-tasa-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/banco-inglaterra-mantiene-tasa-septiembre-2026</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T09:50:00-03:00</news:publication_date>
-      <news:title>El Banco de Inglaterra mantuvo la tasa, pero tres votos ya pidieron subirla</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://assets.apnews.com/a9/c0/ceb91c3e5b5928b0af05e95b0841/c0c2d6bf7d74487bb289f22b82440222</image:loc>
+      <image:title>Fachada del Banco de Inglaterra en Londres fotografiada por Associated Press</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/huawei-peerium-atlas-960-superpod</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/huawei-peerium-atlas-960-superpod</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-17T09:40:00-03:00</news:publication_date>
-      <news:title>Huawei responde al cerco de chips con Peerium: unir miles de procesadores para competir como uno</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://assets.apnews.com/b2/1b/fb36cfa8e5870965fd1f36364899/ed603b6b95c2414ebe60a623b7e20002</image:loc>
+      <image:title>Visitantes observan tecnología de Huawei en una exposición fotografiada por Associated Press</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/aniimo-lanzamiento-pc-ps5-xbox</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/aniimo-lanzamiento-pc-ps5-xbox</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T09:35:00-03:00</news:publication_date>
-      <news:title>Aniimo abre hoy su mundo de criaturas: gratis, enorme y con la monetización bajo la lupa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://worldx-website-cdn.aniimo.com/official-website/worldx-global-stage/office/aniimo/EN_rHVzA4io.jpg</image:loc>
+      <image:title>Arte oficial del lanzamiento global de Aniimo con sus criaturas en el mundo de Idyll</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/roman-sands-rebuild-lanzamiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/roman-sands-rebuild-lanzamiento</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T09:25:00-03:00</news:publication_date>
-      <news:title>Roman Sands RE:Build sale hoy y convierte un resort en el peor trabajo antes del apocalipsis</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2231460/header.jpg?t=1789482651</image:loc>
+      <image:title>Arte oficial de Roman Sands RE:Build publicado en Steam para su lanzamiento</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/fed-warsh-suba-tasas-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/fed-warsh-suba-tasas-septiembre-2026</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T09:15:00-03:00</news:publication_date>
-      <news:title>La Fed llega a una decisión incómoda: subir hoy para intentar abaratar mañana</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Edificio institucional de Washington utilizado como contexto de la decisión de la Reserva Federal</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/petroleo-inventarios-eeuu-riesgo-saudita</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/petroleo-inventarios-eeuu-riesgo-saudita</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T09:05:00-03:00</news:publication_date>
-      <news:title>El petróleo baja, pero el diésel no respira: inventarios llenos frente a rutas rotas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Bomba petrolera en operación como contexto de la variación del precio del crudo</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/sk-hynix-intel-memoria-ohio-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/sk-hynix-intel-memoria-ohio-ia</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-16T08:55:00-03:00</news:publication_date>
-      <news:title>SK Hynix e Intel exploran fabricar memoria en Ohio: la fiebre de IA busca otra fábrica</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85</image:loc>
+      <image:title>Circuitos electrónicos utilizados como contexto visual de las conversaciones entre SK Hynix e Intel</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/marvel-wolverine-lanzamiento-ps5-insomniac</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/marvel-wolverine-lanzamiento-ps5-insomniac</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T07:35:00-03:00</news:publication_date>
-      <news:title>Marvel’s Wolverine sale hoy en PS5: las garras llegan con una pregunta más difícil que el combate</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://blog.playstation.com/tachyon/2028/09/21072d2c0c79f076f7e8021c619da5d0708d1ee7-scaled.jpg?crop_strategy=smart&resize=1088%2C612</image:loc>
+      <image:title>Wolverine en el arte oficial publicado por PlayStation antes del lanzamiento del juego</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/diablo-4-switch-2-hells-legacy-temporada-15</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/diablo-4-switch-2-hells-legacy-temporada-15</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T07:25:00-03:00</news:publication_date>
-      <news:title>Diablo IV abre dos portales hoy: Switch 2 y la Temporada del Legado Infernal</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bnetcmsus-a.akamaihd.net/cms/gallery/mt/MTL64SXUJX7B1789170051153.png</image:loc>
+      <image:title>Arte oficial de la Temporada del Legado Infernal de Diablo IV publicado por Blizzard</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/clarity-act-votacion-senado-cripto</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/clarity-act-votacion-senado-cripto</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T07:15:00-03:00</news:publication_date>
-      <news:title>El CLARITY Act enfrenta hoy su prueba de 60 votos: qué está realmente en juego para cripto</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/BCTPPZ2ETZNV3MUBVXEABOQH6A.jpg?auth=239e530d4a6e8278ae2f94bb9ba963d97120d38f341966c261dcba56c220e88a&quality=80&width=1920</image:loc>
+      <image:title>Representación de criptomonedas utilizada por Reuters en la cobertura del CLARITY Act</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/treasury-10-anos-supera-5-por-ciento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/treasury-10-anos-supera-5-por-ciento</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T07:05:00-03:00</news:publication_date>
-      <news:title>El Treasury a 10 años supera 5%: el número que encarece casi todo sin aparecer en la factura</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://ajo.prod.reuters.tv/api/v2/img/6aa87095e4b01915ce4b1c96?quality=80&width=1080</image:loc>
+      <image:title>Gráfico de Reuters sobre el rendimiento del bono del Tesoro estadounidense a 10 años</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/mediatek-dimensity-9600-pro-tsmc-2nm</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/mediatek-dimensity-9600-pro-tsmc-2nm</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-15T06:55:00-03:00</news:publication_date>
-      <news:title>MediaTek estrena los 2 nm en Android con Dimensity 9600 Pro: la IA se muda al teléfono</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/ChipSets/Chip%20Card%20D9600%20Pro.png?height=150&length=100&name=Chip+Card+D9600+Pro.png&width=150</image:loc>
+      <image:title>Imagen oficial del procesador MediaTek Dimensity 9600 Pro</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-5-lights-out-john-stewart</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-5-lights-out-john-stewart</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T09:30:00-03:00</news:publication_date>
-      <news:title>Lanterns capítulo 5: la noche en que ‘Lights Out’ pateó el tablero</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/COipU_RnqI8/maxresdefault.jpg</image:loc>
+      <image:title>John Stewart y Hal Jordan en el video oficial Inside Episode 5 de Lanterns</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/heroes-storm-xal-atath-ptr-regreso-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/heroes-storm-xal-atath-ptr-regreso-2026</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:45:00-03:00</news:publication_date>
-      <news:title>Heroes of the Storm vuelve a mover el Nexus: Xal’atath entra hoy al PTR</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://wow.zamimg.com/uploads/screenshots/normal/1186084.jpg</image:loc>
+      <image:title>Arte de Xal’atath difundido a partir del press kit oficial de World of Warcraft</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/warcraft-3-forsaken-kingdom-campana-actualizacion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/warcraft-3-forsaken-kingdom-campana-actualizacion</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:35:00-03:00</news:publication_date>
-      <news:title>Warcraft III recibe una campaña después de 23 años: Forsaken Kingdom tiene una misión más difícil que vencer a la Plaga</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bnetcmsus-a.akamaihd.net/cms/gallery/fy/FYU9GSBM93EI1789170246594.png</image:loc>
+      <image:title>Arte oficial de Warcraft III Reforged Forsaken Kingdom publicado por Blizzard</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/acciones-ia-nvidia-nasdaq-freno-seguridad</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/acciones-ia-nvidia-nasdaq-freno-seguridad</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:25:00-03:00</news:publication_date>
-      <news:title>El mercado descubrió que frenar la IA también tiene precio: Nasdaq cae y los chips reciben el golpe</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Pantallas de mercado utilizadas como contexto visual de la caída del Nasdaq</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bonos-fed-riesgo-no-subir-tasas</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bonos-fed-riesgo-no-subir-tasas</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:15:00-03:00</news:publication_date>
-      <news:title>El mercado de bonos teme algo más que una suba de la Fed: que no haga nada</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Billetes de dólar como contexto visual de la política monetaria estadounidense</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/clarity-act-acuerdo-etica-trump-votacion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/clarity-act-acuerdo-etica-trump-votacion</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-14T08:05:00-03:00</news:publication_date>
-      <news:title>El CLARITY Act consigue un acuerdo ético de última hora: Trump cede antes del voto clave</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Capitolio de Estados Unidos como contexto visual de la votación del CLARITY Act</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/blizzcon-2026-starcraft-diablo-wow-forever</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/blizzcon-2026-starcraft-diablo-wow-forever</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T18:35:00-03:00</news:publication_date>
-      <news:title>BlizzCon 2026 tiró tres bombas: StarCraft cambia de género, Diablo V mira a 2029 y WoW vuelve a empezar</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Blizzcon-2026-774a2b066ec4a204de15-1600x900.png</image:loc>
+      <image:title>Arte oficial de la ceremonia de apertura de BlizzCon 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/world-of-warcraft-forever-fecha-beta-contenido</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/world-of-warcraft-forever-fecha-beta-contenido</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T18:25:00-03:00</news:publication_date>
-      <news:title>World of Warcraft: Forever quiere congelar el nivel 60 sin congelar Azeroth</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/Blizzcon-2026-774a2b066ec4a204de15-1600x900.png</image:loc>
+      <image:title>Escenario y arte promocional oficial de BlizzCon 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/petroleo-oleoducto-saudi-inflacion-mercados</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/petroleo-oleoducto-saudi-inflacion-mercados</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T18:15:00-03:00</news:publication_date>
-      <news:title>El petróleo pierde su ruta de escape: el oleoducto saudí pone en riesgo 4% de la oferta mundial</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Infraestructura energética y tuberías industriales como contexto de la interrupción saudí</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/fed-warsh-trump-tasas-reunion-septiembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/fed-warsh-trump-tasas-reunion-septiembre</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T18:05:00-03:00</news:publication_date>
-      <news:title>La Fed llega a una reunión imposible: inflación, petróleo y presión política tiran de la tasa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1565373679107-344d38dbf734?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Edificio institucional de Washington como contexto de la reunión de la Reserva Federal</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-77300-etf-salidas-clarity-fed</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-77300-etf-salidas-clarity-fed</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-13T17:55:00-03:00</news:publication_date>
-      <news:title>Bitcoin aguanta cerca de USD 77.300, pero la semana le sacó tres soportes: ETF, Fed y CLARITY</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1600&q=80</image:loc>
+      <image:title>Moneda física de Bitcoin frente a una pantalla de mercado</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/nvidia-inversion-anthropic-ipo-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/nvidia-inversion-anthropic-ipo-ia</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12T10:40:00-03:00</news:publication_date>
-      <news:title>Nvidia evalúa poner USD 10.000 millones en Anthropic: el IPO de la IA ya parece una economía circular</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://static.kurir.rs/Picture/2505908/jpeg/Dzensen-Huang.jpg?ts=2026-03-05T14%3A56%3A38</image:loc>
+      <image:title>Jensen Huang frente a una pantalla con las marcas de Anthropic y OpenAI</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/agentes-openai-ataque-rubygems-seguridad</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/agentes-openai-ataque-rubygems-seguridad</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12T10:30:00-03:00</news:publication_date>
-      <news:title>Agentes de OpenAI atacaron RubyGems durante una prueba: el sandbox también necesita cinturón de seguridad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://static.wixstatic.com/media/dd637d_449b7a37fa624993955e9879c9b48229~mv2.jpg/v1/fill/w_1000%2Ch_667%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01/dd637d_449b7a37fa624993955e9879c9b48229~mv2.jpg</image:loc>
+      <image:title>Ilustración sobre seguridad de software y agentes de inteligencia artificial</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/india-sebi-derivados-precio-cierre-cas</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/india-sebi-derivados-precio-cierre-cas</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12T10:20:00-03:00</news:publication_date>
-      <news:title>India revisa cómo vencen sus derivados: diez minutos de subasta movieron demasiado el tablero</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://img.mathrubhumi.com/view/acePublic/alias/contentid/1odbe88xs7q6yndrl22/0/sebi-jpg.webp?f=1x1&q=0.8&w=1080</image:loc>
+      <image:title>Sede de la autoridad de mercados SEBI en Mumbai</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/donaciones-cripto-reform-uk-delo-harborne</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/donaciones-cripto-reform-uk-delo-harborne</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12T10:10:00-03:00</news:publication_date>
-      <news:title>Dos multimillonarios cripto entregan £72 millones a Reform UK: cuando el dinero digital compra influencia analógica</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://static.standard.co.uk/2025/05/29/23/e6c328282f522be10a057aa21bf58c0eY29udGVudHNlYXJjaGFwaSwxNzQ4NjQwNjYy-2.80399283.jpg?auto=webp&crop=8%3A5%2Csmart&quality=75&width=1000</image:loc>
+      <image:title>Nigel Farage anuncia que Reform UK acepta donaciones vinculadas con criptomonedas</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/roblox-juegos-apps-independientes-rdc-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/roblox-juegos-apps-independientes-rdc-2026</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-12T10:00:00-03:00</news:publication_date>
-      <news:title>Los juegos de Roblox podrán salir de Roblox: apps propias, navegador y modo offline cambian las reglas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pbs.twimg.com/media/HE_6Zq7XEAAXBL7.jpg</image:loc>
+      <image:title>Gráfico promocional de la Roblox Developers Conference 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/nasa-ibm-ia-modelo-lunar-hielo-crateres</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/nasa-ibm-ia-modelo-lunar-hielo-crateres</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T08:40:00-03:00</news:publication_date>
-      <news:title>NASA e IBM entrenaron una IA para leer la Luna: busca hielo, cráteres y lugares donde aterrizar</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/QCJK3KBKP5P2FMQD53T4FNJYDA.jpg?auth=d2832ff6bf33ae3111c0e7775eac895836736f14516068f3978476c1c759620b&quality=80&width=1920</image:loc>
+      <image:title>Logo de NASA fotografiado en el Centro Espacial Kennedy</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/anthropic-claude-informe-amenazas-armas-ciberataques</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/anthropic-claude-informe-amenazas-armas-ciberataques</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T08:30:00-03:00</news:publication_date>
-      <news:title>Anthropic abrió la caja negra del abuso de Claude: ciberataques, vigilancia y riesgo biológico</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/44Z5SZYHBRKQXJODOI7TYCP3M4.jpg?auth=da3a8184aa06e210faa42da9761f98fd70447b9c0d91bf517a6963768959c45e&quality=80&width=1920</image:loc>
+      <image:title>Ilustración editorial del logotipo de Anthropic junto a un teclado y una mano robótica</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/nasdaq-invierte-kraken-acciones-tokenizadas-nets</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/nasdaq-invierte-kraken-acciones-tokenizadas-nets</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T08:20:00-03:00</news:publication_date>
-      <news:title>Nasdaq invierte USD 100 millones en Kraken: las acciones tokenizadas entran por la puerta principal</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/C4AAECSQARJTPO6VC4M7YYJJHE.jpg?auth=14b4a5db0f51cb20af1c7b267e8fbef5597b49bd44f4082cc2070b7a7fadc15d&quality=80&width=1920</image:loc>
+      <image:title>Logotipo de Nasdaq en su sede de Nueva York</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bonos-treasury-5-por-ciento-petroleo-inflacion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bonos-treasury-5-por-ciento-petroleo-inflacion</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T08:10:00-03:00</news:publication_date>
-      <news:title>El bono de Estados Unidos roza el 5%: petróleo caro, inflación y una venta global que llega a todos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/ETUDPPWVPROYHDDG7DS4C4G3LI.jpg?auth=13ea09803424e2dc876113eb34b12d96490b3b3d57fad0427a7e023bb1f4ece9&quality=80&width=1920</image:loc>
+      <image:title>Edificio del Departamento del Tesoro de Estados Unidos en Washington</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/onyx-the-dark-grip-switch-2-portatil-bloober</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/onyx-the-dark-grip-switch-2-portatil-bloober</loc>
     <lastmod>2026-09-11</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-11T08:00:00-03:00</news:publication_date>
-      <news:title>Onyx: The Dark Grip convierte la Switch 2 portátil en un fantasma que manipula al protagonista</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.mos.cms.futurecdn.net/vYTden8GDj3rko9e4Ubwwh.png</image:loc>
+      <image:title>Holden se observa en un espejo en Onyx The Dark Grip</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/apple-iphone-duo-iphone-18-pro-airpods-watch-novedades</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/apple-iphone-duo-iphone-18-pro-airpods-watch-novedades</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T08:40:00-03:00</news:publication_date>
-      <news:title>Apple abrió una nueva etapa: iPhone Duo, iPhone 18 Pro y un ecosistema que vuelve a moverse</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.apple.com/newsroom/images/2026/09/apple-unveils-iphone-duo/article/Apple-iPhone-Duo-display-sizes-260909_big.jpg.large.jpg</image:loc>
+      <image:title>iPhone Duo abierto y cerrado en la fotografía oficial de Apple</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-4-the-weenie-zoe-manhunter</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-4-the-weenie-zoe-manhunter</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T08:30:00-03:00</news:publication_date>
-      <news:title>Lanterns capítulo 4: ‘The Weenie’ revela quién era el monstruo que todos tenían delante</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/UTkKlbq5TwE/maxresdefault.jpg</image:loc>
+      <image:title>Hal Jordan y John Stewart en el video oficial de HBO sobre Lanterns episodio 4</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/tether-fasanara-stablefund-credito-privado-usdt</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/tether-fasanara-stablefund-credito-privado-usdt</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T08:20:00-03:00</news:publication_date>
-      <news:title>Tether lleva USDT al crédito privado con un fondo que apunta a USD 3.000 millones</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.prod.website-files.com/656f446e4fb8cebb8dbf789e/6790c496d14b554072a7379b_post-image.webp</image:loc>
+      <image:title>Imagen institucional de Fasanara Capital, socio de Tether en StableFund</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bis-ia-inversion-riesgo-estabilidad-financiera</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bis-ia-inversion-riesgo-estabilidad-financiera</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T08:10:00-03:00</news:publication_date>
-      <news:title>El BIS mira la fiebre de inversión en IA y advierte: el riesgo ya llegó al sistema financiero</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://storage.cobak.co/uploads/1776729715486258_47d2a2fc46.png</image:loc>
+      <image:title>Pablo Hernández de Cos durante una intervención en el Banco de Pagos Internacionales</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/physint-kojima-xbox-playstation-cancelacion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/physint-kojima-xbox-playstation-cancelacion</loc>
     <lastmod>2026-09-10</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-10T08:00:00-03:00</news:publication_date>
-      <news:title>PHYSINT cambia PlayStation por Xbox: Kojima mueve su juego de espionaje y sacude la industria</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/KJPXBOX-a19bab905ef4e406d93c-1600x900.jpg</image:loc>
+      <image:title>Hideo Kojima y representantes de Xbox anuncian la nueva alianza para PHYSINT</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/zelda-ocarina-of-time-remake-fecha-switch-2</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/zelda-ocarina-of-time-remake-fecha-switch-2</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T08:40:00-03:00</news:publication_date>
-      <news:title>Ocarina of Time vuelve el 5 de noviembre: Nintendo rehace un clásico sin esconder su edad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/wuFfiTEr2yc/maxresdefault.jpg</image:loc>
+      <image:title>Link en el tráiler oficial del remake de The Legend of Zelda Ocarina of Time para Switch 2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/valheim-1-0-deep-north-ps5-switch-2-crossplay</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/valheim-1-0-deep-north-ps5-switch-2-crossplay</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T08:30:00-03:00</news:publication_date>
-      <news:title>Valheim llega a la versión 1.0: cinco años después, el norte finalmente deja de ser un borde vacío</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://img2.storyblok.com/fit-in/1920x1080/f/157036/6001x3323/1f79e49ebe/deep-north-art-2.jpg</image:loc>
+      <image:title>Arte oficial de Deep North, el bioma final incluido en Valheim 1.0</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/clarity-act-cripto-bancos-voto-senado-septiembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/clarity-act-cripto-bancos-voto-senado-septiembre</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T08:20:00-03:00</news:publication_date>
-      <news:title>El CLARITY Act llega a su semana decisiva: cripto y bancos pelean por los mismos senadores</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/E7G6IWHRTRI5VPII5AN26LDWI4.jpg?auth=62f51375eb62ae3a149c46241e8bb5a024279fd4043c6c21bb1d36a1e8536f8a&quality=80&width=1920</image:loc>
+      <image:title>Representación de criptomonedas utilizada por Reuters para ilustrar el debate del CLARITY Act</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/zcash-etf-500-millones-zcsh-grayscale</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/zcash-etf-500-millones-zcsh-grayscale</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T08:10:00-03:00</news:publication_date>
-      <news:title>El ETF de Zcash supera US$500 millones: un gran número que no equivale a US$500 millones de compras nuevas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.sanity.io/images/s3y3vcno/production/271061a9323bf3f3cb0450115656ad79336f95d7-1528x824.png?rect=32,0,1465,824&w=1920&h=1080&auto=format</image:loc>
+      <image:title>Gráfico de CoinDesk sobre Bitcoin y el crecimiento del ETF de Zcash</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/chime-compra-stride-bank-590-millones</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/chime-compra-stride-bank-590-millones</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-09T08:00:00-03:00</news:publication_date>
-      <news:title>Chime compra Stride Bank por US$590 millones: la fintech quiere dejar de alquilar su banco</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://pbs.twimg.com/media/GtVBeM-bMAYv5zJ.jpg</image:loc>
+      <image:title>Equipo directivo de Chime durante la salida de la compañía al mercado bursátil</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/nintendo-direct-zelda-40-aniversario-switch-2</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/nintendo-direct-zelda-40-aniversario-switch-2</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T12:40:00-03:00</news:publication_date>
-      <news:title>Nintendo prepara dos Direct seguidos: Zelda cumple 40 años y Switch 2 mira al invierno</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/laVAS_S9PBk/maxresdefault.jpg</image:loc>
+      <image:title>Placa oficial de The Legend of Zelda 40th Anniversary Direct de Nintendo</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/orbitals-switch-2-cooperativo-lanzamiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/orbitals-switch-2-cooperativo-lanzamiento</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T12:30:00-03:00</news:publication_date>
-      <news:title>Orbitals ya despegó en Switch 2: un cooperativo que obliga a hablar con la persona de al lado</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/sAaJmrRIQrA/maxresdefault.jpg</image:loc>
+      <image:title>Maki y Omura en el tráiler oficial de lanzamiento de Orbitals para Nintendo Switch 2</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/liquid-network-4000-bitcoin-retiro-incidente</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/liquid-network-4000-bitcoin-retiro-incidente</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T12:20:00-03:00</news:publication_date>
-      <news:title>Liquid Network frena transacciones tras el retiro de 4.000 bitcoin: el problema no fue Bitcoin</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://liquid.net/liquid-net.png</image:loc>
+      <image:title>Identidad visual oficial de Liquid Network, la red lateral desarrollada por Blockstream</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/petroleo-97-dolares-inflacion-bancos-centrales</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/petroleo-97-dolares-inflacion-bancos-centrales</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T12:10:00-03:00</news:publication_date>
-      <news:title>El petróleo vuelve a dictar la agenda: Brent cerca de US$97 y bancos centrales bajo presión</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://static.amundi.com/web-assets/awf-assets/research-center/styles/max_1300x1300/s3/2026-07/header.jpg.webp?itok=o7NQyE9V</image:loc>
+      <image:title>Gráfico de Amundi sobre la volatilidad del petróleo Brent durante 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/india-rbi-retira-liquidez-record-6-billones-rupias</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/india-rbi-retira-liquidez-record-6-billones-rupias</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-07T12:00:00-03:00</news:publication_date>
-      <news:title>India retira más de 6 billones de rupias del sistema: cuando sobra dinero también aparece un problema</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.indiancooperative.com/wp-content/uploads/2021/12/RBII.jpg</image:loc>
+      <image:title>Edificio de la sede del Reserve Bank of India en Mumbai</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/dlss-5-nba-2k27-renderizado-neuronal</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/dlss-5-nba-2k27-renderizado-neuronal</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-05T15:20:00-03:00</news:publication_date>
-      <news:title>DLSS 5 debuta en NBA 2K27: la IA ya no sólo suma cuadros, también retoca la imagen</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/LHUzFnq70b8/maxresdefault.jpg</image:loc>
+      <image:title>NBA 2K27 ejecutándose con DLSS 5 en el tráiler oficial de lanzamiento de NVIDIA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/playstation-descargas-agosto-madden-marvel-tokon-black-ops-2</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/playstation-descargas-agosto-madden-marvel-tokon-black-ops-2</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-05T15:10:00-03:00</news:publication_date>
-      <news:title>PlayStation revela lo más descargado de agosto: Madden gana en América y Black Ops II se niega a envejecer</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/bqQtZ9xm_uI/maxresdefault.jpg</image:loc>
+      <image:title>Madden NFL 27 en su tráiler oficial, juego más descargado de PS5 en Estados Unidos y Canadá durante agosto</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/empleo-eeuu-162000-fed-tasas-septiembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/empleo-eeuu-162000-fed-tasas-septiembre</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-05T15:00:00-03:00</news:publication_date>
-      <news:title>Estados Unidos suma 162.000 empleos y complica al mercado: una buena noticia que acerca otra suba de tasas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://s.abcnews.com/images/Business/260807_abcnl_8a_jobs_hpMain_16x9_1600.jpg</image:loc>
+      <image:title>Gráfico televisivo del mercado laboral estadounidense con datos del Bureau of Labor Statistics</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/foxconn-record-agosto-demanda-servidores-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/foxconn-record-agosto-demanda-servidores-ia</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-05T14:50:00-03:00</news:publication_date>
-      <news:title>Foxconn factura un récord en agosto: la fiebre de servidores de IA ya pesa tanto como la temporada del iPhone</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.honhai.com/upload/202603/news/GTC_Foxconn_booth_2_20260317_0239.jpeg</image:loc>
+      <image:title>Rack de servidores de IA exhibido por Foxconn en su espacio oficial de NVIDIA GTC 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/fmi-el-salvador-bitcoin-donaciones-fondos-publicos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/fmi-el-salvador-bitcoin-donaciones-fondos-publicos</loc>
     <lastmod>2026-09-05</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-05T14:40:00-03:00</news:publication_date>
-      <news:title>El FMI aclara el misterio de los bitcoins de El Salvador: crecieron por donaciones, no con fondos públicos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.blockmedia.co.kr/wp-content/uploads/2025/05/20250528_%EC%97%98%EC%82%B4%EB%B0%94%EB%8F%84%EB%A5%B4-IMF-1200x800.png</image:loc>
+      <image:title>Bitcoin, la bandera de El Salvador y el emblema del FMI en una composición sobre el acuerdo financiero</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/final-fantasy-vii-revelation-fecha-8-abril-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/final-fantasy-vii-revelation-fecha-8-abril-2027</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-04T08:40:00-03:00</news:publication_date>
-      <news:title>Final Fantasy VII Revelation ya tiene fecha: el viaje termina el 8 de abril de 2027</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/pfqrUIGUC1o/maxresdefault.jpg</image:loc>
+      <image:title>Cloud y sus compañeros en el tráiler oficial que confirmó la fecha de Final Fantasy VII Revelation</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/onimusha-way-of-the-sword-lanzamiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/onimusha-way-of-the-sword-lanzamiento</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-04T08:30:00-03:00</news:publication_date>
-      <news:title>Onimusha: Way of the Sword despierta hoy: Musashi vuelve a cortar demonios después de dos décadas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.ytimg.com/vi/kILALrix3oU/maxresdefault.jpg</image:loc>
+      <image:title>Miyamoto Musashi combate contra los Genma en el tráiler oficial de Onimusha Way of the Sword</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-etf-731-millones-mayor-entrada-enero</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-etf-731-millones-mayor-entrada-enero</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-04T08:20:00-03:00</news:publication_date>
-      <news:title>Los ETF de Bitcoin reciben USD 731 millones: la mayor entrada desde enero también tiene dueño</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DMR8D8Q7DJ0ETNYGBE2SEM/bitco-etf.png</image:loc>
+      <image:title>Representación de Bitcoin frente a edificios financieros usada para ilustrar flujos de ETF spot</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/corea-del-sur-tokeniza-acciones-bonos-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/corea-del-sur-tokeniza-acciones-bonos-2027</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-04T08:10:00-03:00</news:publication_date>
-      <news:title>Corea del Sur pone fecha a las acciones tokenizadas: febrero de 2027 abre la primera puerta</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.sanity.io/images/s3y3vcno/production/32f05413502b0ca1b61d0b9b4f510a6fc72c8a27-5830x3851.jpg?rect=0,287,5830,3279&w=1920&h=1080&auto=format</image:loc>
+      <image:title>Kwon Dae-young, vicepresidente de la Comisión de Servicios Financieros de Corea del Sur, durante el anuncio oficial</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/fondos-monetarios-46100-millones-refugio</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/fondos-monetarios-46100-millones-refugio</loc>
     <lastmod>2026-09-04</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-04T08:00:00-03:00</news:publication_date>
-      <news:title>USD 46.100 millones corren hacia fondos monetarios: el mercado compra tiempo, no tranquilidad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://home.treasury.gov/system/files/291/treasury-preview-1900x950.jpg</image:loc>
+      <image:title>Fachada del Departamento del Tesoro de Estados Unidos en una imagen institucional</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/the-blood-of-dawnwalker-lanzamiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/the-blood-of-dawnwalker-lanzamiento</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03T08:30:00-03:00</news:publication_date>
-      <news:title>The Blood of Dawnwalker ya está entre nosotros: un vampiro, treinta días y demasiadas decisiones</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-03/dawnwalker/hero.webp</image:loc>
+      <image:title>Coen frente al paisaje oscuro de Vale Sangora en el arte oficial de The Blood of Dawnwalker</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/standard-chartered-cripto-spot-emiratos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/standard-chartered-cripto-spot-emiratos</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03T08:20:00-03:00</news:publication_date>
-      <news:title>Standard Chartered lleva Bitcoin y Ether spot a Emiratos: la banca ya no mira desde la tribuna</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-03/standard-chartered/hero.webp</image:loc>
+      <image:title>Diseño oficial de Standard Chartered para su oferta institucional de activos digitales</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/hargreaves-lansdown-etn-bitcoin-ether</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/hargreaves-lansdown-etn-bitcoin-ether</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03T08:10:00-03:00</news:publication_date>
-      <news:title>Hargreaves Lansdown abre la puerta a nueve ETN cripto, pero deja el freno de mano puesto</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-03/hargreaves/hero.webp</image:loc>
+      <image:title>Identidad visual oficial de Hargreaves Lansdown, plataforma británica de inversión</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/francia-prueba-tesla-fsd-europa</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/francia-prueba-tesla-fsd-europa</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03T08:00:00-03:00</news:publication_date>
-      <news:title>Francia pone a prueba el FSD de Tesla: dos autos antes de una decisión para toda Europa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-03/tesla-fsd/hero.webp</image:loc>
+      <image:title>Vehículo Tesla circulando con Full Self-Driving Supervisado en una imagen oficial</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/snowflake-ia-resultados-cortex-cowork</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/snowflake-ia-resultados-cortex-cowork</loc>
     <lastmod>2026-09-03</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-03T07:50:00-03:00</news:publication_date>
-      <news:title>Snowflake sube más de 24% y la IA deja de ser una diapositiva para convertirse en consumo</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-09-03/snowflake/hero.webp</image:loc>
+      <image:title>Interfaz oficial de Snowflake Intelligence, el agente empresarial de la compañía</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/comics/lanterns-capitulo-3-origen-john-stewart</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/lanterns-capitulo-3-origen-john-stewart</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T10:30:00-03:00</news:publication_date>
-      <news:title>Raíces esmeralda: el origen de John Stewart cambia Lanterns en su capítulo 3</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/lanterns-episode-3/john-guardian.webp</image:loc>
+      <image:title>Aaron Pierre como John Stewart con uniforme militar en el capítulo 3 de Lanterns</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/moonlighter-2-version-1-llega-hoy</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/moonlighter-2-version-1-llega-hoy</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T09:00:00-03:00</news:publication_date>
-      <news:title>Moonlighter 2 sale del acceso anticipado: hoy la tienda vuelve a abrir de verdad</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://newcdn.igromania.ru/articles/pics/tmp/images/2025/11/17/bdd00663-8adf-49da-9922-16929c966ce1.jpg</image:loc>
+      <image:title>Will y otros aventureros frente a una bóveda luminosa en Moonlighter 2 The Endless Vault</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-77000-bonos-etf-sin-palanca</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-77000-bonos-etf-sin-palanca</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T08:50:00-03:00</news:publication_date>
-      <news:title>Bitcoin aguanta cerca de USD 77.000 mientras los bonos y el petróleo le cambian el clima</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tbstat.com/wp/uploads/2026/04/20260410_Bitcoin_News_2-1200x675.jpg</image:loc>
+      <image:title>Representación de Bitcoin utilizada por The Block para ilustrar el mercado cripto</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/g20-reglas-claras-activos-digitales</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/g20-reglas-claras-activos-digitales</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T08:40:00-03:00</news:publication_date>
-      <news:title>El G20 promete caminos más claros para los activos digitales: ahora falta construirlos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tbstat.com/wp/uploads/2025/01/20250115_Tokens_News-1200x675.jpg</image:loc>
+      <image:title>Tokens digitales ilustrando la discusión regulatoria del G20</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/openai-astra-ciberseguridad-critica</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/openai-astra-ciberseguridad-critica</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T08:30:00-03:00</news:publication_date>
-      <news:title>Astra cruza el umbral crítico: la IA que encuentra fallas también obliga a cerrar puertas</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.reuters.com/resizer/v2/7S6FP3TGIRJFHNQ72YC45F7NSQ.jpg?auth=aff23f81fa8a98c29eb958cfb2063c79e910a3343dbb43ef4f778dea379eeb03&quality=80&width=1920</image:loc>
+      <image:title>Logotipo de OpenAI en una ilustración de Reuters</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/sonos-27-ace-ultra-beam-ultra</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/sonos-27-ace-ultra-beam-ultra</loc>
     <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-02T08:20:00-03:00</news:publication_date>
-      <news:title>Sonos 27 quiere recuperar la casa: nueva app, agentes de IA y dos equipos Ultra</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/sonos-ace-ultra-lifestyle.jpg?crop=0%2C0.041631973355535%2C100%2C99.916736053289&quality=90&strip=all&w=2400</image:loc>
+      <image:title>Persona utilizando los nuevos auriculares Sonos Ace Ultra</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/playstation-doble-state-of-play-3-septiembre-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/playstation-doble-state-of-play-3-septiembre-2026</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01T08:40:00-03:00</news:publication_date>
-      <news:title>PlayStation prepara una doble función el 3 de septiembre: State of Play y Japón sin pausa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.levelup.com/resizer/v2/state-of-play-WG6TDBGJTVAFHN5C2VECONHPEI.jpg?auth=ef946c2717824f61f08d0c758729ff5f1055a8ab01b1d4568cfa3ee1c1fa0253&focal=545%2C298&height=675&quality=70&width=1200</image:loc>
+      <image:title>Gráfica azul del State of Play anunciado por PlayStation para el 3 de septiembre de 2026</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/londres-kraken-acciones-tokenizadas-lse24-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/londres-kraken-acciones-tokenizadas-lse24-2027</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01T08:30:00-03:00</news:publication_date>
-      <news:title>La Bolsa de Londres se asocia con Kraken para llevar acciones británicas tokenizadas a LSE 24</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1E661NCT1TRWRA3HD65CEX3/blockchainweek2020uk1-1.jpg</image:loc>
+      <image:title>Edificio de la Bolsa de Londres usado para ilustrar su acuerdo de acciones tokenizadas con Payward</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/blackrock-flujos-etf-bitcoin-216-millones</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/blackrock-flujos-etf-bitcoin-216-millones</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01T08:20:00-03:00</news:publication_date>
-      <news:title>Los ETF de Bitcoin vuelven a recibir USD 216,7 millones, pero BlackRock explica casi todo el rebote</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1DMR8D8Q7DJ0ETNYGBE2SEM/bitco-etf.png</image:loc>
+      <image:title>Representación de Bitcoin frente a edificios financieros para ilustrar los flujos de ETF</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/galaxy-s26-ultra-privacy-display-prueba-limites</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/galaxy-s26-ultra-privacy-display-prueba-limites</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01T08:10:00-03:00</news:publication_date>
-      <news:title>Privacy Display del Galaxy S26 Ultra: la privacidad integrada cobra peaje en brillo y nitidez</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image-stgus.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s26/MOB_PH_GS_S26_Use-Privacy-Display-on-Galaxy-S26-Ultra-for-enhanced-security.jpg</image:loc>
+      <image:title>Dos Galaxy S26 Ultra mostrando la diferencia entre una conversación visible y Privacy Display activo</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/iphone-pixel-galaxy-camaras-viaje-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/iphone-pixel-galaxy-camaras-viaje-2026</loc>
     <lastmod>2026-09-01</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-09-01T08:00:00-03:00</news:publication_date>
-      <news:title>iPhone, Pixel o Galaxy para viajar: la prueba de Tecnonauta no encontró una cámara invencible</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.apple.com/v/iphone-17-pro/h/images/overview/cameras/intro/hero_camera__f42igewygpqy_xlarge.jpg</image:loc>
+      <image:title>Módulo triple de cámaras del iPhone 17 Pro mostrado por Apple</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/pokemon-champions-actualizacion-megas-septiembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/pokemon-champions-actualizacion-megas-septiembre</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T08:30:00-03:00</news:publication_date>
-      <news:title>Pokémon Champions rompe su propio meta el 9 de septiembre: tres Megas Z entran a la arena</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.blogs.es/c11226/pokemon-champions-2/650_1200.jpeg</image:loc>
+      <image:title>Combate de Pokémon Champions utilizado por 3DJuegos para presentar la actualización del 9 de septiembre</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-petroleo-iran-tasas-31-agosto</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-petroleo-iran-tasas-31-agosto</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T08:20:00-03:00</news:publication_date>
-      <news:title>Bitcoin termina agosto mirando al petróleo: USD 77.000 fue el susto, no toda la película</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://content-media.investing.com/news/moved_LYNXMPEM7D101_L.jpg</image:loc>
+      <image:title>Representación de Bitcoin utilizada por Investing.com en su cobertura del mercado del 31 de agosto</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/cronos-pausa-red-exploit-tectonic-75-millones</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/cronos-pausa-red-exploit-tectonic-75-millones</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T08:10:00-03:00</news:publication_date>
-      <news:title>Cronos frenó la cadena por Tectonic: USD 75 millones convierten la descentralización en una pregunta incómoda</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://substackcdn.com/image/fetch/f_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff33e5d27-af2d-4a44-9dfb-2efff17e7116_1000x1000.png</image:loc>
+      <image:title>Imagen oficial del lanzamiento de Cronos Mainnet publicada por Cronos Labs</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/google-play-android-16-api-36-plazo</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/google-play-android-16-api-36-plazo</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T08:00:00-03:00</news:publication_date>
-      <news:title>Google Play sube hoy la puerta a Android 16: API 36 ya no es una tarea para después</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://developer.android.com/static/studio/preview/features/images/android-sdk-upgrade-assistant.png</image:loc>
+      <image:title>Asistente oficial de Android Studio para actualizar el nivel de API objetivo de una aplicación</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/john-ternus-ceo-apple-tim-cook-transicion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/john-ternus-ceo-apple-tim-cook-transicion</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-31T07:50:00-03:00</news:publication_date>
-      <news:title>Apple cambia de capitán mañana: John Ternus recibe el iPhone, la IA atrasada y un imperio de USD 4 billones</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.apple.com/newsroom/images/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/article/Apple-John-Ternus-Tim-Cook_Full-Bleed-Image.jpg.large.jpg</image:loc>
+      <image:title>Tim Cook y John Ternus caminando juntos en Apple Park en una fotografía oficial de Apple</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/gamescom-2026-ganadores-cd-projekt-sega</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/gamescom-2026-ganadores-cd-projekt-sega</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:20:00-03:00</news:publication_date>
-      <news:title>Gamescom 2026 repartió sus premios: CD Projekt y Sega salieron con el inventario lleno</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://eu-central-1-gamescom.graphassets.com/AMwDHZTUSMaIlRlMFLL7Qz/PssD8VBzTXq72TP0ISkN</image:loc>
+      <image:title>Escenario oficial de los gamescom awards 2026 durante la ceremonia de premiación</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/stalker-2-multijugador-segunda-expansion</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/stalker-2-multijugador-segunda-expansion</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:20:00-03:00</news:publication_date>
-      <news:title>STALKER 2 todavía no guarda el detector: multijugador y otra expansión siguen vivos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i.blogs.es/86eb8d/gr/500_333.jpeg</image:loc>
+      <image:title>Escena de STALKER 2 utilizada por 3DJuegos para informar sobre los próximos proyectos de GSC Game World</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/g20-bessent-deuda-bonos-aranceles-asheville</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/g20-bessent-deuda-bonos-aranceles-asheville</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:10:00-03:00</news:publication_date>
-      <news:title>El G20 llega a Asheville con USD 40 billones de deuda sentados en la mesa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://828newsnow.com/wp-content/blogs.dir/282/files/2026/08/Treasury-secretary.jpg</image:loc>
+      <image:title>Scott Bessent ante periodistas durante la preparación de las reuniones financieras del G20</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/stellar-activos-tokenizados-casi-4-mil-millones</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/stellar-activos-tokenizados-casi-4-mil-millones</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:10:00-03:00</news:publication_date>
-      <news:title>Stellar roza los USD 4.000 millones en activos tokenizados: el dato es enorme, el atajo mental no</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://s3-images.ctmedia.io/media/article-covers/2026/08/01M17DHDVASPVRK9KZ8KYFMNK1/hi-how-binance-plans-to-bring-tokenized-us-stocks-3.png</image:loc>
+      <image:title>Ilustración editorial de Cointelegraph sobre acciones y activos tradicionales representados en blockchain</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/xrp-ledger-computacion-cuantica-q-day-2028</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/xrp-ledger-computacion-cuantica-q-day-2028</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:00:00-03:00</news:publication_date>
-      <news:title>XRP Ledger se prepara para el Q-Day: el riesgo cuántico dejó de ser ciencia ficción decorativa</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.sanity.io/images/s3y3vcno/production/3fdb04bd3eb1c1413ad0d70e8d1e464ee4866ad9-1500x1000.jpg?auto=format&fit=crop&crop=focalpoint&w=1920&h=1080&q=75</image:loc>
+      <image:title>Representación de un procesador cuántico utilizada por CoinDesk en su informe sobre XRP Ledger</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bis-stablecoins-pagos-tokenizados</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bis-stablecoins-pagos-tokenizados</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T08:00:00-03:00</news:publication_date>
-      <news:title>El BIS enfría a las stablecoins como dinero cotidiano: útiles sí, universales todavía no</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://content-media.investing.com/news/moved_LYNXMPEJ9C0QZ_L.jpg</image:loc>
+      <image:title>Pablo Hernández de Cos, director general del BIS, en una fotografía distribuida por Reuters</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/openai-corta-modelos-cursor-spacex-noviembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/openai-corta-modelos-cursor-spacex-noviembre</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T07:50:00-03:00</news:publication_date>
-      <news:title>OpenAI le pone fecha de salida a Cursor: el divorcio con SpaceX llega el 12 de noviembre</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.ctfassets.net/kftzwdyauwt9/6RFKP8tysuxOLxVaiCRlu/ac31b03c2aeb6e3da620f2db89c7b6e9/index-our-decision-on-cursor-following-its-acquisition-by-spacex.png?w=1600&h=900&fit=fill</image:loc>
+      <image:title>Imagen oficial del anuncio de OpenAI sobre el fin de su acuerdo con Cursor</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/apple-gafas-inteligentes-privacidad-rumor</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/apple-gafas-inteligentes-privacidad-rumor</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T07:50:00-03:00</news:publication_date>
-      <news:title>Apple imagina gafas que ven sin grabar: la privacidad sería la función estrella</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://i0.wp.com/clipset.com/wp-content/uploads/2026/08/apple-glasses.jpeg?fit=411%2C300&ssl=1</image:loc>
+      <image:title>Concepto visual de unas posibles gafas inteligentes de Apple publicado por Clipset</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/carta-empresas-defensa-ciberataques-ia</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/carta-empresas-defensa-ciberataques-ia</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T07:40:00-03:00</news:publication_date>
-      <news:title>Más de 100 empresas avisan que los ciberataques con IA van a escalar: la contraseña fuerte ya no alcanza</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.ctfassets.net/kftzwdyauwt9/6imVXMcUcHNW3dFi3sWjCo/997611e54208bc274e1e1d6f0db21e31/collective-cyber-defense--seo-v001.png?w=1600&h=900&fit=fill</image:loc>
+      <image:title>Imagen oficial de la convocatoria colectiva para reforzar la ciberdefensa frente a la IA</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/galaxy-s27-ultra-camaras-rumores</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/galaxy-s27-ultra-camaras-rumores</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-30T07:40:00-03:00</news:publication_date>
-      <news:title>Galaxy S27 Ultra: el rumor quita una cámara y agranda la batería, pero todavía falta Samsung</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/26031538/Samsung-Mobile-Galaxy-Unpacked-2026-Galaxy-S26-Series-Launch_main1.jpg</image:loc>
+      <image:title>Familia Galaxy S26 presentada oficialmente por Samsung, utilizada como referencia del diseño actual</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/squadron-42-retraso-segundo-trimestre-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/squadron-42-retraso-segundo-trimestre-2027</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T08:05:00-03:00</news:publication_date>
-      <news:title>Squadron 42 vuelve a retrasarse: el viaje espacial apunta al segundo trimestre de 2027</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.cgames.de/images/gamestar/290/star-citizen-squadron-42_6315898.jpg</image:loc>
+      <image:title>Combate en primera persona contra un Vanduul en una demostración de Squadron 42</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/solana-doble-desinflacion-emision-sol</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/solana-doble-desinflacion-emision-sol</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T07:55:00-03:00</news:publication_date>
-      <news:title>Solana acelera la desinflación: menos SOL nuevos, pero también menos recompensa por staking</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fsfdp-monitoring%2Fsolana-sfdp.webp&w=1920</image:loc>
+      <image:title>Imagen oficial del programa de delegación de la Fundación Solana</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-caida-warsh-jackson-hole</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-caida-warsh-jackson-hole</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T07:45:00-03:00</news:publication_date>
-      <news:title>Bitcoin cayó después de Jackson Hole: una frase de la Fed pinchó el entusiasmo</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://cdn.sanity.io/images/crh39rus/prod-v2/c5eb2be2c0a2ddde70a4bbd2c5cce7eb8c324efb-1981x1386.webp</image:loc>
+      <image:title>Gráfico de Grayscale Research que compara el precio de Bitcoin con el índice dólar</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/pixel-11-pro-xl-ia-camara-precio</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/pixel-11-pro-xl-ia-camara-precio</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T07:35:00-03:00</news:publication_date>
-      <news:title>Pixel 11 Pro XL: la IA mejora la cámara, pero el precio ya pide una revolución</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Pixel-11ProXL_Family-Shot.width-1200.format-webp.webp</image:loc>
+      <image:title>Imagen oficial de los Google Pixel 11 Pro y Pixel 11 Pro XL en sus colores disponibles</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/gta-6-ps5-30-fps-rendimiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/gta-6-ps5-30-fps-rendimiento</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-29T07:25:00-03:00</news:publication_date>
-      <news:title>¿GTA 6 irá a 30 FPS en PS5? La sospecha técnica tiene sentido, la confirmación todavía no existe</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.rockstargames.com/VI/_next/static/media/Vice_City_02.0c5.7qx17u9kl.jpg?akim=1&imdensity=1&imwidth=3840</image:loc>
+      <image:title>Captura oficial de Vice City en Grand Theft Auto VI publicada por Rockstar Games</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/star-wars-zero-company-review</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/star-wars-zero-company-review</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T08:45:00-03:00</news:publication_date>
-      <news:title>Star Wars Zero Company es el XCOM que esperaba: sólido de principio a fin</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/zero-company-review/tactical-overwatch.webp</image:loc>
+      <image:title>Combate táctico oficial de Star Wars Zero Company con un escuadrón enfrentando droides entre coberturas</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/luma-demo-10-horas-moon-studios</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/luma-demo-10-horas-moon-studios</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T08:30:00-03:00</news:publication_date>
-      <news:title>Luma aparece de la nada con una demo de 10 horas: así sí quiero descubrir juegos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/luma-demo/luma-evening.webp</image:loc>
+      <image:title>Captura oficial de Luma con una ciudad voxel iluminada al atardecer junto al agua</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/clarity-act-prueba-senado-septiembre</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/clarity-act-prueba-senado-septiembre</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T08:20:00-03:00</news:publication_date>
-      <news:title>CLARITY Act enfrenta su prueba clave: regulación real, narrativas aparte</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/clarity-act/senate-banking.webp</image:loc>
+      <image:title>Tarjeta institucional oficial del Comité Bancario del Senado de Estados Unidos</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/schwab-solana-avalanche-chainlink</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/schwab-solana-avalanche-chainlink</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T08:10:00-03:00</news:publication_date>
-      <news:title>Schwab suma Solana, Avalanche y Chainlink: adopción sí, señal de compra no</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/schwab-crypto/schwab-logo.webp</image:loc>
+      <image:title>Logotipo corporativo oficial de Charles Schwab sobre fondo blanco</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/iphone-fold-knowledge-navigator-rumor</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/iphone-fold-knowledge-navigator-rumor</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T08:00:00-03:00</news:publication_date>
-      <news:title>El iPhone plegable revive un sueño de Apple de 1987, pero todavía es un rumor</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/apple-fold/iphone-official.webp</image:loc>
+      <image:title>Imagen oficial de la familia iPhone actual de Apple usada para contextualizar un posible modelo plegable</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/oppo-reno16-pro-bubble-creadores</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/oppo-reno16-pro-bubble-creadores</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-28T07:50:00-03:00</news:publication_date>
-      <news:title>OPPO Reno16 Pro y Bubble: una segunda pantalla para creadores que graban solos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/oppo-reno16/oppo-reno16-pro.webp</image:loc>
+      <image:title>Imagen oficial del OPPO Reno16 Pro en color blanco vista de frente y de espalda</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/tropico-7-fecha-game-pass-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/tropico-7-fecha-game-pass-2027</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T11:30:00-03:00</news:publication_date>
-      <news:title>Tropico 7 ya tiene fecha: El Presidente vuelve y yo ya preparo mi dictadura</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/tropico-7/tropico-7-city.webp</image:loc>
+      <image:title>Captura oficial de Tropico 7 con una avenida y edificios de una ciudad tropical</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/bitcoin-78000-calma-proximo-movimiento</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/bitcoin-78000-calma-proximo-movimiento</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T11:15:00-03:00</news:publication_date>
-      <news:title>Bitcoin ronda los USD 79.000: ¿calma antes del próximo movimiento?</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1800&q=85</image:loc>
+      <image:title>Moneda física de Bitcoin frente a una placa electrónica</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/taurus-swift-depositos-tokenizados-bancos</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/taurus-swift-depositos-tokenizados-bancos</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T11:00:00-03:00</news:publication_date>
-      <news:title>Swift conecta bancos con blockchain: esto sí puede cambiar los pagos</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://26780121.fs1.hubspotusercontent-eu1.net/hubfs/26780121/Blog%20post%20Social%20media%20template%20Taurus%20-%202026-08-25T064229.357.png</image:loc>
+      <image:title>Gráfico corporativo de Taurus sobre su conexión con el libro blockchain de Swift</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/tecnologia/snap-specs-gafas-ar-autonomas-precio</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/snap-specs-gafas-ar-autonomas-precio</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T10:45:00-03:00</news:publication_date>
-      <news:title>Snap SPECS: las gafas del futuro existen, pero cuestan como una PC gamer</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.ctfassets.net/o1znirz7lzo4/5CBMRXSmjZwMc64R4jgXXh/03f5992883caf5d2253b610b1b4f9553/SPECS27_52_Front_View.png?fm=webp&h=800&q=60</image:loc>
+      <image:title>Vista frontal oficial de las gafas de realidad aumentada Snap SPECS</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/gta-vi-netflix-extended-look-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/gta-vi-netflix-extended-look-2026</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T09:45:00-03:00</news:publication_date>
-      <news:title>¡Paren todo! GTA VI llega a Netflix y yo ya preparé el sillón</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.rockstargames.com/VI/_next/static/media/poster_full.0az_iud2g3y4j.jpg?akim=1&imdensity=1&imwidth=3840</image:loc>
+      <image:title>Arte oficial de Grand Theft Auto VI con Jason y Lucia en Vice City</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/turok-origins-retraso-primavera-2027</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/turok-origins-retraso-primavera-2027</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-27T08:30:00-03:00</news:publication_date>
-      <news:title>Turok: Origins se retrasa a 2027: ¿mala noticia o tiempo bien invertido?</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://image.api.playstation.com/vulcan/ap/rnd/202411/2815/2830272f514c89cfeda73a26d77cec6e130bd873c77afac0.jpg</image:loc>
+      <image:title>Guerrero de Turok Origins combate contra dinosaurios en una caverna</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/finanzas/oro-rey-metales-portafolio-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas/oro-rey-metales-portafolio-2026</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26T08:30:00-03:00</news:publication_date>
-      <news:title>El resurgir del Rey de los Metales</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/gold-king-2026/gold-rally-hero.webp</image:loc>
+      <image:title>Lingotes y moneda de oro sobre una mesa financiera oscura</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://tokengeekcoin.com/articulo/gaming/bombazos-gamescom-2026</loc>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/bombazos-gamescom-2026</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-    <news:news>
-      <news:publication>
-        <news:name>TokenGeekCoin</news:name>
-        <news:language>es</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-26T07:00:00-03:00</news:publication_date>
-      <news:title>Gamescom 2026: bombazos, remakes y todo lo anunciado</news:title>
-    </news:news>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/gamescom-2026/witcher-3.webp</image:loc>
+      <image:title>Geralt de Rivia en The Witcher 3, protagonista del cierre de Gamescom 2026</image:title>
+    </image:image>
   </url>
 </urlset>

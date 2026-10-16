@@ -21,6 +21,8 @@ interface ArticleReaderModalProps {
   onClose: () => void;
   isBookmarked?: boolean;
   onToggleBookmark?: (article: Article) => void;
+  allArticles?: Article[];
+  onSelectArticle?: (article: Article) => void;
 }
 
 export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
@@ -28,10 +30,32 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
   onClose,
   isBookmarked = false,
   onToggleBookmark,
+  allArticles = [],
+  onSelectArticle,
 }) => {
   const [fontSize, setFontSize] = useState<'normal' | 'large' | 'xl'>('normal');
   const [copied, setCopied] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
+  const [readingProgress, setReadingProgress] = useState(0);
+  const scrollContainerRef = React.useRef<HTMLDivElement>(null);
+
+  const handleScroll = () => {
+    if (!scrollContainerRef.current) return;
+    const { scrollTop, scrollHeight, clientHeight } = scrollContainerRef.current;
+    if (scrollHeight <= clientHeight) {
+      setReadingProgress(100);
+      return;
+    }
+    const progress = Math.min(100, Math.max(0, (scrollTop / (scrollHeight - clientHeight)) * 100));
+    setReadingProgress(progress);
+  };
+
+  useEffect(() => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollTop = 0;
+      setReadingProgress(0);
+    }
+  }, [article?.slug]);
 
   // Stop speech when unmounted or article changes
   useEffect(() => {
@@ -107,15 +131,34 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
     xl: 'text-xl leading-relaxed',
   }[fontSize];
 
+  const relatedArticles = React.useMemo(() => {
+    if (!allArticles || allArticles.length === 0 || !article) return [];
+    const sameCat = allArticles.filter((a) => a.slug !== article.slug && a.category === article.category);
+    const others = allArticles.filter((a) => a.slug !== article.slug && a.category !== article.category);
+    return [...sameCat, ...others].slice(0, 3);
+  }, [allArticles, article]);
+
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/85 backdrop-blur-md flex justify-center p-0 sm:p-4 md:p-6 animate-in fade-in duration-200">
+    <div
+      ref={scrollContainerRef}
+      onScroll={handleScroll}
+      className="fixed inset-0 z-50 overflow-y-auto bg-black/85 backdrop-blur-md flex justify-center p-0 sm:p-4 md:p-6 animate-in fade-in duration-200"
+    >
       <div
         className="article article-page w-full max-w-4xl min-h-screen sm:min-h-0 sm:my-6 border-3 border-[var(--mg-purple)] shadow-2xl flex flex-col relative"
         style={{ background: 'var(--mg-ink)', color: 'var(--mg-white)' }}
       >
+        {/* Reading Progress Indicator Bar */}
+        <div className="sticky top-0 left-0 right-0 h-1.5 w-full bg-[#120822] z-40 overflow-hidden">
+          <div
+            className="h-full bg-gradient-to-r from-[var(--mg-acid)] via-[var(--mg-orange)] to-[#00f2ff] transition-all duration-100 ease-out"
+            style={{ width: `${readingProgress}%` }}
+          />
+        </div>
+
         {/* Sticky Action Toolbar in Magazine Geek style */}
         <div
-          className="sticky top-0 z-30 px-4 py-3 flex items-center justify-between gap-2 border-b-4 border-[var(--mg-orange)]"
+          className="sticky top-1.5 z-30 px-4 py-3 flex items-center justify-between gap-2 border-b-4 border-[var(--mg-orange)]"
           style={{ background: 'var(--mg-panel)' }}
         >
           <button
@@ -490,6 +533,89 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
 
           {/* Espacio publicitario al pie del artículo */}
           <AdSenseUnit label="PUBLICIDAD RECOMENDADA" />
+
+          {/* Related Stories / Continuous Reading Loop */}
+          {relatedArticles.length > 0 && (
+            <div className="my-10 pt-8 border-t-3 border-[var(--mg-purple)]">
+              <div className="flex items-center justify-between mb-6">
+                <div>
+                  <span className="text-[var(--mg-acid)] text-xs font-mono font-bold uppercase tracking-wider block">
+                    // SIGUE EXPLORANDO
+                  </span>
+                  <h3 className="text-xl sm:text-2xl font-black uppercase text-white font-display">
+                    Noticias Relacionadas
+                  </h3>
+                </div>
+                <span className="text-xs text-stone-400 font-sans hidden sm:inline">
+                  Artículos seleccionados para ti
+                </span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {relatedArticles.map((rel) => (
+                  <div
+                    key={rel.slug}
+                    onClick={() => onSelectArticle && onSelectArticle(rel)}
+                    className="p-3 bg-[#110920] border border-white/15 hover:border-[var(--mg-acid)] cursor-pointer group flex flex-col justify-between transition-all hover:-translate-y-1"
+                  >
+                    <div>
+                      {rel.image && (
+                        <div className="aspect-video overflow-hidden mb-2.5 bg-black">
+                          <img
+                            src={rel.image}
+                            alt={rel.title}
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                            loading="lazy"
+                          />
+                        </div>
+                      )}
+                      <span className="text-[10px] font-mono font-bold text-[var(--mg-orange)] uppercase block mb-1">
+                        {rel.category}
+                      </span>
+                      <h4 className="text-sm font-bold text-white group-hover:text-[var(--mg-acid)] line-clamp-2 leading-snug">
+                        {rel.title}
+                      </h4>
+                    </div>
+                    <span className="text-[11px] text-[var(--mg-acid)] font-bold mt-3 inline-flex items-center gap-1">
+                      Leer análisis →
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Newsletter / Push Community Callout */}
+          <div className="my-8 p-6 bg-gradient-to-r from-[#1c0f38] to-[#120a24] border-2 border-[var(--mg-orange)] flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+              <span className="px-2 py-0.5 bg-[var(--mg-orange)] text-black font-black text-[10px] uppercase tracking-wider font-mono">
+                COMUNIDAD TOKEN GEEK
+              </span>
+              <h4 className="text-lg font-black text-white mt-1.5 font-display">
+                No te pierdas ninguna primicia geek ni análisis sin humo
+              </h4>
+              <p className="text-xs text-stone-300 mt-1 font-sans">
+                Únete a nuestros canales de difusión y recibe las novedades de hardware, IA, gaming y finanzas al instante.
+              </p>
+            </div>
+            <div className="flex items-center gap-2 shrink-0">
+              <a
+                href="https://www.youtube.com/@eztec3/videos?sub_confirmation=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-[#ff0000] hover:bg-[#cc0000] text-white text-xs font-bold uppercase tracking-wider rounded font-sans transition-colors cursor-pointer"
+              >
+                YouTube ↗
+              </a>
+              <a
+                href="https://www.linkedin.com/in/eze-guerrero-06585142b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 py-2 bg-[#0a66c2] hover:bg-[#084e96] text-white text-xs font-bold uppercase tracking-wider rounded font-sans transition-colors cursor-pointer"
+              >
+                LinkedIn ↗
+              </a>
+            </div>
+          </div>
 
           {/* Author signature footer */}
           <div

@@ -310,6 +310,43 @@ export default function App() {
           {/* Marquee ticker cinético inspirado en Ryan Haskins */}
           <KineticMarquee onExploreOfertas={() => navigateTo('ofertas')} />
 
+          {/* Trending Hot Topics Bar */}
+          <section className="max-w-6xl mx-auto px-4 pt-4 pb-1" aria-label="Temas en tendencia">
+            <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none text-xs font-sans">
+              <span className="flex items-center gap-1 font-mono font-black text-[var(--mg-acid)] uppercase tracking-wider shrink-0 bg-[#160c28] px-2.5 py-1 border border-[var(--mg-acid)]/40">
+                <span className="text-[var(--mg-orange)] animate-pulse">🔥</span> TENDENCIAS:
+              </span>
+              {[
+                { label: '#MiCAFaseII', query: 'MiCA' },
+                { label: '#ArrowLakeRefresh', query: 'Arrow Lake' },
+                { label: '#InstinctMI350X', query: 'MI350X' },
+                { label: '#ModernWarfare4', query: 'Modern Warfare 4' },
+                { label: '#TSMC3nm', query: 'TSMC' },
+                { label: '#Bitcoin81k', query: 'Bitcoin' },
+                { label: '#RDNA4', query: 'RDNA 4' },
+                { label: '#DLSS45', query: 'DLSS' },
+              ].map((tag) => (
+                <button
+                  key={tag.label}
+                  onClick={() => {
+                    const match = allArticles.find(
+                      (a) =>
+                        a.title.toLowerCase().includes(tag.query.toLowerCase()) ||
+                        a.slug.toLowerCase().includes(tag.query.toLowerCase()) ||
+                        a.dek.toLowerCase().includes(tag.query.toLowerCase())
+                    );
+                    if (match) {
+                      handleSelectArticle(match);
+                    }
+                  }}
+                  className="px-2.5 py-1 bg-white/5 hover:bg-[var(--mg-acid)]/20 text-stone-300 hover:text-[var(--mg-acid)] border border-white/10 hover:border-[var(--mg-acid)]/50 rounded-full font-mono text-[11px] transition-all cursor-pointer whitespace-nowrap shrink-0"
+                >
+                  {tag.label}
+                </button>
+              ))}
+            </div>
+          </section>
+
           {/* LO ÚLTIMO: Publicaciones del día en portada principal */}
           <section className="classic-section classic-latest" id="noticias">
             <div className="classic-section-heading">
@@ -530,6 +567,8 @@ export default function App() {
       <ArticleReaderModal
         article={selectedArticle}
         onClose={handleCloseArticle}
+        allArticles={allArticles}
+        onSelectArticle={handleSelectArticle}
       />
     </>
   );

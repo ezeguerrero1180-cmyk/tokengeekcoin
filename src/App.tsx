@@ -58,13 +58,47 @@ const getViewFromUrl = (): AppView => {
   return 'home';
 };
 
+const getArticleSlugFromUrl = (): string | null => {
+  if (typeof window === 'undefined') return null;
+  const path = window.location.pathname;
+  if (path.startsWith('/articulo/')) {
+    return path.replace('/articulo/', '').replace(/\/$/, '');
+  }
+  const hash = window.location.hash;
+  if (hash.startsWith('#/articulo/') || hash.startsWith('#articulo/')) {
+    return hash.replace(/^#\/?articulo\//, '').replace(/\/$/, '');
+  }
+  return null;
+};
+
 export default function App() {
   const [currentView, setCurrentView] = useState<AppView>(getViewFromUrl);
-  const [selectedArticle, setSelectedArticle] = useState<Article | null>(null);
+  const [selectedArticle, setSelectedArticle] = useState<Article | null>(() => {
+    const slug = getArticleSlugFromUrl();
+    if (slug) {
+      return (rawArticles as Article[]).find((a) => a.slug === slug || a.slug.endsWith(slug)) || null;
+    }
+    return null;
+  });
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
 
   // Dynamic Expert-Level SEO synchronization
   useSEO({ article: selectedArticle, currentView, activeCategory });
+
+  const handleSelectArticle = useCallback((article: Article | null) => {
+    setSelectedArticle(article);
+    if (article) {
+      window.history.pushState({ articleSlug: article.slug }, '', `/articulo/${article.slug}`);
+    } else {
+      if (window.location.pathname.startsWith('/articulo/')) {
+        window.history.pushState(null, '', '/');
+      }
+    }
+  }, []);
+
+  const handleCloseArticle = useCallback(() => {
+    handleSelectArticle(null);
+  }, [handleSelectArticle]);
 
   // Sync with browser back/forward buttons & hash changes
   useEffect(() => {
@@ -80,6 +114,13 @@ export default function App() {
 
     const handleLocationChange = () => {
       setCurrentView(getViewFromUrl());
+      const slug = getArticleSlugFromUrl();
+      if (slug) {
+        const found = (rawArticles as Article[]).find((a) => a.slug === slug || a.slug.endsWith(slug));
+        setSelectedArticle(found || null);
+      } else if (window.location.pathname === '/' || !window.location.pathname.startsWith('/articulo/')) {
+        setSelectedArticle(null);
+      }
     };
 
     window.addEventListener('popstate', handleLocationChange);
@@ -92,6 +133,7 @@ export default function App() {
 
   const navigateTo = useCallback((view: AppView, hash?: string) => {
     setCurrentView(view);
+    setSelectedArticle(null);
     if (view === 'ofertas') {
       window.history.pushState(null, '', '/ofertas');
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -207,7 +249,7 @@ export default function App() {
       {currentView === 'sobre-mi' && (
         <SobreMiPage
           onBackToHome={() => navigateTo('home')}
-          onSelectArticle={setSelectedArticle}
+          onSelectArticle={handleSelectArticle}
           latestArticles={allArticles}
         />
       )}
@@ -277,7 +319,7 @@ export default function App() {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-xs uppercase font-sans font-bold tracking-wider text-[#a8a29e] hidden sm:inline">
-                  28 SEP 2026 · {newArticles.length} publicaciones de hoy
+                  {leadArticle?.date || 'HOY'} · {newArticles.length} publicaciones de hoy
                 </span>
               </div>
             </div>
@@ -286,7 +328,7 @@ export default function App() {
               <div className="classic-lead-story haskins-card group">
                 <div
                   className="classic-lead-image cursor-pointer overflow-hidden"
-                  onClick={() => setSelectedArticle(leadArticle)}
+                  onClick={() => handleSelectArticle(leadArticle)}
                 >
                   <div className="w-full h-full flex items-center justify-center haskins-zoom-img">
                     <SiteImage
@@ -306,11 +348,11 @@ export default function App() {
                   </p>
                   <h3>
                     <a
-                      href={`#${leadArticle.slug}`}
+                      href={`/articulo/${leadArticle.slug}`}
                       className="font-display group-hover:text-[var(--mg-acid)] transition-colors duration-200"
                       onClick={(e) => {
                         e.preventDefault();
-                        setSelectedArticle(leadArticle);
+                        handleSelectArticle(leadArticle);
                       }}
                     >
                       {leadArticle.title}
@@ -322,7 +364,7 @@ export default function App() {
                   </span>
                   <button
                     className="classic-button haskins-btn cursor-pointer"
-                    onClick={() => setSelectedArticle(leadArticle)}
+                    onClick={() => handleSelectArticle(leadArticle)}
                   >
                     Leer la noticia →
                   </button>
@@ -335,7 +377,7 @@ export default function App() {
                 <StoryCard
                   key={article.slug}
                   article={article}
-                  onSelect={setSelectedArticle}
+                  onSelect={handleSelectArticle}
                 />
               ))}
             </div>
@@ -425,7 +467,7 @@ export default function App() {
                   <StoryCard
                     key={article.slug}
                     article={article}
-                    onSelect={setSelectedArticle}
+                    onSelect={handleSelectArticle}
                   />
                 ))}
               </div>
@@ -487,7 +529,7 @@ export default function App() {
       {/* Visor modal para lectura de artículos */}
       <ArticleReaderModal
         article={selectedArticle}
-        onClose={() => setSelectedArticle(null)}
+        onClose={handleCloseArticle}
       />
     </>
   );

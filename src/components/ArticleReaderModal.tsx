@@ -58,11 +58,24 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
 
   const isToday = isTodayArticle(article);
 
-  const handleShare = () => {
-    const url = window.location.href;
-    navigator.clipboard.writeText(url).then(() => {
+  const shareUrl = `https://www.tokengeekcoin.com/articulo/${article.slug}`;
+
+  const handleShare = async () => {
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: article.title,
+          text: article.dek,
+          url: shareUrl,
+        });
+        return;
+      } catch {
+        // Fallback to clipboard
+      }
+    }
+    navigator.clipboard.writeText(shareUrl).then(() => {
       setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
+      setTimeout(() => setCopied(false), 2500);
     });
   };
 
@@ -411,6 +424,69 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
               </div>
             </div>
           )}
+
+          {/* Social Share & Virality Module */}
+          <div
+            className="p-5 my-8 border-2 border-[var(--mg-acid)]"
+            style={{ background: '#120b22' }}
+          >
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div>
+                <span className="text-[var(--mg-acid)] text-xs font-mono font-bold uppercase tracking-wider block mb-1">
+                  // DIFUSIÓN GEEK
+                </span>
+                <h4 className="text-white font-bold text-base sm:text-lg">
+                  ¿Te gustó este análisis? Compártelo y apoya el proyecto:
+                </h4>
+              </div>
+              <div className="flex flex-wrap items-center gap-2">
+                <a
+                  href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(article.title)}&url=${encodeURIComponent(shareUrl)}&via=TokenGeekCoin`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 bg-[#1da1f2]/20 hover:bg-[#1da1f2]/40 text-[#1da1f2] border border-[#1da1f2]/40 text-xs font-bold font-sans rounded transition-all cursor-pointer flex items-center gap-1.5"
+                  title="Compartir en X"
+                >
+                  <span>𝕏 / Twitter</span>
+                </a>
+                <a
+                  href={`https://api.whatsapp.com/send?text=${encodeURIComponent(`${article.title} - Lee más en: ${shareUrl}`)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 bg-[#25d366]/20 hover:bg-[#25d366]/40 text-[#25d366] border border-[#25d366]/40 text-xs font-bold font-sans rounded transition-all cursor-pointer flex items-center gap-1.5"
+                  title="Compartir en WhatsApp"
+                >
+                  <span>WhatsApp</span>
+                </a>
+                <a
+                  href={`https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(article.title)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 bg-[#0088cc]/20 hover:bg-[#0088cc]/40 text-[#0088cc] border border-[#0088cc]/40 text-xs font-bold font-sans rounded transition-all cursor-pointer flex items-center gap-1.5"
+                  title="Compartir en Telegram"
+                >
+                  <span>Telegram</span>
+                </a>
+                <a
+                  href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-3 py-1.5 bg-[#0a66c2]/20 hover:bg-[#0a66c2]/40 text-[#0a66c2] border border-[#0a66c2]/40 text-xs font-bold font-sans rounded transition-all cursor-pointer flex items-center gap-1.5"
+                  title="Compartir en LinkedIn"
+                >
+                  <span>LinkedIn</span>
+                </a>
+                <button
+                  onClick={handleShare}
+                  className="px-3 py-1.5 bg-white/10 hover:bg-white/20 text-white border border-white/30 text-xs font-bold font-sans rounded transition-all cursor-pointer flex items-center gap-1.5"
+                  title="Copiar enlace"
+                >
+                  {copied ? <Check className="w-3.5 h-3.5 text-[var(--mg-acid)]" /> : <Share2 className="w-3.5 h-3.5" />}
+                  <span>{copied ? '¡Copiado!' : 'Copiar'}</span>
+                </button>
+              </div>
+            </div>
+          </div>
 
           {/* Espacio publicitario al pie del artículo */}
           <AdSenseUnit label="PUBLICIDAD RECOMENDADA" />

@@ -152,7 +152,7 @@ export const SobreMiPage: React.FC<SobreMiPageProps> = ({
           {latestArticles.slice(0, 6).map((article, index) => (
             <a
               key={article.slug}
-              href={`#${article.slug}`}
+              href={`/articulo/${article.slug}`}
               onClick={(e) => {
                 e.preventDefault();
                 onSelectArticle(article);

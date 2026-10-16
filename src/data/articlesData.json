@@ -1,5 +1,217 @@
 [
   {
+    "slug": "cripto/ue-completa-fase-2-reglamento-mica-licencias-stablecoins-liquidez-defi",
+    "category": "FINANZAS + CRIPTO",
+    "date": "16 OCT 2026",
+    "dateIso": "2026-10-16T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Finanzas: La Unión Europea completa la Fase II de MiCA: licencias obligatorias para emisores de stablecoins y reajuste en la liquidez de DeFi",
+    "dek": "La Autoridad Europea de Valores y Mercados (ESMA) exige licencia bancaria EMI y segregación total de reservas auditadas en tiempo real para operar en la Eurozona, provocando una profunda reconfiguración en los pools de finanzas descentralizadas.",
+    "personalAngle": "MiCA Fase II no es el fin del ecosistema cripto en Europa, sino su bautismo de fuego institucional: la era del arbitraje regulatorio y las paridades fiduciarias opacas ha terminado, abriendo la puerta a los verdaderos billones de la banca corporativa.",
+    "leadEyebrow": "UNIÓN EUROPEA · REGULACIÓN MICA FASE II & STABLECOINS",
+    "leadTitle": "La ESMA activa la Fase II de MiCA: desliste de stablecoins no auditadas y éxodo de liquidez hacia EURC y USDC en Europa",
+    "image": "/articles/2026-10-16/mica-stablecoins-hero.jpg",
+    "imageAlt": "Sede de regulación financiera europea en Bruselas con pantallas holográficas del marco MiCA y stablecoins verificadas",
+    "imageCredit": "ESMA Media Center / TokenGeekCoin",
+    "body": [
+      "La Autoridad Europea de Valores y Mercados (ESMA), en estrecha coordinación con la Autoridad Bancaria Europea (EBA), ha oficializado la guía definitiva para la implementación total de la Fase II del reglamento MiCA (Markets in Crypto-Assets). Con esta normativa en pleno vigor desde esta medianoche, todos los proveedores de servicios de criptoactivos (CASP) autorizados para operar en los 27 estados miembros de la Unión Europea deben proceder al desliste inmediato de aquellas stablecoins que no cuenten con reservas bancarias auditadas en tiempo real y licencias fiduciarias reconocidas.",
+      "El filtro impuesto por la directiva europea marca un antes y un después en la solvencia del mercado digital. Para mantener la autorización de negociación en plataformas comunitarias, los emisores de tokens referenciados a activos fiduciarios (ART y EMT) están obligados a poseer una licencia formal de Entidad de Dinero Electrónico (EMI) o estatus de entidad bancaria comunitaria, segregar el 100% de los depósitos de respaldo en cuentas comerciales supervisadas de la Eurozona y publicar oráculos criptográficos de Pruebas de Reserva (Proof of Reserves) verificables bloque a bloque.",
+      "El efecto en las plataformas descentralizadas y exchanges centralizados no se ha hecho esperar. Los pools de liquidez en Uniswap, Curve y Aave con exposición europea han experimentado una migración vertiginosa hacia activos plenamente conformes como EURC (Circle) y USDC, mientras que stablecoins algorítmicas sintéticas o sin respaldo fiduciario directo han visto restringida su operatividad directa frente a pares en euros.",
+      "A pesar de los roces iniciales y el reajuste en las curvas de rendimiento, el consenso entre los gestores de fondos de inversión de Fráncfort y París es contundente: la certidumbre jurídica que brinda MiCA Fase II elimina el principal freno de riesgo para la adopción de bonos del tesoro tokenizados, deuda corporativa y fondos monetarios institucionales sobre blockchains públicas de capa 1 y capa 2."
+    ],
+    "bullets": [
+      "Licencia EMI y bancaria obligatoria: Los emisores de stablecoins deben ser entidades de dinero electrónico o bancos autorizados en la UE.",
+      "Segregación estricta al 100%: Los fondos de respaldo deben custodiarse en entidades de la Eurozona con inspecciones continuas.",
+      "Pruebas de Reserva on-chain: Auditoría algorítmica constante mediante oráculos transparentes para garantizar la paridad 1:1.",
+      "Migración hacia EURC y USDC: DeFi canaliza su liquidez hacia stablecoins conformes, habilitando el desembarco de bonos tokenizados."
+    ],
+    "features": [
+      {
+        "title": "Bóvedas de liquidez y contratos inteligentes bajo auditoría bancaria europea",
+        "eyebrow": "FINANZAS DESCENTRALIZADAS",
+        "facts": "ORÁCULOS VERIFICADOS · PARES EUR/USD · LICENCIA EMI · PRUEBA DE RESERVAS",
+        "image": "/articles/2026-10-16/defi-liquidity-reserves.jpg",
+        "alt": "Visualización holográfica de pools de liquidez DeFi con flujos de tokens euro y dólar auditados",
+        "imageCredit": "TokenGeekCoin Crypto Intelligence",
+        "body": [
+          "Los protocolos DeFi se adaptan con cortafuegos de cumplimiento normativo (KYC institucional y verificación de origen de fondos) para interactuar con tesorerías corporativas.",
+          "La salida de paridades no bancarizadas consolida a EURC como el estándar de intercambio en la Eurozona, con volúmenes de emisión creciendo a triple dígito."
+        ]
+      },
+      {
+        "title": "Monitoreo institucional de libros de órdenes y pools de liquidación",
+        "eyebrow": "MERCADOS REGULADOS",
+        "facts": "CUMPLIMIENTO CASP · DESLISTE ACTIVO · SUPERVISIÓN ESMA / EBA",
+        "image": "/articles/2026-10-15/crypto-orderbook-heatmaps.jpg",
+        "alt": "Terminal financiero con mapas de calor de órdenes de trading institucional y libros de liquidez",
+        "imageCredit": "TokenGeekCoin Financial Desk",
+        "body": [
+          "Los exchanges que operan bajo licencia MiCA deben presentar reportes diarios de reservas agregadas ante los bancos centrales nacionales.",
+          "El arbitraje algorítmico entre plataformas reguladas y mercados extraterritoriales establece una prima de seguridad en los activos europeos."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hardware/intel-prepara-arrow-lake-refresh-lga1851-acelera-desarrollo-nova-lake",
+    "category": "HARDWARE",
+    "date": "16 OCT 2026",
+    "dateIso": "2026-10-16T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Hardware: Intel prepara la arquitectura 'Arrow Lake Refresh' para el socket LGA1851 y acelera el desarrollo de Nova Lake",
+    "dek": "La familia Core Ultra 200 Plus exprimirá el nodo actual con soporte nativo para memorias CUDIMM por encima de 7200 MT/s y mayores frecuencias, sirviendo de puente hacia el salto revolucionario de Nova Lake en los 2nm de TSMC.",
+    "personalAngle": "El socket LGA1851 no morirá tras una sola generación: Intel entiende que la comunidad entusiasta exigía longevidad y una optimización real de latencias antes de emprender la transición total a las litografías de próxima generación.",
+    "leadEyebrow": "INTEL · HOJA DE RUTA PROCESADORES & SOCKET LGA1851",
+    "leadTitle": "Intel afina Arrow Lake Refresh para LGA1851 con memorias CUDIMM y sitúa Nova Lake en el horizonte de los 2nm",
+    "image": "/articles/2026-10-16/intel-arrow-lake-hero.jpg",
+    "imageAlt": "Macro fotografía de procesador Intel Core Ultra instalado en socket LGA1851 con iluminación azul en placa base",
+    "imageCredit": "Intel Corporation / TokenGeekCoin Lab",
+    "body": [
+      "Tras la introducción y consolidación en el mercado de los procesadores de escritorio Intel Core Ultra 200S (Arrow Lake), el cuartel general de Santa Clara ha delineado con precisión su siguiente jugada para el socket LGA1851. Múltiples fuentes internas y hojas de ruta técnicas confirman que Intel ultima los detalles para el lanzamiento de 'Arrow Lake Refresh' (comercialmente perfilada como la serie Core Ultra 200 Plus), una revisión meticulosa concebida para maximizar el rendimiento por vatio y subsanar las penalizaciones de latencia del diseño modular desagregrador.",
+      "Arrow Lake Refresh mantendrá la combinación de núcleos de alto rendimiento Lion Cove y núcleos de alta eficiencia Skymont, pero introducirá un controlador de memoria integrado (IMC) sustancialmente optimizado. Esta revisión ofrecerá compatibilidad nativa sin fisuras con los nuevos módulos DDR5 CUDIMM (Clocked Unbuffered DIMM), permitiendo alcanzar y superar de forma estable transferencias de 7200 a 8400 MT/s con latencias de acceso sensiblemente reducidas frente a la primera hornada.",
+      "En el apartado térmico y de frecuencias, los ingenieros de Intel han logrado exprimir entre 100 MHz y 200 MHz adicionales tanto en relojes mononúcleo como multinúcleo en toda la gama, manteniendo de forma innegociable el límite de consumo PL2 en el techo de los 250 vatios. Paralelamente, la NPU integrada AI Boost recibirá ajustes microarquitectónicos para acelerar la ejecución de modelos de lenguaje ligeros y funciones locales de Windows 11 Copilot+ sin consumir ciclos de los núcleos principales.",
+      "Este refresco técnico cumplirá una misión estratégica vital: mantener competitivo el ecosistema LGA1851 en las placas base Z890 y B860 mientras el equipo de diseño concluye el desarrollo de 'Nova Lake'. Proyectada para fabricarse en el prestigioso nodo N2 de 2 nanómetros de TSMC, Nova Lake integrará una arquitectura de núcleos radicalmente rediseñada (Coyote Cove), un incremento estimado de IPC cercano al 20% y una masiva remodelación en la jerarquía de caché L3 para rivalizar frente a las soluciones 3D V-Cache de su competencia."
+    ],
+    "bullets": [
+      "Continuidad en LGA1851: Arrow Lake Refresh extenderá la vida útil de las placas base Z890 y B860.",
+      "Soporte estelar DDR5 CUDIMM: Compatibilidad nativa superando los 7200 MT/s y reduciendo las latencias de memoria.",
+      "Ganancia de reloj con 250W de PL2: Entre 100 y 200 MHz extra de frecuencia sin desbordar el perfil térmico.",
+      "Nova Lake en 2nm: Próxima gran revolución arquitectónica con nodo TSMC N2, nuevo IPC y rediseño de caché L3."
+    ],
+    "features": [
+      {
+        "title": "Litografía de 2nm y transistores nanosheet GAA en el horizonte de Nova Lake",
+        "eyebrow": "INGENIERÍA DE SILICIO",
+        "facts": "NODO N2 TSMC · TRANSISTORES GAA · CACHÉ L3 REDISEÑADA · COYOTE COVE",
+        "image": "/articles/2026-10-16/intel-nova-lake-wafer.jpg",
+        "alt": "Oblea de silicio de 2nm con transistores nanosheet y matriz de caché L3 bajo haz láser de sala limpia",
+        "imageCredit": "Semiconductor Research / TokenGeekCoin",
+        "body": [
+          "La transición a los transistores nanosheet GAA permitirá a Intel empaquetar una densidad sin precedentes de núcleos lógicos y aceleradores.",
+          "El rediseño de la caché unificada reducirá drásticamente la latencia entre chiplets en cargas de trabajo de gaming y compilación intensiva."
+        ]
+      },
+      {
+        "title": "El socket LGA1851 y la adopción del estándar de memoria CUDIMM",
+        "eyebrow": "PLATAFORMA ENTUSIASTA",
+        "facts": "DRIVERS CUDIMM · 8400 MT/S ESTABLES · PLACAS BASE Z890 · OPTIMIZACIÓN IMC",
+        "image": "/articles/2026-10-15/tsmc-3nm-wafer-packaging.jpg",
+        "alt": "Detalle de silicio y empaquetado de procesadores de escritorio de alta eficiencia",
+        "imageCredit": "Intel Hardware Labs",
+        "body": [
+          "Los controladores de reloj integrados en los módulos CUDIMM solventan las irregularidades de señal a altas frecuencias en placas base de cuatro canales.",
+          "Los fabricantes de placas base desplegarán actualizaciones de BIOS microcódigo AGESA/ME para habilitar los nuevos perfiles de memoria de bajo retraso."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia/amd-presenta-acelerador-instinct-mi350x-3nm-redefine-grafica-rdna4",
+    "category": "TECNOLOGÍA + IA",
+    "date": "16 OCT 2026",
+    "dateIso": "2026-10-16T08:00:00-03:00",
+    "minutes": 6,
+    "title": "IA & Hardware: AMD presenta el acelerador Instinct MI350X en 3nm y redefine su estrategia gráfica con RDNA 4",
+    "dek": "Con 288 GB de memoria HBM3e, 8,0 TB/s de ancho de banda y 10 PFLOPS de potencia FP8 bajo el proceso N3P de TSMC, el nuevo buque insignia de AMD desafía a Blackwell mientras la arquitectura RDNA 4 busca conquistar el gaming de alto valor.",
+    "personalAngle": "Lisa Su ha entendido exactamente cómo desafiar el duopolio de cómputo: mientras NVIDIA defiende precios prohibitivos con su plataforma propietaria, AMD multiplica la VRAM a 288 GB por acelerador y apoya su ecosistema abierto ROCm para que entrenar LLMs de 70B y 400B sea económicamente viable.",
+    "leadEyebrow": "AMD · COMPUTACIÓN DE IA INSTINCT & ARQUITECTURA RDNA 4",
+    "leadTitle": "AMD desvela el Instinct MI350X con 288 GB HBM3e y perfila las Radeon RX 9000 con Ray Tracing de 3ra generación y FSR 4",
+    "image": "/articles/2026-10-16/amd-mi350x-rdna4-hero.jpg",
+    "imageAlt": "Acelerador de IA AMD Instinct MI350X junto a tarjeta gráfica de nueva generación Radeon RDNA 4 en banco de pruebas",
+    "imageCredit": "AMD Corporate / TokenGeekCoin Teardown",
+    "body": [
+      "AMD ha ejecutado uno de los anuncios más trascendentales del año en el ámbito de la computación masiva e inteligencia artificial al desvelar las especificaciones y disponibilidad del acelerador Instinct MI350X. Diseñado sobre la avanzada litografía N3P (3 nanómetros) de TSMC, este chiplet de supercómputo busca plantar cara de tú a tú a las soluciones Blackwell de NVIDIA (B200 y GB200), ofreciendo un salto cuantitativo monumental en capacidad de memoria unificada, eficiencia energética y densidad de cómputo por rack.",
+      "El MI350X eleva el listón de la industria al integrar la descomunal cifra de 288 GB de memoria HBM3e ultrarrápida, alcanzando un ancho de banda sostenido de 8,0 TB/s. Esta capacidad permite albergar modelos de lenguaje masivos (LLMs) de cientos de miles de millones de parámetros en un solo nodo sin necesidad de particionar los pesos neuronales entre múltiples aceleradores, minimizando los cuellos de botella de interconexión. En precisión numérica reducida para inferencia y entrenamiento tensorial, el MI350X entrega hasta 10,0 PFLOPS en FP8 y 20 PFLOPS en FP4, cuadruplicando el rendimiento de su predecesor.",
+      "La comparativa con la generación previa ilustra la envergadura del salto: el anterior MI300X fabricado en 5nm/6nm ofrecía 192 GB de memoria HBM3 a 5,3 TB/s y 2,6 PFLOPS FP8. El salto a 3nm y la integración de apilamiento vertical 3D de silicio consolidan una plataforma capaz de alimentar centros de datos hiperescalables con un coste total de propiedad (TCO) sensiblemente más atractivo para proveedores de nube.",
+      "En el frente de consumo y gaming, AMD aprovechó la presentación para detallar los fundamentos de su esperada arquitectura gráfica RDNA 4, base de las próximas tarjetas Radeon RX serie 9000. La compañía reafirmó su estrategia de no entrar en una guerra de consumo desmedido en el segmento ultra-entusiasta, concentrándose en dominar la gama de alto valor por dólar con un motor de Ray Tracing de tercera generación completamente reescrito, aceleración de matrices por hardware y la tecnología FSR 4 impulsada íntegramente por aprendizaje profundo."
+    ],
+    "bullets": [
+      "Litografía N3P de 3nm: Salto de nodo de TSMC para maximizar la densidad y eficiencia del silicio de cálculo.",
+      "288 GB de memoria HBM3e: Ancho de banda récord de 8,0 TB/s para procesar LLMs gigantescos en memoria local.",
+      "10 PFLOPS de potencia FP8: Cuadruplica el rendimiento computacional del anterior MI300X de 2,6 PFLOPS.",
+      "RDNA 4 y FSR 4 con IA: Renovación gráfica para jugadores con Ray Tracing de 3ra generación y escalado por redes neuronales."
+    ],
+    "features": [
+      {
+        "title": "Clústeres hiperescalables de supercómputo refrigerados por líquido",
+        "eyebrow": "INFRAESTRUCTURA DE IA",
+        "facts": "ROCM 6.3 · INTERCONEXIÓN INFINITY FABRIC · 8 ACCELERADORES POR NODO · 2,3 TB VRAM",
+        "image": "/articles/2026-10-16/amd-ai-datacenter-rack.jpg",
+        "alt": "Rack de centro de datos de IA con aceleradores AMD Instinct interconectados con fibra óptica y refrigeración líquida",
+        "imageCredit": "AMD Datacenter Infrastructure",
+        "body": [
+          "Un único servidor de 8 aceleradores MI350X pone a disposición del desarrollador 2.304 GB (más de 2,3 Terabytes) de memoria HBM3e unificada con latencia ultrabaja.",
+          "La suite de software ROCm abierta continúa cerrando la brecha con CUDA gracias al soporte nativo directo en PyTorch 2.5 y vLLM."
+        ]
+      },
+      {
+        "title": "Arquitectura gráfica RDNA 4 para la serie Radeon RX 9000",
+        "eyebrow": "GAMING & RAY TRACING",
+        "facts": "RAY TRACING GEN 3 · FSR 4 CON APRENDIZAJE PROFUNDO · VALOR POR DÓLAR",
+        "image": "/articles/2026-10-15/tsmc-hpc-ai-accelerators.jpg",
+        "alt": "Aceleradores de cálculo y silicio gráfico de alto rendimiento",
+        "imageCredit": "TokenGeekCoin Hardware Lab",
+        "body": [
+          "RDNA 4 reestructura las unidades de cómputo para ejecutar intersecciones BVH con el doble de velocidad frente a RDNA 3.",
+          "El algoritmo FSR 4 abandona la heurística espacial para utilizar redes neuronales convolucionales de reconstrucción temporal a 4K."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/call-of-duty-modern-warfare-4-habilita-precargas-campana-corea-requisitos-pc",
+    "category": "GAMING",
+    "date": "16 OCT 2026",
+    "dateIso": "2026-10-16T08:00:00-03:00",
+    "minutes": 5,
+    "title": "Gaming: Call of Duty: Modern Warfare 4 habilita precargas globales: fecha, campaña en Corea y requisitos de seguridad en PC",
+    "dek": "Activision e Infinity Ward abren la precarga del desenlace de la trilogía reboot, con acceso anticipado a la campaña protagonizada por la Task Force 141 y Mads Mikkelsen, soporte para DLSS 4.5 y estricto requisito de TPM 2.0 y Secure Boot.",
+    "personalAngle": "Modern Warfare 4 se la juega a todo o nada: tras las críticas a los mundos abiertos en MW3, volver a una narrativa lineal tensa con la Task Force 141 en una Seúl devastada por la lluvia y los disparos nocturnos es exactamente lo que la saga necesitaba para recuperar su trono de acción cinematográfica.",
+    "leadEyebrow": "ACTIVISION · CALL OF DUTY MODERN WARFARE 4 & INFINITY WARD",
+    "leadTitle": "Arrancan las precargas de Call of Duty: Modern Warfare 4: la Task Force 141 se prepara para el lanzamiento global del 23 de octubre",
+    "image": "/articles/2026-10-16/cod-mw4-campana-hero.jpg",
+    "imageAlt": "Arte oficial de Call of Duty Modern Warfare 4 con Captain Price y Ghost bajo la lluvia en las calles de Seúl",
+    "imageCredit": "Activision / Infinity Ward",
+    "body": [
+      "Activision e Infinity Ward han habilitado formalmente la fase de precarga global para Call of Duty: Modern Warfare 4 en todas las plataformas digitales autorizadas (Battle.net, Steam, PlayStation Store y Xbox Store). El esperado capítulo final de la trilogía reimaginada promete devolver a los aficionados la experiencia bélica cinematográfica, intensa y visceral que definió a las entregas cumbre de la franquicia, combinando una cuidada dirección de fotografía con las últimas tecnologías de renderizado en tiempo real.",
+      "El calendario oficial de despliegue queda confirmado sin variaciones: aquellos usuarios que hayan formalizado la reserva digital disponen desde hoy de acceso anticipado a la campaña para un jugador, mientras que el lanzamiento global definitivo de todos los modos —incluyendo el multijugador competitivo con 18 mapas clásicos rediseñados y el renovado modo cooperativo Operaciones Especiales— se producirá el 23 de octubre de 2026 en PC, PlayStation 5, Xbox Series X|S y Nintendo Switch 2.",
+      "En el plano narrativo, la campaña sitúa a los legendarios miembros de la Task Force 141 —el capitán John Price, Simon 'Ghost' Riley y Kyle 'Gaz' Garrick— en el epicentro de un conflicto geopolítico encubierto en la península de Corea. El equipo deberá desmantelar un sindicato paramilitar transnacional liderado por un carismático antagonista encarnado por el laureado actor danés Mads Mikkelsen, en misiones que transcurren desde rascacielos sumidos en apagones hasta complejas incursiones sigilosas en instalaciones subterráneas.",
+      "En el ecosistema de PC, Infinity Ward ha sido tajante respecto a las condiciones técnicas y de integridad competitiva: será de obligado cumplimiento contar con módulos TPM 2.0 y la función Secure Boot activada en la BIOS de la placa base para que el sistema Ricochet Anti-Cheat opere a nivel de kernel y bloquee cualquier intento de inyección de código malicioso. Además, el motor IW 10.0 debutará con compatibilidad completa para NVIDIA DLSS 4.5 y generación múltiple de fotogramas, garantizando una fluidez extrema superior a los 144 FPS estables en resolución 4K con trazado de rayos activo."
+    ],
+    "bullets": [
+      "Precargas abiertas y acceso anticipado: La campaña ya está disponible para reservas digitales en todas las plataformas.",
+      "Lanzamiento global el 23 de octubre: Llegada a PC, PS5, Xbox Series X|S y la recién estrenada Nintendo Switch 2.",
+      "Task Force 141 vs Mads Mikkelsen: Operaciones tácticas nocturnas en la península de Corea con tono oscuro y visceral.",
+      "Seguridad estricta y DLSS 4.5: Obligatoriedad de TPM 2.0 y Secure Boot para Ricochet Anti-Cheat, junto a DLSS 4.5 a más de 144 FPS en 4K."
+    ],
+    "features": [
+      {
+        "title": "Combate táctico nocturno en entornos urbanos hiperrealistas",
+        "eyebrow": "JUGABILIDAD & ACCIÓN",
+        "facts": "VISIÓN NOCTURNA FOTORREALISTA · MOTOR IW 10.0 · BALÍSTICA DINÁMICA · COREA DEL SUR",
+        "image": "/articles/2026-10-16/cod-mw4-tactical-combat.jpg",
+        "alt": "Captura de acción táctica con visión nocturna, lluvia y miras holográficas en Call of Duty Modern Warfare 4",
+        "imageCredit": "Infinity Ward Gameplay",
+        "body": [
+          "El sistema de iluminación volumétrica y audio posicional binaural recrea la tensión de los asaltos CQB con un nivel de inmersión sin precedentes.",
+          "Las armas cuentan con física de penetración balística avanzada según los materiales del escenario, desde hormigón armado hasta planchas de acero."
+        ]
+      },
+      {
+        "title": "Despliegue multiplataforma y blindaje Ricochet Anti-Cheat a nivel kernel",
+        "eyebrow": "TECNOLOGÍA DE MOTOR",
+        "facts": "DLSS 4.5 · GENERACIÓN DE FOTOGRAMAS · TPM 2.0 & SECURE BOOT · SWITCH 2",
+        "image": "/articles/2026-10-15/castlevania-gameplay.jpg",
+        "alt": "Escena de acción y gráficos de última generación en videojuegos modernos",
+        "imageCredit": "TokenGeekCoin Gaming Lab",
+        "body": [
+          "El requisito estricto de arranque seguro y chip TPM 2.0 busca erradicar de raíz el software de trampas en las partidas clasificatorias de PC.",
+          "La versión para la nueva consola de Nintendo aprovechará el escalado por DLSS para mantener 60 FPS estables en modo portátil y sobremesa."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "hardware/tsmc-bate-record-beneficios-q3-2026-auge-chips-ia-hpc-3nm-2nm",
     "category": "HARDWARE",
     "date": "15 OCT 2026",

@@ -2,5 +2,31 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://tokengeekcoin.com/sitemap.xml
+# Dedicated Search and News Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+# Sitemaps & Feeds
+Sitemap: https://www.tokengeekcoin.com/sitemap.xml
+Sitemap: https://www.tokengeekcoin.com/rss.xml

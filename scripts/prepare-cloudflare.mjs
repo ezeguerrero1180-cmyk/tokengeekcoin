@@ -9,7 +9,18 @@ const serverDir = path.join(distDir, 'server');
 // 1. Create static fallback HTML files for direct route access
 const indexHtmlPath = path.join(distDir, 'index.html');
 if (fs.existsSync(indexHtmlPath)) {
-  const routes = ['ofertas', 'comparadores'];
+  const routes = [
+    'ofertas',
+    'comparadores',
+    'sobre-mi',
+    'articulo',
+    'quienes-somos',
+    'contacto',
+    'politica-de-privacidad',
+    'terminos-y-condiciones',
+    'aviso-legal',
+    'politica-de-cookies',
+  ];
   for (const route of routes) {
     const routeDir = path.join(distDir, route);
     if (!fs.existsSync(routeDir)) {

@@ -30,7 +30,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, onSelect }) =
         </p>
         <h3>
           <a
-            href={`#${article.slug}`}
+            href={`/articulo/${article.slug}`}
             className="font-display group-hover:text-[#ff5c35] transition-colors duration-200"
             onClick={(e) => {
               e.preventDefault();

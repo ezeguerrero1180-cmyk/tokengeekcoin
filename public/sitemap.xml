@@ -78,6 +78,60 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/sec-aprueba-primer-marco-staking-etf-contado-ethereum-rendimiento-institucional</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-19T08:00:00-03:00</news:publication_date>
+      <news:title>Finanzas: La SEC aprueba el primer marco de Staking para los ETF al contado de Ethereum y desata rendimientos del 3,2% APY</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-19/eth-staking-sec-hero.jpg</image:loc>
+      <image:title>Sede bursátil de Wall Street con holograma de Ethereum y certificación de staking regulado por la SEC</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/tsmc-inicia-pruebas-produccion-masiva-2-nanometros-n2-gaafet-hsinchu</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-19T08:00:00-03:00</news:publication_date>
+      <news:title>Hardware: TSMC inicia las pruebas de producción masiva a 2 nanómetros (N2) en Hsinchu con arquitectura nanosheet GAAFET</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-19/tsmc-2nm-wafer-hero.jpg</image:loc>
+      <image:title>Sala limpia de TSMC en Hsinchu con inspección robótica por láser de oblea de 300mm en nodo de 2nm</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/dc-comics-anuncia-absolute-batman-arkham-reborn-scott-snyder-record-reservas</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-19T08:00:00-03:00</news:publication_date>
+      <news:title>Cómics: DC Comics anuncia el arco &apos;Absolute Batman: Arkham Reborn&apos; de Scott Snyder y bate récords con más de 350.000 reservas</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-19/absolute-batman-hero.jpg</image:loc>
+      <image:title>Absolute Batman con imponente físico y traje táctico sobre una viga de construcción con vista panorámica de Gotham</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/cripto/ue-completa-fase-2-reglamento-mica-licencias-stablecoins-liquidez-defi</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>weekly</changefreq>

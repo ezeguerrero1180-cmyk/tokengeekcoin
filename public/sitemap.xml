@@ -78,6 +78,96 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/apple-confirma-evento-pro-and-tell-macbook-pro-oled-tactil-macos-27</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20T08:00:00-03:00</news:publication_date>
+      <news:title>Hardware: Apple confirma su evento &apos;Pro and Tell&apos; para el 28 de octubre e impulsa la llegada de las pantallas OLED táctiles</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-20/apple-pro-and-tell-hero.jpg</image:loc>
+      <image:title>Escenario de la keynote de Apple en el Steve Jobs Theater con el lema Pro and Tell y portátil MacBook Pro OLED</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/inception-presenta-mercury-3-arquitectura-difusion-supera-1000-tokens-segundo</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20T08:00:00-03:00</news:publication_date>
+      <news:title>IA: Inception presenta Mercury 3: la arquitectura por difusión que supera los 1.000 tokens por segundo</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-20/mercury-3-ai-hero.jpg</image:loc>
+      <image:title>Núcleo neural futurista de inteligencia artificial visualizando flujo de generación por difusión a 1000 tokens por segundo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/arranca-id-xbox-showcase-2026-the-wolf-among-us-remastered-18-titulos-indie</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20T08:00:00-03:00</news:publication_date>
+      <news:title>Gaming: Arranca el ID@Xbox Showcase 2026: &apos;The Wolf Among Us Remastered&apos; y más de 18 títulos independientes revelados</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-20/wolf-among-us-xbox-hero.jpg</image:loc>
+      <image:title>Arte atmosférico de Bigby Wolf caminando en un callejón nocturno y lluvioso de Nueva York con estética noir cel-shading</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/absolute-flash-20-presenta-ray-palmer-absolute-atom-antesala-absolute-justice</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20T08:00:00-03:00</news:publication_date>
+      <news:title>Cómics: &apos;Absolute Flash #20&apos; presenta a Ray Palmer (Absolute Atom) y abre la antesala para &apos;Absolute Justice&apos;</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-20/absolute-flash-atom-hero.jpg</image:loc>
+      <image:title>Portada cómic de Absolute Flash Wally West y Ray Palmer Absolute Atom corriendo en un reino subatómico de relámpagos cuánticos</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/solana-fija-despliegue-actualizacion-alpenglow-finalidad-150-milisegundos</loc>
+    <lastmod>2026-10-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-20T08:00:00-03:00</news:publication_date>
+      <news:title>Finanzas: La red Solana fija el despliegue de la actualización &apos;Alpenglow&apos; para este 21 de octubre con finalidad récord de 150 ms</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-20/solana-alpenglow-hero.jpg</image:loc>
+      <image:title>Centro de datos de validadores de Solana con líneas de luz y marcador de finalidad en 150 milisegundos</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/cripto/sec-aprueba-primer-marco-staking-etf-contado-ethereum-rendimiento-institucional</loc>
     <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>

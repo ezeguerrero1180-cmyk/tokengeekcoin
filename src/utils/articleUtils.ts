@@ -22,8 +22,15 @@ export function isTodayArticle(article: Article): boolean {
   const todayPattern = `${now.getDate()} ${MONTHS_ES[now.getMonth()]} ${now.getFullYear()}`;
   if (dateStr.includes(todayPattern)) return true;
 
-  // Match 20 OCT 2026 as current today date
-  if (dateStr.includes('20 OCT 2026') || dateStr.includes('20 DE OCTUBRE')) return true;
+  // Match 21 OCT 2026 & 22 OCT 2026 as current today date
+  if (
+    dateStr.includes('21 OCT 2026') ||
+    dateStr.includes('21 DE OCTUBRE') ||
+    dateStr.includes('22 OCT 2026') ||
+    dateStr.includes('22 DE OCTUBRE')
+  ) {
+    return true;
+  }
 
   if (article.dateIso) {
     try {
@@ -35,8 +42,8 @@ export function isTodayArticle(article: Article): boolean {
       ) {
         return true;
       }
-      // Also match 2026-10-20 ISO
-      if (article.dateIso.startsWith('2026-10-20')) {
+      // Also match 2026-10-21 & 2026-10-22 ISO
+      if (article.dateIso.startsWith('2026-10-21') || article.dateIso.startsWith('2026-10-22')) {
         return true;
       }
     } catch {
@@ -51,6 +58,8 @@ export function isYesterdayArticle(article: Article): boolean {
   if (!article) return false;
   const dateStr = (article.date || '').toUpperCase();
   if (dateStr.includes('AYER')) return true;
+  if (dateStr.includes('20 OCT 2026') || dateStr.includes('20 DE OCTUBRE')) return true;
+  if (article.dateIso && article.dateIso.startsWith('2026-10-20')) return true;
   if (dateStr.includes('19 OCT 2026') || dateStr.includes('19 DE OCTUBRE')) return true;
   if (article.dateIso && article.dateIso.startsWith('2026-10-19')) return true;
   if (dateStr.includes('16 OCT 2026') || dateStr.includes('16 DE OCTUBRE')) return true;

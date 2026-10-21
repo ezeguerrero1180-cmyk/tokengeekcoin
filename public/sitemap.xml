@@ -78,6 +78,60 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/solana-despliega-con-exito-alpenglow-latencia-finalizacion-record-150-milisegundos</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T08:00:00-03:00</news:publication_date>
+      <news:title>Finanzas: Solana activa con éxito &apos;Alpenglow&apos; en la red principal: la latencia de confirmación se desploma a un récord de 150 ms</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-21/solana-alpenglow-live-hero.jpg</image:loc>
+      <image:title>Terminal financiera con monitorización en tiempo real del consenso Alpenglow en la red principal de Solana a 150ms</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/mediatek-arm-anuncian-dimensity-9600-procesador-3nm-ejecucion-local-modelos-14b</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T08:00:00-03:00</news:publication_date>
+      <news:title>Hardware: MediaTek y Arm desvelan el Dimensity 9600: silicio de 3nm con ejecución local de modelos de IA de 14B parámetros</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-21/dimensity-9600-chip-hero.jpg</image:loc>
+      <image:title>Microfotografía dorada del procesador móvil MediaTek Dimensity 9600 en 3nm con aceleración neural de 14B parámetros</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/guia-lanzamientos-videojuegos-noviembre-2026-gta-vi-dawn-of-war-iv-switch-2</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-21T08:00:00-03:00</news:publication_date>
+      <news:title>Gaming: Guía definitiva de lanzamientos para noviembre de 2026: &apos;GTA VI&apos;, &apos;Dawn of War IV&apos; y el catálogo estrella de Switch 2</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-21/gaming-nov2026-releases-hero.jpg</image:loc>
+      <image:title>Montaje cinematográfico de videojuegos para noviembre de 2026 con GTA VI, Dawn of War IV y templo de Zelda</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/hardware/apple-confirma-evento-pro-and-tell-macbook-pro-oled-tactil-macos-27</loc>
     <lastmod>2026-10-20</lastmod>
     <changefreq>weekly</changefreq>

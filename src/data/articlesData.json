@@ -1,5 +1,164 @@
 [
   {
+    "slug": "cripto/solana-despliega-con-exito-alpenglow-latencia-finalizacion-record-150-milisegundos",
+    "category": "FINANZAS + CRIPTO",
+    "date": "21 OCT 2026",
+    "dateIso": "2026-10-21T08:00:00-03:00",
+    "minutes": 5,
+    "title": "Finanzas: Solana activa con éxito 'Alpenglow' en la red principal: la latencia de confirmación se desploma a un récord de 150 ms",
+    "dek": "Con el respaldo de más del 92% de los validadores, la actualización de consenso erradica los ataques MEV, acelera las liquidaciones DeFi y sitúa a Solana a la par de las infraestructuras de alta frecuencia de Wall Street.",
+    "personalAngle": "La constante optimización de la arquitectura base de Solana la afianza como la infraestructura de mayor velocidad para finanzas de alta frecuencia on-chain. Mientras otros debaten capas accesorias, Solana demuestra que una L1 monolítica optimizada puede competir con el emparejamiento de órdenes de NASDAQ.",
+    "leadEyebrow": "SOLANA · CONSENSO ALPENGLOW & FINALIDAD EN 150 MS",
+    "leadTitle": "Hito histórico en blockchain: Solana culmina la activación de Alpenglow con 150 ms de finalidad y liquidez blindada",
+    "image": "/articles/2026-10-21/solana-alpenglow-live-hero.jpg",
+    "imageAlt": "Terminal financiera con monitorización en tiempo real del consenso Alpenglow en la red principal de Solana a 150ms",
+    "imageCredit": "Solana Foundation / TokenGeekCoin On-Chain Desk",
+    "body": [
+      "En una de las transiciones de infraestructura más celebradas del año, la red principal (mainnet-beta) de Solana ha completado de forma impecable el despliegue del nuevo protocolo de consenso bautizado como 'Alpenglow'. La actualización, que contó con el respaldo abrumador de más del 92% del poder de voto de los validadores globales, introduce un mecanismo de propagación optimizado que reduce los tiempos de confirmación irreversible de bloques (finality) de los antiguos 400 milisegundos a tan solo 150 milisegundos.",
+      "Esta drástica caída en la latencia operativa modifica por completo la dinámica de las finanzas descentralizadas (DeFi). La reducción de la ventana temporal entre la propuesta de bloque y su sellado definitivo elimina de facto las ventanas de arbitraje malicioso que explotaban los bots de valor máximo extraíble (MEV), protegiendo a los usuarios individuales de deslices forzados de precio (slippage) y ataques sándwich en intercambios descentralizados (DEX).",
+      "Asimismo, los protocolos de préstamos y derivados perpetuos operan a partir de hoy con una precisión de liquidación sin precedentes. Los oráculos de precios como Pyth y Chainlink transmiten ahora cotizaciones con refresco sub-segundo, evitando liquidaciones en cascada prematuras durante episodios de volatilidad macroeconómica extrema en el ecosistema cripto.",
+      "Expertos del sector fintech coinciden en que los 150 milisegundos de finalidad sitúan a Solana en métricas de procesamiento comparables al emparejamiento de órdenes electrónicas de gigantes de Wall Street como NASDAQ o CME Group. Este rendimiento apuntala la tesis de adopción institucional, consolidando a la red como la capa de liquidación elegida por emisores de activos del mundo real (RWA) y stablecoins de grado bancario."
+    ],
+    "bullets": [
+      "Alpenglow activo en mainnet-beta: Despliegue con éxito respaldado por más del 92% del poder de voto.",
+      "Finalidad récord de 150 milisegundos: Disminución de más del 60% frente a los 400 ms del consenso anterior.",
+      "Mitigación de bots MEV: Eliminación de ventanas de ataque sándwich y protección directa para inversores.",
+      "Estándar institucional tipo NASDAQ: Latencia de emparejamiento óptima para derivados y activos del mundo real (RWA)."
+    ],
+    "features": [
+      {
+        "title": "Mitigación radical de ataques MEV y arbitrajes en DEX",
+        "eyebrow": "SEGURIDAD DE PROTOCOLO",
+        "facts": "VENTANAS CERO-MEV · QUÓRUM SUPERMAYORITARIO · SIN SLIPPAGE ARTIFICIAL",
+        "image": "/articles/2026-10-21/solana-mev-engine.jpg",
+        "alt": "Visualización digital de emparejamiento de órdenes con blindaje contra bots MEV",
+        "imageCredit": "TokenGeekCoin DeFi Lab",
+        "body": [
+          "El algoritmo de asignación de bloques desalienta el front-running al comprimir los tiempos de mempool a fracciones microscópicas de segundo.",
+          "Los proveedores de liquidez reportan una reducción superior al 85% en pérdidas impermanentes asociadas a movimientos parasitarios de bots."
+        ]
+      },
+      {
+        "title": "Mecánicas de votación y consenso supermayoritario en Alpenglow",
+        "eyebrow": "INGENIERÍA DISTRIBUIDA",
+        "facts": "150 MS LATENCIA · FIRMAS BLS AGREGADAS · CONTINUIDAD 100% OPERATIVA",
+        "image": "/articles/2026-10-19/eth-validator-nodes.jpg",
+        "alt": "Servidores validadores y nodos distribuidos en consenso descentralizado",
+        "imageCredit": "Solana Core Developers",
+        "body": [
+          "La compresión de firmas criptográficas ahorra hasta un 35% de ancho de banda por cada ciclo de votación entre validadores.",
+          "La red procesa actualmente picos de más de 65.000 transacciones por segundo con estabilidad de comisiones inalterada."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hardware/mediatek-arm-anuncian-dimensity-9600-procesador-3nm-ejecucion-local-modelos-14b",
+    "category": "HARDWARE",
+    "date": "21 OCT 2026",
+    "dateIso": "2026-10-21T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Hardware: MediaTek y Arm desvelan el Dimensity 9600: silicio de 3nm con ejecución local de modelos de IA de 14B parámetros",
+    "dek": "El nuevo buque insignia móvil incorpora la NPU APU 890 de 7ª generación y núcleos Cortex-X5, permitiendo correr modelos generativos a 35 tokens por segundo sin conexión a la nube y con un 22% menos de consumo.",
+    "personalAngle": "MediaTek ha dejado de ser la alternativa económica para liderar la vanguardia de la IA en el borde. Ejecutar 14 mil millones de parámetros con privacidad total en el bolsillo cambia para siempre la autonomía de los teléfonos inteligentes.",
+    "leadEyebrow": "MEDIATEK & ARM · SOC DIMENSITY 9600 EN 3NM N3P & APU 890",
+    "leadTitle": "El salto generacional de la IA móvil: MediaTek y Arm presentan el Dimensity 9600 capaz de procesar 14B en local",
+    "image": "/articles/2026-10-21/dimensity-9600-chip-hero.jpg",
+    "imageAlt": "Microfotografía dorada del procesador móvil MediaTek Dimensity 9600 en 3nm con aceleración neural de 14B parámetros",
+    "imageCredit": "MediaTek / Arm Technology Hub",
+    "body": [
+      "MediaTek y Arm han deslumbrado a la industria de los semiconductores al presentar formalmente el SoC Dimensity 9600, fabricado bajo el sofisticado proceso de litografía de 3 nanómetros (nodo N3P) de TSMC. Diseñado desde sus cimientos para liderar la era de la inteligencia artificial generativa en el dispositivo (on-device), el nuevo silicio busca redefinir la experiencia premium en los smartphones insignia de 2027.",
+      "La pieza angular de esta arquitectura es la séptima generación de la Unidad de Procesamiento Neuronal (APU 890). Este acelerador de hardware incorpora motores de transformación FP8 y memoria caché de activación dedicada que hacen posible ejecutar modelos de lenguaje de hasta 14 mil millones de parámetros (14B) de manera 100% nativa y privada, sin enviar un solo byte a servidores externos y manteniendo un ritmo de generación constante de hasta 35 tokens por segundo.",
+      "En el apartado de cómputo general, el Dimensity 9600 adopta una configuración 'All Big Core' de segunda generación basada en los nuevos núcleos Cortex-X5 de Arm. Gracias a las mejoras en microarquitectura y a la eficiencia térmica del nodo N3P, el procesador entrega un incremento del 18% en rendimiento multihilo frente al Dimensity 9400, recortando simultáneamente el consumo energético en un 22%.",
+      "Los primeros terminales comerciales equipados con el Dimensity 9600 llegarán al mercado a comienzos del primer trimestre de 2027 de la mano de fabricantes como Vivo, Oppo y Xiaomi. Las marcas preparan asistentes de productividad que transcribirán, resumirán reuniones y retocarán vídeo en resolución 4K en tiempo real sin requerir suscripciones a servicios en la nube."
+    ],
+    "bullets": [
+      "Litografía N3P de 3nm por TSMC: Eficiencia energética un 22% superior y 18% más rendimiento multihilo.",
+      "Ejecución local de modelos de 14B: Inferencia totalmente privada sin conexión a Internet.",
+      "APU 890 con hasta 35 tokens/segundo: Fluidez absoluta en generación de texto, código y edición fotográfica.",
+      "Núcleos Cortex-X5 All-Big-Core: Arquitectura de alto rendimiento optimizada para multitarea pesada y gaming."
+    ],
+    "features": [
+      {
+        "title": "NPU APU 890: 35 tokens por segundo en modelos de 14 mil millones de parámetros",
+        "eyebrow": "ACELERACIÓN NEURAL",
+        "facts": "CUANTIZACIÓN INT4/FP8 · 14B PARAMETERS · MEMORIA DEDICADA · ZERO-CLOUD PRIVACY",
+        "image": "/articles/2026-10-21/dimensity-apu890-core.jpg",
+        "alt": "Esquema del núcleo de aceleración APU 890 en oblea de silicio",
+        "imageCredit": "MediaTek AI Research",
+        "body": [
+          "El procesador matricial duplica el ancho de banda efectivo mediante compresión de activaciones en memoria LPDDR5X.",
+          "Permite ejecutar asistentes de voz interactivos con tiempos de respuesta por debajo de los 30 milisegundos."
+        ]
+      },
+      {
+        "title": "Arquitectura de núcleos Cortex-X5 en nodo N3P de TSMC",
+        "eyebrow": "COMPUTACIÓN CPU & GPU",
+        "facts": "NUCLEOS CORTEX-X5 · GPU IMMORTALIS CON RAY TRACING · 3NM TSMC · ALL BIG CORE",
+        "image": "/articles/2026-10-19/tsmc-2nm-wafer-hero.jpg",
+        "alt": "Inspección de obleas avanzadas de silicio en fundición de semiconductores",
+        "imageCredit": "TSMC Foundry / Arm",
+        "body": [
+          "La GPU Immortalis de nueva generación entrega trazado de rayos por hardware con suavidad cinematográfica a 120 FPS.",
+          "El controlador de energía inteligente distribuye cargas dinámicas para impedir estrangulamiento térmico durante largas sesiones de juego."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "gaming/guia-lanzamientos-videojuegos-noviembre-2026-gta-vi-dawn-of-war-iv-switch-2",
+    "category": "GAMING",
+    "date": "21 OCT 2026",
+    "dateIso": "2026-10-21T08:00:00-03:00",
+    "minutes": 7,
+    "title": "Gaming: Guía definitiva de lanzamientos para noviembre de 2026: 'GTA VI', 'Dawn of War IV' y el catálogo estrella de Switch 2",
+    "dek": "El mes más colosal de la historia del videojuego reúne el estreno de Grand Theft Auto VI en PS5 y Xbox Series X|S, la vuelta de Relic con Warhammer 40,000 en PC y remakes legendarios como Zelda Ocarina of Time en Nintendo Switch 2.",
+    "personalAngle": "Noviembre de 2026 quedará marcado como el punto culminante de la actual generación de consolas. Desde el portento tecnológico del motor RAGE en GTA VI hasta la resurrección de los RTS con Dawn of War IV y el catálogo de lanzamiento de Switch 2, la industria vive su momento de mayor ambición.",
+    "leadEyebrow": "GUÍA EDITORIAL · LANZAMIENTOS DESTACADOS NOVIEMBRE 2026",
+    "leadTitle": "El mes dorado del gaming: todo sobre el lanzamiento de GTA VI, Dawn of War IV y las exclusivas de Nintendo Switch 2",
+    "image": "/articles/2026-10-21/gaming-nov2026-releases-hero.jpg",
+    "imageAlt": "Montaje cinematográfico de videojuegos para noviembre de 2026 con GTA VI, Dawn of War IV y templo de Zelda",
+    "imageCredit": "TokenGeekCoin Gaming Desk / Rockstar Games / SEGA",
+    "body": [
+      "La industria del entretenimiento digital se prepara para el mes más trascendental y con mayor concentración de superproducciones jamás registrado. El calendario de lanzamientos de noviembre de 2026 combina el acontecimiento de la década —la llegada del esperadísimo Grand Theft Auto VI— con el desembarco del catálogo de lanzamiento de la nueva Nintendo Switch 2 y el regreso triunfal de la estrategia en tiempo real para PC.",
+      "El 19 de noviembre, Rockstar Games paralizará al mundo con el lanzamiento de 'Grand Theft Auto VI' en PlayStation 5 y Xbox Series X|S. Desarrollado sobre la última evolución del motor RAGE, el título traslada la acción al estado ficticio de Leonida y las avenidas empapadas de neón de Vice City. Los avances técnicos confirmados incluyen simulación volumétrica de fluidos en costas y pantanos, un sistema de climatología dinámica con huracanes en tiempo real y una inteligencia artificial para multitudes que elimina por completo el comportamiento repetitivo en las calles.",
+      "En el territorio de la estrategia para compatibles, el 30 de noviembre marcará el regreso de una de las franquicias más veneradas del universo de Games Workshop: 'Warhammer 40,000: Dawn of War IV', desarrollado en exclusiva para PC por Relic Entertainment y SEGA. El juego recupera la esencia táctica de captura de puntos de control, físicas de destrucción ambiental y colosales unidades titánicas para cuatro facciones emblemáticas: Space Marines, Orks, Necrons y Tyranids.",
+      "Por su parte, Nintendo capitalizará la campaña navideña con una potente alineación para Nintendo Switch 2: el 5 de noviembre debuta 'The Legend of Zelda: Ocarina of Time Remake' (reconstruido en glorioso 4K mediante reconstrucción DLSS en modo dock), acompañado el 3 de noviembre por 'Godzilla: Destroy All Monsters Melee Remastered' con juego cruzado completo, y la aclamada adaptación portátil del JRPG 'Metaphor: ReFantazio' de Atlus el 12 de noviembre."
+    ],
+    "bullets": [
+      "GTA VI llega el 19 de noviembre: Rockstar estrena Leonida en PS5 y Xbox Series X|S con físicas y multitudes revolucionarias.",
+      "Warhammer 40k: Dawn of War IV el 30 de noviembre: Relic y SEGA reviven el RTS clásico exclusivo para PC.",
+      "Zelda: Ocarina of Time Remake el 5 de noviembre: La obra maestra de Nintendo renace en 4K con DLSS en Switch 2.",
+      "Godzilla Melee y Metaphor: ReFantazio: Peleas titánicas con cross-play y rol japonés de élite en portátiles."
+    ],
+    "features": [
+      {
+        "title": "GTA VI y el motor RAGE evolucionado: Físicas de agua y multitudes en Leonida",
+        "eyebrow": "TECNOLOGÍA DE MOTOR GRÁFICO",
+        "facts": "MOTOR RAGE EVOLUCIONADO · LEONIDA STATE · HURACANES DINÁMICOS · PS5 & XBOX SERIES",
+        "image": "/articles/2026-10-21/gta6-leonida-water.jpg",
+        "alt": "Costas tropicales y lanchas rápidas en Leonida al atardecer en Grand Theft Auto VI",
+        "imageCredit": "Rockstar Games Press Assets",
+        "body": [
+          "El comportamiento hidrodinámico de las olas reacciona en tiempo real a las lanchas y embarcaciones a alta velocidad.",
+          "Cada habitante de Vice City cuenta con rutinas diarias autónomas y reacciones contextuales a las acciones delictivas de los protagonistas."
+        ]
+      },
+      {
+        "title": "Warhammer 40k: Dawn of War IV y las exclusivas de Switch 2",
+        "eyebrow": "PC GAMING & CONSOLAS",
+        "facts": "CUATRO FACCIONES WARHAMMER · DLSS 4K EN SWITCH 2 · CROSS-PLAY MULTIPLATAFORMA",
+        "image": "/articles/2026-10-20/wolf-among-us-xbox-hero.jpg",
+        "alt": "Captura de ambientación visual y acción en producciones de nueva generación",
+        "imageCredit": "SEGA / Nintendo Media",
+        "body": [
+          "Dawn of War IV permite batallas masivas de escala titánica con miles de unidades renderizadas sin caídas de framerate.",
+          "La integración de DLSS en Nintendo Switch 2 garantiza nitidez 4K nítida en el televisor y 60 fotogramas estables en modo portátil."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "hardware/apple-confirma-evento-pro-and-tell-macbook-pro-oled-tactil-macos-27",
     "category": "HARDWARE",
     "date": "20 OCT 2026",

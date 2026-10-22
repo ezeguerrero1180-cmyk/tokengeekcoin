@@ -78,6 +78,78 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/elon-musk-evalua-historica-fusion-tesla-spacex-megaconglomerado-3-billones</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T08:00:00-03:00</news:publication_date>
+      <news:title>Tecnología: Elon Musk evalúa la mayor fusión corporativa de la historia entre Tesla y SpaceX valorada en 3 billones de dólares</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-22/tesla-spacex-merger-hero.jpg</image:loc>
+      <image:title>Sala de juntas de alta tecnología con proyección de la fusión estratégica entre Tesla y SpaceX valorada en 3 billones de dólares</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/nokia-dispara-ventas-redes-conmutacion-optica-centros-datos-ia</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T08:00:00-03:00</news:publication_date>
+      <news:title>Hardware: Nokia dispara sus ventas impulsada por la demanda masiva de redes ópticas para centros de datos de IA</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-22/nokia-ai-optical-hero.jpg</image:loc>
+      <image:title>Rack de servidores de conmutación óptica Nokia con cables de fibra iluminados por láser azul en centro de datos de IA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/aave-v4-activa-colateralizacion-dinamica-supera-25000-millones-dolares-tvl</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T08:00:00-03:00</news:publication_date>
+      <news:title>Finanzas: Aave v4 introduce la colateralización dinámica algorítmica y pulveriza los 25.000 millones de dólares en TVL</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-22/aave-v4-defi-hero.jpg</image:loc>
+      <image:title>Panel financiero futurista de Aave v4 mostrando el récord de 25.000 millones de dólares en TVL y colaterales tokenizados</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/ea-reorienta-estrategia-marvels-iron-man-star-wars-jedi-reduce-juegos-servicio</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-22T08:00:00-03:00</news:publication_date>
+      <news:title>Gaming: EA sacude la industria al concentrarse en &apos;Marvel&apos;s Iron Man&apos; y &apos;Star Wars Jedi&apos;, recortando el desarrollo de juegos como servicio</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-22/ea-games-reboot-hero.jpg</image:loc>
+      <image:title>Póster cinematográfico de videojuegos de acción y ciencia ficción con héroe exoarmado y guerrero con espada de energía</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/cripto/solana-despliega-con-exito-alpenglow-latencia-finalizacion-record-150-milisegundos</loc>
     <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>

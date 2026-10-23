@@ -1,6 +1,5 @@
 import React from 'react';
 import { Article } from '../types/article';
-import { AdSenseUnit } from './AdSenseUnit';
 
 interface SobreMiPageProps {
   onBackToHome: () => void;
@@ -74,10 +73,6 @@ export const SobreMiPage: React.FC<SobreMiPageProps> = ({
         </div>
       </section>
 
-      {/* Anuncio AdSense en página de autor */}
-      <div className="max-w-5xl mx-auto px-4 my-8">
-        <AdSenseUnit label="PUBLICIDAD — PERFIL DE AUTOR" />
-      </div>
 
       <section className="author-v1-fields">
         <article>

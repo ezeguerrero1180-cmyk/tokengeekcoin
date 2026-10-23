@@ -15,7 +15,7 @@ export const AdSenseUnit: React.FC<AdSenseUnitProps> = ({
   responsive = true,
   className = '',
   style,
-  label = 'PUBLICIDAD',
+  label = '',
 }) => {
   const adRef = useRef<HTMLModElement | null>(null);
   const pushedRef = useRef<boolean>(false);

@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Article } from '../types/article';
 import { SiteImage } from './SiteImage';
-import { AdSenseUnit } from './AdSenseUnit';
 import {
   X,
   Bookmark,
@@ -366,14 +365,9 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
           {/* Main Paragraphs */}
           <div className={`font-sans space-y-5 text-stone-100 ${bodyFontSizeClass}`}>
             {article.body.map((paragraph, index) => (
-              <React.Fragment key={index}>
-                <p className="leading-relaxed">
-                  {paragraph}
-                </p>
-                {index === 2 && article.body.length > 3 && (
-                  <AdSenseUnit label="PUBLICIDAD — GOOGLE ADSENSE" />
-                )}
-              </React.Fragment>
+              <p key={index} className="leading-relaxed">
+                {paragraph}
+              </p>
             ))}
           </div>
 
@@ -531,8 +525,6 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
             </div>
           </div>
 
-          {/* Espacio publicitario al pie del artículo */}
-          <AdSenseUnit label="PUBLICIDAD RECOMENDADA" />
 
           {/* Related Stories / Continuous Reading Loop */}
           {relatedArticles.length > 0 && (

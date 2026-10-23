@@ -14,7 +14,6 @@ import { Footer } from './components/Footer';
 import { SiteImage } from './components/SiteImage';
 import { OfertasPage } from './components/OfertasPage';
 import { ComparadoresPage } from './components/ComparadoresPage';
-import { AdSenseUnit } from './components/AdSenseUnit';
 import { KineticMarquee } from './components/KineticMarquee';
 import { SobreMiPage } from './components/SobreMiPage';
 import { useSEO } from './hooks/useSEO';
@@ -420,10 +419,6 @@ export default function App() {
             </div>
           </section>
 
-          {/* Anuncio AdSense entre portada y Mi Universo */}
-          <div className="max-w-6xl mx-auto px-4 my-6">
-            <AdSenseUnit label="PUBLICIDAD — GOOGLE ADSENSE" />
-          </div>
 
           {/* MI UNIVERSO: Accesos a las cuatro categorías temáticas */}
           <section className="classic-section classic-territories" id="mi-universo">
@@ -511,10 +506,6 @@ export default function App() {
             </section>
           )}
 
-          {/* Anuncio AdSense antes de Sobre mí */}
-          <div className="max-w-6xl mx-auto px-4 my-6">
-            <AdSenseUnit label="PUBLICIDAD RECOMENDADA" />
-          </div>
 
           {/* Sobre mí */}
           <section className="classic-about" id="sobre-mi">

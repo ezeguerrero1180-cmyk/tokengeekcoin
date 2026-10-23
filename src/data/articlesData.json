@@ -30,9 +30,9 @@
         "title": "Conectividad orbital y telemetría sub-20ms",
         "eyebrow": "INFRAESTRUCTURA STARLINK V3",
         "facts": "ENLACE LÁSER ORBITAL · COBERTURA 100% PLANETARIA · LATENCIA SUB-20MS · SIN ITINERANCIA",
-        "image": "/articles/2026-10-22/tesla-starlink-mesh.jpg",
-        "alt": "Satélites Starlink coordinados con vehículos en red",
-        "imageCredit": "SpaceX Network Ops",
+        "image": "/articles/2026-10-23/tesla-starlink-v3-laser-mesh.jpg",
+        "alt": "Constelación Starlink v3 con enlaces ópticos intersatelitales láser coordinando vehículos autónomos en autopistas nocturnas",
+        "imageCredit": "SpaceX Starlink Operations / Tesla Architecture",
         "body": [
           "Las antenas phased-array integradas de nueva generación permiten transmitir actualizaciones de pesos de IA en plena marcha.",
           "Se erradica por completo la dependencia de operadoras de telecomunicaciones locales para la operación de flotas autónomas."
@@ -42,9 +42,9 @@
         "title": "Robótica Optimus guiada desde el espacio",
         "eyebrow": "SISTEMAS AUTÓNOMOS FÍSICOS",
         "facts": "VISIÓN ESPACIAL · TELEOPERACIÓN HÁPTICA · ARQUITECTURA DISTRIBUIDA EN NUBE Y ÓRBITA",
-        "image": "/articles/2026-10-16/amd-ai-datacenter-rack.jpg",
-        "alt": "Racks de procesamiento neural para sistemas autónomos",
-        "imageCredit": "Tesla Robotics Group",
+        "image": "/articles/2026-10-23/tesla-optimus-orbital-robotics.jpg",
+        "alt": "Robot humanoide Optimus interactuando con interfaz holográfica de telemetría de misión espacial y navegación orbital",
+        "imageCredit": "Tesla Robotics & SpaceX AI Labs",
         "body": [
           "El androide humanoide Optimus comparte la arquitectura de visión espacial desarrollada originalmente para maniobras de aproximación orbital.",
           "El entrenamiento masivo aprovecha petabytes diarios de datos procedentes de cámaras vehiculares y sensores satelitales."
@@ -83,9 +83,9 @@
         "title": "Del cómic a la pantalla: La evolución de Pamela Isley",
         "eyebrow": "ANÁLISIS DEL PERSONAJE",
         "facts": "CREACIÓN DE 1966 · BOTÁNICA & TOXICOLOGÍA · FEROMONAS BIOLÓGICAS · CLASIFICACIÓN R/TV-MA",
-        "image": "/articles/2026-10-18/arkham-shadow-vr.jpg",
-        "alt": "Atmósfera oscura y misteriosa de los bajos fondos de Gotham City",
-        "imageCredit": "DC Comics Archive",
+        "image": "/articles/2026-10-23/poison-ivy-botanical-lab.jpg",
+        "alt": "Laboratorio botánico nocturno con plantas carnívoras bioluminiscentes y fórmulas químicas de Pamela Isley en la serie de HBO",
+        "imageCredit": "HBO / DC Studios Production Design",
         "body": [
           "La serie profundizará en la mitología de 'The Green' (El Verde), la fuerza primordial elemental que conecta toda la vida vegetal del planeta.",
           "Se explorará la dualidad entre su cruzada ecológica radical y el coste humano de sus métodos bio-destructivos."
@@ -95,9 +95,9 @@
         "title": "El éxito del modelo 'El Pingüino' en HBO",
         "eyebrow": "PRESTIGE TV EN DC",
         "facts": "SHOWRUNNER LAUREN LEFRANC · AUDIENCIAS RÉCORD · PREMIOS DE LA CRÍTICA · NOIR URBANO",
-        "image": "/articles/2026-10-14/dr-doom-rdj.jpg",
-        "alt": "Fotografía cinematográfica con iluminación dramática de villanos de cómic",
-        "imageCredit": "HBO Drama Series",
+        "image": "/articles/2026-10-23/gotham-hbo-noir-investigation.jpg",
+        "alt": "Escena del crimen neo-noir en el puerto de Gotham con detectives investigando enredaderas tóxicas bajo la lluvia",
+        "imageCredit": "HBO Drama Series / DC Studios",
         "body": [
           "HBO busca replicar la fórmula de desmitificación realista que convirtió al Oswald Cobblepot de Colin Farrell en un fenómeno cultural.",
           "El diseño de producción apostará por efectos prácticos y una botánica amenazante y tangible."
@@ -136,9 +136,9 @@
         "title": "Silicio fotónico Bell Labs PSE-6s: Rompiendo barreras de ancho de banda",
         "eyebrow": "INNOVACIÓN DE HARDWARE",
         "facts": "1.6 TBPS · EFICIENCIA DE 40% MENOR ENERGÍA · SILICIO FOTÓNICO INTEGRADO · MÓDULOS PLUGGABLE",
-        "image": "/articles/2026-10-16/amd-ai-datacenter-rack.jpg",
-        "alt": "Racks de servidores de telecomunicaciones ópticas para IA",
-        "imageCredit": "Nokia Bell Labs",
+        "image": "/articles/2026-10-23/nokia-bell-labs-photonic-chip.jpg",
+        "alt": "Procesador de silicio fotónico Nokia Bell Labs PSE-6s con guías de ondas láser iluminadas en cian y magenta",
+        "imageCredit": "Nokia Bell Labs Optical Hardware",
         "body": [
           "Permite conectar clústeres de inferencia distribuidos a cientos de kilómetros como si estuviesen en la misma sala.",
           "Reduce drásticamente el consumo eléctrico, el principal obstáculo ecológico de las granjas de servidores de IA."
@@ -148,9 +148,9 @@
         "title": "La revolución del Edge Computing en 2026",
         "eyebrow": "ARQUITECTURA DISTRIBUIDA",
         "facts": "LATENCIA SUB-5MS · INFERENCIA LOCAL · PROCESAMIENTO INDUSTRIAL · DESCONGESTIÓN DE LA NUBE",
-        "image": "/articles/2026-10-18/raspberry-pi-ai-camera.jpg",
-        "alt": "Dispositivo de computación en el borde con sensor de IA",
-        "imageCredit": "Edge Computing Consortium",
+        "image": "/articles/2026-10-23/nokia-edge-datacenter-tower.jpg",
+        "alt": "Torre de telecomunicaciones y microcentro de datos modular de cómputo en el borde en paisaje nórdico al amanecer",
+        "imageCredit": "Nokia Edge Infrastructure Group",
         "body": [
           "El cómputo en el borde procesa los datos en tiempo real antes de enviarlos a la nube central, reduciendo congestión.",
           "Crucial para la conducción autónoma, telemedicina de precisión y automatización robótica fabril."
@@ -189,9 +189,9 @@
         "title": "Hulk vs. Godzilla: La batalla por la supremacía radiactiva",
         "eyebrow": "DUELOS MEMORABLES",
         "facts": "RADIACIÓN GAMMA VS ENERGÍA ATÓMICA · FUERZA ILIMITADA · TIERRA-616 · DESTRUCCIÓN TOTAL",
-        "image": "/articles/2026-10-22/marvel-iron-man-ea-hero.jpg",
-        "alt": "Choque de fuerzas titánicas en combate superheroico",
-        "imageCredit": "Marvel Publishing Archive",
+        "image": "/articles/2026-10-23/heroes-vs-kaiju-battle.jpg",
+        "alt": "Ilustración cómic de choque colosal entre titán prehistórico gigante y campeones acorazados en una metrópolis futurista",
+        "imageCredit": "Marvel Comics / Toho Co., Ltd. Editorial Event",
         "body": [
           "El enfrentamiento entre los dos colosos de la radiación explora la furia bruta de Hulk contra el peso y aliento térmico de Godzilla.",
           "Un duelo visual que rinde homenaje a los crossovers clásicos de la era dorada de los años 70 pero con narrativa moderna."
@@ -201,9 +201,9 @@
         "title": "El renacer de la era Kaiju en la cultura pop",
         "eyebrow": "FENÓMENO CULTURAL",
         "facts": "MONSTERVERSE · GODZILLA MINUS ONE · FUSIÓN ORIENTE-OCCIDENTE · FANDOM GEEK",
-        "image": "/articles/2026-10-21/dragon-ball-daima-toriyama-homenaje.jpg",
-        "alt": "Homenaje a la cultura pop e iconos de la animación y el cómic",
-        "imageCredit": "Toho Co. / TokenGeekCoin",
+        "image": "/articles/2026-10-23/godzilla-marvel-crossover-variant.jpg",
+        "alt": "Portada variante de colección del crossover Godzilla vs Marvel con arte estilo póster y siluetas heroicas",
+        "imageCredit": "Marvel Comics & Toho Variant Collectors Vault",
         "body": [
           "El fenómeno global de Godzilla Minus One y el éxito del Monsterverse consolidan al Kaiju como un titán comercial indiscutible.",
           "Los lectores celebran la apertura de las grandes editoriales a colaboraciones transpacíficas sin precedentes."

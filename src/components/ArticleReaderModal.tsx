@@ -78,6 +78,13 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
     };
   }, [article]);
 
+  const relatedArticles = React.useMemo(() => {
+    if (!allArticles || allArticles.length === 0 || !article) return [];
+    const sameCat = allArticles.filter((a) => a.slug !== article.slug && a.category === article.category);
+    const others = allArticles.filter((a) => a.slug !== article.slug && a.category !== article.category);
+    return [...sameCat, ...others].slice(0, 3);
+  }, [allArticles, article]);
+
   if (!article) return null;
 
   const isToday = isTodayArticle(article);
@@ -130,13 +137,6 @@ export const ArticleReaderModal: React.FC<ArticleReaderModalProps> = ({
     large: 'text-lg leading-relaxed',
     xl: 'text-xl leading-relaxed',
   }[fontSize];
-
-  const relatedArticles = React.useMemo(() => {
-    if (!allArticles || allArticles.length === 0 || !article) return [];
-    const sameCat = allArticles.filter((a) => a.slug !== article.slug && a.category === article.category);
-    const others = allArticles.filter((a) => a.slug !== article.slug && a.category !== article.category);
-    return [...sameCat, ...others].slice(0, 3);
-  }, [allArticles, article]);
 
   return (
     <div

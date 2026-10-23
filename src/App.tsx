@@ -564,12 +564,14 @@ export default function App() {
       <Footer onNavigate={navigateTo} />
 
       {/* Visor modal para lectura de artículos */}
-      <ArticleReaderModal
-        article={selectedArticle}
-        onClose={handleCloseArticle}
-        allArticles={allArticles}
-        onSelectArticle={handleSelectArticle}
-      />
+      {selectedArticle && (
+        <ArticleReaderModal
+          article={selectedArticle}
+          onClose={handleCloseArticle}
+          allArticles={allArticles}
+          onSelectArticle={handleSelectArticle}
+        />
+      )}
     </>
   );
 }

@@ -1,5 +1,217 @@
 [
   {
+    "slug": "tecnologia/japon-convoca-reunion-ministerial-urgencia-ola-ciberataques-infraestructura-publica-poscuantica",
+    "category": "TECNOLOGÍA + IA",
+    "date": "26 OCT 2026",
+    "dateIso": "2026-10-26T08:00:00-03:00",
+    "minutes": 6,
+    "title": "Japón convoca una reunión ministerial de urgencia tras una ola sin precedentes de ciberataques contra su infraestructura pública",
+    "dek": "La administración del gobierno japonés ha convocado a sus máximos responsables de ciberseguridad para abordar una crisis nacional provocada por múltiples brechas de datos en sistemas críticos estatales y corporativos, acelerando el despliegue de encriptación poscuántica.",
+    "personalAngle": "La escalada de ciberamenazas a nivel estatal demuestra que la verdadera soberanía nacional depende hoy más de la resiliencia en la capa de red que del gasto militar tradicional.",
+    "leadEyebrow": "CIBERSEGURIDAD GLOBAL & GEOPOLÍTICA · TOKIO EN ALERTA MÁXIMA",
+    "leadTitle": "Alerta nacional en Tokio: El gobierno japonés reúne a su gabinete de crisis tras una ofensiva masiva contra redes estatales",
+    "image": "/articles/2026-10-26/japon-ciberataques-urgencia-hero.jpg",
+    "imageAlt": "Sala de situación de emergencia de ciberseguridad en Tokio con analistas y autoridades observando mapas de amenazas globales",
+    "imageCredit": "TokenGeekCoin Geopolítica & NISC Desk",
+    "body": [
+      "La administración gubernamental de Japón ha convocado con carácter de máxima urgencia a sus principales ministros, altos mandos de defensa y al Centro Nacional de Respuesta a Incidentes y Estrategia de Ciberseguridad (NISC). La medida responde a una ofensiva cibernética coordinada y sin precedentes que ha logrado vulnerar sistemas informáticos estratégicos de administraciones públicas digitales, agencias gubernamentales y nodos neurálgicos de transporte masivo en las principales prefecturas del país.",
+      "Los informes preliminares señalan que los atacantes emplearon vectores avanzados de infiltración distribuida y explotación de día cero en arquitecturas de nube descentralizadas, comprometiendo registros sensibles y poniendo a prueba los límites de respuesta del ecosistema tecnológico nipón. En respuesta inmediata, Tokio ha activado un protocolo de contingencia que contempla la movilización de equipos tácticos de ciberdefensa y la auditoría obligatoria de todos los proveedores tecnológicos del Estado.",
+      "El eje central de la respuesta gubernamental será acelerar de forma drástica el cronograma nacional para la adopción de algoritmos criptográficos resistentes a la computación cuántica (Post-Quantum Cryptography o PQC). Ante la sospecha de que actores estatales hostiles estén recopilando información cifrada bajo la doctrina 'Harvest Now, Decrypt Later', Japón busca blindar toda su infraestructura crítica antes de 2027.",
+      "Para los analistas de seguridad global, esta crisis en el país asiático marca un punto de inflexión definitivo: en un entorno geopolítico cada vez más digitalizado, la integridad de los cables de fibra óptica, los centros de datos soberanos y los protocolos matemáticos de encriptación constituyen la primera línea de la soberanía nacional."
+    ],
+    "bullets": [
+      "Reunión ministerial de emergencia en Tokio: El primer ministro y el NISC coordinan una respuesta nacional inmediata.",
+      "Brechas en transporte y sector público: Infiltraciones en sistemas descentralizados exponen la necesidad de defensas homogéneas.",
+      "Despliegue acelerado de encriptación poscuántica (PQC): Protocolos de blindaje matemático frente a futuros procesadores cuánticos.",
+      "Visión TokenGeekCoin: La soberanía contemporánea se defiende en la capa de red y en la criptografía, no en las fronteras físicas."
+    ],
+    "features": [
+      {
+        "title": "Sistemas bajo asedio: Brechas críticas en transporte y administración digital",
+        "eyebrow": "ANÁLISIS DE VULNERABILIDADES",
+        "facts": "ATAQUES COORDINADOS · EXPLOTACIÓN ZERO-DAY · REDES DESCENTRALIZADAS · PROTOCOLO DE URGENCIA",
+        "image": "/articles/2026-10-26/japon-infraestructura-transporte-digital.jpg",
+        "alt": "Visualización digital de la red de transporte y telecomunicaciones de Tokio bajo alerta de seguridad",
+        "imageCredit": "NISC / Cyber Defense Command",
+        "body": [
+          "Los ataques apuntaron simultáneamente a plataformas de interoperabilidad entre trenes de alta velocidad y servidores tributarios.",
+          "Equipos de respuesta rápida trabajan contrarreloj para aislar clústeres comprometidos y restaurar copias inmutables de seguridad."
+        ]
+      },
+      {
+        "title": "Encriptación poscuántica: El escudo criptográfico de Tokio",
+        "eyebrow": "CRIPTOGRAFÍA AVANZADA",
+        "facts": "ESTÁNDARES NIST · LATTICE CRYPTOGRAPHY · HARVEST NOW DECRYPT LATER · RESISTENCIA CUÁNTICA",
+        "image": "/articles/2026-10-26/encriptacion-poscuantica-escudo-red.jpg",
+        "alt": "Representación conceptual de un escudo cuántico cristalino protegiendo servidores y flujos de datos",
+        "imageCredit": "Tokyo Cyber Institute / TokenGeekCoin",
+        "body": [
+          "Japón acelera la transición hacia esquemas basados en retículos matemáticos multidimensionales inmunes a algoritmos de Shor.",
+          "El objetivo es certificar que ninguna comunicación estatal pueda ser interceptada ni descifrada en las próximas décadas."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "tecnologia/anthropic-openai-demanda-colectiva-uso-codigo-abierto-open-source-sin-atribucion-gpl-mit",
+    "category": "TECNOLOGÍA + IA",
+    "date": "26 OCT 2026",
+    "dateIso": "2026-10-26T08:30:00-03:00",
+    "minutes": 5,
+    "title": "Anthropic y OpenAI enfrentan nueva demanda colectiva por el uso de código de fuente abierta sin atribución",
+    "dek": "Un consorcio internacional de desarrolladores y comunidades open-source ha presentado una acción judicial conjunta en tribunales estadounidenses contra las principales firmas de inteligencia artificial generativa por vulnerar licencias GPL y MIT.",
+    "personalAngle": "El software libre construyó la infraestructura de internet bajo la promesa ética de la atribución y reciprocidad. Si los modelos de IA se apropian de ese esfuerzo comunal para privatizarlo sin dar crédito, el pacto fundacional del código abierto se rompe por completo.",
+    "leadEyebrow": "LEGAL TECH & INTELIGENCIA ARTIFICIAL · BATALLA POR EL OPEN SOURCE",
+    "leadTitle": "Desarrolladores contra los titanes de la IA: Demanda colectiva denuncia la apropiación indebida de licencias de software libre",
+    "image": "/articles/2026-10-26/demanda-open-source-ia-hero.jpg",
+    "imageAlt": "Escena conceptual de sala de audiencias judiciales con códigos abiertos y algoritmos proyectados en pantallas transparentes",
+    "imageCredit": "TokenGeekCoin Legal Tech / Open Source Consortium",
+    "body": [
+      "Un consorcio internacional integrado por destacados mantenedores de software libre, comunidades de desarrolladores independientes y colectivos open-source ha radicado una demanda colectiva de amplio alcance contra OpenAI y Anthropic en tribunales federales de Estados Unidos. La querella sostiene que modelos como Claude 3.7/4 y GPT-4/o1 fueron entrenados sistemáticamente sobre millones de líneas de código bajo licencias GPL, Apache y MIT, omitiendo de forma deliberada los requisitos obligatorios de atribución y preservación de términos de licencia.",
+      "A diferencia de disputas legales previas enfocadas en derechos de autor de escritores o artistas plásticos, este caso toca el corazón de la ingeniería de software mundial: las cláusulas 'copyleft' que exigen que cualquier derivación o distribución de código conserve el reconocimiento original y la misma apertura para la comunidad. Los demandantes demuestran que los asistentes de programación generan bloques de código idénticos a proyectos históricos sin incluir el copyright de sus autores originales.",
+      "Expertos en derecho tecnológico señalan que una eventual sentencia adversa para las empresas de IA podría tener consecuencias sísmicas para la industria: desde indemnizaciones multimillonarias hasta órdenes judiciales que obliguen al reentrenamiento de pesos de los modelos excluyendo repositorios protegidos, o la implementación forzosa de un sistema global de regalías para el código libre.",
+      "Mientras tanto, comunidades en GitHub y GitLab han comenzado a adoptar nuevas licencias anti-IA o 'AI-Restricted', evidenciando una creciente fractura entre los desarrolladores que alimentaron con su talento desinteresado la era del software libre y los gigantes corporativos que hoy monetizan esos conocimientos."
+    ],
+    "bullets": [
+      "Demanda colectiva en tribunales federales: Desarrolladores open-source acusan a Anthropic y OpenAI de vulneración de licencias.",
+      "El núcleo del copyleft en juego: Omisión deliberada de requisitos de atribución en licencias GPL, MIT y Apache.",
+      "Riesgo de reentrenamiento masivo: Posibles órdenes judiciales para retirar código de los datasets de entrenamiento de IA.",
+      "Nueva ola de licencias éticas: Creadores independientes blindan sus proyectos frente al raspado indiscriminado de datos."
+    ],
+    "features": [
+      {
+        "title": "Vulneración sistemática de licencias GPL y MIT",
+        "eyebrow": "ASPECTOS JURÍDICOS",
+        "facts": "LICENCIAS COPYLEFT · OMISIÓN DE COPYRIGHT · CÓDIGO IDENTICO SINTÁCTICO · ACCIÓN COLECTIVA",
+        "image": "/articles/2026-10-26/licencias-codigo-abierto-gpl-mit.jpg",
+        "alt": "Monitores mostrando líneas de código fuente y encabezados de licencias de software libre",
+        "imageCredit": "Free Software Community Archive",
+        "body": [
+          "Los peritajes informáticos presentados evidencian que los modelos reproducen funciones enteras con errores sintácticos idénticos a los del código original.",
+          "Se cuestiona si la doctrina del 'Fair Use' (uso legítimo) puede amparar la extracción de valor comercial sin reciprocidad."
+        ]
+      },
+      {
+        "title": "Impacto en la industria: ¿Hacia un canon o reentrenamiento?",
+        "eyebrow": "CONSECUENCIAS PARA BIG TECH",
+        "facts": "PETABYTES DE DATASETS · MODELOS PESADOS · AUDITORÍAS DE ENTRENAMIENTO · REGALÍAS",
+        "image": "/articles/2026-10-26/cluster-entrenamiento-ia-datos-masivos.jpg",
+        "alt": "Centro de datos de computación masiva para entrenamiento de redes neuronales de IA",
+        "imageCredit": "AI Data Infrastructure Labs",
+        "body": [
+          "Un fallo judicial desfavorable obligaría a purgar miles de terabytes de pesos de red neuronal entrenados con repositorios demandantes.",
+          "Se discute la creación de un estándar de microtransacciones automáticas por inferencia para remunerar a los creadores de software libre."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "hardware/tsmc-acelera-produccion-prueba-nodo-1-4nm-a14-adelanta-intel-samsung",
+    "category": "HARDWARE",
+    "date": "26 OCT 2026",
+    "dateIso": "2026-10-26T09:00:00-03:00",
+    "minutes": 5,
+    "title": "TSMC acelera la producción de prueba del nodo de 1.4 nm (A14) adelantándose a Intel y Samsung",
+    "dek": "TSMC inicia en Taiwán la producción piloto de su nodo A14 de 1.4 nanómetros con fotolitografía High-NA EUV y transistores GAA de segunda generación, logrando un 18% menos de consumo y asegurando los pedidos futuros de Apple y NVIDIA.",
+    "personalAngle": "A medida que la física del silicio se acerca a sus límites cuánticos absolutos, dominar los nodos inferiores a 2nm definirá qué firmas mantendrán el monopolio del supercómputo y los aceleradores de IA en la próxima década.",
+    "leadEyebrow": "SEMICONDUCTORES DE VANGUARDIA · HIGH-NA EUV & SILICIO CUÁNTICO",
+    "leadTitle": "La frontera del 1.4 nm es real: TSMC arranca obleas de prueba A14 y consolida su dominio sobre Intel y Samsung",
+    "image": "/articles/2026-10-26/tsmc-nodo-1-4nm-a14-hero.jpg",
+    "imageAlt": "Ingenieros en sala limpia de semiconductores sosteniendo una oblea de silicio de 1.4 nm con maquinaria High-NA EUV de fondo",
+    "imageCredit": "TSMC Fab Operations / TokenGeekCoin Hardware Desk",
+    "body": [
+      "La carrera mundial por la miniaturización extrema de semiconductores ha dado un salto colosal. Informes de la cadena de suministro en Taiwán confirman que Taiwan Semiconductor Manufacturing Company (TSMC) ha iniciado oficialmente la producción de prueba de su nodo A14 (1.4 nanómetros) en sus avanzadas instalaciones de Fab 20 en Hsinchu, adelantándose a los cronogramas anunciados por sus rivales directos Intel Foundry y Samsung Electronics.",
+      "El nodo A14 introduce innovaciones de ingeniería de vanguardia fundamentales para superar las barreras físicas del efecto túnel cuántico: la adopción comercial de equipos de litografía ultravioleta extrema de alta apertura numérica (High-NA EUV) fabricados por ASML, sumada a transistores Gate-All-Around (GAA) de segunda generación conocidos como NanoFlex, que permiten apilar hasta cuatro nanoláminas de silicio con un control electrostático sin precedentes.",
+      "Las métricas oficiales preliminares revelan un avance sustancial: una reducción en el consumo energético de entre el 15% y el 18% a la misma velocidad de reloj frente al nodo N2 (2nm), o bien una mejora del 10% al 12% en rendimiento puro manteniendo el mismo envelope térmico, con un incremento del 20% en densidad de transistores lógicos por milímetro cuadrado.",
+      "Los dos clientes predilectos de la fundición, Apple y NVIDIA, ya habrían reservado los primeros lotes completos de obleas A14 para sus futuros chips Bionic/M-Series y las arquitecturas de centros de datos de IA que sucederán a Rubin hacia 2027 y 2028, asegurando para TSMC un monopolio casi indiscutido en la cúspide de la computación mundial."
+    ],
+    "bullets": [
+      "Producción piloto del nodo A14 (1.4 nm): TSMC arranca pruebas en Fab 20 de Taiwán por delante de Intel y Samsung.",
+      "Litografía High-NA EUV y GAA NanoFlex: Maquinaria ASML de última generación para moldear silicio a escala atómica.",
+      "Eficiencia energética del 18%: Menor disipación térmica y un 20% más de densidad lógica por milímetro cuadrado.",
+      "Apple y NVIDIA a la cabeza: Reserva confirmada de las primeras obleas para procesadores móviles y superaceleradores de IA."
+    ],
+    "features": [
+      {
+        "title": "Arquitectura High-NA EUV y transistores GAA de 2ª Generación",
+        "eyebrow": "FÍSICA DEL SILICIO",
+        "facts": "0.55 NA ÓPTICA · 1.4 NANÓMETROS · CUATRO NANOSHEETS APILADAS · ASML TWINSCAN EXE",
+        "image": "/articles/2026-10-26/litografia-high-na-euv-laser-tsmc.jpg",
+        "alt": "Haz de láser óptico ultravioleta de alta precisión en equipo de litografía High-NA EUV",
+        "imageCredit": "ASML & TSMC Semiconductor Research",
+        "body": [
+          "La óptica de 0.55 NA permite imprimir patrones de circuitos un 60% más compactos en una sola pasada de exposición.",
+          "Elimina la necesidad de técnicas complejas de exposición múltiple, reduciendo drásticamente los costes de fabricación por oblea."
+        ]
+      },
+      {
+        "title": "Transistores GAA de segunda generación: Control electrostático total",
+        "eyebrow": "NANOTECNOLOGÍA CUÁNTICA",
+        "facts": "PUERTA ENVOLVENTE COMPLETA · NANOSHEETS DE SILICIO · CORRIENTE DE FUGA MÍNIMA · FRECUENCIAS ELEVADAS",
+        "image": "/articles/2026-10-26/transistor-gaa-nanosheet-2da-generacion.jpg",
+        "alt": "Diagrama atómico 3D de transistores GAA con canales de nanoláminas de silicio iluminados",
+        "imageCredit": "IEEE Nanotechnology Council",
+        "body": [
+          "El diseño de compuerta envolvente de cuatro lados suprime casi por completo las corrientes de fuga parásitas a 1.4nm.",
+          "Permite que los chips de teléfonos inteligentes y centros de datos alcancen frecuencias pico más altas sin sobrecalentamiento."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "comics/marvel-comics-anuncia-x-men-age-of-krakoa-reign-of-x-omnibus-recopilatorio-lujo",
+    "category": "CÓMICS + CINE",
+    "date": "26 OCT 2026",
+    "dateIso": "2026-10-26T09:30:00-03:00",
+    "minutes": 5,
+    "title": "Marvel Comics anuncia 'X-Men: Age of Krakoa - Reign of X' en formato recopilatorio masivo tras peticiones de la comunidad",
+    "dek": "Marvel Comics oficializa la publicación de la edición Omnibus de formato de lujo recopilando la revolucionaria era mutante de Krakoa concebida por Jonathan Hickman, mientras crecen los rumores sobre su influencia en el reinicio cinematográfico del MCU.",
+    "personalAngle": "Krakoa transformó a los mutantes de eternas víctimas perseguidas en una superpotencia global con soberanía, tecnología bio-orgánica y diplomacia espacial. Tener esta era dorada preservada en una edición definitiva es un tesoro para cualquier amante de las viñetas.",
+    "leadEyebrow": "MARVEL COMICS COLLECTOR'S VAULT · LA ERA MUTANTE DE KRAKOA",
+    "leadTitle": "El monumento editorial de los mutantes: Marvel lanza el Omnibus definitivo de 'Reign of X' y reaviva el interés por Krakoa",
+    "image": "/articles/2026-10-26/marvel-xmen-krakoa-omnibus-hero.jpg",
+    "imageAlt": "Ilustración épica de cómic con los líderes mutantes sobre acantilados de la isla utópica de Krakoa con portales luminosos",
+    "imageCredit": "Marvel Comics / Jonathan Hickman & Pepe Larraz Vault",
+    "body": [
+      "Marvel Comics ha hecho oficial el lanzamiento editorial más esperado por los fanáticos del noveno arte: 'X-Men: Age of Krakoa - Reign of X Omnibus', un tomo recopilatorio masivo de formato de lujo que reunirá íntegramente la etapa dorada en la que Jonathan Hickman, Pepe Larraz y los mejores talentos de la industria reinventaron la mitología de los Hombres X.",
+      "Tras agotarse con rapidez las tiradas previas en grapas y tomos recopilatorios rústicos, la comunidad global de lectores y coleccionistas había reclamado una edición de archivo histórico con encuadernación cosida en tela, portada con relieves en pan de oro, papel satinado de alto gramaje y material complementario inédito, incluyendo guiones originales, bocetos de diseño botánico y comentarios editoriales de Hickman.",
+      "La etapa de Krakoa no solo marcó un hito de ventas millonario: transformó las bases conceptuales del género superheroico al otorgar a los mutantes una patria bio-orgánica insular, un idioma propio, un consejo de gobierno gobernado por Charles Xavier y Magneto, y un protocolo de resurrección que desafió las leyes de la muerte en el Universo Marvel (Tierra-616).",
+      "El anuncio coincide además con crecientes especulaciones en Hollywood: diversas fuentes del sector cinematográfico sugieren que Kevin Feige y Marvel Studios tomarán elementos clave de la geopolítica y los portales vegetales de Krakoa para el esperado debut de los mutantes en el Universo Cinematográfico de Marvel (MCU)."
+    ],
+    "bullets": [
+      "Edición de lujo Omnibus oficial: Recopilación integral del periodo 'Reign of X' con más de 1.200 páginas de material mutante.",
+      "Material histórico exclusivo: Bocetos originales de Pepe Larraz, notas de desarrollo de Jonathan Hickman y portadas variantes.",
+      "Revolución bio-orgánica y geopolítica: La etapa que redefinió a los X-Men como nación soberana frente al mundo humano.",
+      "Ecos en el Universo Cinematográfico: Crecen las expectativas sobre la influencia de Krakoa en la futura película mutante del MCU."
+    ],
+    "features": [
+      {
+        "title": "Portales bio-orgánicos y soberanía mutante",
+        "eyebrow": "MITOLOGÍA DE KRAKOA",
+        "facts": "ISLA VIVIENTE · RED DE PORTALES GLOBALES · FLORA BIOMÉDICA · DIPLOMACIA INTERGALÁCTICA",
+        "image": "/articles/2026-10-26/portales-bio-organicos-krakoa.jpg",
+        "alt": "Arco monumental de portal bio-orgánico crecido en las costas de Krakoa con energía dorada luminosa",
+        "imageCredit": "Marvel Comics Archive",
+        "body": [
+          "Los portales de Krakoa permitieron a cualquier mutante del planeta escapar de la persecución y llegar instantáneamente a su nación.",
+          "La producción de medicamentos botánicos milagrosos posicionó a Krakoa como la primera potencia diplomática de la Tierra."
+        ]
+      },
+      {
+        "title": "Edición Omnibus de coleccionista: Preservación histórica",
+        "eyebrow": "EDICIÓN DE ARCHIVO",
+        "facts": "TAPA DURA DE LUJO · PAPEL SATINADO 120G · ACABADOS EN ORO · 1200+ PÁGINAS",
+        "image": "/articles/2026-10-26/edicion-omnibus-coleccionista-krakoa.jpg",
+        "alt": "Tomo de lujo Omnibus encuadernado en tapa dura con relieves dorados en escritorio de coleccionista",
+        "imageCredit": "Marvel Publishing Collection",
+        "body": [
+          "Incluye todas las series clave del periodo: X-Men, Marauders, Excalibur, X-Force, Hellions y New Mutants en orden cronológico óptimo.",
+          "Un tomo de referencia diseñado para perdurar como la obra definitiva de la mayor revolución mutante del siglo XXI."
+        ]
+      }
+    ]
+  },
+  {
     "slug": "tecnologia/el-nuevo-imperio-de-3-billones-fusion-secreta-tesla-spacex-revoluciona-ia-orbita",
     "category": "TECNOLOGÍA + IA",
     "date": "23 OCT 2026",

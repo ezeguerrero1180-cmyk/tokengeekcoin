@@ -78,6 +78,78 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/japon-convoca-reunion-ministerial-urgencia-ola-ciberataques-infraestructura-publica-poscuantica</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T08:00:00-03:00</news:publication_date>
+      <news:title>Japón convoca una reunión ministerial de urgencia tras una ola sin precedentes de ciberataques contra su infraestructura pública</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-26/japon-ciberataques-urgencia-hero.jpg</image:loc>
+      <image:title>Sala de situación de emergencia de ciberseguridad en Tokio con analistas y autoridades observando mapas de amenazas globales</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/anthropic-openai-demanda-colectiva-uso-codigo-abierto-open-source-sin-atribucion-gpl-mit</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T08:30:00-03:00</news:publication_date>
+      <news:title>Anthropic y OpenAI enfrentan nueva demanda colectiva por el uso de código de fuente abierta sin atribución</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-26/demanda-open-source-ia-hero.jpg</image:loc>
+      <image:title>Escena conceptual de sala de audiencias judiciales con códigos abiertos y algoritmos proyectados en pantallas transparentes</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/tsmc-acelera-produccion-prueba-nodo-1-4nm-a14-adelanta-intel-samsung</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T09:00:00-03:00</news:publication_date>
+      <news:title>TSMC acelera la producción de prueba del nodo de 1.4 nm (A14) adelantándose a Intel y Samsung</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-26/tsmc-nodo-1-4nm-a14-hero.jpg</image:loc>
+      <image:title>Ingenieros en sala limpia de semiconductores sosteniendo una oblea de silicio de 1.4 nm con maquinaria High-NA EUV de fondo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/comics/marvel-comics-anuncia-x-men-age-of-krakoa-reign-of-x-omnibus-recopilatorio-lujo</loc>
+    <lastmod>2026-10-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-26T09:30:00-03:00</news:publication_date>
+      <news:title>Marvel Comics anuncia &apos;X-Men: Age of Krakoa - Reign of X&apos; en formato recopilatorio masivo tras peticiones de la comunidad</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-26/marvel-xmen-krakoa-omnibus-hero.jpg</image:loc>
+      <image:title>Ilustración épica de cómic con los líderes mutantes sobre acantilados de la isla utópica de Krakoa con portales luminosos</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/tecnologia/el-nuevo-imperio-de-3-billones-fusion-secreta-tesla-spacex-revoluciona-ia-orbita</loc>
     <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>

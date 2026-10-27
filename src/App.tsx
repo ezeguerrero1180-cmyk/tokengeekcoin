@@ -316,14 +316,14 @@ export default function App() {
                 <span className="text-[var(--mg-orange)] animate-pulse">🔥</span> TENDENCIAS:
               </span>
               {[
+                { label: '#GPT61Terra', query: 'OpenAI' },
+                { label: '#iPadMiniOLED', query: 'iPad' },
+                { label: '#NVIDIAMeta', query: 'NVIDIA' },
+                { label: '#Bitcoin79k', query: 'Bitcoin' },
+                { label: '#MinecraftSwitch2', query: 'Minecraft' },
                 { label: '#CyberJapan', query: 'Japón' },
-                { label: '#OpenSourceAI', query: 'Anthropic' },
                 { label: '#TSMC14nm', query: 'TSMC' },
                 { label: '#XMenKrakoa', query: 'Krakoa' },
-                { label: '#PoisonIvyHBO', query: 'Poison Ivy' },
-                { label: '#TeslaSpaceX', query: 'Tesla' },
-                { label: '#GodzillavsMarvel', query: 'Godzilla' },
-                { label: '#NokiaAI', query: 'Nokia' },
               ].map((tag) => (
                 <button
                   key={tag.label}

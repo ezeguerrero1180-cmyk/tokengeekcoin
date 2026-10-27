@@ -22,8 +22,8 @@ export function isTodayArticle(article: Article): boolean {
   const todayPattern = `${now.getDate()} ${MONTHS_ES[now.getMonth()]} ${now.getFullYear()}`;
   if (dateStr.includes(todayPattern)) return true;
 
-  // Match 26 OCT 2026 as current today date
-  if (dateStr.includes('26 OCT 2026') || dateStr.includes('26 DE OCTUBRE')) {
+  // Match 27 OCT 2026 as current today date
+  if (dateStr.includes('27 OCT 2026') || dateStr.includes('27 DE OCTUBRE')) {
     return true;
   }
 
@@ -37,8 +37,8 @@ export function isTodayArticle(article: Article): boolean {
       ) {
         return true;
       }
-      // Also match 2026-10-26 ISO
-      if (article.dateIso.startsWith('2026-10-26')) {
+      // Also match 2026-10-27 ISO
+      if (article.dateIso.startsWith('2026-10-27')) {
         return true;
       }
     } catch {
@@ -53,6 +53,8 @@ export function isYesterdayArticle(article: Article): boolean {
   if (!article) return false;
   const dateStr = (article.date || '').toUpperCase();
   if (dateStr.includes('AYER')) return true;
+  if (dateStr.includes('26 OCT 2026') || dateStr.includes('26 DE OCTUBRE')) return true;
+  if (article.dateIso && article.dateIso.startsWith('2026-10-26')) return true;
   if (dateStr.includes('23 OCT 2026') || dateStr.includes('23 DE OCTUBRE')) return true;
   if (article.dateIso && article.dateIso.startsWith('2026-10-23')) return true;
   if (dateStr.includes('22 OCT 2026') || dateStr.includes('22 DE OCTUBRE')) return true;
@@ -102,10 +104,10 @@ export function parseArticleDate(article: Article): number {
     if (!isNaN(time)) return time;
   }
   if (isTodayArticle(article)) {
-    return new Date('2026-09-25T12:00:00-03:00').getTime();
+    return new Date('2026-10-27T12:00:00-03:00').getTime();
   }
   if (isYesterdayArticle(article)) {
-    return new Date('2026-09-23T12:00:00-03:00').getTime();
+    return new Date('2026-10-26T12:00:00-03:00').getTime();
   }
   // Try fallback parsing
   const parts = (article.date || '').split(' ');

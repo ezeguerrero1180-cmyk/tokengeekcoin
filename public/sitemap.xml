@@ -78,6 +78,96 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/openai-destruye-los-precios-lanzan-gpt-6-1-terra-control-pc-mitad-de-precio</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T08:00:00-03:00</news:publication_date>
+      <news:title>OpenAI destruye los precios: Lanzan GPT-6.1 Terra y ahora los bots van a controlar tu PC por la mitad de precio</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-27/openai-gpt-61-terra-hero.jpg</image:loc>
+      <image:title>Interfaz digital de inteligencia artificial interactuando de forma autónoma con ventanas de software y código en pantalla</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/apple-lanza-nuevo-ipad-mini-pantalla-oled-chip-a20-pro</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T08:15:00-03:00</news:publication_date>
+      <news:title>Apple soltó el bombazo sin avisar: El nuevo iPad mini ya tiene pantalla OLED y chip A20 Pro</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-27/apple-ipad-mini-oled-hero.jpg</image:loc>
+      <image:title>Nuevo iPad mini con pantalla encendida mostrando colores vivos sobre un escritorio de trabajo minimalista</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/tecnologia/nvidia-invierte-3000-millones-dolares-meta-supercomputadores-ia-llama</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T08:30:00-03:00</news:publication_date>
+      <news:title>NVIDIA le mete 3.000 millones de dólares a Meta: El pacto secreto para dominar los supercomputadores de IA</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-27/nvidia-meta-acuerdo-3000m-hero.jpg</image:loc>
+      <image:title>Placa aceleradora gráfica de inteligencia artificial NVIDIA de última generación con circuitos iluminados</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/finanzas-cripto/bitcoin-soporte-79500-dolares-reserva-federal-acumulacion-ballenas</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T08:45:00-03:00</news:publication_date>
+      <news:title>Bitcoin aguanta el tipo en los USD 79.500: Todos esperando el martillazo de la Reserva Federal</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-27/bitcoin-soporte-79500-hero.jpg</image:loc>
+      <image:title>Moneda física dorada de Bitcoin sobre fondo oscuro con gráficos financieros y velas de trading alcistas</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/minecraft-nintendo-switch-2-ray-tracing-nativo-60-fps-vibrant-visuals</loc>
+    <lastmod>2026-10-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-27T09:00:00-03:00</news:publication_date>
+      <news:title>Minecraft en Switch 2 se ve increíble: Ray Tracing nativo y 60 FPS sin que explote la consola</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-27/minecraft-switch-2-ray-tracing-hero.jpg</image:loc>
+      <image:title>Setup de juego con mando y pantalla con efectos de iluminación vívidos y colores RGB intensos</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/tecnologia/japon-convoca-reunion-ministerial-urgencia-ola-ciberataques-infraestructura-publica-poscuantica</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>weekly</changefreq>

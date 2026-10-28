@@ -78,6 +78,96 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://www.tokengeekcoin.com/articulo/hardware/amd-meta-alianza-gigavatios-supercomputadores-ia</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T08:00:00-03:00</news:publication_date>
+      <news:title>AMD y Meta cierran la alianza del siglo: Supercomputadores de IA a escala de gigavatios para destronar a la competencia</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-28/amd-meta-datacenter-hero.jpg</image:loc>
+      <image:title>Centro de datos de supercómputo de alta densidad energética para entrenamiento e inferencia masiva de IA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/binance-lanza-su-propia-ia-trading-analisis-portafolios-alertas</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T08:15:00-03:00</news:publication_date>
+      <news:title>Binance lanza su propia IA de trading: Análisis de portafolios y alertas personalizadas directamente en tu app</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-28/binance-ai-trading-hero.jpg</image:loc>
+      <image:title>Pantalla de trading con gráficos de velas de criptomonedas e interfaz con análisis de inteligencia artificial</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/seguridad/alerta-maxima-malware-yoba-chatgpt-claude-secuestro-computadoras</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T08:30:00-03:00</news:publication_date>
+      <news:title>¡Alerta máxima! El malware &apos;Yoba&apos; usa archivos oficiales de ChatGPT y Claude para secuestrar computadoras</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-28/malware-yoba-seguridad-hero.jpg</image:loc>
+      <image:title>Pantalla con código rojo y advertencias de vulnerabilidad informática y ciberataque activo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/cripto/ripple-coinbase-alianza-expandir-stablecoin-rlusd-mercado</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T08:45:00-03:00</news:publication_date>
+      <news:title>Pacto de gigantes: Ripple y Coinbase se alían para expandir la masa de la stablecoin Ripple USD (RLUSD)</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-28/ripple-coinbase-rlusd-hero.jpg</image:loc>
+      <image:title>Red digital interconectada simbolizando la liquidez de criptomonedas y pagos transfronterizos institucionales</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.tokengeekcoin.com/articulo/gaming/logitech-g-activision-play-for-prestige-hardware-call-of-duty-modern-warfare-4</loc>
+    <lastmod>2026-10-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <news:news>
+      <news:publication>
+        <news:name>TokenGeekCoin</news:name>
+        <news:language>es</news:language>
+      </news:publication>
+      <news:publication_date>2026-10-28T09:00:00-03:00</news:publication_date>
+      <news:title>Logitech G y Activision presentan &apos;Play for Prestige&apos;: El hardware oficial de Call of Duty: Modern Warfare 4</news:title>
+    </news:news>
+    <image:image>
+      <image:loc>https://www.tokengeekcoin.com/articles/2026-10-28/logitech-cod-mw4-perifericos-hero.jpg</image:loc>
+      <image:title>Set de periféricos gamer profesionales con iluminación RGB táctica sobre alfombrilla de competición</image:title>
+    </image:image>
+  </url>
+  <url>
     <loc>https://www.tokengeekcoin.com/articulo/tecnologia/openai-destruye-los-precios-lanzan-gpt-6-1-terra-control-pc-mitad-de-precio</loc>
     <lastmod>2026-10-27</lastmod>
     <changefreq>weekly</changefreq>
